@@ -14,9 +14,21 @@
 
     <header>
       <div class="container">
-        <a id="a-title" href="{{ '/' | relative_url }}">
+        <a id="a-title" href="../index.md">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
+        <center>
+          <table style="height: 21px;" width="100%">
+              <tbody>
+                  <tr>
+                  <td style="width: 33%;"><h3><a href="../index.md"><center>Home</center></a></h4></td>
+                      <td style="width: 33%px;"><h3><a href="../research.md"><center>Research</center></a></h4></td>
+                      <td style="width: 33%px;"><h3><a href="../research.md"><center>Blog</center></a></h4></td>
+                      <td style="width: 33%px;"><h3><a href="../teaching.md"><center>Teaching</center></a></h4></td>
+                  </tr>
+              </tbody>
+          </table>
+        </center>
         <!-- <section id="downloads">
           {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
