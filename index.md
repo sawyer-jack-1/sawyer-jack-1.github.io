@@ -4,4 +4,7 @@
 
 I am a currently Ph.D. student at UC San Diego. \\(\int_a^b f(x)\mathrm{d}x\\).
 
-<a href="test_jsmath.html">Test jsMath</a>
+$$\int_a^b f(x)\mathrm{d}x $$
+\[\int_a^b f(x)\mathrm{d}x\]
+\\[\int_a^b f(x)\mathrm{d}x\\]
+\(\int_a^b f(x)\mathrm{d}x\)
