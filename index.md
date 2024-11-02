@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I am currently a Ph.D. student at [UC San Diego](math.ucsd.edu). 
+I am currently a Ph.D. student at [UC San Diego](https://math.ucsd.edu/). 
 
 I completed my Bachelor's degree at the University of Oklahoma in 2020 and since then I have been here at UCSD. My advisor is [Alex Cloninger](https://sites.google.com/ucsd.edu/alexandercloninger/home).
 
