@@ -12,4 +12,4 @@ I completed my Bachelor's degree at the University of Oklahoma in 2020 and since
 
 ### Recent announcements
 
-* [A blog post](/blog_posts/p001_test.md)
+* [A blog post](/blog_posts/p001_test.html)
