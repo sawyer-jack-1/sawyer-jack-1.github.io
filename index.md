@@ -4,28 +4,8 @@
 
 # Sawyer Jack Robertson
 
-I am a currently Ph.D. student at UC San Diego. .
+I am a currently Ph.D. student at UC San Diego.
 
-{% raw %}
-\\(\int_a^b f(x)\mathrm{d}x\\)
+<!-- \\(\int_a^b f(x)\mathrm{d}x\\)
 
-$$\int_a^b f(x)\mathrm{d}x $$
-
-\[\int_a^b f(x)\mathrm{d}x\]
-
-\\[\int_a^b f(x)\mathrm{d}x\\]
-
-\(\int_a^b f(x)\mathrm{d}x\)
-{% endraw %}
-
-\\(\int_a^b f(x)\mathrm{d}x\\)
-
-$$\int_a^b f(x)\mathrm{d}x $$
-
-\[\int_a^b f(x)\mathrm{d}x\]
-
-\\[\int_a^b f(x)\mathrm{d}x\\]
-
-\(\int_a^b f(x)\mathrm{d}x\)
-
-HERRE
+$$\int_a^b f(x)\mathrm{d}x $$ -->
