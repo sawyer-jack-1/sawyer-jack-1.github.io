@@ -14,5 +14,18 @@ $$\int_a^b f(x)\mathrm{d}x $$
 \\[\int_a^b f(x)\mathrm{d}x\\]
 
 \(\int_a^b f(x)\mathrm{d}x\)
-
 {% endraw %}
+
+\\(\int_a^b f(x)\mathrm{d}x\\)
+
+$$\int_a^b f(x)\mathrm{d}x $$
+
+\[\int_a^b f(x)\mathrm{d}x\]
+
+\\[\int_a^b f(x)\mathrm{d}x\\]
+
+\(\int_a^b f(x)\mathrm{d}x\)
+
+<SCRIPT>
+jsMath.Process(document);
+</SCRIPT>
