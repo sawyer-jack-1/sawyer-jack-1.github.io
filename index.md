@@ -1,5 +1,5 @@
 <script type="text/javascript" id="MathJax-script" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.0/es5/latest?tex-mml-chtml.js">
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
 # Sawyer Jack Robertson
@@ -28,3 +28,4 @@ $$\int_a^b f(x)\mathrm{d}x $$
 
 \(\int_a^b f(x)\mathrm{d}x\)
 
+HERRE
