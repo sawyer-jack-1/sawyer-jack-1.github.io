@@ -1,8 +1,0 @@
-#!/bin/sh
-
-chmod +x bootstrap.sh
-
-set -e
-
-gem install bundler
-bundle install
