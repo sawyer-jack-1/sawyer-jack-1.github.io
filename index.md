@@ -18,6 +18,13 @@ You may find some of my work or follow me at my [Google Scholar page](https://sc
 * [All You Need is Resistance: On the Equivalence of Effective Resistance and Certain Optimal Transport Problems on Graphs](https://arxiv.org/abs/2404.15261), _with_ Z. Wan, A. Cloninger, _In Review._
 * [Random Walks, Conductance, and Resistance for the Connection Graph Laplacian](https://arxiv.org/abs/2308.09690), _with_ A. Cloninger, G. Mishne, A. Oslandsbotn, Z. Wan, Y. Wang. _SIAM J. Matrix Anal. Appl. Vol. 45, No. 3 (2024)._
 
+## Fun beamers
+
+* [Matrix concentration inequalities for random graphs](/assets/beamers/slides_matrix_concentration_2-1.pdf)
+* [Effective Resistance and Optimal Transport](/assets/beamers/slides_all_you_need_is_resistance.pdf)
+* [Minimum cost flows on connection graphs](/assets/beamers/slides_w1_connection_graphs.pdf)
+* [Graph Harnack inequalities](/assets/beamers/harnack_inequality_beamer.pdf)
+
 ### Recent announcements
 
 * [Preprint announcement: 'Matrix Concentration for Random Signed Graphs and Community Recovery in the Signed Stochastic Block Model'](/blog_posts/blog_02.md) // 30 Dec 2024
