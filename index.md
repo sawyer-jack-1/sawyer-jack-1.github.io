@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![Sawyer](/assets/images/sawyer.png)
+<img src="/assets/images/sawyer.png" alt="sawyer_headshot" style="width:300px;">
 
 I am currently a Ph.D. student in the Department of Mathematics at [UC San Diego](https://math.ucsd.edu/) and I am grateful to be advised by [Alex Cloninger](https://sites.google.com/ucsd.edu/alexandercloninger/home).
 
