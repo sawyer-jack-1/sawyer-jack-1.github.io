@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Preprint announcement: "Matrix Concentration for Random Signed Graphs and Community Recovery in the Signed Stochastic Block Model"
+title: "Preprint announcement: 'Matrix Concentration for Random Signed Graphs and Community Recovery in the Signed Stochastic Block Model'"
 date: 30 December 2024
 ---
 
