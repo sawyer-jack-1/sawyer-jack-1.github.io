@@ -2,11 +2,13 @@
 layout: default
 ---
 
-<img src="/assets/images/sawyer.png" alt="sawyer_headshot" style="width:300px;">
+<p align="center">
+    <img src="/assets/images/sawyer.png" alt="sawyer_headshot" style="width:300px;">
+</p>
 
-I am currently a Ph.D. student in the Department of Mathematics at [UC San Diego](https://math.ucsd.edu/) and I am grateful to be advised by [Alex Cloninger](https://sites.google.com/ucsd.edu/alexandercloninger/home).
+I am currently a Ph.D. student in the Department of Mathematics at [UC San Diego](https://math.ucsd.edu/) and I am grateful to be advised by [Alex Cloninger](https://sites.google.com/ucsd.edu/alexandercloninger/home). My research interests are primarily in the computational aspects of spectral graph theory, which include topics such as: effective resistance, signed and connection Laplacians, discrete curvature of graphs, optimal transportation, clustering and community detection methods on graphs, random graphs, and beyond.
 
-You may find some of my work or follow me on my [Google Scholar Page](https://scholar.google.com/citations?user=lGEr_VoAAAAJ&hl=en).
+You may find some of my work or follow me at my [Google Scholar page](https://scholar.google.com/citations?user=lGEr_VoAAAAJ&hl=en). You can also view some of my code snippets at my [GitHub page](https://github.com/sawyer-jack-1) as well.
 
 ### Recent publications and manuscripts
 
