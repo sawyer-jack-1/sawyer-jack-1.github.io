@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Preprint announcement: "On Discrete Curvatures of Trees"]
+title: Preprint announcement: "On Discrete Curvatures of Trees"
 date: 30 December 2024
 ---
 
