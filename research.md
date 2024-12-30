@@ -12,18 +12,26 @@ layout: default
 
 ## Expository work / ArXiv Papers
 
-* Spectral Proof of Szemerédi Regularity with Edge Coloring
-* A Review of Random Walks on Networks
-* Topics in Hilbert Spaces, Spectral Theory, and Harmonic Analysis (view on arXiv)
-* A Contraction Method for Boundary Value Problems on Magnetic Graphs
-* Harnack Inequality for Magnetic Graphs (view on arXiv)
-* Kantorovich Duality and Signature Balance for Generalized Magnetic Graphs
-* Kantorovich Duality and Optimal Transport Problems on Magnetic Graphs (view on arXiv)
-* Spectral and Stochastic Solutions to BVPs on Magnetic Graphs*
+* [Spectral Proof of Szemerédi Regularity with Edge Coloring](/assets/papers/on_szemeredi_regularity.pdf)
+* [A Review of Random Walks on Networks](/assets/papers/random_walks.pdf)
+* [Topics in Hilbert Spaces, Spectral Theory, and Harmonic Analysis](/assets/papers/spectral_theorems.pdf)
+* [A Contraction Method for Boundary Value Problems on Magnetic Graphs](/assets/papers/bvps_contraction.pdf)
+* [Harnack Inequality for Magnetic Graphs](/assets/papers/harnack_inequality.pdf)
+* [Kantorovich Duality and Signature Balance for Generalized Magnetic Graphs](/assets/papers/grl_duality_balance.pdf)
+* [Kantorovich Duality and Optimal Transport Problems on Magnetic Graphs](/assets/papers/magnetic_KD.pdf)
+* * [Poster](/assets/papers/magnetic_OT_poster.pdf)
+* [Spectral and Stochastic Solutions to BVPs on Magnetic Graphs](/assets/papers/magnetic_BVPs.pdf)
+* * [Poster](/assets/papers/Magnetic_BVPs_Poster.pdf)
 
 ## Talks and presentations
 
-* Joint Math Meetings AMS Special Session on Combinatorics and Graph Theory III, (scheduled January 2020)
+* SIAM Discrete Mathematics Meeting, Spokane WA (July 2024)
+* Networks Journal Club, Los Angeles CA (June 2024)
+* Math of Data and Decisions Seminar, Davis CA (June 2024)
+* Joint Math Meetings AMS Special Session on Ricci Curvature of Graphs and Data Science, San Francisco CA (January 2024)
+* Cal-Bridge Fall Conference, Berkeley CA (October 2023)
+* Optimal Transport Summer School, Seattle WA (June 2022)
+* Joint Math Meetings AMS Special Session on Combinatorics and Graph Theory III, Denver CO (January 2020)
 * Talk given at Joint Math Meetings AMS Session on Optics and Electromagnetism, Baltimore MD (January 2019)
 * Presented poster Undergraduate Math Symposium, Chicago IL (November 2018)
 * Talk given at MAA MathFest, Denver CO (August 2018)
