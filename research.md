@@ -2,7 +2,7 @@
 layout: default
 ---
 
-##Publications and manuscripts
+## Publications and manuscripts
 
 * Matrix Concentration for Random Signed Graphs and Community Recovery in the Signed Stochastic Block Model, _In Review._
 * On Discrete Curvatures of Trees, _In Review._
@@ -10,7 +10,7 @@ layout: default
 * [All You Need is Resistance: On the Equivalence of Effective Resistance and Certain Optimal Transport Problems on Graphs](https://arxiv.org/abs/2404.15261), _with_ Z. Wan, A. Cloninger, _In Review._
 * [Random Walks, Conductance, and Resistance for the Connection Graph Laplacian](https://arxiv.org/abs/2308.09690), _with_ A. Cloninger, G. Mishne, A. Oslandsbotn, Z. Wan, Y. Wang. _SIAM J. Matrix Anal. Appl. Vol. 45, No. 3 (2024)._
 
-##Expository work / ArXiv Papers
+## Expository work / ArXiv Papers
 
 * Spectral Proof of Szemerédi Regularity with Edge Coloring
 * A Review of Random Walks on Networks
@@ -21,7 +21,7 @@ layout: default
 * Kantorovich Duality and Optimal Transport Problems on Magnetic Graphs (view on arXiv)
 * Spectral and Stochastic Solutions to BVPs on Magnetic Graphs*
 
-##Talks and presentations
+## Talks and presentations
 
 * Joint Math Meetings AMS Special Session on Combinatorics and Graph Theory III, (scheduled January 2020)
 * Talk given at Joint Math Meetings AMS Session on Optics and Electromagnetism, Baltimore MD (January 2019)
