@@ -4,9 +4,10 @@
 $body-background: $snow !default;
 $body-foreground: $ink-black !default;
 $header: $indigo-dye !default;
-$blockquote-color: $moonstone !default;
+$blockquote-color: $midnight-green !default;
 $blockquote-border: $dove-grey !default;
 $container-max-width: 1000px;
+$links: $office-green !default;
 
 @mixin media-max-width($max-width) {
   @media (max-width: $max-width) {
@@ -244,7 +245,7 @@ hr {
 */
 
 a {
-  color: #63c0f5;
+  color: $links;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 

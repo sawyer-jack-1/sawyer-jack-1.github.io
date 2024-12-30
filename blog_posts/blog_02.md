@@ -2,6 +2,7 @@
 layout: post
 title: "Preprint announcement: 'Matrix Concentration for Random Signed Graphs and Community Recovery in the Signed Stochastic Block Model'"
 date: 30 December 2024
+author: "Sawyer"
 ---
 
 I am excited to announce the release of my preprint "Matrix Concentration for Random Signed Graphs and Community Recovery in the Signed Stochastic Block Model." The abstract is included below. I really enjoyed writing this paper as an opportunity to work with and develop new concentration inequalities for random graphs and their matrix representations. In particular, although I don't mention it in so many words, this paper answers the question: What is the spectral gap of a "nice" signed graph with a random perturbation to its signatures? And the answer is pretty clean, which is surprising. 

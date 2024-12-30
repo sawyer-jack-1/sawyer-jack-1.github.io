@@ -2,6 +2,7 @@
 layout: post
 title: "Preprint announcement: 'On Discrete Curvatures of Trees'"
 date: 30 December 2024
+author: "Sawyer"
 ---
 
 I am excited to announce the release of my preprint "On Discrete Curvatures of Trees." The abstract is included below. This paper chips away at the graph curvature space and brings together some arguments from different areas concerning curvature on trees specifically.
