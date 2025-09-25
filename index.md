@@ -20,10 +20,10 @@ You may find some of my work or follow me at my [Google Scholar page](https://sc
 
 # Fun beamers
 
-* [Matrix concentration inequalities for random graphs](/assets/beamers/slides_matrix_concentration_2-1.pdf)
-* [Effective Resistance and Optimal Transport](/assets/beamers/slides_all_you_need_is_resistance.pdf)
-* [Minimum cost flows on connection graphs](/assets/beamers/slides_w1_connection_graphs.pdf)
-* [Graph Harnack inequalities](/assets/beamers/harnack_inequality_beamer.pdf)
+* [Matrix concentration inequalities for random graphs](/assets/beamers/slides_matrix_concentration_2-1.pdf) DOGSPOT Seminar, UCSD, October 2024
+* [Effective Resistance, Optimal Transport, and Graph-Based SSL](/assets/beamers/slides_resistance_transport.pdf) CODEX Seminar, July 2025
+* [Minimum cost flows on connection graphs](/assets/beamers/slides_w1_connection_graphs.pdf) SIAM Discrete Math, Spokane, WA, July 2024
+* [Graph Harnack inequalities](/assets/beamers/harnack_inequality_beamer.pdf) OU Math Analysis Seminar, Spring 2020
 
 # Recent announcements
 
