@@ -12,12 +12,6 @@ You may find some of my work or follow me at my [Google Scholar page](https://sc
 
 My [curriculum vitae is available here](/assets/cv/SJR_CV_Sept25-2.pdf).
 
-<p align="center">
-    <img src="/assets/images/digits.png" alt="digits" style="height:250px;">&nbsp;&nbsp;&nbsp;
-    <img src="/assets/images/stategraph.png" alt="state" style="height:250px;">&nbsp;&nbsp;&nbsp;
-    <img src="/assets/images/globe.png" alt="globe" style="height:250px;">
-</p>
-
 # Recent publications and manuscripts
 
 * [Stochastically Evolving Graphs via Edit Semigroups](https://arxiv.org/abs/2509.19678), _with_ F. Chung, _In Review._
@@ -42,3 +36,9 @@ My [curriculum vitae is available here](/assets/cv/SJR_CV_Sept25-2.pdf).
 * [Preprint announcement: 'Robust Graph-Based Semi-Supervised Learning via p-Conductances'](/blog_posts/blog_04.md) // 13 February 2025
 * [Preprint announcement: 'Matrix Concentration for Random Signed Graphs and Community Recovery in the Signed Stochastic Block Model'](/blog_posts/blog_02.md) // 30 Dec 2024
 * [Preprint announcement: 'On Discrete Curvatures of Trees'](/blog_posts/blog_01.md) // 30 Dec 2024
+
+<p align="center">
+    <img src="/assets/images/stategraph.png" alt="state" style="height:250px;">&nbsp;&nbsp;&nbsp;
+    <img src="/assets/images/globe.png" alt="globe" style="height:250px;">&nbsp;&nbsp;&nbsp;
+    <img src="/assets/images/digits.png" alt="digits" style="height:250px;">
+</p>
