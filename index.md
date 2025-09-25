@@ -25,7 +25,7 @@ My [curriculum vitae is available here](/assets/cv/SJR_CV_Sept25-2.pdf).
 * [Matrix Concentration for Random Signed Graphs and Community Recovery in the Signed Stochastic Block Model](https://arxiv.org/abs/2412.20620), _In Review._
 * [On Discrete Curvatures of Trees](https://arxiv.org/abs/2412.20661), _In Review._
 * [On a Generalization of Wasserstein Distance and the Beckmann Problem to Connection Graphs](https://arxiv.org/abs/2312.10295), _with_ D. Kohli, A. Cloninger, G. Mishne, _In Review._
-* [All You Need is Resistance: On the Equivalence of Effective Resistance and Certain Optimal Transport Problems on Graphs](https://arxiv.org/abs/2404.15261), _with_ Z. Wan, A. Cloninger, _In Review._
+* [All You Need is Resistance: On the Equivalence of Effective Resistance and Certain Optimal Transport Problems on Graphs](https://arxiv.org/abs/2404.15261), _with_ Z. Wan, A. Cloninger, _To appear, SIAM J. Sci. Comput._
 * [Random Walks, Conductance, and Resistance for the Connection Graph Laplacian](https://arxiv.org/abs/2308.09690), _with_ A. Cloninger, G. Mishne, A. Oslandsbotn, Z. Wan, Y. Wang. _SIAM J. Matrix Anal. Appl. Vol. 45, No. 3 (2024)._
 
 # Fun beamers
