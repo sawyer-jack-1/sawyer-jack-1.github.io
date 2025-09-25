@@ -10,7 +10,7 @@ I am currently a Ph.D. student in the Department of Mathematics at [UC San Diego
 
 You may find some of my work or follow me at my [Google Scholar page](https://scholar.google.com/citations?user=lGEr_VoAAAAJ&hl=en). You can also view some of my code snippets at my [GitHub page](https://github.com/sawyer-jack-1) as well.
 
-My [curriculum vitae is available here](/assets/cv/SJR_CV_Sept25-2.pdf).
+My [curriculum vitae is available here](/assets/cv/SJR_CV_Sept25-2.pdf) (Updated September 2025).
 
 # Recent publications and manuscripts
 
