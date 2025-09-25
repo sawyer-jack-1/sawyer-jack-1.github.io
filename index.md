@@ -12,6 +12,12 @@ You may find some of my work or follow me at my [Google Scholar page](https://sc
 
 My [curriculum vitae is available here](/assets/cv/SJR_CV_Sept25-2.pdf).
 
+<p align="center">
+    <img src="/assets/images/digit_fig_01.pdf" alt="digits" style="width:150px;">
+    <img src="/assets/images/fig5.pdf" alt="state" style="width:150px;">
+    <img src="/assets/images/globe.png" alt="globe" style="width:150px;">
+</p>
+
 # Recent publications and manuscripts
 
 * [Stochastically Evolving Graphs via Edit Semigroups](https://arxiv.org/abs/2509.19678), _with_ F. Chung, _In Review._
@@ -31,7 +37,7 @@ My [curriculum vitae is available here](/assets/cv/SJR_CV_Sept25-2.pdf).
 
 # Recent announcements
 
-* ["Preprint announcement: 'Stochastically Evolving Graphs via Edit Semigroups'](/blog_posts/blog_06.md) // 24 September 2025
+* [Preprint announcement: 'Stochastically Evolving Graphs via Edit Semigroups'](/blog_posts/blog_06.md) // 24 September 2025
 * [Publication announcement: 'On a Generalization of Wasserstein Distance and the Beckmann Problem to Connection Graphs'](/blog_posts/blog_05.md) // 23 June 2025
 * [Preprint announcement: 'Robust Graph-Based Semi-Supervised Learning via p-Conductances'](/blog_posts/blog_04.md) // 13 February 2025
 * [Preprint announcement: 'Matrix Concentration for Random Signed Graphs and Community Recovery in the Signed Stochastic Block Model'](/blog_posts/blog_02.md) // 30 Dec 2024
