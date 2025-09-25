@@ -13,9 +13,9 @@ You may find some of my work or follow me at my [Google Scholar page](https://sc
 My [curriculum vitae is available here](/assets/cv/SJR_CV_Sept25-2.pdf).
 
 <p align="center">
-    <img src="/assets/images/digit_fig_01.pdf" alt="digits" style="width:150px;">
-    <img src="/assets/images/fig5.pdf" alt="state" style="width:150px;">
-    <img src="/assets/images/globe.png" alt="globe" style="width:150px;">
+    <img src="/assets/images/digits.png" alt="digits" style="width:250px;">
+    <img src="/assets/images/stategraph.png" alt="state" style="width:250px;">
+    <img src="/assets/images/globe.png" alt="globe" style="width:250px;">
 </p>
 
 # Recent publications and manuscripts
