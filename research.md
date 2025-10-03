@@ -4,6 +4,7 @@ layout: default
 
 # Publications and manuscripts
 
+* [Robust Tangent Space Estimation via Laplacian Eigenvector Gradient Orthogonalization](https://arxiv.org/abs/2510.02308), _with_ D. Kohli, G. Mishne, A. Cloninger, _In Review._
 * [Stochastically Evolving Graphs via Edit Semigroups](https://arxiv.org/abs/2509.19678), _with_ F. Chung, _In Review._
 * [Robust Graph-Based Semi-Supervised Learning via p-Conductances](https://arxiv.org/abs/2502.08873), _with_ C. Holtz, Z. Wan, G. Mishne, A. Cloninger, _In Review._
 * [Matrix Concentration for Random Signed Graphs and Community Recovery in the Signed Stochastic Block Model](https://arxiv.org/abs/2412.20620), _In Review._
