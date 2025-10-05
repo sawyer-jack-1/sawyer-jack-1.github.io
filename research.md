@@ -15,6 +15,7 @@ layout: default
 
 # Expository work / ArXiv Papers
 
+* ["The" Eigenvalue-based Mixing Time Estimate](assets/papers/the_mixing_time.pdf)
 * [Spectral Proof of Szemerédi Regularity with Edge Coloring](/assets/papers/on_szemeredi_regularity.pdf)
 * [A Review of Random Walks on Networks](/assets/papers/random_walks.pdf)
 * [Topics in Hilbert Spaces, Spectral Theory, and Harmonic Analysis](/assets/papers/spectral_theorems.pdf)
