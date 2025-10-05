@@ -3,7 +3,8 @@ layout: default
 ---
 
 <p align="center">
-    <img src="/assets/images/sawyer.png" alt="sawyer_headshot" style="width:300px;">
+    <img src="/assets/images/IMG_5945.png" alt="sawyer_headshot" style="width:450px;">
+    [Near the Italian side of Mont Blanc](https://en.wikipedia.org/wiki/Mont_Blanc)
 </p>
 
 I am currently a Ph.D. student in the Department of Mathematics at [UC San Diego](https://math.ucsd.edu/) and I am grateful to be advised by [Alex Cloninger](https://sites.google.com/ucsd.edu/alexandercloninger/home). My research interests are primarily in the computational aspects of spectral graph theory, which include topics such as: effective resistance, signed and connection Laplacians, discrete curvature of graphs, optimal transportation, clustering and community detection methods on graphs, random graphs, and beyond.
