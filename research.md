@@ -47,7 +47,9 @@ layout: default
 
 # Fun beamers
 
-* [Matrix concentration inequalities for random graphs](/assets/beamers/slides_matrix_concentration_2-1.pdf)
-* [Effective Resistance and Optimal Transport](/assets/beamers/slides_all_you_need_is_resistance.pdf)
-* [Minimum cost flows on connection graphs](/assets/beamers/slides_w1_connection_graphs.pdf)
-* [Graph Harnack inequalities](/assets/beamers/harnack_inequality_beamer.pdf)
+* [Stochastically Evolving Graphs via Edit Semigroups](/assets/beamers/edit_semigroups.pdf) SIAM PNW Meeting, Seattle, WA, October 2025
+* [Effective Resistance, Optimal Transport, and Graph-Based SSL](/assets/beamers/slides_resistance_transport.pdf) CodEx Seminar, July 2025
+* [Minimum cost flows on connection graphs](/assets/beamers/slides_w1_connection_graphs.pdf) SIAM Discrete Math, Spokane, WA, July 2024
+* [Matrix concentration inequalities for random graphs](/assets/beamers/slides_matrix_concentration_2-1.pdf) DOGSPOT Seminar, UCSD, October 2024
+* [Graph Harnack inequalities](/assets/beamers/harnack_inequality_beamer.pdf) OU Math Analysis Seminar, Spring 2020
+
