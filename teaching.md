@@ -10,7 +10,7 @@ In Summer 2025 I prepared a set of lecture notes for the course [DSC 40A: Theore
 Be warned that these notes are still a work in progress and contain typos and errors.
 
 <p align="center">
-    <a href="assets/teaching/tfds_book.pdf"> <img src="/assets/images/tfds_cover.png" alt="tfds_cover" style="width:150px;"></a>
+    <a href="assets/teaching/tfds_book.pdf"> <img src="/assets/images/tfds_cover.png" alt="tfds_cover" style="width:250px;"></a>
 </p>
 
 # Teaching Evaluations
