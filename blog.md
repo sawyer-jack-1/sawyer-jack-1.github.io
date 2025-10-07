@@ -4,6 +4,7 @@ layout: default
 
 # Sawyer's Blog
 
+* [Preprint announcement: 'Robust Tangent Space Estimation via Laplacian Eigenvector Gradient Orthogonalization'](/blog_posts/blog_007.md) // 2 October 2025
 * [Preprint announcement: 'Stochastically Evolving Graphs via Edit Semigroups'](/blog_posts/blog_06.md) // 24 September 2025
 * [Publication announcement: 'On a Generalization of Wasserstein Distance and the Beckmann Problem to Connection Graphs'](/blog_posts/blog_05.md) // 23 June 2025
 * [Preprint announcement: 'Robust Graph-Based Semi-Supervised Learning via p-Conductances'](/blog_posts/blog_04.md) // 13 February 2025
