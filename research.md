@@ -4,6 +4,7 @@ layout: default
 
 # Publications and manuscripts
 
+* [Discrete Curvatures and Convex Polytopes](https://arxiv.org/abs/2510.11894), _with_ J. A. De Loera, J. Eddy, and J. A. Samper, _Submitted._
 * [Robust Tangent Space Estimation via Laplacian Eigenvector Gradient Orthogonalization](https://arxiv.org/abs/2510.02308), _with_ D. Kohli, G. Mishne, A. Cloninger, _In Review._
 * [Stochastically Evolving Graphs via Edit Semigroups](https://arxiv.org/abs/2509.19678), _with_ F. Chung, _In Review._
 * [Robust Graph-Based Semi-Supervised Learning via p-Conductances](https://arxiv.org/abs/2502.08873), _with_ C. Holtz, Z. Wan, G. Mishne, A. Cloninger, _In Review._

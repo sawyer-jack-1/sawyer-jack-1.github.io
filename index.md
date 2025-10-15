@@ -14,6 +14,7 @@ My [curriculum vitae is available here](/assets/cv/SJR_CV_Sept25-2.pdf) (Updated
 
 # Recent publications and manuscripts
 
+* [Discrete Curvatures and Convex Polytopes](https://arxiv.org/abs/2510.11894), _with_ J. A. De Loera, J. Eddy, and J. A. Samper, _Submitted._
 * [Robust Tangent Space Estimation via Laplacian Eigenvector Gradient Orthogonalization](https://arxiv.org/abs/2510.02308), _with_ D. Kohli, G. Mishne, A. Cloninger, _Submitted._
 * [Stochastically Evolving Graphs via Edit Semigroups](https://arxiv.org/abs/2509.19678), _with_ F. Chung, _Submitted._
 * [Robust Graph-Based Semi-Supervised Learning via p-Conductances](https://arxiv.org/abs/2502.08873), _with_ C. Holtz, Z. Wan, G. Mishne, A. Cloninger.
@@ -33,15 +34,15 @@ My [curriculum vitae is available here](/assets/cv/SJR_CV_Sept25-2.pdf) (Updated
 
 # Recent announcements
 
-
+* [Preprint announcement: 'Discrete Curvatures and Convex Polytopes'](/blog_posts/blog_08.md) // 14 October 2025
 * [Preprint announcement: 'Robust Tangent Space Estimation via Laplacian Eigenvector Gradient Orthogonalization'](/blog_posts/blog_007.md) // 2 October 2025
 * [Preprint announcement: 'Stochastically Evolving Graphs via Edit Semigroups'](/blog_posts/blog_06.md) // 24 September 2025
 * [Publication announcement: 'On a Generalization of Wasserstein Distance and the Beckmann Problem to Connection Graphs'](/blog_posts/blog_05.md) // 23 June 2025
 * [Preprint announcement: 'Robust Graph-Based Semi-Supervised Learning via p-Conductances'](/blog_posts/blog_04.md) // 13 February 2025
-* [Preprint announcement: 'Matrix Concentration for Random Signed Graphs and Community Recovery in the Signed Stochastic Block Model'](/blog_posts/blog_02.md) // 30 Dec 2024
 
 <p align="center">
     <img src="/assets/images/stategraph.png" alt="state" style="height:250px;">&nbsp;&nbsp;&nbsp;
     <img src="/assets/images/globe.png" alt="globe" style="height:250px;">&nbsp;&nbsp;&nbsp;
     <img src="/assets/images/digits.png" alt="digits" style="height:250px;">
+    <img src="/assets/images/polytope_03.png" alt="digits" style="height:250px;">
 </p>
