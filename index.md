@@ -16,7 +16,7 @@ My [curriculum vitae is available here](/assets/cv/SJR_CV_Sept25-2.pdf) (Updated
 
 * [Discrete Curvatures and Convex Polytopes](https://arxiv.org/abs/2510.11894), _with_ J. A. De Loera, J. Eddy, and J. A. Samper, _Submitted._
 * [Robust Tangent Space Estimation via Laplacian Eigenvector Gradient Orthogonalization](https://arxiv.org/abs/2510.02308), _with_ D. Kohli, G. Mishne, A. Cloninger, _Submitted._
-* [Stochastically Evolving Graphs via Edit Semigroups](https://arxiv.org/abs/2509.19678), _with_ F. Chung, _Submitted._
+* [Stochastically Evolving Graphs via Edit Semigroups](https://arxiv.org/abs/2509.19678), _with_ F. Chung, _To appear, Proceedings of the National Academy of Sciences._
 * [Robust Graph-Based Semi-Supervised Learning via p-Conductances](https://arxiv.org/abs/2502.08873), _with_ C. Holtz, Z. Wan, G. Mishne, A. Cloninger.
 * [Matrix Concentration for Random Signed Graphs and Community Recovery in the Signed Stochastic Block Model](https://arxiv.org/abs/2412.20620).
 * [On Discrete Curvatures of Trees](https://arxiv.org/abs/2412.20661), _In Review._
