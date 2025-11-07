@@ -2,6 +2,14 @@
 layout: default
 ---
 
+# Job market
+
+I am on the academic job market for postdoctoral research and teaching positions to begin Fall 2026! Please feel free to take a look at my various application materials below.
+
+* [My research statement](/assets/cv/research_statement_2.pdf)
+* [My teaching statement](/assets/cv/teaching_statement.pdf)
+* [My cirriculum vitae](/assets/cv/cv_5.pdf)
+
 <p align="center">
     <img src="/assets/images/IMG_5945.png" alt="sawyer_headshot" style="width:450px;">
 </p>
@@ -10,7 +18,7 @@ I am currently a Ph.D. student in the Department of Mathematics at [UC San Diego
 
 You may find some of my work or follow me at my [Google Scholar page](https://scholar.google.com/citations?user=lGEr_VoAAAAJ&hl=en). You can also view some of my code snippets at my [GitHub page](https://github.com/sawyer-jack-1) as well.
 
-My [curriculum vitae is available here](/assets/cv/SJR_CV_Sept25-2.pdf) (Updated September 2025).
+My [curriculum vitae is available here](/assets/cv/cv_5.pdf) (Updated November 2025).
 
 # Recent publications and manuscripts
 
