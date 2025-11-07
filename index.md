@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<p align="center">
+    <img src="/assets/images/IMG_5945.png" alt="sawyer_headshot" style="width:450px;">
+</p>
+
 # Job market
 
 I am on the academic job market for postdoctoral research and teaching positions to begin Fall 2026! Please feel free to take a look at my various application materials below.
@@ -10,9 +14,7 @@ I am on the academic job market for postdoctoral research and teaching positions
 * [My teaching statement](/assets/cv/teaching_statement.pdf)
 * [My cirriculum vitae](/assets/cv/cv_5.pdf)
 
-<p align="center">
-    <img src="/assets/images/IMG_5945.png" alt="sawyer_headshot" style="width:450px;">
-</p>
+# About Me
 
 I am currently a Ph.D. student in the Department of Mathematics at [UC San Diego](https://math.ucsd.edu/) and I am grateful to be advised by [Fan Chung](https://fanchung.ucsd.edu/) and [Alex Cloninger](https://sites.google.com/ucsd.edu/alexandercloninger/home). My research interests are primarily in the computational aspects of spectral graph theory, which include topics such as: effective resistance, signed and connection Laplacians, discrete curvature of graphs, optimal transportation, clustering and community detection methods on graphs, random graphs, and beyond.
 
