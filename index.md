@@ -6,7 +6,7 @@ layout: default
     <img src="/assets/images/IMG_5945.png" alt="sawyer_headshot" style="width:450px;">
 </p>
 
-I am currently a Ph.D. student in the Department of Mathematics at [UC San Diego](https://math.ucsd.edu/) and I am grateful to be advised by [Alex Cloninger](https://sites.google.com/ucsd.edu/alexandercloninger/home). My research interests are primarily in the computational aspects of spectral graph theory, which include topics such as: effective resistance, signed and connection Laplacians, discrete curvature of graphs, optimal transportation, clustering and community detection methods on graphs, random graphs, and beyond.
+I am currently a Ph.D. student in the Department of Mathematics at [UC San Diego](https://math.ucsd.edu/) and I am grateful to be advised by [Fan Chung](https://fanchung.ucsd.edu/) and [Alex Cloninger](https://sites.google.com/ucsd.edu/alexandercloninger/home). My research interests are primarily in the computational aspects of spectral graph theory, which include topics such as: effective resistance, signed and connection Laplacians, discrete curvature of graphs, optimal transportation, clustering and community detection methods on graphs, random graphs, and beyond.
 
 You may find some of my work or follow me at my [Google Scholar page](https://scholar.google.com/citations?user=lGEr_VoAAAAJ&hl=en). You can also view some of my code snippets at my [GitHub page](https://github.com/sawyer-jack-1) as well.
 
@@ -14,6 +14,7 @@ My [curriculum vitae is available here](/assets/cv/SJR_CV_Sept25-2.pdf) (Updated
 
 # Recent publications and manuscripts
 
+* [Distance Exceptional Graphs and the Curvature Index](https://arxiv.org/abs/2511.03719), _with_ F. Southerland, E. Surya, _Submitted._
 * [Discrete Curvatures and Convex Polytopes](https://arxiv.org/abs/2510.11894), _with_ J. A. De Loera, J. Eddy, and J. A. Samper, _Submitted._
 * [Robust Tangent Space Estimation via Laplacian Eigenvector Gradient Orthogonalization](https://arxiv.org/abs/2510.02308), _with_ D. Kohli, G. Mishne, A. Cloninger, _Submitted._
 * [Stochastically Evolving Graphs via Edit Semigroups](https://arxiv.org/abs/2509.19678), _with_ F. Chung, _To appear, Proc. Natl. Acad. Sci. USA._
@@ -34,11 +35,11 @@ My [curriculum vitae is available here](/assets/cv/SJR_CV_Sept25-2.pdf) (Updated
 
 # Recent announcements
 
+* [Preprint announcement: 'Distance Exceptional Graphs and the Curvature Index'](/blog_posts/blog_09.md) // 6 November 2025
 * [Preprint announcement: 'Discrete Curvatures and Convex Polytopes'](/blog_posts/blog_08.md) // 14 October 2025
 * [Preprint announcement: 'Robust Tangent Space Estimation via Laplacian Eigenvector Gradient Orthogonalization'](/blog_posts/blog_007.md) // 2 October 2025
 * [Preprint announcement: 'Stochastically Evolving Graphs via Edit Semigroups'](/blog_posts/blog_06.md) // 24 September 2025
 * [Publication announcement: 'On a Generalization of Wasserstein Distance and the Beckmann Problem to Connection Graphs'](/blog_posts/blog_05.md) // 23 June 2025
-* [Preprint announcement: 'Robust Graph-Based Semi-Supervised Learning via p-Conductances'](/blog_posts/blog_04.md) // 13 February 2025
 
 <p align="center">
     <img src="/assets/images/stategraph.png" alt="state" style="height:250px;">&nbsp;&nbsp;&nbsp;

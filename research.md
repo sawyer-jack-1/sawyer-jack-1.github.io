@@ -4,6 +4,7 @@ layout: default
 
 # Recent publications and manuscripts
 
+* [Distance Exceptional Graphs and the Curvature Index](https://arxiv.org/abs/2511.03719), _with_ F. Southerland, E. Surya, _Submitted._
 * [Discrete Curvatures and Convex Polytopes](https://arxiv.org/abs/2510.11894), _with_ J. A. De Loera, J. Eddy, and J. A. Samper, _Submitted._
 * [Robust Tangent Space Estimation via Laplacian Eigenvector Gradient Orthogonalization](https://arxiv.org/abs/2510.02308), _with_ D. Kohli, G. Mishne, A. Cloninger, _Submitted._
 * [Stochastically Evolving Graphs via Edit Semigroups](https://arxiv.org/abs/2509.19678), _with_ F. Chung, _To appear, Proc. Natl. Acad. Sci. USA._

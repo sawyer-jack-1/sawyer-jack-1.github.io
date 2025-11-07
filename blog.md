@@ -4,6 +4,7 @@ layout: default
 
 # Sawyer's Blog
 
+* [Preprint announcement: 'Distance Exceptional Graphs and the Curvature Index'](/blog_posts/blog_09.md) // 6 November 2025
 * [Preprint announcement: 'Discrete Curvatures and Convex Polytopes'](/blog_posts/blog_08.md) // 14 October 2025
 * [Preprint announcement: 'Robust Tangent Space Estimation via Laplacian Eigenvector Gradient Orthogonalization'](/blog_posts/blog_007.md) // 2 October 2025
 * [Preprint announcement: 'Stochastically Evolving Graphs via Edit Semigroups'](/blog_posts/blog_06.md) // 24 September 2025
