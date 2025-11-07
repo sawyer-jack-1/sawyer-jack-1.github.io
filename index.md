@@ -10,9 +10,9 @@ layout: default
 
 I am on the academic job market for postdoctoral research and teaching positions to begin Fall 2026! Please feel free to take a look at my various application materials below.
 
-* [My research statement](/assets/cv/research_statement_2.pdf) "Computational Graph Theory in the Twenty-First Century"
+* [My research statement](/assets/cv/research_statement_2.pdf) _Computational Graph Theory in the Twenty-First Century_
 * [My teaching statement](/assets/cv/teaching_statement.pdf) 
-* [My cirriculum vitae](/assets/cv/cv_5.pdf) (Updated November 2025)
+* [My cirriculum vitae](/assets/cv/cv_5.pdf) _Updated November 2025_
 
 # About Me
 
