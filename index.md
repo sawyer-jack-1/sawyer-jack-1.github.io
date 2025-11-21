@@ -14,6 +14,8 @@ I am on the academic job market for postdoctoral research and teaching positions
 * [My teaching statement](/assets/cv/teaching_statement.pdf) 
 * [My cirriculum vitae](/assets/cv/cv_5.pdf) _Updated November 2025_
 
+Here is [a video of a Zoom talk I delivered](https://www.youtube.com/watch?v=v6cXRG-cgw8) at the CodEx seminar titled "Effective Resistance and Conductance for Probability Measures on Graphs." 
+
 # About Me
 
 I am currently a Ph.D. student in the Department of Mathematics at [UC San Diego](https://math.ucsd.edu/) and I am grateful to be advised by [Fan Chung](https://fanchung.ucsd.edu/) and [Alex Cloninger](https://sites.google.com/ucsd.edu/alexandercloninger/home). My research interests are primarily in the computational aspects of spectral graph theory, which include topics such as: effective resistance, signed and connection Laplacians, discrete curvature of graphs, optimal transportation, clustering and community detection methods on graphs, random graphs, and beyond.
