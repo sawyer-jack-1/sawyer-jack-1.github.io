@@ -6,30 +6,24 @@ layout: default
     <img src="/assets/images/IMG_5945.png" alt="sawyer_headshot" style="width:450px;">
 </p>
 
-# Job market
-
-I am on the academic job market for postdoctoral research and teaching positions to begin Fall 2026! Please feel free to take a look at my various application materials below.
-
-* [My research statement](/assets/cv/research_statement_2.pdf) _Computational Graph Theory in the Twenty-First Century_
-* [My teaching statement](/assets/cv/teaching_statement.pdf) 
-* [My cirriculum vitae](/assets/cv/cv_5.pdf) _Updated November 2025_
-
-Here is [a video of a Zoom talk I delivered](https://www.youtube.com/watch?v=v6cXRG-cgw8) at the CodEx seminar titled "Effective Resistance and Conductance for Probability Measures on Graphs." 
-
 # About Me
 
-I am currently a Ph.D. student in the Department of Mathematics at [UC San Diego](https://math.ucsd.edu/) and I am grateful to be advised by [Fan Chung](https://fanchung.ucsd.edu/) and [Alex Cloninger](https://sites.google.com/ucsd.edu/alexandercloninger/home). My research interests are primarily in the computational aspects of spectral graph theory, which include topics such as: effective resistance, signed and connection Laplacians, discrete curvature of graphs, optimal transportation, clustering and community detection methods on graphs, random graphs, and beyond.
+I am about to finish my Ph.D. in the Department of Mathematics at [UC San Diego](https://math.ucsd.edu/), where I am grateful to be advised by [Fan Chung](https://fanchung.ucsd.edu/) and [Alex Cloninger](https://sites.google.com/ucsd.edu/alexandercloninger/home). For the upcoming 2026 Fall semester I will join the [Simons Institute](https://simons.berkeley.edu/homepage) as a visiting fellow, and then in January I plan to join the [Department of Statistics at Columbia University](https://stat.columbia.edu/) as a term assistant professor.
+
+My research interests are primarily in the realm of computational graph theory, which include topics such as: effective resistance, signed and connection Laplacians, discrete curvature of graphs, optimal transportation, clustering and community detection methods on graphs, random graphs, and beyond.
 
 You may find some of my work or follow me at my [Google Scholar page](https://scholar.google.com/citations?user=lGEr_VoAAAAJ&hl=en). You can also view some of my code snippets at my [GitHub page](https://github.com/sawyer-jack-1) as well.
 
 My [curriculum vitae is available here](/assets/cv/cv_5.pdf) (Updated November 2025).
+
+[My 2025-2026 job market research statement](/assets/cv/research_statement_2.pdf), _Computational Graph Theory in the Twenty-First Century_, is also a great reference to learn a bit more about what I am up to lately.
 
 # Recent publications and manuscripts
 
 * [Distance Exceptional Graphs and the Curvature Index](https://arxiv.org/abs/2511.03719), _with_ F. Southerland, E. Surya, _Submitted._
 * [Discrete Curvatures and Convex Polytopes](https://arxiv.org/abs/2510.11894), _with_ J. A. De Loera, J. Eddy, and J. A. Samper, _Submitted._
 * [Robust Tangent Space Estimation via Laplacian Eigenvector Gradient Orthogonalization](https://arxiv.org/abs/2510.02308), _with_ D. Kohli, G. Mishne, A. Cloninger, _Submitted._
-* [Stochastically Evolving Graphs via Edit Semigroups](https://arxiv.org/abs/2509.19678), _with_ F. Chung, _To appear, Proc. Natl. Acad. Sci. USA._
+* [Stochastically Evolving Graphs via Edit Semigroups](https://arxiv.org/abs/2509.19678), _with_ F. Chung, _Proc. Natl. Acad. Sci. USA. Vol. 122, No. 49 (2025)._
 * [Robust Graph-Based Semi-Supervised Learning via p-Conductances](https://arxiv.org/abs/2502.08873), _with_ C. Holtz, Z. Wan, G. Mishne, A. Cloninger.
 * [Matrix Concentration for Random Signed Graphs and Community Recovery in the Signed Stochastic Block Model](https://arxiv.org/abs/2412.20620).
 * [A Comparative Study of Curvature on Trees](https://arxiv.org/abs/2412.20661), _To appear, Bull. Inst. Combin. Appl.._
