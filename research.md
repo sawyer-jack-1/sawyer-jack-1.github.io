@@ -4,12 +4,12 @@ layout: default
 
 # Recent publications and manuscripts
 
+* [Optimal Transport on Graphs and Stochastically Evolving Trees](https://arxiv.org/abs/2608.14839v1), _with_ F. Chung, _Submitted._
 * [Distance Exceptional Graphs and the Curvature Index](https://arxiv.org/abs/2511.03719), _with_ F. Southerland, E. Surya, _Submitted._
-* [Discrete Curvatures and Convex Polytopes](https://arxiv.org/abs/2510.11894), _with_ J. A. De Loera, J. Eddy, and J. A. Samper, _Submitted._
-* [Robust Tangent Space Estimation via Laplacian Eigenvector Gradient Orthogonalization](https://arxiv.org/abs/2510.02308), _with_ D. Kohli, G. Mishne, A. Cloninger, _Submitted._
-* [Stochastically Evolving Graphs via Edit Semigroups](https://arxiv.org/abs/2509.19678), _with_ F. Chung, _To appear, Proc. Natl. Acad. Sci. USA._
-* [Robust Graph-Based Semi-Supervised Learning via p-Conductances](https://arxiv.org/abs/2502.08873), _with_ C. Holtz, Z. Wan, G. Mishne, A. Cloninger.
-* [Matrix Concentration for Random Signed Graphs and Community Recovery in the Signed Stochastic Block Model](https://arxiv.org/abs/2412.20620).
+* [Discrete Curvatures and Convex Polytopes](https://arxiv.org/abs/2510.11894), _with_ J. A. De Loera, J. Eddy, and J. A. Samper, _To appear, SIAM J. Discrete Math._
+* [Robust Tangent Space Estimation via Laplacian Eigenvector Gradient Orthogonalization](https://arxiv.org/abs/2510.02308), _with_ D. Kohli, G. Mishne, A. Cloninger, _In review._
+* [Stochastically Evolving Graphs via Edit Semigroups](https://arxiv.org/abs/2509.19678), _with_ F. Chung, _Proc. Natl. Acad. Sci. USA. Vol. 122, No. 49 (2025)._
+* [Robust Graph-Based Semi-Supervised Learning via p-Conductances](https://arxiv.org/abs/2502.08873), _with_ C. Holtz, Z. Wan, G. Mishne, A. Cloninger, _In review._
 * [A Comparative Study of Curvature on Trees](https://arxiv.org/abs/2412.20661), _To appear, Bull. Inst. Combin. Appl.._
 * [On a Generalization of Wasserstein Distance and the Beckmann Problem to Connection Graphs](https://arxiv.org/abs/2312.10295), _with_ D. Kohli, A. Cloninger, G. Mishne, _SIAM J. Sci. Comput. Vol. 47, No. 5 (2025)._ 
 * [All You Need is Resistance: On the Equivalence of Effective Resistance and Certain Optimal Transport Problems on Graphs](https://arxiv.org/abs/2404.15261), _with_ Z. Wan, A. Cloninger.
@@ -17,6 +17,7 @@ layout: default
 
 # Expository work / ArXiv Papers
 
+* [Matrix Concentration for Random Signed Graphs and Community Recovery in the Signed Stochastic Block Model](https://arxiv.org/abs/2412.20620).
 * ["The" Eigenvalue-based Mixing Time Estimate](assets/papers/the_mixing_time.pdf)
 * [Spectral Proof of Szemerédi Regularity with Edge Coloring](/assets/papers/on_szemeredi_regularity.pdf)
 * [A Review of Random Walks on Networks](/assets/papers/random_walks.pdf)
