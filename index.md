@@ -8,7 +8,7 @@ layout: default
 
 # About Me
 
-As of Fall 2026, I am a Visitng Fellow at the [Simons Institute for the Theory of Computing](https://simons.berkeley.edu/homepage) at [UC Berkeley](https://www.berkeley.edu/). Beginning in early 2027, I plan to join the [Department of Statistics at Columbia University](https://stat.columbia.edu/) as a term assistant professor. Previously I was a graduate student in the Department of Mathematics at [UC San Diego](https://math.ucsd.edu/), where I was grateful to be advised by [Fan Chung](https://fanchung.ucsd.edu/) and [Alex Cloninger](https://sites.google.com/ucsd.edu/alexandercloninger/home). 
+As of Fall 2026, I am a Simons-Berkeley Research Fellow at the [Simons Institute for the Theory of Computing](https://simons.berkeley.edu/homepage) at [UC Berkeley](https://www.berkeley.edu/). Beginning in early 2027, I plan to join the [Department of Statistics at Columbia University](https://stat.columbia.edu/) as a term assistant professor. Previously I was a graduate student in the Department of Mathematics at [UC San Diego](https://math.ucsd.edu/), where I was grateful to be advised by [Fan Chung](https://fanchung.ucsd.edu/) and [Alex Cloninger](https://sites.google.com/ucsd.edu/alexandercloninger/home). 
 
 My research interests are primarily in the realm of computational graph theory, which include topics such as: effective resistance, signed and connection Laplacians, discrete curvature of graphs, optimal transportation, clustering and community detection methods on graphs, random graphs, and beyond.
 
