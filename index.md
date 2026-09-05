@@ -21,7 +21,7 @@ My [curriculum vitae is available here](/assets/cv/cv_5.pdf) (Updated November 2
 # Recent publications and preprints
 
 * **Optimal Transport on Graphs and Stochastically Evolving Trees.** _Submitted._ <a class="publication-link" href="https://arxiv.org/abs/2608.14839v1" target="_blank" rel="noopener noreferrer">arXiv</a>
-    * with F. Chung
+    &nbsp;&nbsp;&nbsp;&nbsp; with F. Chung
 * **Distance Exceptional Graphs and the Curvature Index.** _Submitted._ <a class="publication-link" href="https://arxiv.org/abs/2511.03719" target="_blank" rel="noopener noreferrer">arXiv</a>
     * with F. Southerland and E. Surya
 * **Discrete Curvatures and Convex Polytopes.** _To appear, SIAM J. Discrete Math._ <a class="publication-link" href="https://arxiv.org/abs/2510.11894" target="_blank" rel="noopener noreferrer">arXiv</a>
