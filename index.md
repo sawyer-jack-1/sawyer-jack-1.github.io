@@ -53,7 +53,7 @@ My [curriculum vitae is available here](/assets/cv/cv_5.pdf) (Updated November 2
         <div class="publication-authors">with D. Kohli, A. Cloninger, and G. Mishne</div>
     </li>
     <li>
-        <div class="publication-details"><span class="publication-title">All You Need is Resistance: On the Equivalence of Effective Resistance and Certain Optimal Transport Problems on Graphs</span>. <span class="publication-links"><a class="publication-link" href="https://arxiv.org/abs/2404.15261" target="_blank" rel="noopener noreferrer">arXiv</a></span></div>
+        <div class="publication-details"><span class="publication-title">Resistance Distance and Linearized Optimal Transport on Graphs</span>. <span class="publication-links"><a class="publication-link" href="https://arxiv.org/abs/2404.15261" target="_blank" rel="noopener noreferrer">arXiv</a></span></div>
         <div class="publication-authors">with Z. Wan and A. Cloninger</div>
     </li>
     <li>
