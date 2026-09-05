@@ -22,44 +22,43 @@ My [curriculum vitae is available here](/assets/cv/cv_5.pdf) (Updated November 2
 
 <ul class="publication-list">
     <li>
-        <div class="publication-details"><span class="publication-title">Optimal Transport on Graphs and Stochastically Evolving Trees</span>, with F. Chung, <em>Submitted.</em></div>
-        <div class="publication-links"><a class="publication-link" href="https://arxiv.org/abs/2608.14839v1" target="_blank" rel="noopener noreferrer">arXiv</a></div>
+        <div class="publication-details"><span class="publication-title">Optimal Transport on Graphs and Stochastically Evolving Trees</span>. <em>Submitted.</em> <span class="publication-links"><a class="publication-link" href="https://arxiv.org/abs/2608.14839v1" target="_blank" rel="noopener noreferrer">arXiv</a></span></div>
+        <div class="publication-authors">with F. Chung</div>
     </li>
     <li>
-        <div class="publication-details"><span class="publication-title">Distance Exceptional Graphs and the Curvature Index</span>, with F. Southerland, E. Surya, <em>Submitted.</em></div>
-        <div class="publication-links"><a class="publication-link" href="https://arxiv.org/abs/2511.03719" target="_blank" rel="noopener noreferrer">arXiv</a></div>
+        <div class="publication-details"><span class="publication-title">Distance Exceptional Graphs and the Curvature Index</span>. <em>Submitted.</em> <span class="publication-links"><a class="publication-link" href="https://arxiv.org/abs/2511.03719" target="_blank" rel="noopener noreferrer">arXiv</a></span></div>
+        <div class="publication-authors">with F. Southerland and E. Surya</div>
     </li>
     <li>
-        <div class="publication-details"><span class="publication-title">Discrete Curvatures and Convex Polytopes</span>, with J. A. De Loera, J. Eddy, and J. A. Samper, <em>To appear, SIAM J. Discrete Math.</em></div>
-        <div class="publication-links"><a class="publication-link" href="https://arxiv.org/abs/2510.11894" target="_blank" rel="noopener noreferrer">arXiv</a></div>
+        <div class="publication-details"><span class="publication-title">Discrete Curvatures and Convex Polytopes</span>. <em>To appear, SIAM J. Discrete Math.</em> <span class="publication-links"><a class="publication-link" href="https://arxiv.org/abs/2510.11894" target="_blank" rel="noopener noreferrer">arXiv</a></span></div>
+        <div class="publication-authors">with J. A. De Loera, J. Eddy, and J. A. Samper</div>
     </li>
     <li>
-        <div class="publication-details"><span class="publication-title">Robust Tangent Space Estimation via Laplacian Eigenvector Gradient Orthogonalization</span>, with D. Kohli, G. Mishne, A. Cloninger, <em>In review.</em></div>
-        <div class="publication-links"><a class="publication-link" href="https://arxiv.org/abs/2510.02308" target="_blank" rel="noopener noreferrer">arXiv</a></div>
+        <div class="publication-details"><span class="publication-title">Robust Tangent Space Estimation via Laplacian Eigenvector Gradient Orthogonalization</span>. <em>In review.</em> <span class="publication-links"><a class="publication-link" href="https://arxiv.org/abs/2510.02308" target="_blank" rel="noopener noreferrer">arXiv</a></span></div>
+        <div class="publication-authors">with D. Kohli, G. Mishne, and A. Cloninger</div>
     </li>
     <li>
-        <div class="publication-details"><span class="publication-title">Stochastically Evolving Graphs via Edit Semigroups</span>, with F. Chung, <em>Proc. Natl. Acad. Sci. USA. Vol. 122, No. 49 (2025).</em></div>
-        <div class="publication-links"><a class="publication-link" href="https://arxiv.org/abs/2509.19678" target="_blank" rel="noopener noreferrer">arXiv</a><a class="publication-link" href="https://www.pnas.org/doi/10.1073/pnas.2526595122" target="_blank" rel="noopener noreferrer">paper</a></div>
+        <div class="publication-details"><span class="publication-title">Stochastically Evolving Graphs via Edit Semigroups</span>. <em>Proc. Natl. Acad. Sci. USA. Vol. 122, No. 49 (2025).</em> <span class="publication-links"><a class="publication-link" href="https://www.pnas.org/doi/10.1073/pnas.2526595122" target="_blank" rel="noopener noreferrer">paper</a><a class="publication-link" href="https://arxiv.org/abs/2509.19678" target="_blank" rel="noopener noreferrer">arXiv</a></span></div>
+        <div class="publication-authors">with F. Chung</div>
     </li>
     <li>
-        <div class="publication-details"><span class="publication-title">Robust Graph-Based Semi-Supervised Learning via p-Conductances</span>, with C. Holtz, Z. Wan, G. Mishne, A. Cloninger, <em>In review.</em></div>
-        <div class="publication-links"><a class="publication-link" href="https://arxiv.org/abs/2502.08873" target="_blank" rel="noopener noreferrer">arXiv</a></div>
+        <div class="publication-details"><span class="publication-title">Robust Graph-Based Semi-Supervised Learning via p-Conductances</span>. <em>In review.</em> <span class="publication-links"><a class="publication-link" href="https://arxiv.org/abs/2502.08873" target="_blank" rel="noopener noreferrer">arXiv</a></span></div>
+        <div class="publication-authors">with C. Holtz, Z. Wan, G. Mishne, and A. Cloninger</div>
     </li>
     <li>
-        <div class="publication-details"><span class="publication-title">A Comparative Study of Curvature on Trees</span>, <em>To appear, Bull. Inst. Combin. Appl.</em></div>
-        <div class="publication-links"><a class="publication-link" href="https://arxiv.org/abs/2412.20661" target="_blank" rel="noopener noreferrer">arXiv</a></div>
+        <div class="publication-details"><span class="publication-title">A Comparative Study of Curvature on Trees</span>. <em>To appear, Bull. Inst. Combin. Appl.</em> <span class="publication-links"><a class="publication-link" href="https://arxiv.org/abs/2412.20661" target="_blank" rel="noopener noreferrer">arXiv</a></span></div>
     </li>
     <li>
-        <div class="publication-details"><span class="publication-title">On a Generalization of Wasserstein Distance and the Beckmann Problem to Connection Graphs</span>, with D. Kohli, A. Cloninger, G. Mishne, <em>SIAM J. Sci. Comput. Vol. 47, No. 5 (2025).</em></div>
-        <div class="publication-links"><a class="publication-link" href="https://arxiv.org/abs/2312.10295" target="_blank" rel="noopener noreferrer">arXiv</a><a class="publication-link" href="https://epubs.siam.org/doi/10.1137/23M1624828" target="_blank" rel="noopener noreferrer">paper</a></div>
+        <div class="publication-details"><span class="publication-title">On a Generalization of Wasserstein Distance and the Beckmann Problem to Connection Graphs</span>. <em>SIAM J. Sci. Comput. Vol. 47, No. 5 (2025).</em> <span class="publication-links"><a class="publication-link" href="https://epubs.siam.org/doi/10.1137/23M1624828" target="_blank" rel="noopener noreferrer">paper</a><a class="publication-link" href="https://arxiv.org/abs/2312.10295" target="_blank" rel="noopener noreferrer">arXiv</a></span></div>
+        <div class="publication-authors">with D. Kohli, A. Cloninger, and G. Mishne</div>
     </li>
     <li>
-        <div class="publication-details"><span class="publication-title">All You Need is Resistance: On the Equivalence of Effective Resistance and Certain Optimal Transport Problems on Graphs</span>, with Z. Wan, A. Cloninger.</div>
-        <div class="publication-links"><a class="publication-link" href="https://arxiv.org/abs/2404.15261" target="_blank" rel="noopener noreferrer">arXiv</a></div>
+        <div class="publication-details"><span class="publication-title">All You Need is Resistance: On the Equivalence of Effective Resistance and Certain Optimal Transport Problems on Graphs</span>. <span class="publication-links"><a class="publication-link" href="https://arxiv.org/abs/2404.15261" target="_blank" rel="noopener noreferrer">arXiv</a></span></div>
+        <div class="publication-authors">with Z. Wan and A. Cloninger</div>
     </li>
     <li>
-        <div class="publication-details"><span class="publication-title">Random Walks, Conductance, and Resistance for the Connection Graph Laplacian</span>, with A. Cloninger, G. Mishne, A. Oslandsbotn, Z. Wan, Y. Wang. <em>SIAM J. Matrix Anal. Appl. Vol. 45, No. 3 (2024).</em></div>
-        <div class="publication-links"><a class="publication-link" href="https://arxiv.org/abs/2308.09690" target="_blank" rel="noopener noreferrer">arXiv</a><a class="publication-link" href="https://epubs.siam.org/doi/10.1137/23M1595400" target="_blank" rel="noopener noreferrer">paper</a></div>
+        <div class="publication-details"><span class="publication-title">Random Walks, Conductance, and Resistance for the Connection Graph Laplacian</span>. <em>SIAM J. Matrix Anal. Appl. Vol. 45, No. 3 (2024).</em> <span class="publication-links"><a class="publication-link" href="https://epubs.siam.org/doi/10.1137/23M1595400" target="_blank" rel="noopener noreferrer">paper</a><a class="publication-link" href="https://arxiv.org/abs/2308.09690" target="_blank" rel="noopener noreferrer">arXiv</a></span></div>
+        <div class="publication-authors">with A. Cloninger, G. Mishne, A. Oslandsbotn, Z. Wan, and Y. Wang</div>
     </li>
 </ul>
 

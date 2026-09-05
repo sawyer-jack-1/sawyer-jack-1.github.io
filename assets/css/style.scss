@@ -10,37 +10,39 @@
 }
 
 .publication-list li {
-	align-items: center;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-	display: flex;
-	gap: 1rem;
-	justify-content: space-between;
 	padding: 0.75rem 0;
 }
 
 .publication-details {
-	flex: 1 1 auto;
+	line-height: 1.75;
 }
 
 .publication-title {
 	font-weight: 600;
 }
 
+.publication-authors {
+	margin-left: 1.5rem;
+}
+
 .publication-links {
-	display: flex;
-	flex: 0 0 auto;
-	flex-wrap: wrap;
-	gap: 0.4rem;
+	display: inline-flex;
+	gap: 0.35rem;
+	margin-left: 0.25rem;
+	vertical-align: middle;
 }
 
 .publication-link {
-	border: 1px solid #b5e853;
-	border-radius: 2px;
+	background: #30363d;
+	border: 1px solid #6e7681;
+	border-radius: 4px;
+	color: #f0f6fc;
 	display: inline-block;
 	font-size: 0.8rem;
 	letter-spacing: 0.03em;
 	line-height: 1;
-	padding: 0.35rem 0.5rem;
+	padding: 0.35rem 0.55rem;
 	text-decoration: none;
 }
 
@@ -51,10 +53,8 @@
 	text-decoration: none;
 }
 
-@media (max-width: 600px) {
-	.publication-list li {
-		align-items: flex-start;
-		flex-direction: column;
-		gap: 0.6rem;
-	}
+.publication-link:focus-visible {
+	outline: 2px solid #f0f6fc;
+	outline-offset: 2px;
 }
+
