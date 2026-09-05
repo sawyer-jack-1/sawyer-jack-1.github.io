@@ -20,25 +20,20 @@ My [curriculum vitae is available here](/assets/cv/cv_5.pdf) (Updated November 2
 
 # Recent publications and preprints
 
-* **Optimal Transport on Graphs and Stochastically Evolving Trees.** _Submitted._ <a class="publication-link" href="https://arxiv.org/abs/2608.14839v1" target="_blank" rel="noopener noreferrer">arXiv</a>
-    &nbsp;&nbsp;&nbsp;&nbsp; with F. Chung
-* **Distance Exceptional Graphs and the Curvature Index.** _Submitted._ <a class="publication-link" href="https://arxiv.org/abs/2511.03719" target="_blank" rel="noopener noreferrer">arXiv</a>
-    * with F. Southerland and E. Surya
+* **Optimal Transport on Graphs and Stochastically Evolving Trees.** <a class="publication-link" href="https://arxiv.org/abs/2608.14839v1" target="_blank" rel="noopener noreferrer">arXiv</a><br><span class="publication-authors">with F. Chung</span>
+* **Distance Exceptional Graphs and the Curvature Index.** <a class="publication-link" href="https://arxiv.org/abs/2511.03719" target="_blank" rel="noopener noreferrer">arXiv</a><br><span class="publication-authors">with F. Southerland and E. Surya</span>
 * **Discrete Curvatures and Convex Polytopes.** _To appear, SIAM J. Discrete Math._ <a class="publication-link" href="https://arxiv.org/abs/2510.11894" target="_blank" rel="noopener noreferrer">arXiv</a>
-    * with J. A. De Loera, J. Eddy, and J. A. Samper
-* **Robust Tangent Space Estimation via Laplacian Eigenvector Gradient Orthogonalization.** _In review._ <a class="publication-link" href="https://arxiv.org/abs/2510.02308" target="_blank" rel="noopener noreferrer">arXiv</a>
-    * with D. Kohli, G. Mishne, and A. Cloninger
+  <br><span class="publication-authors">with J. A. De Loera, J. Eddy, and J. A. Samper</span>
+* **Robust Tangent Space Estimation via Laplacian Eigenvector Gradient Orthogonalization.** <a class="publication-link" href="https://arxiv.org/abs/2510.02308" target="_blank" rel="noopener noreferrer">arXiv</a><br><span class="publication-authors">with D. Kohli, G. Mishne, and A. Cloninger</span>
 * **Stochastically Evolving Graphs via Edit Semigroups.** _Proc. Natl. Acad. Sci. USA. Vol. 122, No. 49 (2025)._ <a class="publication-link" href="https://www.pnas.org/doi/10.1073/pnas.2526595122" target="_blank" rel="noopener noreferrer">paper</a><a class="publication-link" href="https://arxiv.org/abs/2509.19678" target="_blank" rel="noopener noreferrer">arXiv</a>
-    * with F. Chung
-* **Robust Graph-Based Semi-Supervised Learning via p-Conductances.** _In review._ <a class="publication-link" href="https://arxiv.org/abs/2502.08873" target="_blank" rel="noopener noreferrer">arXiv</a>
-    * with C. Holtz, Z. Wan, G. Mishne, and A. Cloninger
+  <br><span class="publication-authors">with F. Chung</span>
+* **Robust Graph-Based Semi-Supervised Learning via p-Conductances.** <a class="publication-link" href="https://arxiv.org/abs/2502.08873" target="_blank" rel="noopener noreferrer">arXiv</a><br><span class="publication-authors">with C. Holtz, Z. Wan, G. Mishne, and A. Cloninger</span>
 * **A Comparative Study of Curvature on Trees.** _To appear, Bull. Inst. Combin. Appl._ <a class="publication-link" href="https://arxiv.org/abs/2412.20661" target="_blank" rel="noopener noreferrer">arXiv</a>
 * **On a Generalization of Wasserstein Distance and the Beckmann Problem to Connection Graphs.** _SIAM J. Sci. Comput. Vol. 47, No. 5 (2025)._ <a class="publication-link" href="https://epubs.siam.org/doi/10.1137/23M1624828" target="_blank" rel="noopener noreferrer">paper</a><a class="publication-link" href="https://arxiv.org/abs/2312.10295" target="_blank" rel="noopener noreferrer">arXiv</a>
-    * with D. Kohli, A. Cloninger, and G. Mishne
-* **Resistance Distance and Linearized Optimal Transport on Graphs.** <a class="publication-link" href="https://arxiv.org/abs/2404.15261" target="_blank" rel="noopener noreferrer">arXiv</a>
-    * with Z. Wan and A. Cloninger
+  <br><span class="publication-authors">with D. Kohli, A. Cloninger, and G. Mishne</span>
+* **Resistance Distance and Linearized Optimal Transport on Graphs.** <a class="publication-link" href="https://arxiv.org/abs/2404.15261" target="_blank" rel="noopener noreferrer">arXiv</a><br><span class="publication-authors">with Z. Wan and A. Cloninger</span>
 * **Random Walks, Conductance, and Resistance for the Connection Graph Laplacian.** _SIAM J. Matrix Anal. Appl. Vol. 45, No. 3 (2024)._ <a class="publication-link" href="https://epubs.siam.org/doi/10.1137/23M1595400" target="_blank" rel="noopener noreferrer">paper</a><a class="publication-link" href="https://arxiv.org/abs/2308.09690" target="_blank" rel="noopener noreferrer">arXiv</a>
-    * with A. Cloninger, G. Mishne, A. Oslandsbotn, Z. Wan, and Y. Wang
+  <br><span class="publication-authors">with A. Cloninger, G. Mishne, A. Oslandsbotn, Z. Wan, and Y. Wang</span>
 
 # Fun beamers
 
