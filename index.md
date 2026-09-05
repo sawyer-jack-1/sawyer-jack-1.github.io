@@ -3,7 +3,7 @@ layout: default
 ---
 
 <p align="center">
-    <img src="/assets/images/sawyer_aug26.jpg" alt="sawyer_headshot" style="width:450px;">
+    <img src="/assets/images/sawyer_aug26.jpeg" alt="sawyer_headshot" style="width:450px;">
   <br>
   <em>Finishing the <a href="https://en.wikipedia.org/wiki/John_Muir_Trail">John Muir Trail</a>, Aug 2026</em>
 </p>
