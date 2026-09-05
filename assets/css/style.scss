@@ -6,12 +6,12 @@
 .publication-list {
 	list-style: none;
 	margin: 0;
-	padding: 0;
 }
 
 .publication-list li {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-	padding: 0.75rem 0;
+	list-style: none;
+	padding: 0;
 }
 
 .publication-details {
@@ -27,10 +27,11 @@
 }
 
 .publication-links {
-	display: inline-flex;
-	gap: 0.35rem;
 	margin-left: 0.25rem;
-	vertical-align: middle;
+}
+
+.publication-link + .publication-link {
+	margin-left: 0.35rem;
 }
 
 .publication-link {
