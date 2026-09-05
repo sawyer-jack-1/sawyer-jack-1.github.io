@@ -3,33 +3,6 @@
 
 @import 'jekyll-theme-hacker';
 
-.publication-list {
-	list-style: none;
-	margin: 0;
-}
-
-.publication-list li {
-	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-	list-style: none;
-	padding: 0;
-}
-
-.publication-details {
-	line-height: 1.75;
-}
-
-.publication-title {
-	font-weight: 600;
-}
-
-.publication-authors {
-	margin-left: 1.5rem;
-}
-
-.publication-links {
-	margin-left: 0.25rem;
-}
-
 .publication-link + .publication-link {
 	margin-left: 0.35rem;
 }
