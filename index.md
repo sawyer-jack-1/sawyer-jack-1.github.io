@@ -3,7 +3,7 @@ layout: default
 ---
 
 <p align="center">
-    <img src="/assets/images/IMG_5945.png" alt="sawyer_headshot" style="width:450px;">
+    <img src="/assets/images/sawyer_aug26.jpg" alt="sawyer_headshot" style="width:450px;">
 </p>
 
 # About Me
