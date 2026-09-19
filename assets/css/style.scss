@@ -3,6 +3,29 @@
 
 @import 'jekyll-theme-hacker';
 
+/* Site header ------------------------------------------------------------- */
+
+header .container {
+	text-align: center;
+}
+
+header h1 {
+	margin-left: 0;
+}
+
+.site-nav {
+	display: grid;
+	grid-template-columns: repeat(5, minmax(0, 1fr));
+	align-items: center;
+	width: 100%;
+}
+
+.site-nav a {
+	font-size: 1.125rem;
+	line-height: 1.5;
+	text-align: center;
+}
+
 .publication-authors {
 	margin-left: 1.5rem;
 }
@@ -271,7 +294,7 @@
 		font-size: 1.2rem !important;
 	}
 
-	header table h3 {
-		font-size: 0.9rem !important;
+	.site-nav a {
+		font-size: clamp(0.75rem, 3.5vw, 0.9rem);
 	}
 }

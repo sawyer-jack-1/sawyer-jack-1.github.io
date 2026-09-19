@@ -14,22 +14,16 @@
 
     <header>
       <div class="container">
-        <center>
-        <a id="a-title" href="../index.md">
+        <a id="a-title" href="{{ '/' | relative_url }}">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
-          <table style="height: 21px;" width="100%">
-              <tbody>
-                  <tr>
-                  <td style="width: 20%;"><h3><a href="{{ '/' | relative_url }}"><center>Home</center></a></h3></td>
-                  <td style="width: 20%;"><h3><a href="{{ '/research.html' | relative_url }}"><center>Research</center></a></h3></td>
-                  <td style="width: 20%;"><h3><a href="{{ '/blog.html' | relative_url }}"><center>Blog</center></a></h3></td>
-                  <td style="width: 20%;"><h3><a href="{{ '/teaching.html' | relative_url }}"><center>Teaching</center></a></h3></td>
-                  <td style="width: 20%;"><h3><a href="{{ '/sawyertron.html' | relative_url }}"><center>SawyerTRON</center></a></h3></td>
-                  </tr>
-              </tbody>
-          </table>
-        </center>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/research.html' | relative_url }}">Research</a>
+          <a href="{{ '/blog.html' | relative_url }}">Blog</a>
+          <a href="{{ '/teaching.html' | relative_url }}">Teaching</a>
+          <a href="{{ '/sawyertron.html' | relative_url }}">SawyerTRON</a>
+        </nav>
         <!-- <section id="downloads">
           {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
