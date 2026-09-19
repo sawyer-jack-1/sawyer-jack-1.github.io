@@ -222,6 +222,11 @@ header h1 {
 	text-decoration-color: currentColor;
 }
 
+/* Also suppress keyword rows produced by an older cached script. */
+.paper-tags {
+	display: none;
+}
+
 .paper-abstract-row {
 	display: flex;
 	gap: 0.4rem;
