@@ -144,9 +144,20 @@ def score_paper(paper: dict[str, Any], config: dict[str, Any]) -> tuple[float, l
                 score += weight * float(ranking["abstract_match_multiplier"])
                 tags.append(phrase)
 
-    author_names = {normalized(name) for name in config.get("authors", {}).get("names", [])}
-    if any(normalized(author) in author_names for author in paper["authors"]):
-        score += float(config["authors"]["weight"])
+    author_config = config.get("authors", {})
+    # Accept the original single-group shape as well as named groups. When a
+    # person belongs to multiple groups, membership should not compound.
+    groups = [author_config] if "names" in author_config else author_config.values()
+    matching_weights = []
+    paper_authors = {normalized(author) for author in paper["authors"]}
+    for group in groups:
+        if not isinstance(group, dict) or "names" not in group:
+            continue
+        configured_names = {normalized(name) for name in group.get("names", [])}
+        if paper_authors & configured_names:
+            matching_weights.append(float(group["weight"]))
+    if matching_weights:
+        score += max(matching_weights)
 
     # Tags are literal configured phrases that actually occur in the title or abstract.
     return score, list(dict.fromkeys(tags))[:4]

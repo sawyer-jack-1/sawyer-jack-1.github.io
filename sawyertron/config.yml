@@ -35,7 +35,7 @@ collection:
 ranking:
   # A paper must reach at least this internal score to appear. Raising it gives
   # a shorter, more selective digest; lowering it gives broader coverage.
-  minimum_score: 3.0
+  minimum_score: 4.0
 
   # Safety cap after ranking, applied separately to each calendar day.
   maximum_papers_per_day: 40
@@ -62,6 +62,9 @@ topics:
       - normalized Laplacian
       - Laplacian eigenvalue
       - Laplacian eigenvector
+      - Laplacian matrix
+      - adjacency matrix
+      - signless Laplacian
 
   effective_resistance:
     weight: 10
@@ -71,6 +74,10 @@ topics:
       - electrical network
       - commute time
       - Dirichlet energy
+      - random walk
+      - simple random walk
+      - Kirchoff index
+      - Kemeney constant
 
   optimal_transport:
     weight: 9
@@ -90,6 +97,8 @@ topics:
       - Ricci curvature
       - Bakry-Émery curvature
       - curvature dimension
+      - Steinerberger curvature
+      - resistance curvature
 
   random_graphs:
     weight: 8
@@ -99,6 +108,9 @@ topics:
       - graph concentration
       - matrix concentration
       - random matrix
+      - edge-independent
+      - edge-dependent
+      - spanning tree
 
   spectral_graph_theory:
     weight: 8
@@ -133,27 +145,187 @@ topics:
   combinatorics:
     weight: 5
     phrases:
-      - extremal combinatorics
-      - algebraic combinatorics
       - probabilistic combinatorics
-      - graph polynomial
       - convex polytope
       - matroid
 
 authors:
-  # Added when an arXiv author name exactly matches one below. Matching is
-  # case-insensitive. Add or remove full names freely.
-  weight: 12
-  names:
-    - Fan Chung
-    - Alexander Cloninger
-    - Gal Mishne
-    - Zhengchao Wan
-    - Dhruv Kohli
-    - Chester Holtz
-    - Finn Southerland
-    - Erlang Surya
-    - Jesús A. De Loera
+  # Author groups may have different priorities. An arXiv author name must
+  # match a listed name exactly, ignoring capitalization. If someone occurs in
+  # several groups, only the highest matching weight is used.
+  personal:
+    weight: 12
+    names:
+      - Fan Chung
+      - Alexander Cloninger
+      - Gal Mishne
+      - Zhengchao Wan
+      - Dhruv Kohli
+      - Chester Holtz
+      - Finn Southerland
+      - Erlang Surya
+      - Jesús A. De Loera
+
+  spectral_theory_beyond_graphs:
+    # Source: https://simons.berkeley.edu/programs/spectral-theory-beyond-graphs
+    weight: 6
+    names:
+      - Nalini Anantharaman
+      - Charles Bordenave
+      - Lap Chi Lau
+      - Sidhanth Mohanty
+      - Doron Puder
+      - Nikhil Srivastava
+      - Aida Abiad
+      - Omar Alrabiah
+      - Niba Audrey Nirmal
+      - Richard Bamler
+      - Nikhil Bansal
+      - Gregory Berkolaiko
+      - Claire Burrin
+      - Pietro Caputo
+      - Gil Cohen
+      - Nicholas Cook
+      - Sean Eberhard
+      - Joel Friedman
+      - Shirshendu Ganguly
+      - Reza Gheissari
+      - Olga Holtz
+      - Jiaoyang Huang
+      - Svetlana Jitomirskaya
+      - Ravi Kannan
+      - Martin Kassabov
+      - Alexandra Kolla
+      - Pravesh Kothari
+      - Peter Kuchment
+      - Srivatsav Kunnawalkam Elayavalli
+      - Xianzhe Li
+      - Nati Linial
+      - Kuikui Liu
+      - Shiping Liu
+      - Wencai Liu
+      - Vladimir Mandelshtam
+      - Asaf Nachmias
+      - Tatiana Nagnibeda
+      - Hari Narayanan
+      - Shayan Oveis Gharan
+      - Bram Petri
+      - Satish Rao
+      - Mostafa Sabri
+      - Eugenia Sapir
+      - Tselil Schramm
+      - Alistair Sinclair
+      - Makrand Sinha
+      - Joe Thomas
+      - Salil Vadhan
+      - Dan-Virgil Voiculescu
+      - Yizhe Zhu
+      - Maciej Zworski
+      - Tanya Brailovskaya
+      - Matthew Faust
+      - Chris Jones
+      - Bharatram Rangarajan
+      - Sawyer Robertson
+      - Tom Stoiber
+      - Rachel Zhang
+      - Yibin Zhao
+      - Joao Basso
+      - Cecilia Chen
+      - Xiaoyu Chen
+      - Alireza Haqi
+      - Jake Hofgard
+      - Letizia Issini
+      - Zack Jorquera
+      - Nicholas Kocurek
+      - Yunbum Kook
+      - Aren Martinian
+      - Petar Nizic-Nikolac
+      - Jenna Caroline Plute
+      - Louie Putterman
+      - Seyoon Ragavan
+      - Amit Rajaraman
+      - Jake Ruotolo
+      - Liyang Shao
+      - Nick Sieger
+      - Dante Tjowasi
+      - Georgii Veprev
+      - Robert Wang
+      - Stuart Wayland
+      - Jiyu Zhang
+      - Chiyu Zhou
+
+  prhdx:
+    # Source: https://simons.berkeley.edu/programs/pseudorandomness-high-dimensional-expansion
+    weight: 1
+    names:
+      - Irit Dinur
+      - Prahladh Harsha
+      - Avishay Tal
+      - Salil Vadhan
+      - David Zuckerman
+      - Divesh Aggarwal
+      - Niba Audrey Nirmal
+      - Mitali Bafna
+      - Eshan Chattopadhyay
+      - Lijie Chen
+      - Gil Cohen
+      - David Conlon
+      - Dean Doron
+      - Zeyu Guo
+      - Venkatesan Guruswami
+      - Max Hopkins
+      - Kaave Hosseini
+      - Tali Kaufman
+      - Gábor Kun
+      - Jonathan Leake
+      - Chin Ho Lee
+      - Xin Li
+      - Noam Lifshitz
+      - Dor Minzer
+      - Tushant Mittal
+      - Dana Moshkovitz
+      - Izhar Oppenheim
+      - Toni Pitassi
+      - Omer Reingold
+      - Noga Ron-Zewi
+      - Ramprasad Saptharishi
+      - Ronen Shaltiel
+      - Amnon Ta-Shma
+      - Roei Tell
+      - Madhur Tulsiani
+      - Emanuele Viola
+      - Jesse Goodman
+      - Zander Kelley
+      - Vinayak Kumar
+      - Siqi Liu
+      - Inga Valentiner-Branth
+      - Rachel Zhang
+      - Zihan Zhang
+      - Kai Zheng
+      - Víctor Hugo Almendra Hernández
+      - Debjany Ghosh Aronno
+      - Zoe Bell
+      - Gautam Chandrasekaran
+      - Soham Chatterjee
+      - Heda Chen
+      - Itay Cohen
+      - Louis Golowich
+      - Mohit Jayanti Gurumukhani
+      - Nicholas Kocurek
+      - Geoffrey Mon
+      - Justin Oh
+      - Keming Ouyang
+      - Ted Pyne
+      - Seyoon Ragavan
+      - Omshi Samal
+      - Ohad Sheinfeld
+      - Mao Songtao
+      - Dor Taitler
+      - Paul Vollrath
+      - Yichuan Wang
+      - Jiarong Wu
+      - Zhiyang Xun
+      - Yan Zhong
 
 negative_phrases:
   # If any of these case-insensitive literal phrases occurs in the title or

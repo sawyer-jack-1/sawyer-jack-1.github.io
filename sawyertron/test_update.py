@@ -40,6 +40,15 @@ class RankingTests(unittest.TestCase):
         score, _ = score_paper(paper("Unrelated title", authors=["Ada Lovelace"]), CONFIG)
         self.assertEqual(score, 12)
 
+    def test_author_groups_use_highest_weight(self):
+        config = dict(CONFIG)
+        config["authors"] = {
+            "primary": {"weight": 6, "names": ["Ada Lovelace"]},
+            "secondary": {"weight": 1, "names": ["Ada Lovelace"]},
+        }
+        score, _ = score_paper(paper("Unrelated title", authors=["Ada Lovelace"]), config)
+        self.assertEqual(score, 6)
+
     def test_negative_phrase_excludes_false_positive(self):
         score, _ = score_paper(paper("Effective resistance training methods"), CONFIG)
         self.assertEqual(score, float("-inf"))
