@@ -17,7 +17,7 @@ categories:
 collection:
   # Number of calendar days fetched by `python sawyertron/update.py
   # --initial-backfill`. Increase this when you want a deeper first archive.
-  initial_backfill_days: 30
+  initial_backfill_days: 180
 
   # Every automatic daily run re-fetches this many days, including today.
   # The overlap repairs missed/delayed arXiv records after a temporary failure;
@@ -148,14 +148,12 @@ authors:
     - Fan Chung
     - Alexander Cloninger
     - Gal Mishne
-    - Zelin Wan
-    - Deanna Kohli
-    - Caroline Holtz
-    - Francisco Southerland
-    - Emilio Jesús Surya
+    - Zhengchao Wan
+    - Dhruv Kohli
+    - Chester Holtz
+    - Finn Southerland
+    - Erlang Surya
     - Jesús A. De Loera
-    - Jonathan Eddy
-    - Andrés R. Samper
 
 negative_phrases:
   # If any of these case-insensitive literal phrases occurs in the title or

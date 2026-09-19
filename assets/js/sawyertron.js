@@ -73,11 +73,18 @@
     return state.cache.get(month);
   }
 
-  function archiveMonthsBetween(from, to) {
-    if (!from && !to) return [state.currentMonth];
+  function archiveMonthsFor(filters) {
+    const hasSearch = Boolean(
+      filters.query || filters.author || filters.title || filters.topic || filters.category
+    );
+    if (!filters.from && !filters.to) {
+      return hasSearch
+        ? state.index.months.map((entry) => entry.month)
+        : [state.currentMonth];
+    }
     const archived = state.index.months.map((entry) => entry.month);
-    const lower = from ? from.slice(0, 7) : archived[archived.length - 1];
-    const upper = to ? to.slice(0, 7) : archived[0];
+    const lower = filters.from ? filters.from.slice(0, 7) : archived[archived.length - 1];
+    const upper = filters.to ? filters.to.slice(0, 7) : archived[0];
     return state.index.months
       .map((entry) => entry.month)
       .filter((month) => month >= lower && month <= upper);
@@ -145,10 +152,9 @@
       const author = element("button", "paper-author", name);
       author.type = "button";
       author.title = `Search for ${name}`;
-      author.addEventListener("click", () => {
+      author.addEventListener("click", async () => {
         els.search.value = name;
-        setQueryString();
-        render();
+        await loadFilteredRange();
         els.search.focus();
       });
       authors.appendChild(author);
@@ -255,7 +261,7 @@
   }
 
   async function loadFilteredRange() {
-    const months = archiveMonthsBetween(els.from.value, els.to.value);
+    const months = archiveMonthsFor(activeFilters());
     const datasets = await Promise.all(months.map(getMonth));
     state.papers = datasets.flatMap((dataset) => dataset.papers);
     state.papers.sort((a, b) => b.published.localeCompare(a.published));
@@ -297,7 +303,10 @@
       restoreFilters(params);
       buildArchive();
       await selectMonth(state.currentMonth, false);
-      if (els.from.value || els.to.value) await loadFilteredRange();
+      restoreFilters(params);
+      if (els.search.value || els.from.value || els.to.value || els.author.value || els.title.value || els.topic.value) {
+        await loadFilteredRange();
+      }
       els.category.value = params.get("category") || "";
       render();
     } catch (error) {
@@ -308,7 +317,7 @@
   let searchTimer;
   els.search.addEventListener("input", () => {
     clearTimeout(searchTimer);
-    searchTimer = setTimeout(() => { setQueryString(); render(); }, 150);
+    searchTimer = setTimeout(loadFilteredRange, 150);
   });
   els.apply.addEventListener("click", loadFilteredRange);
   els.clear.addEventListener("click", async () => {
