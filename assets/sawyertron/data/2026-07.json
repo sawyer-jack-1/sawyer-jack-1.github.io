@@ -1,6 +1,6 @@
 {
   "month": "2026-07",
-  "generated_at": "2026-09-19T03:56:32+00:00",
+  "generated_at": "2026-09-19T04:03:03+00:00",
   "source": "arXiv metadata API",
   "papers": [
     {
@@ -885,43 +885,6 @@
       ]
     },
     {
-      "id": "2607.25410",
-      "url": "https://arxiv.org/abs/2607.25410",
-      "title": "On the Genus Polynomial of Cubic Graphs",
-      "authors": [
-        "Austin Ulrigg"
-      ],
-      "abstract": "The orientable genus polynomial of a graph counts its cellular embeddings by genus. For finite simple $2$-connected cubic graphs it is a cycle-matroid invariant: $M(G)\\cong M(H)$ implies $Γ_G=Γ_H$. The adjacency spectrum and the genus polynomial are incomparable: neither determines the other. We exhibit connected cubic graphs on $16$ vertices sharing the adjacency spectrum, spanning-tree count, girth, diameter, vertex and edge connectivity, automorphism-group order, and cycle counts through length $10$, yet with pairwise distinct genus polynomials. Splitting the expected face count at twice the girth explains the difference: short faces are spectral, long faces are not. We construct an explicit infinite family of connected cospectral cubic pairs $(G_t,H_t)$ on $14+2t$ vertices whose minimum genera differ. We also compute the genus polynomials of all $7,875,918$ connected cubic graphs through $22$ vertices and derive from short-cycle counts a deterministic lower bound on the minimum genus.",
-      "published": "2026-07-28",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
-      "id": "2607.26176",
-      "url": "https://arxiv.org/abs/2607.26176",
-      "title": "A Riemann-Roch theorem for Frobenius quotients",
-      "authors": [
-        "Matthew Dupraz",
-        "Andreas Gross",
-        "Leonid Monin"
-      ],
-      "abstract": "We construct two families of commutative Frobenius rings: discrete and continuous Frobenius quotients $K_f$, resp. $A_g$, which are defined as the quotients of shift, resp. differential operator algebras by the annihilator of a polynomial. These constructions model the numerical $K$-rings and Chow rings of smooth complete varieties. We show that there is a naturally defined isomorphism $\\mathbb{Q} K_f \\cong \\mathbb{Q} A_g$ playing the role of the Chern character, precisely when the polynomials satisfy a combinatorial analogue of the Hirzebruch-Riemann-Roch theorem, which states that there exists an invertible element $\\mathrm{td} \\in \\mathbb{Q} A_g^\\times$, called the Todd class, such that $f = \\mathrm{td} \\cdot g$. In this case we show that $K_f$ carries all the structure needed to make it a suitable model for $K$-rings of complete smooth varieties: $K_f$ is a $λ$-ring, has well-defined Chern classes, determinants, and satisfies a combinatorial analogue of Serre duality. We further show that the construction is functorial and obtain a combinatorial analogue of the Grothendieck-Riemann-Roch theorem. Lastly, we investigate the existence of larger families of isomorphisms between Frobenius quotients defined by the action of a power series on a generating set, such as the truncated Chern character which yields an integral isomorphism $K_f \\cong A_g$. We provide numerous examples and applications: we give a new formula for computing Snapper polynomials of matroids, show that the dualizing class of $K_f$ coincides with dualizing classes of matroids and linear families of polytopes, realize $K$-rings of toric variety bundles as Frobenius quotients, and study $K$-rings of Ehrhart fans as well as exceptional isomorphisms in this setting.",
-      "published": "2026-07-28",
-      "categories": [
-        "math.AG",
-        "math.AC",
-        "math.CO",
-        "math.KT"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2607.25016",
       "url": "https://arxiv.org/abs/2607.25016",
       "title": "On efficient graph covers and steered random walks",
@@ -1124,24 +1087,6 @@
         "math.PR"
       ],
       "tags": []
-    },
-    {
-      "id": "2607.25013",
-      "url": "https://arxiv.org/abs/2607.25013",
-      "title": "A Tuning-Free Variational Framework for Muscle Redundancy Resolution: Torque Fiber Proximal Dynamics with Active-Set Switching and EMG-Validated Activation Prediction",
-      "authors": [
-        "Morteza Ganji"
-      ],
-      "abstract": "Muscle redundancy can be formulated as a constrained selection on a time-varying convex set of feasible activations. We introduce Torque Fiber Proximal Dynamics (TFPD), where activation evolves as the Euclidean projection of the previous state onto a convex polytope defined by torque equality and physiological bounds. TFPD is equivalent to a backward-Euler discretization of a sweeping process and a variational inequality with a maximal monotone normal cone operator. Within this framework, antagonist recruitment emerges naturally under a projection-based control hypothesis as a structural consequence of active-set transitions induced by the geometry, not as an imposed cost. We derive sufficient KKT-based conditions for antagonist activation under generic moment-arm asymmetry, linking boundary projection, strict complementarity, and torque coupling. We validate TFPD on a three-muscle elbow model using exact quadratic programming, benchmark it against five classical methods and a random baseline, and achieve a Pearson correlation of 0.68-0.73 with triceps EMG envelopes across ten subjects without any tunable cost-weight parameters. Sensitivity analysis and a three-dimensional activation trajectory visualization demonstrate robustness. TFPD connects neuromuscular coordination to proximal point theory, variational inequalities, and projected dynamical systems.",
-      "published": "2026-07-27",
-      "categories": [
-        "q-bio.QM",
-        "math.OC",
-        "q-bio.NC"
-      ],
-      "tags": [
-        "convex polytope"
-      ]
     },
     {
       "id": "2607.23791",
@@ -1791,23 +1736,6 @@
       ],
       "tags": [
         "random graph"
-      ]
-    },
-    {
-      "id": "2607.21410",
-      "url": "https://arxiv.org/abs/2607.21410",
-      "title": "Selection-structure generalizations of the Borsuk-Ulam theorem",
-      "authors": [
-        "Pablo Soberón"
-      ],
-      "abstract": "We prove Borsuk-Ulam-type results governed by selection structures. Selection structures extend the matroidal framework for colorful theorems in discrete geometry and include non-matroidal examples such as chessboard complexes. Motivated by Frick and Wellner's Radon-type strengthening of Fan's theorem and its colorful variants, we prove selection-structure analogues whose conclusions are determined by Radon partitions. We also prove a prime-power selection-structure covering version of Volovikov's theorem, governed by Tverberg partitions. We include applications to fair partitions, including selection-structure versions of the ham sandwich and necklace splitting theorems.",
-      "published": "2026-07-23",
-      "categories": [
-        "math.CO",
-        "math.AT"
-      ],
-      "tags": [
-        "matroid"
       ]
     },
     {
@@ -2482,60 +2410,6 @@
       "tags": []
     },
     {
-      "id": "2607.17777",
-      "url": "https://arxiv.org/abs/2607.17777",
-      "title": "On unirational varieties with poset parameterizations",
-      "authors": [
-        "Marina Garrote-López",
-        "Nataliia Kushnerchuk",
-        "Liam Solus"
-      ],
-      "abstract": "We use partially ordered sets (posets) to provide a canonical parameterization for the Zariski closure of the image of a semialgebraic set under a rational map whose coordinate functions are polynomials with nonnegative integral coefficients. The resulting poset parametrization of such a unirational variety allows us to translate several well-studied problems into combinatorics; e.g. reducing the problems to describing the poset associated to the variety. These problems include, the implicitization problem from algebraic geometry, the toric reparameterization problem, the computation of the linear span of the variety, and the problem of distinguishing two semialgebraic subsets of the same ambient space. The technique applies to instances of these problems in several fields, including algebraic geometry, algebraic combinatorics, statistics and applied algebra. We demonstrate the technique on examples from each field, including degenerate subvarieties of secant varieties, matroid flat varieties -- which generalize toric varieties of edge polytopes, as well as varieties arising in multivariate data analysis and evolutionary biology.",
-      "published": "2026-07-20",
-      "categories": [
-        "math.CO",
-        "math.AG"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
-      "id": "2607.18220",
-      "url": "https://arxiv.org/abs/2607.18220",
-      "title": "Nonexistence of Simultaneously EF1 and Pareto Optimal Allocations for Submodular Valuations",
-      "authors": [
-        "Harish Chandramouleeswaran",
-        "Prajakta Nimbhorkar"
-      ],
-      "abstract": "The existence of allocations of indivisible goods that are simultaneously fair (envy-free up to one item (EF1)) and efficient (Pareto optimal (PO)) when agents have monotone submodular valuations has been a longstanding open problem. We settle this question negatively by giving an example with two agents where no allocation is simultaneously EF1 and PO. We also show that determining the existence of such allocations is NP-hard for monotone submodular valuations. Our example uses (unweighted) coverage valuations, which is a strict subclass of monotone submodular valuations. Since EF1+PO allocations are known to always exist for additive valuations via the maximization of Nash Social Welfare (Caragiannis et al. (ACM TEAC 2019)), and for matroid-rank valuations (Benabbou et al. (ACM TEAC 2021)), nonexistence was known only for monotone subadditive valuations (Caragiannis et al. (ACM TEAC 2019)). Our work moves the nonexistence frontier to unweighted coverage valuations. We also show that the example we designed for goods also proves nonexistence of EF1+PO in general, for chores with unweighted coverage costs, by interpreting the valuations as disutilities.",
-      "published": "2026-07-20",
-      "categories": [
-        "cs.GT",
-        "cs.DS"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
-      "id": "2609.19016",
-      "url": "https://arxiv.org/abs/2609.19016",
-      "title": "Secretary Problems with Interactive Ordinal Queries",
-      "authors": [
-        "José A. Soto",
-        "Felipe Valdevenito"
-      ],
-      "abstract": "We study secretary problems in which the online algorithm can ask a reliable oracle a limited number of ordinal queries about unseen elements. Values are revealed only when elements arrive, and all accept/reject decisions are irrevocable. The oracle never reveals numerical values; it only answers questions defined relative to the information already observed by the algorithm. We first consider the single-choice secretary problem. A query returns the number of unseen elements whose value exceeds the current record. We analyze random order, adversarial order, and two sample-based adversarial orders, with no queries, one query, and unlimited queries. We obtain tight bounds for all variants except one. In adversarial order, queries do not improve over the trivial $1/n$ guarantee. In random order, one query improves the optimal success probability from $1/e$ to $0.4477\\ldots$, and unlimited queries achieve the optimal value $1/2$. In the sample-based models, one query already yields the tight value $1/e$ against an online adversary, while unlimited queries give the exact value $(20\\sqrt{10}-29)/81$ against an offline adversary. The remaining one-query offline-adversarial case is left open, and we give two partial upper bounds for it. We also extend the model to the matroid secretary problem, where we study two ordinal query interfaces. A simple query identifies the unseen elements that would individually improve the current optimum on the observed set, while a complete query gives a finer ordinal partition of the unseen elements by weight relative to that optimum. Under sample-based online adversarial order, a single simple query yields a $1/4$ probability-competitive algorithm, and a complete query improves this to the optimal $1/e$. Finally, with unlimited complete queries in the random-order model, we achieve the optimal $1/2$ probability-competitive ratio.",
-      "published": "2026-07-20",
-      "categories": [
-        "cs.DS"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2607.17293",
       "url": "https://arxiv.org/abs/2607.17293",
       "title": "Characterizing the equality case in Brouwer's inequality for Laplacian eigenvalues",
@@ -2621,24 +2495,6 @@
       ],
       "tags": [
         "random matrix"
-      ]
-    },
-    {
-      "id": "2607.17196",
-      "url": "https://arxiv.org/abs/2607.17196",
-      "title": "Fast and Private Max-Sum Diversification",
-      "authors": [
-        "Ron Zadicario",
-        "Tova Milo"
-      ],
-      "abstract": "Result diversification is crucial for generating informative, non-redundant data summaries and query outputs. Although its various formulations have been extensively studied across an array of data-driven disciplines, existing methods fail to address the privacy concerns that arise when the underlying data is sensitive. In this work, we initiate the study of result diversification under differential privacy, focusing on the max-sum diversification (MSD) problem, a widely adopted model with the objective of maximizing a linear combination of a submodular function, quantifying relevance, and the sum of pairwise distances between selected items, quantifying diversity. We propose differentially private algorithms for MSD under both cardinality and matroid constraints, achieving nearly optimal utility guarantees. At the same time, we design more efficient algorithms that maintain strong guarantees. Notably, the proposed algorithms are faster than existing non-private methods, making them appealing even in non-private settings. Experimental evaluations on real-world datasets demonstrate that the proposed approach achieves utility comparable to that of non-private baselines even under strong privacy guarantees, and significantly improves execution times for cardinality constraints.",
-      "published": "2026-07-19",
-      "categories": [
-        "cs.CR",
-        "cs.DS"
-      ],
-      "tags": [
-        "matroid"
       ]
     },
     {
@@ -3257,80 +3113,6 @@
       "tags": []
     },
     {
-      "id": "2607.14878",
-      "url": "https://arxiv.org/abs/2607.14878",
-      "title": "Second-order rigidity of coned polytope frameworks and the stress-flex conjecture from a vector-valued Schläfli formula",
-      "authors": [
-        "Eleni Pachyli",
-        "Roman Prosanov",
-        "Martin Winter"
-      ],
-      "abstract": "A coned polytope framework (CPF) is the bar-joint framework obtained from the 1-skeleton of a convex polytope by coning over some interior point. It was recently shown that CPFs are rigid, though the exact order of rigidity remained open. In this paper we introduce the Wachspress stress and use it to show that CPFs are prestress stable, in particular, second-order rigid. To this end, we resolve the stress-flex conjecture in the case of the Wachspress stress by identifying its dual formulation as a corollary of a vector-valued Schläfli-type formula introduced by Schlenker and Souam. We give a new and purely discrete-geometric proof of this generalized Schläfli formula.",
-      "published": "2026-07-16",
-      "categories": [
-        "math.MG",
-        "math.CO"
-      ],
-      "tags": [
-        "convex polytope"
-      ]
-    },
-    {
-      "id": "2607.15035",
-      "url": "https://arxiv.org/abs/2607.15035",
-      "title": "A Correlation-Gap Bound for Nonlinear Gaussian PCA",
-      "authors": [
-        "Minbo Gao",
-        "Zhengfeng Ji",
-        "Chenghua Liu"
-      ],
-      "abstract": "Principal component analysis (PCA) is optimal for the linear reconstruction of Gaussian data, a foundational property underlying its central role in algorithms and signal processing. Its nonlinear analogue, however, is notoriously subtle: in 2011, Mallat and Zeitouni conjectured that the Karhunen--Loève (KL) basis remains optimal even when the retained coordinates are chosen adaptively per sample, a property that would theoretically justify the ubiquitous pipeline of PCA followed by sparse thresholding. In this paper, we establish a $1+O(1/\\sqrt{d})$-approximate version of the retained-energy form of the Mallat--Zeitouni conjecture, showing that the KL basis is within this factor of the optimal basis. This dimension-free comparison depends only on the number of retained coordinates and shows that the possible advantage of optimizing over all orthonormal bases vanishes as $d$ grows. It complements the universal-constant reconstruction-error comparison of Litvak and Tikhomirov (Ann. Appl. Probab., 2018), while providing a comparison naturally suited for algorithmic analysis. Our proof rests on a clean, conceptual reduction: we relax arbitrary rotations to a deterministic threshold bound via Schur--Horn majorization, and identify the remaining loss with the correlation gap of the rank-$d$ uniform matroid over Gaussian level sets.",
-      "published": "2026-07-16",
-      "categories": [
-        "cs.DS",
-        "cs.IT"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
-      "id": "2607.16334",
-      "url": "https://arxiv.org/abs/2607.16334",
-      "title": "A Hypergraph Tutte Polynomial",
-      "authors": [
-        "Khallil Berrekkal",
-        "Joanna A. Ellis-Monaghan",
-        "Merijn Moody"
-      ],
-      "abstract": "We introduce a Tutte polynomial for hypergraphs, $T_{\\mathrm{HG}}$, together with $T_k$, a related Tutte polynomial for $k$-polymatroids. Both invariants admit deletion--contraction recursions that remain within their respective classes, and they are linked by the fact that $T_{\\mathrm{HG}}$ specializes to $T_k$ on the associated polymatroid of any $(k+1)$-uniform hypergraph. We show that $T_{\\mathrm{HG}}$ satisfies several desirable Tutte type properties, including multiplicativity and duality, while $T_k$ further admits a universality theorem, as well as a convolution product formula. In the uniform hypergraph setting, these latter results specialize back to $T_{\\mathrm{HG}}$. We also relate $T_{\\mathrm{HG}}$ to hypergraph extensions of the Potts and random cluster models. In particular, we study degree dependent random cluster and Potts partition functions, as well as Grimmett's many body Potts model, and compare their relationship with $T_{\\mathrm{HG}}$ in both the general and uniform settings. Finally, we compare $T_{\\mathrm{HG}}$ with the polymatroid Tutte polynomial $\\mathcal{T}_P$ of Bernardi, K'alm'an, and Postnikov, showing that the two are incomparable in distinguishing power. As a consequence, we answer negatively a question raised by these authors by proving that the characteristic polynomial is not, in general, a specialization of $\\mathcal{T}_P$.",
-      "published": "2026-07-16",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
-      "id": "2607.16347",
-      "url": "https://arxiv.org/abs/2607.16347",
-      "title": "Moore's Greedy Algorithm for Minimizing the Number of Late Jobs: Structure and Implementation",
-      "authors": [
-        "Dean Matthew Menezes",
-        "C. Gregory Plaxton"
-      ],
-      "abstract": "Scheduling $n$ jobs with deadlines and processing times on a single resource to minimize late jobs equates to finding a maximum-cardinality feasible subset. Moore (1968) proposed a natural greedy algorithm for this: process jobs in nondecreasing order of processing time, adding each if the set remains feasible. While Zhao and Yuan recently matched the $O(n\\log n)$ time of the classic Moore-Hodgson algorithm via amortized $O(\\log n)$ feasibility queries, our first contribution is a simpler augmented BST data structure that achieves worst-case $O(\\log n)$ query time. Moore's greedy algorithm is known to produce a maximum-cardinality feasible subset with minimum total processing time. Though the system of feasible subsets does not form a matroid, the algorithm behaves like a matroid greedy algorithm. Our second contribution explains this phenomenon: if all jobs have equal processing times, the problem corresponds to a nested matroid; with distinct processing time \"tiers,\" Moore's algorithm effectively solves a sequence of nested matroid problems for each tier. Finally, we present an explicit linear-size flow network defining a polymatroid rank. A set is feasible exactly when its rank equals its total processing time, and Moore's algorithm accepts a job precisely when it yields its full processing-time marginal. By contracting shorter accepted jobs and measuring residual rank, we recover the tier matroid's complete rank function, offering a deep structural explanation for the greedy algorithm's correctness.",
-      "published": "2026-07-16",
-      "categories": [
-        "cs.DS",
-        "math.OC"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2607.14304",
       "url": "https://arxiv.org/abs/2607.14304",
       "title": "Spectral Concentration and Recovery in Sparse High-Dimensional Random Geometric Graphs",
@@ -3743,24 +3525,6 @@
       ]
     },
     {
-      "id": "2607.13165",
-      "url": "https://arxiv.org/abs/2607.13165",
-      "title": "Interchange graphs of (0,1)-matrices are maximally Hamiltonian",
-      "authors": [
-        "Jeffrey S. Baggett",
-        "Huiya Yan"
-      ],
-      "abstract": "For integer vectors R,S let A(R,S) denote the class of (0,1)-matrices with row sum vector R and column sum vector S. Its interchange graph G(R,S) has A(R,S) as its vertex set, two matrices being adjacent when they differ by a single 2 x 2 interchange. Brualdi asked whether G(R,S) is Hamiltonian for every R,S. We prove the stronger statement that G(R,S) is maximally Hamiltonian: Hamilton-laceable when bipartite, and Hamilton-connected when not. The proof is a structural induction on the number of matrices in the class, organized by the structure theory of interchange graphs. Deleting inactive lines and splitting invariant positions expresses any class as a Cartesian product, reducing the argument to the prime factors. The bipartite classes are products of complete transposition graphs; we settle them together, without induction, by proving they are paired 2-disjoint-path-coverable and hence Hamilton-laceable, using a recent theorem of Coleman, Fischberg, Gong, Harrington and Wong on paired disjoint path covers. The non-bipartite classes divide into three cases: products assembled from smaller factors, a base of Johnson graphs and small classes, and the large prime classes, treated by a pivot-and-fiber construction whose line quotients are matroid base-exchange graphs. The complete argument has been machine-checked in the Lean 4 proof assistant from first principles together with seven cited results of the literature; the disjoint-path-cover results it imports are themselves proved within the formalization.",
-      "published": "2026-07-14",
-      "categories": [
-        "math.CO",
-        "cs.DM"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2607.11033",
       "url": "https://arxiv.org/abs/2607.11033",
       "title": "Limit laws for component-pruned sparse random graphs and percolated tori",
@@ -4012,22 +3776,6 @@
       ],
       "tags": [
         "graph neural network"
-      ]
-    },
-    {
-      "id": "2607.11225",
-      "url": "https://arxiv.org/abs/2607.11225",
-      "title": "Combinatorial interpretation of the coefficients of the order polynomial of fence posets",
-      "authors": [
-        "Yakob Kahane"
-      ],
-      "abstract": "Given a fence poset P , we define a new statistic on permutations, denoted by blP, that provides a combinatorial interpretation of the coefficients of the order polynomial of P , answering a question of Ferroni, Morales, and Panova (2025). Using the fact that the base polytope of a lattice path matroid can be decomposed into order polytopes of fence posets, we also obtain a combinatorial interpretation of the coefficients of the Ehrhart polynomial of the base polytope of Schubert matroids, answering a question of Stanley (1999). As an application of this statistic, we establish the first nontrivial lower bound for the linear coefficient of the Ehrhart polynomial of an order polytope. Finally, we conjecture generalizations of this statistic to skew-shape posets and circular fence posets.",
-      "published": "2026-07-13",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
       ]
     },
     {
@@ -4391,23 +4139,6 @@
       ]
     },
     {
-      "id": "2607.09069",
-      "url": "https://arxiv.org/abs/2607.09069",
-      "title": "Reducing stable forking dependence to finitely many pregeometries",
-      "authors": [
-        "Scott Mutchnik"
-      ],
-      "abstract": "We show that one of the main cases of the stable forking conjecture, stability of the forking relation over a base in a finite-rank supersimple theory, is determined by finitely many pregeometries in each rank. This case of the stable forking conjecture has long had an implicitly well-known pregeometric interpretation: there is a set of matroids $\\mathcal{G}_{n}$ such that the forking instability in rank $n$ is equivalent to the pregeometry on some rank-one partial type (over a finite set) embedding a matroid in $\\mathcal{G}_{n}$. Our contribution is to show that this set of matroids $\\mathcal{G}_{n}$, determining based forking stability in rank $n$, can be chosen to be finite. The main part of our proof was already accomplished in rank $3$ by Peretz, but does not extend as stated to higher ranks (and may or may not directly extend in a weaker sense to higher ranks, by shrinking terms). However, we obtain a sufficient substitute for Peretz's work in ranks $n > 3$: we turn Peretz's original universal result into an existence theorem. The rest of our proof refines an argument from multi-experiment parameter definability, originating from work in applied model theory by Li, Meshkat, Ovchinnikov, Pillay, Pogudin and Scanlon.",
-      "published": "2026-07-10",
-      "categories": [
-        "math.LO",
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2607.08187",
       "url": "https://arxiv.org/abs/2607.08187",
       "title": "Asymptotic behaviours of critical branching random walk in $\\mathbb{R}^d$",
@@ -4653,22 +4384,6 @@
         "math.ST"
       ],
       "tags": []
-    },
-    {
-      "id": "2607.08494",
-      "url": "https://arxiv.org/abs/2607.08494",
-      "title": "Orlik--Solomon sheaf homology of geometric lattices",
-      "authors": [
-        "Ye Liu"
-      ],
-      "abstract": "We associate the Orlik--Solomon sheaf with a finite geometric lattice and compute its sheaf homology. We show that this homology concentrates in top degree, admitting a convolution-type decomposition into a principal ideal OS piece tensoring with a principal filter complement poset homology. Applications to uniform matroids provide interesting representations of symmetric groups.",
-      "published": "2026-07-09",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
-      ]
     },
     {
       "id": "2607.07022",
@@ -5082,26 +4797,6 @@
         "math.PR"
       ],
       "tags": []
-    },
-    {
-      "id": "2607.06172",
-      "url": "https://arxiv.org/abs/2607.06172",
-      "title": "Cone and constrained colorful Carathéodory Theorems",
-      "authors": [
-        "Pavle V. M. Blagojević",
-        "Roman N. Karasev",
-        "Bálint Zsigri"
-      ],
-      "abstract": "Holmsen proved in 2016 a generalization of the classical colorful Caratheodory theorem in which a matroid imposes additional constraints on the desired colorful transversal. His approach also works in the more general setting of oriented matroids, rather than relying directly on convex hulls. In this paper, we extend these ideas in several directions. First, we study which colorful Caratheodory-type results remain valid when convex cones replace convex hulls, as well as analogous modifications in the oriented matroid setting. Second, we consider variants in which the additional constraint on the transversal is not encoded by a matroid. This leads to new extensions of the classical Tverberg theorem. Our approach is topological, following the methods of Holmsen, and Kalai and Meshulam, on which it builds. The key idea is to analyze homology groups of simplicial complexes that encode colorful Caratheodory-type phenomena, such as the support complex of an oriented matroid. In particular, one shows that these complexes are (near-)d-Leray. We extend this analysis by carrying out more detailed homology computations for these complexes, with the aim of enabling further and more refined applications of the method.",
-      "published": "2026-07-07",
-      "categories": [
-        "math.CO",
-        "math.AT",
-        "math.MG"
-      ],
-      "tags": [
-        "matroid"
-      ]
     },
     {
       "id": "2607.04878",
@@ -5600,25 +5295,6 @@
       ],
       "tags": [
         "random graph"
-      ]
-    },
-    {
-      "id": "2607.02172",
-      "url": "https://arxiv.org/abs/2607.02172",
-      "title": "Fluctuations of the Sherrington-Kirkpatrick free energy at critical temperature",
-      "authors": [
-        "Hang Du",
-        "Brice Huang"
-      ],
-      "abstract": "We consider the Sherrington-Kirkpatrick spin glass model at the critical inverse temperature $β= 1$ with zero external field. We prove that the free energy $F_N = F_{N,β=1}$ of this model has variance \\[ \\mathrm{Var}(F_N) = \\frac16 \\log N + O(1)\\,, \\] confirming a physics prediction of Aspelmeier \\cite{aspelmeier2008free}, and that the centered and scaled $F_N$ satisfies a Gaussian CLT. We also identify the critical two-replica overlap scale, proving \\[ \\mathbb{E} \\langle R_{1,2}^2\\rangle \\asymp N^{-2/3}\\,, \\] as conjectured by Talagrand \\cite{talagrand2011mean2}, together with a uniform exponential moment bound for $N^{1/3} |R_{1,2}|$. The key input is a critical reweighted moment method, in the spirit of the ``small subgraph conditioning'' technique from probabilistic combinatorics, but capable of capturing diverging fluctuations. Through this reweighting, we relate the critical SK model to the BBP critical edge, which determines the overlap and fluctuation scales.",
-      "published": "2026-07-02",
-      "categories": [
-        "math.PR",
-        "cond-mat.dis-nn",
-        "math-ph"
-      ],
-      "tags": [
-        "probabilistic combinatorics"
       ]
     },
     {

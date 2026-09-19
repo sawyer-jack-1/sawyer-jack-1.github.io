@@ -1,6 +1,6 @@
 {
   "month": "2026-04",
-  "generated_at": "2026-09-19T03:56:32+00:00",
+  "generated_at": "2026-09-19T04:03:03+00:00",
   "source": "arXiv metadata API",
   "papers": [
     {
@@ -130,64 +130,6 @@
         "cs.DS"
       ],
       "tags": []
-    },
-    {
-      "id": "2604.27427",
-      "url": "https://arxiv.org/abs/2604.27427",
-      "title": "A Geometric Perspective on Polynomially Solvable Convex Maximization",
-      "authors": [
-        "Shaoning Han",
-        "Liangju Li",
-        "Yongchun Li"
-      ],
-      "abstract": "Convex maximization encompasses a broad class of optimization problems and is generally NP-hard, even for low-rank objectives. This paper investigates structural conditions under which convex maximization becomes polynomially solvable. From a geometric perspective, we introduce comonotonicity, a structural property of the feasible region crucial for problem tractability, and establish mathematical characterizations of this property. Under comonotonicity and mild additional assumptions, we develop a unified enumerative framework showing that fixed-rank convex maximization is polynomially solvable. This viewpoint recovers several known tractability results that previously required separate analyses, such as fixed-rank convex matroid maximization and sparse principal component analysis (SPCA). Furthermore, for the more structured class of standard comonotone feasible regions, we refine the analysis via a lifting technique to achieve a square-root improvement in the complexity bound. Finally, applications to SPCA and its variants illustrate the broad applicability and effectiveness of the proposed framework.",
-      "published": "2026-04-30",
-      "categories": [
-        "math.OC"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
-      "id": "2604.27515",
-      "url": "https://arxiv.org/abs/2604.27515",
-      "title": "Vertex Posets, Monotone Path Polytopes, and Chow Polynomials",
-      "authors": [
-        "Mateusz Michałek",
-        "Leonid Monin",
-        "Botong Wang"
-      ],
-      "abstract": "Let $P\\subset\\mathbb R^n$ be a convex polytope and let $\\ell$ be a linear functional which is nonconstant on every edge of $P$. The induced acyclic orientation determines positive and negative Białynicki-Birula type partitions of $P$ into unions of relative interiors of faces. Our first result establishes a duality: the positive partition is a stratification if and only if the negative one is a stratification. Our second result connects poset invariants with monotone path polytopes. Assuming the induced vertex relation admits the structure of a graded poset, we prove that the Chow polynomial of the resulting vertex poset agrees with the $h$-polynomial of a (dual) monotone path polytope.",
-      "published": "2026-04-30",
-      "categories": [
-        "math.CO",
-        "math.AG"
-      ],
-      "tags": [
-        "convex polytope"
-      ]
-    },
-    {
-      "id": "2604.27755",
-      "url": "https://arxiv.org/abs/2604.27755",
-      "title": "Gårding Polynomials",
-      "authors": [
-        "Hao Fang",
-        "Biao Ma"
-      ],
-      "abstract": "We introduce Gårding polynomials, a class of real multivariate polynomials characterized by positivity regions that are invariant under translation by positive vectors and closed under strictly positive affine transformations. We prove that this geometric formulation is equivalent both to a reduction to the multi-affine setting via polarization and to a recursive criterion in terms of partial derivatives. The class of Gårding polynomials strictly extends that of real stable polynomials while preserving many of their structural properties. In particular, multi-affine Gårding polynomials with nonnegative coefficients satisfy the Rayleigh property, and their positive univariate specializations have ultra log-concave coefficient sequences. The Gårding property for several matroid generating functions is preserved under natural matroid operations. As applications, we derive new negative dependence results for generating functions associated with various classes of matroids and graphs, including examples previously beyond the scope of real stability and Lorentzian methods. We further obtain analogous results for characteristic polynomials arising from certain matrix classes.",
-      "published": "2026-04-30",
-      "categories": [
-        "math.CO",
-        "math.AP",
-        "math.CA",
-        "math.OC",
-        "math.PR"
-      ],
-      "tags": [
-        "matroid"
-      ]
     },
     {
       "id": "2604.27241",
@@ -775,25 +717,6 @@
       ]
     },
     {
-      "id": "2604.23848",
-      "url": "https://arxiv.org/abs/2604.23848",
-      "title": "Contact flexibility and rigidity for toric Gorenstein prequantizations and Ehrhart theory of toric diagrams",
-      "authors": [
-        "Miguel Abreu",
-        "Leonardo Macarini",
-        "António Rocha-Neves"
-      ],
-      "abstract": "Gorenstein toric contact manifolds are good toric contact manifolds with zero first Chern class that are completely determined by certain integral convex polytopes called toric diagrams. The Ehrhart polynomial of these toric diagrams determines and is determined by the contact Betti numbers of the corresponding contact manifolds, i.e. the dimension of their cylindrical contact homology in eachdegree. In this paper we look into the following natural question: to what extent do these contact invariants determine the Gorenstein toric contact manifold? Flexibility is the norm and we illustrate it with the family of Gorenstein toric contact manifolds that arise as the prequantization of monotone iterated ${\\mathbb P}^1$-bundles, i.e. monotone Bott manifolds. In each dimension, the Ehrhart polynomial of their toric diagrams is equal to the Ehrhart polynomial of the cross-polytope, corresponding to the monotone prequantization of ${\\mathbb P}^1 \\times \\cdots \\times {\\mathbb P}^1$, and we describe the unimodular classification of these toric diagrams. On the rigidity side, we will show that the primitive prequantization of ${\\mathbb P}^1 \\times \\cdots \\times {\\mathbb P}^1$ is rigid, i.e. completely determined as a Gorenstein toric contact manifold by its contact Betti numbers. More precisely, in each dimension, we show that its toric diagram, which we name small cross-polytope, is the unique toric diagram with its particular Ehrhart polynomial. We will also prove a rigidity result for a family of Gorenstein toric contact manifolds that arise as the primitive prequantization of monotone ${\\mathbb P}^1$-bundles over ${\\mathbb P}^{n-1}$.",
-      "published": "2026-04-26",
-      "categories": [
-        "math.SG",
-        "math.CO"
-      ],
-      "tags": [
-        "convex polytope"
-      ]
-    },
-    {
       "id": "2604.23379",
       "url": "https://arxiv.org/abs/2604.23379",
       "title": "Average Steps until Absorption on Random Walks on Sea Dragon Trees",
@@ -1231,24 +1154,6 @@
       "tags": []
     },
     {
-      "id": "2604.21925",
-      "url": "https://arxiv.org/abs/2604.21925",
-      "title": "Hodge theory for combinatorial projective bundles",
-      "authors": [
-        "Matt Larson",
-        "Ethan Partida"
-      ],
-      "abstract": "We prove the Hard Lefschetz theorem and Hodge-Riemann relations for certain rings which resemble the cohomology rings of projectivizations of globally generated vector bundles over toric varieties. This proves new cases of the standard conjecture of Hodge type and gives Bloch-Gieseker-type results for tautological classes of matroids.",
-      "published": "2026-04-23",
-      "categories": [
-        "math.AG",
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2604.20693",
       "url": "https://arxiv.org/abs/2604.20693",
       "title": "Uniqueness and Mixing in the Low-Temperature Random-Cluster Model on Trees and Random Graphs",
@@ -1655,42 +1560,6 @@
       ]
     },
     {
-      "id": "2604.19408",
-      "url": "https://arxiv.org/abs/2604.19408",
-      "title": "Edge Ideals of Prime Ideal Graphs over Finite Rings: Ordinary Powers, Fiber Cones, and Linear Powers",
-      "authors": [
-        "Tabinda Rasheed",
-        "Wang Yao"
-      ],
-      "abstract": "Let $R$ be a finite commutative ring with identity and let $P$ be a proper prime ideal of $R$. The prime ideal graph $Γ_P(R)$ has vertex set $R\\setminus\\{0\\}$, where two distinct vertices $x$ and $y$ are adjacent if and only if $xy\\in P$. We prove that prime ideal graphs form a ring-realizable subfamily of complete split graphs. More precisely, if $m=|P|$, $q=|R/P|$, then $q$ is a prime power and $Γ_P(R)\\cong K_{m-1}\\vee \\overline{K}_{m(q-1)}$. We also prove a realization theorem showing that every complete split graph of this form arises from a prime ideal of a finite commutative ring. For the edge ideal $I=I(Γ_P(R))$, we determine the minimal vertex covers and obtain the irredundant primary decomposition. We characterize the minimal monomial generators of every ordinary power $I^n$ and derive a closed formula for $μ(I^n)$. We further interpret this formula as the Hilbert function of the special fiber ring $\\mathcal{F}(I)$, compute the analytic spread, and prove that $\\mathcal{F}(I)$ is a normal Cohen--Macaulay affine semigroup ring. Finally, we show that $I$ is matroidal and that every ordinary power $I^n$ is polymatroidal; consequently, $I^n$ has linear quotients and a $2n$-linear minimal free resolution for all $n\\geq 1$.",
-      "published": "2026-04-21",
-      "categories": [
-        "math.AC",
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
-      "id": "2604.19644",
-      "url": "https://arxiv.org/abs/2604.19644",
-      "title": "On colorful generalizations of the Goodman--Pollack transversal problem",
-      "authors": [
-        "Nikola Sadovek"
-      ],
-      "abstract": "We establish a colorful and, more generally, matroidal solution to the problem of Goodman and Pollack on the existence of an $\\mathbb{F}$-affine $k$-dimensional transversal to a family of convex sets in $\\mathbb{F}^d$, where $0 \\le k \\le d - 1$ is an integer and $\\mathbb{F} \\in \\{\\mathbb{R}, \\mathbb{C}\\}$ is a field. Our results unify several classical and recent theorems. In the case $k=0$, we recover the colorful Helly theorem of Lovász, together with a matroidal extension due to Kalai and Meshulam. In the opposite extremal case $k=d-1$, we obtain Holmsen's colorful and matroidal generalization of the Goodman-Pollack-Wenger theorem. Additionally, we extend the recent noncolorful solution of the Goodman-Pollack problem by McGinnis and the author. As the main application, we obtain a matroidal and colorful Dol'nikov-type transversal theorem. Our methods are topological. We introduce matroidal joins, defined as homotopy colimits of diagrams over face posets of matroidal complexes, and derive estimates on their connectivity. The proof additionally relies on adaptations of nonexistence results for equivariant maps from Stiefel manifolds to spheres.",
-      "published": "2026-04-21",
-      "categories": [
-        "math.CO",
-        "math.GT",
-        "math.MG"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2604.18565",
       "url": "https://arxiv.org/abs/2604.18565",
       "title": "Detectability of minority communities in networks",
@@ -1916,23 +1785,6 @@
       ]
     },
     {
-      "id": "2604.17236",
-      "url": "https://arxiv.org/abs/2604.17236",
-      "title": "Learning Mixtures of Nonparametric and Convolutional Measures on Effectively Low-dimensional Affine Spaces",
-      "authors": [
-        "Sunrit Chakraborty",
-        "XuanLong Nguyen"
-      ],
-      "abstract": "In this paper, we develop a finite mixture of convolutional distributions, a statistical model to analyze continuous data distributed approximately on a mixture of low-dimensional affine subspaces. The observations are assumed independent and identically distributed from the mixture of distributions, where each component arises from a convolution of a distribution supported on a low-dimensional subspace with a suitable noise kernel. We discuss theoretical properties of such class of models, including identifiability under very general conditions - in particular, showing that the minimal representation for such mixtures is uniquely identifiable in a semi-parametric setting. We further study the posterior contraction rates for the parameters for a parametrized class of such models where the supports of the component mixing measures are assumed to be convex polytopes under a suitable well-specified Bayesian regime. This still requires developing novel inverse bounds for problems involving a nested mixture structure, where the mixture kernel is itself another continuous mixture. Our approach for both the identifiability theory and posterior contraction rates is to exploit the geometric structure of the underlying support of the latent measures. Apart from applications in end-member analysis, spectral unmixing and topic models, this study provides a grounded framework for subspace clustering with the goal of exploring conditions for learning multiple latent low-dimensional structures. We illustrate our findings through careful simulation study, which also includes developing new algorithms for such class of models",
-      "published": "2026-04-19",
-      "categories": [
-        "math.ST"
-      ],
-      "tags": [
-        "convex polytope"
-      ]
-    },
-    {
       "id": "2604.17123",
       "url": "https://arxiv.org/abs/2604.17123",
       "title": "A model of anisotropic branched optimal transport",
@@ -2096,44 +1948,6 @@
       ],
       "tags": [
         "spanning tree"
-      ]
-    },
-    {
-      "id": "2604.16061",
-      "url": "https://arxiv.org/abs/2604.16061",
-      "title": "Constant-Factor Approximations for Doubly Constrained Fair k-Center, k-Median and k-Means",
-      "authors": [
-        "Nicole Funk",
-        "Annika Hennes",
-        "Johanna Hillebrand",
-        "Sarah Sturm"
-      ],
-      "abstract": "We study discrete k-clustering problems in general metric spaces that are constrained by a combination of two different fairness conditions within the demographic fairness model. Given a metric space (P,d), where every point in P is equipped with a protected attribute, and a number k, the goal is to partition P into k clusters with a designated center each, such that a center-based objective function is minimized and the attributes are fairly distributed with respect to the following two fairness concepts: 1) group fairness: We aim for clusters with balanced numbers of attributes by specifying lower and upper bounds for the desired attribute proportions. 2) diverse center selection: Clusters have natural representatives, i.e., their centers. We ask for a balanced set of representatives by specifying the desired number of centers to choose from each attribute. Dickerson, Esmaeili, Morgenstern and Zhang (2023) denote the combination of these two constraints as doubly constrained fair clustering. They present algorithms whose guarantees depend on the best known approximation factors for either of these problems. Currently, this implies an 8-approximation with a small additive violation on the group fairness constraint. For k-center, we improve this approximation factor to 4 with a small additive violation. This guarantee also depends on the currently best algorithm for DS-fair k-center given by Jones, Nguyen and Nguyen (2020). For k-median and k-means, we propose the first constant-factor approximation algorithms. Our algorithms transform a solution that satisfies diverse center selection into a doubly constrained fair clustering using an LP-based approach. Furthermore, our results are generalizable to other center-selection constraints, such as matroid k-clustering and knapsack constraints.",
-      "published": "2026-04-17",
-      "categories": [
-        "cs.DS",
-        "cs.CY",
-        "cs.LG"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
-      "id": "2604.16159",
-      "url": "https://arxiv.org/abs/2604.16159",
-      "title": "Halfspace separation in geodesic convexity",
-      "authors": [
-        "Niranjan Nair"
-      ],
-      "abstract": "Let $G = V, E$ be a simple connected undirected graph. A set $X \\subseteq V$ is \\emph{geodesically convex} if for any pair of vertices $x, y \\in X$, all vertices on all shortest paths in $G$ from $x$ to $y$ are contained in $X$. A set $H \\subseteq V$ is said to be a {halfspace} if both $H$ and its complement (denoted by $H^c$) are convex. Given two sets $A, B \\subseteq V$, the { halfspace separation} problem asks if there exist complementary halfspaces $H, H^c$ such that $A \\subseteq H$ and $B \\subseteq H^c$. The halfspace separation problem is known to be NP-complete for the geodesic convexity of general graphs. We show that geodesic halfspace separation is polynomial for weakly bridged graphs, pseudo-modular graphs, and the basis graphs of matroids.",
-      "published": "2026-04-17",
-      "categories": [
-        "cs.DM",
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
       ]
     },
     {
@@ -2337,25 +2151,6 @@
         "math.ST"
       ],
       "tags": []
-    },
-    {
-      "id": "2604.14854",
-      "url": "https://arxiv.org/abs/2604.14854",
-      "title": "Towards Optimal Passive Feedback Control of LTI Systems under LQR Performance",
-      "authors": [
-        "Armin Gießler",
-        "Pol Jané-Soneira",
-        "Sören Hohmann"
-      ],
-      "abstract": "We study state-feedback design for continuous-time LTI systems with a control input and an external input-output pair. Our objective is to determine feedback gains that render the closed-loop system (strictly) passive with respect to the external port while minimizing the standard LQR cost in the disturbance-free case. The resulting constrained optimization problem is intractable due to bilinear matrix inequalities. We analyze the set of passivating gains, showing it is unbounded, possibly nonconvex, path-connected, and contractible. We propose an indirect approach, in which the set of passivating feedback gains is inner-approximated by a compact, convex polytope. A projected gradient flow is employed to compute a gain within this polytope that minimizes the LQR cost. Numerical examples illustrate the effectiveness of the method.",
-      "published": "2026-04-16",
-      "categories": [
-        "math.OC",
-        "eess.SY"
-      ],
-      "tags": [
-        "convex polytope"
-      ]
     },
     {
       "id": "2604.14122",
@@ -2704,22 +2499,6 @@
       ],
       "tags": [
         "graph neural network"
-      ]
-    },
-    {
-      "id": "2604.12417",
-      "url": "https://arxiv.org/abs/2604.12417",
-      "title": "Submodular Max-Min Allocation under Identical Valuations",
-      "authors": [
-        "Kimon Boehmer"
-      ],
-      "abstract": "In the problem of Submodular Max-Min Allocation, we are given a set of items, a set of players, and monotone submodular valuation functions that represent the satisfaction of a player with a certain subset of items. The goal is to find an allocation of the items to the players that maximizes the lowest satisfaction among all players. We study this problem in the special case where all players have the same valuation function. We devise a greedy algorithm which gives a $0.4$-approximation, improving the previously best factor of $\\frac{10}{27} \\approx 0.37$ by Uziahu and Feige. Furthermore, we study the integrality gap of the \\emph{configuration LP} when players have identical valuations. By constructing a variable assignment to the dual from a primal integral solution, we give the first constant upper bound on the integrality gap for submodular valuations. Generalizing the result to the case where players' allocations must be independent in $k$ given matroids, we derive a $\\mathcal{O}(k)$-estimation algorithm for max-min allocation subject to $k$ matroid constraints under identical valuations.",
-      "published": "2026-04-14",
-      "categories": [
-        "cs.DS"
-      ],
-      "tags": [
-        "matroid"
       ]
     },
     {
@@ -3435,22 +3214,6 @@
       ]
     },
     {
-      "id": "2604.07104",
-      "url": "https://arxiv.org/abs/2604.07104",
-      "title": "Asymptotically optimal lower bounds on weak saturation numbers for hypergraphs",
-      "authors": [
-        "Nikolai Terekhov"
-      ],
-      "abstract": "Given an $r$-uniform hypergraph $H$ and a positive integer $n$, the weak saturation number $\\mathrm{wsat}(n,H)$ is the minimum number of edges in an $r$-uniform hypergraph $F$ on $n$ vertices such that the missing edges in $F$ can be added, one at a time, so that each added edge creates a copy of $H$. For the case of graphs ($r = 2$), asymptotically optimal general lower bounds for these numbers in terms of the minimum vertex degree of $H$ are known. In this work, we generalize these bounds to the case of hypergraphs and establish their asymptotic optimality. To prove this, we introduce a lower bound method based on polymatroids. This method generalizes a linear algebraic method but, unlike the original version, makes it possible to derive lower bounds with non-integer asymptotic coefficients.",
-      "published": "2026-04-08",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2604.05976",
       "url": "https://arxiv.org/abs/2604.05976",
       "title": "Analytic and combinatorial approaches to a weighted Catalan sum",
@@ -3589,25 +3352,6 @@
         "math.CO"
       ],
       "tags": []
-    },
-    {
-      "id": "2604.06479",
-      "url": "https://arxiv.org/abs/2604.06479",
-      "title": "Stability and ribbon bases for the rank-selected homology of geometric lattices",
-      "authors": [
-        "Patricia Hersh",
-        "Sheila Sundaram"
-      ],
-      "abstract": "This paper analyzes the representation theoretic stability, in the sense of Thomas Church and Benson Farb, of the rank-selected homology of the Boolean lattice and the partition lattice, proving sharp uniform representation stability bounds in both cases. It proves a conjecture of the first author and Reiner by giving the sharp stability bound for general rank sets for the partition lattice. Along the way, a new homology basis sharing useful features with the polytabloid basis for Specht modules is introduced for the rank-selected homology and for the rank-selected Whitney homology of any geometric lattice, resolving an old open question of Björner. These bases give a matroid theoretic analogue of Specht modules.",
-      "published": "2026-04-07",
-      "categories": [
-        "math.CO",
-        "math.AT",
-        "math.RT"
-      ],
-      "tags": [
-        "matroid"
-      ]
     },
     {
       "id": "2604.14211",
@@ -4131,42 +3875,6 @@
       ]
     },
     {
-      "id": "2604.02611",
-      "url": "https://arxiv.org/abs/2604.02611",
-      "title": "Stochastic Function Certification with Correlations",
-      "authors": [
-        "Rohan Ghuge",
-        "Jai Moondra",
-        "Mohit Singh"
-      ],
-      "abstract": "We study the Stochastic Boolean Function Certification (SBFC) problem, where we are given $n$ Bernoulli random variables $\\{X_e: e \\in U\\}$ on a ground set $U$ of $n$ elements with joint distribution $p$, a Boolean function $f: 2^U \\to \\{0, 1\\}$, and an (unknown) scenario $S = \\{e \\in U: X_e = 1\\}$ of active elements sampled from $p$. We seek to probe the elements one-at-a-time to reveal if they are active until we can certify $f(S) = 1$, while minimizing the expected number of probes. Unlike most previous results that assume independence, we study correlated distributions $p$ and give approximation algorithms for several classes of functions $f$. When $f(S)$ is the indicator function for whether $S$ is the spanning set of a given matroid, our problem reduces to finding a basis of active elements of a matroid by probing elements. We give a non-adaptive $O(\\log n)$-approximation algorithm for arbitrary distributions $p$, and show that this is tight up to constants unless P $=$ NP, even for partition matroids. For uniform matroids, we give constant factor $4.642$-approximation ([BBFT20]) that can be further improved to a $2$-approximation if additionally the random variables are negatively correlated for the case of $1$-uniform matroid. We also give an adaptive $O(\\log k)$-approximation algorithm for SBFC for $k$-uniform matroids for the Graph Probing problem, where we seek to probe the edges of a graph one-at-a-time until we find $k$ active edges. The underlying distribution on edges arises from (hidden) independent vertex random variables, with an edge being active if at least one of its endpoints is active. This significantly improves over the information-theoretic lower bound on $Ω(\\mathrm{poly}(n))$ ([JGM19]) for adaptive algorithms for $k$-uniform matroids with arbitrary distributions.",
-      "published": "2026-04-03",
-      "categories": [
-        "cs.DS"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
-      "id": "2604.03419",
-      "url": "https://arxiv.org/abs/2604.03419",
-      "title": "Adaptive Threshold-Driven Continuous Greedy Method for Scalable Submodular Optimization",
-      "authors": [
-        "Mohammadreza Rostami",
-        "Solmaz S. Kia"
-      ],
-      "abstract": "Submodular maximization under matroid constraints is a fundamental problem in combinatorial optimization with applications in sensing, data summarization, active learning, and resource allocation. While the Sequential Greedy (SG) algorithm achieves only a $\\frac{1}{2}$-approximation due to irrevocable selections, Continuous Greedy (CG) attains the optimal $\\bigl(1-\\frac{1}{e}\\bigr)$-approximation via the multilinear relaxation, at the cost of a progressively dense decision vector that forces agents to exchange feature embeddings for nearly every ground-set element. We propose \\textit{ATCG} (\\underline{A}daptive \\underline{T}hresholded \\underline{C}ontinuous \\underline{G}reedy), which gates gradient evaluations behind a per-partition progress ratio $η_i$, expanding each agent's active set only when current candidates fail to capture sufficient marginal gain, thereby directly bounding which feature embeddings are ever transmitted. Theoretical analysis establishes a curvature-aware approximation guarantee with effective factor $τ_{\\mathrm{eff}}=\\max\\{τ,1-c\\}$, interpolating between the threshold-based guarantee and the low-curvature regime where \\textit{ATCG} recovers the performance of CG. This shows that the problem structure, as captured by curvature, determines the amount of coordination and communication required to approach full-CG performance. Experiments on a class-balanced prototype selection problem over a subset of the CIFAR-10 animal dataset show that \\textit{ATCG} achieves objective values comparable to those of the full CG method while substantially reducing communication overhead through adaptive active-set expansion.",
-      "published": "2026-04-03",
-      "categories": [
-        "cs.LG",
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2604.01748",
       "url": "https://arxiv.org/abs/2604.01748",
       "title": "Largest-loop-first loop-erased random walk on $\\mathbb{Z}^{4}$",
@@ -4358,23 +4066,6 @@
         "math.PR"
       ],
       "tags": []
-    },
-    {
-      "id": "2604.02480",
-      "url": "https://arxiv.org/abs/2604.02480",
-      "title": "Piecewise linear functions and neural network expressivity via discriminantal arrangements",
-      "authors": [
-        "Pragnya Das"
-      ],
-      "abstract": "We extend the hyperplane arrangement framework for neural network expressivity from the braid to discriminantal arrangements. Compatible piecewise linear functions are characterized by circuit relations and admit a matroidal description via Mobius inversion, with dimension equal to the number of independent sets. For circuits of size three, functions are determined by values on subsets of size at most two.",
-      "published": "2026-04-02",
-      "categories": [
-        "math.CO",
-        "math.AG"
-      ],
-      "tags": [
-        "matroid"
-      ]
     },
     {
       "id": "2604.01061",

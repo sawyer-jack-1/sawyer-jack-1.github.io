@@ -1,6 +1,6 @@
 {
   "month": "2026-06",
-  "generated_at": "2026-09-19T03:56:32+00:00",
+  "generated_at": "2026-09-19T04:03:03+00:00",
   "source": "arXiv metadata API",
   "papers": [
     {
@@ -128,24 +128,6 @@
         "math.CO"
       ],
       "tags": []
-    },
-    {
-      "id": "2606.31894",
-      "url": "https://arxiv.org/abs/2606.31894",
-      "title": "On the degree of subvarieties on abelian varieties",
-      "authors": [
-        "Philip Engel",
-        "Stefan Schreieder"
-      ],
-      "abstract": "Let $(X,Θ)$ be a very general principally polarized abelian variety of dimension $g$, and consider the minimal cohomology class $θ_k=[Θ]^k/k!$ for $k<g$. We show that the minimal positive multiple of $θ_k$ which is algebraic is divisible by all primes $p\\leq (k+1)/2$. In particular, these minimal multiples grow exponentially with $k$. Our main result follows from [EGFS25] together with a new combinatorial result about $\\mathbb F_p$-solutions of certain graphic matroids in their own Albanese graphs.",
-      "published": "2026-06-30",
-      "categories": [
-        "math.AG",
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
-      ]
     },
     {
       "id": "2606.29829",
@@ -983,23 +965,6 @@
       ]
     },
     {
-      "id": "2606.27273",
-      "url": "https://arxiv.org/abs/2606.27273",
-      "title": "Linear Spaces over Perfect Idylls",
-      "authors": [
-        "Jeffery Liu"
-      ],
-      "abstract": "We construct a category of vector space-like objects called linear spaces over perfect idylls $k$ (an algebraic structure generalizing fields and hyperfields), which is a specialization of modules over $k$. Previous authors have noted that naive linear algebra in the product $k^n$ fails because linear independence does not satisfy matroid independence axioms. We give a sufficient axiom so that linear independence in $k$-linear spaces does satisfy matroid independence axioms. We also examine basic categorical properties of $k$-linear spaces. In particular, the category of $k$-linear spaces has no products, explaining the failure of naive linear algebra in $k^n$. Furthermore, we explore the categorical relationship between linear spaces over a perfect idyll, ordinary matroids, and matroids over a perfect idyll, connecting the existing theories of matroids and modules.",
-      "published": "2026-06-25",
-      "categories": [
-        "math.CO",
-        "math.AG"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2606.25521",
       "url": "https://arxiv.org/abs/2606.25521",
       "title": "Two-sample test with Wasserstein distance on Gaussian samples based on a log-normal approximation",
@@ -1365,26 +1330,6 @@
       ],
       "tags": [
         "graph neural network"
-      ]
-    },
-    {
-      "id": "2606.24529",
-      "url": "https://arxiv.org/abs/2606.24529",
-      "title": "An Erdős Matching Conjecture for Vector Spaces",
-      "authors": [
-        "Baoyan Feng",
-        "Chong Shangguan",
-        "Yulin Yang",
-        "Chenyang Zhang"
-      ],
-      "abstract": "We study a vector-space analogue of the Erdős Matching Conjecture. Let $m_q(n,k,s)$ denote the maximum cardinality of a family of $k$-dimensional subspaces of an $n$-dimensional vector space over $\\mathbb F_q$ with no $s+1$ members whose sum is direct. Two natural constructions provide lower bounds. The first consists of all $k$-subspaces contained in a fixed $((s+1)k-1)$-dimensional subspace; the second consists of all $k$-subspaces that intersect a fixed $s$-dimensional subspace nontrivially. These constructions motivate the following vector-space analogue of the Erdős Matching Conjecture: for all $n\\ge (s+1)k$, $$m_q(n,k,s)=\\max\\left\\{\\genfrac{[}{]}{0pt}{}{(s+1)k-1}{k}_q,~\\genfrac{[}{]}{0pt}{}{n}{k}_q-q^{ks}\\genfrac{[}{]}{0pt}{}{n-s}{k}_q\\right\\}.$$ We prove this conjecture when $k=2$, when $n=(s+1)k$, and when $n$ is sufficiently large. In particular, the case $k=2$ may be viewed as a vector-space analogue of the Erdős--Gallai theorem. In the large-$n$ range, we also prove a Hilton--Milner-type stability theorem, determining the largest nontrivial families with this property. Finally, we connect this problem with $t$-cover-free families in vector spaces and determine their extremal number up to a lower-order term, extending a recent result of Shan and Zhou for the special case $t=2$. The proofs combine Lovász's minimax theorem for matroid matchings, a high-dimensional Hoffman bound for uniform hypergraphs, and packing-design arguments in vector spaces.",
-      "published": "2026-06-23",
-      "categories": [
-        "math.CO",
-        "cs.IT"
-      ],
-      "tags": [
-        "matroid"
       ]
     },
     {
@@ -2154,23 +2099,6 @@
       ]
     },
     {
-      "id": "2606.18225",
-      "url": "https://arxiv.org/abs/2606.18225",
-      "title": "Directed Reachability-Preserving Minimum Edge Cut: Approximation and Planar Hardness",
-      "authors": [
-        "Qi Duan"
-      ],
-      "abstract": "We study a directed version of the three-terminal reachability-preserving minimum edge cut problem. Given a directed graph $G=(V,A)$ with arc costs and terminals $s_1,s_2,t$, the one-way directed RPMEC problem asks for a minimum-cost set of arcs whose deletion preserves the reachability $s_1\\leadsto s_2$ while destroying the reachability $s_1\\leadsto t$. We first give a path--cut formulation in terms of a rooted directed cut function. Using a root-linear approximation for the associated polymatroid, we obtain an $O(\\sqrt r)$-approximation, where $r$ is the number of relevant vertices with positive singleton cut value. In particular this gives an $O(\\sqrt n)$-approximation in general directed graphs. For acyclic directed graphs, we give an additional singleton-length algorithm and obtain an $O(\\min\\{\\sqrt r,h\\})$ guarantee, where $h$ is the maximum number of relevant vertices on an $s_1$-$s_2$ path. Finally, we prove that directed planar RPMEC is NP-hard, even on acyclic planar digraphs with nonnegative costs, by reducing from independent set on cubic planar graphs through a finite-bimodal directed node-cut construction and a planar node-to-edge split.",
-      "published": "2026-06-16",
-      "categories": [
-        "cs.DS",
-        "cs.CC"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2606.16530",
       "url": "https://arxiv.org/abs/2606.16530",
       "title": "Lin--Lu--Yau Ricci Curvature of Digraphs via Optimal Transport Couplings",
@@ -2724,28 +2652,6 @@
       ]
     },
     {
-      "id": "2606.13960",
-      "url": "https://arxiv.org/abs/2606.13960",
-      "title": "The Gröbner Version of White's Conjecture is False",
-      "authors": [
-        "Spencer Backman",
-        "Nathan Cheung",
-        "Michał Lasoń",
-        "Gaku Liu",
-        "Mateusz Michałek"
-      ],
-      "abstract": "We show that the toric ideal of the Fano matroid polytope does not have a quadratic Gröbner basis. This resolves in the negative a strong version of White's conjecture from matroid theory. This result was found independently by De Loera, Ferroni, Morales, and Rambau. Our approach is based on a new characterization of regular unimodular flag triangulations, which reduces the problem to an instance of SMT involving boolean and real variables. We then use an SMT solver to prove unsatisfiability. Using this approach, we also show that all 8-element matroids which do not have the Fano matroid or its dual as a minor, with the possible exception of the matroid $T_8$, have toric ideals which admit quadratic Gröbner bases.",
-      "published": "2026-06-11",
-      "categories": [
-        "math.CO",
-        "math.AC",
-        "math.MG"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2606.11547",
       "url": "https://arxiv.org/abs/2606.11547",
       "title": "Multiplicity of Laplacian eigenvalue 1 of a graph",
@@ -2965,40 +2871,6 @@
         "stat.ML"
       ],
       "tags": []
-    },
-    {
-      "id": "2606.12335",
-      "url": "https://arxiv.org/abs/2606.12335",
-      "title": "On a conjecture of Las Vergnas",
-      "authors": [
-        "Steven D. Noble",
-        "Gordon F. Royle"
-      ],
-      "abstract": "In 1988, Las Vergnas conjectured that if $M$ is a binary matroid with bicycle dimension $d$, then for $0 \\leq k \\leq d$, the $k$th derivative of the diagonal Tutte polynomial $T(M;z,z)$ evaluated at $z=-1$ is an integer multiple of $2^{d-k}$. While this was rapidly disproved for binary matroids and for graphs in general, extensive computations strongly suggested that it might be true for planar graphs. In this paper we prove that this is indeed the case. To do this, we consider a stronger divisibility property that we call the LV property, and a larger class of graphs, namely the class of delta-wye-reducible graphs. By a detailed analysis of how a delta-wye exchange affects the coefficients of the diagonal Tutte polynomial, we show that delta-wye-reducible graphs have the LV property. That Las Vergnas' conjecture holds for planar graphs immediately follows because planar graphs are delta-wye reducible and the LV property is stronger than Las Vergnas' divisibility conditions.",
-      "published": "2026-06-10",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
-      "id": "2606.12725",
-      "url": "https://arxiv.org/abs/2606.12725",
-      "title": "On partially matchable subspaces in a field extension",
-      "authors": [
-        "Mohsen Aliabadi",
-        "Jozsef Losonczy"
-      ],
-      "abstract": "We develop a theory of partial matchings between finite-dimensional subspaces $A,B$ in a field extension $K \\subsetneq L$, providing structural, quantitative, and extremal results for their deficiency. Our main results include (1) a characterization of those pairs $(A,B)$ that are partially matchable up to a specified defect, (2) a decomposition theorem for pairs $(A,B)$ having positive deficiency, (3) an existence criterion for pairs having a prescribed dimension and satisfying a deficiency bound, and (4) a formula for the maximum attainable deficiency at each dimension, assuming $1 \\notin B$ and the extension has a proper nontrivial intermediate field of finite $K$-dimension. We use these results to recover and extend various parts of this area of matching theory. Our approach blends algebraic techniques with tools from matroidal transversal theory, and utilizes a linearized version of the $e$-transform from additive number theory.",
-      "published": "2026-06-10",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
-      ]
     },
     {
       "id": "2606.11068",
@@ -3225,26 +3097,6 @@
       ]
     },
     {
-      "id": "2606.11494",
-      "url": "https://arxiv.org/abs/2606.11494",
-      "title": "Epistemic fair division of independence structures",
-      "authors": [
-        "Marcin Anholcer",
-        "Maciej Bartkowiak",
-        "Bartłomiej Bosek",
-        "Jarosław Grytczuk"
-      ],
-      "abstract": "We study the problem of fair division of indivisible goods with constraints imposed by a prescribed independence structure, that is, a family of subsets of goods closed under taking subsets. As a motivating example, imagine that the goods to be divided are the available connections in a logistic, financial, or social network. The admissible bundle of goods for each agent must correspond to an acyclic set of edges, corresponding to a basic feasible solution to a linear network problem to be solved. Suppose that all agents assign the same value to each good (in the example, the network connections are equally important for every agent) and evaluate each bundle by summing the values of its goods. Is there a fair partition of the goods into such acyclic bundles? Surprisingly, the answer is yes, provided that the number of agents is at least the arboricity of $G$, and the fairness requirement is envy-freeness up to one good (EF1). The situation becomes more mysterious when agents have arbitrary additive valuations. Our main result guarantees that, in this case, epistemic EF1 partitions always exist, which means that each agent receives an acyclic bundle for which there exists a feasible partition of the remaining goods into acyclic bundles that they do not envy up to one good. We derive this conclusion from a general result for abstract independence structures defined on the sets of goods. We also discuss connections with several conjectures concerning matroids. In particular, we prove that any Hamiltonian matroid partitionable into two independent sets admits an EF1 bipartition with respect to a common monotone valuation. We complement our results with a constructive perspective: we present explicitly two algorithms for computing the fair allocations described above. Finally, we provide illustrative examples to demonstrate these algorithms on specific instances.",
-      "published": "2026-06-09",
-      "categories": [
-        "math.OC",
-        "econ.TH"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2606.09488",
       "url": "https://arxiv.org/abs/2606.09488",
       "title": "The temporal stochastic block model",
@@ -3391,25 +3243,6 @@
         "stat.ML"
       ],
       "tags": []
-    },
-    {
-      "id": "2606.10192",
-      "url": "https://arxiv.org/abs/2606.10192",
-      "title": "Submodular Optimization with Applications to Decision and Control",
-      "authors": [
-        "Shamak Dutta",
-        "Bahman Gharesifard",
-        "Stephen L. Smith"
-      ],
-      "abstract": "Submodular set functions, characterized by the diminishing-returns property, provide a unifying combinatorial framework for many subset-selection problems in decision and control. Although exact maximization is NP-hard in general, the structural properties of submodular functions enable simple greedy algorithms that achieve constant-factor approximation guarantees for monotone objectives, with randomized greedy-based variants extending such guarantees to the non-monotone case. This survey reviews the theory, algorithms, and applications of submodular optimization with a focus on systems and control. We cover the structural properties of submodular functions, including curvature and the submodularity ratio, the constraint families that arise in practice (matroids, knapsack, and $p$-systems), and the main approximation algorithms for monotone and non-monotone submodular maximization, with up-to-date approximation ratios and hardness results. We then survey applications across sensor scheduling, multi-agent coordination, robust submodular optimization, leader-follower systems, distributed submodular optimization, game theory, system theory, resource allocation, social networks, and informative path planning. The survey emphasizes practically implementable greedy-based algorithms and instance-dependent refinements via curvature and the submodularity ratio. We close with observations on canonical control-theoretic objectives: certain functionals are submodular (the log-determinant and rank of the controllability Gramian, and the log-determinant of the Kalman filter information matrix), whereas closely related objectives fail to be sub- or supermodular (the steady-state Kalman filter error covariance, and the average control energy obtained from the inverse Gramian). We also highlight the cross-cutting open directions that follow.",
-      "published": "2026-06-08",
-      "categories": [
-        "math.OC",
-        "eess.SY"
-      ],
-      "tags": [
-        "matroid"
-      ]
     },
     {
       "id": "2606.08884",
@@ -3563,22 +3396,6 @@
       ],
       "tags": [
         "normalized Laplacian"
-      ]
-    },
-    {
-      "id": "2606.08328",
-      "url": "https://arxiv.org/abs/2606.08328",
-      "title": "Optimal Online Equitable Allocation with Indivisible Resources",
-      "authors": [
-        "Ramiro N. Deo-Campo Vuong"
-      ],
-      "abstract": "Equitable allocation of indivisible goods to agents in online settings is an algorithmic primitive with applications for load balancing, network routing, online marketplaces, and multi-agent systems. We consider a general setting in which allocations are constrained to be bases of discrete polymatroids that arrive online. Our work demonstrates that a simple, myopic algorithm called Brick-Laying, which greedily minimizes the sum of squared loads on agents, achieves a universal and objective-free notion of optimality called majorization minimax-optimality [BDK26] for this setting. As a consequence, Brick-Laying simultaneously guarantees minimax optimal competitive ratios and regret for all Schur-concave and Schur-convex objectives, and for any number of agents and resources (despite being agnostic to problem scale). Departing from popular primal-dual analysis, we employ majorization to compare allocations. We leverage the conjugates of integer partitions -- which act as a discrete dual to majorization -- to characterize worst-case instances for the Brick-Laying algorithm. Our approach reveals a novel structural connection between the geometry of partitions and online equitable allocation.",
-      "published": "2026-06-06",
-      "categories": [
-        "cs.DS"
-      ],
-      "tags": [
-        "matroid"
       ]
     },
     {
@@ -3746,23 +3563,6 @@
       ],
       "tags": [
         "spanning tree"
-      ]
-    },
-    {
-      "id": "2606.07045",
-      "url": "https://arxiv.org/abs/2606.07045",
-      "title": "Chamber Decompositions of Moment Polytopes for Torus Actions of Positive Complexity",
-      "authors": [
-        "Matvey Sergeev"
-      ],
-      "abstract": "The present work develops the results of the series of papers by Buchstaber and Terzić on the standard actions of the compact torus $T^n = (S^1)^n$ on the complex Grassmann manifolds $G_{n,2}$. In those works, a hyperplane arrangement in $\\mathbb{R}^n$ was introduced that determines the chamber decomposition of the hypersimplex $Δ_{n,2}$ for the $T^n$-action on $G_{n,2}$. We introduce a notion of admissible graph for the standard action of the torus $T^n$ on the complex Grassmannian $G_{n,2}$. In terms of admissible graphs, we give a complete inductive description (with respect to $n \\ge 4$) of the admissible polytopes in $Δ_{n,2}$, as well as of the toric varieties arising as closures of $(\\mathbb{C}^*)^n$-orbits on $G_{n,2}$ under the standard $(\\mathbb{C}^*)^n$-action. We consider the $T^n$-equivariant Plücker embedding $G_{n,2} \\hookrightarrow \\mathbb{C}P^{N_2}$, where $N_2 = \\binom{n}{2}-1$. Using admissible graphs, for the considered $T^n$-actions, we describe hyperplane arrangements in $\\mathbb{R}^n$ that determine the chambers in $Δ_{n,2}$ for the $T^n$-actions on $G_{n,2}$ and $\\mathbb{C}P^{N_2}$. Gel'fand, Kapranov, and Zelevinsky introduced the notions of secondary polytopes and secondary fans in connection with the problem of describing triangulations of a given convex polytope, which is closely related to the Newton polytopes of discriminants and resultants. For the $T^n$-action on $\\mathbb{C}P^{N_2}$, we show that the cones in $\\mathbb{R}^n$ with vertex at the origin spanned by the chambers form the secondary fan of the cone spanned by the vertices of $Δ_{n,2}$.",
-      "published": "2026-06-05",
-      "categories": [
-        "math.AT",
-        "math.CO"
-      ],
-      "tags": [
-        "convex polytope"
       ]
     },
     {
@@ -4053,29 +3853,6 @@
       ],
       "tags": [
         "graph neural network"
-      ]
-    },
-    {
-      "id": "2606.04946",
-      "url": "https://arxiv.org/abs/2606.04946",
-      "title": "A General Framework for Dynamic Consistent Submodular Maximization",
-      "authors": [
-        "Paul Dütting",
-        "Federico Fusco",
-        "Silvio Lattanzi",
-        "Ashkan Norouzi-Fard",
-        "Ola Svensson",
-        "Morteza Zadimoghaddam"
-      ],
-      "abstract": "Consistency is an important property in dynamic submodular maximization and entails maintaining a near-optimal solution at all times, making only a small number of adjustments to the solution in each step. Prior work has explored this question for the insertion-only case, where the algorithm faces a stream of $n$ insertions, and has established lower and upper bounds for the cardinality-constrained version of the problem. We consider this question in the fully dynamic setting, where the stream of operations may contain both insertions and deletions. We develop a general framework for designing algorithms for this setting, and instantiate it to obtain the first constant-factor approximations with sublinear consistency. For cardinality constraints, we propose a $\\frac 12 - O(\\varepsilon)$ approximation that is $O\\left(\\frac{1}{\\varepsilon^2}\\right)$ consistent. For rank-$k$ matroid constraints, we construct a $\\frac 14 - O(\\varepsilon)$ approximation to the dynamic optimum that is $O\\left(\\frac{\\log k}{\\varepsilon^2}\\right)$ consistent.",
-      "published": "2026-06-03",
-      "categories": [
-        "cs.DS",
-        "cs.LG",
-        "stat.ML"
-      ],
-      "tags": [
-        "matroid"
       ]
     },
     {
@@ -4442,24 +4219,6 @@
       ],
       "tags": [
         "graph neural network"
-      ]
-    },
-    {
-      "id": "2606.01684",
-      "url": "https://arxiv.org/abs/2606.01684",
-      "title": "Submodular flows and extreme flows on measurable spaces",
-      "authors": [
-        "Jing Yu",
-        "Junchi Zhang",
-        "Mingyang Zhou"
-      ],
-      "abstract": "The theory of submodular flows, introduced by Edmonds and Giles, is a cornerstone of combinatorial optimization, unifying network flows, matroid intersections and directed cut coverings. In this paper, we establish a measurable-space version of this framework, addressing the structural existence and duality questions raised as part of Problem~10.6 by Lovász in \\textit{Submodular setfunctions on sigma-algebras, version 2}. We develop a theory of submodular flows on standard Borel spaces and establish the measurable analogues of the existence and optimality theorems. Furthermore, we introduce a measurable notion of the residual graph and characterize extreme flows by combining a base-polytope intersection condition with an acyclicity condition for the measurable residual graph, generalizing the discrete geometric intuition to the infinite-dimensional setting. Finally, we apply the theory to constrained supply-demand problems on measurable bipartite graphs and to fractional measurable orientations.",
-      "published": "2026-06-01",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
       ]
     }
   ]

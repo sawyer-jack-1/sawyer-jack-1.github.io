@@ -1,6 +1,6 @@
 {
   "month": "2026-09",
-  "generated_at": "2026-09-19T03:56:32+00:00",
+  "generated_at": "2026-09-19T04:03:03+00:00",
   "source": "arXiv metadata API",
   "papers": [
     {
@@ -245,24 +245,6 @@
         "math.PR"
       ],
       "tags": []
-    },
-    {
-      "id": "2609.19528",
-      "url": "https://arxiv.org/abs/2609.19528",
-      "title": "Universal set families for maximization of nonnegative submodular and XOS functions",
-      "authors": [
-        "Chandra Chekuri",
-        "Richard Ueltzen",
-        "Jan Vondrak"
-      ],
-      "abstract": "We consider the question of designing a universal family of sets $F \\subset 2^{[n]}$ such that for any function $f:2^{[n]} \\to R_{\\geq 0}$ in a certain class, we have $$\\max_{S \\in F} f(S) \\geq c(n) \\cdot \\max_{S \\subset [n]} f(S).$$ We prove that there is a family of subpolynomial size such that for any nonnegative submodular function, $c(n) = Ω(\\frac{\\log \\log n}{\\log n})$, and there is a family of logarithmic size such that $c(n) = Ω(\\frac{1}{\\log n})$. We also prove that pairwise independence (which achieves a constant factor for graph cut functions), or even $k$-wise independence, does not imply a bound better than $O(\\frac{1}{\\sqrt{\\log n}})$ for submodular functions. On the other hand, we prove that for any polynomially representable subclass of nonnegative submodular functions (such as the matroid connectivity functions for matroid representable over $F_q$), a constant-factor universal family of polynomial size always exists. For absolute XOS functions (a class that we introduce, in the form $f(S) = \\max_i |\\sum_{j \\in S} w_{ij} + c_i|$ where $w_{ij}, c_i \\in R$), we design a family of polynomial size such that $c(n) \\geq \\sqrt{\\frac{\\log n}{n}}$, and prove that there is no polynomial-size family achieving a factor better than $O(\\sqrt{\\frac{\\log n}{n}})$.",
-      "published": "2026-09-17",
-      "categories": [
-        "cs.DS"
-      ],
-      "tags": [
-        "matroid"
-      ]
     },
     {
       "id": "2609.18643",
@@ -701,24 +683,6 @@
       ],
       "tags": [
         "graph neural network"
-      ]
-    },
-    {
-      "id": "2609.18071",
-      "url": "https://arxiv.org/abs/2609.18071",
-      "title": "Cohen-Macaulay higher conormal and Kähler differential modules of squarefree monomial ideals",
-      "authors": [
-        "Tài Huy Hà",
-        "Nguyen Cong Minh"
-      ],
-      "abstract": "Let $S=k[x_1,\\ldots,x_n]$ and let $I=I_Δ\\subsetneq S$ be a nonzero squarefree monomial ideal. Motivated by the classical higher-order Kähler differential modules and by the theory of higher conormal modules, we study not only the higher conormal quotients $I/I^q$, but more generally the shifted quotients $I^r/I^q$, $1\\le r<q$, in the same $I$-adic conormal filtration, together with their symbolic analogues $I^{(r)}/I^{(q)}$. We prove that, for every $1\\le r<q$ with $q\\ge3$, the module $I^r/I^q$ is Cohen--Macaulay if and only if $I$ is a complete intersection. In sharp contrast, $I^{(r)}/I^{(q)}$ is Cohen--Macaulay if and only if $Δ$ is a matroid, where loops are allowed. Thus, the Cohen--Macaulayness of a single nonexceptional window forces the Cohen--Macaulayness of every window in the corresponding filtration. The unique exceptional pair is $(r,q)=(1,2)$: at this conormal level, we show that the Cohen--Macaulayness of $I/I^2$ forces $I^2=I^{(2)}$, and hence $I/I^{(2)}$ is Cohen--Macaulay.",
-      "published": "2026-09-16",
-      "categories": [
-        "math.AC",
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
       ]
     },
     {
@@ -1492,24 +1456,6 @@
       "tags": []
     },
     {
-      "id": "2609.15850",
-      "url": "https://arxiv.org/abs/2609.15850",
-      "title": "Neither simpliciality nor mutation connectivity: conjectures of Las Vergnas and Cordovil-Las Vergnas fail",
-      "authors": [
-        "Qiyuan Gu",
-        "Kolja Knauer"
-      ],
-      "abstract": "We construct a simple rank-$7$ oriented matroid on $24$ elements with no simplicial tope, disproving the Las Vergnas simplex conjecture from 1980. We then show that the mutation graph on uniform oriented matroids is disconnected for infinitely many values of rank $r$ and ground-set size $n$, disproving the Cordovil--Las Vergnas conjecture from 1988.",
-      "published": "2026-09-14",
-      "categories": [
-        "math.CO",
-        "cs.DM"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2609.14753",
       "url": "https://arxiv.org/abs/2609.14753",
       "title": "A Superdiffusive Local Limit Theorem for the Elephant Random Walk and the Breakdown of Log-Concavity",
@@ -1707,23 +1653,6 @@
       ],
       "tags": [
         "dynamic graph"
-      ]
-    },
-    {
-      "id": "2609.14645",
-      "url": "https://arxiv.org/abs/2609.14645",
-      "title": "A short polyhedral proof of the infinitesimal Stoker conjecture",
-      "authors": [
-        "Martin Winter"
-      ],
-      "abstract": "The infinitesimal Stoker conjecture states that an infinitesimal deformation of a convex polytope that preserves all dihedral angles also preserves all normal directions up to isometry. We give a short polyhedral proof, self-contained up to assuming spectral and geometric properties of the Izmestiev matrix.",
-      "published": "2026-09-13",
-      "categories": [
-        "math.MG",
-        "math.CO"
-      ],
-      "tags": [
-        "convex polytope"
       ]
     },
     {
@@ -2068,44 +1997,6 @@
       ],
       "tags": [
         "graph neural network"
-      ]
-    },
-    {
-      "id": "2609.12414",
-      "url": "https://arxiv.org/abs/2609.12414",
-      "title": "Torus actions on compactified braid varieties and polytopality of subword complexes",
-      "authors": [
-        "Lara Bossinger",
-        "Mikhail Gorsky",
-        "José Simental"
-      ],
-      "abstract": "Every cluster variety admits an action of its cluster dilation group. We prove that, in the case of braid varieties for simple Lie groups, this action always extends to a regular action on each of the brick compactifications. We explore two applications of this result. First, we show that any closed Richardson variety admits a faithful action of a torus of rank the Kazhdan-Lusztig $d$-invariant, answering affirmatively a recent question of E. Gorsky--S. Kim--M. Sherman-Bennett. The same result holds for projected Richardson varieties. Second, we show that the braid variety is a torus if and only if for each of its brick compactifications, the polar dual of the moment polytope for this action realizes the corresponding subword complex. The braid words satisfying this property turn out to be precisely the double root free words of V. Pilaud and C. Stump. This provides a novel approach to the longstanding open question of the polytopality of spherical subword complexes asked by A. Knutson and E. Miller, and in particular gives infinite families of subword complexes admitting polytopal realizations in dimension higher than the rank of the corresponding Coxeter group. As a common consequence of these two applications, we classify all Bruhat intervals in finite crystallographic Coxeter groups which are isomorphic to face lattices of convex polytopes via certain double root free words.",
-      "published": "2026-09-11",
-      "categories": [
-        "math.AG",
-        "math.CO",
-        "math.RT"
-      ],
-      "tags": [
-        "convex polytope"
-      ]
-    },
-    {
-      "id": "2609.12483",
-      "url": "https://arxiv.org/abs/2609.12483",
-      "title": "The affine Tverberg theorem revisited",
-      "authors": [
-        "Sergey Avvakumov",
-        "Roman Karasev"
-      ],
-      "abstract": "We prove the Bárány--Kalai--Tverberg conjecture extending the affine version of Tverberg's theorem to simplicial balls and polytopes other than the simplex: For any affine map $φ: P\\to \\mathbb R^d$ from a convex polytope $P$ of dimension $N=(d+1)(r-1)$ with $r\\geq 2$, there exist $r$ pairwise disjoint faces $F_1,\\ldots,F_r\\subset\\partial P$ such that $φ(F_1)\\cap\\dots\\capφ(F_r)\\neq\\varnothing$. A similar statement holds for a simplicial ball $P$ with $φ$ assumed affine on all of its faces.",
-      "published": "2026-09-11",
-      "categories": [
-        "math.CO",
-        "math.MG"
-      ],
-      "tags": [
-        "convex polytope"
       ]
     },
     {
@@ -2596,44 +2487,6 @@
       "tags": []
     },
     {
-      "id": "2609.10701",
-      "url": "https://arxiv.org/abs/2609.10701",
-      "title": "The $E_6$ Restricted Hyperplane Arrangement and its $E_7$ Shadow: Weyl Transport on a Minuscule Bruhat Poset",
-      "authors": [
-        "Saber Ahmed",
-        "Mboyo Esole"
-      ],
-      "abstract": "We study the restricted fan cut inside the dual fundamental Weyl chamber by the weights of a $27$-dimensional minuscule representation of $E_6$; the two such representations are dual and give the same arrangement. Only $11$ of the $27$ weights have kernels meeting its interior, and we prove that they determine the entire fan. It has exactly $14$ chambers and $18$ extreme rays, every chamber is a six-dimensional simplicial cone, and we determine all facets, rays, and incidence relations. The chamber count was previously obtained by Diaconescu and Entin; the simplicial structure, extreme rays, and incidence data are new. The geometry of the $27$ lines on a cubic surface then explains and organizes the resulting chamber architecture. We also enumerate all faces, compute both characteristic polynomials---the arrangement is not supersolvable---together with lattice indices and projective chamber volumes, and describe the oriented matroid. Our main result is representation-theoretic. A distinguished $14$-element visible subposet of the minuscule $\\mathbf{56}$ of $E_7$, defined entirely inside $E_7$, has Hasse diagram equal to the chamber adjacency graph of the $E_6$ arrangement. Three canonical $7+7$ splittings of it, of types $A_7$, $D_7$, and $E_7$, are the visible traces of Levi-center $\\mathfrak{u}(1)$-charge decompositions of the $\\mathbf{56}$ and reproduce the three level-$8$ decompositions on the $E_6$ side. More strongly, the simple-root labels on its covers, transported by minimal-length coset representatives, recover chamber by chamber all six facets and, globally, the $11$ active weight hyperplanes and the boundary walls of the dual Weyl chamber. Thus the $E_7$ shadow records not merely the chamber graph but, once matched with the independent $E_6$ classification, the full local wall architecture of $I(E_6,\\mathbf{27})$.",
-      "published": "2026-09-09",
-      "categories": [
-        "math.RT",
-        "hep-th",
-        "math.AG",
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
-      "id": "2609.10735",
-      "url": "https://arxiv.org/abs/2609.10735",
-      "title": "Long range divided differences, clusters, and Graham-positivity",
-      "authors": [
-        "Hunter Spink",
-        "Vasu Tewari"
-      ],
-      "abstract": "We study torus-orbit closures in the type $A$ complete flag variety naturally associated to cones in the positive cluster fan, together with their left $S_n$-translates. The torus-equivariant degree maps can be computed via composites of long-range divided difference operations encoded by noncrossing alternating forests, and we give combinatorial algorithms to expand the torus-equivariant homology classes into Graham-positive combinations of Schubert cycles. As applications we obtain combinatorial Graham-positive Schubert cycle expansions for all torus-invariant curves (generalizing the AJS-Billey formula for torus-fixed points), generic torus-orbit closures, and Richardson varieties for Bruhat intervals $[w,wc']$ where $c'\\le s_{n-1}s_{n-2}\\cdots s_1$. Projecting to Grassmannians we also obtain Graham-positive Grassmannian Schubert cycle decompositions of torus-orbit closures associated to lattice path matroids on permuted ground sets.",
-      "published": "2026-09-09",
-      "categories": [
-        "math.AG",
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2609.08519",
       "url": "https://arxiv.org/abs/2609.08519",
       "title": "Continuity for random walks in hyperbolic percolation: drift, entropy, and dimension",
@@ -3061,80 +2914,6 @@
       ]
     },
     {
-      "id": "2609.07184",
-      "url": "https://arxiv.org/abs/2609.07184",
-      "title": "Tensor network representations of discrete maximum entropy distributions via mean polytopes",
-      "authors": [
-        "Alex Goessmann",
-        "Martin Eigel"
-      ],
-      "abstract": "We present tensor network representations for discrete maximum entropy distributions under expectation constraints. To this end, we introduce Computation-Activation Networks (CompActNets), a tensor network architecture that subsumes exponential families. By leveraging the geometry of the convex polytope of realizable expectation vectors, we represent any maximum entropy distribution in the same architecture. We exploit the fact that proper faces of this polytope correspond to the boundary closure of exponential families, which restricts the distribution's support. We then derive explicit representations for the support within the CompActNet architecture. The proposed framework suggests tensor network ranks as complexity measures for faces. Finally, a case study on Boolean statistics links the geometry of 0/1-polytopes directly to propositional formulas.",
-      "published": "2026-09-07",
-      "categories": [
-        "math.ST",
-        "cs.AI",
-        "cs.LG",
-        "math.CO"
-      ],
-      "tags": [
-        "convex polytope"
-      ]
-    },
-    {
-      "id": "2609.07193",
-      "url": "https://arxiv.org/abs/2609.07193",
-      "title": "Maximum Matching-Match: Hardness and Approximation",
-      "authors": [
-        "Ilie Dumitru",
-        "Adrian Miclăuş",
-        "Alexandru Popa"
-      ],
-      "abstract": "In this paper, we study \\textsc{MaxMMP}, an optimization variant of the Matching-Match Puzzle introduced by Iburi and Uehara (FUN 2024). Given a graph, a partial vertex coloring, and a multiset of colored sticks, the goal is to complete the coloring and assign the sticks to graph edges so as to maximize the number of satisfied edges. We first prove that \\textsc{MaxMMP} is APX-hard by an reduction from \\textsc{Max-Cut}. The hardness already holds with two colors, no precolored vertices, and only bichromatic sticks. We then give a simple deterministic $\\frac{2}{c(c+1)}$-approximation for completely uncolored instances, improving to $\\frac{2}{c(c-1)}$ when all sticks are bichromatic. Next, we obtain a randomized $\\frac{1-\\frac{1}{e}}{2c}$-approximation for arbitrary instances with $c$ colors by reducing the remaining coloring choices to monotone submodular maximization under a partition matroid. On bipartite graphs, the approximation ratio improves to $\\frac{1-\\frac{1}{e}}{c}$. For every fixed $c$, we further obtain deterministic $\\frac{1}{2c}$ and $\\frac{1}{c}$-approximations on general and bipartite graphs, respectively, in time $n^{O(c^2)}$. Finally, for every fixed number of colors, we show that \\textsc{MaxMMP} can be solved exactly in time $n^{O(c^2)}$ on trees and on cographs.",
-      "published": "2026-09-07",
-      "categories": [
-        "cs.DS",
-        "cs.CC"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
-      "id": "2609.07767",
-      "url": "https://arxiv.org/abs/2609.07767",
-      "title": "Submodular Welfare under Routing Coupling: A Hierarchical Decomposition with Perturbation Guarantees",
-      "authors": [
-        "Joan Vendrell Gallart",
-        "Nhat-Minh Tang-Nguyen",
-        "Alan Kuhnle",
-        "Solmaz Kia"
-      ],
-      "abstract": "This paper studies joint submodular welfare maximization and routing over graphs, where agents select items under diminishing returns and transport them through a network with congestion-dependent costs. Although welfare maximization admits matroid-based approximations and routing reduces to shortest paths under modular costs, their coupling creates supermodular interactions that break separability. We show that, for fixed routing, the objective remains submodular in the allocation variable, enabling a principled decomposition. Building on this property, we propose the Welfare-based Hierarchical Routing Algorithm (WHIRL), which alternates between tractable routing and allocation updates. Routing is initialized through its modular counterpart, while supermodular effects are modeled as bounded perturbations. The method has finite convergence guarantees and approximation bounds that depend explicitly on the deviation from modular routing. Numerical results illustrate the impact of routing-induced coupling and show that WHIRL achieves a favorable tradeoff between solution quality and computational cost.",
-      "published": "2026-09-07",
-      "categories": [
-        "math.OC"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
-      "id": "2609.08007",
-      "url": "https://arxiv.org/abs/2609.08007",
-      "title": "Maximal Hamiltonicity of realization graphs of degree sequences",
-      "authors": [
-        "Jeffrey S. Baggett"
-      ],
-      "abstract": "We prove that the realization graph of every graphical degree sequence is maximally Hamiltonian: it is Hamilton-laceable when bipartite on more than one vertex, and Hamilton-connected otherwise. This answers Problem P59 of Mütze's survey of combinatorial Gray codes, and the Hamiltonicity question recorded as open by Barrus, in the strongest form either admits. The argument is an induction on the number of ground vertices, cutting the realization graph at a single ground vertex into fibers and the quotient they lie over. The proof is formalized in Lean 4 and checked by its kernel, with seven results cited from the literature and nothing else assumed. Its engine is a classification. The realizable neighborhoods of a ground vertex form a shifted family -- one closed under replacing an element by a smaller one -- and the quotient is the Johnson graph of that family. Such a Johnson graph can fail to be Hamilton-connected, and we determine exactly when: the failures are one explicit family of examples, the Y-families, and each of them fails between a single pair of its members. A shifted family with a greatest member never fails, and those families are exactly the shifted matroids, where the conclusion already follows from the theorem of Naddef and Pulleyblank on the graphs of 0/1-polytopes. The obstruction lives entirely outside the matroid case, which is why it has not been met before.",
-      "published": "2026-09-07",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2609.06818",
       "url": "https://arxiv.org/abs/2609.06818",
       "title": "The maximum relaxation time of a random walk on regular graphs",
@@ -3436,43 +3215,6 @@
       ],
       "tags": [
         "graph neural network"
-      ]
-    },
-    {
-      "id": "2609.05936",
-      "url": "https://arxiv.org/abs/2609.05936",
-      "title": "The Negami Polynomial and Broken-Circuit Stanley--Reisner Rings",
-      "authors": [
-        "Iwao Mizukai"
-      ],
-      "abstract": "We establish a direct connection between Seiya Negami's three-variable graph polynomial $f(G;t,x,y)$ and the Stanley-Reisner ring of the broken-circuit complex of the graphic matroid. For a connected loopless graph $G$, the chromatic specialization $f(G;q,-1,1)=P_G(q)$ together with Whitney's broken-circuit theorem yields \\[ h_{\\BC(G)}(z)=(-z)^r\\left[\\frac{f(G;q,-1,1)}{q}\\right]_{q=(z-1)/z},\\qquad r=|V(G)|-1. \\] For brevity, we call this explicit composite map the \\emph{Negami--Hilbert correspondence}. The underlying chromatic/characteristic-polynomial-to-broken-circuit-Hilbert-series relation is classical, and no claim of novelty is made for that underlying identity. We place the formulation in the context of works of Negami, Oxley, Whitney, Brylawski--Oxley, Proudfoot--Speyer, Llamas--Martínez-Bernal--Merino, and Berget. We then derive closed or low-degree formulas for cycles $C_n$, wheels $W_n$, complete graphs $K_n$, complete bipartite graphs $K_{m,n}$, strongly regular graphs, large-girth regular graphs, and Ramanujan graphs. Finally, as a first nontrivial construction retaining the full three-variable Negami polynomial, we equip the squarefree edge algebra of the triangle $C_3$ with the graphic-matroid rank filtration and recover the complete polynomial $f(C_3;t,x,y)$ from the bigraded Hilbert polynomial of the associated graded algebra.",
-      "published": "2026-09-05",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
-      "id": "2609.06145",
-      "url": "https://arxiv.org/abs/2609.06145",
-      "title": "Bounded Ratios of Lorentzian Polynomials I: The Ternary Theory and Optimal Bounding Constants",
-      "authors": [
-        "Dijia Chen",
-        "Bowen Gan",
-        "Ivy Liu",
-        "Zemeng Wang",
-        "Chengzhi Wu"
-      ],
-      "abstract": "We study bounded ratios and optimal bounding constants among the normalized coefficients of ternary Lorentzian polynomials. For every fixed $M$-convex support and in arbitrary degree, we give an explicit presentation of the bounded-ratio cone in terms of quadratic Hessian slices. We then express the optimal bounding constants through a variational formula combining local support functions with linear compatibility constraints between slices. For full support, we determine all compatibility relations in arbitrary degree; in degree three, this yields explicit optimal constants for every two-generator section. Finally, we compare the resulting Lorentzian bounds with those for volume polynomials and rank-three matroid basis profiles.",
-      "published": "2026-09-05",
-      "categories": [
-        "math.CO",
-        "math.MG"
-      ],
-      "tags": [
-        "matroid"
       ]
     },
     {
@@ -4274,42 +4016,6 @@
       ]
     },
     {
-      "id": "2609.02778",
-      "url": "https://arxiv.org/abs/2609.02778",
-      "title": "Most $(0,1)$-polytopes are not normal",
-      "authors": [
-        "Santiago Morales"
-      ],
-      "abstract": "We prove that the proportion of $0/1$-equivalence classes of $d$-dimensional $(0,1)$-polytopes that are normal tends to zero at least at a double exponential rate as $d\\to\\infty$. As a consequence, the same holds for any of the following classes given by the type of triangulation possible: (a) quadratic, (b) flag unimodular, (c) regular unimodular, or (d) unimodular, among others. We classify the $0/1$-equivalence classes of $d$-dimensional $(0,1)$-polytopes for $d\\leq5$ according to whether they admit a unimodular, flag unimodular, or quadratic triangulation. In dimension five, exactly $175$ out of $1{,}226{,}525$ classes have a flag unimodular triangulation, but no quadratic triangulation. Among them, there are polytopes whose toric rings are not Koszul; thus, we find the first polytopes that have a flag unimodular triangulation, but whose toric ring is not Koszul. In contrast with the matroid case, we exhibit a delta-matroid polytope that is not normal.",
-      "published": "2026-09-02",
-      "categories": [
-        "math.CO",
-        "math.AC",
-        "math.AG"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
-      "id": "2609.02850",
-      "url": "https://arxiv.org/abs/2609.02850",
-      "title": "Chern flow and Chern moment algebras",
-      "authors": [
-        "Khai-Hoan Nguyen-Dang",
-        "Zhenpeng Wang"
-      ],
-      "abstract": "We construct realizable-volume models over every field for the factorial normalizations of homogeneous Lascoux, Lascoux-atom, and positive Grothendieck packets, including their minimal homogenizations and layers. In particular, the construction realizes the factorial normalizations of all Schubert and key polynomials and of the minimal sign-corrected homogeneous Grothendieck polynomials. The normalized polynomials are Lorentzian, and the ordinary supports are the lattice points of integral generalized polymatroids. On a Bott--Samelson tower, row and co-row filtrations assemble the local factors into globally generated bundles; a creation-state graph absorbs the remaining kernel factors by Chern flow. We also construct intrinsic algebras of joint Chern moments. Positive inverse-Chern presentations give these algebras Hard Lefschetz and Hodge--Riemann relations, and supply source-level Hodge completions of the packets. For globally generated tropical toric bundles in the sense of Kaveh--Manon, finite generating witnesses and matroid duality provide the presentations required by Larson--Partida's theorem, without representability. These constructions yield joint Chern-number inequalities, nonvanishing polymatroids, and equality criteria.",
-      "published": "2026-09-02",
-      "categories": [
-        "math.CO",
-        "math.AG"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2609.01283",
       "url": "https://arxiv.org/abs/2609.01283",
       "title": "Sensitivity Oracles for Matroid Packing, Matroid Covering, and Matching Problems with Applications",
@@ -4466,41 +4172,6 @@
         "math-ph"
       ],
       "tags": []
-    },
-    {
-      "id": "2609.00781",
-      "url": "https://arxiv.org/abs/2609.00781",
-      "title": "Palindromic real-rooted polynomials and $h$-vectors of polytopes",
-      "authors": [
-        "Peter L. Guo",
-        "Mingyang Kang"
-      ],
-      "abstract": "We prove that every monic palindromic real-rooted polynomial with nonnegative integer coefficients is the $h$-polynomial of a simplicial convex polytope. This resolves in the affirmative a longstanding problem circulated by Brenti since 2004.",
-      "published": "2026-09-01",
-      "categories": [
-        "math.CO",
-        "math.AC"
-      ],
-      "tags": [
-        "convex polytope"
-      ]
-    },
-    {
-      "id": "2609.01882",
-      "url": "https://arxiv.org/abs/2609.01882",
-      "title": "Coxeter Descents and Parabolic Homotopy Colimits: A Hochster-type decomposition and integral Morse reduction",
-      "authors": [
-        "Yifan Zhang"
-      ],
-      "abstract": "Let $(W,S)$ be a finite Coxeter system and let $\\mathcal K\\subseteq 2^S$ be a simplicial complex. We define a parabolic bar complex ${\\mathcal B}_{\\mathcal K}(W)$ and prove a decomposition indexed by $w\\in W$ in which the $w$-summand is a relative order-complex chain complex determined by the right descent set ${\\operatorname{Des}_{R}}(w)$. An explicit integral Morse reduction identifies this summand, up to the Schubert shift $2\\ell(w)+1$, with the augmented chains of the induced subcomplex $\\mathcal K_{{\\operatorname{Des}_{R}}(w)}$. For Weyl groups the complex is the cellular chain complex of \\[ {X_{\\mathcal K}}(G)={\\operatorname*{hocolim}}_{I\\in\\mathcal K} G/G_I, \\] so its homology is a descent-weighted Hochster decomposition. We prove functoriality and a homotopy-detection theorem for inclusions of indexing complexes, an Alexander-duality symmetry for generalized homology spheres, and, for simple $G$, a rigidity theorem characterizing the boundary simplex among the homology-sphere members of the family. For $G=(SU(2))^r$ the construction agrees up to homotopy with $(D^3,S^2)^{\\mathcal K}$, and matroid independence complexes give a Tutte-polynomial specialization. The boundary-simplex case recovers the two-generator integral Morse model of the unit adjoint sphere.",
-      "published": "2026-09-01",
-      "categories": [
-        "math.CO",
-        "math.AT"
-      ],
-      "tags": [
-        "matroid"
-      ]
     }
   ]
 }

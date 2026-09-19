@@ -1,6 +1,6 @@
 {
   "month": "2026-03",
-  "generated_at": "2026-09-19T03:56:32+00:00",
+  "generated_at": "2026-09-19T04:03:03+00:00",
   "source": "arXiv metadata API",
   "papers": [
     {
@@ -455,27 +455,6 @@
       ]
     },
     {
-      "id": "2603.27835",
-      "url": "https://arxiv.org/abs/2603.27835",
-      "title": "Geometry of ample/lopsided sets",
-      "authors": [
-        "Hans--Jürgen Bandelt",
-        "Victor Chepoi",
-        "Andreas Dress",
-        "Jack Koolen"
-      ],
-      "abstract": "Lopsided sets were introduced by Jim Lawrence in 1983 when he studied the subsets of $\\{-1,+1\\}^E$ that encode the intersection pattern of a convex set $K$ with the orthants of ${\\mathbb R}^E$. Lopsided sets have been independently rediscovered by several other authors, in particular by Andreas Dress in 1995, who called them \\emph{ample} sets. Dress defined ample sets as the set families satisfying equality in a combinatorial inequality, which holds for all set families. In a previous article we characterized ample sets in various combinatorial and graph-theoretical ways. In this paper we study geometric realizations of ample sets as cubihedra (cube complexes), which yields several new characterizations. One such characterization establishes that the cubihedra of ample sets endowed with the intrinsic $\\ell_1$-metric are exactly the isometric subspaces of $\\ell_1$-spaces (which we call, weakly convex sets). We also view the barycenter maps of faces of cubihedra of ample sets as collections of $\\{ \\pm 1, 0\\}$-sign vectors and, in analogy with the characterization of oriented matroids by the covectors and the cocircuits. Moreover, we characterize the collections of $\\{ \\pm 1, 0\\}$-sign vectors corresponding to barycenter maps of all faces and all maximal faces of an ample set. Furthermore, we show that any ample set $\\covectors\\subseteq \\{ -1,+1\\}^E$ is realizable as the intersection pattern of a weakly convex set $K$ with the orthants of ${\\mathbb R}^E$. All this testifies that the concept of ample sets is quite natural in the context of cube complexes.",
-      "published": "2026-03-29",
-      "categories": [
-        "math.CO",
-        "cs.DM",
-        "math.MG"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2603.27140",
       "url": "https://arxiv.org/abs/2603.27140",
       "title": "Viral Quasispecies Evolution as a Branching Random Walk on the Hypercube",
@@ -511,26 +490,6 @@
       ],
       "tags": [
         "random matrix"
-      ]
-    },
-    {
-      "id": "2603.27242",
-      "url": "https://arxiv.org/abs/2603.27242",
-      "title": "PHOEG: an online tool for discovery and education in extremal graph theory",
-      "authors": [
-        "Sébastien Bonte",
-        "Gauvain Devillez",
-        "Valentin Dusollier",
-        "Hadrien Mélot"
-      ],
-      "abstract": "Extremal Graph Theory heavily relies on exploring bounds and inequalities between graph invariants, a task complicated by the rapid combinatorial explosion of graphs. Various tools have been developed to assist researchers in navigating this complexity, yet they typically rely on heuristic, probabilistic, or non-exhaustive methods, trading exactness for scalability. PHOEG takes a different stance: rather than approximating, it commits to an exact approach. PHOEG is an interactive online tool (https://phoeg.umons.ac.be) designed to assist researchers and educators in graph theory. Building upon the exact geometrical approach of its predecessor, GraPHedron, PHOEG embeds graphs into a two-dimensional invariant space and computes their convex hull, where facets represent inequalities and vertices correspond to extremal graphs. PHOEG modernizes and expands this approach by offering a comprehensive web interface and API, backed by an extensive database of pairwise non-isomorphic graphs including all graphs up to order 10. Users can intuitively define invariant spaces by selecting a pair of invariants, apply constraints and colorations, visualize resulting convex polytopes, and seamlessly inspect the corresponding drawn graphs. In this paper, we detail the software architecture and new web-based features of PHOEG. Furthermore, we demonstrate its practical value in two primary contexts: in research, by illustrating its ability to quickly identify conjectures or counterexamples to conjectures, and in education, by detailing its integration into university-level coursework to foster student discovery of classical graph theory principles. Finally, this paper serves as a brief survey of the extremal results and conjectures established over the past two decades using this geometric approach.",
-      "published": "2026-03-28",
-      "categories": [
-        "math.CO",
-        "cs.DM"
-      ],
-      "tags": [
-        "convex polytope"
       ]
     },
     {
@@ -1385,27 +1344,6 @@
       ],
       "tags": [
         "random graph"
-      ]
-    },
-    {
-      "id": "2603.21532",
-      "url": "https://arxiv.org/abs/2603.21532",
-      "title": "Stationary Online Contention Resolution Schemes",
-      "authors": [
-        "Mohammad Reza Aminian",
-        "Rad Niazadeh",
-        "Pranav Nuti"
-      ],
-      "abstract": "Online contention resolution schemes (OCRSs) are a central tool in Bayesian online selection and resource allocation: they convert fractional ex-ante relaxations into feasible online policies while preserving each marginal probability up to a constant factor. Despite their importance, designing (near) optimal OCRSs is often technically challenging, and many existing constructions rely on indirect reductions to prophet inequalities and LP duality, resulting in algorithms that are difficult to interpret or implement. In this paper, we introduce \"stationary online contention resolution schemes (S-OCRSs),\" a permutation-invariant class of OCRSs in which the distribution of the selected feasible set is independent of arrival order. We show that S-OCRSs admit an exact distributional characterization together with a universal online implementation. We then develop a general `maximum-entropy' approach to construct and analyze S-OCRSs, reducing the design of online policies to constructing suitable distributions over feasible sets. This yields a new technical framework for designing simple and possibly improved OCRSs. We demonstrate the power of this framework across several canonical feasibility environments. In particular, we obtain an improved $(3-\\sqrt{5})/2$-selectable OCRS for bipartite matchings, attaining the independence benchmark conjectured to be optimal and yielding the best known prophet inequality for this setting. We also obtain a $1-\\sqrt{2/(πk)} + O(1/k)$-selectable OCRS for $k$-uniform matroids and a simple, explicit $1/2$-selectable OCRS for weakly Rayleigh matroids (including all $\\mathbb{C}$-representable matroids such as graphic and laminar). While these guarantees match the best known bounds, our framework also yields concrete and systematic constructions, providing transparent algorithms in settings where previous OCRSs were implicit or technically involved.",
-      "published": "2026-03-23",
-      "categories": [
-        "cs.GT",
-        "cs.DM",
-        "cs.DS",
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
       ]
     }
   ]

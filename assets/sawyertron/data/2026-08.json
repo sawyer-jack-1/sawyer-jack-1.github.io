@@ -1,6 +1,6 @@
 {
   "month": "2026-08",
-  "generated_at": "2026-09-19T03:56:32+00:00",
+  "generated_at": "2026-09-19T04:03:03+00:00",
   "source": "arXiv metadata API",
   "papers": [
     {
@@ -573,22 +573,6 @@
       "tags": []
     },
     {
-      "id": "2608.28585",
-      "url": "https://arxiv.org/abs/2608.28585",
-      "title": "The Tutte polynomial determines the linear coefficient of the Ehrhart polynomial",
-      "authors": [
-        "Erik Panzer"
-      ],
-      "abstract": "We prove a formula for the linear coefficient of the Ehrhart polynomial in terms of the Tutte polynomial. Furthermore, we characterize the matroids that extremize this Ehrhart coefficient, proving a conjecture of Ferroni.",
-      "published": "2026-08-28",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2608.27179",
       "url": "https://arxiv.org/abs/2608.27179",
       "title": "On Eigenvalue Bounds for Bounded Genus Graphs and Minor-Free Graphs",
@@ -1132,23 +1116,6 @@
       "tags": []
     },
     {
-      "id": "2608.25987",
-      "url": "https://arxiv.org/abs/2608.25987",
-      "title": "When are tropical multidegrees positive?",
-      "authors": [
-        "Yairon Cid-Ruiz"
-      ],
-      "abstract": "We study the positivity of the tropical multidegrees of a tropical variety contained in a product of real vector spaces. These multidegrees are obtained by stably intersecting the tropical variety with pullbacks of positive tropical divisors. We introduce projection-purity and facet-selectability, two conditions under which positivity is determined by the dimensions of the natural projections, and the support of the tropical multidegrees is precisely the set of lattice points of a polymatroid base polytope. This extends He's theorem for translation-admissible tropical varieties. We also show that these conditions alone do not force the corresponding tropical volume polynomial to be Lorentzian. By contrast, for the augmented Bergman fan of any polymatroid, the positive multidegrees are supported precisely on the lattice points of the polymatroid base polytope, and the tropical volume polynomial is Lorentzian for every sequence of positive tropical divisors.",
-      "published": "2026-08-26",
-      "categories": [
-        "math.AG",
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2608.24776",
       "url": "https://arxiv.org/abs/2608.24776",
       "title": "Dynamic Edge Orientation via Random Walks: From Trees to Outerplanar Graphs and Beyond",
@@ -1541,22 +1508,6 @@
       ]
     },
     {
-      "id": "2608.23647",
-      "url": "https://arxiv.org/abs/2608.23647",
-      "title": "A nowhere-zero point for several linear mappings simultaneously",
-      "authors": [
-        "Amir Jafari"
-      ],
-      "abstract": "Let $q=p^k$, and let $A_1,\\ldots,A_{r-1}$ be invertible $n\\times n$ matrices over ${\\mathbb F}_q$. We prove that, if $k\\ge r$, there is a vector $x$ for which \\[ x,A_1x,\\ldots,A_{r-1}x \\] are all nowhere zero. For $r=2$ this recovers the theorem of Alon and Tarsi over nonprime finite fields. The proof tracks one monomial in the product of the coordinate forms. Frobenius powers keep every exponent below $p^r$, and finite-field polynomial nonvanishing supplies the required vector. The same method treats rectangular matrices with independent rows and prescribed forbidden values. The method also gives an extension-degree criterion for representable matroids and clarifies an unpublished prime-field conjecture of M. J. Moghaddamzadeh. Projective-geometric examples explain why the analogous field-size statement fails over proper extensions and, translated back to matrices, give lower bounds for the large-field problem.",
-      "published": "2026-08-24",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2608.22308",
       "url": "https://arxiv.org/abs/2608.22308",
       "title": "Spanning trees in the Assignment Problem: two theorems and two conjectures",
@@ -1815,24 +1766,6 @@
       ]
     },
     {
-      "id": "2608.21855",
-      "url": "https://arxiv.org/abs/2608.21855",
-      "title": "Trapezoidality of flat arrangement polynomials",
-      "authors": [
-        "Yuan Gao",
-        "Tianyu Yuan"
-      ],
-      "abstract": "Fox's conjecture predicts that the absolute values of the coefficients of the Alexander polynomial of an alternating link form a trapezoidal sequence. Kálmán, Mészáros, and Postnikov gave a new proof of trapezoidality for special alternating links using a polynomial associated with flat vector arrangements. We prove that the flat arrangement polynomial has trapezoidal coefficients for every full-dimensional flat vector arrangement, answering the corresponding open question. Our proof gives a geometric interpretation of this polynomial in terms of convex polytopes. As an application, we prove that the Murasugi--Stoimenow polynomial of every connected Eulerian digraph has trapezoidal coefficients.",
-      "published": "2026-08-22",
-      "categories": [
-        "math.GT",
-        "math.CO"
-      ],
-      "tags": [
-        "convex polytope"
-      ]
-    },
-    {
       "id": "2608.20778",
       "url": "https://arxiv.org/abs/2608.20778",
       "title": "Resistance Curvature: Recognition, Polyhedral Structure, and Graph Products",
@@ -2057,42 +1990,6 @@
       ],
       "tags": [
         "spectral clustering"
-      ]
-    },
-    {
-      "id": "2608.20843",
-      "url": "https://arxiv.org/abs/2608.20843",
-      "title": "On the Greedoid Tutte Polynomial for simple rooted graphs",
-      "authors": [
-        "Jianxuan Luo",
-        "Tingzeng Wu",
-        "Hong-Jian Lai"
-      ],
-      "abstract": "The Tutte polynomial, through its rank-generating formula, provides a unified framework for describing various combinatorial structures of graphs and matroids, and serves as an important polynomial invariant connecting graph theory, matroid theory, and their related applications. Let $G=(V(G),E(G),r(G))$ be a simple rooted graph, where $V(G)$ is the vertex set, $E(G)$ is the edge set, and $r(G)$ is the root. Let $Γ(G)$ be the greedoid induced by the rooted graph $G$, and let its greedoid Tutte polynomial be denoted by $T(Γ(G);x,y)$. Let $r=r(G)$, $L_r(G)=\\{v\\in V(G)\\setminus\\{r\\}: rv\\in E(G),\\ d_G(v)=1\\}$, and $\\ell_r(G)=|L_r(G)|$. Gordon and McMahon proposed the following conjecture: for rooted graphs, $\\operatorname{ord}_{x}T(Γ(G);x,y)=\\ell_r(G)$, where $\\operatorname{ord}_{x}T(Γ(G);x,y)=\\max\\{a\\in\\mathbb Z_{\\geq0}:x^a\\mid T(Γ(G);x,y)\\}$, that is, the highest power of $x$ dividing $T(Γ(G);x,y)$ is equal to the number of leaf vertices adjacent to the root. In this paper, we proved that this conjecture holds for all simple rooted graphs.",
-      "published": "2026-08-21",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
-      "id": "2608.21526",
-      "url": "https://arxiv.org/abs/2608.21526",
-      "title": "Asymptotic entanglement in circle stabilizer states and states forbidding arbitrary vertex-minors",
-      "authors": [
-        "Kenneth Goodenough",
-        "Marcelo Sales"
-      ],
-      "abstract": "Stabilizer states play a central role in quantum information theory, and understanding their entanglement has motivated a large body of work. A well-studied question in particular is when a stabilizer state $|ψ\\rangle$ can be transformed into another stabilizer state $|φ\\rangle$ using only single-qubit Clifford operations and Pauli measurements. If this is possible, we say that $|φ\\rangle$ is a vertex-minor of $|ψ\\rangle$. Assuming Geelen's weak structural conjecture on vertex-minors, we establish the following general statement. For any fixed stabilizer state $|φ\\rangle$, the entanglement in stabilizer states $|ψ\\rangle$ that do not contain $|φ\\rangle$ as a vertex-minor is asymptotically constrained. More concretely, we show that the distance of any sufficiently rank-connected $|ψ\\rangle$ not containing $|φ\\rangle$ as a vertex-minor grows as $O(\\log n)$, and prove similar results for the so-called locally accessible information, a quantity that captures the amount of information that can be learned through single-qubit Pauli measurements. Our results rely on (i) connecting the above two entanglement measures to rank functions of multimatroids, (ii) connecting the rank functions of circle stabilizer states to rank functions on $4$-regular multigraphs, which asymptotically constrains the entanglement of circle stabilizer states, and (iii) using Geelen's weak structural conjecture on vertex-minors to `lift' the previous result to sufficiently connected states in proper vertex-minor-closed families of stabilizer states. Our results establish a connection between asymptotic stabilizer entanglement and forbidden vertex-minors, with direct implications for the entanglement that can be generated in quantum devices.",
-      "published": "2026-08-21",
-      "categories": [
-        "quant-ph",
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
       ]
     },
     {
@@ -2431,23 +2328,6 @@
       "tags": []
     },
     {
-      "id": "2608.18519",
-      "url": "https://arxiv.org/abs/2608.18519",
-      "title": "The radial derivative on the graded Möbius algebra",
-      "authors": [
-        "Thomas Sinclair"
-      ],
-      "abstract": "Let $M$ be a simple matroid and let $B(M)$ be the graded Möbius algebra of its lattice of flats. The ordered-basis weights of flats define an inner product for which the adjoints of atom multiplication become ordinary coordinate derivatives under the basis-polynomial realization. From this, we construct a canonical global lowering operator $D_β$ which acts as ordinary differentiation on a canonical ``radial'' copy of a truncated polynomial algebra. Allowing both $D_β$ and the coordinate derivatives to act produces a graded cyclic module with Hilbert series \\[ H_{β,M}(q)=\\sum_{k=0}^r h_k^β(M)q^k. \\] We give examples of matroids with the same Derksen $\\mathcal G$-invariant and the same classical apolar Hilbert series but different $H_β$. Hence $H_β$ cannot be the restriction to simple matroids of a valuative matroid invariant. We conjecture that $H_β$ is log-concave and top-heavy in differential degree. For the generalized theta family containing Larson's counterexample to Whitney log-concavity, we compute the first four coefficients and prove the critical log-concavity inequality. Exact computation verifies both conjectures for all $950$ simple matroids on eight elements.",
-      "published": "2026-08-19",
-      "categories": [
-        "math.CO",
-        "math.AC"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2608.18276",
       "url": "https://arxiv.org/abs/2608.18276",
       "title": "The branching random walk in a uniform magnetic field : magnetization concentration and overlap distributions",
@@ -2613,41 +2493,6 @@
       ],
       "tags": [
         "Wasserstein distance"
-      ]
-    },
-    {
-      "id": "2608.18003",
-      "url": "https://arxiv.org/abs/2608.18003",
-      "title": "Combinatorial Hodge Index Theorem for Polytopes",
-      "authors": [
-        "Jacob B. Wood"
-      ],
-      "abstract": "Toric varieties can be constructed from rational polytopes, and several invariants of toric varieties can be expressed in terms of the combinatorics of the corresponding polytope. Barthel-Brasselet-Fieseler-Kaup (BBFK) introduced combinatorial intersection cohomology for convex polytopes, which agrees with the intersection cohomology of the associated toric variety when the polytope is rational. Maxim-Schuermann computed the intersection cohomology signature of a projective toric variety, corresponding to the case of a polytope with rational vertices. Using the combinatorial framework of BBFK, we show that the Maxim-Schuermann formula extends to arbitrary convex polytopes. Finally, we discuss a version of the Hodge index theorem for polytopes.",
-      "published": "2026-08-18",
-      "categories": [
-        "math.AG",
-        "math.CO"
-      ],
-      "tags": [
-        "convex polytope"
-      ]
-    },
-    {
-      "id": "2608.18340",
-      "url": "https://arxiv.org/abs/2608.18340",
-      "title": "Matchings and product growth in modular abelian independence groups",
-      "authors": [
-        "Mohsen Aliabadi",
-        "Jozsef Losonczy"
-      ],
-      "abstract": "We unify two matching theories, one for finite subsets of groups and the other for finite-dimensional subspaces in a field extension. To achieve this, we study groups equipped with a compatible finitary matroid structure, termed here independence groups. Applying Rado's independent transversal theorem, we derive necessary and sufficient rank criteria for matchability between finite-rank sets. In the setting of a modular abelian independence group $G$, we develop an analogue of the $e$-transform from additive number theory, derive structural matching criteria, and characterize a global matching property by the absence of a submonoid $H$ satisfying $1<ρ(H)<ρ(G)$ and $ρ(H)<\\infty$, where $ρ$ denotes rank. Examples of modular abelian independence groups are given and examined in the matching context. Arising from this matching theory, but formulated without any reference to it, is a product-growth bound that generalizes the Cauchy--Davenport theorem: we define a parameter $μ(G)$ and prove that $ρ(XY)\\geq \\min\\{μ(G),ρ(X)+ρ(Y)-1\\}$ for all nonempty finite-rank subsets $X,Y$ of $G$. Furthermore, $ρ(XY)$ is shown to be controlled from below by a submonoid of $G$ that stabilizes a flat, a phenomenon reminiscent of Kneser's theorem.",
-      "published": "2026-08-18",
-      "categories": [
-        "math.CO",
-        "math.NT"
-      ],
-      "tags": [
-        "matroid"
       ]
     },
     {
@@ -3164,41 +3009,6 @@
       ]
     },
     {
-      "id": "2608.13972",
-      "url": "https://arxiv.org/abs/2608.13972",
-      "title": "Horospherically convex optimization for fractional subspace packing and its applications",
-      "authors": [
-        "Hiroshi Hirai"
-      ],
-      "abstract": "In this paper, we address a semi-infinite LP relaxation of the vector-subspace packing problem. This is a higher-dimensional generalization of the fractional linear matroid parity problem and is closely related to Brascamp-Lieb polytopes. We show that the dual of this LP can be formulated as ``linear programming on a Euclidean building,\" namely, the problem of minimizing a Busemann function over an intersection of horoballs. This provides a natural example of horospherically convex optimization, recently introduced by Goodwin et al. (2026) and Criscitiello and Kim (2025). By applying the incremental Busemann subgradient method, we obtain an additive FPTAS for the problem. As applications, we obtain a new and simpler polynomial-time algorithm for fractional linear matroid parity, and new algorithms for the membership problem of Brascamp-Lieb polytopes.",
-      "published": "2026-08-14",
-      "categories": [
-        "cs.DS"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
-      "id": "2608.14909",
-      "url": "https://arxiv.org/abs/2608.14909",
-      "title": "On the Log-submodularity for zonoids: from Mixed Volume inequalities to the Hypercube",
-      "authors": [
-        "Gennadiy Averkov",
-        "Katherina von Dichter",
-        "Ivan Soprunov"
-      ],
-      "abstract": "We prove a log-submodularity-type inequality for zonoids in $\\mathbb{R}^4$, extending the three-dimensional result of Fradelizi, Madiman, Meyer, and Zvavitch. More generally, we conjecture a log-submodularity-type inequality for zonoids in arbitrary dimension. This inequality admits several equivalent formulations in terms of volumes of coordinate projections as well as in terms of mixed volumes, thereby unifying several geometric perspectives. We reduce the conjectured inequality to a polynomial inequality whose variables are associated with the vertices of a hypercube and whose coefficients encode the volumes of 0/1 simplices. This reduction reveals unexpected connections between mixed volumes of zonoids, matroid theory, and real algebraic geometry.",
-      "published": "2026-08-14",
-      "categories": [
-        "math.MG",
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2608.13084",
       "url": "https://arxiv.org/abs/2608.13084",
       "title": "Branching random walk in random environment",
@@ -3540,26 +3350,6 @@
       ],
       "tags": [
         "graph neural network"
-      ]
-    },
-    {
-      "id": "2608.13033",
-      "url": "https://arxiv.org/abs/2608.13033",
-      "title": "From One Solution to Many: An Oracle-Based FPT Framework for Diverse Solutions under Generalized Diversity Measures",
-      "authors": [
-        "Pradeesha Ashok",
-        "Sobyasachi Chatterjee",
-        "Soumi Nandi",
-        "Saket Saurabh",
-        "Priyanshu Tiwari"
-      ],
-      "abstract": "The problem of computing \\emph{diverse} solutions has recently emerged as an important area of study, motivated by applications in fairness, robustness, and security. Instead of returning a single feasible or optimal solution, the goal is to output a \\emph{collection} of meaningfully different solutions, often measured by symmetric differences. Diverse variants have been studied using sparsification, network-flow reductions, and algebraic techniques. We investigate the fixed-parameter tractability of diverse variants of an implicit set-system problem. Given parameters $k$ and $r$ and a threshold $b$, the task is to compute $r$ feasible solutions, each of size at most $k$, whose diversity under a specified objective is at least $b$. Our main contribution is an oracle-based meta-theorem. We identify a broad class of objectives, called \\emph{consistently diverse}, that includes several standard measures. Assuming an \\emph{exact empty-extension oracle} given a forbidden set ${\\sf Forb}$, which returns a feasible solution of a prescribed size avoiding ${\\sf Forb}$ or reports that none exists, we obtain a fixed-parameter tractable algorithm parameterized by $k+r$. The algorithm makes at most $(2kr)^{kr} \\cdot r$ oracle calls, and in each call the oracle parameter satisfies $s+|{\\sf Forb}| \\leq k+2kr$. Our framework unifies and strengthens previous oracle-based approaches. Compared with Kumabe's framework (ESA 2025), which gives a doubly exponential bound on the number of oracle calls, our approach achieves the single exponential bound $2^{O(kr\\log(kr))}$ and directly constructs the desired tuple of solutions. We recover fixed-parameter tractable algorithms for all problems covered by that framework, with improved oracle complexity, and obtain strong bounds for diverse variants of classical graph and matroid problems.",
-      "published": "2026-08-13",
-      "categories": [
-        "cs.DS"
-      ],
-      "tags": [
-        "matroid"
       ]
     },
     {
@@ -4433,23 +4223,6 @@
       ]
     },
     {
-      "id": "2608.07828",
-      "url": "https://arxiv.org/abs/2608.07828",
-      "title": "The Rank-Collapse Principle for Quadratic Optimization",
-      "authors": [
-        "Mojtaba Soltanalian",
-        "Ahmad Mousavi"
-      ],
-      "abstract": "Quadratic optimization becomes hard as soon as either the matrix in the quadratic form has an unfavorable curvature or the feasible set is discrete, combinatorial, or otherwise nonconvex. A complementary phenomenon is also well known in the signal-processing and optimization communities: when the matrix in the quadratic form has small rank, some hard-looking quadratic programs admit exact polynomial-time algorithms for fixed rank. We study the common positive-semidefinite geometry behind this phenomenon. If $Q=BB^\\top$ is positive semidefinite, the objective depends on $x$ only through the rank-space shadow $y=B^\\top x$. Every optimal shadow $y^*$ uniquely maximizes the linear functional defined by its own direction and satisfies a quantitative quadratic margin. Thus nonlinear optimality collapses to a low-dimensional, self-generated linear exposure direction. We call this the rank-collapse principle. The principle alone does not imply a finite candidate set: efficient exact optimization additionally depends on the projected or active geometry of the feasible family. We organize this distinction through projected-shadow scattering and active-structure collapse, relate it explicitly to established zonotope, convex-combinatorial, edge-skeleton, projected-normal-fan, and fixed-rank sparse-PCA methods, and derive tie-safe consequences for binary and finite-phase vectors, cardinality constraints, matroid bases, and sparse PCA. We also give directional-stability and approximately low-rank certificates, together with reproducible experiments. The paper's contribution is a unified, careful framework and a set of quantitative consequences, rather than a claim to originate the known fixed-rank tractability results that motivate it.",
-      "published": "2026-08-08",
-      "categories": [
-        "math.OC"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
       "id": "2608.07673",
       "url": "https://arxiv.org/abs/2608.07673",
       "title": "Random Hamiltonians II: A central limit theorem and the Hofer geometry of random walks",
@@ -4768,59 +4541,6 @@
       ]
     },
     {
-      "id": "2608.05721",
-      "url": "https://arxiv.org/abs/2608.05721",
-      "title": "On traces of randomly rolling polytopes",
-      "authors": [
-        "Kenneth Moore",
-        "János Pach"
-      ],
-      "abstract": "Let $\\mathcal{P}$ be a three-dimensional convex polytope resting with one of its faces on the plane. At each step, $\\mathcal{P}$ is allowed to roll over a randomly selected edge of the face currently lying on the plane, until the adjacent face comes to rest on the plane. The trace of $\\mathcal{P}$ is the set of all points of the plane that can be reached by a vertex of $\\mathcal{P}$, starting from a fixed initial position and performing a finite sequence of rolls. We prove that if the trace of $\\mathcal{P}$ has a convergent subsequence, then, with probability one, the set of points reached by the vertices of a randomly rolling copy of $\\mathcal{P}$ is everywhere dense in the plane. This settles a conjecture of Hegyvári.",
-      "published": "2026-08-06",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "convex polytope"
-      ]
-    },
-    {
-      "id": "2608.05951",
-      "url": "https://arxiv.org/abs/2608.05951",
-      "title": "Erdős--Ko--Rado and Hilton--Milner Theorems in the Partition Lattice",
-      "authors": [
-        "Mengyu Cao",
-        "Jiaqi Liao",
-        "Haixiang Zhang"
-      ],
-      "abstract": "Let $M_n=M(K_{n+1})$ be the graphic matroid of the complete graph, and let $\\mathcal{F}_k(M_n)$ be its rank-$k$ flats. We study families $\\mathcal{A}\\subseteq\\mathcal{F}_k(M_n)$ satisfying $\\mathrm{rk}(A\\wedge B)\\ge t$ for all $A,B\\in\\mathcal{A}$. For $t=1$, this problem is exactly equivalent to Czabarka's partition-EKR conjecture, first introduced in print by P.~L. Erdős and L.~A. Székely~\\cite{ErdosSzekelyHigher}. We prove the corresponding Erdős--Ko--Rado theorem in the explicit linear range $n+1\\ge8k$, giving a constant-factor advance toward the conjectured sharp range $n\\ge2k$. For every fixed $t$, we further prove an Erdős--Ko--Rado theorem under an explicit condition of order $O_t(k^2)$ on the block number $n+1-k$, with equality only for a full $t$-star. We also determine the largest nontrivial intersecting families under an explicit $O(k^6)$ threshold and characterize the unique extremal family up to isomorphism.",
-      "published": "2026-08-06",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
-      "id": "2608.06470",
-      "url": "https://arxiv.org/abs/2608.06470",
-      "title": "The Zaporozhets-Tarasov Conjecture on Mean Distances",
-      "authors": [
-        "Eric Shen"
-      ],
-      "abstract": "For a convex body $K \\subset \\mathbb R^d$ let $Δ(K)$ be the expected distance between two independent uniform points of $K$, and let $θ(K)$ be the corresponding expectation for normalized surface measure on $\\partial K$. The Zaporozhets-Tarasov conjecture asserts $Δ(K) \\le θ(K)$. We prove this conjecture in case $d=2$. In addition, we give a six-vertex convex polytope in $\\mathbb R^3$ for which the reverse strict inequality holds, and obtain counterexamples in every dimension $d \\ge 3$ by taking products with segments. Finally, we show that $θ(K)> \\frac{\\operatorname{per}K}{6}$ for every planar convex body.",
-      "published": "2026-08-06",
-      "categories": [
-        "math.MG",
-        "math.FA",
-        "math.PR"
-      ],
-      "tags": [
-        "convex polytope"
-      ]
-    },
-    {
       "id": "2608.05105",
       "url": "https://arxiv.org/abs/2608.05105",
       "title": "Cluster-Cluster model in $\\mathbb{Z}^d$",
@@ -4982,43 +4702,6 @@
         "math-ph"
       ],
       "tags": []
-    },
-    {
-      "id": "2608.04924",
-      "url": "https://arxiv.org/abs/2608.04924",
-      "title": "On the dimensions of correlated equilibrium polytopes of generic games",
-      "authors": [
-        "Jan Draisma",
-        "Linda Hoyer",
-        "Irem Portakal"
-      ],
-      "abstract": "In this paper, we study the dimension of the correlated equilibrium polytope of finite games. Under the oriented-matroid notion of genericity, we prove that if a generic game is not full-dimensional, then there exists a subgame whose correlated equilibrium polytope is affinely isomorphic to that of the original game. This settles and generalizes an earlier conjecture of Brandenburg, Hollering, and Portakal (2024). Moreover, we show that the existence of a correlated equilibrium whose slices are all non-zero implies that the correlated equilibrium polytope is either full-dimensional or a singleton.",
-      "published": "2026-08-05",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
-      ]
-    },
-    {
-      "id": "2608.05062",
-      "url": "https://arxiv.org/abs/2608.05062",
-      "title": "If it is Good Then Drop it -- a Spiteful Poisson Process for Submodular Maximization",
-      "authors": [
-        "Ariel Kulik",
-        "Thiago Oliveira",
-        "Roy Schwartz",
-        "Mohit Singh"
-      ],
-      "abstract": "We study the problem of maximizing a general and not necessarily monotone submodular function subject to a matroid independence constraint. This problem has a rich history, with multiple algorithms using both discrete and continuous methods. Recently, [Ganz-Rozenman, Kulik, Schwartz and Singh STOC `26] presented a novel hybrid approach based on a Poisson process that aims to combine the strengths of both discrete and continuous methods for the special case of the problem where the submodular function is monotone. Our main result is a new Poisson process based hybrid algorithm that works for both non-monotone and monotone submodular functions, achieving an approximation of $ \\frac{1}{e}$ for the former and $1-\\frac{1}{e}$ for the latter. The algorithm always maintains a feasible set and at random times governed by the Poisson process it performs a single element swap based on a best response set. The new idea is that our algorithm is spiteful as it can purposefully discard an element that is in both the current set and the best response set. Surprisingly, this spiteful step does not harm the approximation our algorithm achieves for monotone submodular functions but is necessary for the non-monotone case. As applications, we obtain fast approximation algorithms for maximizing non-monotone submodular function subject to a general matroid independence constraint as well as faster algorithms for a partition matroid.",
-      "published": "2026-08-05",
-      "categories": [
-        "cs.DS"
-      ],
-      "tags": [
-        "matroid"
-      ]
     },
     {
       "id": "2608.03696",
@@ -5192,25 +4875,6 @@
       ],
       "tags": [
         "spanning tree"
-      ]
-    },
-    {
-      "id": "2608.03801",
-      "url": "https://arxiv.org/abs/2608.03801",
-      "title": "Fixed Budget vs. Covering Target: The Partial Set Cover Boundary for Bounded VC-Dimension",
-      "authors": [
-        "Madhumita Kundu",
-        "Souvik Saha",
-        "Saket Saurabh",
-        "Anannya Upasana"
-      ],
-      "abstract": "Maximum Coverage and Partial Set Cover are fundamental parameterized covering problems. The former fixes a budget $k$ and maximizes coverage; the latter meets a target with as few sets as possible. Badanidiyuru, Kleinberg, and Lee (SoCG 2012) give an EPAS for the former on bounded-VC set systems, while Jain et al. (SODA 2023) show that on $K_{d,d}$-free incidence graphs, $k+1$ sets suffice whenever $k$ sets meet the target. We ask whether this guarantee extends to all bounded-VC set systems. Our first result is negative. Unless FPT = W[1], Partial Set Cover admits no parameterized $(2-δ)$-approximation even at VC-dimension seven. Under ETH, it has no parameterized approximation scheme there and no $2^{o(d)}$-approximation at VC-dimension $d$. On the positive side, bounded semi-ladder index restores this guarantee. It is stronger than bounded VC-dimension but strictly generalizes the $K_{d,d}$-free setting. For Weighted Partial Set Cover, if $k$ sets cover weight $W$, we find $k+1$ sets covering weight $W$ in $2^{O(Γk\\log k)}N$ time, where $Γ$ is the downward intersection complexity and $N$ is the input size. The framework supports per-class targets and matroid independence, with applications to partial dominating set and geometric and bounded-size covering. Finally, we give a deterministic FPT reduction from Weighted CC-MaxSAT to a bounded family of Weighted Maximum Coverage instances, preserving incidence structure and approximation schemes with constant-factor accuracy loss. This gives an EPAS at bounded semi-ladder index. We improve the deterministic BKL bounded-VC implementation; combined with our reduction, it yields a $2^{\\widetilde{O}(kd/\\varepsilon)}N^{O(1)}$-time EPAS for bounded-VC Weighted CC-MaxSAT.",
-      "published": "2026-08-04",
-      "categories": [
-        "cs.DS"
-      ],
-      "tags": [
-        "matroid"
       ]
     },
     {
