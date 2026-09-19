@@ -9,6 +9,7 @@ import datetime as dt
 import json
 import math
 import re
+import socket
 import time
 import urllib.error
 import urllib.parse
@@ -49,12 +50,12 @@ def request_feed(url: str, attempts: int = 4) -> bytes:
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     for attempt in range(attempts):
         try:
-            with urllib.request.urlopen(request, timeout=60) as response:
+            with urllib.request.urlopen(request, timeout=120) as response:
                 return response.read()
-        except (urllib.error.URLError, TimeoutError):
+        except (urllib.error.URLError, TimeoutError, socket.timeout):
             if attempt == attempts - 1:
                 raise
-            time.sleep(2 ** attempt)
+            time.sleep(max(3, 2 ** attempt))
     raise RuntimeError("unreachable")
 
 
@@ -93,27 +94,36 @@ def fetch_papers(config: dict[str, Any], start: dt.date, end: dt.date) -> list[d
     collection = config["collection"]
     page_size = int(collection["request_page_size"])
     delay = float(collection["request_delay_seconds"])
-    query = api_query(config["categories"], start, end)
+    window_days = int(collection.get("backfill_window_days", 30))
     papers: list[dict[str, Any]] = []
-    offset = 0
-    total = math.inf
 
-    while offset < total:
-        params = urllib.parse.urlencode(
-            {
-                "search_query": query,
-                "start": offset,
-                "max_results": page_size,
-                "sortBy": "submittedDate",
-                "sortOrder": "descending",
-            }
-        )
-        page, total = parse_feed(request_feed(f"{API_URL}?{params}"))
-        papers.extend(page)
-        offset += len(page)
-        if not page or offset >= total:
-            break
-        time.sleep(delay)
+    window_start = start
+    while window_start <= end:
+        window_end = min(window_start + dt.timedelta(days=window_days - 1), end)
+        query = api_query(config["categories"], window_start, window_end)
+        offset = 0
+        total = math.inf
+
+        while offset < total:
+            params = urllib.parse.urlencode(
+                {
+                    "search_query": query,
+                    "start": offset,
+                    "max_results": page_size,
+                    "sortBy": "submittedDate",
+                    "sortOrder": "descending",
+                }
+            )
+            page, total = parse_feed(request_feed(f"{API_URL}?{params}"))
+            papers.extend(page)
+            offset += len(page)
+            if not page or offset >= total:
+                break
+            time.sleep(delay)
+
+        window_start = window_end + dt.timedelta(days=1)
+        if window_start <= end:
+            time.sleep(delay)
 
     unique = {paper["id"]: paper for paper in papers}
     return [paper for paper in unique.values() if start.isoformat() <= paper["published"] <= end.isoformat()]

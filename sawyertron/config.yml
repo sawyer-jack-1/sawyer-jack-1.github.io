@@ -24,6 +24,10 @@ collection:
   # duplicate arXiv IDs are merged, so they do not appear twice.
   daily_lookback_days: 3
 
+  # Large backfills are divided into date windows so arXiv does not have to
+  # compute one enormous result set. This does not change the covered dates.
+  backfill_window_days: 30
+
   # Maximum records requested from the arXiv metadata API in one page.
   # 500 is conservative and normally needs no adjustment.
   request_page_size: 500
