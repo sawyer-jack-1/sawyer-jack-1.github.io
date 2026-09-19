@@ -1,0 +1,71 @@
+name: Update SawyerTRON
+
+on:
+  schedule:
+    # Two UTC slots cover 6:17 AM Pacific across daylight-saving changes.
+    # The timezone gate below permits exactly one of them to continue.
+    - cron: "17 13,14 * * *"
+  workflow_dispatch:
+    inputs:
+      backfill_days:
+        description: "Days to fetch (30 is the normal initial backfill)"
+        required: true
+        default: "30"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sawyertron-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Pacific time
+        id: time_gate
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" != "schedule" || "$(TZ=America/Los_Angeles date +%H)" == "06" ]]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.time_gate.outputs.run == 'true'
+
+      - uses: actions/setup-python@v5
+        if: steps.time_gate.outputs.run == 'true'
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: sawyertron/requirements.txt
+
+      - name: Install dependencies
+        if: steps.time_gate.outputs.run == 'true'
+        run: pip install -r sawyertron/requirements.txt
+
+      - name: Test ranking pipeline
+        if: steps.time_gate.outputs.run == 'true'
+        run: python -m unittest discover -s sawyertron -p 'test_*.py'
+
+      - name: Update metadata
+        if: steps.time_gate.outputs.run == 'true'
+        env:
+          BACKFILL_DAYS: ${{ github.event.inputs.backfill_days || '3' }}
+        run: python sawyertron/update.py --days "$BACKFILL_DAYS"
+
+      - name: Commit updated digest
+        if: steps.time_gate.outputs.run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/sawyertron/data
+          if git diff --cached --quiet; then
+            echo "No SawyerTRON changes."
+          else
+            git commit -m "Update SawyerTRON digest"
+            git push
+          fi

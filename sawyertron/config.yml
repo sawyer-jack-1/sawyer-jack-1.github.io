@@ -1,0 +1,134 @@
+# SawyerTRON configuration
+#
+# This is the main file to edit when your interests change. The public site
+# never displays these weights or labels; they only determine paper order.
+
+categories:
+  - cs.DS
+  - cs.DM
+  - cs.SI
+  - math.CO
+  - math.PR
+  - math.OC
+  - math.ST
+
+collection:
+  initial_backfill_days: 30
+  daily_lookback_days: 3
+  request_page_size: 500
+  request_delay_seconds: 3.1
+
+ranking:
+  minimum_score: 3.0
+  maximum_papers_per_day: 40
+  title_match_multiplier: 2.5
+  abstract_match_multiplier: 1.0
+
+topics:
+  graph_laplacians:
+    weight: 10
+    phrases:
+      - graph Laplacian
+      - connection Laplacian
+      - signed Laplacian
+      - normalized Laplacian
+      - Laplacian eigenvalue
+      - Laplacian eigenvector
+
+  effective_resistance:
+    weight: 10
+    phrases:
+      - effective resistance
+      - resistance distance
+      - electrical network
+      - commute time
+      - Dirichlet energy
+
+  optimal_transport:
+    weight: 9
+    phrases:
+      - optimal transport
+      - Wasserstein distance
+      - Wasserstein metric
+      - Beckmann problem
+      - minimum cost flow
+
+  discrete_curvature:
+    weight: 9
+    phrases:
+      - discrete curvature
+      - graph curvature
+      - Ollivier curvature
+      - Ricci curvature
+      - Bakry-Émery curvature
+      - curvature dimension
+
+  random_graphs:
+    weight: 8
+    phrases:
+      - random graph
+      - stochastic block model
+      - graph concentration
+      - matrix concentration
+      - random matrix
+
+  spectral_graph_theory:
+    weight: 8
+    phrases:
+      - spectral graph theory
+      - spectral graph
+      - spectral clustering
+      - Cheeger inequality
+      - eigenvalue bound
+      - mixing time
+      - expander graph
+
+  evolving_graphs:
+    weight: 8
+    phrases:
+      - evolving graph
+      - dynamic graph
+      - temporal graph
+      - graph process
+      - random walk
+
+  graph_learning:
+    weight: 6
+    phrases:
+      - graph neural network
+      - graph-based learning
+      - semi-supervised learning
+      - community detection
+      - graph clustering
+      - manifold learning
+
+  combinatorics:
+    weight: 5
+    phrases:
+      - extremal combinatorics
+      - algebraic combinatorics
+      - probabilistic combinatorics
+      - graph polynomial
+      - convex polytope
+      - matroid
+
+authors:
+  # Exact-name matching is case-insensitive. Add or remove names freely.
+  weight: 12
+  names:
+    - Fan Chung
+    - Alexander Cloninger
+    - Gal Mishne
+    - Zelin Wan
+    - Deanna Kohli
+    - Caroline Holtz
+    - Francisco Southerland
+    - Emilio Jesús Surya
+    - Jesús A. De Loera
+    - Jonathan Eddy
+    - Andrés R. Samper
+
+negative_phrases:
+  # These only remove obvious false-positive meanings of otherwise useful terms.
+  - electrical resistance training
+  - transportation logistics

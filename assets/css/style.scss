@@ -36,3 +36,224 @@
 	outline-offset: 2px;
 }
 
+/* SawyerTRON ------------------------------------------------------------- */
+
+.sawyertron-shell {
+	display: grid;
+	grid-template-columns: 170px minmax(0, 1fr);
+	gap: 2rem;
+}
+
+.sawyertron-archive {
+	border-right: 1px solid #d0d0d0;
+	padding-right: 1.25rem;
+}
+
+.sawyertron-archive h2,
+.sawyertron-main h1 {
+	margin-bottom: 0.35rem;
+}
+
+.sawyertron-archive details {
+	margin: 0 0 0.6rem;
+}
+
+.sawyertron-archive summary {
+	cursor: pointer;
+	font-weight: 600;
+	list-style-position: outside;
+}
+
+.sawyertron-months {
+	list-style: none;
+	list-style-image: none;
+	margin: 0.3rem 0 0 1rem;
+	padding: 0;
+}
+
+.sawyertron-months li {
+	list-style: none;
+	list-style-image: none;
+	line-height: 1.6;
+}
+
+.sawyertron-months a[aria-current="true"] {
+	font-weight: 700;
+}
+
+.sawyertron-subtitle,
+.sawyertron-status,
+.paper-meta,
+.paper-abstract {
+	color: #828489;
+}
+
+.sawyertron-search-row {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+	margin: 0.75rem 0 0.6rem;
+}
+
+.sawyertron-search-row input,
+.advanced-search input,
+.advanced-search select,
+.mobile-archive select {
+	background: #fff;
+	border: 1px solid #aeb2b7;
+	border-radius: 3px;
+	box-sizing: border-box;
+	color: #010105;
+	font: inherit;
+	padding: 0.45rem 0.55rem;
+}
+
+.sawyertron-search-row input {
+	flex: 1;
+	min-width: 0;
+}
+
+.advanced-search {
+	border-bottom: 1px dashed #1A4C7C;
+	margin-bottom: 1.2rem;
+	padding-bottom: 0.9rem;
+}
+
+.advanced-search summary {
+	cursor: pointer;
+	color: #007000;
+	margin-bottom: 0.7rem;
+}
+
+.advanced-search-grid {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 0.7rem 1rem;
+}
+
+.advanced-search label {
+	display: grid;
+	font-size: 0.85rem;
+	gap: 0.2rem;
+}
+
+.advanced-search-actions {
+	align-items: end;
+	display: flex;
+	gap: 1rem;
+}
+
+.text-button {
+	background: none;
+	border: 0;
+	color: #007000;
+	cursor: pointer;
+	font: inherit;
+	padding: 0;
+	text-decoration: underline;
+}
+
+.mobile-archive {
+	display: none;
+}
+
+.digest-date {
+	margin: 1.35rem 0 0.6rem;
+}
+
+.digest-date h2 {
+	border-bottom: 1px dashed #1A4C7C;
+	font-size: 1.25rem !important;
+	margin-bottom: 0.7rem;
+}
+
+.paper-entry {
+	margin: 0 0 1rem 0.65rem;
+}
+
+.paper-title {
+	font-weight: 600;
+}
+
+.paper-authors,
+.paper-meta,
+.paper-abstract {
+	font-size: 0.92rem;
+}
+
+.paper-abstract-row {
+	display: flex;
+	gap: 0.4rem;
+	margin-top: 0.15rem;
+}
+
+.paper-abstract {
+	flex: 1;
+	margin: 0;
+}
+
+.abstract-toggle {
+	align-self: start;
+	background: transparent;
+	border: 0;
+	color: #1A4C7C;
+	cursor: pointer;
+	font-size: 1rem;
+	line-height: 1;
+	padding: 0.2rem 0.45rem;
+}
+
+.paper-tags {
+	color: #828489;
+	font-size: 0.8rem;
+	margin-top: 0.15rem;
+}
+
+.sawyertron-empty {
+	color: #666;
+	font-style: italic;
+}
+
+@media (max-width: 700px) {
+	.sawyertron-shell {
+		display: block;
+	}
+
+	.sawyertron-archive {
+		display: none;
+	}
+
+	.mobile-archive {
+		display: block;
+		margin: 0.8rem 0 1.25rem;
+	}
+
+	.mobile-archive select {
+		width: 100%;
+	}
+
+	.sawyertron-search-row {
+		align-items: stretch;
+		flex-direction: column;
+	}
+
+	.advanced-search-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.paper-entry {
+		margin-left: 0;
+	}
+
+	.paper-title {
+		font-size: 1.02rem;
+	}
+
+	.digest-date h2 {
+		font-size: 1.2rem !important;
+	}
+
+	header table h3 {
+		font-size: 0.9rem !important;
+	}
+}
