@@ -39,7 +39,7 @@ collection:
 ranking:
   # A paper must reach at least this internal score to appear. Raising it gives
   # a shorter, more selective digest; lowering it gives broader coverage.
-  minimum_score: 6.0
+  minimum_score: 9.0
 
   # Safety cap after ranking, applied separately to each calendar day.
   maximum_papers_per_day: 40

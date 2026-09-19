@@ -1,6 +1,6 @@
 {
   "month": "2026-05",
-  "generated_at": "2026-09-19T04:03:03+00:00",
+  "generated_at": "2026-09-19T04:10:17+00:00",
   "source": "arXiv metadata API",
   "papers": [
     {
@@ -59,21 +59,6 @@
       ]
     },
     {
-      "id": "2606.01330",
-      "url": "https://arxiv.org/abs/2606.01330",
-      "title": "On Thin Perfect Matchings up to Polylogarithmic Factors",
-      "authors": [
-        "Alireza Haqi",
-        "Shayan Oveis Gharan"
-      ],
-      "abstract": "We resolve the thin matching problem proposed by Anari, Charikar and Ramakrishnan [ACR23] up to polylogarithmic factors. Given a fractional perfect matching $x$, we say a perfect matching $M$ is $α$-thin w.r.t. $x$ if for any cut $(S,\\overline{S})$, we have $$ |M \\cap E(S,\\overline{S})| \\leq α\\cdot x(S,\\overline{S}).$$ [ACR23] conjectured that for any fractional perfect matching $x$, there exists a perfect matching $M$ which is $O(1)$-thin w.r.t. $x$. First, we show that if $M$ is restricted to be in the support of $x$, then $α\\geq Ω(n)$ and we complement this by designing an efficient algorithm that outputs an $O(n\\log n)$-thin perfect matching where $n$ is the number of vertices. Then, we relax this constraint and show that for any fractional perfect matching $x$, there is a perfect matching $M$ (which is not necessarily in the support of $x$) such that $M$ is $\\text{polylog}(n)$-thin w.r.t. $x$. All results work for both bipartite and non-bipartite graphs. We also discuss applications to the metric distortion problem.",
-      "published": "2026-05-31",
-      "categories": [
-        "cs.DS"
-      ],
-      "tags": []
-    },
-    {
       "id": "2606.00648",
       "url": "https://arxiv.org/abs/2606.00648",
       "title": "Asymptotic estimates for multiple point ranges of transient random walks on graphs",
@@ -108,24 +93,6 @@
         "adjacency matrix",
         "signless Laplacian"
       ]
-    },
-    {
-      "id": "2606.00500",
-      "url": "https://arxiv.org/abs/2606.00500",
-      "title": "Easy, robust approximate message passing for planted spike models",
-      "authors": [
-        "Misha Ivkov",
-        "Tselil Schramm"
-      ],
-      "abstract": "We present a simple and efficient algorithm for robust approximate message passing (AMP) in the spiked matrix setting. In particular, let $\\varepsilon$ be a sufficiently small constant, and suppose that $X \\in \\mathbb R^{n \\times n}$ is a Gaussian matrix with a planted rank-$1$ spike, and $E \\in \\mathbb R^{n \\times n}$ is an adversarially chosen matrix supported on an $\\varepsilon n \\times \\varepsilon n$ principal minor. Let $v_{\\mathrm{AMP}}(X)$ be the output of an AMP iteration on the uncorrupted matrix $X$. We give a procedure that, given access only to the corrupted matrix $Y = X + E$, computes a vector $v_{\\mathrm{ALG}}(Y)$ which is $\\tilde{O}(\\sqrt{\\varepsilon})$-close to $v_{\\mathrm{AMP}}(X)$, for any of a class of AMP iterations which includes sparse Principal Component Analysis (PCA), non-negative PCA, and $\\mathbb Z_2$ synchronization. Our algorithm consists of a spectral pre-processing step combined with a robust spectral initialization procedure; given these inputs, we prove that (perhaps surprisingly) AMP is robust out-of-the-box.",
-      "published": "2026-05-30",
-      "categories": [
-        "cs.DS",
-        "cs.LG",
-        "math.ST",
-        "stat.ML"
-      ],
-      "tags": []
     },
     {
       "id": "2605.30755",
@@ -456,68 +423,6 @@
       ]
     },
     {
-      "id": "2605.29457",
-      "url": "https://arxiv.org/abs/2605.29457",
-      "title": "Diameter Thresholds of Random Cayley Graphs",
-      "authors": [
-        "Demetres Christofides",
-        "Klas Markström",
-        "Christina Savvidou"
-      ],
-      "abstract": "Given a group $G$, the model $\\mathcal{G}(G,p)$ denotes the probability space of all Cayley graphs of $G$ where each element of $G$ is included in the generating set independently at random with probability $p$. In this article, we investigate the threshold probabilities for the diameter of random graphs in this model. Specifically, let $d_N = (1-γ)\\sqrt{\\frac{\\log{N}}{2\\log{\\log{N}}}}$, where $γ\\in (0,1)$ is any fixed real number. We show that for any $\\varepsilon > 0$, any family of groups $G_k$ of order $N_k$ for which $N_k \\to \\infty$, and any integer $2 \\leqslant d\\leqslant d_{N_k}$, a graph $Γ_k \\in \\mathcal{G}(G_k,p)$ with high probability has diameter at most $d$ if $p \\geqslant \\sqrt[d]{(1+\\varepsilon) d! \\frac{\\log{N_k}}{N_k^{d-1}}}$, and diameter greater than $d$ if $p \\leqslant \\sqrt[d]{\\frac{1-\\varepsilon}{2^d} \\frac{\\log{N_k}}{N_k^{d-1}}}$. Up to a constant factor, these thresholds are similar to those for the usual Erdős-Rényi random graphs. However, the precise thresholds in our model depend on the underlying family of groups. We provide specific examples of group families demonstrating that both of our bounds are best possible.",
-      "published": "2026-05-28",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "random graph"
-      ]
-    },
-    {
-      "id": "2605.29669",
-      "url": "https://arxiv.org/abs/2605.29669",
-      "title": "Eigen-Spike Emergence and Quadratic Equivalents for Conjugate Kernels on Nonlinearly Separable Data",
-      "authors": [
-        "Collin Cranston",
-        "Zhichao Wang",
-        "Todd Kemp",
-        "Michael W. Mahoney"
-      ],
-      "abstract": "Recent work in random matrix theory (RMT) has developed the notion of deterministic equivalents: typically linear surrogate models that approximate the spectral behavior of large nonlinear random matrices, such as nonlinear feature maps in neural networks (NNs). Such equivalents make theoretical predictions tractable by reducing a complex model to a simpler one with properties that fall under the umbrella of classical RMT tools. However, this leaves open the question of whether this idealized linear equivalence remains meaningful for classification of high-dimensional nonlinearly separable data. Motivated by this, we consider the conjugate kernel (CK), which is the nonlinear feature map of a one-layer feedforward NN, under a canonical nonlinearly separable dataset for the XOR problem; and we use the study of informative outlier eigenvalues in the CK and whether their corresponding eigenvectors asymptotically align with XOR labels as a proxy for nonlinear learnability. We develop a robust quadratic equivalent of the CK matrix that enables a precise analysis of emergent informative spikes, as one modifies various knobs common in ML practice: sample complexity, signal-to-noise ratio (SNR), nonlinear activation choice, and pretrained features. We identify regimes in which these knobs move the CK beyond the linear equivalent and produce BBP-type transitions to label-aligned outlier eigenspaces. Our analysis helps bring deterministic-equivalence tools from RMT to bear on problems of practical relevance in ML.",
-      "published": "2026-05-28",
-      "categories": [
-        "stat.ML",
-        "cs.LG",
-        "math.PR",
-        "math.ST"
-      ],
-      "tags": [
-        "random matrix"
-      ]
-    },
-    {
-      "id": "2605.30327",
-      "url": "https://arxiv.org/abs/2605.30327",
-      "title": "Reasoning with Sampling: Cutting at Decision Points",
-      "authors": [
-        "Felix Zhou",
-        "Anay Mehrotra",
-        "Quanquan C. Liu"
-      ],
-      "abstract": "Frontier reasoning models are produced by posttraining base language models with reinforcement learning. Recent work has challenged this by showing that sampling from a sharpened version of the base model's distribution, a so-called power distribution, elicits comparable reasoning without additional training, curated datasets, or verifiers. However, making this method practical requires efficiently sampling from the power distribution. A sampler needs to \"mix\" to the power distribution, which necessitates moving between modes of the target distribution; intuitively, e.g., trying different reasoning strategies. The samplers proposed in prior works repeatedly select a \"cut\" position in the current reasoning trace uniformly at random and resample the suffix from that position onward. However, reasoning traces typically contain a few consequential decisions (e.g., the choice of proof strategy or algorithm), and we observe that a uniformly chosen cut tends to rewrite local details rather than revisit decision points. We introduce an algorithm (Entropy-Cut Metropolis-Hastings) that uses the base model's next-token entropy as a proxy to identify key decision points and resample from those positions. We empirically verify that entropy jumps are a useful proxy for decision points and, in a stylized model of reasoning, prove that our method's mixing time scales with the number of decisions in a trace rather than with the number of tokens, which can be much larger. Across MATH500, HumanEval, GPQA Diamond, and AIME26, our method consistently improves over baselines and RL-trained models.",
-      "published": "2026-05-28",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL",
-        "math.ST",
-        "stat.ML"
-      ],
-      "tags": [
-        "mixing time"
-      ]
-    },
-    {
       "id": "2605.28770",
       "url": "https://arxiv.org/abs/2605.28770",
       "title": "Cutoff profiles for conjugacy invariant random walks on symmetric groups",
@@ -697,24 +602,6 @@
       ]
     },
     {
-      "id": "2605.28430",
-      "url": "https://arxiv.org/abs/2605.28430",
-      "title": "Limit theory for Lipschitz-localized statistics in random geometric models",
-      "authors": [
-        "B. Błaszczyszyn",
-        "D. Yogeshwaran",
-        "J. E. Yukich"
-      ],
-      "abstract": "We study sums of locally dependent scores associated with general marked (i.e., labeled) Euclidean point processes. We introduce geometric mixing conditions on the underlying point process and a Lipschitz-\"localization\" condition on the scores, which jointly ensure a central limit theorem for the sums of the scores as well as expectation and variance asymptotics. Our localization condition is formulated using the bounded Lipschitz metric, providing a distributional criterion. This stands in contrast to the classical stabilization conditions in stochastic geometry, which are typically based on stopping-set constructions. To demonstrate the applicability of our general framework, we consider several stochastic processes indexed by spatial random graphs. These include spin systems, interacting diffusions, and interacting particle systems. In particular, spin systems highlight the importance of our localization condition. Additional applications include empirical random fields and geostatistical Boolean models.",
-      "published": "2026-05-27",
-      "categories": [
-        "math.PR"
-      ],
-      "tags": [
-        "random graph"
-      ]
-    },
-    {
       "id": "2605.26804",
       "url": "https://arxiv.org/abs/2605.26804",
       "title": "Large Deviation Principle for the Empirical Measures of Simple Random Walks on $\\overline{\\mathbb{Z}}$",
@@ -840,81 +727,6 @@
       ]
     },
     {
-      "id": "2605.26614",
-      "url": "https://arxiv.org/abs/2605.26614",
-      "title": "Spectral Sidorenko inequalities and edge-spectral supersaturation",
-      "authors": [
-        "Yongtao Li",
-        "Wilson Lin",
-        "Hong Liu",
-        "Shengtong Zhang"
-      ],
-      "abstract": "We develop a spectral approach to Sidorenko-type inequalities and apply it to establish sharp edge-spectral supersaturation results. Let $H$ be a bipartite graph with $v$ vertices and $e$ edges, where $v\\le e$, and write $M(G)=2e(G)$. We prove that Sidorenko's conjecture is equivalent to a spectral strengthening: $$ \\hom(H,G)\\ge M(G)^e |V(G)|^{v-2e} \\quad \\text{ if and only if }\\quad \\hom(H,G)\\ge λ(G)^{2e-v}M(G)^{v-e}.$$ We also introduce an operator-norm certificate which, via the Riesz--Thorin interpolation, gives direct proofs of the spectral Sidorenko inequality in several cases. The converse direction in the equivalence theorem is proved by a tensor-power spectral regularization lemma. Our main result provides a unified framework to prove sharp asymptotic edge-spectral supersaturation results for degenerate bipartite graphs with the Sidorenko property, including complete bipartite graphs and even cycles. Let $S_{t-1,m}$ be the split graph with $m$ edges obtained by joining a clique $K_{t-1}$ to an independent set. For every $m$-edge graph $G$ with $λ(G)>λ(S_{t-1,m})$, $$\\texttt{#} K_{t,t}(G) \\ge \\Big(\\frac{2^{-(t-1)^2}}{(t!)^2}-o(1)\\Big)m^t \\quad \\text{and}\\quad \\texttt{#}C_{2t}(G) \\ge \\Big(\\frac{(t-1)!}{2t^t}-o(1)\\Big)m^t.$$ Both constants are best possible: the first is attained asymptotically by random graphs, while the second is attained by split graphs. The supersaturation proofs combine spectral Sidorenko inequalities with a heavy-edge pruning process, a Perron-vector localized/delocalized dichotomy, and incidence-matrix inequalities.",
-      "published": "2026-05-26",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "random graph"
-      ]
-    },
-    {
-      "id": "2605.27172",
-      "url": "https://arxiv.org/abs/2605.27172",
-      "title": "Convergence Rates of Ordering, Testing and Estimation Procedures for Graphons With Fast Boundary Decay Rates",
-      "authors": [
-        "Jeannette Janssen",
-        "Na Lin",
-        "Aaron Smith"
-      ],
-      "abstract": "In latent-position random graph models (LPMs), latent vertex positions $U_{1},\\ldots,U_{n}$ are sampled from some distribution on a latent space $Ω$, then edges of an observed graph $G = ([n],E)$ are sampled with some probability $\\mathbb{P}[(i,j) \\in E ]=w(U_i,U_j)$ that depends on the unobserved latent positions. LPMs are ubiquitous in the statistical analysis of networks, offering models that have good empirical performance, strong theoretical guarantees, and tractable algorithms. The special case $Ω= [0,1]$ is important, as it corresponds to graphs with temporal or preference-based structure. In this paper, we study three problems related to LPMs with latent space $[0,1]$: \\textit{ordering} the vertices according to the latent positions, \\textit{estimating} the generating graphon $w$, and \\textit{testing} whether an observed graph $G$ could have come from an LPM with state space $[0,1]$. Our results on the ordering problem greatly generalize two observations of Janssen/Smith (2022): (i) for \\textit{some} families of graphons, the best estimate of the ordering converges much faster than the usual statistical rate of $\\frac{1}{\\sqrt{n}}$, and (ii) this occurs even though, for the same families of graphons, the best estimate of the latent positions still occurs at the usual $\\frac{1}{\\sqrt{n}}$ rate. As a main consequence, we develop a computationally-efficient graphon-estimation algorithm and show that it has the same convergence rate as the non-explicit optimal algorithm of Gao et al (2015). We also derive and analyze a testing procedure.",
-      "published": "2026-05-26",
-      "categories": [
-        "math.ST",
-        "math.PR"
-      ],
-      "tags": [
-        "random graph"
-      ]
-    },
-    {
-      "id": "2605.27212",
-      "url": "https://arxiv.org/abs/2605.27212",
-      "title": "Mixing on $k$ Columns of the Transvection Walk",
-      "authors": [
-        "Natesh Pillai",
-        "Aaron Smith"
-      ],
-      "abstract": "In Diaconis and Saloff-Coste (1996), the authors introduced the simple ``transvection\" walk on $\\mathrm{GL}_n(\\mathbb F_2)$: at each step, choose two distinct rows and add one to the other. In Ben-Hamou (2025), the author recently proved that this walk has mixing time $O(n^2\\log n)$. Inspired by applications in cryptography (see Sotiraki (2016)), Ben-Hamou and Peres (2018) conjectured that the first $k$ columns of this walk mixed in $O(nk \\log(n))$ steps. Our main result is a proof of this conjecture uniformly in $n$ and $k.$ Our proof is based on a local-to-global entropy estimate, in the spirit of block factorization results such as Caputo et al (2015), Caputo et al (2021). In our setting, the kernels that correspond roughly to the block kernels of Caputo et al (2021) do not have uniformly large log-Sobolev constants, and so naively applying these techniques does not improve over Ben-Hamou (2025). We avoid these bad blocks by combining our entropy estimates with a burn-in argument similar to classical drift-and-minorization arguments of Rosenthal (1995). This method may be of broader interest, and so we illustrate it by proving an analogous result for a family of product-replacement algorithms on the Heisenberg group.",
-      "published": "2026-05-26",
-      "categories": [
-        "math.PR"
-      ],
-      "tags": [
-        "mixing time"
-      ]
-    },
-    {
-      "id": "2605.27339",
-      "url": "https://arxiv.org/abs/2605.27339",
-      "title": "Learning to reoptimize: a GNN-aided fix-and-optimize approach and an application to the Lot Sizing problem",
-      "authors": [
-        "Mathieu Lerouge",
-        "Andrea Lodi",
-        "Enrico Malaguti",
-        "Michele Monaci",
-        "Filippo Focacci"
-      ],
-      "abstract": "In many operational contexts, solutions to NP-hard combinatorial optimization problems, modeled by means of Mixed-Integer Linear Programming (MILP), may become infeasible due to unpredictable disruptions. Typically, reoptimizing by solving the MILP formulation on the perturbed instance is not possible as new solutions must be obtained in a very short computing time, while simple repairing heuristics may result in low-quality solutions. To bridge this gap, we propose a learning-to-reoptimize framework, and apply it to the Lot Sizing Problem (LSP) under machine breakdown disruptions. We design a fix-and-optimize strategy aided by a Graph Neural Network (GNN) that efficiently computes a new solution within the neighborhood of a repaired solution. By representing the instance, the original solution and the disruption as a feature graph, we train a GNN to predict the likelihood that specific binary variables require to be modified. These predictions guide the selection of a small subset of variables to be reoptimized by an MILP solver, while the other variables are hard-fixed. Numerical experiments on a large dataset demonstrate that our approach handles effectively different problem sizes, and that it significantly outperforms a baseline alternative approach, yielding larger cost reductions within the same limited time budget.",
-      "published": "2026-05-26",
-      "categories": [
-        "math.OC"
-      ],
-      "tags": [
-        "graph neural network"
-      ]
-    },
-    {
       "id": "2605.25711",
       "url": "https://arxiv.org/abs/2605.25711",
       "title": "On the $d$-rigidity phase transition in random graphs",
@@ -988,41 +800,6 @@
       ]
     },
     {
-      "id": "2605.25843",
-      "url": "https://arxiv.org/abs/2605.25843",
-      "title": "Sharper Ramsey lower bounds from refined Gaussian estimates",
-      "authors": [
-        "Qizhong Lin",
-        "Lin Niu"
-      ],
-      "abstract": "Recently, Ma, Shen and Xie broke the Erdős barrier for off-diagonal Ramsey numbers $R(\\ell,C\\ell)$, achieving the first exponential improvement over the classical lower bound for every $C>1$ and sufficiently large $\\ell$. Hunter, Milojević, and Sudakov later gave a simplified proof using Gaussian random graphs and obtained better quantitative bounds. In this paper we prove a further improvement, and show that the exponent in the Ramsey lower bound can be increased by a strictly positive amount for every fixed $C>1$; as $C\\to\\infty$, the gain is asymptotically $Θ(p_C^{-1/2}/\\log C)$. The improvement is achieved by replacing the subgaussian estimate for truncated Gaussians with a sharp cumulant generating function bound.",
-      "published": "2026-05-25",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "random graph"
-      ]
-    },
-    {
-      "id": "2605.26201",
-      "url": "https://arxiv.org/abs/2605.26201",
-      "title": "A note on integer programming methods for mixed radial Moore graphs",
-      "authors": [
-        "A. Abiad",
-        "Jesús M. Ceresuela",
-        "N. López"
-      ],
-      "abstract": "Mixed radial Moore graphs are approximations of mixed Moore graphs that preserve the distance-preserving spanning tree for some vertices. One way to measure their resemblance to a mixed Moore graph is using the status measure. The status of a graph is defined as the sum of the distances between all pairs of ordered vertices. Mixed radial Moore graphs with minimum status are closer to mixed Moore graphs according to this measure. The existence of mixed radial Moore graphs is still unknown for most values of the degree and the diameter. In this work, we develop an integer programming model (IP) to find mixed radial Moore graphs of diameter 3 with minimum status. As a result, we show the existence of these graphs for several new values of the degree and the diameter.",
-      "published": "2026-05-25",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "spanning tree"
-      ]
-    },
-    {
       "id": "2605.24937",
       "url": "https://arxiv.org/abs/2605.24937",
       "title": "Error estimates for tamed Euler and Randomized Euler schemes for SDEs with locally Lipschitz drift with applications to non-logconcave sampling and optimization",
@@ -1060,120 +837,6 @@
       ],
       "tags": [
         "optimal transport"
-      ]
-    },
-    {
-      "id": "2605.24954",
-      "url": "https://arxiv.org/abs/2605.24954",
-      "title": "An Infeasible Method with Feasibility Safeguard for Nonsmooth Composite Optimization Over Manifolds",
-      "authors": [
-        "Xiyua Xie",
-        "Qia Li"
-      ],
-      "abstract": "In this paper, we consider nonsmooth composite optimization over compact embedded submanifolds defined by nonlinear equality constraints. We propose a feasibility-safeguarded inexact proximal linearized method (FSIPL), which allows infeasible iterates while keeping them within a prescribed bounded neighborhood of the manifold. Each iteration approximately solves a strongly convex proximal linearized subproblem, performs a correction step to reduce constraint violation, and uses a merit-function-based nonmonotone backtracking line search to select stepsizes and accept trial iterates. The feasibility safeguard, incorporated into both correction and line search, controls infeasibility and makes the boundedness needed in the analysis a consequence of the algorithmic design. We prove finite termination of backtracking, subsequential convergence to stationary points, and an $O(\\varepsilon^{-2})$ outer iteration complexity bound. Under a Kurdyka--Łojasiewicz assumption on a suitable auxiliary function, we further establish full-sequence convergence. Numerical results on sparse PCA and sparse spectral clustering illustrate its efficiency.",
-      "published": "2026-05-24",
-      "categories": [
-        "math.OC"
-      ],
-      "tags": [
-        "spectral clustering"
-      ]
-    },
-    {
-      "id": "2605.25088",
-      "url": "https://arxiv.org/abs/2605.25088",
-      "title": "The size of the spanning-tree spectrum of simple graphs",
-      "authors": [
-        "Vishesh Jain"
-      ],
-      "abstract": "For a graph $G$, let $τ(G)$ denote the number of spanning trees. We show that for every fixed $0 < c < 1/4$, the number of distinct values of $τ(G)$, as $G$ ranges over simple graphs on $n$ vertices, is at least $\\exp(c n \\log n)$ for all sufficiently large $n$. This is optimal up to the choice of the constant $c$ and resolves a conjecture of Chan-Kontorovich-Pak regarding a problem of Sedláček from the late 1960s.",
-      "published": "2026-05-24",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "spanning tree"
-      ]
-    },
-    {
-      "id": "2605.25237",
-      "url": "https://arxiv.org/abs/2605.25237",
-      "title": "Local network evolution rules drive shortest path multiplicity",
-      "authors": [
-        "Alexei Vazquez"
-      ],
-      "abstract": "The shortest path multiplicity, here denoted by $μ$, is an important metric of complex networks. For real networks $μ$ is high and it correlates with the network community structure. Since local network evolution induces network communities, it is possible that a high shortest path multiplicity is the natural expectation of local evolution rules. Here I demonstrate, by means of numerical simulations, that this is indeed the case. For random graphs with arbitrary degree distributions $p_k$, $\\langleμ\\rangle\\sim \\langle k(k-1)\\rangle / (\\langle k\\rangle e)$, growing with the network size when $p_k\\sim k^{-γ}$ and $γ\\leq3$. For networks generated by local rules, $\\langleμ\\rangle$ increases with the network size and it does so faster than what is observed in their randomized versions. Furthermore, the number of communities increases with the network size and the correlation with $\\langle μ\\rangle$ follows.",
-      "published": "2026-05-24",
-      "categories": [
-        "physics.soc-ph",
-        "cond-mat.dis-nn",
-        "cs.SI",
-        "math.CO"
-      ],
-      "tags": [
-        "random graph"
-      ]
-    },
-    {
-      "id": "2605.25055",
-      "url": "https://arxiv.org/abs/2605.25055",
-      "title": "Building Digital Societies as Ecosystems: How Recognition and Repeat Relationships Sustain Cross-Community Work in Open Source",
-      "authors": [
-        "Lucia Gomez Tejeiro",
-        "Thibaut Chataing",
-        "Julian Jang-Jaccard",
-        "Alain Mermoud",
-        "Thomas Maillart"
-      ],
-      "abstract": "We measure cross-boundary collaboration in an open-source software (OSS) ecosystem by reconstructing the bipartite contributor-repository graph of 464 cybersecurity projects and 11,372 contributors active over October 2001-May 2022 (Rawsec Cybersecurity Inventory). Louvain community detection identifies 163 non-singleton communities; per-community contributor count scales superlinearly with repository count (n_contributors ~ n_repos^1.4), and community formation follows a logistic trajectory saturating around 2018. Three patterns support a recognition/repeat-relationship account of cross-boundary work. First, cross-community work concentrates in a thin carrier layer: only nine canonical humans span seven or more communities at the commit level, authoring 14% of 4,015 inter-community merged pull requests; the top 50 cross-community contributors produce 54%. Second, boundary friction is a recognition cost, not a fixed boundary property: inter-community pull-request acceptance rises from 42% at breadth k=1 to 87% at k=5-9, with median latency compressing from 147 h to 49 h. Third, community survival is cohort-structured: per-cohort residualisation hazard rises an order of magnitude between pre-2010 and 2018 cohorts, and external community reach predicts survival mainly through size, leaving late cohorts under-served despite a stable carrier layer. The corpus predates mainstream LLM coding assistants; this baseline of carrier-layer thinness, friction gradient, and cohort hazard informs debates on social coding as a template for digital societies and on what AI-mediated OSS ecosystems should not optimise away.",
-      "published": "2026-05-24",
-      "categories": [
-        "cs.CY",
-        "cs.SI",
-        "physics.soc-ph"
-      ],
-      "tags": [
-        "community detection"
-      ]
-    },
-    {
-      "id": "2605.25248",
-      "url": "https://arxiv.org/abs/2605.25248",
-      "title": "Heuristic and exact modularity optimization with size-constrained communities",
-      "authors": [
-        "Filipi N. Silva",
-        "Samin Aref",
-        "Vincent Traag",
-        "Santo Fortunato"
-      ],
-      "abstract": "When searching for communities in networks, domain experts may have some prior expectations about the size of communities. Yet, community detection methods normally do not optimize communities under cluster size constraints. Multi-resolution techniques allow users to indirectly control the average community size through changing a resolution parameter, but this practice does not control the size of individual communities. We here study the problem of size-constrained community detection, where the size of all communities is limited to a user-specified range of values, in the context of modularity optimization. We propose a heuristic for modularity optimization under community size constraints. To demonstrate the reliability of our proposed heuristic, we also formulate an exact integer optimization model and use its results as a baseline. Our analysis based on synthetic benchmarks and real networks demonstrate the issues with the currently common practice of changing resolution parameters and reveal the advantages of the proposed methods as a principled way of obtaining size-constrained communities. The proposed method is publicly available in the Python Leiden algorithm package.",
-      "published": "2026-05-24",
-      "categories": [
-        "physics.soc-ph",
-        "cs.SI"
-      ],
-      "tags": [
-        "community detection"
-      ]
-    },
-    {
-      "id": "2605.26163",
-      "url": "https://arxiv.org/abs/2605.26163",
-      "title": "Adversarial Water-Filling: Theory, Algorithms, and a Domain-Specific Wireless Foundation Model",
-      "authors": [
-        "Xindi Tong",
-        "Chee Wei Tan",
-        "H. Vincent Poor"
-      ],
-      "abstract": "Competitive resource allocation problems over frequency and space can be formulated as minimax interaction between transmit power and worst-case interference. This formulation naturally arises in multi-operator low Earth orbit (LEO) satellite spectrum sharing, where transmissions from competing constellations interfere in real-time. Under Gaussian channels, the corresponding power-allocation problem admits a convex-concave formulation with a unique saddle point. Discrete constellations yield generally nonconvex mercury/water-filling formulations. In this paper we propose the adversarial water-filling (AWF) problem with corresponding theory and algorithms for these settings. In addition, we develop a domain-specific wireless foundation model for AWF to learn the AWF search dynamics. The architecture incorporates permutation-invariant channel representations, a constraint-aware graph neural network (GNN) with sparse message passing, and global latent variables capturing the low-dimensional water level implied by the AWF optimality. Through learned projected extragradient iterations, the model approximates stationary solutions of the constrained minimax problem arising under mercury/water-filling. We further establish projected-stationarity/Karush-Kuhn-Tucker consistency and conditional local convergence of the learned AWF dynamics under local regularity and stability conditions. Experiments demonstrate empirical generalization across unseen problem sizes, constraint structures, discrete constellations, and channel-weighted objectives, while achieving a median speedup exceeding one order of magnitude over Mirror-Prox on matched instances at comparable first-order solution quality. The related code can be found at https://github.com/convexsoft/AWF.",
-      "published": "2026-05-24",
-      "categories": [
-        "cs.IT",
-        "cs.LG",
-        "math.OC"
-      ],
-      "tags": [
-        "graph neural network"
       ]
     },
     {
@@ -1307,25 +970,6 @@
       ],
       "tags": [
         "Wasserstein metric"
-      ]
-    },
-    {
-      "id": "2605.24477",
-      "url": "https://arxiv.org/abs/2605.24477",
-      "title": "The Normalized Maximum Likelihood for Regular Non-Smooth Models: Measure-Theoretic Foundations and Geometric Sampling",
-      "authors": [
-        "Trenton Lau",
-        "Gary P. T. Choi"
-      ],
-      "abstract": "The Normalized Maximum Likelihood (NML) codelength, or stochastic complexity, represents a principled criterion for universal coding. While recent coarea-based formulations provided a calculation method for smooth models, this framework collapses for the non-smooth estimators ubiquitous in modern machine learning (e.g., Lasso, Sparse SVMs). In this work, we provide a rigorous framework for computing the NML for regular path-differentiable Lipschitz (PDL) estimators. By applying classical geometric measure theory and bridging the coarea formula with conservative Jacobians, we prove that the stochastic complexity for non-smooth models is well-posed and theoretically consistent with the outputs of modern Automatic Differentiation. To compute this quantity exactly, we introduce the Propose-and-Project Metropolis-Hastings (PDL-PPMH) sampler, a geometric MCMC algorithm capable of traversing the non-differentiable level sets of the maximum likelihood estimator. We theoretically justify its components, including a stochastic tangent space proposal and a provably convergent non-smooth projection solver. We demonstrate the method's robustness by sampling from a high-dimensional Lasso posterior ($P=2000$), while simultaneously quantifying the computational scaling that governs the trade-off between exactness and mixing time. Crucially, we empirically demonstrate that our exact NML criterion provides a highly data-efficient alternative to cross-validation, achieving statistically indistinguishable predictive optima without requiring data splitting. Altogether, our work paves the way for the theoretical analysis of the NML codelength for regular non-smooth models.",
-      "published": "2026-05-23",
-      "categories": [
-        "cs.LG",
-        "cs.IT",
-        "math.ST"
-      ],
-      "tags": [
-        "mixing time"
       ]
     },
     {
@@ -1524,99 +1168,6 @@
       ]
     },
     {
-      "id": "2605.23371",
-      "url": "https://arxiv.org/abs/2605.23371",
-      "title": "Central limit theorems for high dimensional lattice polytopes: cosmological polytopes",
-      "authors": [
-        "Torben Donzelmann",
-        "Martina Juhnke",
-        "Benedikt Rednoß",
-        "Christoph Thäle"
-      ],
-      "abstract": "We study cosmological polytopes induced by Erdős--Rényi random graphs in a high-dimensional regime. These graph-based lattice polytopes form a natural model of random lattice polytopes in which geometric features are determined by the structure of the underlying random graph. Focusing on the number of polytope edges and on the number of edges in unimodular triangulations, we derive asymptotic formulas for expectations and variances and prove quantitative central limit theorems in the relevant parameter regime. The analysis relies on explicit graph-theoretic descriptions of the corresponding edge sets and on the discrete Malliavin--Stein method for normal approximation.",
-      "published": "2026-05-22",
-      "categories": [
-        "math.CO",
-        "math.PR"
-      ],
-      "tags": [
-        "random graph"
-      ]
-    },
-    {
-      "id": "2605.23854",
-      "url": "https://arxiv.org/abs/2605.23854",
-      "title": "Entrywise Error Bounds for Spectral Ranking with Semi-Random Adversaries",
-      "authors": [
-        "Dongmin Lee",
-        "Anuran Makur",
-        "Japneet Singh"
-      ],
-      "abstract": "Bradley-Terry-Luce (BTL) model estimation is a well-established strategy to rank a collection of items given a dataset of pairwise comparisons. Although the theoretical performance of BTL estimation methods, such as spectral and maximum likelihood estimation, is well studied in the regime of uniformly sampled graphs, generalizing such results to a wider class of random graphs has proved challenging. In this work, we investigate the entry-wise error of spectral algorithms against a semi-random adversary that can arbitrarily boost the sampling probabilities of certain edges. We find that the performance of the unweighted spectral method is heavily dependent on the spectral properties of the generated graph. Furthermore, we show that asymptotic performance approaching that of uniformly sampled graphs can be recovered by appropriately reweighting the observed edges to counteract the adversary and restore the spectral gap. Finally, we provide numerical simulations that support our theoretical findings.",
-      "published": "2026-05-22",
-      "categories": [
-        "cs.LG",
-        "math.ST",
-        "stat.ML"
-      ],
-      "tags": [
-        "random graph"
-      ]
-    },
-    {
-      "id": "2605.23446",
-      "url": "https://arxiv.org/abs/2605.23446",
-      "title": "Weisfeiler-Leman Is Incomplete on Simple Spectrum Graphs, so Canonicalize Them",
-      "authors": [
-        "Snir Hordan",
-        "Nadav Dym",
-        "Tim Seppelt"
-      ],
-      "abstract": "Graphs with a simple spectrum admit cubic-time isomorphism testing, yet we prove that for every natural number $k$, the $k$-Weisfeiler-Leman ($k$-WL) test cannot distinguish all non-isomorphic graphs with a simple spectrum. As the WL hierarchy upper-bounds the distinguishing power of widely-used Graph Neural Networks (GNNs), this incompleteness applies to all such GNNs, ruling out completeness for every $k$-WL-aligned GNN family. To close this gap, we introduce PRiSM (Partition, Refine, Solve, Match), the first provably complete canonicalization of simple-spectrum eigendecompositions. PRiSM obtains the completeness guarantee that prior canonicalizations provably lack, and resolves the open problem of achieving complete expressivity on simple-spectrum graphs. When composed with DeepSets or a Transformer, PRiSM achieves universal approximation on simple-spectrum graphs, justifying the use of canonicalized Laplacian positional encodings. Empirically, PRiSM performs comparably to or outperforms existing spectral canonicalizations on graph regression, classification, and expressivity",
-      "published": "2026-05-22",
-      "categories": [
-        "cs.LG",
-        "math.CO"
-      ],
-      "tags": [
-        "graph neural network"
-      ]
-    },
-    {
-      "id": "2605.24130",
-      "url": "https://arxiv.org/abs/2605.24130",
-      "title": "A Tight Bound on Localization of Electrical Flows",
-      "authors": [
-        "Ori Gurel-Gurevich",
-        "Asaf Nachmias",
-        "Sushant Sachdeva"
-      ],
-      "abstract": "We prove that for any unweighted graph on n vertices the L1 norm of a unit electric current between the endpoints of a random edge is at most 2 log n. Furthermore, we show that on any weighted graph the spectral norm of the entry-wise absolute value of the symmetric transfer-current matrix is at most 2 log n. This bound is tight up to constants and improves the O(log^2 n) bound from [Schild-Rao-Srivastava, SODA '18]. The initial proofs were generated by OpenAI's ChatGPT 5.5 Pro; the authors have verified and rewritten them to enhance readability and provide additional context.",
-      "published": "2026-05-22",
-      "categories": [
-        "cs.DS",
-        "cs.DM",
-        "math.PR"
-      ],
-      "tags": []
-    },
-    {
-      "id": "2605.24287",
-      "url": "https://arxiv.org/abs/2605.24287",
-      "title": "Humans Cannot Detect AI-Generated Media But Communities May -- For Now: Collaborative AI Detection in r/RealOrAI on Reddit",
-      "authors": [
-        "Tuğrulcan Elmas"
-      ],
-      "abstract": "We study human AI-detection behaviour at scale using a year of activity from r/RealOrAI, a Reddit community where users collaboratively assess whether visual media is real or AI-generated. The community is moderated by a bot that solicits verified labels from submitters of self-challenging \"[GUESS]\" posts and publishes an aggregate community prediction for each post, yielding naturalistic ground truth at scale. Community detection accuracy reaches 72% on [GUESS] posts with a systematic false-positive bias that intensifies over the year as the community's AI-suspicion grows. Using a six-LLM ensemble validated against human-annotated ground truth, we classify 10k reasoning-bearing comments along six cues covering perceptual features, context, consistency, AI knowledge, subject-matter expertise and provenance (tracing the media to its source). Perceptual features (scene, visual artifacts, anatomy physics, lighting, behavior, text, audio) dominate reasoning (70%) while provenance verification is rarest (4%) at the individual level but is amplified 4.3x in community summaries, revealing aggregation as a reliability filter that selectively surfaces diagnostic evidence. These findings reveal the limits of heuristic-based detection and show how online communities collectively navigate an increasingly contested information environment.",
-      "published": "2026-05-22",
-      "categories": [
-        "cs.SI"
-      ],
-      "tags": [
-        "community detection"
-      ]
-    },
-    {
       "id": "2605.22445",
       "url": "https://arxiv.org/abs/2605.22445",
       "title": "Generalized specific entropy on Wiener space with application to Martingale Optimal Transport",
@@ -1689,74 +1240,6 @@
       "tags": [
         "adjacency matrix"
       ]
-    },
-    {
-      "id": "2605.21961",
-      "url": "https://arxiv.org/abs/2605.21961",
-      "title": "Excess Obstructions and Layer-Contained Certificates for the Hypergraph Nash--Williams--Tutte Conjecture",
-      "authors": [
-        "Yutong Zhang",
-        "Yaoran Yang"
-      ],
-      "abstract": "Guo, Li, Shangguan, Tamo, and Wootters proposed a hypergraph analogue of the Nash--Williams--Tutte theorem, asserting that every $k$-weakly-partition-connected hypergraph admits a $k$-distinguishable tree assignment. We identify a sharp edge-count obstruction to the literal statement. A full tree assignment has $ρ(H)=\\sum_{e\\in E(H)}(|e|-1)$ labelled graph edges, whereas an ordered decomposition into $k$ spanning trees has exactly $k(t-1)$ edges. Since weak partition connectivity implies only $ρ(H)\\ge k(t-1)$, every strict inequality rules out a full decomposition. In particular, for all $t\\ge2$, $k\\ge1$, and $q\\ge1$, the hypergraph consisting of $k+q$ labelled copies of the full hyperedge is $k$-weakly-partition-connected but admits no $k$-distinguishable full tree assignment. We therefore isolate the critical regime $ρ(H)=k(t-1)$ and prove that every tree assignment of a critical $k$-weakly-partition-connected hypergraph admits a full ordered decomposition into $k$ spanning trees. Consequently, the critical conjecture reduces to the existence of some tree assignment having a decomposition whose signature fiber is a singleton. We establish this property for layer-contained certificates, without a star hypothesis or a rank restriction in interior layers. These certificates also imply weak partition connectivity by a quotient-rank argument and are stable under one-vertex sums. Finally, we derive a decomposition-indexed generalized-Laplace expansion for the relevant intersection-matrix minor, together with an exact formula for its collected monomial coefficients; we also give the required row-and-column perfect-shuffle normalization, identify criticality with the square full-assignment row count, and separate the critical conjecture from the additional overfull pruning problem.",
-      "published": "2026-05-21",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "spanning tree"
-      ]
-    },
-    {
-      "id": "2605.22395",
-      "url": "https://arxiv.org/abs/2605.22395",
-      "title": "Ramsey numbers of multiple copies of a graph and the random Ramsey theorem",
-      "authors": [
-        "Andrea Freschi",
-        "Ryan R. Martin",
-        "Andrew Treglown"
-      ],
-      "abstract": "A well-known result of Burr, Erdős and Spencer [Transactions of the American Mathematical Society, 1975] determines the $2$-colour Ramsey number for any sufficiently large collection of vertex-disjoint copies of a fixed graph $H$ without isolated vertices. A focus of this paper is to give analogous results for the corresponding $r$-colour Ramsey problem. More precisely we determine, up to an additive constant, this Ramsey number in the case when $r=3$ and also in the case when the chromatic number of $H$ is at least $r$. In these cases our results depend on a parameter which, roughly speaking, describes the corresponding class of potential extremal colourings of the complete graph. Our proofs rely on our notion of $(H,r)$-gadgets, which is crucial to obtain results that are best-possible up to additive constant terms. We exploit this notion using linear programming and the Poincaré-Miranda theorem. We also determine, up to a linear error term, the corresponding $r$-colour Ramsey number in the case when $H$ is a complete bipartite graph. Here, the corresponding class of potential extremal examples exhibits a connection with the well-known clique-edge-covering problem. We also prove random versions of some of our results. In particular, we prove a random version of the Burr-Erdős-Spencer theorem, thereby generalising the random Ramsey theorem of Rödl and Ruciński [Journal of the American Mathematical Society, 1995]. Our proofs make use of coloured versions of the (sparse) regularity lemma and the KLR conjecture for random graphs.",
-      "published": "2026-05-21",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "random graph"
-      ]
-    },
-    {
-      "id": "2605.22708",
-      "url": "https://arxiv.org/abs/2605.22708",
-      "title": "The Manickam-Miklós-Singhi Property in Graphs and Hypergraphs",
-      "authors": [
-        "Adam Džavoronok"
-      ],
-      "abstract": "This paper studies the Manickam-Miklós-Singhi (MMS) property for graphs and hypergraphs. Using the structural characterisation of the $2$-uniform case, we construct new families of regular graphs with the MMS property. We then analyse the Erdős--Rényi random graph model $\\mathbf{G}(n,p)$ and identify regimes in which the MMS property holds with high probability. Finally, we extend the matching-based sufficient condition to higher uniformities via pseudo-matchings and introduce a blowout construction that produces higher-uniformity hypergraphs with the MMS property from lower-uniformity examples.",
-      "published": "2026-05-21",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "random graph"
-      ]
-    },
-    {
-      "id": "2605.22101",
-      "url": "https://arxiv.org/abs/2605.22101",
-      "title": "Aldous-type Spectral Gaps in Generalized Symmetric Groups",
-      "authors": [
-        "Niv Levhari",
-        "Doron Puder"
-      ],
-      "abstract": "We prove an analog of Aldous' spectral gap conjecture in the generalized symmetric groups $G\\wr S_n$ where $G$ is an arbitrary finite group. Moreover, we show that Caputo's extension of the conjecture to hypergraphs transfers to these groups whenever it holds in the ordinary symmetric group.",
-      "published": "2026-05-21",
-      "categories": [
-        "math.GR",
-        "math.PR",
-        "math.RT"
-      ],
-      "tags": []
     },
     {
       "id": "2605.20800",
@@ -2063,24 +1546,6 @@
       ]
     },
     {
-      "id": "2605.19835",
-      "url": "https://arxiv.org/abs/2605.19835",
-      "title": "Reemergence of the Epidemic Threshold in SIRS Infections on Connected Stars",
-      "authors": [
-        "Andreas Göbel",
-        "Nicolas Klodt",
-        "Martin S. Krejca"
-      ],
-      "abstract": "The SIRS process is a continuous-time process for how infections spread on a graph. In this model, each vertex is in one of the following three states: susceptible (to the infection; S), infected (I), or recovered (R) and thus immune to the infection. For each vertex, the transition among these states is exponentially distributed according to the parameters of the process. It was recently shown that recovered vertices effectively stop the infection on stars, that is, the expected survival time of SIRS processes on stars is bounded from above by a polynomial in the number of the vertices, independently of the infection rate of the process. The setting where the process has, so far, been shown to exhibit epidemic behavior, i.e., super-polynomial survival time when the infection rate is above some threshold value, requires the host graph to be an expander. This is in contrast to the shown behavior of the well-studied SIS process, a related model in which vertices never transition to R, and in which even sparsely connected graphs, in particular stars, exhibit epidemic behavior. In this work, we show that expansion of the host graph is not a necessary condition for the SIRS process to result in an epidemic. Our main technical contribution shows that, while the SIRS process does not survive super-polynomially long on a single star, it does so on a network of poly-logarithmic (in the total number of vertices) stars of polynomial size. In addition, we show that such substructures appear in popular complex network models, providing for each a bound on the epidemic threshold. In particular, on hyperbolic random graphs, we compare our threshold for connected stars with the previously known one based on expansion, finding that both of them can be more permissive depending on the graph's power-law exponent and the rate that determines how long immunity lasts.",
-      "published": "2026-05-19",
-      "categories": [
-        "math.PR"
-      ],
-      "tags": [
-        "random graph"
-      ]
-    },
-    {
       "id": "2605.17725",
       "url": "https://arxiv.org/abs/2605.17725",
       "title": "Limit theorems for random walks with spatio-temporal drift",
@@ -2284,44 +1749,6 @@
       ]
     },
     {
-      "id": "2605.18125",
-      "url": "https://arxiv.org/abs/2605.18125",
-      "title": "Complexity of Finding and Enumerating Interconnection Trees",
-      "authors": [
-        "Noé Demange",
-        "Yann Strozecki"
-      ],
-      "abstract": "We study the problem of connecting the parts of a multipartite graph using a minimum number of edges under a matching constraint. We introduce interconnection trees, defined as matchings whose projections onto the quotient graph form a spanning tree. Motivated by applications in chemoinformatics, we investigate the decision, counting, and enumeration variants of this problem. We show that the decision problem is $NP$-complete. Nevertheless, it becomes tractable in several structured settings: it is fixed-parameter tractable in the number of parts, and admits polynomial or linear-time algorithms on complete, quasi-complete, and $t$-quasi-complete multipartite graphs. We also study enumeration, for which we design efficient flashlight-search based algorithms with optimal delay for complete multipartite graphs, and a weight-guided heuristic that prioritizes low-weight solutions and performs well in practice.",
-      "published": "2026-05-18",
-      "categories": [
-        "cs.CC",
-        "cs.DS"
-      ],
-      "tags": [
-        "spanning tree"
-      ]
-    },
-    {
-      "id": "2605.18448",
-      "url": "https://arxiv.org/abs/2605.18448",
-      "title": "Fixed-order PCA: Theory for Overestimated Factor Models",
-      "authors": [
-        "Yuan Liao",
-        "Xin Tong",
-        "Wanjie Wang",
-        "Dacheng Xiu"
-      ],
-      "abstract": "We develop asymptotic theory for principal component analysis (PCA) of a high-dimensional factor model in which the working dimension $R$ is fixed and only required to satisfy $R \\ge r$, where $r$ is the true number of factors. Building on anisotropic local laws from random matrix theory, we show that the ``extra'' empirical eigencomponents beyond the $r$-th are asymptotically noise-governed, incoherent, and nearly orthogonal to the factor loadings. We introduce two rotations, an expanded $r\\times R$ map $H'$ and a compressed $R\\times r$ map $H^{+}$, and establish consistency of the estimated factors under both. As an application, we analyze a factor-augmented regression for treatment-effect inference and prove $\\sqrt{T}$-asymptotic normality for every fixed $R \\ge r$. These results provide a theoretical underpinning for the common empirical practice of adopting a conservative upper bound on the number of factors, and shift the analytical burden from consistent dimension selection to the milder requirement of bounding $r$ from above.",
-      "published": "2026-05-18",
-      "categories": [
-        "math.ST",
-        "econ.EM"
-      ],
-      "tags": [
-        "random matrix"
-      ]
-    },
-    {
       "id": "2605.17513",
       "url": "https://arxiv.org/abs/2605.17513",
       "title": "Nonconcentration of hitting times for random walks on graphs",
@@ -2415,45 +1842,6 @@
       "tags": [
         "random walk",
         "Wasserstein distance"
-      ]
-    },
-    {
-      "id": "2605.16904",
-      "url": "https://arxiv.org/abs/2605.16904",
-      "title": "Positive-rate PCA and IPS with stationary Bernoulli measures are rapidly forgetful",
-      "authors": [
-        "Irène Marcovici",
-        "Siamak Taati"
-      ],
-      "abstract": "We prove that every probabilistic cellular automaton with strictly positive transition probabilities that admits a stationary Bernoulli measure is exponentially ergodic. Moreover, the mixing time of any finite region in such a system is logarithmic in the diameter of the region. A similar result holds in continuous time for positive-rate, finite-range interacting particle systems. The proofs use entropy, and rely on a representation of the system as a perturbation of another system with noise. The ergodic behaviour results from a competition between the accumulation of randomness due to noise and the diffusion of randomness due to local information exchange. We show that, in two and higher dimensions, the positive-rate probabilistic cellular automata that admit stationary Bernoulli measures are algorithmically indistinguishable from those that do not.",
-      "published": "2026-05-16",
-      "categories": [
-        "math.PR",
-        "cond-mat.stat-mech",
-        "math-ph",
-        "nlin.CG"
-      ],
-      "tags": [
-        "mixing time"
-      ]
-    },
-    {
-      "id": "2605.17051",
-      "url": "https://arxiv.org/abs/2605.17051",
-      "title": "Online Graph Embedding in Star Graphs",
-      "authors": [
-        "Julien Dallot",
-        "Darya Melnyk",
-        "Maciej Pacut",
-        "Stefan Schmid"
-      ],
-      "abstract": "Graph embedding is a fundamental problem of mapping nodes of a guest graph into a host graph while minimizing the distance distortion, with broad applications, including virtual network embeddings into physical topologies, VLSI design, or community detection in social networks. However, in many real-world applications the guest graph changes over time and the embedding can adapt to these changes (e.g. virtual machine migration in network embeddings). Static embeddings are inherently inefficient in comparison to adaptive embeddings, but it remains an unresolved algorithmic challenge to design efficient embedding algorithms that adapt to the demand on-the-fly, i.e., that are online. In this paper, we derive optimal deterministic and randomized online algorithms for the online graph embedding problem in star host graphs. This is an essential building block on the way to design algorithms for more complex host graphs, representing a single node and its neighborhood. We start by presenting a $1.5$-competitive deterministic algorithm and showing that no deterministic algorithm can perform better. Our main contribution is a randomized algorithm that achieves a significantly better competitive ratio of $11/9 \\approx 1.222$. Both the deterministic and the randomized algorithms are optimal, which we prove by deriving tight lower bounds for the competitiveness of any algorithm.",
-      "published": "2026-05-16",
-      "categories": [
-        "cs.DS"
-      ],
-      "tags": [
-        "community detection"
       ]
     },
     {
@@ -2643,45 +2031,6 @@
       ]
     },
     {
-      "id": "2605.16244",
-      "url": "https://arxiv.org/abs/2605.16244",
-      "title": "Analysis of a twisted Bose-Einstein Markov chain with applications to sampling Catalan structures",
-      "authors": [
-        "Ivan Z. Feng",
-        "J. E. Paguyo"
-      ],
-      "abstract": "We analyze a twisted Bose-Einstein Markov chain on $[k]^n$ arising from the Diaconis-Zhong twisted Burnside process. We derive explicit formulas for the transition kernel and stationary distribution of both the original chain and its lumped process, and we identify this chain as a special case of Crane's cut-and-paste process. We establish bounds on the mixing time and determine the second-largest eigenvalue of the original chain and its lumped process. Complementing the fixed-$k$ cutoff theorem of Crane and Lalley, our bounds show that both chains mix in $Θ(\\log n)$ steps when $k$ grows as a fixed positive power of $n$. For the non-twisted Bose-Einstein Markov chain, this resolves a conjecture of Diaconis. As an application, we study the Burnside processes on parking functions and labeled Dyck paths, which give novel Markov chain Monte Carlo algorithms for sampling an increasing parking function and a Dyck path, respectively, approximately uniformly at random. We show that these chains are rapidly mixing, with mixing times of $Θ(\\log n)$.",
-      "published": "2026-05-15",
-      "categories": [
-        "math.PR",
-        "math.CO"
-      ],
-      "tags": [
-        "mixing time"
-      ]
-    },
-    {
-      "id": "2605.21514",
-      "url": "https://arxiv.org/abs/2605.21514",
-      "title": "Conditional Entropy of Heat Diffusion on Temporal Networks",
-      "authors": [
-        "Samuel Koovely",
-        "Alexandre Bovet"
-      ],
-      "abstract": "Diffusion-based information-theoretic approaches provide new theoretical and practical tools to study complex networks. So far, they have not been generalized to temporal networks. In this work, we show that common entropic measures based on modeling diffusion on graphs, such as the entropy rate and the spectral entropy, do not generalize straightforwardly to temporal networks due to the process's non-stationarity and temporal asymmetries. Instead, we propose the conditional entropy of heat diffusion as an entropic measure for continuous-time temporal networks and study its properties. We show that this quantity is monotone in time, yielding an information-theoretic analog of the second law of thermodynamics for inhomogeneous diffusion on temporal networks. We provide an upper bound and suggest a lower bound on its evolution and explain how discrepancies from it arise due to asymmetric temporal paths. We then introduce a local version of conditional entropy, designed to probe diffusion over finite temporal windows, and show that it provides an informative signal for change-point detection in continuous-time temporal networks. We evaluate the proposed methodology on synthetic benchmarks, including comparative experiments with existing nonparametric baselines in the snapshot setting, and then apply it to a real-world temporal contact network. Finally, we show how to use detected change points to guide community detection on targeted sub-intervals, improving the quality and interpretability of the clustering results.",
-      "published": "2026-05-15",
-      "categories": [
-        "cs.SI",
-        "cond-mat.stat-mech",
-        "cs.IT",
-        "cs.LG",
-        "physics.data-an"
-      ],
-      "tags": [
-        "community detection"
-      ]
-    },
-    {
       "id": "2605.14508",
       "url": "https://arxiv.org/abs/2605.14508",
       "title": "On the Eccentricity Laplacian and Eccentricity Signless Laplacian Matrices of a Graph",
@@ -2773,146 +2122,6 @@
       ],
       "tags": [
         "Laplacian eigenvalue"
-      ]
-    },
-    {
-      "id": "2605.14376",
-      "url": "https://arxiv.org/abs/2605.14376",
-      "title": "Fast Gossip-based Rumor Spreading using Small Messages",
-      "authors": [
-        "Fabien Dufoulon",
-        "William K. Moses",
-        "Gopal Pandurangan"
-      ],
-      "abstract": "We study gossip algorithms for the fundamental rumor spreading problem, where the goal is to disseminate a rumor from a given source node to all nodes in an arbitrary (and unknown) graph. Gossip algorithms allow each node to call only one neighbor per round and are therefore highly message-efficient, with low per-node communication overhead per round. The state of the art present fast gossip algorithms, however they typically leverage large-sized messages. This undermines the light-weight communication advantage of gossip, since even though only one neighbor is contacted per round, the message size can be linear in $n$, the network size. Hence, a fundamental question is whether one can perform fast gossip using small messages. The main contribution of this paper is to answer the above question in the affirmative and present two gossip algorithms that achieve fast rumor spreading using messages of polylog{n} size. Specifically, we present the following algorithms: 1. An algorithm that runs in $O(c \\log n / Φ_c)$ rounds for every $c \\geq 1$, and $Φ_c$ is the weak conductance. Our bound in terms of weak conductance is essentially optimal. 2. An algorithm that depends on the network diameter (and is independent of the graph's conductance), which runs in $\\tilde{O}(D+\\sqrt{n})$ rounds with high probability. Our algorithm can be modified to output a minimum spanning tree (MST) in the same number of rounds, which is essentially round-optimal (even for non-gossip algorithms). Our gossip algorithms use graph sketches [Ahn, Guha, McGregor, SODA 2012] in a novel way to overcome communication bottlenecks and achieve small communication overhead with small message sizes.",
-      "published": "2026-05-14",
-      "categories": [
-        "cs.DC",
-        "cs.DS"
-      ],
-      "tags": [
-        "spanning tree"
-      ]
-    },
-    {
-      "id": "2605.14567",
-      "url": "https://arxiv.org/abs/2605.14567",
-      "title": "Scaling Laws from Sequential Feature Recovery: A Solvable Hierarchical Model",
-      "authors": [
-        "Arie Wortsman-Zurich",
-        "Hugo Tabanelli",
-        "Yatin Dandi",
-        "Florent Krzakala",
-        "Bruno Loureiro"
-      ],
-      "abstract": "We propose a simple mechanism by which scaling laws emerge from feature learning in multi-layer networks. We study a high-dimensional hierarchical target that is a globally high-degree function, but that can be represented by a combination of latent compositional features whose weights decrease as a power law. We show that a layer-wise spectral algorithm adapted to this compositional structure achieves improved scaling relative to shallow, non-adaptive methods, and recovers the latent directions sequentially: strong features become detectable at small sample sizes, while weaker features require more data. We prove sharp feature-wise recovery thresholds and show that aggregating these transitions yields an explicit power-law decay of the prediction error. Technically, the analysis relies on random matrix methods and a resolvent-based perturbation argument, which gives matching upper and lower bounds for individual eigenvector recovery beyond what standard gap-based perturbation bounds provide. Numerical experiments confirm the predicted sequential recovery, finite-size smoothing of the thresholds, and separation from non-hierarchical kernel baselines. Together, these results show how smooth scaling laws can emerge from a cascade of sharp feature-learning transitions.",
-      "published": "2026-05-14",
-      "categories": [
-        "stat.ML",
-        "cs.LG",
-        "math.PR",
-        "math.ST"
-      ],
-      "tags": [
-        "random matrix"
-      ]
-    },
-    {
-      "id": "2605.14910",
-      "url": "https://arxiv.org/abs/2605.14910",
-      "title": "Sharp Phase Transition for the Formation of Infinite Tubes",
-      "authors": [
-        "Shu Kanazawa",
-        "Omer Bobrowski",
-        "Primoz Skraba"
-      ],
-      "abstract": "Classical bond percolation theory studies the conditions for a given point in a random graph to be connected to infinity, or \"escape\" to infinity, via a sequence of random edges. In this work, we present a higher-dimensional generalization of this question, asking whether a fixed loop (or, more generally, a topological sphere) can escape to infinity via a tube formed by random plaquettes. We refer to this phenomenon as tube percolation. We first compare tube percolation with previously studied higher-dimensional percolation phenomena, including face and cycle percolation. For tubes of codimension one, we further relate the critical probability for tube percolation to those for percolation of finite clusters and shielded percolation in the dual bond percolation model. Next, we introduce a tubular analogue of the classical one-arm event, the tubular one-arm event, and prove that it exhibits a sharp threshold at criticality: below criticality, its probability decays exponentially in scale, whereas above criticality, it admits a mean-field-type lower bound. The proof relies on the O'Donnell-Saks-Schramm-Servedio (OSSS) inequality together with an exploration algorithm adapted to the topology of tubes. Finally, we study the tubular box-crossing property. Unlike ordinary path connectedness, \"tube connectedness\" is not transitive, and thus there is no natural notion of clusters. Nevertheless, we establish an analogue of the uniqueness of the infinite cluster from classical bond percolation. Combining this result with the sharp threshold for the tubular one-arm event, we prove that the existence of a box-crossing tube also exhibits a sharp threshold.",
-      "published": "2026-05-14",
-      "categories": [
-        "math.PR"
-      ],
-      "tags": [
-        "random graph"
-      ]
-    },
-    {
-      "id": "2605.15033",
-      "url": "https://arxiv.org/abs/2605.15033",
-      "title": "On the Limits of PAC Learning of Networks from Opinion Dynamics",
-      "authors": [
-        "Dmitry Chistikov",
-        "Luisa Estrada",
-        "Mike Paterson",
-        "Paolo Turrini"
-      ],
-      "abstract": "Agents in social networks with threshold-based dynamics change opinions when influenced by sufficiently many peers. Existing literature typically assumes that the network structure and dynamics are fully known, which is often unrealistic. In this work, we ask how to learn a network structure from samples of the agents' synchronous opinion updates. Firstly, if the opinion dynamics follow a threshold rule in which a fixed number of influencers prevent opinion change (e.g., unanimity and quasi-unanimity), we provide an efficient PAC learning algorithm provided that the number of influencers per agent is bounded. Secondly, under standard computational complexity assumptions, we prove that if agents' opinions follow the majority of their influencers, then there is no efficient PAC learning algorithm. We propose a polynomial-time heuristic that successfully learns consistent networks in over $98\\%$ of our simulations on random graphs, with no failures for some specified conditions on the numbers of agents and opinion diffusion examples.",
-      "published": "2026-05-14",
-      "categories": [
-        "cs.SI",
-        "cs.CC"
-      ],
-      "tags": [
-        "random graph"
-      ]
-    },
-    {
-      "id": "2605.15066",
-      "url": "https://arxiv.org/abs/2605.15066",
-      "title": "The critical activation density in graph bootstrap percolation",
-      "authors": [
-        "Brett Kolesnik",
-        "Tamás Makai",
-        "Rajko Nenadov",
-        "Xavier Pérez-Giménez",
-        "Paweł Prałat",
-        "Maksim Zhukovskii"
-      ],
-      "abstract": "In graph bootstrap percolation, edges of an Erdős-Rényi random graph ${\\mathcal G}_{n,p}$ are initially active, and activation spreads to other edges of $K_n$ via the combinatorics of a fixed graph $H$: an edge becomes active whenever it is the unique inactive edge in a copy of $H$. The process $H$-percolates if all edges of $K_n$ are eventually activated. While classical cases such as $H=K_3$ (connectivity) and $H=K_4$ (related to $2$-neighbor bootstrap percolation) have been studied extensively, general graphs $H$ can exhibit wildly different behaviors. In this work, we determine the critical $H$-percolation threshold $p_c(n,H)$ for every graph $H$, fully resolving a longstanding open question of Balogh, Bollobás, and Morris. The location of $p_c(n,H)$ is governed by a new, universal parameter $ρ(H)$, which measures the maximal efficiency of witness graphs that activate an edge. To achieve this, we introduce a novel framework based on the unfolding and refolding of witness graphs. While previous works were restricted to specific families of $H$, our approach provides a unified strategy for all $H$. Inspired by algebraic topology, we lift witness graphs to covering graphs and algorithmically embed folded versions into ${\\mathcal G}_{n,p}$ via a sequence of extensions. Crucially, this allows us to incorporate highly efficient witness graphs of unbounded size, which are potentially far larger than ${\\mathcal G}_{n,p}$ itself. Beyond resolving $p_c(n,H)$, our framework recovers and strengthens several existing bounds in the literature. Finally, we initiate the study of the universal density parameter $ρ(H)$ and pose central open questions regarding its computability and its exact correspondence with the sharpness of the $H$-percolation threshold.",
-      "published": "2026-05-14",
-      "categories": [
-        "math.PR",
-        "math.CO"
-      ],
-      "tags": [
-        "random graph"
-      ]
-    },
-    {
-      "id": "2605.15173",
-      "url": "https://arxiv.org/abs/2605.15173",
-      "title": "Hybrid Sketching Methods for Dynamic Connectivity on Sparse Graphs",
-      "authors": [
-        "Quinten De Man",
-        "Gilvir Gill",
-        "Michael A. Bender",
-        "Laxman Dhulipala",
-        "David Tench"
-      ],
-      "abstract": "Dynamic connectivity is a fundamental dynamic graph problem, and recent algorithmic breakthroughs on dynamic graph sketching have reshaped what is theoretically possible: by encoding the graph as per-vertex linear sketches, these algorithms solve dynamic connectivity in only $Θ(V \\log^2 V)$ space, independent of the number of edges,outperforming lossless $Θ(V+E)$-space structures that grow as the graph becomes denser. Prior to this work, no practical dynamic connectivity algorithm has been able to translate these theoretical breakthroughs into space savings on real-world graphs. The main obstacle is that per-vertex sketches cost thousands of bytes per vertex, so sketching only pays off once the graph becomes extremely dense. We observe that sparse real-world graphs are often not uniformly sparse, these graphs can contain dense cores on a small subset of vertices that account for a large fraction of edges. We exploit this structure via hybrid sketching: sketch only the dense core, and store the sparse periphery losslessly. We design new hybrid algorithms for fully-dynamic and semi-streaming connectivity with space $O(\\min\\{V+E, V \\log V \\log(2+E/V)\\})$ w.h.p., simultaneously matching the lossless bound on sparse graphs, the sketching bound on dense graphs, and improving on both in an intermediate regime. A key component is BalloonSketch, a new l0-sampler reducing per-vertex sketch sizes by up to 8x. We implement HybridSCALE, a modular system treating the lossless and sketch-based components as subroutines. HybridSCALE is the first sketch-based dynamic connectivity system to save space on common real-world graphs. Compared to the state-of-the-art lossless baseline, HybridSCALE saves up to 15% space on sparse graphs (average degree < 100), up to 92% on intermediate density graphs (average degree ~ 100-1000), and up to 97% on dense graphs (average degree > 1000).",
-      "published": "2026-05-14",
-      "categories": [
-        "cs.DS",
-        "cs.DB"
-      ],
-      "tags": [
-        "dynamic graph"
-      ]
-    },
-    {
-      "id": "2605.15136",
-      "url": "https://arxiv.org/abs/2605.15136",
-      "title": "New Bounds for Integer Flows and Verma Modules, via Denormalized Lorentzian Laurent Series",
-      "authors": [
-        "Jonathan Leake",
-        "Maryam Mohammadi Yekta"
-      ],
-      "abstract": "The theory of log concave polynomials has recently been developed to study objects and problems in combinatorics and other subfields in mathematics. Particular classes of log concave polynomials called Lorentzian polynomials and denormalized and dually Lorentzian polynomials have been used to prove log concavity statements for various combinatorial sequences. This includes the strongest form of Mason's log concavity conjecture on the independent sets of matroids and the log concavity of sequences of Kostka numbers. In this paper, we develop an analogous class of power series called denormalized Lorentzian (DL) Laurent series. This class is the natural generalization of DL polynomials to homogeneous power series with the benefit of capturing a number of combinatorial generating series including the Kostant partition function for integer flows of directed graphs. We then analyze specific DL Laurent series to obtain new bounds for integral flows on general directed acyclic graphs and new bounds for the dimensions of weight spaces of parabolic $\\mathfrak{sl}_{n+1}(\\mathbb{C})$ Verma modules.",
-      "published": "2026-05-14",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "matroid"
       ]
     },
     {
@@ -3259,61 +2468,6 @@
       ]
     },
     {
-      "id": "2605.11873",
-      "url": "https://arxiv.org/abs/2605.11873",
-      "title": "Maximizing Reachability via Shifting of Temporal Paths",
-      "authors": [
-        "Argyrios Deligkas",
-        "Michelle Döring",
-        "Eduard Eiben",
-        "George Skretas",
-        "Georg Tennigkeit"
-      ],
-      "abstract": "We examine the problem of maximizing the reachability of a given source in temporal graphs that are given as the union of k temporal paths, i.e., every given path is a sequence of edges with strictly increasing labels that denote availability in time. This type of temporal graphs represent train networks. We consider shifting operations on the labels of the paths that maintain their temporal continuity. This means that we can move the availability of a temporal edge later or earlier in time, and propagate the shifts to all other affected edges of the path in order to preserve its temporal connectivity. We study the parameterized complexity of the problem with respect to the number of paths k, and the total budget b, where b is the maximum number of shifts we are allowed to perform. Our results reveal that fixed parameter tractability can be achieved (1) when parameterized both by k and b, and (2) when parameterized by k, and b is unconstrained. In almost every other case, e.g., parameterized by a single parameter or parameterized by k, while having a bound on b, we establish intractability lower bounds that are matched by XP algorithms.",
-      "published": "2026-05-12",
-      "categories": [
-        "cs.DS"
-      ],
-      "tags": [
-        "temporal graph"
-      ]
-    },
-    {
-      "id": "2605.12669",
-      "url": "https://arxiv.org/abs/2605.12669",
-      "title": "Thin Trees for Near Minimum Cuts",
-      "authors": [
-        "Nathan Klein",
-        "Neil Olver",
-        "Zi Song Yeoh"
-      ],
-      "abstract": "The strong thin tree conjecture states that every $k$-edge-connected graph $G$ contains an $O(1/k)$-thin spanning tree, meaning a spanning tree which contains at most an $O(1/k)$ fraction of the edges across each cut in $G$. This conjecture is still open despite significant effort; the best current result by Anari and Oveis Gharan shows the existence of an $O(\\text{polyloglog}(n)/k)$-thin tree. In this work, we demonstrate that the conjecture is true if one only requires thinness for the set of $η$-near minimum cuts of the graph for $η= 1/40$, in other words, for the set of cuts with fewer than $(1+1/40)k$ edges. Our approach constructs such a tree in polynomial time. To show this, we utilize the structure of near minimum cuts, and in particular the polygon representation of Benczúr and Goemans, to reduce to the previously solved problem of finding a spanning tree that is $O(1/k)$-thin for all sets in a laminar family.",
-      "published": "2026-05-12",
-      "categories": [
-        "cs.DS"
-      ],
-      "tags": [
-        "spanning tree"
-      ]
-    },
-    {
-      "id": "2605.12672",
-      "url": "https://arxiv.org/abs/2605.12672",
-      "title": "Expander Evolution Algebras",
-      "authors": [
-        "Piero Giacomelli"
-      ],
-      "abstract": "We introduce \\emph{expander evolution algebras} (EEAs), a class of nonassociative algebras defined over an arbitrary field $\\K$ in which the underlying undirected loopless graph of the algebra -- in the sense of Kowalski -- is an expander graph in the classical sense of Cheeger. Starting from the formal graph definition of Kowalski and the algebraic framework of Tian, we establish a dictionary between combinatorial expansion and algebraic structure: the Cheeger constant of the associated graph governs connectivity, the subalgebra lattice, the growth of the evolution sequence, and -- over $\\R$ and $\\C$ -- the spectral gap of the evolution operator. Over a general field $\\K$ we prove that EEAs are always connected and simple (as evolution algebras), carry no proper large evolution subalgebras, and that every generator of a \\emph{symmetric} EEA is algebraically persistent. Over $\\C$ we obtain the sharp Alon--Boppana lower bound for the second eigenvalue of the evolution operator, leading to the definition of \\emph{Ramanujan evolution algebras} as optimal expanders. We also construct families of EEAs from Cayley graphs of finite groups. We close with open problems.",
-      "published": "2026-05-12",
-      "categories": [
-        "math.RA",
-        "math.CO"
-      ],
-      "tags": [
-        "expander graph"
-      ]
-    },
-    {
       "id": "2605.10911",
       "url": "https://arxiv.org/abs/2605.10911",
       "title": "The stochastic block model has the overlap graph property for modularity",
@@ -3503,77 +2657,6 @@
       "tags": [
         "optimal transport"
       ]
-    },
-    {
-      "id": "2605.09917",
-      "url": "https://arxiv.org/abs/2605.09917",
-      "title": "Dynamic Rank, Basis, and Matching",
-      "authors": [
-        "Jan van den Brand",
-        "Vishal Kumar",
-        "Daniel J. Zhang"
-      ],
-      "abstract": "We study dynamic algorithms for maintaining fundamental algebraic properties of matrices, specifically, rank, basis, and full-rank submatrices, with applications to maximum matching on dynamic graphs. Prior dynamic algorithms for rank achieve subquadratic update times but scale with the matrix dimension $n$, and could not always maintain the corresponding objects such as a basis or maximum full-rank submatrix. We present the first dynamic rank algorithms whose update time scales with the matrix rank $r$, achieving $\\tilde O(r^{1.405})$ time per entry-update and $\\tilde O(r^{1.528}+ z)$ per column-update, where $z$ is the number of changed entries. This extends to $\\tilde O(|M|^{1.405})$ edge-update time to maintain the size $|M|$ of a maximum matching. We also give dynamic algorithms for maintaining a column-basis subject to column-updates and a maximum full-rank submatrix subject to entry-updates.",
-      "published": "2026-05-11",
-      "categories": [
-        "cs.DS"
-      ],
-      "tags": [
-        "dynamic graph"
-      ]
-    },
-    {
-      "id": "2605.10542",
-      "url": "https://arxiv.org/abs/2605.10542",
-      "title": "Algorithms for Computing Set Tolerances: Theory, Computational Analysis and Applications",
-      "authors": [
-        "Gerold Jäger",
-        "Dmitrii Panasenko"
-      ],
-      "abstract": "The regular set tolerance is an important term in sensitivity analysis. For combinatorial sum problems, e.g., the Traveling Salesman Problem, Shortest Path Problem and Minimum Spanning Tree Problem, it determines how much the sum of the costs of the elements of a set can be increased while ensuring that all current optimal solutions remain optimal. The regular set lower tolerance determines how much the sum of the costs of the elements of a set can be decreased while ensuring that the objective value of the optimal solution is not changed. We investigate general methods for computing regular (upper and lower) set tolerances in combinatorial sum problems. For the upper tolerance, we present a linear programming approach, and for the lower tolerances, three linear programming approaches, where the last two are novel and lead to recursive procedures for computation of the lower tolerances of all subsets of the given ground set. We give new upper bounds for set lower tolerances. For both upper and lower tolerances, we give an exact formula for sets of cardinality 2 and 3. Furthermore, we computationally compare and analyze the three different lower tolerance LPs. Finally, we consider the computation of tolerances for the Minimum Spanning Tree Problem, give a formula for single tolerances, a lower bound for regular set upper tolerances and an exact formula for regular set lower tolerances.",
-      "published": "2026-05-11",
-      "categories": [
-        "math.CO",
-        "math.OC"
-      ],
-      "tags": [
-        "spanning tree"
-      ]
-    },
-    {
-      "id": "2605.11226",
-      "url": "https://arxiv.org/abs/2605.11226",
-      "title": "A Stable Distance Persistence Homology for Dynamic Bayesian Network Clustering",
-      "authors": [
-        "Will Bales",
-        "Carmen Rovi"
-      ],
-      "abstract": "Dynamic Bayesian networks (DBNs) are a widely used framework for modeling systems whose probabilistic structure evolves over time. Standard inference methods focus on local conditional distributions and can miss larger-scale patterns in how dependencies between variables organize and change over time. We introduce a topological approach to this problem. To each DBN we associate a time-varying graph, called a Dynamic Bayesian Graph (DBG), by assigning to each edge a strength that measures variation in its conditional dependence across parent configurations, and retaining edges whose strength exceeds a chosen threshold. We show that this construction fits within the dynamic graph framework of Kim and Mémoli, enabling the use of tools from topological data analysis. Applying persistent homology to a DBG produces a barcode, which records the merging and disappearance of connected groups of strongly dependent variables over time. We prove that this barcode is stable: small perturbations in the conditional probability tables of the DBN lead to small changes in the resulting barcode. This yields a principled and noise-resistant summary of how dependency structure evolves in a dynamic Bayesian network.",
-      "published": "2026-05-11",
-      "categories": [
-        "math.AT",
-        "math.ST",
-        "stat.ML"
-      ],
-      "tags": [
-        "dynamic graph"
-      ]
-    },
-    {
-      "id": "2605.11241",
-      "url": "https://arxiv.org/abs/2605.11241",
-      "title": "Urschel Nodal Domains via Perturbation Theory",
-      "authors": [
-        "Joel Friedman",
-        "Tong Ling",
-        "Soumyajit Saha"
-      ],
-      "abstract": "We prove several types of Courant nodal domain theorems for generalized Laplacians on graphs, based on an invariant introduced by Urschel, which we call the \"Urschel number\", denoted ${\\rm UN}({\\bf f})$, of an eigenvector ${\\bf f}$. We refine Urschel's invariant, and use perturbation techniques to obtain some new results. First, we show the existence of mutually orthogonal eigenvectors, such that if the $k$-th eigenvalue has multiplicity $m$, then for $0\\le j\\le m-1$, ${\\rm UN}({\\bf f}_{k+j})\\le k+\\min(j,(m-1)-j)$. Second, for a simple $k$-th eigenvalue, we classify the zeroes of ${\\bf f}_k$ as either \"shallow or \"deep\"; we obtain a number of results that say, roughly speaking, the more shallow vertices ${\\bf f}_k$ has, the more control we have over our new invariants based on Urschel's. Our new invariants of an eigenvector, ${\\bf f}_k$, are a sequence of integers whose minimum value is ${\\rm UN}({\\bf f}_k)$ and whose maximum, denoted ${\\rm UN}_{\\max{}}({\\bf f}_k)$, is the maximum number of nodal domains of any possible positive/negative signing or \"charge\" of the zeroes of ${\\bf f}_k$. An example of our second type of result is that if ${\\bf f}_k$ has no deep vertices, then ${\\rm UN}_{\\max{}}({\\bf f}_k)\\le k$. We provide a number of examples to illustrate our main results, and how they differ from the situation in analysis. We also describe a minor improvement of the Gladwell-Zhu theorem for an orthonormal eigenbasis in the presence of eigenvalues of sufficient multiplicity.",
-      "published": "2026-05-11",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": []
     },
     {
       "id": "2605.09377",
@@ -4250,66 +3333,6 @@
       ]
     },
     {
-      "id": "2605.05618",
-      "url": "https://arxiv.org/abs/2605.05618",
-      "title": "Algorithmic Phase Transition for Large Independent Sets in Dense Hypergraphs",
-      "authors": [
-        "Abhishek Dhawan",
-        "Nhi U. Dinh",
-        "Eren C. Kızıldağ",
-        "Neeladri Maitra",
-        "Bayram A. Şahin"
-      ],
-      "abstract": "We study the algorithmic tractability of finding large independent sets in dense random hypergraphs. In the sparse regime, much of the natural algorithms can be formulated within either the local or the low-degree polynomial (LDP) framework, and a rich literature has subsequently identified nearly sharp algorithmic thresholds within these classes by exploiting their stability. In the dense setting, however, the algorithmic paradigms are fundamentally different: they are online and thus need not be stable. Perhaps more crucially, even for the classical Erdős-Rényi random graph $G(n,p)$, LDPs are conjectured to fail in the 'easy' regime accessible to online algorithms, thereby challenging their viability for dense models. Our focus is on two models: (i) finding large independent sets in dense $r$-uniform Erdős-Rényi hypergraphs, and (ii) the more challenging problem of finding large $γ$-balanced independent sets in dense $r$-uniform $r$-partite hypergraphs, where the $i$-th coordinate of $γ\\in\\mathbb{Q}^r$ specifies the proportion of vertices from $V_i$ in the independent set. For both models, we pinpoint the size of the largest independent set and design online algorithms that achieve a multiplicative approximation factor of $r^{1/(r-1)}$ in the uniform and $(\\max_i γ_i)^{-1/(r-1)}$ in the $r$-partite model. Furthermore, we establish matching algorithmic lower bounds, showing that these computational gaps are sharp: no online algorithms can breach these gaps.",
-      "published": "2026-05-07",
-      "categories": [
-        "cs.DS",
-        "cs.CC",
-        "cs.DM",
-        "math.CO",
-        "math.PR"
-      ],
-      "tags": [
-        "random graph"
-      ]
-    },
-    {
-      "id": "2605.05954",
-      "url": "https://arxiv.org/abs/2605.05954",
-      "title": "Label Correcting Algorithms for the Multiobjective Temporal Shortest Path Problem",
-      "authors": [
-        "Edina Marica",
-        "Clemens Thielen",
-        "Alina Wittmann"
-      ],
-      "abstract": "Given a directed, discrete-time temporal graph $G=(V,R)$, a start node $s\\in V$, and $p\\geq1$ objectives, the single-source multiobjective temporal shortest path problem asks, for each $v\\in V$, for the set of nondominated images of temporal $s$-$v$-paths together with a corresponding efficient path for each image. A recent general label setting algorithm for this problem relies on two properties of the objectives - monotonicity and isotonicity. Monotonicity generalizes the nonnegativity assumption required by label setting methods for the classical additive single-objective shortest path problem on static graphs, while isotonicity ensures that the order of the objective values of two paths is preserved when both are extended by the same arc. In this paper, we study the problem without assuming monotonicity and/or isotonicity. A key difficulty in this setting is that zero-duration temporal cycles may need to be traversed an arbitrary finite number of times to generate all nondominated images. This motivates the study of a restricted problem variant in which a maximum admissible path length $K$ is imposed, and only paths containing at most $K$ arcs are considered. We develop general label correcting algorithms for this setting and establish several sufficient conditions under which such a bound is not required, implying that the algorithms compute all nondominated images.",
-      "published": "2026-05-07",
-      "categories": [
-        "cs.DS",
-        "math.OC"
-      ],
-      "tags": [
-        "temporal graph"
-      ]
-    },
-    {
-      "id": "2605.06555",
-      "url": "https://arxiv.org/abs/2605.06555",
-      "title": "Fast decremental tree sums in forests",
-      "authors": [
-        "Benjamin Aram Berendsohn",
-        "Marek Sokołowski"
-      ],
-      "abstract": "We study two fundamental decremental dynamic graph problems. In both problems, we need to maintain a vertex-weighted forest of size $n$ under edge deletions, weight updates, and a certain information-retrieval query. Both problems can be solved in $O(\\log n)$ time per update/query using standard dynamic forest data structures like top trees, even if additionally edge insertions are allowed. We investigate whether the deletion-only problem can be solved faster. First, we consider $\\texttt{tree-sum}$ queries, where we ask for the sum of vertex weights in one of the connected components (i.e., trees) in the forest. We give a data structure with $O(n)$ preprocessing time and $O(\\log^* n)$ time per operation, based on a micro-macro tree decomposition (Alstrup et al., 1997). If the forest is unweighted (i.e., all weights are 1 and cannot be changed), then the operation time can be improved to $O(1)$. Additionally, we give an asymptotically universally optimal algorithm. More specifically, our algorithm works in the group model, and processes $m$ operations on an initial forest $F$ in running time $O( \\mathrm{OPT}(F, m) )$. Here $\\mathrm{OPT}(F, m)$ is the number of weight additions and subtractions that a best possible algorithm performs to handle a worst-case instance for a fixed initial forest $F$ and a fixed number $m$ of operations. We achieve this with a combination of the aforementioned decomposition technique, precomputation of optimal data structures for very small instances, and some insights into the behavior of $\\mathrm{OPT}$. Note that even the worst-case complexity of this algorithm remains unknown to us. Second, we consider $\\texttt{subtree-sum}$ queries. Here, the forest is rooted, and a query $\\texttt{subtree-sum}(v)$ returns the sum of weights in the subtree rooted at $v$. We show tight bounds for several variants of this problem. [...]",
-      "published": "2026-05-07",
-      "categories": [
-        "cs.DS"
-      ],
-      "tags": [
-        "dynamic graph"
-      ]
-    },
-    {
       "id": "2605.05420",
       "url": "https://arxiv.org/abs/2605.05420",
       "title": "A Unified Approach to Beta Moments, Combinatorial Identities, and Random Walks",
@@ -4413,54 +3436,6 @@
       ],
       "tags": [
         "Wasserstein distance"
-      ]
-    },
-    {
-      "id": "2605.05046",
-      "url": "https://arxiv.org/abs/2605.05046",
-      "title": "Sampling Simultaneous Edge-Colorings",
-      "authors": [
-        "Ezra Furtado-Tiwari",
-        "Eric Vigoda"
-      ],
-      "abstract": "We study the sampling problem for simultaneous edge colorings. Given a pair of graphs $G_1=(V,E_1)$ and $G_2=(V,E_2)$ which are on the same vertex set $V$, a simultaneous edge coloring is an edge coloring of $G_1\\cup G_2$ so that each of the individual graphs is properly colored. When each of $G_1$ and $G_2$ are of maximum degree $Δ$, then it is conjectured that $Δ+2$ colors suffice, and recent work asymptotically establishes the conjecture. We study Markov chains for randomly sampling from the uniform distribution over simultaneous edge colorings. Straightforward applications of Jerrum's classical coupling argument establish rapid mixing of the Glauber dynamics on the corresponding line graph when $k>8Δ$. We present a simple weighted Hamming distance for which Jerrum's coupling yields optimal mixing time (up to constant factors) of $O(m\\log{n})$ when $k>(6+δ)Δ$ for any fixed $δ>0$. Moreover, utilizing the flip dynamics with our new metric, we obtain $O(m\\log{n})$ mixing of the flip dynamics when $k\\geq 5.948Δ$, using a local choice of flip parameters which only flips bounded-size components. The proof adapts previous coupling analyses for the flip dynamics to the setting of simultaneous edge colorings.",
-      "published": "2026-05-06",
-      "categories": [
-        "cs.DM",
-        "math.PR"
-      ],
-      "tags": [
-        "mixing time"
-      ]
-    },
-    {
-      "id": "2605.05076",
-      "url": "https://arxiv.org/abs/2605.05076",
-      "title": "High-Dimensional Statistics: Reflections on Progress and Open Problems",
-      "authors": [
-        "Arian Maleki",
-        "Subhabrata Sen",
-        "Sivaraman Balakrishnan",
-        "Verena Zuber",
-        "Chao Gao",
-        "Rishabh Dudeja",
-        "Christos Thrampoulidis",
-        "Anru Zhang",
-        "Weijie Su",
-        "Jason M. Klusowski",
-        "Po-Ling Loh",
-        "Ali Shojaie"
-      ],
-      "abstract": "Over the past two decades, the field of high-dimensional statistics has experienced substantial progress, driven largely by technological advances that have dramatically reduced the cost and effort for data collection and storage across a broad range of domains, including biology, medicine, astronomy, and the social and environmental sciences. Modern datasets are increasingly complex, often exhibiting rich dependency, heterogeneity, and other features that challenge traditional statistical methods. In response, high-dimensional statistics has evolved to address more sophisticated estimation and inference problems. This evolution has, in turn, fostered deep connections with and contributions to a wide range of research areas, including optimization, concentration of measure, random matrix theory, information theory, and theoretical computer science. Given the rapid pace of recent developments in high-dimensional statistics, our goal is to synthesize representative advances, highlight common themes and open problems, and point to important works that offer entry points into the field.",
-      "published": "2026-05-06",
-      "categories": [
-        "math.ST",
-        "stat.CO",
-        "stat.ME",
-        "stat.ML"
-      ],
-      "tags": [
-        "random matrix"
       ]
     },
     {
@@ -4630,79 +3605,6 @@
       "tags": [
         "Wasserstein distance"
       ]
-    },
-    {
-      "id": "2605.03431",
-      "url": "https://arxiv.org/abs/2605.03431",
-      "title": "An Optimal Algorithm for Cardinality-Constrained Diameter Partitioning",
-      "authors": [
-        "Chao Xu",
-        "Mingdong Yang"
-      ],
-      "abstract": "Cardinality-constrained diameter partitioning asks for a partition of $n$ items into two classes of prescribed sizes that minimizes the larger of the two class diameters. We give an $O(n^2)$ algorithm and a matching $Ω(n^2)$ lower bound if we can only query the weight between two elements. The algorithm computes the optimum for every cardinality simultaneously, improving Avis's $O(n^2\\log n)$. The reduction is to a bottleneck 2-coloring problem on the maximum spanning tree, solved by a standard tree DP. For a single cardinality with Euclidean weights, we obtain a subquadratic time algorithm in any fixed dimension.",
-      "published": "2026-05-05",
-      "categories": [
-        "cs.DS"
-      ],
-      "tags": [
-        "spanning tree"
-      ]
-    },
-    {
-      "id": "2605.03851",
-      "url": "https://arxiv.org/abs/2605.03851",
-      "title": "The Relay Random Tree: A Stochastic Geometry Approach of Multihop Relay in an Urban Visibility Setting",
-      "authors": [
-        "Paul Rax",
-        "François Baccelli"
-      ],
-      "abstract": "In a recent work (Lee, Baccelli $'25$), a one dimensional stochastic geometry model was introduced to study Line of Sight (LoS) connections using Reconfigurable Intelligent Surfaces (RIS), in the context of non terrestrial networks. In this model, signal can be propagated in a urban environment, with buildings acting as obstacles with RIS (which, for the scope of this present article can essentially be thought of as relays) on their rooftops, relaying the connection. The present paper extends this model by both allowing arbitrary distributions for the buildings heights, and considering multi-hop connections. Those generalities also lead to considering structural problems linked to the total load of a relay. Furthermore, studying this Line of Sight connection geometry at the light of geometric random graph theory, we show that it constitutes a computationally well understood example that highlights the different classes of the Eternal Family Trees (EFTs) classification.",
-      "published": "2026-05-05",
-      "categories": [
-        "math.PR"
-      ],
-      "tags": [
-        "random graph"
-      ]
-    },
-    {
-      "id": "2605.03893",
-      "url": "https://arxiv.org/abs/2605.03893",
-      "title": "Optimal Hardness of Online Algorithms for Large Common Induced Subgraphs",
-      "authors": [
-        "David Gamarnik",
-        "Miklós Z. Rácz",
-        "Gabe Schoenbach"
-      ],
-      "abstract": "We study the problem of efficiently finding large common induced subgraphs of two independent Erdős--Rényi random graphs $G_1, G_2 \\sim \\mathbb{G}(n,1/2)$. Recently, Chatterjee and Diaconis showed that the largest common induced subgraph of $G_1$ and $G_2$ has size $(4-o(1))\\log_2 n$ with high probability. We first show that a simple greedy online algorithm finds a common induced subgraph of $G_1$ and $G_2$ of size $(2-o(1)) \\log_2 n$ with high probability. Our main result shows that no online algorithm can find a common induced subgraph of $G_1$ and $G_2$ of size at least $(2+\\varepsilon) \\log_2 n$ with probability bounded away from $0$ as $n \\to \\infty$. Together, these results provide evidence that this problem exhibits a computation-to-optimization gap. To prove the impossibility result, we show that the solution space of the problem exhibits a version of the (multi) overlap gap property (OGP), and utilize an interpolation argument recently developed by Gamarnik, Kizildağ, and Warnke that connects OGP and online algorithms.",
-      "published": "2026-05-05",
-      "categories": [
-        "cs.DS",
-        "cs.CC",
-        "cs.DM",
-        "math.CO",
-        "math.PR"
-      ],
-      "tags": [
-        "random graph"
-      ]
-    },
-    {
-      "id": "2605.03470",
-      "url": "https://arxiv.org/abs/2605.03470",
-      "title": "Criteria on forbidden subgraphs in the complements for positive Lin--Lu--Yau curvature",
-      "authors": [
-        "Kaizhe Chen",
-        "Shiping Liu",
-        "Zhe You"
-      ],
-      "abstract": "We investigate forbidden subgraph conditions in the complement of a graph that guarantee positive Lin--Lu--Yau curvature. In particular, we prove that every graph whose complement contains no $4$-cycles has positive Lin--Lu--Yau curvature, with the only exception of the $4$-vertex path. We further prove that, for any integer $t\\ge2$, every graph on at least $\\max\\{t^2-2t+2, 8t\\}$ vertices whose complement contains no $K_{2,t}$ has positive curvature. In addition, this lower bound on the number of vertices is optimal for $t\\geq 10$. Finally, we construct examples showing that, in general, the forbidden subgraphs in these results cannot be replaced by cycles of length other than $4$ or by complete bipartite graphs $K_{s,t}$ with $s> 2$ and $t> 2$.",
-      "published": "2026-05-05",
-      "categories": [
-        "math.CO",
-        "math.DG"
-      ],
-      "tags": []
     },
     {
       "id": "2605.27405",
@@ -4908,101 +3810,6 @@
       ]
     },
     {
-      "id": "2605.02514",
-      "url": "https://arxiv.org/abs/2605.02514",
-      "title": "Graphons, Geometry, and Dynamics: Forward and Inverse Perspectives",
-      "authors": [
-        "Ágnes Backhausz",
-        "Christian Kuehn",
-        "Sjoerd van der Niet"
-      ],
-      "abstract": "In this work, we explore the interplay between graph limit theory, the geometry of underlying probability spaces, spectral theory, and network dynamical systems. We investigate two primary questions concerning forward and inverse perspectives: first, whether a graphon retains information about the geometry of the space on which it is defined, and second, whether spectral properties can distinguish graphons that originate from different geometric spaces. To address these questions, we differentiate between combinatorial equivalence and geometric structure, highlighting how these concepts are captured simultaneously by the class of pure graphons. Furthermore, we construct explicit examples of isospectral graphons -- graphons whose integral operators share the same spectrum -- that differ in their underlying geometry. By utilizing the heat kernels of Neumann- and Dirichlet-isospectral drums, we demonstrate that these graphons are not combinatorially equivalent. Finally, we establish new connections between the geometric aspects of graph limit theory and dynamical systems by analyzing a continuum Kuramoto model with graphon-defined interactions. We demonstrate that while isospectrality implies identical stability properties in certain cases, this correspondence breaks down when the differing boundary conditions of our specific Neumann and Dirichlet constructions are considered.",
-      "published": "2026-05-04",
-      "categories": [
-        "math.DS",
-        "math.CO",
-        "math.SP"
-      ],
-      "tags": [
-        "spectral graph"
-      ]
-    },
-    {
-      "id": "2605.02678",
-      "url": "https://arxiv.org/abs/2605.02678",
-      "title": "A universal dichotomy for concentration in randomly colored graphs",
-      "authors": [
-        "Nicola Apollonio"
-      ],
-      "abstract": "Let $ζ$ be Euclidean norm of the degree sequence of a graph normalized by the graph size. We prove that when the vertices of a graph are randomly colored with $s$ colors such that the fraction of vertices in each color class is bounded away from zero, only two asymptotic regimes emerge. If $ζ=o(1)$, then the sizes of the subgraphs induced by the color classes concentrate around their expected values. If $ζ=Θ(1)$, then concentration depends on the color balance: for colorings with persisting imbalance, the total number $M$ of monochromatic edges stays bounded away from its mean with positive probability; otherwise, for vanishing imbalance, $M$ still concentrates. The same dichotomy holds for a broad class of randomly colored random graphs.",
-      "published": "2026-05-04",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "random graph"
-      ]
-    },
-    {
-      "id": "2605.02768",
-      "url": "https://arxiv.org/abs/2605.02768",
-      "title": "The free energy limit of the SYK model at high temperature",
-      "authors": [
-        "David Gamarnik",
-        "Francisco Pernice",
-        "Alexander Schmidhuber",
-        "Alexander Zlokapa"
-      ],
-      "abstract": "The Sachdev-Ye-Kitaev (SYK) model is a disordered quantum mean-field model studied in condensed matter physics and the holographic theory of black holes. Its structural properties can be derived heuristically using a combination of the replica method and path integration techniques. Analyzing it mathematically rigorously, however, turned out to be notoriously difficult, even for basic questions such as computing the annealed free energy. In this paper we rigorously compute the free energy limit (annealed and quenched) for this model at high enough but constant temperature. Our results are in numerical agreement with the results derived by physics methods. Remarkably, though, our method of proof is novel and is different from the physics approach. It is based on (a) the theory of the component structure of sparse random graphs and (b) a variant of the cavity method, used widely in prior rigorous and heuristic treatments of classical spin glasses.",
-      "published": "2026-05-04",
-      "categories": [
-        "cond-mat.dis-nn",
-        "hep-th",
-        "math.PR",
-        "quant-ph"
-      ],
-      "tags": [
-        "random graph"
-      ]
-    },
-    {
-      "id": "2605.02150",
-      "url": "https://arxiv.org/abs/2605.02150",
-      "title": "H3: A Healthcare Three-Hop Index for Physician Referral Network Prediction",
-      "authors": [
-        "Zhexi Gu",
-        "Jiaxin Ying",
-        "Xu-Wen Wang",
-        "Can Chen"
-      ],
-      "abstract": "Accurate prediction of physician referral links is essential for optimizing care coordination and reducing fragmentation in healthcare delivery. However, existing computational methods, ranging from triadic closure heuristics to graph neural networks, fail to capture the intrinsic properties of physician referral networks, including sparsity, disassortative degree mixing, and hub-dominated topology. Here, we propose H3, a healthcare three-hop index that addresses these limitations by modeling indirect referral pathways through intermediate physicians, with degree-based normalization and a redundancy penalty to mitigate hub-mediated noise. Using Medicare Physician Shared Patient Patterns data, we evaluate H3 under two complementary prediction regimes: within-period prediction, which assesses recovery of contemporaneous referral links under sparse conditions, and cross-period prediction, which tests robustness to temporal shift as referral windows expand. Across both regimes, H3 consistently outperforms classical heuristics and deep learning-based baselines. Unlike black-box neural network approaches, H3 produces fully decomposable predictions traceable to specific intermediary physicians, offering a transparent and deployable solution for referral network completion.",
-      "published": "2026-05-04",
-      "categories": [
-        "cs.SI",
-        "cs.LG"
-      ],
-      "tags": [
-        "graph neural network"
-      ]
-    },
-    {
-      "id": "2605.02686",
-      "url": "https://arxiv.org/abs/2605.02686",
-      "title": "A sharper bound on the minimal possible diameter of a closed hyperbolic surface",
-      "authors": [
-        "Joffrey Mathien",
-        "Bram Petri"
-      ],
-      "abstract": "We prove that the minimal possible diameter of a closed hyperbolic surface of genus $g$ is at most $\\log(g)+25 \\log \\log(g) + O(1)$.",
-      "published": "2026-05-04",
-      "categories": [
-        "math.GT",
-        "math.DG",
-        "math.PR"
-      ],
-      "tags": []
-    },
-    {
       "id": "2605.01770",
       "url": "https://arxiv.org/abs/2605.01770",
       "title": "Emergent population dynamics of random walkers with cooperative reproduction and spatial selection",
@@ -5097,28 +3904,6 @@
       ]
     },
     {
-      "id": "2605.02067",
-      "url": "https://arxiv.org/abs/2605.02067",
-      "title": "Faster Mixing for Triangulations via Transport Flows",
-      "authors": [
-        "Vedat Levi Alev",
-        "Daniel Frishberg",
-        "Michail Sarantis",
-        "Prasad Tetali"
-      ],
-      "abstract": "We prove an $\\widetilde O(n^2)$ bound for the relaxation time and the log-Sobolev time (inverse log-Sobolev constant) of the classical triangulation flip chain on a convex $(n+2)$-gon, implying a mixing time of $\\widetilde O(n^2)$. The previous state of the art for the mixing time of this chain, due to Eppstein and Frishberg, was $\\widetilde O(n^3)$, while the best known lower bound on the mixing time, due to Molloy, Reed, and Steiger, is $Ω(n^{3/2})$. Our relaxation time bound makes significant progress towards Aldous' conjectured bound of $Θ(n^{3/2})$ for the relaxation time. We improve upon the analysis of Eppstein and Frishberg by further developing the framework of transport flows introduced in the work of Chen et al. In this light, our results can be seen as a more efficient way of using combinatorial decompositions to obtain functional inequalities for Markov chains. We hope our ideas will find other applications in the future.",
-      "published": "2026-05-03",
-      "categories": [
-        "math.CO",
-        "cs.CG",
-        "cs.DM",
-        "cs.DS"
-      ],
-      "tags": [
-        "mixing time"
-      ]
-    },
-    {
       "id": "2605.05238",
       "url": "https://arxiv.org/abs/2605.05238",
       "title": "Dynamic Graph with Similarity-Aware Attention Graph Neural Network for Recommender Systems",
@@ -5156,24 +3941,6 @@
         "spanning tree",
         "matroid"
       ]
-    },
-    {
-      "id": "2605.01212",
-      "url": "https://arxiv.org/abs/2605.01212",
-      "title": "Generic Irreducibility of Bloch Varieties for Periodic Graph Operators",
-      "authors": [
-        "Matthew Faust",
-        "Wencai Liu"
-      ],
-      "abstract": "We give a complete characterization of generic irreducibility for dispersion polynomials and Bloch varieties of periodic graph operators. More precisely, we prove that for a generic choice of edge weights and potentials, the dispersion polynomial/Bloch variety of a nontrivial periodic graph is irreducible if and only if the quotient graph is connected. Our proof uses a strong dichotomy for parameterized Laurent polynomials: reducibility either occurs for every parameter or fails on a nonempty Zariski-open set. After establishing this dichotomy, we reduce the problem to minimally connected periodic graphs.",
-      "published": "2026-05-02",
-      "categories": [
-        "math.SP",
-        "math-ph",
-        "math.AG",
-        "math.CO"
-      ],
-      "tags": []
     },
     {
       "id": "2605.00452",
@@ -5324,25 +4091,6 @@
       ],
       "tags": [
         "Wasserstein distance"
-      ]
-    },
-    {
-      "id": "2605.01110",
-      "url": "https://arxiv.org/abs/2605.01110",
-      "title": "Topological Neural Tangent Kernel",
-      "authors": [
-        "Sanjukta Krishnagopal"
-      ],
-      "abstract": "Graph neural tangent kernels give a principled infinite-width theory for graph neural networks, but inherit a basic limitation of graph models: they see only pairwise structure. Many relational systems contain higher-order interactions that are more naturally represented by simplicial complexes. We introduce the Topological Neural Tangent Kernel (TopoNTK), an infinite-width kernel for simplicial message passing on edge features. TopoNTK combines lower Hodge interactions, capturing graph-like coupling through shared vertices, with upper Hodge interactions, capturing coupling through filled simplices. This makes the kernel sensitive to topology invisible to graph kernels, allowing complexes with the same graph but different filled simplices to induce different kernels. Beyond expressivity, the Hodge structure gives the kernel an interpretable learning geometry. Edge signals decompose into gradient-like, harmonic, and local circulation components, and the spectrum of the TopoNTK determines how quickly each component is learned. This yields a topological form of spectral bias: components aligned with large-eigenvalue modes are learned quickly, while global harmonic modes, retained through the residual channel, often lie at smaller eigenvalues and are learned more slowly. We prove expressivity, Hodge-alignment, spectral learning, and stability properties, and validate them on synthetic simplicial tasks and DBLP higher-order link prediction. The results show that topology is not merely extra structure; it can provide coordinates that make relational learning more faithful, interpretable, and effective.",
-      "published": "2026-05-01",
-      "categories": [
-        "cs.LG",
-        "cs.SI",
-        "math.AT",
-        "stat.ML"
-      ],
-      "tags": [
-        "graph neural network"
       ]
     }
   ]

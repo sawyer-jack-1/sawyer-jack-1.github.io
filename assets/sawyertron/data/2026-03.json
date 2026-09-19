@@ -1,6 +1,6 @@
 {
   "month": "2026-03",
-  "generated_at": "2026-09-19T04:03:03+00:00",
+  "generated_at": "2026-09-19T04:10:17+00:00",
   "source": "arXiv metadata API",
   "papers": [
     {
@@ -110,102 +110,6 @@
       ],
       "tags": [
         "optimal transport"
-      ]
-    },
-    {
-      "id": "2603.29381",
-      "url": "https://arxiv.org/abs/2603.29381",
-      "title": "Parameterized Algorithms for Computing MAD Trees",
-      "authors": [
-        "Tom-Lukas Breitkopf",
-        "Vincent Froese",
-        "Anton Herrmann",
-        "André Nichterlein",
-        "Camille Richer"
-      ],
-      "abstract": "We consider the well-studied problem of finding a spanning tree with minimum average distance between vertex pairs (called a MAD tree). This is a classic network design problem which is known to be NP-hard. While approximation algorithms and polynomial-time algorithms for some graph classes are known, the parameterized complexity of the problem has not been investigated so far. We start a parameterized complexity analysis with the goal of determining the border of algorithmic tractability for the MAD tree problem. To this end, we provide a linear-time algorithm for graphs of constant modular width and a polynomial-time algorithm for graphs of bounded treewidth; the degree of the polynomial depends on the treewidth. That is, the problem is in FPT with respect to modular width and in XP with respect to treewidth. Moreover, we show it is in FPT when parameterized by vertex integrity or by an above-guarantee parameter. We complement these algorithms with NP-hardness on split graphs.",
-      "published": "2026-03-31",
-      "categories": [
-        "cs.DS"
-      ],
-      "tags": [
-        "spanning tree"
-      ]
-    },
-    {
-      "id": "2603.29473",
-      "url": "https://arxiv.org/abs/2603.29473",
-      "title": "$χ^2$-cut-off phenomenon for Galerkin projections of Fokker-Planck equations with monomial potentials",
-      "authors": [
-        "Benny Avelin",
-        "Gerardo Barrera"
-      ],
-      "abstract": "In this manuscript, we establish the existence/non-existence of the cut-off phenomenon for the Langevin--Kolmogorov random dynamics with monomial convex potentials, possible singular, and driven by a Brownian motion with small strength. We consider a truncated $χ^2$-distance, that is, a distance based on Galerkin projections of the eigensystem, and show that not only a refined knowledge of the eigenvalues is needed but also a refined asymptotics of the growth for the eigenfunctions of the Fokker--Planck equations associated to the Langevin--Kolmogorov dynamics. In addition, this explicit analysis yields asymptotics of the mixing times and, in some regimes, information on the limiting profile, going beyond the product condition and the cut-off window alone.",
-      "published": "2026-03-31",
-      "categories": [
-        "math.PR",
-        "math.CA",
-        "math.DS"
-      ],
-      "tags": [
-        "mixing time"
-      ]
-    },
-    {
-      "id": "2603.29938",
-      "url": "https://arxiv.org/abs/2603.29938",
-      "title": "Probabilistic counting lemma for $K_4$",
-      "authors": [
-        "Warach Veeranonchai"
-      ],
-      "abstract": "The sparse analogue of Szemerédi's regularity method has played a central role in the development of extremal results for random graphs. While the sparse embedding lemma (the KLR conjecture) has been resolved, the corresponding sparse counting lemma remains widely open. The conjecture, formulated by Gerke, Marciniszyn, and Steger, states that for every fixed graph $H$ and any $β>0$, there exists $\\varepsilon>0$ such that the following holds. Consider a balanced blow-up of $H$ with vertex classes of size $n$, where each pair corresponding to an edge of $H$ forms an $(\\varepsilon)$-regular bipartite graph with exactly $m$ edges. Assume that $m$ is above the natural threshold $m \\gg n^{2-1/m_2(H)}$, then all but a $β^m$ proportion of such graphs contain at least $(1-δ)$ times the expected number of copies of $H$. In this paper, we establish the $H=K_4$ case of the conjecture.",
-      "published": "2026-03-31",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "random graph"
-      ]
-    },
-    {
-      "id": "2604.00094",
-      "url": "https://arxiv.org/abs/2604.00094",
-      "title": "Speeding Up Mixed-Integer Programming Solvers with Sparse Learning for Branching",
-      "authors": [
-        "Selin Bayramoğlu",
-        "George L Nemhauser",
-        "Nikolaos V Sahinidis"
-      ],
-      "abstract": "Machine learning is increasingly used to improve decisions within branch-and-bound algorithms for mixed-integer programming. Many existing approaches rely on deep learning, which often requires very large training datasets and substantial computational resources for both training and deployment, typically with GPU parallelization. In this work, we take a different path by developing interpretable models that are simple but effective. We focus on approximating strong branching (SB) scores, a highly effective yet computationally expensive branching rule. Using sparse learning methods, we build models with fewer than 4% of the parameters of a state-of-the-art graph neural network (GNN) while achieving competitive accuracy. Relative to SCIP's built-in branching rules and the GNN-based model, our CPU-only models are faster than the default solver and the GPU-accelerated GNN. The models are simple to train and deploy, and they remain effective with small training sets, which makes them practical in low-resource settings. Extensive experiments across diverse problem classes demonstrate the efficiency of this approach.",
-      "published": "2026-03-31",
-      "categories": [
-        "cs.LG",
-        "math.OC"
-      ],
-      "tags": [
-        "graph neural network"
-      ]
-    },
-    {
-      "id": "2605.12512",
-      "url": "https://arxiv.org/abs/2605.12512",
-      "title": "Beyond Individual Mimicry: Constructing Human-Like Social network with Graph-Augmented LLM Agents",
-      "authors": [
-        "Haoran Bu",
-        "Litian Zhang",
-        "Chuxuan Zhang",
-        "Zhanyuan Liu",
-        "Hui Pang",
-        "Xi Zhang"
-      ],
-      "abstract": "Driven by large language models (LLMs), social bot can autonomously engage in local interactions, whose human-like behaviors enable them to evade social bot detection. However, while these botnets exhibit realistic local social interactions, they fail to preserve human-like social network. This is because LLM-based bots are graph-unaware and cannot coordinate over global interactions, which makes those botnets vulnerable to graph neural network (GNN)-based detection. To address this limitation, we propose GraphMind, which equips LLM-driven social bots to explicitly learn and fit human-like social network structures. Building on this foundation, we further construct GraphMind-Botnet, a LLM-driven botnet designed to evaluate the performance of existing social bot detection algorithms. Experiments on datasets derived from GraphMind-Botnet show that both text-based and graph-based detection models show substantially degraded performance in distinguishing. Our results highlight the critical role of social link construction in LLM-driven social network generation, while exposing fundamental weaknesses in existing bot detection mechanisms.",
-      "published": "2026-03-31",
-      "categories": [
-        "cs.SI",
-        "cs.AI"
-      ],
-      "tags": [
-        "graph neural network"
       ]
     },
     {
@@ -412,49 +316,6 @@
       ]
     },
     {
-      "id": "2603.27655",
-      "url": "https://arxiv.org/abs/2603.27655",
-      "title": "Exact Algorithms for Edge Deletion to Cactus",
-      "authors": [
-        "Sheikh Shakil Akhtar",
-        "Geevarghese Philip"
-      ],
-      "abstract": "We study two related problems on simple, un-directed graphs: Edge Deletion to Cactus and Spanning Tree to Cactus. Edge Deletion to Cactus has been known to be NP-hard on general graphs at least since 1988. We show improved exact algorithms for the former and a polynomial time algorithm for the latter.",
-      "published": "2026-03-29",
-      "categories": [
-        "cs.DS",
-        "cs.CC",
-        "cs.DM",
-        "math.CO"
-      ],
-      "tags": [
-        "spanning tree"
-      ]
-    },
-    {
-      "id": "2603.27795",
-      "url": "https://arxiv.org/abs/2603.27795",
-      "title": "An Optimal Algorithm for Stochastic Vertex Cover",
-      "authors": [
-        "Jan van den Brand",
-        "Inge Li Gørtz",
-        "Chirag Pabbaraju",
-        "Debmalya Panigrahi",
-        "Clifford Stein",
-        "Miltiadis Stouras",
-        "Ola Svensson",
-        "Ali Vakilian"
-      ],
-      "abstract": "The goal in the stochastic vertex cover problem is to obtain an approximately minimum vertex cover for a graph $G^\\star$ that is realized by sampling each edge independently with some probability $p\\in (0, 1]$ in a base graph $G = (V, E)$. The algorithm is given the base graph $G$ and the probability $p$ as inputs, but its only access to the realized graph $G^\\star$ is through queries on individual edges in $G$ that reveal the existence (or not) of the queried edge in $G^\\star$. In this paper, we resolve the central open question for this problem: to find a $(1+\\varepsilon)$-approximate vertex cover using only $O_\\varepsilon(n/p)$ edge queries. Prior to our work, there were two incomparable state-of-the-art results for this problem: a $(3/2+\\varepsilon)$-approximation using $O_\\varepsilon(n/p)$ queries (Derakhshan, Durvasula, and Haghtalab, 2023) and a $(1+\\varepsilon)$-approximation using $O_\\varepsilon((n/p)\\cdot \\mathrm{RS}(n))$ queries (Derakhshan, Saneian, and Xun, 2025), where $\\mathrm{RS}(n)$ is known to be at least $2^{Ω\\left(\\frac{\\log n}{\\log \\log n}\\right)}$ and could be as large as $\\frac{n}{2^{Θ(\\log^* n)}}$. Our improved upper bound of $O_{\\varepsilon}(n/p)$ matches the known lower bound of $Ω(n/p)$ for any constant-factor approximation algorithm for this problem (Behnezhad, Blum, and Derakhshan, 2022). A key tool in our result is a new concentration bound for the size of minimum vertex cover on random graphs, which might be of independent interest.",
-      "published": "2026-03-29",
-      "categories": [
-        "cs.DS"
-      ],
-      "tags": [
-        "random graph"
-      ]
-    },
-    {
       "id": "2603.27140",
       "url": "https://arxiv.org/abs/2603.27140",
       "title": "Viral Quasispecies Evolution as a Branching Random Walk on the Hypercube",
@@ -469,27 +330,6 @@
       ],
       "tags": [
         "random walk"
-      ]
-    },
-    {
-      "id": "2603.27128",
-      "url": "https://arxiv.org/abs/2603.27128",
-      "title": "Random tensor isomorphism under orthogonal and unitary actions",
-      "authors": [
-        "Jeremy Chizewer",
-        "Samuel Everett",
-        "Deven Mithal",
-        "Youming Qiao"
-      ],
-      "abstract": "We study the problem of testing whether two tensors in $\\mathbb{R}^\\ell\\otimes \\mathbb{R}^m\\otimes \\mathbb{R}^n$ are isomorphic under the natural action of orthogonal groups $\\textbf{O}(\\ell, \\mathbb{R})\\times\\textbf{O}(m, \\mathbb{R})\\times\\textbf{O}(n, \\mathbb{R})$, as well as the corresponding question over $\\mathbb{C}$ and unitary groups. These problems naturally arise in several areas, including graph and tensor isomorphism (Grochow--Qiao, SIAM J. Comp. '21), scaling algorithms for orbit closure intersections (Allen-Zhu--Garg--Li--Oliveira--Wigderson, STOC '18), and quantum information (Liu--Li--Li--Qiao, Phys. Rev. Lett. '12). We study average-case algorithms for orthogonal and unitary tensor isomorphism, with one random tensor where each entry is sampled uniformly independently from a sub-Gaussian distribution, and the other arbitrary. For the algorithm design, we develop algorithmic ideas from the higher-order singular value approach into polynomial-time exact (algebraic) and approximate (numerical) algorithms with rigorous average-case analyses. Following (Allen-Zhu--Garg--Li--Oliveira--Wigderson, STOC '18), we present an algorithm for a gapped version of the orbit distance approximation problem. For the average-case analysis, we work from recent progress in random matrix theory on eigenvalue repulsion of sub-Gaussian Wishart matrices (Christoffersen--Luh--O'Rourke--Shearer and Han, arXiv '25) by extending their results from side lengths of Wishart matrices linearly related to polynomially related.",
-      "published": "2026-03-28",
-      "categories": [
-        "cs.CC",
-        "cs.DS",
-        "math.PR"
-      ],
-      "tags": [
-        "random matrix"
       ]
     },
     {
@@ -623,42 +463,6 @@
       "tags": [
         "optimal transport"
       ]
-    },
-    {
-      "id": "2603.26225",
-      "url": "https://arxiv.org/abs/2603.26225",
-      "title": "Dependencies in Multiplex Networks: A Motif Count Approach",
-      "authors": [
-        "Karl Sawaya",
-        "Sofia Olhede"
-      ],
-      "abstract": "Multiplex networks are a powerful framework for representing systems with multiple types of interactions among a common set of entities. Understanding their structure requires statistical tools capturing higher-order cross-layer correlations. We develop a comprehensive framework for estimating and testing dependence in exchangeable multiplex networks through motif counts. We first propose a moment-based estimation methodology that extends the multi-layer stochastic block model network histogram to arbitrary motif counts. This allows us to estimate the $2^d-1$ graphons defining a $d$-layer multiplex network. We then derive the joint asymptotic distribution of cross-layer motif counts, that is aligned motifs shared across layers. Extending existing results from the unilayer setting, we show that the limiting distribution in the motif-regular case exhibits a covariance structure involving minimum-based distances between graphons. Finally, we construct hypothesis tests to detect inter-layer similarity and dependence. This work provides a rigorous extension of motif-count asymptotics and inference procedures to the multiplex setting, providing new tools to study high-order dependencies in complex networks.",
-      "published": "2026-03-27",
-      "categories": [
-        "math.ST"
-      ],
-      "tags": [
-        "stochastic block model"
-      ]
-    },
-    {
-      "id": "2603.26006",
-      "url": "https://arxiv.org/abs/2603.26006",
-      "title": "Computing fixed point free automorphisms of graphs",
-      "authors": [
-        "Aida Abiad",
-        "Gabriel Coutinho",
-        "Emanuel Juliano",
-        "Vinicius F. dos Santos",
-        "Sjanne Zeijlemaker"
-      ],
-      "abstract": "In 1981, Lubiw proved that the fixed point free automorphism problem (FPFAut) is NP-complete: given a graph G, determine whether there exists an automorphism that maps no vertex of G to itself. We revisit this problem and prove that FPFAut remains NP-complete when restricted to split, bipartite, k-subdivided, and H-free graphs, if H is not an induced subgraph of P_4. The class of P_4-free graphs receives the special name of cographs. We provide a polynomial time algorithm for three extensions of cographs: bounded modular-width graphs, tree-cographs and P_4-sparse graphs. Our approach uses the well known modular decomposition of graphs. As a consequence, we generalize a result of Abiad et. al. on the problem of computing 2-homogeneous equitable partitions.",
-      "published": "2026-03-27",
-      "categories": [
-        "cs.DM",
-        "math.CO"
-      ],
-      "tags": []
     },
     {
       "id": "2603.25018",
@@ -826,22 +630,6 @@
       ]
     },
     {
-      "id": "2603.25513",
-      "url": "https://arxiv.org/abs/2603.25513",
-      "title": "Augmentation Lemma for Halin Conjecture",
-      "authors": [
-        "Jerzy Wojciechowski"
-      ],
-      "abstract": "The longstanding conjecture of Halin characterizing the existence of normal spanning trees in infinite graphs has been recently proved by Max Pitz [3]. A critical step in the proof involves the construction of dominated torsos, whose properties are essential to the overall proof. In this note, we provide a correction to the proof of a key property of this construction.",
-      "published": "2026-03-26",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "spanning tree"
-      ]
-    },
-    {
       "id": "2603.24803",
       "url": "https://arxiv.org/abs/2603.24803",
       "title": "Critical Spectral Invariants in Random Walks with Geometric Resetting",
@@ -954,65 +742,6 @@
       ]
     },
     {
-      "id": "2603.24292",
-      "url": "https://arxiv.org/abs/2603.24292",
-      "title": "Orientations of $10$-Edge-Connected Planar Multigraphs and Applications",
-      "authors": [
-        "Daniel W. Cranston",
-        "Jiaao Li",
-        "Bo Su",
-        "Zhouningxin Wang",
-        "Chunyan Wei"
-      ],
-      "abstract": "A graph is called strongly $\\Z_{2k+1}$-connected if for each boundary function $β: V(G)\\mapsto \\Z_{2k+1}$ with $\\sum_{v\\in V(G)}β(v)\\equiv 0\\pmod{2k+1}$, there exists an orientation $D$ of $G$ such that $d_D^+(v) - d_D^-(v) \\equiv β(v) \\pmod{2k+1}$ for each $v \\in V(G)$. We show that every planar multigraph with $5$ edge-disjoint spanning trees is strongly $\\Z_{5}$-connected. This verifies a special case of the Additive Base Conjecture when restricted to planar graphs. Hence, every $10$-edge-connected directed planar graph admits an antisymmetric $\\Z_5$-flow. So, by duality, every orientation of a planar graph of girth at least $10$ admits a homomorphism to a $5$-vertex tournament. Our result also gives a new proof of the known result that every planar graph of girth at least $10$ has a homomorphism to the $5$-cycle.",
-      "published": "2026-03-25",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "spanning tree"
-      ]
-    },
-    {
-      "id": "2603.24305",
-      "url": "https://arxiv.org/abs/2603.24305",
-      "title": "On tree-decompositions for infinite chordal graphs",
-      "authors": [
-        "Max Pitz",
-        "Lucas Real",
-        "Roman Schaut"
-      ],
-      "abstract": "A graph is chordal if it contains no induced cycle of length four or more. While finite chordal graphs are precisely those admitting tree-decompositions into cliques, this fails for infinite graphs. We establish two results extending the known theory to the infinite setting. Our first result strengthens sufficient conditions of Halin, Kříž-Thomas, and Chudnovsky-Nguyen-Scott-Seymour: We show that every chordal graph without a strict comb of cliques admits a tree-decomposition into maximal cliques. Our second result characterises the chordal graphs admitting tree-decompositions into finite cliques: a connected graph admits such a decomposition if and only if it is chordal, admits a normal spanning tree, and does not contain $\\mathcal{H}$ $\\unicode{x2013}$ an infinite clique with two non-adjacent dominating vertices $\\unicode{x2013}$ as an induced minor. Combined with the characterisation of graphs with normal spanning trees, this yields a description by three types of forbidden minors. Both proofs proceed via greedy constructions of length $ω$, with the key new ingredient for the second result being an Extension Lemma that uses a finiteness theorem of Halin on minimal separators to produce suitable finite clique extensions at each step.",
-      "published": "2026-03-25",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "spanning tree"
-      ]
-    },
-    {
-      "id": "2603.24502",
-      "url": "https://arxiv.org/abs/2603.24502",
-      "title": "A new source of purely finite matricial fields",
-      "authors": [
-        "David Gao",
-        "Srivatsav Kunnawalkam Elayavalli",
-        "Aareyan Manzoor",
-        "Gregory Patchell"
-      ],
-      "abstract": "A countable group $G$ is said to be \\emph{matricial field} (MF) if it admits a strongly converging sequence of approximate homomorphisms into matrices; i.e, the norms of polynomials converge to those in the left regular representation. $G$ is \\emph{purely MF} (PMF) if these maps are actual homomorphisms, and $G$ is further \\emph{purely finite field} (PFF) if the image of each homomorphism is finite. By developing a new operator algebraic approach to these problems, we are able to prove the following result bringing several new examples into the fold. Suppose $G$ is a MF (resp., PMF, PFF) group and $H<G$ is separable (i.e., $H=\\cap_{i\\in \\mathbb{N}}H_i$ where $H_i<G$ are finite index subgroups) and $K$ is a residually finite MF (resp., PMF, PFF) group. If either $G$ or $K$ is exact, then the amalgamated free product $G*_{H}(H\\times K)$ is MF (resp., PMF, PFF). Our work has several applications, we list some below: 1. The Brown--Douglas--Fillmore semigroups of many new examples of reduced group $C^*$-algebras are shown to be not groups. 2. Arbitrary group doubles $G*_HG$ of MF (resp., PMF, PFF) over separable subgroups $H$ are MF (resp., PMF, PFF). Moreover, $G*H$ is PFF whenever $G,H$ are PFF, and either $G$ or $H$ is exact. 3. Arbitrary graph products of residually finite exact MF (resp., PMF, PFF) groups are MF (resp., PMF, PFF), yielding a significant generalization of the breakthrough work of M. Magee and J. Thomas. 4. The open problem of proving PFF for fundamental groups of closed hyperbolic 3-manifolds is resolved. This has geometric significance in the theory of minimal surfaces via A. Song's approach.",
-      "published": "2026-03-25",
-      "categories": [
-        "math.GR",
-        "math.FA",
-        "math.OA",
-        "math.PR",
-        "math.SP"
-      ],
-      "tags": []
-    },
-    {
       "id": "2603.22652",
       "url": "https://arxiv.org/abs/2603.22652",
       "title": "A cohesive account on the ergodic behaviours and scaling limits of Random Walks in Cooling Random Environments",
@@ -1070,79 +799,6 @@
       ],
       "tags": [
         "optimal transport"
-      ]
-    },
-    {
-      "id": "2603.22828",
-      "url": "https://arxiv.org/abs/2603.22828",
-      "title": "Approximating inter-point distances in directed Bernoulli graphs",
-      "authors": [
-        "A. D. Barbour",
-        "Gesine Reinert"
-      ],
-      "abstract": "In directed random graphs, in which edges can be assigned to have one of two directions, or perhaps both, the distance between two vertices $v$ and $v'$ can be computed along paths that are directed from $v$ to $v'$, or along paths that are directed from $v'$ to $v$. These two distances are in general dependent. Here, we approximate their joint distribution in the setting of the directed Bernoulli random graph $\\mathcal{DG}(n,p,θ)$, obtained as a natural extension of the Bernoulli random graph $\\mathcal{G}(n,p)$ by assigning directions to the edges independently, bidirectional with probability $θ$, and either of the two possible choices of single direction with probability $\\frac12(1-θ)$. The approximation involves two independent copies of a trivariate limiting random vector $(W^*_1,W^*_2,W_3)$ associated with a $3$-type Bienaymé--Galton--Watson process. The approximation error is shown to be typically of order $O(n^{-1/2}\\log n)$; this asymptotic order is likely to be optimal, even for the corresponding approximation in the Bernoulli random graph $\\mathcal{G}(n,p)$.",
-      "published": "2026-03-24",
-      "categories": [
-        "math.PR"
-      ],
-      "tags": [
-        "random graph"
-      ]
-    },
-    {
-      "id": "2603.23088",
-      "url": "https://arxiv.org/abs/2603.23088",
-      "title": "Construction of graph coverings with prescribed Iwasawa invariants",
-      "authors": [
-        "Takenori Kataoka"
-      ],
-      "abstract": "For a $\\mathbb{Z}_p$-covering of connected graphs, an analogue of Iwasawa's class number formula describes the growth of the number of spanning trees in terms of Iwasawa $λ$- and $μ$-invariants. In this paper, we show that any pair $(λ, μ)$ can be realized as the Iwasawa invariants of an unramified $\\mathbb{Z}_p$-covering of a bouquet, provided that the necessary condition that $λ$ is odd is satisfied. We further show that any pair $(λ, μ)$, without a parity condition, can be realized if we allow ramified $\\mathbb{Z}_p$-coverings.",
-      "published": "2026-03-24",
-      "categories": [
-        "math.CO",
-        "math.NT"
-      ],
-      "tags": [
-        "spanning tree"
-      ]
-    },
-    {
-      "id": "2603.23490",
-      "url": "https://arxiv.org/abs/2603.23490",
-      "title": "Dynamic Light Spanners in Doubling Metrics",
-      "authors": [
-        "Sujoy Bhore",
-        "Jonathan Conroy",
-        "Arnold Filtser"
-      ],
-      "abstract": "A $t$-spanner of a point set $X$ in a metric space $(\\mathcal{X}, δ)$ is a graph $G$ with vertex set $P$ such that, for any pair of points $u,v \\in X$, the distance between $u$ and $v$ in $G$ is at most $t$ times $δ(u,v)$. We study the problem of maintaining a spanner for a dynamic point set $X$ -- that is, when $X$ undergoes a sequence of insertions and deletions -- in a metric space of constant doubling dimension. For any constant $\\varepsilon>0$, we maintain a $(1+\\varepsilon)$-spanner of $P$ whose total weight remains within a constant factor of the weight of the minimum spanning tree of $X$. Each update (insertion or deletion) can be performed in $\\operatorname{poly}(\\log Φ)$ time, where $Φ$ denotes the aspect ratio of $X$. Prior to our work, no efficient dynamic algorithm for maintaining a light-weight spanner was known even for point sets in low-dimensional Euclidean space.",
-      "published": "2026-03-24",
-      "categories": [
-        "cs.CG",
-        "cs.DS"
-      ],
-      "tags": [
-        "spanning tree"
-      ]
-    },
-    {
-      "id": "2603.22984",
-      "url": "https://arxiv.org/abs/2603.22984",
-      "title": "Can Graph Foundation Models Generalize Over Architecture?",
-      "authors": [
-        "Benjamin Gutteridge",
-        "Michael Bronstein",
-        "Xiaowen Dong"
-      ],
-      "abstract": "Graph foundation models (GFMs) have recently attracted interest due to the promise of graph neural network (GNN) architectures that generalize zero-shot across graphs of arbitrary scales, feature dimensions, and domains. While existing work has demonstrated this ability empirically across diverse real-world benchmarks, these tasks share a crucial hidden limitation: they admit a narrow set of effective GNN architectures. In particular, current domain-agnostic GFMs rely on fixed architectural backbones, implicitly assuming that a single message-passing regime suffices across tasks. In this paper, we argue that architecture adaptivity is a necessary requirement for true GFMs. We show that existing approaches are non-robust to task-dependent architectural attributes and, as a case study, use range as a minimal and measurable axis along which this limitation becomes explicit. With theoretical analysis and controlled synthetic experiments, we demonstrate that fixed-backbone GFMs provably under-reach on tasks whose architectural requirements differ from those seen at training time. To address this issue, we introduce a framework that adapts effective GNN architecture at inference time by discovering and mixing task-specific linear graph operators, enabling zero-shot generalization across tasks with heterogeneous architectural requirements, without retraining. We validate our approach on arbitrary-range synthetic tasks and a suite of real-world benchmarks, demonstrating improved performance and robustness over existing domain-agnostic GFMs.",
-      "published": "2026-03-24",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.SI"
-      ],
-      "tags": [
-        "graph neural network"
       ]
     },
     {
@@ -1288,62 +944,6 @@
       ],
       "tags": [
         "Wasserstein distance"
-      ]
-    },
-    {
-      "id": "2603.22010",
-      "url": "https://arxiv.org/abs/2603.22010",
-      "title": "Bollobás-Meir TSP Conjecture Holds Asymptotically",
-      "authors": [
-        "Alexey Gordeev"
-      ],
-      "abstract": "In 1992, Bollobás and Meir showed that for every $k \\geq 1$ there exists a constant $c_k$ such that, for any $n$ points in the $k$-dimensional unit cube $[0, 1]^k$, one can find a tour $x_1, \\dots, x_n$ through these $n$ points with $\\sum_{i = 1}^n |x_i - x_{i + 1}|^k \\leq c_k$, where $x_{n + 1} = x_1$ and $|x - y|$ is the Euclidean distance between $x$ and $y$. Remarkably, this bound does not depend on $n$, the number of points. They conjectured that the optimal constant is $c_k = 2 \\cdot k^{k / 2}$ and showed that it cannot be taken lower than that. This conjecture was recently revised for $k = 3$ by Balogh, Clemen and Dumitrescu, who showed that $c_3 \\geq 2^{7/2} > 2 \\cdot 3^{3/2}$. It remains open for all $k > 2$, with the best known upper bound $c_k \\leq 2.65^k \\cdot k^{k / 2} \\cdot (1 + o_k(1))$. We significantly narrow the gap between lower and upper bounds on $c_k$, reducing it from exponential to linear. Specifically, we prove that $c_k \\leq 2\\mathrm{e}(k + 1) \\cdot k^{k / 2}$ and $c_k = k^{k / 2} \\cdot (2 + o_k(1))$, the latter establishing the conjecture asymptotically. We also obtain analogous results for related problems on Hamiltonian paths, spanning trees and perfect matchings in the unit cube. Our main tool is a new generalization of the ball packing argument used in earlier works.",
-      "published": "2026-03-23",
-      "categories": [
-        "math.CO",
-        "cs.CG",
-        "math.MG"
-      ],
-      "tags": [
-        "spanning tree"
-      ]
-    },
-    {
-      "id": "2603.22063",
-      "url": "https://arxiv.org/abs/2603.22063",
-      "title": "On the Complexity of Fundamental Problems for DAG-Compressed Graphs",
-      "authors": [
-        "Florian Chudigiewitsch",
-        "Till Tantau",
-        "Felix Winkler"
-      ],
-      "abstract": "A DAG compression of a (typically dense) graph is a simple data structure that stores how vertex clusters are connected, where the clusters are described indirectly as sets of reachable sinks in a directed acyclic graph (DAG). They generalize tree compressions, where the clusters form a tree-like hierarchy, and we give the first proof that DAG compressions can achieve better compressions than tree compressions. Our interest in DAG compression stems from the fact that several simple standard algorithms, like breadth-first search on graphs, can be implemented so that they work directly on the compressed rather than on the original graph and so that, crucially, the runtime is relative to the (typically small) size of the compressed graph. We add another entry to the list of algorithms where this is possible, by showing that Kruskal's algorithm for computing minimum spanning trees can be adapted to work directly on DAG compressions. On the negative side, we answer the central open problem from previous work, namely how hard it is to compute a minimum-size DAG compression for a given graph: This is NP-hard; and this is even the case for the dynamic setting, where we must update the DAG compression optimally when a single edge is added or deleted in the input graph.",
-      "published": "2026-03-23",
-      "categories": [
-        "cs.DS",
-        "cs.CC"
-      ],
-      "tags": [
-        "spanning tree"
-      ]
-    },
-    {
-      "id": "2603.22081",
-      "url": "https://arxiv.org/abs/2603.22081",
-      "title": "The complete picture for clique factors in randomly perturbed graphs",
-      "authors": [
-        "Sylwia Antoniuk",
-        "Nina Kamčev",
-        "Christian Reiher",
-        "Tadej Petar Tukara"
-      ],
-      "abstract": "A randomly perturbed graph $G^p = G_α\\cup G_{n,p}$ is obtained by taking a deterministic $n$-vertex graph $G_α= (V, E)$ with minimum degree $δ(G)\\geq αn$ and adding the edges of the binomial random graph $G_{n,p}$ defined on the same vertex set $V$. For which value $p$ (depending on $α$) does the graph $G^p$ contain a $K_r$-factor -- a spanning collection of vertex-disjoint copies of $K_r$ -- with high probability? The order of magnitude of the minimum such $p$ was determined whenever $α\\neq 1- \\frac{s}{r}$ for an integer $s$ by Balogh, Treglown and Wagner, and by Han, Morris and Treglown. In earlier work, the first three authors determined this threshold probability $p_s$ up to a constant factor for all values of $α= 1-\\frac{s}{r}\\leq \\frac 12$. Here, we complete the picture by establishing $p_s$ in the remaining case $α> \\frac12$. A key ingredient in our approach is an extremal result of independent interest: we prove a fractional stability version of a tiling theorem due to Shokoufandeh and Zhao.",
-      "published": "2026-03-23",
-      "categories": [
-        "math.CO"
-      ],
-      "tags": [
-        "random graph"
       ]
     }
   ]
