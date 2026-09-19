@@ -42,4 +42,4 @@ title: SawyerTRON
   </main>
 </div>
 
-<script src="{{ '/assets/js/sawyertron.js?v=' | append: site.github.build_revision | relative_url }}" defer></script>
+<script src="{{ '/assets/js/sawyertron.js' | relative_url }}" defer></script>
