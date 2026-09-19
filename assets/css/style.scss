@@ -181,6 +181,24 @@
 	font-size: 0.92rem;
 }
 
+.paper-author {
+	background: transparent;
+	border: 0;
+	color: inherit;
+	cursor: pointer;
+	font: inherit;
+	padding: 0;
+	text-decoration: underline;
+	text-decoration-color: #b8b8b8;
+	text-underline-offset: 0.12em;
+}
+
+.paper-author:hover,
+.paper-author:focus {
+	color: #007000;
+	text-decoration-color: currentColor;
+}
+
 .paper-abstract-row {
 	display: flex;
 	gap: 0.4rem;

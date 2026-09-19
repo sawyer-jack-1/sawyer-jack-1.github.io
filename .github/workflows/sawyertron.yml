@@ -54,8 +54,13 @@ jobs:
       - name: Update metadata
         if: steps.time_gate.outputs.run == 'true'
         env:
-          BACKFILL_DAYS: ${{ github.event.inputs.backfill_days || '3' }}
-        run: python sawyertron/update.py --days "$BACKFILL_DAYS"
+          BACKFILL_DAYS: ${{ github.event.inputs.backfill_days }}
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            python sawyertron/update.py --days "$BACKFILL_DAYS"
+          else
+            python sawyertron/update.py
+          fi
 
       - name: Commit updated digest
         if: steps.time_gate.outputs.run == 'true'

@@ -243,6 +243,11 @@ def write_index(current_month: str, generated_at: str) -> None:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--days", type=int, help="Number of days to fetch, including the end date")
+    parser.add_argument(
+        "--initial-backfill",
+        action="store_true",
+        help="Use collection.initial_backfill_days instead of the daily lookback",
+    )
     parser.add_argument("--end-date", type=dt.date.fromisoformat, default=dt.date.today())
     parser.add_argument("--input", type=Path, help="Use a local Atom fixture instead of the network")
     return parser.parse_args()
@@ -251,7 +256,12 @@ def parse_args() -> argparse.Namespace:
 def main() -> None:
     args = parse_args()
     config = load_config()
-    days = args.days or int(config["collection"]["initial_backfill_days"])
+    if args.days:
+        days = args.days
+    elif args.initial_backfill:
+        days = int(config["collection"]["initial_backfill_days"])
+    else:
+        days = int(config["collection"]["daily_lookback_days"])
     start = args.end_date - dt.timedelta(days=days - 1)
     if args.input:
         papers, _ = parse_feed(args.input.read_bytes())

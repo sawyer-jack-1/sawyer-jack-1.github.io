@@ -4,6 +4,8 @@
 # never displays these weights or labels; they only determine paper order.
 
 categories:
+  # arXiv subject codes to query. A paper in any one of these categories is
+  # eligible for consideration. Use the exact codes shown on arxiv.org.
   - cs.DS
   - cs.DM
   - cs.SI
@@ -13,18 +15,44 @@ categories:
   - math.ST
 
 collection:
+  # Number of calendar days fetched by `python sawyertron/update.py
+  # --initial-backfill`. Increase this when you want a deeper first archive.
   initial_backfill_days: 30
+
+  # Every automatic daily run re-fetches this many days, including today.
+  # The overlap repairs missed/delayed arXiv records after a temporary failure;
+  # duplicate arXiv IDs are merged, so they do not appear twice.
   daily_lookback_days: 3
+
+  # Maximum records requested from the arXiv metadata API in one page.
+  # 500 is conservative and normally needs no adjustment.
   request_page_size: 500
+
+  # Polite pause between API pages. Do not reduce this aggressively: arXiv may
+  # throttle clients that send requests too quickly.
   request_delay_seconds: 3.1
 
 ranking:
+  # A paper must reach at least this internal score to appear. Raising it gives
+  # a shorter, more selective digest; lowering it gives broader coverage.
   minimum_score: 3.0
+
+  # Safety cap after ranking, applied separately to each calendar day.
   maximum_papers_per_day: 40
+
+  # A configured phrase in a title is multiplied by this number. Title matches
+  # are stronger evidence than the same phrase appearing only in the abstract.
   title_match_multiplier: 2.5
+
+  # Multiplier for a configured phrase found only in the abstract.
   abstract_match_multiplier: 1.0
 
 topics:
+  # Topic keys (such as graph_laplacians) are private organizational labels and
+  # never appear publicly. Each topic contains:
+  #   weight: relative priority used by the deterministic ranker
+  #   phrases: case-insensitive literal phrases sought in title and abstract
+  # A paper may match several phrases/topics; their contributions add together.
   graph_laplacians:
     weight: 10
     phrases:
@@ -113,7 +141,8 @@ topics:
       - matroid
 
 authors:
-  # Exact-name matching is case-insensitive. Add or remove names freely.
+  # Added when an arXiv author name exactly matches one below. Matching is
+  # case-insensitive. Add or remove full names freely.
   weight: 12
   names:
     - Fan Chung
@@ -129,6 +158,8 @@ authors:
     - Andrés R. Samper
 
 negative_phrases:
-  # These only remove obvious false-positive meanings of otherwise useful terms.
+  # If any of these case-insensitive literal phrases occurs in the title or
+  # abstract, the paper is excluded. Keep this list limited to clear false
+  # positives caused by otherwise useful topic phrases.
   - electrical resistance training
   - transportation logistics

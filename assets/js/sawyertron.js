@@ -133,11 +133,27 @@
   function paperNode(paper) {
     const article = element("article", "paper-entry");
     const title = element("a", "paper-title", paper.title);
-    title.href = paper.url;
+    // Build this ourselves so even legacy data can never point at a PDF URL.
+    title.href = `https://arxiv.org/abs/${paper.id}`;
     title.target = "_blank";
     title.rel = "noopener noreferrer";
     article.appendChild(title);
-    article.appendChild(element("div", "paper-authors", paper.authors.join(", ")));
+
+    const authors = element("div", "paper-authors");
+    paper.authors.forEach((name, index) => {
+      if (index) authors.appendChild(document.createTextNode(", "));
+      const author = element("button", "paper-author", name);
+      author.type = "button";
+      author.title = `Search for ${name}`;
+      author.addEventListener("click", () => {
+        els.search.value = name;
+        setQueryString();
+        render();
+        els.search.focus();
+      });
+      authors.appendChild(author);
+    });
+    article.appendChild(authors);
     article.appendChild(
       element("div", "paper-meta", `arXiv:${paper.id} · ${paper.categories.join(", ")} · ${paper.published}`)
     );
