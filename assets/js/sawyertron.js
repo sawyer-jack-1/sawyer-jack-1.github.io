@@ -180,9 +180,6 @@
     abstractRow.append(abstract, toggle);
     article.appendChild(abstractRow);
 
-    if (paper.tags && paper.tags.length) {
-      article.appendChild(element("div", "paper-tags", paper.tags.join(" · ")));
-    }
     return article;
   }
 
