@@ -11,7 +11,7 @@ title: SawyerTRON
 
   <main class="sawyertron-main">
     <h1>SawyerTRON</h1>
-    <div class="sawyertron-subtitle">New arXiv papers, updated daily.</div>
+    <div class="sawyertron-subtitle">An arXiv digest, updated daily.</div>
 
     <div class="sawyertron-search-row">
       <input id="paper-search" type="search" placeholder="Search titles, authors, abstracts…" aria-label="Search papers">
