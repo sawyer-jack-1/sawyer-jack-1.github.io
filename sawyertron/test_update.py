@@ -1,6 +1,9 @@
+import datetime as dt
 import unittest
+import urllib.error
+from unittest import mock
 
-from update import rank_papers, score_paper
+from update import fetch_papers, oai_set_spec, parse_oai_feed, rank_papers, score_paper
 
 
 CONFIG = {
@@ -58,6 +61,41 @@ class RankingTests(unittest.TestCase):
         self.assertEqual(len(ranked), 1)
         self.assertNotIn("score", ranked[0])
         self.assertEqual(ranked[0]["tags"], ["effective resistance"])
+
+
+class OaiTests(unittest.TestCase):
+    def test_category_becomes_oai_set(self):
+        self.assertEqual(oai_set_spec("math.CO"), "math:math:CO")
+        self.assertEqual(oai_set_spec("cs.DS"), "cs:cs:DS")
+
+    def test_oai_metadata_has_the_same_public_shape(self):
+        payload = b"""<?xml version='1.0'?>
+        <OAI-PMH xmlns='http://www.openarchives.org/OAI/2.0/'
+          xmlns:oai_dc='http://www.openarchives.org/OAI/2.0/oai_dc/'
+          xmlns:dc='http://purl.org/dc/elements/1.1/'>
+          <ListRecords><record><header><identifier>oai:arXiv.org:2609.01234</identifier>
+          <setSpec>math:math:CO</setSpec><setSpec>cs:cs:DM</setSpec></header>
+          <metadata><oai_dc:dc><dc:identifier>https://arxiv.org/abs/2609.01234</dc:identifier>
+          <dc:date>2026-09-18</dc:date><dc:date>2026-09-20</dc:date>
+          <dc:creator>Lovelace, Ada</dc:creator><dc:title> A graph paper </dc:title>
+          <dc:description> An abstract. </dc:description></oai_dc:dc></metadata></record>
+          <resumptionToken>next-page</resumptionToken></ListRecords>
+        </OAI-PMH>"""
+        papers, token = parse_oai_feed(payload)
+        self.assertEqual(token, "next-page")
+        self.assertEqual(papers[0]["authors"], ["Ada Lovelace"])
+        self.assertEqual(papers[0]["published"], "2026-09-18")
+        self.assertEqual(papers[0]["categories"], ["math.CO", "cs.DM"])
+        self.assertEqual(papers[0]["url"], "https://arxiv.org/abs/2609.01234")
+
+    @mock.patch("update.fetch_oai_papers")
+    @mock.patch("update.fetch_api_papers")
+    def test_http_406_uses_oai_fallback(self, api_fetch, oai_fetch):
+        api_fetch.side_effect = urllib.error.HTTPError("https://export.arxiv.org", 406, "No", {}, None)
+        oai_fetch.return_value = [paper("Fallback paper")]
+        result = fetch_papers(CONFIG, dt.date(2026, 9, 18), dt.date(2026, 9, 18))
+        self.assertEqual(result, oai_fetch.return_value)
+        oai_fetch.assert_called_once()
 
 
 if __name__ == "__main__":

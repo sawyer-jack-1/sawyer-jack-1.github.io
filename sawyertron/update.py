@@ -10,6 +10,7 @@ import json
 import math
 import re
 import socket
+import sys
 import time
 import urllib.error
 import urllib.parse
@@ -25,8 +26,14 @@ ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "sawyertron" / "config.yml"
 DATA_DIR = ROOT / "assets" / "sawyertron" / "data"
 API_URL = "https://export.arxiv.org/api/query"
+OAI_URL = "https://oaipmh.arxiv.org/oai"
 USER_AGENT = "SawyerTRON/1.0 (https://sawyer-jack-1.github.io/)"
 ATOM = {"atom": "http://www.w3.org/2005/Atom", "arxiv": "http://arxiv.org/schemas/atom"}
+OAI = {
+    "oai": "http://www.openarchives.org/OAI/2.0/",
+    "oai_dc": "http://www.openarchives.org/OAI/2.0/oai_dc/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+}
 
 
 def normalized(value: str) -> str:
@@ -47,15 +54,30 @@ def api_query(categories: Iterable[str], start: dt.date, end: dt.date) -> str:
 
 
 def request_feed(url: str, attempts: int = 4) -> bytes:
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    request = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "application/atom+xml, application/xml, text/xml;q=0.9, */*;q=0.1",
+        },
+    )
     for attempt in range(attempts):
         try:
             with urllib.request.urlopen(request, timeout=120) as response:
                 return response.read()
+        except urllib.error.HTTPError as error:
+            # A 406 is arXiv rejecting this particular endpoint/client rather
+            # than a malformed search. Let the caller use the OAI-PMH service.
+            if error.code == 406:
+                raise
+            if attempt == attempts - 1:
+                raise
+            retry_after = error.headers.get("Retry-After")
+            time.sleep(float(retry_after) if retry_after and retry_after.isdigit() else max(3, 2**attempt))
         except (urllib.error.URLError, TimeoutError, socket.timeout):
             if attempt == attempts - 1:
                 raise
-            time.sleep(max(3, 2 ** attempt))
+            time.sleep(max(3, 2**attempt))
     raise RuntimeError("unreachable")
 
 
@@ -90,7 +112,7 @@ def parse_feed(payload: bytes) -> tuple[list[dict[str, Any]], int]:
     return papers, total
 
 
-def fetch_papers(config: dict[str, Any], start: dt.date, end: dt.date) -> list[dict[str, Any]]:
+def fetch_api_papers(config: dict[str, Any], start: dt.date, end: dt.date) -> list[dict[str, Any]]:
     collection = config["collection"]
     page_size = int(collection["request_page_size"])
     delay = float(collection["request_delay_seconds"])
@@ -127,6 +149,129 @@ def fetch_papers(config: dict[str, Any], start: dt.date, end: dt.date) -> list[d
 
     unique = {paper["id"]: paper for paper in papers}
     return [paper for paper in unique.values() if start.isoformat() <= paper["published"] <= end.isoformat()]
+
+
+def dc_texts(node: ET.Element, name: str) -> list[str]:
+    return [re.sub(r"\s+", " ", child.text or "").strip() for child in node.findall(f"dc:{name}", OAI)]
+
+
+def dc_author(value: str) -> str:
+    parts = [part.strip() for part in value.split(",", 1)]
+    return f"{parts[1]} {parts[0]}" if len(parts) == 2 else value
+
+
+def oai_categories(header: ET.Element) -> list[str]:
+    categories = []
+    for node in header.findall("oai:setSpec", OAI):
+        parts = (node.text or "").split(":")
+        if len(parts) == 3:
+            categories.append(f"{parts[1]}.{parts[2]}")
+    return list(dict.fromkeys(categories))
+
+
+def parse_oai_feed(payload: bytes) -> tuple[list[dict[str, Any]], str]:
+    root = ET.fromstring(payload)
+    errors = root.findall("oai:error", OAI)
+    if errors:
+        if all(error.attrib.get("code") == "noRecordsMatch" for error in errors):
+            return [], ""
+        messages = "; ".join((error.text or error.attrib.get("code", "unknown OAI error")).strip() for error in errors)
+        raise RuntimeError(f"arXiv OAI-PMH error: {messages}")
+
+    papers: list[dict[str, Any]] = []
+    for record in root.findall(".//oai:record", OAI):
+        header = record.find("oai:header", OAI)
+        if header is not None and header.attrib.get("status") == "deleted":
+            continue
+        if header is None:
+            continue
+        metadata = record.find("oai:metadata/oai_dc:dc", OAI)
+        if metadata is None:
+            continue
+
+        identifiers = dc_texts(metadata, "identifier")
+        abstract_urls = [value for value in identifiers if "/abs/" in value]
+        if not abstract_urls:
+            continue
+        paper_id = re.sub(r"v\d+$", "", abstract_urls[0].rsplit("/", 1)[-1])
+        titles = dc_texts(metadata, "title")
+        descriptions = dc_texts(metadata, "description")
+        dates = dc_texts(metadata, "date")
+        authors = [dc_author(value) for value in dc_texts(metadata, "creator")]
+
+        papers.append(
+            {
+                "id": paper_id,
+                "url": f"https://arxiv.org/abs/{paper_id}",
+                "title": titles[0] if titles else "",
+                "authors": authors,
+                "abstract": descriptions[0] if descriptions else "",
+                # Dublin Core lists all version dates in chronological order;
+                # the first is the original submission date used by the Atom API.
+                "published": dates[0] if dates else "",
+                "categories": oai_categories(header),
+            }
+        )
+
+    token_node = root.find(".//oai:resumptionToken", OAI)
+    token = (token_node.text or "").strip() if token_node is not None else ""
+    return papers, token
+
+
+def oai_set_spec(category: str) -> str:
+    archive, category_name = category.split(".", 1)
+    return f"{archive}:{archive}:{category_name}"
+
+
+def fetch_oai_papers(config: dict[str, Any], start: dt.date, end: dt.date) -> list[dict[str, Any]]:
+    """Fetch the same public metadata through arXiv's harvesting endpoint.
+
+    OAI-PMH is arXiv's purpose-built metadata synchronization service. Its date
+    filter is the record modification date, so the final filter below retains
+    only papers whose original submission date is in SawyerTRON's lookback.
+    """
+
+    delay = float(config["collection"]["request_delay_seconds"])
+    papers: list[dict[str, Any]] = []
+    categories = set(config["categories"])
+
+    for category_index, category in enumerate(config["categories"]):
+        params = {
+            "verb": "ListRecords",
+            "metadataPrefix": "oai_dc",
+            "from": start.isoformat(),
+            "until": end.isoformat(),
+            "set": oai_set_spec(category),
+        }
+        while True:
+            page, token = parse_oai_feed(request_feed(f"{OAI_URL}?{urllib.parse.urlencode(params)}"))
+            papers.extend(page)
+            if not token:
+                break
+            time.sleep(delay)
+            params = {"verb": "ListRecords", "resumptionToken": token}
+
+        if category_index < len(config["categories"]) - 1:
+            time.sleep(delay)
+
+    unique = {paper["id"]: paper for paper in papers}
+    return [
+        paper
+        for paper in unique.values()
+        if start.isoformat() <= paper["published"] <= end.isoformat()
+        and categories.intersection(paper["categories"])
+    ]
+
+
+def fetch_papers(config: dict[str, Any], start: dt.date, end: dt.date) -> list[dict[str, Any]]:
+    try:
+        return fetch_api_papers(config, start, end)
+    except (urllib.error.URLError, TimeoutError, socket.timeout, ET.ParseError) as error:
+        print(
+            f"arXiv search API unavailable ({error}); falling back to the OAI-PMH metadata service.",
+            file=sys.stderr,
+        )
+        return fetch_oai_papers(config, start, end)
 
 
 def phrase_present(phrase: str, haystack: str) -> bool:
