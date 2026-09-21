@@ -2,16 +2,10 @@ name: Update SawyerTRON
 
 on:
   schedule:
-    # Several staggered attempts make the update resilient to a scheduled event
-    # being delayed or dropped by GitHub. After one succeeds, the later attempts
-    # see today's timestamp and exit without changing anything.
-    - cron: "17 6 * * *"
-      timezone: "America/Los_Angeles"
-    - cron: "37 6 * * *"
-      timezone: "America/Los_Angeles"
-    - cron: "57 6 * * *"
-      timezone: "America/Los_Angeles"
-    - cron: "17 7 * * *"
+    # GitHub may delay or drop scheduled events. Try every 30 minutes across a
+    # wide window; the gate below prevents updates before 6 AM Pacific and
+    # stops every later attempt after the first successful update of the day.
+    - cron: "17,47 2-11 * * *"
       timezone: "America/Los_Angeles"
   workflow_dispatch:
     inputs:
@@ -49,8 +43,10 @@ jobs:
           index = json.loads(Path("assets/sawyertron/data/index.json").read_text())
           generated = dt.datetime.fromisoformat(index["generated_at"])
           pacific = ZoneInfo("America/Los_Angeles")
-          already_updated = generated.astimezone(pacific).date() == dt.datetime.now(pacific).date()
-          print(f"run={'false' if already_updated else 'true'}")
+          now = dt.datetime.now(pacific)
+          already_updated = generated.astimezone(pacific).date() == now.date()
+          after_target_time = now.hour >= 6
+          print(f"run={'true' if after_target_time and not already_updated else 'false'}")
           PY
           fi
 

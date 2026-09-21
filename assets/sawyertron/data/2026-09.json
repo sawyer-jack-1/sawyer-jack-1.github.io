@@ -1,8 +1,124 @@
 {
   "month": "2026-09",
-  "generated_at": "2026-09-20T17:23:03+00:00",
+  "generated_at": "2026-09-21T16:31:41+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2609.21937",
+      "url": "https://arxiv.org/abs/2609.21937",
+      "title": "Independence Threshold for Collision Times of Many Planar Random Walks",
+      "authors": [
+        "Ziyang Liu"
+      ],
+      "abstract": "We study collision times of many independent simple random walks on $\\mathbb Z^2$ through the joint moment generating function of their pairwise collision local times. For a fixed number of walks, these collision times are known to be asymptotically independent after a suitable logarithmic normalisation. We investigate the extent to which this independence persists when the number of walks grows. For $N$ being the walk length, our results identify a threshold $\\asymp (\\log N)^{\\frac{1}{3}}$, on which the transition from independence to dependence happens. The proofs combine chaos expansion techniques and a correlation inequality, which is the result of a local limit theorem.",
+      "published": "2026-09-18",
+      "categories": [
+        "math.PR",
+        "math-ph"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk"
+      ]
+    },
+    {
+      "id": "2609.21367",
+      "url": "https://arxiv.org/abs/2609.21367",
+      "title": "A solution to a conjecture on the signless Laplacian spectral radius for $t$-color-critical graphs",
+      "authors": [
+        "Ming-Zhu Chen",
+        "Ya-Lei Jin",
+        "Peng-Li Zhang",
+        "Jian Zheng"
+      ],
+      "abstract": "An induced matching is a matching that forms an induced subgraph. A graph is $t$-color-critical if removing some induced matching of size $t$ lowers its chromatic number, but removing any $t-1$ vertices does not. Let $F$ be a $t$-color-critical graph with $χ(F)=r+1$. For sufficiently large $n$, Simonovits determined the unique edge-extremal $F$-free graph on $n$ vertices. Recently, Zheng, Li and Li [Linear Algebra Appl.\\ 730 (2026) 546--565] conjectured that, for $t\\ge 2$ and $r\\ge 3$, the join $K_{t-1}\\vee T_{n-t+1,r}$ uniquely maximizes the signless Laplacian spectral radius among all $n$-vertex $F$-free graphs when $n$ is sufficiently large. In this paper, we prove this conjecture. In contrast to the usual spectral arguments, our proof of this conjecture relies on two techniques of a rather different flavour. Our first technique is an analogue of Zykov symmetrization for the signless Laplacian matrix. Our second technique is an induction on $n$, from which we obtain the lower bound on the smallest entry of the Perron vector of a signless Laplacian spectral extremal graph rather than a structural statement.",
+      "published": "2026-09-18",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "Laplacian matrix",
+        "signless Laplacian"
+      ]
+    },
+    {
+      "id": "2609.21890",
+      "url": "https://arxiv.org/abs/2609.21890",
+      "title": "Local large deviations for triangles in sparse random graphs",
+      "authors": [
+        "Jade Lintott",
+        "Will Perkins",
+        "Corrine Yap"
+      ],
+      "abstract": "We revisit a classic topic in probabilistic combinatorics, the lower-tail large-deviation problem for triangles in the random graph $G(n,p)$. Here we aim for first-order asymptotics for the quantity $\\mathbb{P}[X=k]$ with $X$ the number of triangles in $G(n,p)$ and $0 \\le k \\le (1-ε) \\mathbb{E}X$, in the sparse regime in which the logarithmic asymptotics are Poissonian. When $k=0$ (the case of triangle-freeness) and $p = p(n)$ is sufficiently small, first-order asymptotics are known via Janson's inequality and results of Stark and Wormald; when $k$ is sufficiently close to $\\mathbb{E}X$, first-order asymptotics are known via local central limit theorems. Our main result gives first-order asymptotics for all $k$ in the above range when $p = o(n^{-2/3})$, improving upon the result of Frieze that required $p = o(n^{-4/5})$. We also characterize, up to vanishing total variation distance, the distribution of the $k$ triangles in the corresponding conditional distribution and give an efficient algorithm to approximately sample from this conditional distribution. Notably, when $k = Θ(μ)$ there is a transition at $p = Θ(n^{-4/5})$ from an asymptotically uniform triangle distribution to a distribution asymptotically singular to uniform.",
+      "published": "2026-09-18",
+      "categories": [
+        "math.CO",
+        "math.PR"
+      ],
+      "tags": [
+        "random graph",
+        "probabilistic combinatorics"
+      ]
+    },
+    {
+      "id": "2609.21477",
+      "url": "https://arxiv.org/abs/2609.21477",
+      "title": "Integrality-Gap Bounds for Weighted Matchoids and Matroid Intersection",
+      "authors": [
+        "Yu Cong",
+        "Yajie Zhao"
+      ],
+      "abstract": "The weighted $k$-matroid intersection problem asks for a maximum-weight set that is independent in each of $k$ matroids on a common ground set. The natural LP relaxation optimizes over the intersection of the $k$ matroid independent set polytopes. It is conjectured that this LP has integrality gap at most $k-1$. The conjecture is known for $k\\le3$, but for $k\\ge4$ the best general upper bound was $k$. We improve this bound to $k-1+1/k$. More generally, we prove that the natural LP of a $p$-matchoid has integrality gap at most $p-1+1/p$, with a deterministic LP-relative algorithm attaining the same factor. The matchoid extension resolves the $p$-matchoid part of a conjecture of Lee, Sviridenko, and Vondrák; projective planes give explicit tight instances whenever one of order $p-1$ exists.",
+      "published": "2026-09-18",
+      "categories": [
+        "math.CO",
+        "cs.DM"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2609.21696",
+      "url": "https://arxiv.org/abs/2609.21696",
+      "title": "Submodular Maximization over Bipartite Perfect Matchings and Matroid Intersection Bases",
+      "authors": [
+        "Chandra Chekuri",
+        "Lars Rohwedder",
+        "Neta Singer",
+        "Jan Vondrák",
+        "Rico Zenklusen"
+      ],
+      "abstract": "Motivated by applications in fairness and foundational questions, we consider the problem of maximizing a monotone submodular function $f\\colon 2^E \\rightarrow \\mathbb{R}_+$ over maximum cardinality sets in the intersection of two matroids on a common ground set $E$. An important special case is submodular perfect matching in bipartite graphs. Prior to this work, its approximability was poorly understood with only constant inapproximability known, despite not even a $\\frac{1}{o(\\sqrt{|E|})}$-approximation being known. Even when allowing to violate the cardinality constraint slightly, only a bicriteria approximation with a significant loss in the objective was known. Here, we obtain two results. First, we show that, within constant factors, the problem is approximation-equivalent to Submodular Orienteering in directed graphs. This yields an $Ω(1 / \\log |E|)$-approximation in quasi-polynomial time together with an almost-matching hardness result. Second, we obtain an improved polynomial-time bicriteria approximation via a local search framework. More precisely, if $f(T^*)$ is the largest submodular value of a common independent set in both matroids of size at least $K$, we find a common independent set $T$ such that $|T| \\geq (1 - ε) K$ and $f(T) \\geq (1/2 - ε) f(T^*)$. In contrast, previous work only guarantees a value of $Ω(ε) f(T^*)$ while ensuring that $|T| \\geq (1 - ε) K$.",
+      "published": "2026-09-18",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2609.22028",
+      "url": "https://arxiv.org/abs/2609.22028",
+      "title": "Spherical Harmonic Sliced Wasserstein Displacement Interpolation for Acoustic Source and Reflection Density Modeling",
+      "authors": [
+        "Yuancheng Luo"
+      ],
+      "abstract": "Spatial room impulse responses (SRIRs) capture directional distributions of acoustic sound-sources and their reflections. However, collecting SRIRs of moving sound-sources remains a challenge, requiring complex interpolations across measurements that account for multi-path spatial-temporal dynamics. This paper investigates the Wasserstein metric and displacement for evaluating interpolated SRIR echo densities in the spherical harmonic domain. We present novel sum-of-magnitude square expansions for efficiently fitting probability density functions, maximizing likelihood, inverse sampling, and computing spherical sliced Wasserstein interpolations. Experiments compare the Wasserstein displacements and metric to linear and geometric interpolations of SRIR image-source densities on a line-path, and demonstrate model-order reduction.",
+      "published": "2026-09-18",
+      "categories": [
+        "cs.SD",
+        "eess.AS",
+        "eess.SP",
+        "math.OC",
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein metric"
+      ]
+    },
     {
       "id": "2609.19728",
       "url": "https://arxiv.org/abs/2609.19728",
@@ -117,6 +233,26 @@
       ]
     },
     {
+      "id": "2609.21145",
+      "url": "https://arxiv.org/abs/2609.21145",
+      "title": "Scaling Forced Alignment to End-User Devices",
+      "authors": [
+        "Lawry Sorenson",
+        "Michael Crandall",
+        "Eric K. Ringger",
+        "Stephen D. Richardson"
+      ],
+      "abstract": "The Viterbi algorithm has been previously used to perform forced alignment of audio to text to mine training data from online resources. However, many existing implementations have quadratic time and space complexity, scaling poorly to long input sequences. We propose two optimizations to address this issue. First, we apply the Hirschberg algorithm to perform the alignment in place using linear memory. Second, we model the alignment between speech and text as a constrained random walk, allowing us to prune the search space with arbitrary confidence while accounting for transcription errors. The Hirschberg optimization reduces memory usage from 140 GB to 5 MB for three-hour inputs while producing identical alignments in one-third the time of torchaudio when both run on a CPU. We achieve an additional 2x speedup with pruning on inputs longer than 20 minutes while preserving alignment accuracy in more than 98% of tested cases.",
+      "published": "2026-09-17",
+      "categories": [
+        "cs.CL",
+        "cs.DS"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
       "id": "2609.20520",
       "url": "https://arxiv.org/abs/2609.20520",
       "title": "Sharp spectral norm concentration of sparse random tensors",
@@ -169,6 +305,22 @@
       "published": "2026-09-17",
       "categories": [
         "cs.DS"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2609.20903",
+      "url": "https://arxiv.org/abs/2609.20903",
+      "title": "Condensed configurations and valuative matroid invariants",
+      "authors": [
+        "Jens Niklas Eberhardt"
+      ],
+      "abstract": "Condensed configurations are compact incidence data obtained by grouping the cyclic flats of a matroid. We show that their inverse incidence matrices give explicit Schubert expansions and hence determine every valuative or covaluative matroid invariant. For the extended binary Golay matroid, this unexpectedly produces non-real-rooted Kazhdan-Lusztig and Z-polynomials. To our knowledge, the latter is the first counterexample in the literature.",
+      "published": "2026-09-17",
+      "categories": [
+        "math.CO"
       ],
       "tags": [
         "matroid"

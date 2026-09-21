@@ -19,10 +19,10 @@ collection:
   # --initial-backfill`. Increase this when you want a deeper first archive.
   initial_backfill_days: 180
 
-  # Every automatic daily run re-fetches this many days, including today.
-  # The overlap repairs missed/delayed arXiv records after a temporary failure;
-  # duplicate arXiv IDs are merged, so they do not appear twice.
-  daily_lookback_days: 3
+  # Every automatic daily run re-fetches this many calendar days, including
+  # today. Seven days covers arXiv's weekend announcement gap as well as delayed
+  # records. Duplicate arXiv IDs are merged, so they do not appear twice.
+  daily_lookback_days: 7
 
   # Large backfills are divided into date windows so arXiv does not have to
   # compute one enormous result set. This does not change the covered dates.
