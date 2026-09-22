@@ -1,8 +1,254 @@
 {
   "month": "2026-09",
-  "generated_at": "2026-09-21T16:33:16+00:00",
+  "generated_at": "2026-09-22T14:05:01+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2609.24816",
+      "url": "https://arxiv.org/abs/2609.24816",
+      "title": "Phylogenetic Inference and the Stickiness of Fréchet Means, via Precise Asymptotics of an Embedded Random Walk",
+      "authors": [
+        "Adam Quinn Jaffe"
+      ],
+      "abstract": "A well-known phenomenon in statistical analyses of populations of phylogenetic trees in the Billera-Holmes-Vogtmann space is that the topology of the Fréchet mean tree can contain multifurcations (i.e., internal nodes with more than two children), which raises the practical question of whether this reflects a population-level branching structure (hard polytomy) or merely sampling variability in the data (soft polytomy). This is an instance of the more general phenomenon of \"stickiness\" in non-Euclidean statistics, whereby the sample Fréchet mean in certain non-positively curved stratified spaces becomes permanently trapped in a lower-dimensional stratum. In this work, we identify a particular multidimensional random walk embedded within the Fréchet mean process, and we show that the time at which stickiness occurs is determined by the largest last-passage time above zero of the coordinates of this random walk. Using this representation, we develop a fully nonparametric procedure for estimating the probability that trifurcations in a sample Fréchet mean tree will bifurcate at some future time if more observations are collected. Lastly, we apply our methodology to a problem in phylogenetics where we consider whether an observed trifurcation in the species tree of primates, glires, and tree shrews is genuinely trifurcated at the population level.",
+      "published": "2026-09-21",
+      "categories": [
+        "q-bio.PE",
+        "math.ST",
+        "stat.TH",
+        "stat.ME"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2609.24569",
+      "url": "https://arxiv.org/abs/2609.24569",
+      "title": "Poisson Exchange Beyond Submodularity: Effective Approximation Algorithms for Offline and Online Subset Selection over Matroids",
+      "authors": [
+        "Shi Fu",
+        "Youming Qiao",
+        "Dacheng Tao",
+        "Zongqi Wan",
+        "Qixin Zhang"
+      ],
+      "abstract": "Over the past decade, a growing body of research has shown that $γ$-weak submodularity broadly arises in numerous subset selection tasks, including feature selection, neural network pruning, and video summarization. Despite its prevalence, maximizing a $γ$-weakly submodular function subject to a general matroid constraint remains challenging. To date, the only known approximation guarantee is the conservative $(1+1/γ)^{-2}$ factor established by \\citet{chen2018weakly}. To improve upon this result, this paper proposes a novel algorithm called \\MGPE, which repeatedly performs maximum-gain local exchanges through careful control of a non-homogeneous Poisson clock, and proves that this \\MGPE\\ can attain an approximation ratio arbitrarily close to $ρ_γ=1-\\left(γ/(2-γ)\\right)^{ \\frac{γ^2}{2(1-γ)} }$. In sharp contrast to the previous guarantee, our obtained factor $ρ_γ$ not only strictly improves upon $(1+1/γ)^{-2}$ for every $γ\\in(0,1]$, but also can asymptotically approach the optimal $(1-1/e)$-approximation for submodular maximization as $γ\\to1$. Furthermore, we surprisingly find that when the matroid constraint reduces to a cardinality or the objective satisfies the stronger notion of $α$-weak DR-submodularity, \\MGPE\\ can automatically recover the tight approximation ratios of $1-e^{-γ}$ and $1-e^{-α}$, respectively. Here, $α\\in(0,1]$ denotes the DR ratio.",
+      "published": "2026-09-21",
+      "categories": [
+        "cs.DS",
+        "cs.LG",
+        "math.OC"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2609.24917",
+      "url": "https://arxiv.org/abs/2609.24917",
+      "title": "Magic positivity of Snapper polynomials for matroids",
+      "authors": [
+        "Shiyue Li"
+      ],
+      "abstract": "In 1959, Snapper showed that the Euler characteristic of the tensor powers of a line bundle on a normal projective scheme is a polynomial, later named the \\emph{Snapper polynomial}. Positivity of coefficients of Snapper polynomials implies various notions of positivity of line bundles, which we study through the lens of magic positivity and real-rootedness. We introduce zonotopal classes in the Grothendieck $K$-ring of vector bundles of the toric variety for any loopless matroid, and prove that their Snapper polynomials are magic positive. Our proof realizes such a Snapper polynomial as a weighted independence polynomial of the Dilworth truncation along certain lines of the matroid. As a consequence, their coefficients are positive, and their $h^{\\ast}$-polynomials are real-rooted. In the realizable case, this polynomial is the multigraded Hilbert polynomial of the wonderful variety embedded in a product of projective lines. We introduce analogous line bundles on the Deligne--Mumford--Knudsen moduli space $\\overline{\\mathcal M}_{0,n}$ and prove that their Snapper polynomials are magic positive. For cotangent line bundles whose first Chern classes are distinct $ψ$-classes, which are not zonotopal, we nonetheless prove that their $h^{\\ast}$-polynomials are real-rooted, whereas their Snapper polynomials are magic positive if and only if $n\\leqslant7$. More generally, we introduce saturated and weakly saturated $K$-classes of matroids, which furnish a sufficient and a necessary condition for magic positivity of Snapper polynomials in terms of their dragon Hall--Rado polymatroids.",
+      "published": "2026-09-21",
+      "categories": [
+        "math.AG",
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2609.24638",
+      "url": "https://arxiv.org/abs/2609.24638",
+      "title": "Edge-based Katz centralities for spatio-temporal multiplex networks",
+      "authors": [
+        "Kai Bergermann",
+        "Francesco Gravili",
+        "Valeria Simoncini",
+        "Martin Stoll"
+      ],
+      "abstract": "Katz centrality is a well-established measure to identify and rank the most important nodes in complex networks by means of a linear system solve. Recent works have developed notions of Katz centrality for temporal, i.e., time-evolving networks. Their drawback is that small changes in the network structure may drastically change centralities across large parts of the network. Moreover, an unproportional effort in the network science community has been devoted to the study of node-based quantities while edge-based measures are far less explored. In this manuscript, we introduce a novel failure-aware temporal multiplex network model for computing edge-based Katz centralities for spatial networks. This class of networks admits the use of the line graph as network representation. We use a block-triangular and -banded supra-adjacency matrix representation, modeling inter-layer connections as low-rank matrices, which assigns a spatially constrained emphasis on up- or downdated edges. These could represent, e.g., breakages of water/gas pipes or obstructions in street networks in real-time infrastructure monitoring applications. We analyze the structure of the of the block matrix inverse with respect to entry decay in the blocks above the block-diagonal. This gives rise to two truncation approaches that allow drastic computational runtime reductions at the cost of introducing a controlled truncation error. Numerical experiments on a range of real-world spatio-temporal networks of size up to $2\\cdot 10^8$ illustrate accuracy and efficiency with runtime gains of up to a factor of $679$.",
+      "published": "2026-09-21",
+      "categories": [
+        "math.NA",
+        "cs.NA",
+        "cs.SI"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2609.23940",
+      "url": "https://arxiv.org/abs/2609.23940",
+      "title": "Copulas farthest from independence in quadratic Wasserstein distance",
+      "authors": [
+        "Jonathan Ansari"
+      ],
+      "abstract": "Let $Π$ denote the independence copula and $M,W$ the upper and lower Fréchet--Hoeffding copulas. Catalano and Lavenant (2025) conjectured that $M$ and $W$ maximize the quadratic Wasserstein distance from $Π$ among all bivariate copulas. We prove this conjecture and characterize all equality cases: $\\mathcal W_2^2(C,Π)\\leq 1/10$, with equality if and only if $C\\in\\{M,W\\}$. We also determine explicitly the optimal Monge map from $Π$ to $M$. The proof is constructive and combines the optimal transport from independence to the diagonal, a sharp convex-order inequality for 1-Lipschitz functions, the conditional convex order, and a coupling construction based on conditional comonotonicity and the supermodular order. As a consequence, we obtain a normalized Wasserstein-based dependence measure that characterizes independence and attains its maximal value exactly for comonotone and countermonotone dependence.",
+      "published": "2026-09-20",
+      "categories": [
+        "math.PR",
+        "math.ST",
+        "stat.TH"
+      ],
+      "tags": [
+        "optimal transport",
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2609.23362",
+      "url": "https://arxiv.org/abs/2609.23362",
+      "title": "Multiset Colorings of Random Graphs Across Density Regimes",
+      "authors": [
+        "Arash Ahadi",
+        "Sharareh Alipour"
+      ],
+      "abstract": "We show that almost every graph admits a partition of its vertex set into three parts such that no two adjacent vertices have the same number of neighbors in each of the three parts. Equivalently, for $G\\sim G(n,1/2)$, $χ_m(G)\\le3$ with high probability, improving the previously known bound of five. Here $χ_m(G)$ denotes the multiset chromatic number of $G$, the minimum number of parts in a vertex partition whose neighbor-count vectors distinguish every pair of adjacent vertices. In fact, the three-part bound holds for every fixed $0.185<p<0.509$. More generally, for every fixed $p\\in(0,1)$, $G\\sim G(n,p)$ satisfies $χ_m(G)\\le4$ with high probability. These results are obtained by converting the unresolved edges of a carefully chosen initial partition into hyperplanes of a Boolean cube and applying the Linial--Radhakrishnan theory of essential covers. We also determine how $χ_m(G)$ grows when the graph is polynomially close to complete. For every fixed $β\\in(0,1)$ and $G\\sim G\\!\\left(n,1-n^{-(1-β)}\\right)$, with high probability $\\frac{2}β\\le χ_m(G)\\le \\left\\lfloor\\frac{2}β\\right\\rfloor+5$. Thus $χ_m(G)=2/β+O(1)$. The lower bound is spectral, while the upper bound follows from multinomial anti-concentration and the Lov'asz Local Lemma.",
+      "published": "2026-09-20",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "random graph"
+      ]
+    },
+    {
+      "id": "2609.23802",
+      "url": "https://arxiv.org/abs/2609.23802",
+      "title": "Distance and resistance on random series-parallel graphs: logarithmic speeds and near-critical asymptotics",
+      "authors": [
+        "Ruiqi Ding",
+        "Zehua He",
+        "Yutao Liang",
+        "Yushu Zheng"
+      ],
+      "abstract": "We study the graph distance $D_n(p)$ and effective resistance $R_n(p)$ between the boundary vertices of a depth-$n$ random series--parallel graph, obtained by recursively joining two independent copies in series with probability $p$ and in parallel with probability $1-p$. We prove the existence of deterministic logarithmic speeds: for every $p\\in[0,1]$, $n^{-1}\\log D_n(p)$ and $n^{-1}\\log R_n(p)$ converge to deterministic limits $v_D(p)$ and $v_R(p)$, respectively, almost surely and in $L^1$. The limiting speeds agree with the corresponding first-moment logarithmic rates for every $p\\in[0,1]$ in the distance case and for $p\\in[1/2,1]$ in the resistance case. We further determine the near-critical behavior of the resistance speed: $v_R(\\frac12+δ)\\sim 2ζ(3)^{1/3}λ_*δ^{2/3}$ as $δ\\downarrow0$, where $λ_*>0$ is characterized by an explicit nonlinear boundary-value problem. This exponent $2/3$ contrasts with the exponent $1/2$ for distance obtained by Chen, Derrida, Duquesne, and Shi (2026). The main idea of this work was proposed by ChatGPT 5.6 Sol, and the authors take full responsibility for the mathematical content. The three main theorems and their supporting proof dependencies have been formalized in Lean 4, relative to two explicitly documented external mathematical inputs.",
+      "published": "2026-09-20",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "effective resistance"
+      ]
+    },
+    {
+      "id": "2609.23842",
+      "url": "https://arxiv.org/abs/2609.23842",
+      "title": "Edge complexity of weighted graphs: involutory symmetries and NP-hardness",
+      "authors": [
+        "Vishal Gupta",
+        "Alex Iosevich"
+      ],
+      "abstract": "The edge complexity of a weighted graph is the smallest ratio of the Fourier $\\ell^1$ and $\\ell^2$ norms of its adjacency matrix over all vertex labelings. We study the difficulty of finding this minimum by relating it to a graph symmetry. Adding a universal vertex with sufficiently large incident weight produces an explicit Fourier $\\ell^1$ lower bound. We show that equality holds exactly when the source graph has a fixed-point-free involutory automorphism. Two-sided estimates compare the excess above this bound with the squared Frobenius distance to the nearest weighted graph having such a symmetry. For sources of constant weighted degree, these estimates determine the exact leading term as the added weight tends to infinity. A stronger separation for simple source graphs proves that additive $\\frac{1}{256N^{\\frac{7}{2}}}$ approximation of weighted edge complexity is NP-hard, even on connected graphs of odd order $N$ with at most two distinct positive integer weights, each at most $N^2$. We also prove that recognizing a simple graph with a real Fourier labeling is NP-complete. A seven-vertex example shows that every minimizing labeling can have nonreal Fourier coefficients even when real Fourier labelings exist. An exact rational certificate for this example is included in the appendix.",
+      "published": "2026-09-20",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2609.23394",
+      "url": "https://arxiv.org/abs/2609.23394",
+      "title": "Classification of strictly resistance nonnegative graphs",
+      "authors": [
+        "Hailey Jay Garcia"
+      ],
+      "abstract": "We say that a graph is resistance nonnegative or RN if it admits a positive edge-weight that yields nonnegative resistance curvature in the sense of Devriendt and Lambiotte. Analogously, a graph may be resistance positive or RP; we say a graph is strictly RN if it is RN but not RP. In this paper, we show that every $2$-connected strictly RN graph is bipartite with parts whose sizes differ by one, demonstrating that there are no $1$-tough strictly RN graphs. As a consequence, we prove that every $1$-tough RN graph is also RP. Lastly, we quantify the exact toughness values an RN graph can attain below $1$.",
+      "published": "2026-09-20",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "resistance curvature"
+      ]
+    },
+    {
+      "id": "2609.23739",
+      "url": "https://arxiv.org/abs/2609.23739",
+      "title": "Contextual Distributionally Robust Chance-Constrained Programs: Exact Reformulations and Valid Inequalities",
+      "authors": [
+        "Hanbin Yang",
+        "Nan Jiang",
+        "Guodong Lyu"
+      ],
+      "abstract": "We study a contextual distributionally robust chance-constrained programming (C-DRCCP) model that controls violation probabilities conditional on a neighborhood of a target context. The ambiguity set is defined over the joint distribution of contexts and outcomes using the Wasserstein distance. For affine safety systems with right-hand-side uncertainty, we derive an exact mixed-integer programming (MIP) reformulation. The reformulation reveals that worst-case conditional risk is determined by two coupled uses of the transportation budget: moving empirical mass into the conditioning neighborhood and moving conditioned mass into the failure region. Equivalently, robust feasibility holds when the minimum transportation cost needed to reach the conditional risk boundary is at least the available budget. Calibrating the ambiguity set gives a finite-sample guarantee for the true conditional violation probability. This characterization leads to strong valid inequalities that exploit the contextual transport. Each contextual mass allocation determines both the conditional scenario weights and the budget available to move outcomes into failure, whereas conventional quantile cuts utilize only the induced weights. Accounting for the remaining budget generates strengthened quantile cuts that strictly dominate standard quantile bounds and yield tighter MIP coefficients. We also derive rank inequalities from an exchange property of contextual transportation costs, linking feasible failure patterns across contextual allocations. Extensive numerical experiments demonstrate that these inequalities close much of the linear-relaxation gap, speed up the solution process, and enable large-sample instances that are intractable for the baseline formulation.",
+      "published": "2026-09-20",
+      "categories": [
+        "math.OC"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2609.23852",
+      "url": "https://arxiv.org/abs/2609.23852",
+      "title": "A Simpler and Faster Min-Cost Flow Solver via Min-Ratio Cycles from Distance Oracles",
+      "authors": [
+        "Rasmus Kyng",
+        "Simon Meierhans",
+        "Maximilian Probst Gutenberg",
+        "Aurelio Sulser"
+      ],
+      "abstract": "The first almost-linear time maximum and minimum cost flow algorithm of Chen-Kyng-Liu-Peng-Probst Gutenberg-Sachdeva (FOCS 2022), reduced these flow objectives to a sequence of min-ratio cycle problems. Solving this core primitive requires approximately minimizing the ratio of a linear gradient term and an undirected length term. In Chen-Kyng-Liu-Peng-Probst Gutenberg-Sachdeva (FOCS 2022) and the subsequent work of Chen-Kyng-Liu-Meierhans-Probst Gutenberg (STOC 2024), intricate data structures were given to solve the min-ratio problem. We show that such a cycle can be extracted directly from the dynamic distance oracle of Kyng-Meierhans-Probst Gutenberg (STOC 2024) using linearity. This simplifies previous algorithms that relied on multiple additional steps to extract the cycle, and can be seen as evidence that solving the min-ratio cycle problem really is all about distances. As a result, we obtain a faster primal maxflow and min-cost flow solver that also extends to incremental graphs.",
+      "published": "2026-09-20",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "minimum cost flow"
+      ]
+    },
+    {
+      "id": "2609.23869",
+      "url": "https://arxiv.org/abs/2609.23869",
+      "title": "Envelopes of upper bounds for nonbinary constant-weight and constant-composition codes",
+      "authors": [
+        "Artur Akhiiarov",
+        "Peter Boyvalenkov",
+        "Danila Cherkashin",
+        "Andrei Raigorodskii"
+      ],
+      "abstract": "Deriving upper bounds on code size from existing bounds is a classical approach in coding theory, dating back to the seminal results of Elias, Bassalygo, and Levenshtein. We study a framework encompassing the Bassalygo--Elias and Levenshtein inequalities for binary and nonbinary (constant-weight) codes and provides certain generalizations. The asymptotic cost of transferring a bound between different symbol compositions is expressed in terms of mutual information, yielding an information-theoretic optimal transport formulation. We determine the optimal permutation-transport cost between arbitrary compositions in terms of their least common majorant in the majorization order. Specializing to symmetric constant-weight compositions yields explicit transport profiles. As a byproduct, we establish unimodality of the asymptotic constant-weight rate as a function of the relative weight. We prove that the resulting closure operators are idempotent and that applying transport before outer Bassalygo--Elias averaging leaves the unrestricted bound obtained from the same input unchanged. We also establish necessary and sufficient conditions for an upper bound to be a fixed point of the closure operator. Since the asymptotic rate function is an upper bound for itself and it is a fixed point, we conclude the Schur concavity of the constant-composition rate function. Finally, we survey existing upper bounds for binary and nonbinary constant-weight and constant-composition codes, combine them into optimized envelopes within the transport framework, and obtain improved theoretical and numerical bounds.",
+      "published": "2026-09-20",
+      "categories": [
+        "cs.IT",
+        "math.IT",
+        "math.CO"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2609.23163",
+      "url": "https://arxiv.org/abs/2609.23163",
+      "title": "Toscani-Fourier Distance on Probability Measures: Wasserstein Control, Topological Equivalence on Model Classes, and Duality",
+      "authors": [
+        "Mehrdad Mohammadi"
+      ],
+      "abstract": "Comparing probability measures in machine learning trades transport geometry against computational cost: Wasserstein distances encode the geometry of $\\mathbb R^d$ but require solving a transport problem, while kernel discrepancies are cheap to evaluate yet depend delicately on their test class. We study the Toscani--Fourier family $\\mathrm T_{s,p}$, the weighted $L^p$ norm of the difference of two characteristic functions, as a continuous Fourier-side discrepancy on $\\mathbb R^d$. For $1\\le p<\\infty$ we show that $d/p<s<1+d/p$ is exactly the window in which $\\mathrm T_{s,p}$ is finite on $\\mathcal P_p(\\mathbb R^d)$, both endpoints already failing for a pair of Dirac measures, and we establish the metric, embedding, and compactness structure of the resulting space, which we prove to be complete. Duality identifies $\\mathrm T_{s,p}$ as an integral probability metric over a homogeneous Fourier--Lebesgue ball, with an explicit extremizer when $1<p<\\infty$. We prove the global bound $\\mathrm T_{s,p}\\lesssim W_p^{\\,s-d/p}$, whose exponent is sharp, show that no global converse of any form can hold, and recover topological equivalence with $W_p$ on bounded-support and uniform-tail classes, together with explicit reverse moduli on bounded-support classes that improve the imported energy-kernel exponent at $p=2$. There, $\\mathrm T_{s,2}$ is a constant multiple of the classical energy distance, which yields an exact finite-sample identity for the mean of the empirical discrepancy; the numerical experiments are otherwise diagnostic.",
+      "published": "2026-09-19",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.FA",
+        "math.PR",
+        "math.ST",
+        "stat.TH"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
     {
       "id": "2609.21937",
       "url": "https://arxiv.org/abs/2609.21937",
@@ -14,7 +260,7 @@
       "published": "2026-09-18",
       "categories": [
         "math.PR",
-        "math-ph"
+        "math.MP"
       ],
       "tags": [
         "random walk",
@@ -117,6 +363,23 @@
       ],
       "tags": [
         "Wasserstein metric"
+      ]
+    },
+    {
+      "id": "2609.22595",
+      "url": "https://arxiv.org/abs/2609.22595",
+      "title": "Diffusion Approximations to Schrödinger Bridges and the Convergence of Entropic Potentials",
+      "authors": [
+        "Garrett Mulcahy",
+        "Soumik Pal"
+      ],
+      "abstract": "Consider the Monge-Kantorovich optimal transport problem between two Euclidean densities $μ$ and $ν$ and quadratic cost. The $\\varepsilon$-Schrödinger bridge is the solution to the entropic regularized problem with regularization parameter $\\varepsilon$. By taking the conditional expectation of the second coordinate given the first under this coupling, we obtain the $\\varepsilon$-entropic Brenier map. As $\\varepsilon$ goes down to zero, it is known that the entropic Brenier map converges to the quadratic cost optimal transport map between the two measures, i.e., the Brenier map. We show that, under some smoothness and log-concavity constraints on the marginals, the difference between the entropic Brenier map and the Brenier map is equal to $\\varepsilon$ times one-half of the score function of the first marginal plus an error that is $o(\\varepsilon)$ in $\\mathbf{L}^2(μ)$. This expansion holds irrespective of the second marginal $ν$. The proof relies on an approximation of the Schrödinger bridge by a noisy version of the McCann interpolation. Under additional assumptions we show a second approximation to the Schrödinger bridge via so-called Mirror Langevin diffusions, which are Langevin diffusions on the Hessian manifold generated by the Brenier map. These two approximations, that appear quite different at first glance, are nonetheless shown to be closely connected. Our proofs utilize a random surface and a novel stochastic operation called the tangent Markov projection.",
+      "published": "2026-09-18",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "optimal transport"
       ]
     },
     {
@@ -266,6 +529,7 @@
         "math.PR",
         "math.CO",
         "math.ST",
+        "stat.TH",
         "stat.ML"
       ],
       "tags": [
@@ -327,6 +591,23 @@
       ]
     },
     {
+      "id": "2609.22370",
+      "url": "https://arxiv.org/abs/2609.22370",
+      "title": "The maximum spectral radius of uniform hypergraphs whose shadow excludes a complete or complete bipartite minor",
+      "authors": [
+        "Pei Liu",
+        "Suil O"
+      ],
+      "abstract": "For a $k$-uniform hypergraph $\\mathcal H$, the shadow of $\\mathcal H$ is the graph whose edges are the pairs covered by a hyperedge. In this paper, for all sufficiently large $n$, we determine the $n$-vertex $k$-uniform hypergraphs of maximum adjacency-tensor spectral radius whose shadow has no $K_t$ minor, for every $t\\ge k+1$, and those whose shadow has no $K_{s,t}$ minor, for every $2\\le s\\le t$ with $s+t\\ge k+1$ and every residue of $n-s+1$ modulo $t$; outside these ranges the problems are trivial. This extends to uniform hypergraphs the theorem of Tait on graphs with no $K_r$ or $K_{s,t}$ minor, whose remaining residues were settled by Zhai and Lin. In each case the extremal hypergraph is unique, and it is the $k$-clique hypergraph of the join of a clique with a graph that we call the light part. For $K_{s,t}$ the answer depends on $j=k-s+1$. When $j\\le1$, the maximum has order $n^{(k-1)/k}$, and the light part is the one found by Zhai and Lin for the adjacency matrix, including its exceptional components. When $j\\ge2$, a regime that does not occur for graphs, the maximum has order $n^{(s-1)/k}$ and $t$ enters its leading constant. The light part then consists of copies of $K_t$ and one smaller clique, with a single exception: for $(k,s,t)=(9,8,8)$ and $n-s+1\\equiv2\\pmod 8$, the complement of the Petersen graph appears. When the smaller clique has between $1$ and $j-1$ vertices, the extremal graph is not unique. In particular, for $t=8$, $4\\le s\\le7$, $k=s+1$ and $n-s+1\\equiv2\\pmod 8$, the clique hypergraph of the extremal graph of Zhai and Lin is not extremal. For $j\\ge2$ the light part is determined by a weighted clique inequality, which for $j\\ge3$ follows from a weighted form of the closed-neighborhood counting of Chao and Dong.",
+      "published": "2026-09-17",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
       "id": "2609.19769",
       "url": "https://arxiv.org/abs/2609.19769",
       "title": "Convergence of Densities for the Euler--Maruyama Approximation of Brownian-Driven McKean--Vlasov Equations",
@@ -355,7 +636,8 @@
       "abstract": "We determine the exact attainable region of Spearman's rho and Gini's gamma over all bivariate copulas, resolving the remaining pairwise exact-region problem among Spearman's rho, Kendall's tau, Gini's gamma, Blomqvist's beta and Spearman's footrule. We give an explicit parametrization of the rho-maximal boundary for prescribed Gini's gamma and construct copulas attaining every boundary point. The boundary consists of an elementary arc up to a single junction and, beyond it, countably many algebraic pieces accumulating at comonotonicity. This description also gives the largest possible value of $|ρ-γ|$ and the sharp thresholds beyond which rho and gamma must have the same sign. Our proof separates the signs and magnitudes of centred ranks, reducing the optimization of linear combinations of $ρ$ and $γ$ to an optimal transport problem for two uniform magnitudes. The extremizers combine a central antidiagonal block with rescaled auxiliary transport optimizers, and global optimality follows from a Kantorovich dual potential obtained by gluing the corresponding dual pieces.",
       "published": "2026-09-17",
       "categories": [
-        "math.ST"
+        "math.ST",
+        "stat.TH"
       ],
       "tags": [
         "optimal transport"
@@ -539,7 +821,7 @@
       "published": "2026-09-16",
       "categories": [
         "math.PR",
-        "math-ph"
+        "math.MP"
       ],
       "tags": [
         "random walk"
@@ -642,8 +924,7 @@
       "abstract": "For a real symmetric matrix $H$ and distinct vertices $a,b$, we classify exponents $k$ for which $H^k$ has perfect state transfer (PST) from $a$ to $b$. If their supported eigenvalues are integer multiples of a common positive number, every odd exponent reduces to $H$ and every positive even exponent reduces to $H^2$. We determine the minimum transfer times using a greatest common divisor of supported spectral differences. For rational symmetric matrices, symmetry of the source vertex support about zero implies the odd-power equivalence without a commensurability assumption; this includes all bipartite graphs. If the source vertex supports zero, PST under one positive even power implies PST under every positive even power. For a symmetric three-point quadratic spectrum whose outer projection signs agree and differ from the central sign, a nonzero rational shift leaves exactly one PST exponent. We classify all adjacency powers of hypercubes, cycles, and Johnson graphs, and all adjacency squares of paths. In particular, the adjacency matrix of $P_7$ has PST from vertex $2$ to vertex $6$ only at exponent $2$.",
       "published": "2026-09-16",
       "categories": [
-        "math.CO",
-        "quant-ph"
+        "math.CO"
       ],
       "tags": [
         "adjacency matrix"
@@ -662,6 +943,7 @@
       "published": "2026-09-16",
       "categories": [
         "math.OC",
+        "cs.SY",
         "eess.SY",
         "math.PR"
       ],
@@ -701,6 +983,7 @@
       "published": "2026-09-16",
       "categories": [
         "eess.SY",
+        "cs.SY",
         "math.OC",
         "physics.flu-dyn"
       ],
