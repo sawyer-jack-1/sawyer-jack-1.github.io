@@ -1,8 +1,266 @@
 {
   "month": "2026-09",
-  "generated_at": "2026-09-22T14:05:01+00:00",
+  "generated_at": "2026-09-23T14:16:44+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2609.26017",
+      "url": "https://arxiv.org/abs/2609.26017",
+      "title": "Sample-Based Prophet Inequalities for Random Walks",
+      "authors": [
+        "Pieter Kleer",
+        "Johan van Leeuwaarden",
+        "Daan Noordenbos"
+      ],
+      "abstract": "We study prophet inequalities for a random walk reward stopping problem with sample-based information. The goal is to stop as close as possible to the maximum of a random walk with i.i.d. increments, measuring performance by the ratio between the expected reward when stopping and the expected true maximum. We consider a sample-based model in which the increment distribution is unknown and the decision maker has access to $K$ independent sample paths of the reward process. For the infinite-horizon setting, we establish a sharp prophet inequality with constant $(K/(K+1))^{K+1}$. The guarantee is attained by a randomised stopping rule based on the ladder height decomposition of random walks. As $K\\to\\infty$, this recovers the classical $1/e$ prophet inequality from the full-information setting. For the finite-horizon setting, where the process terminates after $n$ steps, we first prove a tight no-information prophet inequality with constant $1/H_n$, where $H_n$ is the $n$-th harmonic number. For $K\\ge1$ samples, we show that a prophet constant of $1/4$ is attainable. Finally, we prove that, with $K$ samples, the prophet constant is at most $(K/(K+1))^{K+1}+(6+6H_K)/H_n$ for $n\\ge 2K^2$, implying convergence to the infinite-horizon constant as $n\\to\\infty$. Our approach combines random walk theory, including ladder heights and Spitzer's identity, with linear programming duality. Our results contribute to random walk stopping theory and to sample-based prophet inequalities for correlated rewards, an area that remains largely unexplored. To the best of our knowledge, our tight sample-based prophet inequalities are the first whose performance is parameterised exactly, rather than only up to constants, by the number of available samples.",
+      "published": "2026-09-22",
+      "categories": [
+        "math.OC",
+        "cs.DS"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2609.26600",
+      "url": "https://arxiv.org/abs/2609.26600",
+      "title": "Scaling limits of critical branching random walks and their snakes",
+      "authors": [
+        "Thomas Duquesne",
+        "Fael Rebei"
+      ],
+      "abstract": "We study scaling limits of $\\mathbb R^d$-valued branching random walks (BRWs for short) in the following setting: indexing-trees are Galton-Watson trees with critical offspring distribution which are assumed, when appropriately rescaled, to converge to a critical $ψ$-Lévy tree; conditional on the indexing tree, the jumps of the BRW may exhibit dependence within the same sibling group, but distinct sibling groups are independent, and their distributions are centered but may vary (and for instance depend on the whole indexing tree), with a typical value of the walk nevertheless remaining within the domain of attraction of a mixture of Gaussian distributions. Under these assumptions and a necessary additional assumption, which we call the discrete Sheu assumption, we show that rescaled discrete snakes converge functionally to the $ψ$-Brownian snake introduced by Le Gall & Le Jan (1998) and D.~& Le Gall (2002). The method uses a coupling result for BRWs of independent interest. An application is given concerning the scaling limits of the range of BRWs that take their values in the $\\mathtt b$-ary tree to the reflected $ψ$-Brownian cactus which is a variant of the Brownian cactus introduced by Curien, Le Gall & Miermont (2013).",
+      "published": "2026-09-22",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2609.26329",
+      "url": "https://arxiv.org/abs/2609.26329",
+      "title": "Rainbow spanning configurations in uniformly coloured pseudorandom graphs",
+      "authors": [
+        "Elad Aigner-Horev",
+        "Dan Hefetz",
+        "Yury Person",
+        "Michael Trushkin"
+      ],
+      "abstract": "We prove a quantitative palette-transference principle for rainbow spanning configurations in uniformly edge-coloured pseudorandom graphs. The input to our transference principle is an embedding result of a spanning configuration in an appropriately bijumbled graph $H$ with sufficiently large minimum degree. The output of our transference principle is the asymptotically almost sure existence of a rainbow copy of the same configuration in a uniformly edge-coloured graph $G$ whose bijumbledness and minimum are comparable and sometimes coincide with those of $H$. We then apply our transference principle in order to asymptotically almost surely obtain $K_k$-factors, including perfect matchings, Hamilton cycles, and a prescribed bounded-degree spanning tree in bijumbled graphs with appropriate parameters. In all of our results, the palette size exceeds the size of the target configuration by $\\varepsilon n$, where $\\varepsilon > 0$ is arbitrarily small yet fixed, and $n$ is the order of the configuration.",
+      "published": "2026-09-22",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "random graph",
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2609.26647",
+      "url": "https://arxiv.org/abs/2609.26647",
+      "title": "Statistical Rates for Entropic Optimal Transport in the Discrete to SubGaussian Regime",
+      "authors": [
+        "Tomas Gonzalez",
+        "Gonzalo Mena"
+      ],
+      "abstract": "We study statistical rates in entropic optimal transport in the semi-discrete regime where one measure has finite support and the other is subGaussian. Our main result establishes parametric convergence rates for the empirical dual potentials to their population counterparts, with no dimension dependence in the leading term. Our result relies on tailored strong concavity analysis of the semi-dual objective, coupled with specialized bounds for the semi-discrete potentials. As a consequence, we obtain fast rates for downstream quantities derived from the optimal coupling. Chiefly, the empirical barycentric projection achieves a squared-error rate $n^{-1}$, matching the fully compact case and improving over the less favorable $n^{-1/2}$ rate known for fully subGaussian settings. Altogether, these results may indicate a lower complexity adaptation phenomenon whereby the statistical complexity of the barycentric projection is governed by the discrete measure. As an application, we analyze Sinkhorn-EM, an EM-type algorithm in which the E-step is replaced by an entropic optimal transport problem. In a well-specified and balanced two-component Gaussian mixture model, we prove $\\sqrt{n}$-consistency of the empirical iterates to their population counterparts for any fixed number of iterations, matching classical EM rates up to a $\\sqrt{\\log n}$ factor. Simulations support the theory.",
+      "published": "2026-09-22",
+      "categories": [
+        "math.ST",
+        "stat.TH",
+        "cs.LG"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2609.26737",
+      "url": "https://arxiv.org/abs/2609.26737",
+      "title": "Diffusion-Induced Spatial Attention Overlapping Community Detection",
+      "authors": [
+        "Kosti Koistinen",
+        "Vesa Kuikka",
+        "Joni Herttuainen",
+        "Matthew Hendren",
+        "Brian Holt",
+        "Kimmo K. Kaski"
+      ],
+      "abstract": "Detection of overlapping communities is essential for modelling networks in which nodes participate simultaneously in multiple structural or functional groups. Existing graph neural network approaches commonly rely on local message passing, which can obscure community boundaries through smoothing and limit the representation of structurally relevant long-range dependencies. We introduce Diffusion-Induced Spatial Attention Community Detection (DISCO), a deep-learning framework that combines a structural prior derived from influence spreading dynamics, sparse multi-head attention, and non-negative community-affiliation learning. The prior identifies candidate interactions beyond immediate graph neighbours and biases attention according to their structural proximity, while a Bernoulli-Poisson edge-reconstruction objective enables overlapping community inference from node attributes and structural profiles, or both. Benchmark experiments show that DISCO performs competitively against established graph convolutional and graph attention approaches across different input configurations. To demonstrate its practical applicability, we present a proof-of-concept cybersecurity use case in which changes between community assignments inferred from consecutive communication-network snapshots provide an interpretable anomaly signal. Temporal community similarity identifies structural deviations, while node-level contributions help locate the devices associated with them. DISCO therefore provides both a flexible method for overlapping community detection and a foundation for analysing structural change in dynamic networks.",
+      "published": "2026-09-22",
+      "categories": [
+        "cs.SI",
+        "cs.LG"
+      ],
+      "tags": [
+        "graph neural network",
+        "community detection"
+      ]
+    },
+    {
+      "id": "2609.25794",
+      "url": "https://arxiv.org/abs/2609.25794",
+      "title": "Some results on the distance spectral radius and edge-disjoint spanning trees of graphs",
+      "authors": [
+        "Yongbin Gao",
+        "Ligong Wang"
+      ],
+      "abstract": "Let $τ(G)$ denote the maximum number of edge-disjoint spanning trees in a connected graph $G$ of order $n$, and let $ρ_D(G)$ denote its distance spectral radius. For an integer $k\\ge2$, Fan, He and Zhao [Discrete Appl. Math. 376 (2025) 31--40] obtained a sharp distance spectral radius condition for $τ(G)\\ge k$ when $n\\ge2k+6$. In this paper, we fill the gap $2k\\le n\\le2k+5$ and thus complete the result for all $n\\ge2k$. The extremal graph given by Fan, He and Zhao remains valid for $n\\ge2k+2$, while we determine the unique extremal graph for each of the orders $n=2k$ and $n=2k+1$. We further obtain sharp distance spectral radius conditions and characterize all extremal graphs under the minimum degree condition $δ(G)\\ge k$ for all $n\\ge2k$. Finally, for graphs with the stronger minimum degree condition $δ(G)\\ge6k-4$ and order $n\\ge2δ(G)+2$, we obtain a sharp distance spectral radius condition ensuring $τ(G)\\ge k$ and determine the unique extremal graph.",
+      "published": "2026-09-22",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2609.26366",
+      "url": "https://arxiv.org/abs/2609.26366",
+      "title": "The parameterised complexity of generalised temporal domination on temporal graphs with modular structure",
+      "authors": [
+        "Jessica Enright",
+        "Kitty Meeks",
+        "Elena Moss"
+      ],
+      "abstract": "Inspired by the static problem $(α,β)$-Dominating Set, we propose a general temporal domination problem, called $(α,β)$-Temporal Dominating Set ($(α,β)$-TDS). We show that this problem encompasses Temporal Dominating Set, and additionally provides first temporal extensions of problems such as $k$-Dominating Set and $α$-Dominating Set. In this paper, we study the parameterised complexity of $(α,β)$-TDS with respect to temporal neighbourhood diversity (TND), temporal modular-width (TMW), and temporal cliquewidth (TCW). We obtain fixed parameter tractability results for all values of $α$ and $β$ with respect to TND; W[1]-hardness with respect to TMW and TCW whenever $β$ is in the problem input, or whenever $α\\in (0,1)$ and $β$ is a fixed constant; and para-NP-hardness with respect to TCW when $α= 0$ and $β= 1$, or $α= 1$ and $β= 0$.",
+      "published": "2026-09-22",
+      "categories": [
+        "cs.DM",
+        "math.CO"
+      ],
+      "tags": [
+        "temporal graph"
+      ]
+    },
+    {
+      "id": "2609.26655",
+      "url": "https://arxiv.org/abs/2609.26655",
+      "title": "Resilience of rainbow Hamilton cycles in pseudorandom graphs",
+      "authors": [
+        "Elad Aigner-Horev",
+        "Dan Hefetz",
+        "Yury Person"
+      ],
+      "abstract": "For every fixed $\\varepsilon\\in(0,1/2)$, we prove that every spanning subgraph $H$ of an $n$-vertex $(p,β)$-bijumbled graph satisfying $δ(H)\\geq(1/2+\\varepsilon)pn$ contains a rainbow Hamilton cycle under every globally $μpn$-bounded colouring, provided $β\\leq cpn$ and $pn\\geq M$ both hold. The same assertion holds under the relative condition $°_H(v)\\geq(1/2+\\varepsilon)°_G(v)$ for every vertex $v$, provided $δ(G)\\geq(1-\\varepsilon/4)pn$ holds. Under either degree condition, there are at least $(apn)^n$ such cycles. Here, $c,μ,a,M>0$ depend only on $\\varepsilon$; in particular, $pn$ may be a sufficiently large constant. If $pn\\geq D\\log n$, then, upon fixing a coloured $H$, retaining each edge independently with probability $D\\log n/(pn)$ preserves rainbow Hamiltonicity asymptotically almost surely. The logarithmic degree requirement is needed only for this percolation conclusion. The existence theorem answers a problem of Coulson, Keevash, Perarnau and Yepremyan for random graphs and extends it to deterministic pseudorandom hosts. In fact, all three conclusions hold with rainbowness replaced by avoidance of prescribed pairs of edges; each edge having at most $μpn$ conflicting partners. We construct an $O(1/(pn))$-spread probability measure on conflict-free Hamilton cycles; this then yields the enumeration and percolation results.",
+      "published": "2026-09-22",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "random graph"
+      ]
+    },
+    {
+      "id": "2609.25729",
+      "url": "https://arxiv.org/abs/2609.25729",
+      "title": "Repeated averaging on expanders I: random $d$-regular graph",
+      "authors": [
+        "Dong Yao",
+        "Lingfu Zhang"
+      ],
+      "abstract": "Repeated averaging on graphs is a natural prototype of local stochastic exchange, modeling consensus formation, information spreading, and wealth redistribution. Its convergence has attracted longstanding interest, from Bourgain's complete-graph $L^1$ cutoff question in the 80s (answered in recent years by Chatterjee, Diaconis, Sly, and Zhang) and the systematic study of Aldous and Lanoue. Addressing the still outstanding and widely asked $L^1$-cutoff question on general graphs, we establish a criterion based on size-biased sampling, and develop a general framework for sparse expanders. Specifically, we prove $L^1$ cutoff with a Gaussian profile on random $d$-regular graphs, for any $d\\ge 3$ and uniformly over starting vertices. Remarkably, although the expected mass profile agrees exactly with the corresponding random-walk distribution, cutoff occurs strictly later than both the random walk cutoff time and the universal lower bound attained on complete graphs, revealing an unexpected entropy gap. The framework is robust, involving ideas of polymer representations, random geometry, universal-cover lifting, and adaptive revealing. Our companion work will extend it to Ramanujan graphs and bounded-degree configuration models.",
+      "published": "2026-09-22",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2609.26394",
+      "url": "https://arxiv.org/abs/2609.26394",
+      "title": "Dunkl theory, convolution algebras, and related Markov processes",
+      "authors": [
+        "Margit Rösler",
+        "Michael Voit"
+      ],
+      "abstract": "These lecture notes are intended as an introduction to the theory of rational Dunkl operators, the associated special functions and related Markov processes with an emphasis on examples which are related to Riemannian symmetric spaces of Euclidean type and Bessel hypergroups on the matrix cones of positive semidefinite matrices. We start with a comprehensive introduction into Dunkl theory: Dunkl operators, the intertwining operator and its positivity, the Dunkl kernel and the Dunkl transform, the Dunkl Laplacian and the associated heat semigroup. We further give an outline of the connection with Calogero-Moser-Sutherland models and generalized Hermite polynomials. Moreover, of central interest will be product formulas, generalized translations and associated commutative hypergroup structures on closed Weyl chambers. In particular, we explain how Dunkl theory for particular multiplicities is related to Riemannian symmetric spaces of Euclidean type and Bessel hypergroups on the matrix cones, and how this leads to a bunch of multiplicities for which the Weyl-group invariant Dunkl theory admits a probability preserving translation and an associated commutative hypergroup structure on the closed Weyl chamber. We finally discuss Markov processes on R^N which are related with Dunkl theory with an emphasis on connections to random walk on groups and hypergroups. In particular associated martingales, martingale characterizations, moment functions and Appell characters are studied, i.e. diffusion-reflection processes with the Dunkl Laplacians as generators.",
+      "published": "2026-09-22",
+      "categories": [
+        "math.CA",
+        "math.PR",
+        "math.RT"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2609.26699",
+      "url": "https://arxiv.org/abs/2609.26699",
+      "title": "Graphs with Minimum Algebraic Connectivity I: Proofs of Aldous-Fill and Guiduli-Mohar Conjectures",
+      "authors": [
+        "Maryam Abdi",
+        "Ebrahim Ghorbani"
+      ],
+      "abstract": "Aldous and Fill (2002) conjectured that the maximum relaxation time of a random walk on a connected regular graph with $n$ vertices is bounded above by $(1+o(1))\\frac{3n^2}{2π^2}$, with asymptotic equality for even $n$. Since the relaxation time of a $d$-regular graph $G$ is $d/μ(G)$, where $μ(G)$ denotes its algebraic connectivity, this conjecture is closely related to the problem of minimizing algebraic connectivity among regular graphs. Guiduli and Mohar (1996) conjectured that, for every fixed minimum degree $δ=d\\ge 3$ and all sufficiently large orders, graphs with minimum algebraic connectivity are path-like and, apart from bounded portions near their two ends, have a prescribed block structure. For fixed odd degree $d\\ge 3$, Abdi and Ghorbani (2004) conjectured that $d$-regular graphs with minimum algebraic connectivity have the same structure. We prove the Aldous--Fill conjecture and the Guiduli--Mohar conjecture, as well as the corresponding conjecture for $d$-regular graphs of fixed odd degree. Finally, we prove that, for every fixed odd degree $d\\ge 3$, $d$-regular graphs, as well as graphs of fixed minimum degree $d\\ge 3$, whose algebraic connectivity is asymptotically minimum have asymptotically maximum diameter. This establishes the corresponding cases of another conjecture of Abdi and Ghorbani.",
+      "published": "2026-09-22",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2609.26700",
+      "url": "https://arxiv.org/abs/2609.26700",
+      "title": "Graphs with Minimum Algebraic Connectivity II: Regular Graphs of Even Degree",
+      "authors": [
+        "Maryam Abdi",
+        "Ebrahim Ghorbani"
+      ],
+      "abstract": "Aldous and Fill (2002) conjectured the asymptotic maximum relaxation time of a random walk on a connected regular graph. Since the relaxation time of a $d$-regular graph $G$ is $d/μ(G)$, where $μ(G)$ denotes its algebraic connectivity, this conjecture is closely related to the problem of minimizing algebraic connectivity among regular graphs. Guiduli and Mohar (1996) conjectured that, for every fixed minimum degree $δ=d\\ge3$ and all sufficiently large orders, graphs with minimum algebraic connectivity are path-like and, apart from bounded portions near their two ends, have a prescribed block structure. Abdi and Ghorbani (2024) proposed an analogous structural conjecture for $d$-regular graphs with minimum algebraic connectivity and fixed degree $d\\ge3$. In Part~I, we proved the Aldous--Fill conjecture, the Guiduli--Mohar conjecture, and for odd degrees, the Abdi Ghorbani conjecture. In this paper, we settle the remaining even-degree case, thereby completing the structural characterization of regular graphs with minimum algebraic connectivity. We also prove that, for every fixed even $d\\ge4$, the minimum algebraic connectivity at order $n$ is $2(d-2)π^2/n^2+O_d(n^{-3})$, and that every minimizing graph has diameter $3n/(d+1)+O_d(1)$. For every fixed even $d\\ge6$, $d$-regular graphs whose algebraic connectivity is asymptotically minimum have asymptotically maximum diameter. Finally, we obtain a sharp normalized-gap bound for all even regular degrees, including degrees that grow with $n$.",
+      "published": "2026-09-22",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2609.25557",
+      "url": "https://arxiv.org/abs/2609.25557",
+      "title": "Signed GLMY Homology of Signed Graphs via Double Covers",
+      "authors": [
+        "Shuliang Bai",
+        "Jingyan Li",
+        "Shing-Tung Yau"
+      ],
+      "abstract": "We define a signed GLMY chain complex over $\\mathbb{R}$ for signed digraphs using sheet-labelled regular paths. The complex is naturally isomorphic to the deck anti-invariant subcomplex of the ordinary GLMY complex on the signed double cover. The double-cover realization yields switching invariance and recovers ordinary GLMY homology for switching-balanced signings. Bidirected completion gives an orientation-independent homology theory for signed graphs. For a signed graph, the zero-dimensional homology identifies with the kernel of the signed Laplacian and has dimension equal to the number of balanced connected components. Signed GLMY homology is functorial under signed weak morphisms, which combine vertex maps with switching functions and allow compatible arrow contractions. For signed digraphs, the all-positive reduction retains the orientation sensitivity of ordinary GLMY homology, while explicit computations show additional sensitivity to the arrow signs. For a fixed digraph with five vertices and nine arrows, we classify all 512 arrow signings and obtain exactly four signed Betti vectors. Precisely 16 signings have nonzero second signed GLMY homology.",
+      "published": "2026-09-22",
+      "categories": [
+        "math.AT",
+        "math.CO"
+      ],
+      "tags": [
+        "signed Laplacian"
+      ]
+    },
+    {
+      "id": "2609.26597",
+      "url": "https://arxiv.org/abs/2609.26597",
+      "title": "Fluctuations of the quadratic matching cost on the flat torus: dimensions two, three and four",
+      "authors": [
+        "Shi Feng",
+        "Gilles Mordant"
+      ],
+      "abstract": "We establish sharp variance asymptotics and limiting distributions for the quadratic optimal matching cost between the uniform measure and an empirical measure counterpart on the flat torus $\\mathbb T^d$ in dimensions $d=2,3,4$. More precisely, let $μ$ be Haar probability measure and $μ_n$ the empirical measure of $n$ independent samples drawn from $μ$. Then, for $d=2,3$, $$ \\begin{aligned} n\\bigl(W_2^2(μ_n,μ)-\\mathbb E[W_2^2(μ_n,μ)]\\bigr) &\\xrightarrow{\\mathrm d} L_d,\\\\ n^2\\operatorname{Var}(W_2^2(μ_n,μ)) &\\longrightarrow \\frac{1}{8π^4} \\sum_{k\\in\\mathbb Z^d\\setminus\\{0\\}}\\frac{1}{|k|^4}, \\end{aligned} $$ where $L_d$ is an explicit non-Gaussian weighted sum of independent centered exponential random variables. In dimension four, $$ \\frac{n}{\\sqrt{\\log n}} \\bigl(W_2^2(μ_n,μ)-\\mathbb E[W_2^2(μ_n,μ)]\\bigr) \\xrightarrow{\\mathrm d} N\\left(0,\\frac{1}{16π^2}\\right). $$ The main idea of the proof is to rely on a Hoeffding decomposition of the optimal transport cost, which turns out to be asymptotically equivalent to U-statistics of order 2.",
+      "published": "2026-09-22",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
     {
       "id": "2609.24816",
       "url": "https://arxiv.org/abs/2609.24816",
@@ -80,6 +338,58 @@
       ],
       "tags": [
         "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2609.25345",
+      "url": "https://arxiv.org/abs/2609.25345",
+      "title": "Higher-Order Sensitivity Analysis of Wasserstein and Adapted Wasserstein Distributionally Robust Optimization Problems",
+      "authors": [
+        "Nathan Sauldubois"
+      ],
+      "abstract": "We investigate the higher-order expansions of the sensitivities of functionals of probability measures. Building on the work of \\citeauthor{bartl2021sensitivity} \\cite{bartl2021sensitivity} and \\citeauthor{bartlsensitivityadapted} \\cite{bartlsensitivityadapted}, who established the first-order expansion when the functional arises from a stochastic optimisation problem, we extend these results using recent developments in differential calculus on Wasserstein spaces. Specifically, we generalise their approach to broader classes of functionals defined on the Wasserstein space. We provide an explicit formula for the second-order expansion of the sensitivity of a functional with respect to both the Wasserstein and the adapted Wasserstein metrics. Furthermore, we propose a construction method for the higher-order expansion of these sensitivities. Finally, following recent advances by \\citeauthor{Touzisauldubois2024ordermartingalemodelrisk} \\cite{Touzisauldubois2024ordermartingalemodelrisk} and \\citeauthor{JiangObloj} \\cite{JiangObloj} concerning sensitivity of Distributionally Robust Optimisation under martingale constraints, we also derive higher-order expansions for sensitivities in the presence of such constraints.",
+      "published": "2026-09-21",
+      "categories": [
+        "math.OC"
+      ],
+      "tags": [
+        "Wasserstein metric"
+      ]
+    },
+    {
+      "id": "2609.25381",
+      "url": "https://arxiv.org/abs/2609.25381",
+      "title": "Penalized Nonreversible Langevin for Constrained Sampling",
+      "authors": [
+        "Pervez Ali",
+        "Weihao Dong",
+        "Xiaoyu Wang"
+      ],
+      "abstract": "We propose penalized nonreversible Langevin algorithms for sampling from $π(x)\\propto e^{-f(x)}\\mathbf 1_{\\mathcal C}(x)$, where $\\mathcal C\\subset\\mathbb R^d$ is a compact convex set. The algorithms combine a squared distance penalty with constant or compatible state dependent skew symmetric perturbations that preserve the penalized Gibbs distribution. For smooth, possibly nonconvex $f$, we derive nonasymptotic total variation bounds for the full gradient algorithm under a log Sobolev inequality. When unbiased stochastic gradients are available, we establish $2$-Wasserstein bounds under global contraction and Lipschitz conditions on the full drift in an adapted quadratic metric. For a fixed penalty parameter, the error relative to the penalized Gibbs distribution decays exponentially to an $\\mathcal{O}(\\sqrtη)$ neighborhood, where $η$ is the stepsize. We also bound the discrepancy between the penalized Gibbs distribution and the constrained target. In a two dimensional quadratic model, we establish nonreversible acceleration by tuning the skew perturbation to the curvature imbalance induced by penalization. With the target accuracy and smaller curvature fixed and initial Wasserstein distances uniformly bounded, tuning the skew perturbation improves the sufficient Euler iteration bound from linear to logarithmic in the curvature ratio. Numerical experiments evaluate the algorithms on constrained Bayesian regression, classification, neural networks, and truncated sampling, and examine the acceleration mechanism in a stochastic quadratic model.",
+      "published": "2026-09-21",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2609.25102",
+      "url": "https://arxiv.org/abs/2609.25102",
+      "title": "The occupation time of a random walk generated by the uniform random permutation--a GPT-6 Astra proof",
+      "authors": [
+        "Wenpin Tang"
+      ],
+      "abstract": "This note provide a proof of Conjecture 2.5 in Fang et al. (J. Appl. Probab., 58(4):851--867, 2021), with the help of \\texttt{GPT-6 Astra}. We show that the number of edges lying above zero of a random walk generated from the uniform permutation has the discrete arcsine law. The proof is short but hinges on an unexpected representation. We also make several comments on solving the problem using large language models.",
+      "published": "2026-09-20",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
       ]
     },
     {
