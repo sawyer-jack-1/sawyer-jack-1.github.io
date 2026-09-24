@@ -1,8 +1,112 @@
 {
   "month": "2026-09",
-  "generated_at": "2026-09-23T14:16:44+00:00",
+  "generated_at": "2026-09-24T14:15:26+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2609.28265",
+      "url": "https://arxiv.org/abs/2609.28265",
+      "title": "Evaluating $\\mathrm {SU}(3)$ Verlinde sums using spectral graph theory",
+      "authors": [
+        "Jay Jorgenson",
+        "Anders Karlsson",
+        "Lejla Smajlović"
+      ],
+      "abstract": "We realize the $\\mathrm{SU}(3)$ Verlinde sums $V_n(m)$, up to an explicit factor, as the values at $n$ of the spectral zeta function of a higher-order Laplace operator on the triangular discrete torus on $m^2$ vertices. For fixed $m$, we express their generating function in terms of the logarithmic derivative of an associated even spectral polynomial and express this polynomial as an explicit iterated resultant. Exploiting permutation symmetry, we prove that this polynomial is a cube over $\\mathbb{Q}$, apart from an explicit quadratic factor when $3\\mid m$. This factorization yields shorter linear recurrences satisfied by $V_n(m)$ with constant coefficients. We also derive Binet-type formulas expressing $V_n(m)$ as finite linear combinations of powers of rescaled inverse squares of the roots of the spectral polynomial. These results provide an efficient algorithm for computing these Verlinde sums. Several fully developed examples demonstrating computational efficiency of the method are given, including expressions in terms of Fibonacci and Lucas numbers.",
+      "published": "2026-09-23",
+      "categories": [
+        "math.CO",
+        "math.NT"
+      ],
+      "tags": [
+        "spectral graph theory",
+        "spectral graph"
+      ]
+    },
+    {
+      "id": "2609.28035",
+      "url": "https://arxiv.org/abs/2609.28035",
+      "title": "SWAP: A Scalable, Warm-Startable, Anytime Permutation Solver for Optimal Transport",
+      "authors": [
+        "Xuekai Jiang",
+        "Zheng'ao Liu",
+        "Lingyun Qiu",
+        "Shenwen Yu"
+      ],
+      "abstract": "Large-scale and high-dimensional discrete optimal transport often involves a tension between scalability and exact assignment feasibility: many scalable approaches optimize relaxed, factorized, or sparse transport plans rather than maintaining a one-to-one assignment throughout optimization. We introduce SWAP, an iterative solver that operates directly in permutation space for equally weighted point clouds. Starting from any feasible assignment, SWAP uses geometry-aware proposals to identify cost-decreasing local rearrangements. Consequently, every iterate is a valid permutation, so the one-to-one constraints are satisfied exactly throughout the optimization without rounding or feasibility correction. SWAP avoids constructing an $N\\times N$ cost or coupling matrix and requires only $O(Nd)$ memory. We establish monotone descent, introduce a family of cycle-stability conditions, prove that SWAP reaches pairwise stability almost surely under generic nonparallel conditions, and derive sufficient conditions under which pairwise stability implies global optimality. Experiments on an ImageNet assignment with 640,500 points in 2,048 dimensions, synthetic benchmarks, and MERFISH spatial alignment demonstrate that SWAP achieves lower transport costs on challenging large-scale and high-dimensional problems, with substantially reduced runtime and memory compared with",
+      "published": "2026-09-23",
+      "categories": [
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2609.28319",
+      "url": "https://arxiv.org/abs/2609.28319",
+      "title": "Effective curvature dimension in smooth DC optimization",
+      "authors": [
+        "Fahaar M. Pirani"
+      ],
+      "abstract": "We introduce the effective curvature dimension of a smooth DC decomposition, defined as the dimension of the span of the Hessian ranges of its first convex component. We prove that the smallest attainable effective dimension over all smooth DC decompositions equals the minimum rank of a positive semidefinite matrix that uniformly majorizes the Hessian of the DC objective. Hence, an optimal dimension is always attained by a quadratic convexifier. We further characterize feasible curvature-free subspaces through generalized Schur-complement criteria, revealing an obstruction caused by cross-curvature.As an algorithmic consequence of the effective dimension framework, we show that the number of globally solved lower model subproblems depends on the effective dimension rather than the ambient dimension. Finally, for quadratic first components, we identify the minimum number of tangent supports required for uniform approximation with an internal covering number and obtain a matching dimensional exponent under a nondegeneracy condition.",
+      "published": "2026-09-23",
+      "categories": [
+        "math.OC"
+      ],
+      "tags": [
+        "curvature dimension"
+      ]
+    },
+    {
+      "id": "2609.27335",
+      "url": "https://arxiv.org/abs/2609.27335",
+      "title": "Polynomial Decay in Absorbing Continuous-Time Markov Chains",
+      "authors": [
+        "Phil Pollett"
+      ],
+      "abstract": "Let $P(t)$ be the transition function of an absorbing continuous-time Markov chain on a countable state space. We study asymptotic relations of the form $p_{ij}(t)\\sim a_{ij} L(t)$, $t\\to\\infty$, where $L$ is independent of $i$ and $j$. We obtain general conditions under which the coefficient matrix $A=(a_{ij})$ has rank one and describe the resulting consequences for survival probabilities and conditional distributions. The analysis applies to both reducible and irreducible chains. We also construct an irreducible counterexample, based on a killed random walk on a homogeneous tree, for which a common asymptotic scale exists but the coefficient matrix has rank greater than one. This shows that irreducibility alone does not imply rank-one asymptotics. The results identify conditions under which fixed-state transition asymptotics determine the asymptotic behaviour of the entire transition function and clarify the limitations of such conclusions in the absence of additional structure.",
+      "published": "2026-09-23",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2609.27172",
+      "url": "https://arxiv.org/abs/2609.27172",
+      "title": "An exposition of the proof of the Komlós conjecture",
+      "authors": [
+        "Emrullah Akbas",
+        "Suvrit Sra"
+      ],
+      "abstract": "We give a short exposition of the recent proof of (Guo, Fang and Lu 2026a) on Komlós, wherein we present a proof based on a simple \"quadratic Dirichlet energy,'' which yields a (looser) discrepancy of $<3π$. We note in an appendix how upon using log-concavity one gets the (tighter) bound $C_0\\approx7.515$ ($< 3\\sqrt{2π}$ of(Guo, Fang and Lu 2026a)). (We also manage to substantially tighten algorithmic Komlós (Guo, Fang and Lu 2026b) , and report it in an appendix.)",
+      "published": "2026-09-23",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "Dirichlet energy"
+      ]
+    },
+    {
+      "id": "2609.27689",
+      "url": "https://arxiv.org/abs/2609.27689",
+      "title": "Mixing profile for Glauber dynamics of the discrete Gaussian Free Field starting from super-harmonic functions",
+      "authors": [
+        "Bristiel Alexandre"
+      ],
+      "abstract": "We study the convergence rate of the heat-bath Glauber dynamics for the Discrete Gaussian Free Field on arbitrary connected finite graphs. We show that, when starting from super-harmonic initial conditions, the evolution enjoys a strong form of monotonicity. This allows us to get a sharp mixing profile as the size of the graphs diverges. More precisely, we show that mixing occurs at time $\\frac{1}{2λ}\\log(\\mathcal{E})$ with window $\\mathcal{O}(1/λ)$, where $λ$ is the spectral gap of the graph Laplacian and $\\mathcal{E}$ is the energy of the super-harmonic initial condition. This result holds for arbitrary graphs that do not exhibit extreme connectivity properties (one way or the other). In particular, it holds for finite boxes of the grid $\\mathbb{Z}^d$, in dimension $d\\geq 3$.",
+      "published": "2026-09-23",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "graph Laplacian"
+      ]
+    },
     {
       "id": "2609.26017",
       "url": "https://arxiv.org/abs/2609.26017",
@@ -156,6 +260,28 @@
       ]
     },
     {
+      "id": "2609.27141",
+      "url": "https://arxiv.org/abs/2609.27141",
+      "title": "Percolation in the Stochastic Block Model",
+      "authors": [
+        "Luca Pieleanu",
+        "Moritz Laber",
+        "Narayan G. Sabhahit",
+        "Dmitri Krioukov"
+      ],
+      "abstract": "The stochastic block model is a paradigmatic model of networks with community structure. Yet percolation in the model has been studied primarily in cases with a fixed block structure, even though in real networks, the community structure may evolve as the network grows. Here we study percolation in sequences of stochastic block models in which the numbers and sizes of communities, as well as the intra- and intercommunity connection probabilities may all change with the network size. We analyze five such sequences using two methods: linearized self-consistent equations for the locally tree-like models and a branching process at the community scale for the models with nonvanishing clustering. We find that the critical average degree is not generally equal to $1$, even in locally tree-like sequences, because the transition depends on how connections are distributed across the evolving community structure. We also show that the community-scale branching process accurately predicts the transition when intercommunity connections are sufficiently sparse, even in the presence of nonvanishing clustering, while a geometric stochastic block model sequence demonstrates the limitations of this method when correlations between intercommunity connections cannot be neglected. These results extend percolation studies in the stochastic block model to more realistic scenarios with evolving community structure, and may provide new methods to derive the upper and lower bounds for the percolation threshold in geometric long-range percolation.",
+      "published": "2026-09-22",
+      "categories": [
+        "physics.soc-ph",
+        "cond-mat.stat-mech",
+        "cs.SI",
+        "math.PR"
+      ],
+      "tags": [
+        "stochastic block model"
+      ]
+    },
+    {
       "id": "2609.25729",
       "url": "https://arxiv.org/abs/2609.25729",
       "title": "Repeated averaging on expanders I: random $d$-regular graph",
@@ -259,6 +385,26 @@
       ],
       "tags": [
         "optimal transport"
+      ]
+    },
+    {
+      "id": "2609.26934",
+      "url": "https://arxiv.org/abs/2609.26934",
+      "title": "Fast Geometric Spanners via Approximate Nearest Neighbor Search",
+      "authors": [
+        "Alexandr Andoni",
+        "Manuel Paez",
+        "Krish Singal",
+        "Tian Zhang"
+      ],
+      "abstract": "We study the problem of constructing metric spanners in general metric spaces in subquadratic time when given blackbox access to a fast algorithm for batch approximate nearest neighbor search. In particular, we show the following results for any metric space $\\mathsf{M} = ([n], \\mathsf{d})$ with aspect ratio $Δ$ admitting a $c$-approximate batch nearest neighbor search algorithm with runtime $τ_{\\mathsf{M}}(n)$, (1) There exists an algorithm that, for any $k \\in \\mathbb{N}$, constructs an $O(c k)$-distortion spanner with $\\tilde{O}(kn^{1+1/2k} \\log Δ)$ edges and runs in time $\\tilde{O}(τ_{\\mathsf{M}} \\cdot k n^{1/k} \\log Δ)$. (2) Any algorithm that learns at most $o(n^{1+1/k}/k)$ pairwise distances by querying a distance oracle and a blackbox batch nearest neighbor search oracle necessarily incurs $Ω(c k)$ distortion. Our results entail that (truly) sub-quadratic time algorithms for spanner construction is equivalent to subquadratic time BANN (up to constant-factor losses). As a further application, we use our fast spanner constructions to obtain a fast algorithm for approximating the Wasserstein distance $\\mathsf{W}_q$, for all $q > 1$, over any metric space admitting an efficient batch approximate nearest neighbor search algorithm. Together with recent new efficient algorithms for approximate nearest neighbor search in $\\ell_p$ spaces, for $p > 2$, our results entail the first subquadratic time algorithms for spanner construction (with the stated size-distortion tradeoff) and $\\mathsf{W}_q$ distance approximation over these metric spaces.",
+      "published": "2026-09-22",
+      "categories": [
+        "cs.DS",
+        "cs.CG"
+      ],
+      "tags": [
+        "Wasserstein distance"
       ]
     },
     {
