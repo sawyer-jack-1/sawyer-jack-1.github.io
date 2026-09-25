@@ -1,8 +1,261 @@
 {
   "month": "2026-09",
-  "generated_at": "2026-09-24T14:15:26+00:00",
+  "generated_at": "2026-09-25T14:38:51+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2609.30045",
+      "url": "https://arxiv.org/abs/2609.30045",
+      "title": "Recurrence and range of the balanced excited random walk M(2,1,2)",
+      "authors": [
+        "Shuo Qin"
+      ],
+      "abstract": "We prove that the planar balanced excited random walk $M(2,1,2)$ is recurrent. This walk takes a horizontal simple random walk step on its first departure from each vertex and a planar simple random walk step on every later departure. Moreover, the number of distinct vertices visited before time $n$, multiplied by $(\\log n)/n$, converges to $π$ almost surely and in every $L^p$, $1\\le p<\\infty$, the same limit as for the planar simple random walk. More generally, we prove recurrence of balanced excited random walks in spatially inhomogeneous cookie environments whenever the total positive and negative cookie strengths at each vertex are bounded by constants $A, B$ with $A+B<1+1/(2π+1)$.",
+      "published": "2026-09-24",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk"
+      ]
+    },
+    {
+      "id": "2609.29894",
+      "url": "https://arxiv.org/abs/2609.29894",
+      "title": "A Computer-Assisted Proof of Speed Monotonicity for the Biased Random Walk on a Galton-Watson Tree Beyond the Known Range",
+      "authors": [
+        "Madhulatha Mandarapu",
+        "Sandeep Kunkunuru"
+      ],
+      "abstract": "The speed v(lambda) of the lambda-biased random walk on a supercritical Galton-Watson tree without leaves is conjectured to be nonincreasing on [0,m), where m is the mean offspring. Monotonicity is known only for small bias: lambda <= 1/1160, lambda <= 1/2, and, when every vertex has at least m_1 >= 2 children, lambda <= m_1/(1+sqrt(1-1/m_1)). For offspring uniform on {2,3} (m=2.5) the last bound is 1.1716. We prove, with computer assistance, that v is strictly decreasing on [0,1.755] for this law. The proof has three parts. Aidekon's speed formula gives v=(R-lambda)/(R+lambda) for an explicit functional R, so v decreases exactly when R/lambda does; we compare R/lambda at two biases directly, which avoids differentiating the conductance. A pathwise Lipschitz bound on the conductance in lambda turns that comparison into an inequality between expectations of explicit functions. A monotone sandwich of discretised laws gives two-sided bounds on the conductance law, and each lambda-cell is verified with exact rational arithmetic on top of bounded floating-point error; an independent interval-arithmetic implementation agrees on spot cells. The method stops where the crude Lipschitz bound becomes too weak; sharper control of the derivative of the conductance is what the full range needs. Code and certificates are public.",
+      "published": "2026-09-24",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2609.30239",
+      "url": "https://arxiv.org/abs/2609.30239",
+      "title": "Multiple Stopping Options on a Geometric Random Walk",
+      "authors": [
+        "Katsunori Ano"
+      ],
+      "abstract": "This article develops a finite-horizon multiple-stopping framework and applies it to three American-style contracts on a geometric random walk in a Cox--Ross--Rubinstein market: an American put, a Russian option, and a floating-strike geometric-average Asian put. The general problem is represented by recursively defined Snell envelopes, with unused exercise rights encoded by a cemetery time; this yields an ordered optimal exercise vector without requiring all rights to be exercised. For the American put, a median representation of successive marginal values yields diminishing marginal values, nested exercise regions, and monotone exercise thresholds without relying on convexity of the marginal value. After suitable state reductions, analogous marginal-value arguments give threshold-type optimal exercise rules for the Russian and geometric-average Asian options. Independent random maturity is also incorporated, and its effect on the corresponding stopping regions is identified.",
+      "published": "2026-09-24",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2609.29042",
+      "url": "https://arxiv.org/abs/2609.29042",
+      "title": "Quantitative QSD convergence in 1-Wasserstein distance via the Föllmer drift",
+      "authors": [
+        "Joaquín Fontbona",
+        "Pablo López-Rivera"
+      ],
+      "abstract": "We develop a novel pathwise approach to study the convergence of the law of killed diffusion processes conditioned on non-absorption, towards a quasi-stationary distribution (QSD) as time goes to infinity. We start from the general observation that the dynamics of an absorbed Markov process conditioned upon survival up to time $T>0$ is the minimizer of the pathwise relative entropy with respect to its unconditioned dynamics, under a simple distributional constraint at that time; in other words, a Föllmer process. We then show how this result applies to a Brownian diffusion process softly-killed at a state-dependent regular rate, and characterize the associated drift change. In the case when the diffusion process is moreover reversible, we leverage this idea and recent results on the propagation of weak log-concavity of HJB semigroups to prove that, under strict asymptotic convexity of the potential, the conditioned dynamics satisfy a contractivity property in $1$-Wasserstein distance, uniformly in $T>0$. Under a general ergodicity condition on the associated Feynman-Kac semigroup, we then establish the existence of a QSD with a large domain of attraction, and the exponentially fast convergence to it of the conditioned semigroup in the $1$-Wasserstein distance as $T$ goes to infinity. Finally, we deduce the exponentially fast convergence, also in $1$-Wasserstein distance, of the law of the corresponding Q-process towards its equilibrium.",
+      "published": "2026-09-24",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2609.29054",
+      "url": "https://arxiv.org/abs/2609.29054",
+      "title": "Zero Forcing Sets in Temporal Graphs",
+      "authors": [
+        "Julien Baste",
+        "Simon Dreyer",
+        "Clara Marcille",
+        "Mikaël Rabie",
+        "Ronan Toullec-Streicher"
+      ],
+      "abstract": "The Zero Forcing (or corruption) of a graph is the problem of finding a minimum-size ``corrupting'' set. It corresponds to a subset of its vertices that can corrupt the whole graph by iterating the following rule: if a corrupted vertex has exactly one neighbor that is not yet corrupted, the neighbor gets corrupted. The iteration of this process comes from the fact that the corruption of a vertex might enable new corruptions (from itself or some of its neighbors). For this reason, one can consider a step of corruption, where all the possible instances of the corruption rule are applied at once. This paper investigates Zero Forcing on temporal graphs, where the topology of the graph evolves throughout the experiment. At each time step (or snapshot) of the graph, a step of corruption is resolved wherever possible. We study the problem of finding a minimum-size corrupting set such that the whole (temporal) graph is corrupted at the end of the experiment. We present a panorama of results, including NP-hardness in some not-so-restrictive scenarios, polynomial algorithms, and a solution to an open question when the whole graph must be corrupted in a single step.",
+      "published": "2026-09-24",
+      "categories": [
+        "cs.DM",
+        "cs.CC"
+      ],
+      "tags": [
+        "temporal graph"
+      ]
+    },
+    {
+      "id": "2609.30064",
+      "url": "https://arxiv.org/abs/2609.30064",
+      "title": "Sharp Lovasz-Theta Bounds on Random Graphs",
+      "authors": [
+        "Aaron Potechin",
+        "Jeff Xu"
+      ],
+      "abstract": "It is well known that the \\Lovasz-Theta function of a random graph $G(n,\\tfrac{1}{2})$ is $Θ(\\sqrt{n})$. More precisely, it is tightly concentrated in the interval \\( [\\sqrt{n},\\, 2\\sqrt{n}], \\) where the upper bound follows from an explicit dual witness for the associated semidefinite program. Numerical evidence and heuristic arguments suggest that the true value is $(1+o(1))\\sqrt{n}$. However, closing this gap has remained a longstanding challenge, resisting existing techniques even in light of recent progress on sharp algorithmic thresholds and non-asymptotic free probability. In this work, we resolve this question by proving that the \\Lovasz-Theta function of $G(n,\\tfrac{1}{2})$ is $(1+o_n(1))\\sqrt{n}$ with high probability, determining its asymptotic value up to vanishing relative error.",
+      "published": "2026-09-24",
+      "categories": [
+        "cs.CC",
+        "cs.DM",
+        "math.CO"
+      ],
+      "tags": [
+        "random graph"
+      ]
+    },
+    {
+      "id": "2609.30088",
+      "url": "https://arxiv.org/abs/2609.30088",
+      "title": "AT-SKM-Net: An Accelerated Trainable Sampling Kaczmarz-Motzkin Framework for Linear Hard-Constraint Feasibility on Dynamic Graphs",
+      "authors": [
+        "Xiaochen Zhang",
+        "Haoyu Zhu",
+        "Yao Zhang",
+        "Qingchun Hou"
+      ],
+      "abstract": "Graph-structured optimization with linear constraints is fundamental to critical infrastructure but faces scalability limits due to massive strict hard constraints and high dimensionality. While recent projection-based methods such as Trainable Sampling Kaczmarz-Motzkin Net (T-SKM-Net) guarantee feasibility, they face high computational costs in dynamic environments by processing the entire constraint set and requiring expensive matrix factorizations. To bridge this gap, we propose the Accelerated Trainable-SKM (AT-SKM) Net framework. To concentrate computation on the active constraints and eliminate redundant calculations, we introduce a hybrid sampling strategy guided by a topology-aware heterogeneous GNN model. To efficiently handle topological shifts in graph-based constraints, we employ a Cholesky Update mechanism that theoretically reduces the equality projection complexity from O(N^3) to O(N^2) under low-rank perturbations. Experiments on random geometric graphs, N-1 Security-Constrained DC-OPF, and minimum-cost gas transport problem demonstrate that AT-SKM reduces iteration counts by up to 85% and achieves 2.95x-7.29x SKM layer speedups, while maintaining zero constraint violations.",
+      "published": "2026-09-24",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "math.OC"
+      ],
+      "tags": [
+        "dynamic graph"
+      ]
+    },
+    {
+      "id": "2609.30201",
+      "url": "https://arxiv.org/abs/2609.30201",
+      "title": "An extremal theorem for non-isomorphic spanning trees",
+      "authors": [
+        "Zhifei Yan",
+        "Lu-Ming Zhang"
+      ],
+      "abstract": "For a graph $G$, let $τ_{\\mathrm{iso}}(G)$ denote the number of isomorphism classes of its spanning trees. For every fixed $d\\ge3$ and all sufficiently large $n$, we prove that every connected $n$-vertex graph $G$ with $δ(G)\\ge d$ satisfies \\[τ_{\\mathrm{iso}}(G)\\ge τ_{\\mathrm{iso}}(K_{d,n-d})=A_dn^{d-1}+O_d(n^{d-2}),\\] for an explicit constant $A_d>0$, and $K_{d,n-d}$ is the unique minimizer. This confirms a conjecture of Bitonti, Michel and Scott and extends it to every $d\\ge3$. We also show that any such graph with $O(n^{d-1})$ spanning-tree types has all but a bounded number of vertices with the same $d$ neighbours.",
+      "published": "2026-09-24",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2609.29227",
+      "url": "https://arxiv.org/abs/2609.29227",
+      "title": "Represented Tensor Products of Binary Matroids",
+      "authors": [
+        "Houshan Fu",
+        "Yujiao Ma",
+        "Suijie Wang"
+      ],
+      "abstract": "For binary matroids \\(M,N\\) representable over a common field \\(\\F\\), the Kronecker product of their \\(\\F\\)-representations defines a matroid \\(T_{\\F}(M,N)\\) independent of the chosen representations. We classify when this represented tensor product is regular, cographic, graphic, or binary. For simple nonfree factors, regularity holds exactly when, up to interchange, one factor is a cactus matroid and the other is outerplanar, or one is a triangular cactus matroid and the other is series--parallel. Cographicity holds exactly in the first case. For simple factors with nonempty ground sets, graphicity holds exactly when one factor is free and the other is graphic. For fixed factors, regularity, cographicity, and graphicity are independent of the common representation field, although the isomorphism type may vary with its characteristic. Products of at least three simple nonfree factors are nonregular.",
+      "published": "2026-09-24",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2609.29796",
+      "url": "https://arxiv.org/abs/2609.29796",
+      "title": "Generalized Weight Polynomials of Codes through Flats and Orlik-Solomon Algebras of Matroids",
+      "authors": [
+        "Jakob Anderssen",
+        "Trygve Johnsen"
+      ],
+      "abstract": "We present various ways of determining generalized weight polynomials of a matroid $M$, and we recall how one can find the generalized weight spectra of a linear code, given these polynomials, for the matroid determined by any generator matrix of the code. A main goal is to give coding theorists different ways to determine these polynomials. We describe how one can find the generalized weight polynomials of any matroid $M$, directly from its lattice of flats, and we also show how one can find them from the Poincare series (in this case polynomials) of the associated Orlik-Solomon algebras of matroids arising as contractions of the flats of $M$. This opens for using information about broken circuits of the matroids to determine generalized weight polynomials. We also recall the well-known connection between the Orlik-Solomon algebra of a matroid, and Whitney numbers obtained by order homology, and use it to show how one can describe weight polynomials in terms of Whitney numbers from order homology of the matroid and its contraction of flats. We recall briefly a well-known relation between the Orlik-Solomon algebra of a matroid $M$, which is representable over the complex numbers, and de Rham homology numbers obtained from complements of intersections of hyperplanes in a hyperplane arrangement corresponding to $M$. We also describe a way to find the generalized weight polynomials of a matroid in terms of polynomials defined in connection with its lattice of cyclic flats. In a simple running example we show how one can calculate the generalized weight polynomials in different ways, including both the methods presented in this paper, and selected methods developed in earlier papers. We also include a less simple example with the projective Reed-Muller code $PR_3(2,2).$",
+      "published": "2026-09-24",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2609.29927",
+      "url": "https://arxiv.org/abs/2609.29927",
+      "title": "Chromatic word-quasisymmetric functions of matroids",
+      "authors": [
+        "Raul Penaguiao",
+        "Sophie Rehberg"
+      ],
+      "abstract": "Billera, Jia, and Reiner (2009) introduced the quasisymmetric functions of matroids and showed that this defines a Hopf algebra homomorphism which is a valuative invariant, i.e., isomorphic matroids have the same quasisymmetric function and polytopal subdivisions of matroid base polytopes define relations among the corresponding quasisymmetric functions. In this project we study an analogue in non-commuting variables, the word-quasisymmetric functions. To every matroid $M$ we associate a word-quasisymmetric function $ψ(M)$ and call this the chromatic word-quasisymmetric functions of a matroid. Matroids and word-quasisymmetric functions form Hopf algebras, and our map $ψ$ between them is a homomorphism. We want to study the kernel, equivalently the image, of the map $ψ$ from matroids to word-quasisymmetric functions, that is, we would like to understand which matroids are indistinguishable by the chromatic word-quasisymmetric functions. The map $ψ$ is not an invariant, but we can show that it is valuative. Using Schubert matroids and nested matroids, special classes of matroids, we prove a lower bound of $2^d-d$ for the rank of the map $ψ$ from matroids to the chromatic word-quasisymmetric functions in degree $d$ and conjecture the upper bound of $d!$ is tight.",
+      "published": "2026-09-24",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2609.29790",
+      "url": "https://arxiv.org/abs/2609.29790",
+      "title": "Budget-Constrained Graph Augmentation for Robust Network Design via Kirchhoff Index Minimization",
+      "authors": [
+        "Omkar Bhoite",
+        "V Sateeshkrishna Dhuli",
+        "Stefan Werner",
+        "Kimmo Kansanen"
+      ],
+      "abstract": "Enhancing the robustness of deployed networks against failures and disruptions is critical for reliable operation. This requires deciding which new links to install and how strongly to weight them under limited resources. We study this problem through the Kirchhoff index, or total effective resistance, a spectral measure of global connectivity. The resulting augmentation problem couples discrete candidate-edge selection with continuous weight allocation under heterogeneous per-unit deployment costs, a total budget, and an exact-cardinality constraint. For a fixed weighted base graph, this yields a mixed-integer formulation and a semidefinite relaxation whose optimum lower-bounds the mixed-integer optimum. We cast the relaxation as a cone program and solve it numerically using a homogeneous self-dual embedding and first-order operator splitting. Feasible discrete designs are recovered through rounding-and-repair procedures and assessed by \\emph{a posteriori} gap estimates relative to the numerical semidefinite program (SDP) benchmark. As a scalable alternative, we develop an exact-$k$, budget-feasible greedy heuristic built on rank-one Laplacian updates and biharmonic-distance caching, and interpret its progress through a Bellman value-to-go benchmark with a conservative spectral lower bound on the local policy ratio. Experiments on synthetic and real infrastructure networks across graph sizes, budgets, weight distributions, and cost regimes show that, under fixed budgets, distance-proportional costs limit the achievable resistance reduction and shift installed conductance toward shorter links relative to uniform per-unit costs.",
+      "published": "2026-09-24",
+      "categories": [
+        "math.OC",
+        "cs.SI",
+        "eess.SP"
+      ],
+      "tags": [
+        "effective resistance"
+      ]
+    },
+    {
+      "id": "2609.30203",
+      "url": "https://arxiv.org/abs/2609.30203",
+      "title": "On the Binary Rank of Matrices with Constant Real Rank",
+      "authors": [
+        "Michal Parnas"
+      ],
+      "abstract": "We continue the study initiated by Parnas and Shraibman~\\cite{PARNAS2026264} who gave upper bounds on the binary rank of $0,1$ matrices which have a small rank over the reals. We give alternative completely mathematical proofs of results proved in~\\cite{PARNAS2026264} with the assistance of a computer program, and also solve one of the open problems presented there regarding the maximal binary rank of a matrix with real rank $5$. Moreover, our techniques provide a general method for giving non-trivial upper bounds on the maximal binary rank of a matrix with constant real rank. Our results also imply bounds on the equivalent problem of finding the minimum number of bicliques needed to partition the edges of a bipartite graph whose reduced adjacency matrix has real rank at most $d$.",
+      "published": "2026-09-24",
+      "categories": [
+        "math.CO",
+        "cs.DM"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2609.28848",
+      "url": "https://arxiv.org/abs/2609.28848",
+      "title": "Recurrence and transience of random walks on monotonically changing environments",
+      "authors": [
+        "Rupert Li",
+        "Jiyun Park"
+      ],
+      "abstract": "Let $(c_t)_{t\\geq 0}$ be a deterministic family of edge conductances on a countable vertex set, monotone in $t$, and let $(X_t)$ be the random walk that takes its $t$-th step using the conductances $c_t$. We prove that if $c_t\\uparrow c_\\infty$ and $c_\\infty$ is recurrent (respectively, $c_0$ is transient), then $(X_t)$ is almost surely recurrent (respectively, transient), i.e., visits every vertex infinitely (respectively, finitely) often. We also establish the analogous results in continuous time. This proves conjectures of Amir, Benjamini, Gurel-Gurevich, and Kozma, and the special case of $\\set{0,1}$-valued conductances corresponds to simple random walk on a growing graph, and in this special case our results prove a conjecture of Dembo, Huang, and Sidoravicius. In addition, we provide counterexamples to the corresponding conjectures when $(c_t)$ is monotone non-increasing: if $c_t\\downarrow c_\\infty$ and $c_\\infty$ is transient, $(X_t)$ need not be transient, and similarly if $c_0$ is recurrent, $(X_t)$ need not be recurrent, even if $c_\\infty\\geqαc_0$ for some $α>0$.",
+      "published": "2026-09-23",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk"
+      ]
+    },
     {
       "id": "2609.28265",
       "url": "https://arxiv.org/abs/2609.28265",
@@ -59,6 +312,25 @@
       ]
     },
     {
+      "id": "2609.28708",
+      "url": "https://arxiv.org/abs/2609.28708",
+      "title": "Tight Approximation Results for Matroid Optimization with a Linear Constraint",
+      "authors": [
+        "Ilan Doron-Arad",
+        "Hadas Shachnai",
+        "Gilad Shmerler"
+      ],
+      "abstract": "We study the following class of matroid optimization problems with a linear constraint (P-MOL). Given a matroid M=(E,I), two weight functions $v,w:E\\to R_{\\ge 0}$, and a threshold $L\\in R_{\\ge 0}$, find $opt v(S)$ where S is either an independent set or a base of M satisfying a budget-type constraint: $w(S)\\le L$ or $w(S)\\ge L$, and $opt\\in\\{min,max\\}$. P-MOL provides a unified representation for a broad family of NP-hard optimization problems, including budgeted matroid independent set, constrained minimum-basis, and knapsack-cover variants with a matroid constraint. Also, it naturally extends to multiple matroid constraints. In particular, we consider the matroid intersection cover (MIC) problem, where feasibility is defined by the common independent sets of two matroids and one seeks minimum $v(S)$ subject to $w(S)\\ge L$. Our main result is a unified EPTAS for all nontrivial P-MOL variants, obtained by generalizing a technique of Hassin and Levin (SIAM J. Comput., 2004) for solving the constrained minimum spanning tree problem. Specifically, for any fixed $ε>0$, we present an algorithm running in time $|E|^{O(1)} (1/{ε^2})^{O(1/ε)}$ that outputs a feasible solution S whose value is at most $(1+ε)OPT$ for minimization variants and at least $(1-ε)OPT$ for maximization variants. This resolves the complexity status of all members of P-MOL, as none of these problems admits an FPTAS (Doron-Arad, Kulik and Shachnai, ICALP'24). Finally, we separate the P-MOL family from its extension to matroid intersection. We show that an EPTAS is unlikely to exist for the matroid intersection variant of P-MOL under a covering constraint, whereas an EPTAS is known to exist under a budget constraint. This highlights a qualitative difference between these two types of linear constraints that does not arise in the single-matroid setting.",
+      "published": "2026-09-23",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "spanning tree",
+        "matroid"
+      ]
+    },
+    {
       "id": "2609.27335",
       "url": "https://arxiv.org/abs/2609.27335",
       "title": "Polynomial Decay in Absorbing Continuous-Time Markov Chains",
@@ -96,7 +368,7 @@
       "url": "https://arxiv.org/abs/2609.27689",
       "title": "Mixing profile for Glauber dynamics of the discrete Gaussian Free Field starting from super-harmonic functions",
       "authors": [
-        "Bristiel Alexandre"
+        "Alexandre Bristiel"
       ],
       "abstract": "We study the convergence rate of the heat-bath Glauber dynamics for the Discrete Gaussian Free Field on arbitrary connected finite graphs. We show that, when starting from super-harmonic initial conditions, the evolution enjoys a strong form of monotonicity. This allows us to get a sharp mixing profile as the size of the graphs diverges. More precisely, we show that mixing occurs at time $\\frac{1}{2λ}\\log(\\mathcal{E})$ with window $\\mathcal{O}(1/λ)$, where $λ$ is the spectral gap of the graph Laplacian and $\\mathcal{E}$ is the energy of the super-harmonic initial condition. This result holds for arbitrary graphs that do not exhibit extreme connectivity properties (one way or the other). In particular, it holds for finite boxes of the grid $\\mathbb{Z}^d$, in dimension $d\\geq 3$.",
       "published": "2026-09-23",
@@ -105,6 +377,44 @@
       ],
       "tags": [
         "graph Laplacian"
+      ]
+    },
+    {
+      "id": "2609.28670",
+      "url": "https://arxiv.org/abs/2609.28670",
+      "title": "Beyond Static Graph World Models: Learning Stochastic Latent Dynamics over Evolving Topologies",
+      "authors": [
+        "Alex Schutz",
+        "Nick Hawes",
+        "Victor-Alexandru Darvariu"
+      ],
+      "abstract": "Graph-based world models have recently emerged as a means of learning transitions over relational state representations. However, existing approaches are largely limited to fixed-topology graphs or deterministic, fully observable environments. We propose the Graph Dynamics Model (GDM), a world model for graph-structured observations that is designed to handle the more general setting of evolving topologies in stochastic and partially observable environments. The GDM uses a sparse recurrent adjacency matrix to model topology updates and perform message passing, together with a recurrent state-space architecture for modelling stochastic transitions. Furthermore, we identify a gap in the evaluation of graph-based world models, as existing methods do not provide a means of comparing predicted and true distributions over the joint graph state comprising the interdependent topology, node features, and graph features. We therefore introduce the Graph Distribution Distance (GDD) metric, which uses maximum mean discrepancy with a graph kernel to comprehensively compare joint next-state distributions. We evaluate the GDM across several environments, including stochastic and partially observable settings. We demonstrate that GDM outperforms baseline models and displays zero-shot generalisation on large graphs.",
+      "published": "2026-09-23",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.SI"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2609.28754",
+      "url": "https://arxiv.org/abs/2609.28754",
+      "title": "Pendant paths and integral generalized sun graphs",
+      "authors": [
+        "Rodrigo O. Braga",
+        "Jean Carlo Moraes",
+        "Matheus C. Santos"
+      ],
+      "abstract": "A graph is integral if the spectrum of its adjacency matrix consists entirely of integers. We prove that every simple graph having a pendant path with at least three edges has an eigenvalue in $(1,2\\cos(π/9)]$ and one in $[-2\\cos(π/9),-1)$, and hence is not integral. This settles a conjecture of Braga, Del-Vecchio and Rodrigues (2021) on integral generalized sun graphs. The argument is matrix-theoretic: adjoining a terminal path on three new coordinates to an arbitrary real symmetric matrix produces the same spectral obstruction, and the positive interval above is optimal in this generality. We then disprove a second conjecture of the same authors, which asserts that the cycle of an integral generalized sun graph other than a cycle has length divisible by four. The graph obtained from a hexagon by attaching $6,6,12,6,6$ pendant vertices to five of its six vertices is integral and has $42$ vertices. We show that it is the smallest member of an infinite family governed by the Pell equation $x^{2}-2k^{2}=-7$, and we compute in closed form the characteristic polynomial of the analogous graphs on an arbitrary even cycle. Integrality within this family forces the cycle to be a square or a hexagon, and the square case yields a second infinite family governed by the Pell equation $k^{2}-2c^{2}=1$.",
+      "published": "2026-09-23",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix"
       ]
     },
     {
@@ -346,6 +656,22 @@
       "published": "2026-09-22",
       "categories": [
         "math.CO"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2609.28518",
+      "url": "https://arxiv.org/abs/2609.28518",
+      "title": "Cutoff on non-negatively curved chains without symmetric support condition",
+      "authors": [
+        "Kazuki Okamura"
+      ],
+      "abstract": "We establish a cutoff criterion for finite Markov chains with non-negative Bakry--Émery curvature without assuming that the support of the transition matrix is symmetric. This extends a criterion of Salez based on a refined product condition. For each allowed transition, we consider a shortest directed path from its endpoint back to its starting point. Our cutoff criterion depends on the maximum length of these paths. We also obtain a discrete-time counterpart for lazy chains. For random walks on finite Abelian groups, we prove non-negative Bakry--Émery curvature for arbitrary generating sets. As an application, we establish almost-sure cutoff for random walks on products of cyclic groups of order three.",
+      "published": "2026-09-22",
+      "categories": [
+        "math.PR"
       ],
       "tags": [
         "random walk"
