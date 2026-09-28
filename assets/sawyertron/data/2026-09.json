@@ -1,8 +1,123 @@
 {
   "month": "2026-09",
-  "generated_at": "2026-09-27T14:44:43+00:00",
+  "generated_at": "2026-09-28T17:44:44+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2609.31355",
+      "url": "https://arxiv.org/abs/2609.31355",
+      "title": "On the Brouwer-type Conjecture for Signless Laplacian Eigenvalues of Graphs",
+      "authors": [
+        "Ruisong Yuan",
+        "Xiao-Dong Zhang"
+      ],
+      "abstract": "Motivated by Brouwer's conjecture, Ashraf, Omidi and Tayfeh-Rezaie proposed the following Brouwer-type conjecture that for every graph $G$ on $n$ vertices with $m$ edges, the sum $S_k^+(G)$ of its $k$ largest signless Laplacian eigenvalues satisfies $S_k^+(G)\\le m+\\binom{k+1}{2}$ for $k=1, \\ldots, n$. In this paper, we prove that the above conjecture holds. Moreover, the equality holds if and only if $k=1$ and $G$ is either star $K_{1,a}$ or triangle $K_3$ with adding some isolated vertices. For split graphs, properties of block signless Laplacian matrices based on clique and independent set are adapted. While for non-split graphs, some spectral graph substructure are used to control the sum of signless Laplacian eigenvalues.",
+      "published": "2026-09-25",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "Laplacian eigenvalue",
+        "signless Laplacian",
+        "spectral graph"
+      ]
+    },
+    {
+      "id": "2609.30648",
+      "url": "https://arxiv.org/abs/2609.30648",
+      "title": "Random walk in a non-homogeneous random environment on some random trees and the non-negative integers",
+      "authors": [
+        "Tamer Oraby",
+        "András Telcs"
+      ],
+      "abstract": "In this paper, we consider a random walk in a non-homogeneous random environment on two types of random trees and non-negative integers. The random trees here have progeny distributions that depend on the parent's generation. We provide a sharp threshold for the type of the random walk in a random environment on the random trees and the non-negative integers, up to the critical case. Then, we find the speed of the random walk on the non-negative integers and on random spherically symmetric trees. We use the method based on the relationship between the mean exit time from a vertex and speed. Meanwhile, we discuss several special cases that could be derived from those results. We also include many limiting formulas for sequences and series in the appendix, which are helpful for this study and others.",
+      "published": "2026-09-25",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2609.31363",
+      "url": "https://arxiv.org/abs/2609.31363",
+      "title": "Brenier Meets Adversarial Training: Optimal Transport Geometry for Robust Learning",
+      "authors": [
+        "Alireza Abdollahpoorrostam",
+        "Ehsan Sharifian",
+        "Buse Şen",
+        "Marco Cuturi",
+        "Daniel Kuhn"
+      ],
+      "abstract": "Distributionally robust optimization (DRO) provides a principled framework for learning under distribution shift, but its practical use is hindered by the difficulty of evaluating worst-case risks for nonconvex loss functions. We study a penalized DRO formulation in which the adversary may choose any distribution but incurs a Wasserstein penalty for deviating from the empirical distribution. We show that the adversary's problem can be reformulated as an optimization problem over transport maps that push empirical samples to adversarial ones, and we prove that optimal maps are cyclically monotone. We also show that standard adversarial training---based on per-sample local optimization---violates cyclical monotonicity and wastes transport costs unless the adversary is severely restricted. We propose two remedies. First, we introduce multi-start particle ascent, which alternates parallel gradient ascent with reassignment to enforce cyclical monotonicity across samples. Second, we parameterize adversarial maps as gradients of input-convex neural networks, which guarantees cyclical monotonicity by construction. Experiments on robust regression, image classification, and robust control show that our methods consistently outperform standard adversarial training and state-of-the-art baselines, achieving improved robustness and better generalization under distribution shift.",
+      "published": "2026-09-25",
+      "categories": [
+        "cs.LG",
+        "math.OC",
+        "stat.ML"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2609.31470",
+      "url": "https://arxiv.org/abs/2609.31470",
+      "title": "Beyond Empirical Support: Structured Outlier Generation via Sinkhorn Optimal Transport",
+      "authors": [
+        "Haixiang Sun",
+        "Andrew L. Liu"
+      ],
+      "abstract": "Outliers are essential for evaluating and improving the robustness of machine learning systems, especially when future distributions may differ significantly from historical training data. In high-stakes applications, robustness often depends on rare cases that finite datasets fail to capture, making simple resampling or perturbation insufficient for stress scenario generation. Existing outlier synthesis methods typically rely on sparse neighborhoods, low support latent regions, or classifier boundary crossings, which can be heuristic, unstable, and tied to specific modalities or architectures. We therefore propose Sinkhorn Boundary Outlier Generation (SBOG), a structured framework for latent-space outlier generation that couples Sinkhorn optimal transport geometry with distributionally robust boundary modeling. The resulting Sinkhorn-induced support cost guides the sampler toward weakly supported boundary regions, while semantic constraints prevent uncontrolled drift from the intended context, yielding controlled deviations from the in-distribution reference measure rather than arbitrary sparse-region samples. Experiments on time series anomaly generation and image outlier synthesis show that our framework produces informative, semantically controlled outliers and improves downstream robustness evaluation across modalities, providing a foundation for stress scenario generation beyond empirical support.",
+      "published": "2026-09-25",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2609.31410",
+      "url": "https://arxiv.org/abs/2609.31410",
+      "title": "Anatomical Connectivity from Tractography-free Diffusion Tensor Imaging and Its Application to EEG Brain Imagin",
+      "authors": [
+        "Joonas Lahtinen"
+      ],
+      "abstract": "This proof-of-concept paper demonstrates how the Kalman filter, as a brain imaging method, can be enhanced by incorporating raw diffusion tensor imaging (DTI) data without tractography, in addition to EEG recordings. An efficient algorithm is designed to streamline the otherwise tedious process of inferring connectivity between brain regions from DTI data. The DTI-based evolution model is applied to the Kalman filter and the Standardized Kalman filter, and these are compared with their conventional counterparts using the random walk evolution model. The numerical experiments use synthetic somatosensory and auditory evoked potentials. The results show that the DTI-modelled Kalman filter can obtain deep activity in the brainstem and thalamus. Moreover, the connection model limits the estimated spreads to the correct or nearest anatomical brain region.",
+      "published": "2026-09-25",
+      "categories": [
+        "math.NA",
+        "cs.NA",
+        "math.DS",
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2609.31535",
+      "url": "https://arxiv.org/abs/2609.31535",
+      "title": "Discounted Hitting Domination on Graphs with Submodularity, Complexity and Exact Algorithms",
+      "authors": [
+        "Julian D. Allagan",
+        "Kevin Pereyra",
+        "William A. Massey"
+      ],
+      "abstract": "On a network with a fixed set of verified sources, discounted averaging induces an equilibrium support $h_i^S=\\mathbb{E}_i[λ^{T_S}]$, the discounted probability that a random walk reaches $S$ before attenuation. We define the \\emph{discounted hitting domination number} $δ_{λ,τ}(G)$ as the minimum number of sources required to guarantee $h_i^S\\geτ$ at every vertex. Although this potential is known through penalized and group hitting probabilities, the associated minimum-cardinality uniform-coverage problem appears to be new. Aggregate support is monotone submodular, while the uniform-floor problem is an exact submodular-cover problem. Moreover, if $λ^{r+1}<τ\\le\\left(\\fracλΔ\\right)^r$, then $δ_{λ,τ}(G)$ equals the distance-$r$ domination number. This yields NP-completeness and APX-completeness at $(λ,τ)=(1/4,1/14)$ on graphs of maximum degree three. For spiders, we obtain an exact finite-state characterization and a polynomial-time algorithm for every fixed rational pair $(λ,τ)$, and show that the branching vertex need not belong to a minimum source set. Finally, an exact mixed-integer linear formulation certifies optimal placements on a real network and a synthetic graph and demonstrates substantial differences from degree, closeness, and classical domination.",
+      "published": "2026-09-25",
+      "categories": [
+        "math.CO",
+        "math.OC"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
     {
       "id": "2609.30045",
       "url": "https://arxiv.org/abs/2609.30045",
@@ -28,7 +143,7 @@
         "Madhulatha Mandarapu",
         "Sandeep Kunkunuru"
       ],
-      "abstract": "The speed v(lambda) of the lambda-biased random walk on a supercritical Galton-Watson tree without leaves is conjectured to be nonincreasing on [0,m), where m is the mean offspring. Monotonicity is known only for small bias: lambda <= 1/1160, lambda <= 1/2, and, when every vertex has at least m_1 >= 2 children, lambda <= m_1/(1+sqrt(1-1/m_1)). For offspring uniform on {2,3} (m=2.5) the last bound is 1.1716. We prove, with computer assistance, that v is strictly decreasing on [0,1.755] for this law. The proof has three parts. Aidekon's speed formula gives v=(R-lambda)/(R+lambda) for an explicit functional R, so v decreases exactly when R/lambda does; we compare R/lambda at two biases directly, which avoids differentiating the conductance. A pathwise Lipschitz bound on the conductance in lambda turns that comparison into an inequality between expectations of explicit functions. A monotone sandwich of discretised laws gives two-sided bounds on the conductance law, and each lambda-cell is verified with exact rational arithmetic on top of bounded floating-point error; an independent interval-arithmetic implementation agrees on spot cells. The method stops where the crude Lipschitz bound becomes too weak; sharper control of the derivative of the conductance is what the full range needs. Code and certificates are public.",
+      "abstract": "The speed v(lambda) of the lambda-biased random walk on a supercritical Galton-Watson tree without leaves is conjectured to be nonincreasing on [0,m), where m is the mean offspring. For non-constant offspring, monotonicity is known only for small bias: lambda <= 1/1160, lambda <= 1/2, and, when every vertex has at least m_1 >= 2 children, lambda <= m_1/(1+sqrt(1-1/m_1)). For offspring uniform on {2,3} (m=2.5) the last bound is 2/(1+sqrt(1/2)) = 1.17157... We prove, with computer assistance, that v is strictly decreasing on [0,1.755] for this law. The proof has three parts. Aidekon's speed formula gives v=(R-lambda)/(R+lambda) for an explicit functional R, so v decreases exactly when R/lambda does; we compare R/lambda at two biases directly, which avoids differentiating the conductance. A pathwise Lipschitz bound on the conductance in lambda turns that comparison into an inequality between expectations of explicit functions. A monotone sandwich of discretised laws gives two-sided bounds on the conductance law, and each lambda-cell is verified with exact rational arithmetic on top of bounded floating-point error; an independent interval-arithmetic implementation re-certifies five cells, including the one that sets the endpoint. The method stops where the crude Lipschitz bound becomes too weak; sharper control of the derivative of the conductance is what the full range needs. Code and certificates are public.",
       "published": "2026-09-24",
       "categories": [
         "math.PR"
@@ -149,6 +264,23 @@
       ]
     },
     {
+      "id": "2609.30354",
+      "url": "https://arxiv.org/abs/2609.30354",
+      "title": "Spanning Trees with Many Leaves in Graphs of Minimum Degree at Least 7",
+      "authors": [
+        "Sogol Jahanbekam"
+      ],
+      "abstract": "We give a polynomial-time algorithm that constructs, in every connected $n$-vertex graph of minimum degree at least $7$, a spanning tree with at least $\\frac{25200}{46189}n>0.5455\\,n$ leaves. No bound specific to minimum degree $7$ was known: the best bound available for this class was $\\frac{11}{21}n\\approx0.5238\\,n$, inherited from Simarova's theorem for minimum degree~$6$. The algorithm and its analysis are carried out for an arbitrary minimum degree $δ$, and yield a recursion that gives an explicit lower bound on the number of leaves for every $δ$. The resulting bounds improve all previously known ones for every $δ\\ge7$; for $δ=8,9,10$ they are $0.5850\\,n$, $0.6151\\,n$ and $0.6413\\,n$, and they are tabulated for $δ\\le25$ at the end of the paper.",
+      "published": "2026-09-24",
+      "categories": [
+        "cs.DS",
+        "math.CO"
+      ],
+      "tags": [
+        "spanning tree"
+      ]
+    },
+    {
       "id": "2609.29227",
       "url": "https://arxiv.org/abs/2609.29227",
       "title": "Represented Tensor Products of Binary Matroids",
@@ -201,6 +333,38 @@
       ]
     },
     {
+      "id": "2609.30421",
+      "url": "https://arxiv.org/abs/2609.30421",
+      "title": "Settling the Matroid Secretary Problem",
+      "authors": [
+        "Zhiyi Huang"
+      ],
+      "abstract": "This paper settles the Matroid Secretary Problem with an $e$-probability-competitive algorithm. The algorithm is ordinal and accesses arrived elements only through comparison and independence oracles, and has expected polynomial time and oracle complexity.",
+      "published": "2026-09-24",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2609.30597",
+      "url": "https://arxiv.org/abs/2609.30597",
+      "title": "g-Positivity for Paving Matroids",
+      "authors": [
+        "Yiyu Wang"
+      ],
+      "abstract": "We prove that the g-polynomial of every paving matroid has nonnegative coefficients. Our proof combines a deletion-contraction argument with an elementary coefficient inequality for the g-polynomials of uniform matroids.",
+      "published": "2026-09-24",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
       "id": "2609.29790",
       "url": "https://arxiv.org/abs/2609.29790",
       "title": "Budget-Constrained Graph Augmentation for Robust Network Design via Kirchhoff Index Minimization",
@@ -236,6 +400,23 @@
       ],
       "tags": [
         "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2609.30329",
+      "url": "https://arxiv.org/abs/2609.30329",
+      "title": "Stability of Change-of-Numéraire Reweighting: An Exact Wasserstein Boundary",
+      "authors": [
+        "Shaosai Huang"
+      ],
+      "abstract": "Reweighting a probability law by a positive numéraire and pushing forward the payoff-to-numéraire ratio yields the change-of-numéraire reweighting: the swap-rate law under the annuity measure, the numéraire-inversion involution of martingale optimal transport, and the population form of self-normalized importance sampling. We characterize exactly when it is Wasserstein-stable. Along weakly convergent inputs with uniformly integrable numéraires and a strictly positive limiting numéraire mean, convergence of the reweighted laws is equivalent to a uniform integrability condition, computed under the inputs, on one explicit family in the payoff and numéraire. At first order the numéraire cancels, the sole obstruction being payoff mass where the numéraire vanishes; absent such mass, prices and first moments pass to the limit under a uniformly integrable payoff alone, with no assumption on the reciprocal numéraire. Two-atom examples with bounded inputs attain the threshold exactly. Applications characterize a standing moment assumption in the transport literature and delimit which annuity-measure statistics survive.",
+      "published": "2026-09-24",
+      "categories": [
+        "math.PR",
+        "q-fin.MF"
+      ],
+      "tags": [
+        "optimal transport"
       ]
     },
     {
@@ -474,6 +655,26 @@
       ]
     },
     {
+      "id": "2609.30304",
+      "url": "https://arxiv.org/abs/2609.30304",
+      "title": "Exact-palette rainbow embeddings in uniformly coloured pseudorandom graphs",
+      "authors": [
+        "Elad Aigner-Horev",
+        "Dan Hefetz",
+        "Yury Person",
+        "Michael Trushkin"
+      ],
+      "abstract": "We study the emergence of rainbow spanning configurations in independently and uniformly coloured sparse $(p,β)$-bijumbled graphs. If the palette of the colouring supports a surplus that is sublinear in the number of vertices, then asymptotically almost surely we obtain rainbow embeddings of perfect matchings, prescribed bounded-degree spanning trees, and Hamilton cycles whilst asymptotically maintaining $p$ and $β$ at the best known threshold conditions sufficient for these configurations to emerge in uncoloured sparse bijumbled graphs. In fact, the size of the palette surplus is upper bounded by a concrete decreasing function of $p$. These results are proved using a McDiarmid-type coupling argument. We then proceed to prove that a mild increase in the bijumbledness parameters of the host graph allow for exact-palette results. That is, we prove that asymptotically almost surely rainbow perfect matchings, clique factors, prescribed bounded-degree spanning trees, and Hamilton cycles emerge in a $(p,β)$-bijumbled graph whose edges are uniformly coloured from a palette whose size coincides with the size of the target configuration. Our exact-palette results are in fact stronger; they assert that the aforementioned configurations survive in a rainbow fashion post a uniform colouring not only in the original host graph but in percolations thereof. These results are proved using spread measures.",
+      "published": "2026-09-22",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "random graph",
+        "spanning tree"
+      ]
+    },
+    {
       "id": "2609.26647",
       "url": "https://arxiv.org/abs/2609.26647",
       "title": "Statistical Rates for Entropic Optimal Transport in the Discrete to SubGaussian Regime",
@@ -694,6 +895,24 @@
       ],
       "tags": [
         "signed Laplacian"
+      ]
+    },
+    {
+      "id": "2609.30303",
+      "url": "https://arxiv.org/abs/2609.30303",
+      "title": "Extremal Graphs with Prescribed Parameters for the Spectral Radius of Weighted Adjacency Matrices with Property $P^{\\ast}$",
+      "authors": [
+        "Swathi Shetty",
+        "B. R. Rakshith",
+        "Sayinath Udupa N. V"
+      ],
+      "abstract": "In the literature, several graph matrices based on vertex degrees have been introduced, and the study of their spectral properties has attracted considerable attention in recent years. Motivated by these developments, in this paper, we investigate the spectral radius of the weighted adjacency matrix $A_f(G)$, where the function $f$ satisfies property $P^{*}$. More precisely, we characterize the graphs that attain the maximum spectral radius of $A_f(G)$ among graphs with a vertex cut set of prescribed order, graphs with exactly $s$ cut edges, and graphs with given vertex connectivity and independence number. Our results further develop the unified framework for studying extremal spectral properties of degree-based weighted adjacency matrices and extend this framework to several classes of graphs with prescribed structural parameters.",
+      "published": "2026-09-22",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix"
       ]
     },
     {
