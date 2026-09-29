@@ -1,8 +1,404 @@
 {
   "month": "2026-09",
-  "generated_at": "2026-09-28T17:44:44+00:00",
+  "generated_at": "2026-09-29T15:58:16+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2609.35213",
+      "url": "https://arxiv.org/abs/2609.35213",
+      "title": "Very sharp distance and range transitions for random walk bridges on Ramanujan graphs",
+      "authors": [
+        "Itai Benjamini"
+      ],
+      "abstract": "For vertex-transitive Ramanujan graphs with logarithmic girth, a simple random walk bridge of length of order $\\log N$, where $N$ is the size of the graph, has a maximum distance that changes from order $\\sqrt{\\log N}$ to order $\\log N$ in a bounded critical window. We prove this by separating bridges whose lifts to the regular tree close from those whose lifts do not. A uniform two-term return estimate determines the probabilities of these two cases and the real-valued critical center. In the same $O(1)$ window, the normalized range has a two-point limiting law whose mixture weights vary nontrivially across the window.",
+      "published": "2026-09-28",
+      "categories": [
+        "math.PR",
+        "math.CO"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk"
+      ]
+    },
+    {
+      "id": "2609.35574",
+      "url": "https://arxiv.org/abs/2609.35574",
+      "title": "Quantitative Stability, Coercivity and Uniqueness of Optimal Transport Plans",
+      "authors": [
+        "William Ford"
+      ],
+      "abstract": "For probability measures on $\\mathbb{R}^d$ supported in fixed compact sets, we prove that quadratic optimal transport plans are quantitatively stable in Wasserstein distance under perturbation of both marginal measures, assuming that one of the initial measures satisfies an upper Ahlfors regularity condition with exponent strictly greater than $d-1$. Under the same assumption, we also prove novel quantitative stability results for optimal transport maps. Furthermore, we prove a coercivity theorem which states that any probability measure on the product space must be quantitatively close to the set of optimal plans, if it has similar marginals and a similar transport cost to the optimal value. Finally, we prove a quantitative uniqueness theorem which acts as a quantitative counterpart to Brenier's theorem. The Wasserstein diameter of the set of optimal plans is controlled by the distance of one marginal measure to a regular measure for which uniqueness holds. In this way, \"almost uniqueness\" of optimal plans is quantified by the source measure being \"almost regular\". Examples are provided which prove that the exponents of all estimates are sharp.",
+      "published": "2026-09-28",
+      "categories": [
+        "math.OC",
+        "math.AP",
+        "math.NA",
+        "math.ST"
+      ],
+      "tags": [
+        "optimal transport",
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2609.35369",
+      "url": "https://arxiv.org/abs/2609.35369",
+      "title": "A polylogarithmic higher-order Cheeger inequality",
+      "authors": [
+        "Yunpeng Li"
+      ],
+      "abstract": "Let $λ_k(G)$ be the $k$th eigenvalue of the normalized Laplacian of a finite undirected weighted graph, and let $ρ_G(k)$ be the minimum possible maximum conductance of $k$ disjoint nonempty vertex sets. We prove \\[ ρ_G(k)\\le C[1+\\log(k+1)]^5\\sqrt{λ_k(G)} \\] for an absolute constant $C$. The construction gives exactly $k$ sets and a bound in terms of $λ_k(G)$, with all boundaries and volumes measured in the original graph. More strongly, it yields $k$ nonnegative functions with pairwise disjoint supports and Rayleigh quotients $O([1+\\log(k+1)]^{10}λ_k(G))$. The proof uses independent local cutoffs whose lost covariance is controlled by conditioning on the loss along a principal direction in each cell. A regularized spectral embedding bounds cutoff energy on the entire original low eigenspace, while an adaptive construction reduces the remaining coefficient dimension by at least half at each stage. A dimension argument then converts almost rank-one local covariances into exactly $k$ scalar witnesses.",
+      "published": "2026-09-28",
+      "categories": [
+        "math.CO",
+        "cs.DS",
+        "math.SP"
+      ],
+      "tags": [
+        "normalized Laplacian",
+        "Cheeger inequality"
+      ]
+    },
+    {
+      "id": "2609.34616",
+      "url": "https://arxiv.org/abs/2609.34616",
+      "title": "A Turán-type extremal problem for the number of spanning trees in $C_4$-free graphs",
+      "authors": [
+        "Shaohan Xu",
+        "Fengming Dong",
+        "Kexiang Xu"
+      ],
+      "abstract": "For a graph \\(F\\), the Turán number \\(\\ex(n,F)\\) is the maximum number of edges in an \\(F\\)-free graph on \\(n\\) vertices. Let \\(q\\ge 2\\) be an integer and set \\(n=q^{2}+q+1\\). Brown and Erdős, Rényi and Sós independently proved that $\\ex(n,C_{4})\\ge \\frac12 q(q+1)^{2}$ for every prime power \\(q\\), and Füredi subsequently established the upper bound $\\frac12 q(q+1)^{2}$ for $\\ex(n,C_{4})$ whenever \\(q\\notin\\{1, 7,9,11,13\\}\\). In this article, we prove that every \\(C_{4}\\)-free graph \\(G\\) on \\(n\\) vertices with at most \\(\\frac12 q(q+1)^{2}\\) edges satisfies $τ(G)\\le n^{(n-3)/2}$, where \\(τ(G)\\) denotes the number of spanning trees of \\(G\\). In particular, for every prime power $q\\notin\\{7,9,11,13\\}$, the above upper bound on $τ(G)$ is attained precisely by the orthogonal polarity graphs, thereby proving London's conjecture for all such $q$.",
+      "published": "2026-09-28",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2609.35136",
+      "url": "https://arxiv.org/abs/2609.35136",
+      "title": "Low-Stretch Spanning Trees via Smoothed Analysis of Dijkstra's Algorithm",
+      "authors": [
+        "Ioannis Dorkofikis",
+        "Bernhard Haeupler",
+        "Maximilian Probst Gutenberg",
+        "Antti Roeyskoe",
+        "Aurelio Sulser",
+        "Gernot Zöcklein"
+      ],
+      "abstract": "Given an undirected weighted graph $G$, a $γ$-approximate low-stretch spanning tree (LSST) $T \\subseteq G$ is a tree that approximates the distance metric of $G$ up to a $γ$-factor in expectation. Currently, existing algorithms to find a provably good LSST carefully construct an approximate shortest-path tree from an arbitrary source. The resulting algorithms are intricate. In contrast, practitioners observed that a much simpler heuristic performs surprisingly well: choose an arbitrary root, run Dijkstra's algorithm, and use the resulting shortest-path tree as an LSST. In this paper, we give a smoothed analysis of shortest-path tree algorithms, such as Dijkstra's algorithm, that explains this behavior. We show that adding a small perturbation to the weights of the input graph suffices to turn the shortest path tree rooted at an arbitrary node in the resulting graph into an $\\tilde{O}(1)$-approximate LSST. We further show that the set of perturbations can be computed efficiently from few low-diameter decompositions (LDDs). Thus, our proof is also constructive in the sense of giving a novel approach to computing LSSTs.",
+      "published": "2026-09-28",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2609.35766",
+      "url": "https://arxiv.org/abs/2609.35766",
+      "title": "Hamiltonicity of mildly pseudorandom regular graphs",
+      "authors": [
+        "Alp Müyesser"
+      ],
+      "abstract": "We show that if an $(n,d,λ)$-graph satisfies $λ\\leq (1-δ)d$ and $d\\gg δ^{-6}(\\log n)^{3}$ for some $δ>0$, then it is Hamiltonian. A qualitatively similar result was recently proven by Bradač and Janzer. Our proof here is shorter and gives better quantitative bounds. \\par In our proof, as in earlier work of Ferber, Han, Mao, and Vershynin, we use a random matrix inequality to show that a mild spectral gap is typically preserved after randomly sampling an appropriate proportion of the vertices. This allows us to deduce that typical balanced bipartite subgraphs of pseudorandom graphs contain perfect matchings. To convert a collection of perfect matchings into a Hamilton cycle, we use a variant of the sorting network method.",
+      "published": "2026-09-28",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "random graph",
+        "random matrix"
+      ]
+    },
+    {
+      "id": "2609.34382",
+      "url": "https://arxiv.org/abs/2609.34382",
+      "title": "Splitting the Matroid Determinant",
+      "authors": [
+        "Clara Briand",
+        "Leonie Kayser",
+        "Julian Weigert"
+      ],
+      "abstract": "The principal matroid determinant $E_L$ of a linear space $L \\subseteq \\mathbb{P}^n$ has been introduced in recent work by Matsubara-Heo and Telen. In this paper, we give the complete factorization of this polynomial into its irreducible components, proving a conjecture of the aforementioned authors. Our methods rely on bounding local multiplicities and an étale-local description of the strata of reciprocal linear spaces developed by Elias, Proudfoot and Wakefield. We also discuss analogous questions for other coordinate-wise powers of linear spaces.",
+      "published": "2026-09-28",
+      "categories": [
+        "math.AC",
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2609.35550",
+      "url": "https://arxiv.org/abs/2609.35550",
+      "title": "Nonnegativity of the $g$-polynomial of split matroids",
+      "authors": [
+        "Alice L. L. Gao",
+        "Matthew H. Y. Xie"
+      ],
+      "abstract": "We prove that the $g$-polynomial of every split matroid has nonnegative coefficients, establishing Speyer's conjecture for a class closed under taking minors and containing all paving and copaving matroids. Our proof uses a deletion--contraction identity obtained by constructing an auxiliary split matroid. We first show that every simple, cosimple, connected split matroid $M$ has an element $e$ for which both the deletion $M\\setminus e$ and the contraction $M/e$ are connected. More generally, let $M$ be any connected split matroid of rank $k$ on a ground set $E$ with $|E|\\ge4$. Suppose that $e\\in E$ is such that both $M\\setminus e$ and $M/e$ are connected. For every $v\\in E\\setminus\\{e\\}$, we construct a connected elementary split matroid $N_{e,v}$ of rank $k-1$ on $E\\setminus\\{e,v\\}$ satisfying \\[ g_M(t)=g_{M\\setminus e}(t)+g_{M/e}(t)+t\\,g_{N_{e,v}}(t). \\] Using a fixed total order on $E$, we prescribe the proper cyclic flats of $N_{e,v}$ and their ranks. The identity follows from the covaluative formula of Ferroni and Schröter together with recurrences for its correction polynomials, derived from Ferroni's enumeration of admissible Delannoy paths for Schubert matroids. Since all three matroids on the right have fewer elements, the identity supplies the induction step in the proof of nonnegativity.",
+      "published": "2026-09-28",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2609.34613",
+      "url": "https://arxiv.org/abs/2609.34613",
+      "title": "Probabilistic Geodesic Flow Matching on Location-Scale Families",
+      "authors": [
+        "Zeyuan Yu",
+        "Zhi Chang",
+        "Shiwei Lan"
+      ],
+      "abstract": "Flow matching (FM) has recently emerged as a promising framework for generative modeling due to its conceptual simplicity and strong empirical performance. In FM, samples are transported along a vector field parameterized by a neural network, inducing a probability path that evolves from a simple noise distribution to the target data distribution, governed by an ordinary differential equation (ODE). However, existing FM approaches predominantly rely on probability paths derived from optimal transport (OT) between Gaussian distributions, which may be suboptimal for capturing complex data with inhomogeneous structures such as heavy tail or sharp contrast. In this work, we generalize FM to the broader class of location-scale families for handling data inhomogeneity and introduce a novel class of probability paths defined as geodesics on the manifold of probability distributions. We name this approach probabilistic geodesic flow matching to distinguish it from prior geodesic (Riemannian) FM methods defined in input space. We argue that Euclidean OT-based paths are not necessarily optimal in probability space and may limit modeling flexibility. Through synthetic benchmarks and scientific datasets at different scales, we demonstrate that the proposed method more effectively captures complex distributions, leading to improved or comparable performance compared with SOTA geometry-motivated generative models.",
+      "published": "2026-09-28",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.PR"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2609.33519",
+      "url": "https://arxiv.org/abs/2609.33519",
+      "title": "Smooth Isotropic Covariance Functions on Metric Graphs via Polyharmonic Resistance Distances",
+      "authors": [
+        "Tobia Filosi",
+        "Emilio Porcu",
+        "Claudio Agostinelli"
+      ],
+      "abstract": "Metric graphs are generalisations of linear networks and provide a natural framework for the definition of continuously-indexed Gaussian processes. We define a new class of distances on these topologies, termed polyharmonic distances, which unify and extend the spectral construction underlying the effective resistance distance and the biharmonic one. We give both a spectral and a variational characterisation. Furthermore, we show an explicit class of stochastic processes whose variograms coincide with the squared polyharmonic distances. Finally, we show how these metrics can be composed with suitable completely monotonic functions to define isotropic processes having any prescribed finite-order mean-square differentiability along the edges and satisfying the Kirchhoff conditions up to order one at the vertices.",
+      "published": "2026-09-27",
+      "categories": [
+        "math.PR",
+        "stat.ME"
+      ],
+      "tags": [
+        "effective resistance",
+        "resistance distance"
+      ]
+    },
+    {
+      "id": "2609.33814",
+      "url": "https://arxiv.org/abs/2609.33814",
+      "title": "Annealed Sinkhorn with Momentum: Certified Unregularized Optimal Transport in Linear Memory",
+      "authors": [
+        "Samuel J. K. Chin",
+        "Maximilian Schiffer"
+      ],
+      "abstract": "We characterize Bregman Douglas-Rachford splitting (BDRS) for unregularized discrete optimal transport and develop an anytime primal-dual certificate in linear memory. We first establish that BDRS coincides with warm-started Inexact Proximal point method for exact Optimal Transport (IPOT) using a single inner Sinkhorn iteration. By eliminating the primal transport plan from the updates, we derive an equivalent dual formulation that reveals BDRS as annealed Sinkhorn under an implicit inverse-linear temperature schedule, with an additional log-scaling momentum term and a cooler kernel. While this explains the role of the temperature parameter in BDRS as an initial temperature, it also reduces the solver's memory requirement from quadratic to linear. Utilizing this annealing perspective, we introduce overrelaxed BDRS, which combines annealing and overrelaxed scaling within a single recursion. We derive a primal-dual certificate for both methods that can be evaluated in linear memory without transport plan construction, thus providing a computable stopping rule. On the DOTmark benchmark, combining momentum with the cooler kernel produces substantially smaller optimality gaps than annealed Sinkhorn under the same schedule. For pixel-level color transfer between $1024\\times1024$ images, BDRS attains a lower repaired transport cost than MDOT-TNT with a 9$\\times$ speed up, reaching a relative duality gap of $1.59\\%$ in 24 minutes. We further demonstrate a color transfer with $4238\\times2365$ images, yielding 10 million pixels per image and approximately one hundred trillion implicit transport entries, reaching a best relative duality gap of $2.41\\%$ and $2.80\\%$ within 35 hours in each direction on a single NVIDIA L40S GPU.",
+      "published": "2026-09-27",
+      "categories": [
+        "math.OC",
+        "cs.LG"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2609.33979",
+      "url": "https://arxiv.org/abs/2609.33979",
+      "title": "Edge-Defect Spectral Methods for Higher-Order Rankings of Spanning Tree Counts",
+      "authors": [
+        "Shunya Tamura",
+        "José Luis Palacios"
+      ],
+      "abstract": "In this paper, we study the higher-order ranking, by spanning-tree count, of graphs obtained from a complete graph by deleting a fixed number of edges. Using the edge-defect matrix determined by the deleted edges and the interaction number measuring the local overlap among them, we derive a stability inequality that quantitatively estimates the decrease in the number of spanning trees from the matching-deletion case. Combining this stability estimate with a classification of deletion graphs having small interaction number, we determine, up to isomorphism, the nine deletion graphs with the largest spanning-tree counts for $p\\geq6$ and $n\\geq2p$. We also clarify the relation between the interaction number, the local structure of the deletion graph, and the decrease in the number of spanning trees through a logarithmic expansion of the normalized spanning-tree count.",
+      "published": "2026-09-27",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2609.33680",
+      "url": "https://arxiv.org/abs/2609.33680",
+      "title": "Quantitative Merino--Welsh inequalities for joins",
+      "authors": [
+        "Jungang Chen",
+        "Jiaxin Xie"
+      ],
+      "abstract": "For a connected graph \\(G\\), let \\[ Q(G)=\\frac{T(G;2,0)T(G;0,2)}{T(G;1,1)^2}. \\] We obtain quantitative lower bounds for \\(Q\\) under the graph join operation. If \\(A\\) and \\(B\\) are arbitrary simple graphs of orders \\(3\\le a\\le b\\), then \\(Q(A\\vee B)\\) admits an explicit lower bound depending only on \\(a\\) and \\(b\\), and this bound is strictly greater than \\(1\\). We further quantify the improvement produced by edges inside the two factors. For every simple graph \\(F\\), with \\(n=|V(F)|+2\\ge4\\), we prove \\[ Q(K_2\\vee F)\\ge \\frac{27}{n^2}\\left(\\frac32\\right)^{n-4}. \\] Consequently, every join of at least three nonempty factors, and every complete multipartite graph with at least one edge and no cut edges, satisfies the strict multiplicative Merino--Welsh inequality. The proofs combine orientation estimates with spanning-tree comparisons based on effective resistance and block elimination.",
+      "published": "2026-09-27",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "effective resistance"
+      ]
+    },
+    {
+      "id": "2609.33819",
+      "url": "https://arxiv.org/abs/2609.33819",
+      "title": "Orthogonal and unitary signings of cube-like graphs",
+      "authors": [
+        "Meirun Chen",
+        "Reza Naserasr"
+      ],
+      "abstract": "A unitary signing of a $d$-regular graph is a Hermitian adjacency matrix $M$ whose nonzero entries lie in $\\{\\pm1,\\pm i\\}$ and satisfies $M^2=dI$. Motivated by the work of Alon and Zheng on orthogonal and unitary signings of cube-like graphs, we introduce the $Θ$-property for a generating set $S\\subseteq\\mathbb Z_2^n$: whenever three pairwise disjoint subsets of $S$ have the same sum, at least two of them have even size. We prove that every zero-free generating set with the $Θ$-property gives a cube-like graph $Q_S$ admitting a unitary signing, and we give an explicit local formula for such a signing. For Sidon sets, the $Θ$-property is also necessary, yielding a characterization of the Sidon cube-like graphs that admit unitary signings. In this setting there are exactly $2^{|S|-n}$ switching-equivalence classes of unitary signings, and we characterize when a unitary signing can be chosen to be orthogonal. The $Θ$-property admits a linear-algebraic description in terms of the dependency space $\\mathcal D$ of $S$: \\[ |D_1\\cap D_2| \\equiv |D_1||D_2| \\pmod2 \\qquad (D_1,D_2\\in\\mathcal D). \\] Equivalently, the map \\[ D\\longmapsto \\binom{|D|}{2}\\pmod2 \\] is linear on $\\mathcal D$. For the corresponding extremal set problem, in which zero is permitted, this formulation yields the sharp bound $|S|\\leq 2n+1$ for generating sets with the $Θ$-property. We give elementary constructions attaining this bound for every $n\\geq3$. Under the additional Sidon condition, the same extremal value is attained for every $n\\geq10$ using binary self-dual codes. The exact Sidon maximum is also determined for $3\\leq n\\leq9$.",
+      "published": "2026-09-27",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2609.33902",
+      "url": "https://arxiv.org/abs/2609.33902",
+      "title": "Det-extremal cubic graphs and the total domatic number",
+      "authors": [
+        "Myungho Choi",
+        "Hyemin Kwon",
+        "Boram Park"
+      ],
+      "abstract": "A graph $G$ is det-extremal if $|\\operatorname{det} A|=\\operatorname{per} A$ for its adjacency matrix $A$. Det-extremal cubic bipartite graphs arise in the study of Pólya's permanent problem, and McCuaig characterized the $3$-connected ones as vertex-sums of copies of the Heawood graph. The total domatic number of a graph is the largest number of pairwise disjoint total dominating sets. Characterization of the cubic graphs with total domatic number $1$ has been a long-standing open problem. In this paper, we prove that a connected cubic graph is det-extremal if and only if its total domatic number is $1$. We further show that McCuaig's characterization extends to all $3$-connected cubic graphs, and that every connected det-extremal cubic graph has girth $3$, $5$ or $6$. We also prove that a connected det-extremal cubic non-bipartite graph has at least $28$ vertices, and that this bound is best possible. Through this correspondence, these results carry over to cubic graphs with total domatic number $1$. In addition, in the language of configurations, our results imply that every triangle-free $3$-configuration has a blocking set.",
+      "published": "2026-09-27",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2609.34025",
+      "url": "https://arxiv.org/abs/2609.34025",
+      "title": "Structure-Adaptive Tree Field Integrators",
+      "authors": [
+        "Millend Roy",
+        "Soham Samal",
+        "Ivan Zelich",
+        "Krzysztof Marcin Choromanski"
+      ],
+      "abstract": "We present a new class of near-linear algorithms for efficiently integrating general tensor fields defined on trees with distance dependent kernels, the Structure-Adaptive Tree Field Integrators (STAD-TFIs). STAD-TFIs exploit the tree's underlying structure through decompositions built around path backbones and single vertex separators, and use two-dimensional fast Fourier transforms to compute interactions jointly. By exploiting this structural information, STAD-TFIs achieve more computationally efficient integration than their regular efficient tree field integrators (TFI) counterparts. We provide a detailed theoretical analysis of our proposed approach and complement it with an exhaustive empirical evaluation, ranging from speed tests on synthetic trees, through accelerated Sinkhorn-based relaxations of the Optimal Transport algorithms on real meshes, to Topological Attention Transformers for vision tasks. To the best of our knowledge, we provide some of the first results showing that efficient to compute and accurate relaxations of the geodesic Sinkhorn-based solutions of the Optimal Transport problem can be derived by applying fast TFI methods.",
+      "published": "2026-09-27",
+      "categories": [
+        "cs.LG",
+        "cs.CV",
+        "cs.DS",
+        "math.NA",
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2609.32480",
+      "url": "https://arxiv.org/abs/2609.32480",
+      "title": "A Sharp Phase Transition for Killed Branching Random Walks with Heavy-Tailed Displacements",
+      "authors": [
+        "Ramkrishna Jyoti Samanta"
+      ],
+      "abstract": "We study the survival of a branching random walk in a supercritical Galton-Watson tree subject to a deterministic, superlinear killing barrier with heavy-tailed displacements. For a fixed $m>0$, we consider a family of such barriers and kill particles whose ancestral paths fall below the barrier. Under some standing assumptions, we establish a sharp phase transition at $m=4$: the process becomes extinct almost surely for $m<4$, while survives with positive probability for $m>4$. Notably, a natural first-moment heuristic suggests the threshold $m=2$; the true critical value $4$ arises from a deterministic constraint along infinite surviving rays. At the critical value $m=4$, we provide examples showing that the same standing assumptions do not determine the survival behavior. The proofs are based on analysis of infinite surviving rays and embedded trees.",
+      "published": "2026-09-26",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2609.32824",
+      "url": "https://arxiv.org/abs/2609.32824",
+      "title": "Unlocking Geodesic Gromov-Wasserstein Distances for 3D Modeling",
+      "authors": [
+        "Krzysztof Marcin Choromanski",
+        "Derek Long",
+        "Ananya Parashar",
+        "Dwaipayan Saha"
+      ],
+      "abstract": "\\textit{Gromov-Wasserstein Distances} (GWDs) provide quantitative ways of comparing probabilistic distributions defined on different metric spaces by applying techniques from the optimal transport theory. As such, GWD can be potentially useful in a large variety of applications ranging from graph matching problems to 3D object detection. However its practical use at scale is significantly limited by cubic time complexity computations involving dense intra-space distance matrices. Even though in the Euclidean metric spaces several techniques (e.g. involving scalable kernel methods) were proposed to address it, to the best of our knowledge, analogous techniques for general geodesic distances on manifolds, or shortest-path distance on graphs in their discretized variants, were not developed. In this paper, we present \\textbf{E}fficient \\textbf{G}eodesic \\textbf{Gro}mov-\\textbf{W}asserstein methods (EGGroW), a new class of efficient algorithms designed to calculate geodesic Gromov-Wasserstein distances with entropic Sinkhorn-like approaches, leveraging recently introduced \\textit{GenusSink} methods \\citep{genussink} and the theory of random features. We provide important downstream applications, namely: 3D pose estimation and 3D template detection. In the latter setting, we formulate a partial 3D template recovery as a staged problem: capacity-constrained scene selection is followed by semi-relaxed recovery of template visibility and correspondence. Our empirical findings show that EGGroW provides accurate solutions when standard Euclidean-based techniques fail and is characterized by light computational footprint, as our theoretical analysis predicts.",
+      "published": "2026-09-26",
+      "categories": [
+        "cs.CV",
+        "cs.DS",
+        "eess.IV"
+      ],
+      "tags": [
+        "optimal transport",
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2609.32929",
+      "url": "https://arxiv.org/abs/2609.32929",
+      "title": "Efficient Dynamic Algorithms for Graph Neural Networks with Non-Linear Propagation",
+      "authors": [
+        "Kiarash Banihashem",
+        "MohammadTaghi Hajiaghayi",
+        "Mahdi JafariRaviz",
+        "Silvio Lattanzi",
+        "Danny Mittal"
+      ],
+      "abstract": "Graph Neural Networks (GNNs) are widely used for representation learning on graphs, but most methods assume static topologies, making them inefficient on evolving networks where edges change over time. Existing dynamic approaches either model graph evolution through temporal GNN architectures without focusing on efficient dynamic maintenance, or are restricted to linear propagation models based on Personalized PageRank. In this work, we study how to efficiently maintain node representations for non-linear GNN propagation under edge insertions and deletions. The propagation has no learned parameters, and only a classifier applied afterward is trained. For a broad class of standard activation functions, we develop a residual-based dynamic algorithm that selectively propagates local errors via push operations, maintaining an approximation to the evolving fixed point without full recomputation. We prove that our method achieves amortized $O(1/ε)$ update time per graph change under a degree-normalized error guarantee. Our approach uses a potential-based analysis in a degree-scaled norm and, in contrast to prior work on the linear case, requires no randomness assumptions on either the update sequence or the input vector. For the linear special case, we additionally provide an exact dynamic algorithm via low-rank matrix inverse updates. Experiments on benchmark datasets show that incorporating non-linearity improves accuracy while preserving efficient update performance, yielding a scalable and theoretically grounded method for maintaining this propagation on dynamic graphs.",
+      "published": "2026-09-26",
+      "categories": [
+        "cs.LG",
+        "cs.DS"
+      ],
+      "tags": [
+        "dynamic graph",
+        "graph neural network"
+      ]
+    },
+    {
+      "id": "2609.32357",
+      "url": "https://arxiv.org/abs/2609.32357",
+      "title": "Stability Dichotomies for Boolean Constraint Satisfaction Problems",
+      "authors": [
+        "Chunyang Wang",
+        "Yuichi Yoshida"
+      ],
+      "abstract": "We study the stability of Boolean constraint satisfaction problems (CSPs) through the notion of average sensitivity (Varma and Yoshida, SODA 2021; SICOMP 2023). It measures the expected $1$-Wasserstein distance between an algorithm's output distributions before and after the deletion of a uniformly chosen constraint, using the unnormalized Hamming metric. We establish two dichotomies for every finite Boolean constraint language $Γ$, where $n\\geq 2$ denotes the number of variables in an instance. For stable solvability, exactly one of the following holds: $\\bullet$ either there is an algorithm that solves $\\mathrm{CSP}(Γ)$ and has average sensitivity $O_Γ(1)$ for all satisfiable instances; $\\bullet$ or every algorithm that solves $\\mathrm{CSP}(Γ)$ has average sensitivity $Ω_Γ(n)$ on satisfiable instances of arbitrarily large $n$. The first alternative holds if and only if $Γ$ has finite duality: unsatisfiability can be witnessed on a bounded number of variables. For stable approximability, where a $(1-\\varepsilon)$-approximation violates at most an $\\varepsilon$-fraction of the constraints in expectation, exactly one of the following holds: $\\bullet$ either for every $\\varepsilon\\in(0,1]$, there is an algorithm that $(1-\\varepsilon)$-approximates $\\mathrm{CSP}(Γ)$ with average sensitivity $O_Γ(\\varepsilon^{-1}\\log n)$ for all satisfiable instances; $\\bullet$ or there exists $\\varepsilon_Γ\\in(0,1]$ such that every algorithm that $(1-\\varepsilon_Γ)$-approximates $\\mathrm{CSP}(Γ)$ has average sensitivity $Ω_Γ(n)$ on satisfiable instances of arbitrarily large $n$. The first alternative holds if and only if $Γ$ has bounded width: local consistency checks on bounded sets of variables detect unsatisfiability.",
+      "published": "2026-09-26",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2609.32558",
+      "url": "https://arxiv.org/abs/2609.32558",
+      "title": "Smooth or Separable? Sparse Block Acceleration for Entropy-Regularized Linear Programs",
+      "authors": [
+        "Irina Podlipnova",
+        "Maxim Mashtaler",
+        "Artem Agafonov",
+        "Yuriy Dorn",
+        "Alexander Gasnikov"
+      ],
+      "abstract": "We study entropy-regularized linear programs with sparse affine constraints and compare two exact dual representations induced by whether a redundant normalization constraint is retained or eliminated. Eliminating it yields a partially separable sum-exp dual with sparse affine factors but unbounded curvature. Our main result is an accelerated randomized block method whose acceleration preserves sparse data-access cost. The key ingredient is a global entropy-specific Hessian--gap bound that remains valid for signed constraint matrices, admits computable block-overlap refinements, and provides deterministic curvature certificates before sampling. This geometry supports square-root importance sampling and an exact lazy implementation in which sparse arithmetic cost is weighted by local curvature rather than by a worst-block factor. We further introduce a gap-dependent curvature dimension that connects the generalized-smooth regime to the classical effective-rank intuition for coordinate methods. Retaining the normalization constraint yields a log-sum-exp dual with globally bounded higher derivatives, enabling gradient-regularized and cubic-regularized Newton methods. Experiments compare the resulting methods in terms of coordinate epochs, arithmetic operations, and wall-clock time, separating the effects of acceleration, touched-data sparsity, and problem-specific structure.",
+      "published": "2026-09-26",
+      "categories": [
+        "math.OC"
+      ],
+      "tags": [
+        "curvature dimension"
+      ]
+    },
     {
       "id": "2609.31355",
       "url": "https://arxiv.org/abs/2609.31355",
@@ -23,6 +419,25 @@
       ]
     },
     {
+      "id": "2609.31843",
+      "url": "https://arxiv.org/abs/2609.31843",
+      "title": "Stationary activated random walk: regularity, heavy tails, and remixing",
+      "authors": [
+        "Tobias Johnson",
+        "Matthew Junge",
+        "Josh Meisel"
+      ],
+      "abstract": "We study the stationary state of driven-dissipative activated random walk on an interval of length $n$ and prove that subintervals down to size $\\log n$ have particle density near the critical value. We then deduce that the avalanche area is heavy-tailed and that the process forgets an initial stationary state after $o(n)$ steps. We conjecture that the density fluctuations, avalanche area, and remixing time from stationarity are governed by the same critical exponent.",
+      "published": "2026-09-25",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "mixing time"
+      ]
+    },
+    {
       "id": "2609.30648",
       "url": "https://arxiv.org/abs/2609.30648",
       "title": "Random walk in a non-homogeneous random environment on some random trees and the non-negative integers",
@@ -37,6 +452,24 @@
       ],
       "tags": [
         "random walk"
+      ]
+    },
+    {
+      "id": "2609.32067",
+      "url": "https://arxiv.org/abs/2609.32067",
+      "title": "From Ehrenfest to Heisenberg scales: a hierarchy of mixing times for a phase-randomized quantum baker walk",
+      "authors": [
+        "Amir Sepehri"
+      ],
+      "abstract": "The quantum baker map is a standard model of quantum chaos, but rigorous analysis of how it spreads random perturbations remains difficult. Following the repeated ``baker plus refreshed diagonal perturbation'' architecture of Schack and Caves, we study a tractable strong-noise model based on the Balazs--Voros quantization: at each time step, its unitary propagator is followed by a diagonal unitary whose entries are independent and uniform on the unit circle. The resulting random propagator is a structured random walk on $\\U(N)$, $N=2^k$. We quantify how quickly the baker dynamics spreads this basis-local randomness at three levels: ensemble means, two-copy statistics, and the full law of the accumulated propagator. The walk becomes an exact unitary $1$-design at time $k+1$, while its fixed-accuracy $2$-design mixing time is $Θ(\\log N)$. Thus the induced state ensembles reproduce Haar means and two-copy statistics on the Ehrenfest scale. The full law mixes much more slowly. A phase-adapted path coupling gives normalized Wasserstein mixing in $O_\\varepsilon(N)$ steps, whereas metric-entropy and Haar small-ball estimates give an $Ω_\\varepsilon(N/\\log N)$ lower bound and asymptotically maximal distance at every $t=o(N/\\log N)$. The law remains singular with respect to Haar measure for every $t<N$. The moment results and the Wasserstein upper bound are driven by the unistochastic Markov kernel associated with $B_N$, an affine dyadic chain whose nonconstant Fourier modes vanish exactly after $k$ steps. The resulting hierarchy separates Ehrenfest-scale randomization of state ensembles from near-Heisenberg-scale exploration of the full unitary group.",
+      "published": "2026-09-25",
+      "categories": [
+        "math.PR",
+        "math-ph"
+      ],
+      "tags": [
+        "random walk",
+        "mixing time"
       ]
     },
     {
@@ -91,7 +524,6 @@
       "published": "2026-09-25",
       "categories": [
         "math.NA",
-        "cs.NA",
         "math.DS",
         "math.PR"
       ],
@@ -116,6 +548,25 @@
       ],
       "tags": [
         "random walk"
+      ]
+    },
+    {
+      "id": "2609.31848",
+      "url": "https://arxiv.org/abs/2609.31848",
+      "title": "Averaged Mirror Descent and Dual Gradient Methods: Convergent Algorithms for Entropic Gromov-Wasserstein Problem",
+      "authors": [
+        "Joanna Mark",
+        "Gabriel Rioux",
+        "Riccardo Passegger"
+      ],
+      "abstract": "The Gromov-Wasserstein (GW) distance measures the discrepancy between metric measure (mm) spaces and identifies optimal alignments between them based solely on their intrinsic structure. Since it identifies isomorphic mm spaces, it provides a natural notion of distance for heterogeneous datasets which may admit isomorphic representations. In order to accelerate computation of GW distances, many practitioners employ entropic regularization to obtain an Entropic GW (EGW) problem. The most popular EGW solver is the Mirror Descent (MD) algorithm, which reduces EGW computations to an iterative process where an entropic optimal transport (EOT) problem is solved at each iteration. Despite its widespread use, the convergence of MD for this problem has only been established for restricted classes of costs. On the other hand, a recently proposed dual gradient method is available for general costs, but requires a choice of step size which depends on the regularization parameter. To address these two issues, we introduce Averaged Mirror Descent (AMD), which averages consecutive MD steps, and prove its convergence for arbitrary costs. Then, we establish that the dual gradient method with a fixed step size also converges for arbitrary costs at the cost of a more complicated iteration. In both cases, we also account for inexact iterations which are inescapable in practice. We compare the empirical performance of these methods across various settings and, in particular, show that AMD and the dual gradient method both converge on an example where classical MD fails.",
+      "published": "2026-09-25",
+      "categories": [
+        "cs.LG",
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
       ]
     },
     {
@@ -422,12 +873,12 @@
     {
       "id": "2609.28848",
       "url": "https://arxiv.org/abs/2609.28848",
-      "title": "Recurrence and transience of random walks on monotonically changing environments",
+      "title": "Recurrence and transience of random walks in monotonically changing environments",
       "authors": [
         "Rupert Li",
         "Jiyun Park"
       ],
-      "abstract": "Let $(c_t)_{t\\geq 0}$ be a deterministic family of edge conductances on a countable vertex set, monotone in $t$, and let $(X_t)$ be the random walk that takes its $t$-th step using the conductances $c_t$. We prove that if $c_t\\uparrow c_\\infty$ and $c_\\infty$ is recurrent (respectively, $c_0$ is transient), then $(X_t)$ is almost surely recurrent (respectively, transient), i.e., visits every vertex infinitely (respectively, finitely) often. We also establish the analogous results in continuous time. This proves conjectures of Amir, Benjamini, Gurel-Gurevich, and Kozma, and the special case of $\\set{0,1}$-valued conductances corresponds to simple random walk on a growing graph, and in this special case our results prove a conjecture of Dembo, Huang, and Sidoravicius. In addition, we provide counterexamples to the corresponding conjectures when $(c_t)$ is monotone non-increasing: if $c_t\\downarrow c_\\infty$ and $c_\\infty$ is transient, $(X_t)$ need not be transient, and similarly if $c_0$ is recurrent, $(X_t)$ need not be recurrent, even if $c_\\infty\\geqαc_0$ for some $α>0$.",
+      "abstract": "Let $(c_t)_{t\\geq 0}$ be a deterministic family of edge conductances on a countable vertex set, monotone in $t$, and let $(X_t)$ be the random walk that takes its $t$-th step using the conductances $c_t$. We prove that if $c_t\\uparrow c_\\infty$ and $c_\\infty$ is recurrent (respectively, $c_0$ is transient), then $(X_t)$ is almost surely recurrent (respectively, transient), i.e., visits every vertex infinitely (respectively, finitely) often. We also establish the analogous results in continuous time. This proves conjectures of Amir, Benjamini, Gurel-Gurevich, and Kozma, and the special case of $\\{ 0, 1 \\}$-valued conductances corresponds to simple random walk on a growing graph, and in this special case our results prove a conjecture of Dembo, Huang, and Sidoravicius. In addition, we provide counterexamples to the corresponding conjectures when $(c_t)$ is monotone non-increasing: if $c_t\\downarrow c_\\infty$ and $c_\\infty$ is transient, $(X_t)$ need not be transient, and similarly if $c_0$ is recurrent, $(X_t)$ need not be recurrent, even if $c_\\infty\\geqαc_0$ for some $α>0$.",
       "published": "2026-09-23",
       "categories": [
         "math.PR"
