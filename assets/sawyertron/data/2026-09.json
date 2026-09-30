@@ -1,8 +1,199 @@
 {
   "month": "2026-09",
-  "generated_at": "2026-09-29T15:58:16+00:00",
+  "generated_at": "2026-09-30T15:57:55+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2609.36728",
+      "url": "https://arxiv.org/abs/2609.36728",
+      "title": "Stochastic dominance of first return times for nearest-neighbor random walks on $\\mathbb{Z}^d$",
+      "authors": [
+        "Shoou-Ren Hsiau",
+        "Ting-Yi Tsai",
+        "Yi-Ching Yao"
+      ],
+      "abstract": "For a $d$-dimensional probability vector $\\mathbf{h}=(h_1,\\dots, h_d)$, let $(S^{\\mathbf{h}}_n)_{n\\geq 0}$ be a nearest-neighbor random walk on $\\mathbb{Z}^d$ such that at each step, it moves to one of the two nearest neighbors in the $i$-th dimension with probability $\\frac{1}{2} h_i$ ($i=1,\\dots, d$). Let $T^{\\mathbf{h}}=\\inf\\{n\\geq 1: S^{\\mathbf{h}}_n=(0,\\dots,0)\\}$, the first return time to the origin. For two $d$-dimensional probability vectors $\\mathbf{h}'$ and $\\mathbf{h}''$ with the former majorizing the latter, we show that $T^{\\mathbf{h}'}$ is stochastically smaller than $T^{\\mathbf{h}''}$. In particular, the first return time for the $d$-dimensional simple random walk is stochastically larger than $T^{\\mathbf{h}}$ for all $d$-dimensional probability vectors $\\mathbf{h}$.",
+      "published": "2026-09-29",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk"
+      ]
+    },
+    {
+      "id": "2609.37291",
+      "url": "https://arxiv.org/abs/2609.37291",
+      "title": "Learning Universal Costs via Multi-Observation Inverse Optimal Transport",
+      "authors": [
+        "Chenglong Bao",
+        "Zanyu Li",
+        "Defeng Sun"
+      ],
+      "abstract": "Classical Inverse Optimal Transport (IOT) typically infers a cost function from a single observed transport plan, which may be sensitive to noise and observational biases in practice. To address this limitation, we propose the Multi-Observation Inverse Optimal Transport (M-IOT) framework, which learns a universal cost function from multiple transport plans. We reformulate the resulting bilevel optimization problem into a tractable single-level convex program and characterize the existence and geometric structure of the optimal solution set. Moreover, we propose a Block Coordinate Descent with Anderson-type Extrapolation (BCDwAE) algorithm and establish its Q-linear convergence. Extensive experiments on synthetic data, urban mobility flows, and e-commerce recommendations demonstrate that M-IOT reduces recovery error compared to single-observation baselines and extracts robust structural patterns from noisy multi-view data.",
+      "published": "2026-09-29",
+      "categories": [
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2609.36977",
+      "url": "https://arxiv.org/abs/2609.36977",
+      "title": "Partition Space Maps for Community Detection: Visualizing Algorithmic Behaviour and Guiding Search",
+      "authors": [
+        "Fabio Morea"
+      ],
+      "abstract": "Community-detection methods search over possible partitions of a network, but the structure of this partition space is rarely examined directly. This paper introduces two complementary tools that make~$\\mathcal{P}$ analytically and visually accessible. First, a canonical labelling scheme based on the Restricted Growth Sequence~(RGS) is adopted, assigning each partition a unique, permutation-invariant identifier and eliminating the need for pairwise similarity measures such as the Normalized Mutual Information. Second, granularity~$Γ$ is defined and combined with modularity~$Q$ to produce a two-dimensional projection: the Partition Space Map~(PSM). Within the $(Γ,Q)$ plane, only a discrete set of integer values of~$Γ$ is attainable, and upper and lower bounds on~$Q$ are derived directly from the deviation matrix. These tools are demonstrated through complete enumeration of~$\\mathcal{P}$ for small benchmark graphs, revealing the fine structure of modularity degeneracy and the combinatorial constraints that shape the feasible region. The framework provides an exact, assumption-free reference for evaluating heuristic community detection algorithms and lays the groundwork for geometry-aware exploration of partition space in larger networks.",
+      "published": "2026-09-29",
+      "categories": [
+        "cs.SI"
+      ],
+      "tags": [
+        "community detection"
+      ]
+    },
+    {
+      "id": "2609.36998",
+      "url": "https://arxiv.org/abs/2609.36998",
+      "title": "Constrained Enumeration Reveals Hidden Optima and Precision-Dependent Degeneracy in Modularity-Based Community Detection",
+      "authors": [
+        "Fabio Morea"
+      ],
+      "abstract": "Modularity landscapes are often flat near the top: many distinct partitions achieve indistinguishable scores, and repeated runs of heuristic algorithms can still miss accessible optima. We introduce a two-phase workflow that (i) samples partitions until novelty saturates, then (ii) localises instability to a small subset of nodes and enumerates only that residual ambiguity under a locked stable core. Across a simple 50-nodes benchmark network, and a real weighted collaboration network, constrained enumeration systematically expands plateau coverage and can improve modularity beyond extensive Louvain restarts. Finally, we show that edge-weight rounding qualitatively reshapes plateau structure, making precision sensitivity an essential part of solution-space reporting.",
+      "published": "2026-09-29",
+      "categories": [
+        "cs.SI"
+      ],
+      "tags": [
+        "community detection"
+      ]
+    },
+    {
+      "id": "2609.37253",
+      "url": "https://arxiv.org/abs/2609.37253",
+      "title": "Explicit objective functions in modularity-based community detection on multiplex networks",
+      "authors": [
+        "Elizaveta Evmenova",
+        "Petr Chunaev"
+      ],
+      "abstract": "Modularity-based community detection in multiplex networks is commonly approached through one of three strategies: early fusion (EF), which first aggregates the layers into a single network and then applies community detection; simultaneous fusion (SF), which combines information from the layers during modularity optimization; and late fusion (LF), which combines the community assignments obtained by detecting communities separately in each layer. Although recent taxonomies and surveys distinguish these strategies conceptually, their objective functions have rarely been compared analytically. We provide such a comparison for shared-node multiplex networks with normalized non-negative edge and layer weights, a common resolution parameter, and no interlayer edges. Node-attributed networks are represented by topology and attribute-similarity layers. We use a common notation for the three formulations and derive explicit relationships between their objective functions. In particular, we show that the EF objective equals the SF objective plus a non-negative heterogeneity term. We prove that the SF objective admits an optimal layer-weight vector at a simplex vertex, although nonvertex optima may also occur under ties, whereas the EF objective is concave with respect to the layer parameter for each fixed partition, and its joint optimum may occur in the interior of the simplex. For LF methods, the resulting objective and conclusions depend heavily on how the transient graph is constructed. In this study, we focus only on one of such LF methods. We complement the analytical results with brute-force experiments on synthetic multiplexes and heuristic experiments on real-world networks, including node-attributed networks represented as multiplexes. The experiments illustrate the analytical results and the influence of heuristic optimizers on the observed comparisons.",
+      "published": "2026-09-29",
+      "categories": [
+        "cs.SI"
+      ],
+      "tags": [
+        "community detection"
+      ]
+    },
+    {
+      "id": "2609.37439",
+      "url": "https://arxiv.org/abs/2609.37439",
+      "title": "Real-rootedness and ultra log-concavity of rank-two matroid Ehrhart $h^*$-polynomials",
+      "authors": [
+        "Houshan Fu"
+      ],
+      "abstract": "We prove that the Ehrhart $h^*$-polynomial of a rank-two matroid with exactly three parallel classes is real-rooted whenever its smallest parallel class has size at most three. This bound is sharp: the rank-two matroids with parallel-class sizes $(4,561,600)$ and $(4,a,a+29)$, for all sufficiently large integers $a$, have $h^*$-polynomials that are not real-rooted. These counterexamples disprove Ferroni's real-rootedness conjecture. Their duals are cycle matroids of theta graphs and have the same $h^*$-polynomials. Nevertheless, every matroid of rank two or corank two has a positive $h^*$-coefficient sequence that is ultra log-concave of order equal to the polynomial's degree. In particular, the unimodality conjecture holds in both cases.",
+      "published": "2026-09-29",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2609.37830",
+      "url": "https://arxiv.org/abs/2609.37830",
+      "title": "Near-uniform $q$-matroids",
+      "authors": [
+        "Giovanni Longobardi",
+        "Rocco Trombetti",
+        "Lei Xu"
+      ],
+      "abstract": "We study the $q$-matroids associated with nondegenerate $\\F_{q^m}$-linear near-MRD codes, which we call near-uniform $q$-matroids. Using the correspondence between rank-metric codes and their associated $q$-systems, we determine explicitly their rank functions and characterize their cyclic flats. We show that near-uniform $q$-matroids form a class of representable paving $q$-matroids. and prove an upper bound on the number of their cyclic flats, which is shown to be sharp for certain parameters. Finally, when $n>m$, exploiting the rank distribution of near-MRD codes, we obtain an exact count of the nontrivial cyclic flats of the associated $q$-matroids.",
+      "published": "2026-09-29",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2609.38047",
+      "url": "https://arxiv.org/abs/2609.38047",
+      "title": "Merino-Welsh inequalities for matroids with controlled lattices of cyclic flats",
+      "authors": [
+        "Kolja Knauer",
+        "Leonardo Martínez-Sandoval",
+        "Criel Merino"
+      ],
+      "abstract": "Beke, Csáji, Csikvári, and Pituk showed that the Merino--Welsh quotient $Φ(M)=T_M(1,1)^2/(T_M(2,0)T_M(0,2))$ can be arbitrarily large, so the multiplicative Merino-Welsh inequality fails for matroids in general. We show that $Φ$ is uniformly bounded on the class of matroids whose cyclic-flat lattice avoids any fixed finite poset $P$ as an induced subposet. We further prove $Φ(M)\\leq1$ for matroids of cyclic width at most $7$, cyclic height at most $6$, and for loop- and coloop-free $4$-paving or $4$-copaving matroids.",
+      "published": "2026-09-29",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2609.36895",
+      "url": "https://arxiv.org/abs/2609.36895",
+      "title": "A Characterization of Walk-Matrix Equivalence at Corank Two via Reciprocal WQH Switching",
+      "authors": [
+        "Chaochao Zhu",
+        "Qin Yue"
+      ],
+      "abstract": "Let $G$ be a graph of order $n$ with adjacency matrix $A_G$, let $\\mathbf e$ denote the all-one vector, and let $W_G=[\\mathbf e,A_G\\mathbf e,\\ldots,A_G^{n-1}\\mathbf e]$ be its walk matrix. We consider the case $\\operatorname{rank}W_G=n-2$, the first corank for which distinct graphs can have the same walk matrix. We give a complete structural description of such pairs. More precisely, if $G$ and $H$ are distinct graphs on the same labelled vertex set and $\\operatorname{rank}W_G=n-2$, then $W_G=W_H$ if and only if $H$ is obtained from $G$ by a reciprocal Wang--Qiu--Hu (WQH) switching. In this case, $A_G-A_H=uv^T+vu^T$, where $u,v\\in\\{0,\\pm1\\}^n$ have disjoint supports and form a basis of $\\ker W_G^T$. We also determine the minimum order at which a non-isomorphic pair with equal corank-two walk matrices can occur. No such pair exists for $n\\leq 9$, while a connected pair exists on $10$ vertices. Starting from this example, we use singleton union and join operations, together with the graph coronal, to construct connected non-isomorphic pairs with equal walk matrices of corank two for every $n\\geq 10$. This, in particular, disproves a conjecture of Liu and Siemons.",
+      "published": "2026-09-29",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2609.36963",
+      "url": "https://arxiv.org/abs/2609.36963",
+      "title": "Fused ultrametric Gromov-Wasserstein for Scenario Tree generation in Multistage Stochastic Programming",
+      "authors": [
+        "Antonio Candelieri",
+        "Iman Seyedi",
+        "Francesco Archetti"
+      ],
+      "abstract": "Multistage Stochastic Programming requires scenario trees that accurately approximate the unknown underlying uncertainty process without violating the non-anticipativity constraint. Most of the existing method for scenario tree generation usually target just one of the two goals at the expense of the other, and just some recent methods try to simultaneously address both. In this paper, we propose to combine two recent distances from Optimal Transport Theory, specifically the ultrametric Gromov-Wasserstein and the Fused Gromov-Wasserstein, into a unique measure to simultaneously deal with the two goals. Our main result is a stability theorem showing that the optimal value of a Multistage Stochastic Programming problem changes by an amount controlled by a Holder-type power of the proposed distance between the true process and its scenario tree approximation, extending Wasserstein-based stability results to control marginal fidelity and non-anticipativity, simultaneously. We propose a block coordinate descent algorithm for the our scenario tree generation based on the proposed distance, and evaluate it on different inventory management test cases.",
+      "published": "2026-09-29",
+      "categories": [
+        "math.OC",
+        "math.MG"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2609.38161",
+      "url": "https://arxiv.org/abs/2609.38161",
+      "title": "A Spectral Theory of Distortion in LLM Graph Reconstruction: Sharp Bounds and Empirical Characterization",
+      "authors": [
+        "Jianru Shen"
+      ],
+      "abstract": "Evaluations of graph reconstruction by language models typically report a single aggregate distance between the original and the reconstructed graph. We prove that for the Wasserstein distance between Laplacian spectra such a summary is bracketed by two edge counts, the net change in edge number from below and the symmetric difference from above, each scaled by $2/n$ where $n$ is the number of vertices. The bracket is sharp: its two ends coincide exactly when the reconstruction only adds edges or only deletes them, and on that class the distance is a rescaled edge count that says nothing about which edges changed. When the ends differ, the residual between the distance and the lower end is positive only if the reconstruction both invented and lost edges, which turns it into a certificate of mixed editing computable from the reported summaries alone. We characterize these regimes in 135 reconstructions produced by three open-weight models over 45 synthetic graphs. Seventy-seven outputs are one-sided and 29 mixed outputs have $X > 0$, including cases where edge count is exactly preserved while nineteen edges were simultaneously invented and lost. The three models differ in editing policy, ranging from copying the input to attempting completion at the cost of large hallucination volume, a distinction that aggregate distortion does not reveal.",
+      "published": "2026-09-29",
+      "categories": [
+        "cs.LG",
+        "cs.DM"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
     {
       "id": "2609.35213",
       "url": "https://arxiv.org/abs/2609.35213",
@@ -553,11 +744,11 @@
     {
       "id": "2609.31848",
       "url": "https://arxiv.org/abs/2609.31848",
-      "title": "Averaged Mirror Descent and Dual Gradient Methods: Convergent Algorithms for Entropic Gromov-Wasserstein Problem",
+      "title": "Averaged Mirror Descent and Dual Gradient Methods: Convergent Algorithms for Entropic Gromov-Wasserstein Problems",
       "authors": [
-        "Joanna Mark",
+        "Joanna Marks",
         "Gabriel Rioux",
-        "Riccardo Passegger"
+        "Riccardo Passeggeri"
       ],
       "abstract": "The Gromov-Wasserstein (GW) distance measures the discrepancy between metric measure (mm) spaces and identifies optimal alignments between them based solely on their intrinsic structure. Since it identifies isomorphic mm spaces, it provides a natural notion of distance for heterogeneous datasets which may admit isomorphic representations. In order to accelerate computation of GW distances, many practitioners employ entropic regularization to obtain an Entropic GW (EGW) problem. The most popular EGW solver is the Mirror Descent (MD) algorithm, which reduces EGW computations to an iterative process where an entropic optimal transport (EOT) problem is solved at each iteration. Despite its widespread use, the convergence of MD for this problem has only been established for restricted classes of costs. On the other hand, a recently proposed dual gradient method is available for general costs, but requires a choice of step size which depends on the regularization parameter. To address these two issues, we introduce Averaged Mirror Descent (AMD), which averages consecutive MD steps, and prove its convergence for arbitrary costs. Then, we establish that the dual gradient method with a fixed step size also converges for arbitrary costs at the cost of a more complicated iteration. In both cases, we also account for inexact iterations which are inescapable in practice. We compare the empirical performance of these methods across various settings and, in particular, show that AMD and the dual gradient method both converge on an example where classical MD fails.",
       "published": "2026-09-25",
