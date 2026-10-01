@@ -1,8 +1,314 @@
 {
   "month": "2026-09",
-  "generated_at": "2026-09-30T15:57:55+00:00",
+  "generated_at": "2026-10-01T16:30:52+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2609.39455",
+      "url": "https://arxiv.org/abs/2609.39455",
+      "title": "Functional Limits and Separation Times for Two Interacting Elephant Random Walks",
+      "authors": [
+        "Rafik Aguech",
+        "Shuhei Shibata",
+        "Tomoyuki Shirai"
+      ],
+      "abstract": "We establish functional scaling limits and study first separation times for the interacting two elephant model studied by Aguech and Qin. In the joint diffusive regime, we give a direct martingale proof of convergence to a two-dimensional continuous Gaussian process represented by a matrix-kernel analogue of the noise-reinforced Brownian motion. We then investigate the difference process, whose diffusive scaling persists in the symmetric case even when the joint walk is critical or superdiffusive. For the first separation time of the two walks, we establish convergence in distribution to the first exit time of the limiting Gaussian process, together with convergence of all positive moments under diffusive scaling. We also obtain monotonicity results for the limiting exit time by combining explicit covariance identities with Anderson's inequality.",
+      "published": "2026-09-30",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2609.38988",
+      "url": "https://arxiv.org/abs/2609.38988",
+      "title": "Community Detection using the Edge Laplacian Dynamics vis-a-vis Ricci Flow",
+      "authors": [
+        "Pratibha Bhandari",
+        "Soumyendu Raha"
+      ],
+      "abstract": "It has been found that utilizing the geometric properties of the graph dynamics can bring out crucial information of the data that a statistical analysis will not. The properties of Ricci flow bring out hidden dynamics of the data in the same way as decomposition of smooth manifolds. In this paper we explore an alternative to Ricci flow, where we find that we can bring out similar properties like it using a simpler and well defined Edge Laplacian to practice community detection in graphs. Moreover, the results obtained by the present approach show that a flow driven by the Edge Laplacian yields results similar to those of the Ricci flow. In contrast, computing the Forman-Ricci curvature requires looping over the adjacent edges, while computing Olivier-Ricci curvature involves the computation of Wasserstein distance and probability distribution associated with the graph nodes, making the Edge Laplacian approach computationally more efficient.",
+      "published": "2026-09-30",
+      "categories": [
+        "math.DS",
+        "cs.SI"
+      ],
+      "tags": [
+        "Wasserstein distance",
+        "Ricci curvature",
+        "community detection"
+      ]
+    },
+    {
+      "id": "2609.38960",
+      "url": "https://arxiv.org/abs/2609.38960",
+      "title": "Fast and Scalable Multi-Agent Distribution Matching via Partitioned Optimal Transport",
+      "authors": [
+        "Kooktae Lee",
+        "Ruchika Singh"
+      ],
+      "abstract": "This paper presents a scalable optimal-transport-based framework for terminal distribution matching in multi-agent systems. While optimal transport provides a natural way to measure distributional mismatch and assign agents to a desired spatial distribution, global discrete transport can become computationally expensive for large-scale systems. We address this bottleneck by partitioning agents and target samples into spatially corresponding blocks and solving smaller local transport problems. Under a mass-balance condition, the resulting restricted coupling remains feasible for the global problem and provides an upper bound on the Wasserstein cost. The local assignments generate target locations for finite-horizon agent control, applicable to both linear and nonlinear dynamics. By alternating local assignment and control, we establish a cycle-to-cycle descent guarantee for the resulting transport surrogate. The proposed framework therefore enables scalable terminal distribution matching while retaining a rigorous connection to the Wasserstein objective. The technical soundness of the proposed results is validated through simulations.",
+      "published": "2026-09-30",
+      "categories": [
+        "cs.MA",
+        "cs.RO",
+        "eess.SY",
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2609.40156",
+      "url": "https://arxiv.org/abs/2609.40156",
+      "title": "Partial identification with entropy regularized optimal transport",
+      "authors": [
+        "Bruno N. Costa",
+        "Florian F. Gunsilius"
+      ],
+      "abstract": "In many statistical settings, the available data and maintained assumptions do not suffice to uniquely identify the model parameters of interest. In such cases, one can only identify sets which are guaranteed to contain the true parameters. These are often characterized through linear programs that optimize over models compatible with the observed data. These programs can be infinite-dimensional in the optimizer and the number of constraints. We provide a unified way to characterize and solve such optimization problems by phrasing them as optimal transport problems on path spaces. This allows us to regularize the problem with an entropy penalty, recasting it as a multi-marginal entropic optimal transport problem, which can be solved efficiently via Sinkhorn iterations. In addition, it allows us to establish convergence of the regularized value to the sharpest bound, derive consistency rates for a plug-in estimator, and obtain asymptotic distribution for approximate bounds. The method is general and accommodates settings ranging from instrumental variable models with continuous variables to welfare estimation in heterogeneous demand models. We verify the statistical and computational properties in simulations and provide an application to demand estimation.",
+      "published": "2026-09-30",
+      "categories": [
+        "econ.EM",
+        "math.ST",
+        "stat.ML"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2609.39219",
+      "url": "https://arxiv.org/abs/2609.39219",
+      "title": "Central Limit Theorem of Maximum Weight Matching on Random Graphs with Prescribed Degrees",
+      "authors": [
+        "Shichen Jing",
+        "Wai-Kit Lam",
+        "Arnab Sen"
+      ],
+      "abstract": "We prove an annealed central limit theorem for the weight of the maximum weight matching on uniformly random simple graphs with prescribed, uniformly bounded degrees and i.i.d. exponential edge weights. In particular, the result applies to random $d$-regular graphs for every fixed $d \\ge 2$. The proof separates the fluctuations arising from the edge weights from those arising from the graph. The correlation decay estimate of Lam and Sen (arXiv:2511.18861) yields Gaussian fluctuations for the former. The main difficulty is to analyze the fluctuations of the conditional mean of the optimal weight given the graph. To address this, we prove a stronger perturbative correlation decay estimate that, together with a variance bound, reduces the problem to the central limit theorem of Barbour and Röllin [Ann. Appl. Probab. 29(2) (2019)] for local statistics of the configuration model.",
+      "published": "2026-09-30",
+      "categories": [
+        "math.PR",
+        "math.CO"
+      ],
+      "tags": [
+        "random graph"
+      ]
+    },
+    {
+      "id": "2609.39466",
+      "url": "https://arxiv.org/abs/2609.39466",
+      "title": "T-ARC: Topology-Aware Randomized Clustering via Distributionally Robust Stochastic Block Models",
+      "authors": [
+        "Serena Grazia De Benedictis",
+        "Andersen Ang",
+        "Nicoletta Del Buono",
+        "Flavia Esposito",
+        "Laura Selicato"
+      ],
+      "abstract": "In this work, we introduce a new clustering method, namely T-ARC (Topology-Aware Randomized Clustering), that corrects the geometric bias of K-means by embedding topological information directly into the optimization objective. Building on the assumption that the data admits an underlying hidden structure modeled via a latent graph, the idea is to uncover this information through the interplay between the standard K-means data-fidelity term and a graph-cut penalty, which discourages cluster assignments inconsistent with the connectivity structure of the data. To render this coupling tractable, the latent graph is modeled as a random realization from a Stochastic Block Model (SBM), whose scalar parameter is optimized within a Distributionally Robust Optimization (DRO) framework, yielding a closed-form proximal update. Both SBM and DRO are informed by a persistence-based similarity matrix derived from zero-dimensional persistent homology ($H_0$), which translates the multiscale connectivity structure of the data into a pairwise topological prior. The overall optimization proceeds via Block Coordinate Descent; convergence is established through a global Lyapunov functional: the deterministic blocks satisfy monotonic descent, while the stochastic graph update satisfies descent in expectation, so that the expected energy converges. Experiments on synthetic datasets with non-convex geometries and on random subsets of Fashion-MNIST show that T-ARC recovers latent topological structures where K-means fails, achieving the highest accuracy on curved and interleaved clusters while remaining competitive, and markedly more stable than K-means, on real data.",
+      "published": "2026-09-30",
+      "categories": [
+        "cs.LG",
+        "math.AT",
+        "math.OC"
+      ],
+      "tags": [
+        "stochastic block model"
+      ]
+    },
+    {
+      "id": "2609.40182",
+      "url": "https://arxiv.org/abs/2609.40182",
+      "title": "A mixing time method for estimating the sample complexity of quantum state discrimination",
+      "authors": [
+        "Juntai Zhou",
+        "Felix Leditzky"
+      ],
+      "abstract": "We develop a mixing time method for estimating the sample complexity of quantum state discrimination. We start with considering the minimum-error discrimination of geometrically uniform pure state ensembles, and prove that its sample complexity has a tight estimate given by a quantum homogeneous mixing time [George et al., 2026] and a quantum version of the generalized Dobrushin coefficient [Wolfer, 2020]. This quantum mixing time further reduces to a classical one when the generating group $G$ forms a Gelfand pair with the stabilizer subgroup $H$ of the generator state. In this case the generalized Dobrushin coefficient can be fully expressed by representation-theoretic quantities of the commutative Hecke algebra $\\operatorname{End}_G(\\mathbb C[G/H])$. In particular, this method reduces the sample complexity estimation of learning quantum coupon collector states [Arunachalam et al., 2020] and learning phase states to classical mixing time problems. We apply this framework to answer the open problems of learning degree-$d$ phase states over $\\mathbb F_q$ in [Alrabiah et al., 2026] and generalized Boolean phase states over $\\mathbb Z_q$ [Arunachalam et al., 2023]. The framework also applies to hypergraph state ensembles, giving estimates expressed fully in terms of hypergraph data and recovering estimates for graph state ensembles in [Montanaro and Shao, 2022]. Finally, we extend the discussion to arbitrary mixed state ensembles with uniform priors, prove a sandwiched bound for minimum-error discrimination sample complexity by a quantum weakly mixing time, and provide a tight estimate for the minimax discrimination sample complexity from [D'Ariano et al., 2005] by a Dobrushin-type coefficient. We also discuss the method of strengthened data processing inequality [Gao and Rouz{é}, 2022] and give an upper bound in terms of a strengthened data processing inequality constant.",
+      "published": "2026-09-30",
+      "categories": [
+        "quant-ph",
+        "cs.CC",
+        "cs.IT",
+        "math.PR",
+        "math.RT"
+      ],
+      "tags": [
+        "mixing time"
+      ]
+    },
+    {
+      "id": "2609.40357",
+      "url": "https://arxiv.org/abs/2609.40357",
+      "title": "Singularity of harmonic measures for hyperbolic lattices",
+      "authors": [
+        "Nikolay Bogachev"
+      ],
+      "abstract": "Let $Γ<\\mathrm{Isom}(\\mathbb H^n)$, $n\\geq2$, be a cocompact lattice containing a convex cocompact codimension-one subgroup in the sense of Sageev. We prove that every finitely supported admissible random walk on $Γ$ has hitting measure singular with respect to Lebesgue measure on $\\partial\\mathbb H^n$. The proof extends the method of Kosenko--Tiozzo, replacing Fourier analysis for a cyclic subgroup by a von Neumann dimension argument that also applies to nonabelian subgroups. As corollaries, we prove the singularity conjecture of Kaimanovich and Le Prince for cocompact hyperbolic lattices admitting a proper cocompact cubulation, cocompact Kleinian groups, and cocompact hyperbolic lattices with totally geodesic sublattices of codimension one. In particular, our result covers all cocompact hyperbolic reflection groups, cocompact arithmetic lattices of simplest type and cocompact nonarithmetic lattices arising from the hybrid and inbreeding constructions.",
+      "published": "2026-09-30",
+      "categories": [
+        "math.DS",
+        "math.GR",
+        "math.GT",
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2609.39680",
+      "url": "https://arxiv.org/abs/2609.39680",
+      "title": "Additive codes arising from hypergraphs",
+      "authors": [
+        "Gianira N. Alfarano"
+      ],
+      "abstract": "We study the critical exponent of additive codes through an integer polymatroid associated with the code. We give a coding-theoretic proof of Whittle's Critical Theorem in this setting, a geometric description of the critical exponent in terms of $h$-projective systems, and general bounds, including an analogue of Kung's girth bound. We then study additive codes whose polymatroid is the hypergraphic polymatroid of a hypergraph $H$. For these codes the critical exponent turns to be determined by the weak chromatic number of $H$. If the code is faithful, then the minimum folded Hamming weight of the dual code is equal to the Berge girth of $H$. If $H$ is connected, the minimum distance is equal to the edge-connectivity of $H$. As a consequence, for $h\\geq2$ we determine all such codes with connected $H$ that attain the Singleton bound, that is, all faithful hypergraphic additive quasi-MDS codes. We specialise the Griesmer and linear programming bounds to hypergraphic codes, we derive a lower bound on the minimum distance from the Laplacian eigenvalues of the weighted $2$-section of $H$, and we compare all these bounds computationally.",
+      "published": "2026-09-30",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "Laplacian eigenvalue",
+        "matroid"
+      ]
+    },
+    {
+      "id": "2609.38685",
+      "url": "https://arxiv.org/abs/2609.38685",
+      "title": "Auction-Based Algorithms for Matroid Intersection: Near-Linear Query Complexity and Constant-Pass Semi-Streaming",
+      "authors": [
+        "Chien-Chung Huang",
+        "Yusuke Kobayashi"
+      ],
+      "abstract": "In this paper, we develop a new auction-based framework for matroid intersection and use it to obtain improved approximation algorithms in several computational settings. Our framework is inspired by Fleiner's generalized stable matching algorithm and extends the semi-streaming auction algorithm for bipartite matching due to Assadi, Liu, and Tarjan. Using this framework, for any $\\varepsilon > 0$, we present a simple $(1-\\varepsilon)$-approximation algorithm in the rank-oracle model whose query complexity matches that of the current fastest algorithm. Furthermore, by extending this result, we obtain the first $(1-\\varepsilon)$-approximation algorithm for the weighted problem that requires only a near-linear number of rank-oracle queries, achieving the best known rank-oracle query complexity for the problem. We also obtain a $(1-\\varepsilon)$-approximation semi-streaming algorithm for matroid intersection in the multi-pass streaming model, where the elements of the ground set arrive sequentially. It is the first algorithm achieving this approximation ratio using a constant number of passes and nearly linear space in the ranks of the matroids. When viewed in the standard offline setting, the same algorithm yields the first deterministic $(1-\\varepsilon)$-approximation algorithm for matroid intersection that requires only a near-linear number of independence-oracle queries.",
+      "published": "2026-09-30",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2609.40084",
+      "url": "https://arxiv.org/abs/2609.40084",
+      "title": "Unimodality of Kazhdan--Lusztig polynomials of sparse paving matroids",
+      "authors": [
+        "Matthew H. Y. Xie",
+        "Zuo-Ru Zhang"
+      ],
+      "abstract": "We prove that the Kazhdan--Lusztig polynomial of a loopless sparse paving matroid is unimodal. When the rank is at least five and the corank is positive, we show that the coefficient sequence is strictly unimodal except for three explicitly determined parameter triples, each giving two equal maximal coefficients. We also determine the modes and classify the degenerate loopless sparse paving matroids of positive rank and corank.",
+      "published": "2026-09-30",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2609.40263",
+      "url": "https://arxiv.org/abs/2609.40263",
+      "title": "Superlinear Quantum Query Lower Bounds for Subgraph Detection",
+      "authors": [
+        "Amin Shiraz Gilani",
+        "Xingyu Zhou"
+      ],
+      "abstract": "Subgraph detection asks whether an $n$-vertex graph, accessed through queries to its adjacency matrix, contains a copy of a fixed graph $H$. We prove the first unconditional superlinear lower bounds on the bounded-error quantum query complexity of this problem, answering a longstanding open question. A copy of $H$ is a certificate of constant size, so the adversary method with nonnegative weights cannot prove superlinear lower bounds. For every fixed $r\\ge 4$, detecting the clique $K_r$ requires $n^{λ_r-o(1)}$ queries, where $λ_4=19/18$, the exponents $λ_r$ increase strictly with $r$, and $λ_r\\ge 2-4\\sqrt{2/r}+O(1/r)$. More generally, we prove superlinear lower bounds for detecting every fixed connected graph $H$ with chromatic number $c\\ge 4$. These bounds approach quadratic as $c$ grows: for sufficiently large $c$, detection requires $n^{2-O(\\sqrt{\\log\\log c/c})-o(1)}$ queries. Chromatic number alone does not characterize the quantum query complexity of subgraph detection: we show that detecting the complete bipartite graph $K_{r,r}$ requires $n^{β_r-o(1)}$ queries, where $β_{10}=181/180$ and $β_r\\ge 2-O(1/\\sqrt{r})$. Our main technical result is a lower bound for finding an all-ones certificate from a known family when the input bits are sampled independently. Its proof combines Zhandry's compressed oracle (CRYPTO 2019) with conditioning on a randomly planted certificate, adapting an argument of Belovs (FOCS 2026). Our hard instances are built from graphs containing many copies of the desired subgraph with limited overlap. For cliques, we use a construction of Gowers and Janzer (CPC 2021); for complete bipartite graphs, we use a random construction.",
+      "published": "2026-09-30",
+      "categories": [
+        "quant-ph",
+        "cs.DS"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2609.39144",
+      "url": "https://arxiv.org/abs/2609.39144",
+      "title": "Sharp Stationary Gaussian Approximation for Constant-Stepsize SGD",
+      "authors": [
+        "Junghoon Seo"
+      ],
+      "abstract": "We prove a sharp Gaussian approximation for the invariant law of constant-stepsize SGD with bounded additive noise generated by an exogenous uniformly ergodic Markov chain. For a smooth, strongly convex objective with a Lipschitz Hessian and nondegenerate long-run noise covariance, the centered iterate normalized by the square root of the stepsize is $O(\\sqrtα)$-close in 1-Wasserstein distance to its limiting Gaussian. The proof combines blockwise Gaussian comparison with long-run contraction. A four-state example gives a matching lower bound although the one-time noise marginal is symmetric and every nonzero-lag autocovariance vanishes. In this example, an adjacent third-order mixed moment produces the leading correction.",
+      "published": "2026-09-30",
+      "categories": [
+        "cs.LG",
+        "math.OC"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2609.39449",
+      "url": "https://arxiv.org/abs/2609.39449",
+      "title": "Distributionally robust linear regression through the lens of adversarial training",
+      "authors": [
+        "Elis Stefansson",
+        "David Vävinggren",
+        "Antônio H. Ribeiro"
+      ],
+      "abstract": "Distributionally robust optimization (DRO) studies parameter estimation under uncertainty in the underlying probability distribution and has emerged as a principled framework for analyzing robustness and generalization. In particular, Wasserstein DRO, with distributional uncertainty induced by the Wasserstein distance, generalizes several popular regularizers. This paper studies Wasserstein DRO linear regression, unifying square-root Lasso and adversarial linear regression as important special cases. We prove that many properties of these two special cases carry over to this general method. In particular, we show (i) deterministic and non-asymptotic in-sample error bounds $O(n^{-1/2})$ in general and $O(n^{-1})$ under design matrix and sparsity conditions; (ii) insensitivity to the noise level, also known as the pivotal property; and (iii) solution equivalences for small and large ambiguity sets. The key proof step is to recast the method into a quadratic form, mimicking adversarial linear regression. We also show that the method can be solved efficiently, and we validate our findings through numerical simulations.",
+      "published": "2026-09-30",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.OC"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2609.39905",
+      "url": "https://arxiv.org/abs/2609.39905",
+      "title": "Is the regression $F$-test doubly robust?",
+      "authors": [
+        "Lucy Xia",
+        "Oliver Y. Feng",
+        "Yang Feng",
+        "Min Xu",
+        "Richard J. Samworth"
+      ],
+      "abstract": "We study the robustness of the $F$-test in random design linear models, and reach a somewhat nuanced conclusion. On the positive side, one of our main results is that the size of the test is close to its nominal level as soon as either the distribution of the normalised error vector is close to uniform on the unit sphere, or the design matrix, after applying a suitable column space-preserving orthogonalisation scheme, is close to being uniformly distributed. This provides a sense in which the $F$-test is doubly robust. Our conclusion is reached by establishing a Kolmogorov to Wasserstein distance Hölder continuity property controlling the departure of the $F$-statistic from its notional $F$-distribution under the null. Writing $n$, $p$ and $p_0$ for the sample size and the dimensions of the full and null models respectively, we prove that the Hölder exponent is $1/3$ when $\\min(p-p_0,n-p) = 1$ and $1/2$ when $\\min(p-p_0,n-p) \\geq 2$. On the other hand, these exponents are relatively small and cannot be improved in general, revealing that the size of the test may depart from its nominal level quite quickly as we move away from settings where the test is exact. In some cases, our conclusions may be improved by working with a local Kolmogorov distance that focuses on discrepancies between distribution functions in the right tail.",
+      "published": "2026-09-30",
+      "categories": [
+        "math.ST"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2609.40271",
+      "url": "https://arxiv.org/abs/2609.40271",
+      "title": "Refined sample complexities from the tomographic rate function",
+      "authors": [
+        "Arick Grootveld",
+        "Alexander Maloney",
+        "Jason Pollack",
+        "Peixue Wu"
+      ],
+      "abstract": "Protocols for quantum state tomography can be characterized either by their sample complexity or by the tomographic rate function that governs the large deviation behaviour of error estimates. We establish a framework for the analysis of covariant protocols which allows us to compare these measures. First, we derive the rate functions for several protocols, including random purification-based protocols and the sample-optimal protocol of Haah et al. These rate functions are expressed in terms of a new family of divergences which includes the reverse sandwiched Rényi divergence and Keyl's annealed quantum relative entropy as special cases. We show that these rate functions obey a strict ordering, even though the sample complexity of each protocol is order optimal. We consider a different version of sample complexity based on Wasserstein distance rather than trace distance, and show that the ordering of the rate functions implies analogous strict inequalities for the Wasserstein-type sample complexity. Thus the tomographic rate function is a more fine-grained indicator of the performance of a tomography protocol than the usual sample complexity.",
+      "published": "2026-09-30",
+      "categories": [
+        "quant-ph",
+        "cs.IT",
+        "math-ph",
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
     {
       "id": "2609.36728",
       "url": "https://arxiv.org/abs/2609.36728",
