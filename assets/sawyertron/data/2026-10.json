@@ -1,6 +1,346 @@
 {
   "month": "2026-10",
-  "generated_at": "2026-10-01T16:30:52+00:00",
+  "generated_at": "2026-10-02T15:52:16+00:00",
   "source": "arXiv metadata API",
-  "papers": []
+  "papers": [
+    {
+      "id": "2610.01658",
+      "url": "https://arxiv.org/abs/2610.01658",
+      "title": "Are random random walks normal?",
+      "authors": [
+        "Kais Hamza",
+        "Laurent Tournier"
+      ],
+      "abstract": "Given a symmetric simple random walk $(X_n)_{n \\ge 0}$, the family of all symmetric simple random walks $(Y_n)_{n \\ge 0}$ adapted to the filtration of $(X_n)_{n \\ge 0}$ was studied in Collevecchio et al. (2022). In particular, the authors established necessary and sufficient conditions under which the suitably normalized two-dimensional process $((X_n, Y_n))_{n \\ge 0}$ converges weakly to a two-dimensional Brownian motion. When this occurs, we say that the random walk $(Y_n)_n$ is normal (with respect to $(X_n)_n$). In this paper, we investigate whether a \"randomly selected\" $(Y_n)_{n \\ge 0}$ is normal. We consider a very general randomization procedure and look at both the quenched and annealed settings.",
+      "published": "2026-10-01",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk"
+      ]
+    },
+    {
+      "id": "2610.00875",
+      "url": "https://arxiv.org/abs/2610.00875",
+      "title": "The least signless Laplacian eigenvalue of $\\{C_3,C_5\\}$-free graphs",
+      "authors": [
+        "Qi Zhou"
+      ],
+      "abstract": "Brandt [Discrete Math. 183 (1998) 17--25] conjectured that the least signless Laplacian eigenvalue of every regular triangle-free graph of order $n$ is at most $4n/25$. Using flag algebras, Balogh, Clemen, Lidický, Norin and Volec [SIAM J. Discrete Math. 37 (2023) 1173--1179] established the stronger bound $15n/94$ for all triangle-free graphs. We investigate the effect of additionally excluding pentagons and prove that every $\\{C_3,C_5\\}$-free graph $G$ of order $n$ satisfies $\\qmin(G)<0.0569n$, without any regularity assumption. The proof combines seven-vertex flag inequalities with local Rayleigh constraints that retain the least eigenvalue throughout the counting argument. An exact integer certificate establishes the required inequality.",
+      "published": "2026-10-01",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "Laplacian eigenvalue",
+        "signless Laplacian"
+      ]
+    },
+    {
+      "id": "2610.01844",
+      "url": "https://arxiv.org/abs/2610.01844",
+      "title": "Ballistic Speed and Potential-Theoretic Recurrence for Homogeneous Open Quantum Random Walks",
+      "authors": [
+        "Ameur Dhahri",
+        "Chul Ki Ko",
+        "Farrukh Mukhamedov",
+        "Hyun Jae Yoo"
+      ],
+      "abstract": "Our study connects root-mean-square ballistic transport to potential-theoretic recurrence for finite-range open quantum random walks. In homogeneous walks with primitive local channels, finitely many simple periodic Fourier peripheral eigenvalues, no nonzero stationary Fourier mode, and a nondegenerate quadratic spectral term, we prove a periodic uniform local limit theorem and recover exponential finite-set return bounds for nonzero drift. The centered case yields strong Green-function asymptotics in at least three dimensions, as well as potential-kernel asymptotics in one and two dimensions. According to these assumptions, the RMS ballistic speed equals the drift norm, nonzero drift indicates transience, and centered walks are recurring in effective dimensions one and two but transitory in higher dimensions. The low-dimensional finding shows a recurrence of the origin projection in TOM. For reducible walks, an explicit harmonic \\(h\\)-transform converts each absorption component to an OQRW, providing a detailed breakdown of Green occupation potentials. The squared RMS speed is the absorption-weighted mean of squared component drifts, but the reduced drift-dimension classification also needs specific component return estimations. A centered noncommuting family validates the fundamental spectral assumptions in all dimensions and provides explicit potential constants. Exact finite traps and sparse reflecting barriers provide a complementary nonhomogeneous method for zero speed and TOM recurrence.",
+      "published": "2026-10-01",
+      "categories": [
+        "math.FA",
+        "math-ph",
+        "math.OA",
+        "math.PR",
+        "quant-ph"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.01852",
+      "url": "https://arxiv.org/abs/2610.01852",
+      "title": "A limit law for the cover time of the two-dimensional discrete torus",
+      "authors": [
+        "Yechi Zhou"
+      ],
+      "abstract": "We determine the limiting distribution of the cover time of simple random walk on the two-dimensional discrete torus. For the continuous-time walk with total jump rate one on $(\\mathbb Z/N\\mathbb Z)^2$, let $T_N$ denote its cover time. We prove that $\\frac{T_N}{(2/π)N^2\\log N}-2\\log N+\\log\\log N \\Longrightarrow G+\\log(κZ)$, where $G$ is a standard Gumbel random variable, $Z$ is the total mass of the critical Gaussian multiplicative chaos associated with the zero-average Gaussian free field on the unit torus, $G$ and $Z$ are independent, and $κ>0$ is deterministic. This answers the limit-law question suggested by Aldous and recorded by Dembo, Peres, Rosen and Zeitouni. The proof identifies the random fluctuations in the number of small, well-separated unvisited components at a deterministic time before coverage, and then estimates the time needed to visit the remaining components.",
+      "published": "2026-10-01",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk"
+      ]
+    },
+    {
+      "id": "2610.01982",
+      "url": "https://arxiv.org/abs/2610.01982",
+      "title": "Matrix Concentration and Equivalent Operators on Fock Spaces",
+      "authors": [
+        "Afonso S. Bandeira",
+        "Dmitriy Kunisky",
+        "Petar Nizić-Nikolac",
+        "Lucas Pesenti",
+        "Robert Wang"
+      ],
+      "abstract": "We develop a method for proving matrix concentration inequalities by identifying random matrices with associated deterministic operators acting on suitable Fock spaces and controlling norms of these operators and their restrictions to low-order subspaces. Applying this method, we obtain new strengthenings of the non-commutative Khintchine inequality that improve on the state of the art, in particular sharpening recent inequalities due to Bandeira, Boedihardjo, and van Handel (2023) quantifying intrinsic freeness of random matrices. Our proofs of these results are based on relatively simple operator algebra arguments and involve neither Gaussian interpolation nor explicit combinatorics of tracial moments. Further, our techniques apply equally well to several models of non-commutative random variables of interest in the literature, such as operator series constructed from $q$-Gaussian and $Γ$-independent systems of operators, treating all of these objects with the same method. We obtain new norm bounds for such operators both in the style of the non-commutative Khintchine inequality and in the style of Lehner's operator norm formula.",
+      "published": "2026-10-01",
+      "categories": [
+        "math.PR",
+        "math.OA"
+      ],
+      "tags": [
+        "matrix concentration"
+      ]
+    },
+    {
+      "id": "2610.01361",
+      "url": "https://arxiv.org/abs/2610.01361",
+      "title": "Degree-Corrected Joint Matrix Factorization for Multilayer Community Detection",
+      "authors": [
+        "Alexandra Dache",
+        "Manon Rustin",
+        "Arnaud Vandaele",
+        "Nicolas Gillis"
+      ],
+      "abstract": "Multilayer networks allow the modeling of interactions between the same entities across different contexts, such as temporal observations, varying settings, or interactions of different types. The goal of community detection in multilayer networks is to identify groups of nodes exhibiting similar connectivity patterns, which may vary across layers. We propose a method based on a joint nonnegative symmetric matrix trifactorization for community detection in multilayer networks, where each graph is approximated by a nonnegative symmetric matrix trifactorization. Our approach enforces constraints on the factor matrices so that communities are disjoint and shared across layers, while allowing each layer to have its own connectivity patterns and node degrees. This flexibility enables the model to capture both local and global structural variations across layers. We also develop an algorithm to efficiently solve this problem. We evaluate multilayer community detection methods using the multilayer degree-corrected stochastic block model (MDCBM), a flexible framework for generating realistic multilayer graphs with heterogeneous degrees and varying connectivity patterns. Experiments show that our method reliably detects communities across diverse regimes, whereas existing state-of-the-art approaches are often limited by restrictive structural assumptions.",
+      "published": "2026-10-01",
+      "categories": [
+        "cs.SI",
+        "cs.LG"
+      ],
+      "tags": [
+        "stochastic block model",
+        "community detection"
+      ]
+    },
+    {
+      "id": "2610.01199",
+      "url": "https://arxiv.org/abs/2610.01199",
+      "title": "Low-Budget Active Learning through Entropic Optimal Transport",
+      "authors": [
+        "Rim Hajal",
+        "Mathieu Besançon",
+        "Jérôme Malick"
+      ],
+      "abstract": "We consider low-budget active learning, which consists of selecting a limited number of points, the coreset, such that a model can be trained to high accuracy on the selection only. This problem is particularly relevant in contexts where labeling requires costly expert intervention, as in medical applications. We leverage features extracted from a pretrained self-supervised model to represent the data, and perform coreset selection directly in this feature space. In this paper, we use entropic optimal transport, specifically the Sinkhorn divergence, as the coreset selection criterion, which first allows us to get dimension-free sample complexity results, and second admits computationally efficient gradient evaluations. This opens the way to using gradient-based algorithms to rapidly compute solution candidates, further improved by a swap-based local search, with guarantees on the solution quality. Experiments on image benchmarks and medical datasets show that our method outperforms state-of-the-art heuristics in low-budget settings.",
+      "published": "2026-10-01",
+      "categories": [
+        "cs.LG",
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2610.02077",
+      "url": "https://arxiv.org/abs/2610.02077",
+      "title": "Geometry and Convergence of Quadratically Regularized Optimal Transport II",
+      "authors": [
+        "Alberto González-Sanz",
+        "Marcel Nutz"
+      ],
+      "abstract": "We study quadratically regularized optimal transport with quadratic cost in the regime of small regularization $\\varepsilon$, where the support of the optimal coupling is sparse. For smooth marginal densities in $\\mathbb{R}^d$, we show that the support contains the graph of the Brenier map. After centering by the Brenier image and rescaling by $\\ell=\\varepsilon^{1/(d+2)}$, the sections of the support have explicit ellipsoidal limits for $\\varepsilon\\to0$, except at boundary points, where the limits are half-space profiles. The optimal dual potentials admit expansions at order $\\ell^2$, uniformly up to the boundary. We identify the leading coefficients, which consist of a common local profile and opposite global corrections determined by a linear Neumann problem. Finally, we analyze two approximations to the Brenier map, namely the gradient of the dual potential and the conditional mean of the coupling. We obtain the sharp $L^p$ rate $\\ell^{1+1/p}$ with exact leading constants and further identify the leading interior and boundary biases. Taken together, our results illustrate that quadratic regularization induces an accurate sparse approximation of classical optimal transport.",
+      "published": "2026-10-01",
+      "categories": [
+        "math.AP",
+        "math.OC",
+        "math.PR"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2610.01298",
+      "url": "https://arxiv.org/abs/2610.01298",
+      "title": "Higher-Order Fluctuations of the Log-Partition Function for Ising Models on Inhomogeneous Random Graphs",
+      "authors": [
+        "Sanchayan Bhowal",
+        "Somabha Mukherjee"
+      ],
+      "abstract": "Classical central limit theorems (CLTs) for log-partition functions of Ising models on Erdős-Rényi random graphs lead to degenerate limits in the high-temperature regime when self-loops are absent. In this paper, we fill this surprising gap in the more general context of Ising models on inhomogeneous random graphs. In particular, we show that if $G(N,W)$ is an inhomogeneous random graph without self-loops generated by a graphon $W$, then, in the high-temperature regime, the log-partition function of the corresponding Ising model satisfies a CLT on the $N$-scale, with a limiting variance that incorporates contributions from cycles of all orders. This behavior contrasts sharply with that of the corresponding model in which self-loops are allowed, where the analogous Gaussian fluctuations occur on the $\\sqrt{N}$-scale, with their asymptotic variance determined entirely by the diagonal profile of $W$. Our analysis yields, as a byproduct of independent interest, a CLT for the log-determinant of the associated resolvent matrix, established by combining the Lindeberg CLT for triangular arrays with suitable bounds on higher-order trace terms.",
+      "published": "2026-10-01",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random graph"
+      ]
+    },
+    {
+      "id": "2610.01591",
+      "url": "https://arxiv.org/abs/2610.01591",
+      "title": "Stable and Online Algorithms for Random Matrix Discrepancy",
+      "authors": [
+        "Eren C. Kızıldağ",
+        "Shuangping Li"
+      ],
+      "abstract": "We study the average-case matrix discrepancy problem: given independent normalized $d\\times d$ Gaussian orthogonal ensemble matrices $A_1,\\dots,A_N$ and a fixed margin $κ>0$, find signs $σ_1,\\dots,σ_N\\in\\{-1,1\\}$ such that the operator norm of $\\sum_{i=1}^N σ_i A_i$ is at most $κ\\sqrt{N}$. Focusing on the proportional regime $N/d^2\\to τ\\in(0,\\infty)$ as $d\\to\\infty$ followed by the small-margin limit $κ\\downarrow 0$, we characterize the density required by stable offline algorithms and by online algorithms. In the offline setting, we construct a polynomial-time \\emph{recenter-and-round} algorithm that is noise-stable and succeeds whenever $τ=Ω(\\frac{1}{κ^2\\log(1/κ)})$, along with a matching lower bound for all stable algorithms. In the online setting where each sign must be chosen irrevocably upon observing the corresponding matrix, we determine the exact limiting performance of the \\emph{Frobenius-greedy} algorithm, establishing that it succeeds when $τ>τ_{\\rm FG}(κ)\\sim \\fracπ{4κ^2}$, as well as a matching lower bound for all online algorithms by conditioning on a revealed prefix. At the core of our algorithms lies rotational symmetry, which enables us to transfer Frobenius norm control into operator norm guarantees. Together, our results identify the algorithmic phase transition points for random matrix discrepancy: $Θ(\\frac{1}{κ^2\\log(1/κ)})$ for stable offline algorithms and $Θ(\\frac{1}{κ^2})$ for online algorithms. Both thresholds lie far above the satisfiability scale $Θ(\\log(1/κ))$, as shown by Maillard~\\cite{maillard2025}.",
+      "published": "2026-10-01",
+      "categories": [
+        "cs.DS",
+        "cs.CC",
+        "cs.DM",
+        "math.CO",
+        "math.PR"
+      ],
+      "tags": [
+        "random matrix"
+      ]
+    },
+    {
+      "id": "2610.01607",
+      "url": "https://arxiv.org/abs/2610.01607",
+      "title": "Structural stability of systems and cycle covers in random graphs",
+      "authors": [
+        "Mohamed Ali Belabbas"
+      ],
+      "abstract": "Structural system theory studies which network topologies can sustain a prescribed system property such as controllability or stability. When the topology is itself random, the relevant question becomes probabilistic: how likely is a graph drawn from a stochastic model to sustain the property? Such probabilities measure the abundance and robustness of the property across topologies, and indicate whether systems requiring it can be reliably deployed in uncertain environments. We address this question for asymptotic stability of linear systems in the directed graphon setting. We consider two graph-theoretic properties. The first is $\\mathcal N$, and it requires that for every $k\\leq n$ some $k$-vertex induced subdigraph of $D$ admits a cycle cover, and the second is $\\mathcal S$, which requires that these subdigraphs can be chosen so that their node sets form a nested sequence $V_1\\subset\\cdots\\subset V_n=V(D)$ starting from a single vertex with a loop. We have shown that $\\mathcal N$ is necessary and $\\mathcal S$ is sufficient for structural stability. We sample $D$ from a directed step-graphon $W$. Our main results give necessary and sufficient conditions for $\\Pr(\\mathcal N)\\to 1$ and $\\Pr(\\mathcal S)\\to 1$ as $n\\to\\infty$. In more detail, to a step-graphon $W$ with skeleton digraph $S$ on $q$ nodes and concentration vector $x^*$ we associate a cycle polytope $\\vec{\\mathcal X}(S)\\subseteqΔ_q$. The conditions are then formulated in terms of the position of $x^*$ within $\\vec{\\mathcal X}(S)$, the dimension of the polytope, the loop density of $W$ and, for $\\mathcal S$, an ordering condition on the cycles of the skeleton. Together these results identify, for directed step-graphons, the regime in which a sampled topology is overwhelmingly likely or unlikely to sustain stable dynamics.",
+      "published": "2026-10-01",
+      "categories": [
+        "math.OC",
+        "math.CO",
+        "math.PR"
+      ],
+      "tags": [
+        "random graph"
+      ]
+    },
+    {
+      "id": "2610.02115",
+      "url": "https://arxiv.org/abs/2610.02115",
+      "title": "Subordination of discrete snakes",
+      "authors": [
+        "Antoine Aurillard",
+        "Mathieu Mourichoux"
+      ],
+      "abstract": "Motivated by applications in random geometry, we investigate the notion of subordination of snakes in the discrete setup. More precisely, given a random walk $W$ indexed by a tree $T$ and with steps in $\\{...,-1,0,1\\}$, we consider its subordinate tree obtained by contracting every edge of $T$ that does not lead to a new record of the walk $W$. When the underlying tree $T$ is a Bienaymé-Galton-Watson tree, we characterize the distribution of this subordinate tree. In particular, when $T$ has a critical offspring distribution in an $α$-stable domain of attraction with $α\\in(1,2]$, and under a light tails assumption on the steps, we prove that the associated subordinate tree is itself a Bienaymé-Galton-Watson tree with an offspring distribution in an $\\frac{α+1}{2}$-stable domain of attraction. Along the way, we obtain the asymptotic tail of the maximal displacement of the critical branching random walk $W$ in this stable regime, under minimal assumptions. Finally, we use these results to prove scaling limit statements about the subordinate tree.",
+      "published": "2026-10-01",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.01657",
+      "url": "https://arxiv.org/abs/2610.01657",
+      "title": "Lower bounds for the magnitude of the minimum eigenvalue of graphs with applications to MaxCut and Chowla's cosine problem",
+      "authors": [
+        "Fredy Yip"
+      ],
+      "abstract": "Jin, Milojević, Tomon and Zhang established a powerful recursive estimate relating the positive eigenvalues of a graph whose least eigenvalue is small in absolute value. We establish a refinement of this result, yielding improved estimates across spectral graph theory and discrepancy theory, and for Chowla's cosine problem. Recent results of Janzer, Tomon and Yip allow us to directly transfer least eigenvalue estimates to the corresponding surplus estimates. Using these tools, we fully resolve a conjecture of Räty, Sudakov and Tomon. We show that, for an $n$-vertex graph $G$ with least eigenvalue $λ_n$ and surplus $\\operatorname{sp}(G)$, if $G$ is $ε$-far from all disjoint unions of cliques, then $|λ_n|\\geq Ω_ε(n^{1/4})$ and $\\operatorname{sp}(G)\\geq Ω_ε(n^{5/4})$. Furthermore, we show that when $G$ is $n^{-o(1)}$-far from all disjoint unions of cliques, we have $|λ_n|\\geq n^{1/4 - o(1)}$ and $\\operatorname{sp}(G)\\geq n^{5/4 - o(1)}$. Finally, we show that the surplus of a $K_t$-free graph with $m$ edges is at least $m^{0.614 - o(1)}$ as $m$ tends to infinity.",
+      "published": "2026-10-01",
+      "categories": [
+        "math.CO",
+        "math.SP"
+      ],
+      "tags": [
+        "spectral graph theory",
+        "spectral graph"
+      ]
+    },
+    {
+      "id": "2610.01404",
+      "url": "https://arxiv.org/abs/2610.01404",
+      "title": "Constant-Modulus Optimization for Quadratic K-Medoids Graph Clustering",
+      "authors": [
+        "Yutong Zheng",
+        "Qingna Li",
+        "Wenshun Teng"
+      ],
+      "abstract": "Graph clustering aims to partition the vertices of a graph into groups with dense intra-cluster connections and sparse inter-cluster connections. In this paper, we study a quadratic $K$-medoids formulation for graph clustering from the perspective of CM optimization. By identifying the binary feasible set as a discrete CM set, we establish a connection between the quadratic $K$-medoids model and CM optimization. Rather than solving the original binary problem directly, we consider the convex hull of its feasible set and introduce a negative squared-norm penalty to promote extreme-point solutions, resulting in an extreme point pursuit model over a simple convex set. The efficient projection onto this convex set enables the use of projected-gradient-based optimization for large-scale medoid selection. Based on this formulation, we propose a two-stage clustering method. In Stage~1, a penalty-continuation projected gradient solver is used to approximately solve the penalized medoid-selection problem. In Stage~2, the selected medoids are converted into a graph partition through a unified two-level assignment rule, where Jaccard distance is used as the primary criterion and shortest-path distance is used as a secondary criterion when needed. Numerical experiments on synthetic PPM and SBM graphs, together with real-world graph data, demonstrate the effectiveness and computational efficiency of our method. The experiments also show that a smaller objective value in the medoid-selection problem does not necessarily lead to a more accurate final graph partition, highlighting the importance of evaluating both optimization performance and clustering quality after assignment.",
+      "published": "2026-10-01",
+      "categories": [
+        "math.OC"
+      ],
+      "tags": [
+        "graph clustering"
+      ]
+    },
+    {
+      "id": "2610.00920",
+      "url": "https://arxiv.org/abs/2610.00920",
+      "title": "A Faster Auction Algorithm for Weighted Matroid Intersection",
+      "authors": [
+        "Tatsuya Terao"
+      ],
+      "abstract": "We consider the weighted matroid intersection problem in the independence-oracle model. A sequence of works by Huang--Kakimura--Kamiyama [SODA'16 \\& Math. Program'19], Chekuri--Quanrud [SODA'16], Quanrud [ICALP'24], and Dudeja--Grilnberger [IPCO'26] has developed efficient $(1-\\varepsilon)$-approximation algorithms for this problem. We present a simple deterministic auction algorithm that, given two matroids on a common ground set of size $n$, computes a $(1-\\varepsilon)$-approximate maximum-weight common independent set using $O(n \\varepsilon^{-2} \\log^2(n))$ independence-oracle queries. This is the first deterministic $(1-\\varepsilon)$-approximation algorithm for the weighted matroid intersection problem whose query complexity is nearly linear in $n$ and polynomial in $1/\\varepsilon$. Our algorithm builds on the auction algorithm for unweighted matroid intersection by Huang--Kobayashi ['26], together with the analysis of the auction algorithm for weighted bipartite matching by Liu--Ke--Khuller [APPROX'23].",
+      "published": "2026-10-01",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.01854",
+      "url": "https://arxiv.org/abs/2610.01854",
+      "title": "Matroid liftability and Oxley--Wang derived matroids, with connections to scene analysis",
+      "authors": [
+        "Sean Dewar",
+        "Emiliano Liwski",
+        "Signe Lundqvist",
+        "Fatemeh Mohammadi"
+      ],
+      "abstract": "Liftability was first introduced for paving matroids, where it was used to systematically construct polynomials in the ideals of the associated matroid varieties. In this paper, we generalise the notion of liftability to matroids with realisable truncations. We additionally introduce the notion of generic realisability of a matroid; a strong notion of realisability that implies both realisability and liftability of the matroid. We study the behaviour of liftability and generic realisability under the weak order of matroids within the lattice of matroids with fixed truncation. We develop a unified framework for studying liftability of matroids through Oxley--Wang derived matroid of generic matroid realisations. We characterise liftability and generic realisability in terms of Oxley--Wang derived matroids. Moreover, we give an algebraic description of the bases of the generic Oxley--Wang derived matroids in terms of coordinate sections of matroid realisation spaces and relate our constructions to slack realisation spaces of matroids. As an application of our framework, we obtain a combinatorial characterisation of liftable and generically realisable paving matroids and connect it with Whiteley's theory of scene analysis. In particular, our approach gives a new proof, via Oxley--Wang derived matroids, of Whiteley's characterisation of hypergraphs admitting non-trivial (sharp) scenes. Finally, we compute the generic Oxley--Wang derived matroid for a special class of sparse paving matroids.",
+      "published": "2026-10-01",
+      "categories": [
+        "math.CO",
+        "math.AG"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.01651",
+      "url": "https://arxiv.org/abs/2610.01651",
+      "title": "Theoretical guarantees for stochastic gradient Langevin dynamics",
+      "authors": [
+        "Daniel Paulin",
+        "Peter A. Whalley"
+      ],
+      "abstract": "We prove asymptotic bias bounds for stochastic gradient Langevin dynamics in Wasserstein distance of order two. We assume that the negative log-density is strongly convex with a Lipschitz gradient, and that the stochastic gradient estimator is unbiased with an error satisfying a mean-square Lipschitz condition. The bounds are of order $h$ under a fourth moment assumption on the stochastic gradient error and of order $h^{1/2}$ under only a second moment assumption, where $h$ is the stepsize. A spiked-noise example shows that a second moment assumption alone is insufficient for a bound of order $h$ that is uniform over noise distributions with a fixed variance.",
+      "published": "2026-10-01",
+      "categories": [
+        "math.PR",
+        "math.NA",
+        "stat.CO"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2610.02007",
+      "url": "https://arxiv.org/abs/2610.02007",
+      "title": "Approximation and computation of the geodesic Sinkhorn distance",
+      "authors": [
+        "Hugo Lavenant",
+        "Jonas Luckhardt",
+        "Bernhard Schmitzer"
+      ],
+      "abstract": "In [H. Lavenant, J. Luckhardt, G. Mordant, B. Schmitzer, L. Tamanini, The Riemannian geometry of Sinkhorn divergences. Ann. Inst. H. Poincaré Anal. Non Linéaire 43 (2026)] we introduced a Riemannian metric $\\mathsf{d}_S$ on the space of probability distributions obtained from entropic optimal transport, specifically from the Sinkhorn divergence $S_\\varepsilon$. In the present work we discuss how to approximate and compute $\\mathsf{d}_S$. Spatially, we prove Gromov--Hausdorff convergence of the metric and convergence of geodesics for increasingly fine Eulerian discretization of the base space. Temporally, we show $Γ$-convergence of the chain discretization $N \\sum_{k=0}^{N-1} S_\\varepsilon(μ_k, μ_{k+1})$ to the energy functional defining $\\mathsf{d}_S$. We deduce and implement numerical schemes to compute approximations of $\\mathsf{d}_S$.",
+      "published": "2026-10-01",
+      "categories": [
+        "math.NA",
+        "math.MG",
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    }
+  ]
 }

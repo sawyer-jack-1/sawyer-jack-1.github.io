@@ -1,6 +1,6 @@
 {
   "month": "2026-09",
-  "generated_at": "2026-10-01T16:30:52+00:00",
+  "generated_at": "2026-10-02T15:52:16+00:00",
   "source": "arXiv metadata API",
   "papers": [
     {
@@ -143,6 +143,24 @@
       ]
     },
     {
+      "id": "2610.00491",
+      "url": "https://arxiv.org/abs/2610.00491",
+      "title": "Dynamic Connectivity, Minimum Spanning Tree, and 2-Edge Connectivity with Polylogarithmic Worst-Case Update Time",
+      "authors": [
+        "Simon Meierhans",
+        "Maximilian Probst Gutenberg",
+        "Yu-Cheng Yeh"
+      ],
+      "abstract": "We give fully dynamic algorithms for maintaining connectivity, minimum spanning tree, and $2$-edge connectivity of a graph with worst-case polylogarithmic update time. Our algorithms are randomized and succeed with high probability against an adaptive adversary. For the minimum spanning tree and $2$-edge connectivity problems, this improves over the subpolynomial update time bounds obtained by Nanongkai, Saranurak, and Wulff-Nilsen [FOCS'17], Jin and Sun [FOCS'21], and Jin, Sun, and Thorup [SODA'24], respectively. The only randomized component of our algorithms is the computation of static expander decompositions, and a deterministic algorithm for said problem would directly imply deterministic algorithms for all three problems. This reduction is novel even for the connectivity problem.",
+      "published": "2026-09-30",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "spanning tree"
+      ]
+    },
+    {
       "id": "2609.40357",
       "url": "https://arxiv.org/abs/2609.40357",
       "title": "Singularity of harmonic measures for hyperbolic lattices",
@@ -156,6 +174,25 @@
         "math.GR",
         "math.GT",
         "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.00500",
+      "url": "https://arxiv.org/abs/2610.00500",
+      "title": "The Algebraic Connectivity and Laplacian Spectral Radius of Token Graphs",
+      "authors": [
+        "Xiaodi Song",
+        "Cristina Dalfó",
+        "Miquel Àngel Fiol",
+        "Shenggui Zhang"
+      ],
+      "abstract": "For a graph $G=(V,E)$ of order $n$ and an integer $k$ between $1$ and $\\lfloor\\frac{n}{2}\\rfloor$, its token graph $F_k(G)$ is the graph whose vertices consist of the $\\binom{n}{k}$ $k$-subsets of $V$, and two vertices of $F_k(G)$ are adjacent whenever their symmetric difference is an edge in $E$. It was found that the algebraic connectivity of a graph is greater than or equal to that of its token graph, while the Laplacian spectral radius of a graph is less than or equal to that of its token graph. Moreover, a conjecture that the algebraic connectivity of a graph coincides with that of its token graph has been proved by using the theory of continuous Markov chains of random walks. In this paper, we derive some results about the algebraic connectivities of a graph and the same graph after adding new edges and their token graphs to obtain a combinatorial/algebraic proof. Besides, we provide some conditions under which the Laplacian spectral radius of a graph is less than that of its token graph. Finally, we characterize the graphs that have the same Laplacian spectral radius as their token graphs, including trees.",
+      "published": "2026-09-30",
+      "categories": [
+        "math.CO"
       ],
       "tags": [
         "random walk"
