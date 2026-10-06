@@ -1,8 +1,432 @@
 {
   "month": "2026-10",
-  "generated_at": "2026-10-05T18:33:18+00:00",
+  "generated_at": "2026-10-06T16:00:07+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2610.05663",
+      "url": "https://arxiv.org/abs/2610.05663",
+      "title": "A Decomposition of the Hitting Time Index Using the Kirchhoff Index and an Asymmetry Term",
+      "authors": [
+        "Shunya Tamura",
+        "José Luis Palacios",
+        "Aleksandar Petojević"
+      ],
+      "abstract": "We study the hitting time index, a graph invariant defined in terms of expected hitting times of simple random walks on finite connected graphs, through its relation with the Kirchhoff index. Using the commute time identity and Tetali's formula, we decompose the hitting time index into a Kirchhoff-index term and a nonnegative asymmetry term expressed by degree-weighted effective resistance sums. We derive lower and upper bounds for the asymmetry term, together with their equality conditions, and obtain a lower bound for the hitting time index in terms of the range of the degree-weighted resistance sums. For trees, we obtain lower and upper bounds for the asymmetry term, with the upper bound expressed in terms of the Wiener index, and characterize the equality case in the lower bound. In particular, we show that among all trees of fixed order, the hitting time index is minimized uniquely by the star graph. Finally, we apply the decomposition to complete bipartite graphs, paths, and graphs obtained by conjoining complete graphs, and recover several known hitting-time formulas.",
+      "published": "2026-10-05",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "effective resistance",
+        "commute time",
+        "random walk",
+        "simple random walk"
+      ]
+    },
+    {
+      "id": "2610.06757",
+      "url": "https://arxiv.org/abs/2610.06757",
+      "title": "Quenched First-Passage Asymptotics for Branching Random Walk on a Hamming Cube",
+      "authors": [
+        "Jose Blanchet",
+        "Zhenyuan Zhang"
+      ],
+      "abstract": "We study continuous-time supercritical branching random walks in space-inhomogeneous random environment on the Hamming cube $\\{0,1,\\dots,b-1\\}^d$, where the reproduction laws at each site are i.i.d. sampled. This serves as an idealized model for RNA sequence evolution with mutation--selection balance. The reproduction and mutation events are decoupled, and we assume that the reproduction law has essential supremum strictly below the deterministic mutation rate. Our main results provide tight asymptotics of the first-passage times for the model, uniformly in the origin--target distance $1\\le m\\le d$ as $d\\to\\infty$, conditional upon survival. We prove both quenched tightness in environment probability and annealed tightness around a deterministic center. Moreover, we identify the leading order of the deterministic center and develop an expansion in the sparse-distance regime $m=o(d)$. Our proof technique derives quantitative approximations of the model using an independent-visit variant, where revisits still resample the environment. As an application, we show that on a macroscopic scale, increasing the reproduction law in convex order decreases the first-passage times, and increasing the mutation rate increases the first-passage times for the sparse regime.",
+      "published": "2026-10-05",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.06796",
+      "url": "https://arxiv.org/abs/2610.06796",
+      "title": "Approximating Random Walks in $\\widetilde{O}(\\log n + \\log^2 κ)$ Space for $κ$-Conditioned Graphs",
+      "authors": [
+        "Junzhao Yang"
+      ],
+      "abstract": "For $κ>1$, a directed graph is $κ$-conditioned if it is $κ$-mixing and its stationary distribution is approximated by the uniform distribution within a factor of $κ$. We present a deterministic algorithm that approximates the stationary distribution of a $κ$-conditioned graph to inverse polynomial relative error in $O((\\log n + \\log^2 κ) \\log \\log n)$ space. In the regime $κ= \\exp(Θ(\\log^αn))$ for any $α\\in (0, 2/3)$, our result improves the best-known $O(\\log n \\sqrt{\\log κ} / \\sqrt{\\log \\log n})$ space bound for approximating $κ$-step random walks in general directed graphs by [Hoza, RANDOM 2021]. We release this preliminary version due to recent rumors of LLM-based progress on related problems and uncertainty about when those results may appear. Further implementation details will be provided in a subsequent version.",
+      "published": "2026-10-05",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.06228",
+      "url": "https://arxiv.org/abs/2610.06228",
+      "title": "Hiding a Vertex from the Temporal Explorer: A Lower Bound for Degree-Bounded Temporal Graphs",
+      "authors": [
+        "Daniele Carnevale"
+      ],
+      "abstract": "A temporal graph is a sequence of graphs on a common set of $n$ vertices, its snapshots, one for each time step. An agent, knowing the entire sequence in advance, may at each time step wait or move along an edge of the current snapshot, and the temporal graph is explored once the agent has visited every vertex. We consider always-connected temporal graphs, in which every snapshot is connected, and ask how long exploration can be forced to take when the underlying graph, the union of all snapshots, has maximum degree at most~$Δ$. Two lower bounds were known in this setting, $Ω(Δn)$ and $Ω(n\\log n)$, realised by different constructions. We establish a stronger lower bound, answering a question of Bastide, Groenland, Michel and Rambaud. Specifically, for every $n$ and $Δ$ with $Δ_0\\leΔ\\le n-1$ we construct an always-connected temporal graph on $n$ vertices with underlying maximum degree at most~$Δ$ that cannot be explored in fewer than $γ\\,Δn\\,(1+\\log(n/Δ))$ time steps from any start vertex, where $γ>0$ and $Δ_0$ are absolute constants. The construction is deterministic, and every snapshot is a spanning tree with exactly one vertex of degree greater than three. Time is divided into phases. In each phase, a rotating-cycle gadget prevents the agent from reaching more than half of the trees attached to it. Between phases, we reassign target vertices among these trees using walks on a constant-degree expander, and a Gray code order of the targets keeps the underlying degree bounded. The reassignment guarantees that, for any walk of the agent, some target remains unvisited throughout all phases.",
+      "published": "2026-10-05",
+      "categories": [
+        "cs.DS",
+        "cs.DM"
+      ],
+      "tags": [
+        "spanning tree",
+        "temporal graph"
+      ]
+    },
+    {
+      "id": "2610.06237",
+      "url": "https://arxiv.org/abs/2610.06237",
+      "title": "Bradley-Terry model under general comparison graphs",
+      "authors": [
+        "Ruijian Han",
+        "Yuanhang Luo",
+        "Yiming Xu"
+      ],
+      "abstract": "The Bradley-Terry model is a parametric model for ranking from pairwise comparisons. Existing asymptotic theory for the maximum likelihood estimator (MLE) in regimes where the number of objects grows often requires homogeneity assumptions or compatibility conditions on comparison graphs, which limits its applicability to many practical settings. In this work, we establish uniform consistency of the MLE under general deterministic comparison designs. Our pairwise error bound consists of a pair-specific term governed by the effective resistance between the corresponding objects and a global term governed by the spectral gap of the unnormalized graph Laplacian. The bound is tight up to logarithmic factors for certain graph sequences. For any prespecified sequence of pairs satisfying an additional balancing condition, we further establish asymptotic normality of the corresponding estimated utility differences. As an application, we obtain uniform consistency for independent-edge random graph designs whenever the minimum edge probability exceeds the Erdős-Rényi connectivity threshold by a logarithmic factor, as well as asymptotic normality under additional balancing conditions.",
+      "published": "2026-10-05",
+      "categories": [
+        "math.ST",
+        "stat.ML"
+      ],
+      "tags": [
+        "graph Laplacian",
+        "effective resistance",
+        "random graph"
+      ]
+    },
+    {
+      "id": "2610.06724",
+      "url": "https://arxiv.org/abs/2610.06724",
+      "title": "An FPRAS for Counting Common Bases of Two Matroids",
+      "authors": [
+        "Xiaoyu Chen",
+        "Kuikui Liu"
+      ],
+      "abstract": "We design the first polynomial-time algorithms for approximately counting and almost uniformly sampling common bases of two matroids given by their independence oracles. Moreover, our algorithms generalize far beyond this to Hadamard products of two probability measures on the Boolean cube satisfying a simple nonnegative curvature condition. These algorithmic primitives have myriad applications in statistical physics, polyhedral combinatorics, the study of quantum many-body systems, and beyond. Our approach has two key ingredients. $\\bullet$ We relax the intersection by imposing an overlap penalty on the product measure formed by the two input measures. We prove, via an integrated Bochner-type method, that this \"$\\textit{soft intersection}$\" satisfies a Poincare inequality uniformly over all external fields. $\\bullet$ We solve a dual maximum entropy convex program to compute external fields under which the hard constraint is satisfied with high probability under the soft intersection measure. We bound this success probability directly using the uniform Poincare inequality and smallness of the gradient norm. $\\textbf{AI Disclosure}$ GPT-5.6 Sol Ultra and GPT-6 Astra Ultra were heavily used to develop the ideas in this paper. A more complete discussion is included in the acknowledgments.",
+      "published": "2026-10-05",
+      "categories": [
+        "cs.DS",
+        "cs.CC",
+        "cs.DM",
+        "math.PR"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.06739",
+      "url": "https://arxiv.org/abs/2610.06739",
+      "title": "Symmetric Grassmann Formulas: Monotone Dimension-Defect Hierarchies",
+      "authors": [
+        "Masoud Gharahi",
+        "Diego Ponterio"
+      ],
+      "abstract": "We study the dimension defect of finitely many subspaces over an arbitrary field. We derive a symmetric, nonrecursive Grassmann-type formula for the dimension of their sum. The formula expresses the total dimension loss through intersections of a distinguished subspace with partial sums of the remaining subspaces, with coefficients determined by the number of subspaces involved. We also show that the formula admits a Shapley-value interpretation for the associated representable polymatroid. Grouping the correction terms by the number of participating subspaces yields a nonnegative dimension-defect profile. We prove that this profile is monotone and identify its successive gaps with the discrete curvatures of the average-rank profile. These gaps give exact remainders in two-sided defect bounds. Equality in either bound holds precisely when the images of the subspaces in the quotient by their common intersection form an internal direct sum. We also give an exact geometric decomposition of the Kinser slack into nonnegative quotient dimensions and characterize equality. Averaging these slacks over permutations and contractions recovers every defect curvature except the final one; additional representability constraints remain in the individual ordered slacks. Weighted and dual formulas accompany the expansion, and entropy analogues express the defect levels and curvatures as averages of mutual and conditional mutual information, respectively.",
+      "published": "2026-10-05",
+      "categories": [
+        "math.CO",
+        "cs.GT",
+        "cs.IT",
+        "math.RA"
+      ],
+      "tags": [
+        "discrete curvature",
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.06589",
+      "url": "https://arxiv.org/abs/2610.06589",
+      "title": "A sharp Merino--Welsh-type inequality for matroids",
+      "authors": [
+        "Jungang Chen",
+        "Jiaxin Xie"
+      ],
+      "abstract": "Motivated by the Merino--Welsh conjecture, we consider the smallest $c\\ge0$, denoted by $c_*$, for which the inequality $T_M(c,0)T_M(0,c)\\ge T_M(1,1)^2$ holds for every loopless and coloopless finite matroid $M$. The counterexamples constructed by Beke, Csáji, Csikvári, and Pituk [\\emph{Adv. Math.} \\textbf{446} (2024), 109674] give the lower bound $x_0$, where $x_0\\approx2.22668$ is the largest real root of the polynomial $x^3-9(x-1)$. Later, Csikvári [\\emph{European J. Combin.} \\textbf{137} (2026), 104402] improved the known upper bound for this constant to $2.35$ and then conjectured that the above inequality holds at $c=x_0$. We give a direct inductive proof of this conjecture, thereby showing that $c_*=x_0$.",
+      "published": "2026-10-05",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.05938",
+      "url": "https://arxiv.org/abs/2610.05938",
+      "title": "Rank and Invertibility of Dense Signed Random Regular Matrices",
+      "authors": [
+        "Huaijin Liang",
+        "Yuxiao Shi",
+        "Kexin Yu",
+        "Tingzhou Yu"
+      ],
+      "abstract": "Let $A$ be the (non-symmetric) adjacency matrix of a uniformly random $d$-regular directed graph on $n$ vertices, and let $Ξ$ be independent of $A$ with i.i.d. Rademacher entries. Suppose that $\\min(d,n-d)\\geλn$ for some fixed $λ\\in(0,1/2]$. We show that there exists $c > 0$, depending only on $λ$, such that \\[ \\mathbf P_{A,Ξ}\\{\\operatorname{rank}(A\\circΞ)\\le n-k\\}\\le e^{-c nk},\\qquad 1\\le k\\le n. \\] As an ingredient in the proof of the rank bound, we use the case $κ=0$ of the following quantitative smallest singular value estimate: \\[ \\mathbf P_{A,Ξ}\\{s_n(A\\circΞ)\\leκ\\} \\le Cκ\\sqrt n+e^{-c' n}, \\qquad κ\\ge0, \\] where $C,c'>0$ depend only on $λ$.",
+      "published": "2026-10-05",
+      "categories": [
+        "math.PR",
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2610.06788",
+      "url": "https://arxiv.org/abs/2610.06788",
+      "title": "Large corank of dense random regular digraphs",
+      "authors": [
+        "Huaijin Liang",
+        "Kexin Yu",
+        "Tingzhou Yu"
+      ],
+      "abstract": "Let $1\\le k\\le n$ and let $A$ be the adjacency matrix of a uniformly random $d$-regular directed graph on $n$ vertices. Suppose that $λn\\le d \\le (1-λ)n$ for a fixed $0<λ\\le 1/2$. We show that there exists $c_λ>0$ depending only on $λ$ such that $$ \\mathbb{P}[\\operatorname{rank}(A)\\le n-k]\\le 2e^{-c_λ kn}. $$ This gives a large corank extension of the exponential singularity bound of Jain, Sah, and Sawhney.",
+      "published": "2026-10-05",
+      "categories": [
+        "math.PR",
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2610.06343",
+      "url": "https://arxiv.org/abs/2610.06343",
+      "title": "A CONSTRAINED WASSERSTEIN GRADIENT FLOW FOR MEAN-FIELD LANGEVIN DYNAMICS",
+      "authors": [
+        "Mohamed Alfaki Aboubacrine Assadek"
+      ],
+      "abstract": "In the continuity of [1, 2, 3], we study a class of constrained mean-field Langevin dynamics formulated as a Wasserstein gradient flow with an energy constraint. We show that the constrained evolution therefore defines a well-posed dissipative dynamics in the Wasserstein space P 2 (R d ). We prove that the flow preserves probability mass and the energy constraint, dissipates the free energy monotonically, and converges exponentially to a unique constrained equilibrium under geodesic convexity assumptions. Using synchronous coupling, under Lipschitz assumptions, we demonstrate the quantitative L 2 -propagation of chaos with a Fournier-Guillin bound, and under conditions of sufficient dissipativity, we derive an explicit time-uniform bound. We also demonstrate exponential controls in the W 2 Wasserstein metric and the contraction of the invariant measure map. Using log-Sobolev inequalities, we show that the mean-field entropies decays exponentially along the constrained flow. The results are applied to several concrete and original examples. K eywords and phrases: Wasserstein gradient flows $\\bullet$ mean-field Langevin dynamics $\\bullet$ constrained nonlinear Fokker-Planck equations $\\bullet$ Lagrange multiplier $\\bullet$ JKO scheme $\\bullet$ propagation of chaos $\\bullet$ synchronous coupling $\\bullet$ exponential ergodicity $\\bullet$ functional inequality $\\bullet$ log-Sobolev inequality $\\bullet$ Transport inequality $\\bullet$ Talagrand T 2 -inequality",
+      "published": "2026-10-05",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein metric"
+      ]
+    },
+    {
+      "id": "2610.05347",
+      "url": "https://arxiv.org/abs/2610.05347",
+      "title": "Sharp uniform stability of the logarithmic Sobolev inequality on finite cycles and stability of the cubic Sobolev inequality",
+      "authors": [
+        "Lu Chen",
+        "Nguyen Lam",
+        "Guozhen Lu"
+      ],
+      "abstract": "We determine the sharp uniform constant in the quartic stability estimate for the logarithmic Sobolev inequality on finite cycles. We equip $C_{n}=\\mathbb{Z}/n\\mathbb{Z}$ with the uniform probability measure, and we let $\\mathcal{E}_{n}$ be the Dirichlet form of the simple random walk on $C_{n}$, normalized so that its spectral gap is one. Frank and Ivanisvili recently proved the sharp logarithmic Sobolev inequality $2\\mathcal{E}_{n}(u)\\geq \\mathrm{Ent}(u^{2})$ for all $n\\geq 4$. We prove that $2\\mathcal{E}_{n}(u)-\\mathrm{Ent}(u^{2})\\geq \\frac{1}{3}\\Vert u-1\\Vert _{2}^{4}$ for all $n\\geq 4$ and all nonnegative $u$ with $\\Vert u\\Vert _{2}=1$. This is the sharp form, uniformly in $n$, of the quartic stability estimate of Xie and Zhang, who obtained the constant $\\frac{1}{12}$. The same estimate holds on the circle and for the word-length energy on $C_{n}$. Among these models, the four-cycle is the only extremal one: on $C_{4}$ the constant $\\frac{1}{3}$ is sharp but not attained, while on $C_{n}$ with $n\\geq 5$ and on the circle the sharp constant is at least $\\frac{1}{3}+c$, where $c>0$ does not depend on $n$. We also give explicit upper bounds for these sharp constants. Our second main result is a stability estimate for the cubic Sobolev inequality of Frank and Ivanisvili, which is the main step in their proof. It gives the quantitative version of this inequality expected by Frank and Ivanisvili, with the optimal powers of $\\Vert u-1\\Vert _{2}$: four on $C_{n}$ with $n\\geq 5$ and on the circle, and six on $C_{4}$. Two key new ingredients of the proofs are a bound for the first Fourier coefficient of $u$ in terms of its mean, which holds because $u$ is nonnegative, and a sharp stability estimate for Gross's two-point logarithmic Sobolev inequality, with sharp constants in both the fourth and the sixth powers of the distance.",
+      "published": "2026-10-04",
+      "categories": [
+        "math.AP",
+        "math.CA",
+        "math.FA",
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk"
+      ]
+    },
+    {
+      "id": "2610.05365",
+      "url": "https://arxiv.org/abs/2610.05365",
+      "title": "Poisson Autoregression on a Large Network with a Stochastic Block Model Structure",
+      "authors": [
+        "Mahmoud Khabou",
+        "Joanna Marks",
+        "Joshua Corneck",
+        "Edward A. K. Cohen"
+      ],
+      "abstract": "We consider multivariate Poisson autoregressive processes evolving on random networks generated by a Stochastic Block Model. This framework extends existing network Poisson autoregressions by incorporating latent community structure and allowing for non-Markovian dependence, both excitatory and inhibitory. We establish a mean-field approximation and prove that the finite system converges to its limit at the optimal rate $N^{-1/2}$ in the quenched setting with overwhelming probability, both on average and in uniform norm. Our analysis yields quantitative error bounds that are explicit in the time horizon and, under suitable stability conditions, remain polynomial or uniform in time, thereby avoiding the exponential growth typically associated with Grönwall-type arguments. As a consequence, the mean-field approximation is shown to hold uniformly over any time horizon. We further demonstrate how the approximation can be exploited to reduce the computational complexity of parametric inference from $\\mathcal{O}(N^2T^2)$ to $\\mathcal{O}(NT^2)$. The results provide a theoretical foundation for the analysis and inference of count-valued processes on large random networks with community structure.",
+      "published": "2026-10-04",
+      "categories": [
+        "math.ST",
+        "math.PR",
+        "stat.ML"
+      ],
+      "tags": [
+        "stochastic block model"
+      ]
+    },
+    {
+      "id": "2610.05267",
+      "url": "https://arxiv.org/abs/2610.05267",
+      "title": "Multilevel Dynamic Thinning for Matroid Secretary",
+      "authors": [
+        "Dennis Joyce"
+      ],
+      "abstract": "In the matroid secretary problem, weighted elements arrive in random order, and an online algorithm must irrevocably accept elements forming a high-weight independent set. Dynamic Thinning is a recent, conceptually simple $3.1462$-competitive algorithm for the matroid secretary problem that maintains a random reference set. Given this reference set, the elements in its maximum-weight independent subset have been accepted independently with a time-dependent probability. We extend this approach by replacing the single reference set with a finite hierarchy of nested reference sets. For every fixed $\\eps>0$, the resulting algorithm is $(e+\\eps)$-probability-competitive for arbitrary matroids, with $O_\\eps(n^2)$ queries in the worst case.",
+      "published": "2026-10-04",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.04947",
+      "url": "https://arxiv.org/abs/2610.04947",
+      "title": "Asymptotic spectral radius of nonregular graphs",
+      "authors": [
+        "Hangxi Cha",
+        "Haiying Shan"
+      ],
+      "abstract": "Let $λ_1(n,Δ)$ be the maximum adjacency spectral radius among connected nonregular simple graphs of order $n$ and maximum degree $Δ$. Using effective resistance bounds, explicit comparison graphs and a one-dimensional Wirtinger inequality, we prove that, for every fixed integer $Δ\\ge3$, $λ_1(n,Δ)=Δ-\\frac{c_Δπ^2}{4n^2}+O_Δ(n^{-5/2})$, where $c_Δ=Δ-1$ for odd $Δ$ and $c_Δ=2(Δ-2)$ for even $Δ$. This proves the asymptotic conjecture posed by Liu [J. Combin. Theory Ser. B 169 (2024), Conjecture 7.1].",
+      "published": "2026-10-04",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "effective resistance"
+      ]
+    },
+    {
+      "id": "2610.05212",
+      "url": "https://arxiv.org/abs/2610.05212",
+      "title": "Regression models for ordinal compositional data",
+      "authors": [
+        "Beniamino Cappelletti-Montano; Monica Musio; Nicola Piras"
+      ],
+      "abstract": "We present a unified, transformation-free linear regression framework tailored for ordinal compositional data, such as distributions across educational levels or aggregate Likert-scale survey responses. Traditional log-ratio approaches often obscure interpretability, ignore the inherent ordering of categories, and struggle with boundary zero values. To overcome these limitations, we propose a deterministic model constrained to the space of column-stochastic transformation matrices, naturally preserving the fundamental geometry of the simplex. By adopting the weighted 1-Wasserstein distance as the loss function, our method directly embeds the ordinal nature of the data into the estimation process. We provide a computationally efficient and globally optimal solution explicitly formulated as a Linear Programming (LP) problem. The framework systematically addresses four distinct regression scenarios, introducing a novel ordinal tensor product to rigorously handle interactions across multiple compositional predictors. Furthermore, we equip the model with a suitable regularization strategy and novel diagnostic tools, including a Wasserstein-based coefficient of determination ($R^2_W$) and an Order Preservation Index (OPI). Extensive simulation studies and two empirical applications demonstrate the robust predictive performance and interpretability of the proposed methodology.",
+      "published": "2026-10-04",
+      "categories": [
+        "stat.ME",
+        "math.ST"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2610.05519",
+      "url": "https://arxiv.org/abs/2610.05519",
+      "title": "Positively Lin-Lu-Yau curved graphs with no $K_{2,t}$ minor",
+      "authors": [
+        "Shuliang Bai",
+        "Xiaonan Liu",
+        "Zi-Xia Song"
+      ],
+      "abstract": "Let $G$ be a connected graph with minimum degree at least two, positive Lin-Lu-Yau Ricci curvature, and no $K_{2,t}$ minor, where $t\\ge 3$ is an integer. We first establish tight upper bounds on the maximum degree of $G$ by showing that $Δ(G)\\le 2t+3$ for $t=4$, $Δ(G)\\le 2t+4$ for $t\\in\\{5,6\\}$, and $Δ(G)\\le 2t+2$ for all $t\\ge7$. We then prove that $G$ has at most $10$ vertices for $t=3$, and at most $(t+1)\\left(Δ(G)^2(Δ(G)-1)/2+1\\right)$ vertices for all $t\\ge 4$.",
+      "published": "2026-10-04",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "Ricci curvature"
+      ]
+    },
+    {
+      "id": "2610.04598",
+      "url": "https://arxiv.org/abs/2610.04598",
+      "title": "The constant speed random walk on dynamical conductances",
+      "authors": [
+        "Eszter Couillard",
+        "Carlo Scali"
+      ],
+      "abstract": "In this paper we study the constant speed, biased random walk in dynamical random conductances. In certain regimes of the parameters of the model, we prove that the random walk is ballistic. We show annealed and quenched CLT in the full parameter range. Furthermore, as a consequence of the non-reversible nature of this model, we show that the classical Einstein relation does not hold.",
+      "published": "2026-10-03",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.04530",
+      "url": "https://arxiv.org/abs/2610.04530",
+      "title": "The broadcast voter model: Stationary measures",
+      "authors": [
+        "Jhon Astoquillca",
+        "Adrián González Casanova",
+        "Renato S. dos Santos"
+      ],
+      "abstract": "The classical voter model is dual to coalescing random walks, in much the same way that the Kingman coalescent describes genealogies through binary mergers. Motivated by the passage from the Kingman to the~\\(Λ\\)-coalescent, where multiple mergers are allowed, we introduce the~\\(Λ\\)-broadcast voter model, in which a voter may transmit its opinion simultaneously to several neighbors according to a mechanism governed by a finite measure~\\(Λ\\) on~\\([0,1]\\); the classical voter model is recovered when~\\(Λ=δ_0\\). We show that our model is well-defined on general graphs with bounded degrees, and we construct a family of stationary measures~\\({μ_{α,Λ}}\\), parametrized by bounded harmonic functions, that characterize the extremal stationary measures according to the finite or infinite collision property of the underlying random walk. We then study the dependence of the stationary measures on the broadcasting measure $Λ$ through a finite number of its moments. We give general conditions under which different moment profiles yield different stationary measures and obtain, in particular, a complete characterization on trees with bounded degrees and on nearest-neighbour~\\(\\mathbb Z^d\\),~\\(d\\ge3\\). We also prove continuity of the stationary measures with respect to the moment profile. Our main tool is a dual system of coordinated coalescing random walks, whose individual particles are simple random walks but which may jump and coalesce simultaneously; a coupling with independent random walks allows us to relate their long-time behaviour to ordinary random walk collision properties.",
+      "published": "2026-10-03",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk"
+      ]
+    },
+    {
+      "id": "2610.04715",
+      "url": "https://arxiv.org/abs/2610.04715",
+      "title": "GPU-Accelerated Bregman Douglas-Rachford Splitting for Discrete Optimal Transport",
+      "authors": [
+        "Yifan Xu",
+        "Shiqian Ma"
+      ],
+      "abstract": "We present GPU-accelerated Bregman Douglas--Rachford splitting algorithm (BDRS) for discrete optimal transport problem in three input formats: an explicit cost matrix, a point cloud with a ground cost between them, and a separable cost on a regular grid. For each input format, we propose hardware-aware designs of mathematically equivalent representations for the BDRS iterations to enhance numerical stability and empirical runtime. We benchmark the three proposed implementations against eight GPU baseline solvers from the literature on the same device. We demonstrate that our implementations of BDRS achieve state-of-the-art performance on their respective input formats. To the best of our knowledge, this is the first cross-solver study of GPU DOT solvers with a unified measure of optimality.",
+      "published": "2026-10-03",
+      "categories": [
+        "math.OC",
+        "cs.LG"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2610.04376",
+      "url": "https://arxiv.org/abs/2610.04376",
+      "title": "Optimal Community Recovery by Spectrally Initialized Variational EM in General Stochastic Block Models",
+      "authors": [
+        "Jiangzhou Wang"
+      ],
+      "abstract": "We prove a Chernoff-exponent guarantee for the output of spectrally initialized batch variational EM after a prescribed iteration budget, without assuming global maximization of its variational objective. The iteration repeatedly estimates the entire block probability matrix and community proportions from the same sparse graph. We consider a fixed number of communities with proportions bounded away from zero and fixed, positive, distinct connectivity profiles; neither assortativity nor full rank is required. The algorithm uses simultaneous softmax updates without sample splitting or posterior thresholding. Its analysis must control the feedback between estimated parameters, soft labels and reused edges at an exponentially small risk scale. We establish a uniform one-step bound over data-dependent soft assignments whose random remainder has exponentially small expectation. Combined with an exponentially reliable regularized spectral initializer, this yields an unconditional expected misclassification rate bounded by $\\exp\\{-(1-o(1))J_n\\}$ throughout the sparse, diverging-degree regime, where $J_n$ is the minimum nodewise Chernoff information. Matching lower bounds establish first-order logarithmic minimax optimality on local parameter spaces allowing unknown connectivity and varying community counts. The algorithm also attains the sharp first-order exact-recovery threshold. Numerical experiments illustrate refinement gains and sensitivity to initialization and imbalance.",
+      "published": "2026-10-03",
+      "categories": [
+        "math.ST"
+      ],
+      "tags": [
+        "stochastic block model"
+      ]
+    },
+    {
+      "id": "2610.04617",
+      "url": "https://arxiv.org/abs/2610.04617",
+      "title": "New Methods for Constructing Classical and Quantum Codes from Graphs and Matroids",
+      "authors": [
+        "Anderson S. Barbosa",
+        "Franklin de L. Marquezino",
+        "Giuliano G. La Guardia"
+      ],
+      "abstract": "In this paper, we present a method for constructing linear codes derived from book graphs. Applying such a method, we construct binary codes that have the greatest possible minimum distance for their length and dimension by means of the $2$-sum of two equal book graphs. We then utilize matroid and graph theory together to investigate some properties of the resulting linear codes. Furthermore, we show that, from the incidence matrix of any graph, we can obtain a linear code over any finite field maintaining the same parameters. Furthermore, we show how the condition for two linear codes to generate a Calderbank-Shor-Steane (CSS) code translates into matroid theory and, utilizing cycle graphs, we exhibit a way to generate codes that meet this condition.",
+      "published": "2026-10-03",
+      "categories": [
+        "cs.DM",
+        "quant-ph"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.04532",
+      "url": "https://arxiv.org/abs/2610.04532",
+      "title": "Optimal Gaussian approximation for complex Wiener-Itô integrals",
+      "authors": [
+        "Huiping Chen",
+        "Yong Chen",
+        "Yong Liu"
+      ],
+      "abstract": "We study density regularity and optimal Gaussian approximation for complex multiple Wiener-Itô integrals. We first give a kernel criterion for absolute continuity and derive explicit formulas for the density and its derivatives, together with finite-order Sobolev estimates. Our main quantitative result shows that the sum of an intrinsic non-Gaussian term and the covariance mismatch gives the optimal rate simultaneously in every fixed Sobolev norm and in total variation, Kolmogorov and $1$-Wasserstein distances. The intrinsic term is determined by two complex third-order moments and the complex fourth-moment defect, and is equivalently described by complex kernel contractions. No additional Malliavin non-degeneracy assumption is imposed in these asymptotic results. As an application, we obtain explicit optimal rates for the normalized numerator in the least-squares estimator of a complex fractional Ornstein--Uhlenbeck process.",
+      "published": "2026-10-03",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
     {
       "id": "2610.02727",
       "url": "https://arxiv.org/abs/2610.02727",
@@ -40,6 +464,44 @@
       ]
     },
     {
+      "id": "2610.03957",
+      "url": "https://arxiv.org/abs/2610.03957",
+      "title": "On Foliated Optimal Transport",
+      "authors": [
+        "Diego S. Ledesma",
+        "Renata Possobon",
+        "Christian S. Rodrigues"
+      ],
+      "abstract": "In this paper we introduce a geometrically constrained optimal transport problem on Riemannian manifolds endowed with a Borel foliation, in which mass is transported only within individual leaves. We characterize the existence of foliated transport plans through the equality of the transverse projections of the marginals and show that the corresponding quadratic transport cost decomposes into a measurable family of leafwise optimal transport problems. We also formulate the problem as a classical Kantorovich problem with an extended-valued leafwise cost. Finally, we introduce a foliated continuity equation and establish a Benamou-Brenier formula relating the static and dynamical foliated formulations.",
+      "published": "2026-10-02",
+      "categories": [
+        "math.MG",
+        "math.DG",
+        "math.PR"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2610.04085",
+      "url": "https://arxiv.org/abs/2610.04085",
+      "title": "Exact Optimal Transport by Matching",
+      "authors": [
+        "Dmitry Kamenetsky"
+      ],
+      "abstract": "Balanced discrete optimal transport between n sources and n targets of unit mass is exactly the minimum-cost assignment problem-a bipartite perfect matching-and is therefore solvable exactly by industrial matching engines in milliseconds to seconds. We ask when the exact approach beats the standard approximate alternatives, entropic Sinkhorn and its accelerated variant Greenkhorn, and make the sparse-exact side certified by a textbook LP dual-feasibility clip. Three contributions. (i) Measurement: on dense 2-D instances, exact matching (Jonker-Volgenant) is faster and strictly more accurate than either approximate method throughout the moderate-n regime (0.01 s at n=500 to 11.5 s at n=8000); reaching a 1% quality target on the same hardware requires roughly 10-80 min for Greenkhorn (factors 4e2-6e4 over exact; plain Sinkhorn is 20-650x slower still), a rough power-law projection beyond the measured range. Greenkhorn's measured speedup over plain Sinkhorn is only 1.0-1.5x on most converged cells. (ii) A simple kNN-pool gap certificate: given a pool matching and its Blossom dual, a one-pass O(n^2) clip produces a dense-feasible lower bound; combined with the Sinkhorn dual potential (valid at every iterate, not just at convergence), the bound is valid on all 45 measured configurations and tightens monotonically with k. (iii) A multi-robot task-allocation sanity check where the discrete plan is the deliverable: per-round exact assignment costs 0.1-68 ms, while a Sinkhorn-plus-hardening pipeline costs 0.12-15.9 s and accumulates 6-27% extra travel over 15 rounds. The Sinkhorn family's large-n dense regime is acknowledged and left untouched. Code, data, and results under MIT: https://github.com/dimkadimon/OT-Blossom.",
+      "published": "2026-10-02",
+      "categories": [
+        "cs.DS",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
       "id": "2610.03206",
       "url": "https://arxiv.org/abs/2610.03206",
       "title": "Dynamics for exclusion processes with random environments of particle jump rates",
@@ -55,6 +517,27 @@
       ],
       "tags": [
         "random walk"
+      ]
+    },
+    {
+      "id": "2610.04033",
+      "url": "https://arxiv.org/abs/2610.04033",
+      "title": "Gated Graph Neural Networks for Learning Hidden Independent Cascade Dynamics",
+      "authors": [
+        "Anubha Goel",
+        "Illia Oleksiienko",
+        "Mateusz Wilinski",
+        "Alexandros Iosifidis",
+        "Juho Kanniainen"
+      ],
+      "abstract": "Information and infectious diseases spread through social networks, but the spreading probabilities driving them are hard to estimate without per-node activation times. Applications seldom supply these, and inference must instead proceed through indirect and noisy proxies for the terminal infection states. We study this inverse problem on a fixed, known graph under the Hidden Independent Cascade (HIC) model, with one spreading probability per node rather than a single global rate, so the number of unknowns scales with the number of nodes. Seed sets and observation parameters are known, while activation times and terminal infection states are latent, and the observed-data likelihood requires marginalizing over every spreading outcome. We propose a simulation-based amortized estimator that recovers the full node-level parameter vector without reconstructing individual latent cascades. Repeated seed-conditioned symptom observations are summarized as Symptom-Aware Cascade Features (SACF), which combine empirical symptom statistics with neighborhood and structural information. SACF are mapped to parameters by SAGE-HC, a permutation-equivariant gated graph neural network whose learned gates attenuate neighborhood messages corrupted by false positives and false negatives, and training on simulated HIC realizations yields a reusable inverse map. As a benchmark under the same hidden observations, we extend the Dynamic Message Passing learning framework to the HIC emission model. On synthetic and empirical graphs the two methods separate by topology. DMP is highly accurate on trees, whereas SAGE-HC is substantially better on heterogeneous, loopy graphs under noisy terminal symptoms.",
+      "published": "2026-10-02",
+      "categories": [
+        "cs.SI",
+        "cs.LG"
+      ],
+      "tags": [
+        "graph neural network"
       ]
     },
     {
@@ -442,6 +925,23 @@
       "categories": [
         "math.CO",
         "math.AG"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.03808",
+      "url": "https://arxiv.org/abs/2610.03808",
+      "title": "Computing distances in braid-move graphs, higher Bruhat orders, and oriented-matroid mutation graphs is NP-hard",
+      "authors": [
+        "Tilen Marc"
+      ],
+      "abstract": "A reduced word of the longest permutation $w_0\\in S_m$, taken up to commutations, encodes a wiring diagram of $m$ pseudolines, and a braid move $σ_iσ_{i+1}σ_i\\leftrightarrowσ_{i+1}σ_iσ_{i+1}$ flips one of its triangles. We prove that deciding whether two wiring diagrams are within a given braid-move distance is NP-complete. Equivalently, deciding flip distance is NP-complete in the higher Bruhat order $B(m,2)$, for triangle flips of marked arrangements of pseudolines, and for rhombic tilings of a $2m$-gon; this answers an open question on flip graphs of pseudoline arrangements (SODA 2024). The reduction is from Vertex Cover: for every graph $G$ we construct two wiring diagrams at braid-move distance $|D|+2\\,\\mathrm{VC}(G)$, where $\\mathrm{VC}(G)$ is the vertex cover number of $G$ and the Hamming distance $|D|$ is the number of triples of wires whose triangles are oriented differently. The construction glues copies of a seven-wire gadget whose braid-move distance exceeds its Hamming distance by $2$; flipping either of two disjoint triangles in both diagrams removes the excess. Adding a line at infinity transfers the construction to rank-$3$ uniform oriented matroids, where two oriented matroids are adjacent in the mutation graph if their chirotopes differ in one basis; so deciding mutation distance is NP-complete in rank $3$. An iterate of Rambau's expansion of signotopes amplifies the excess and gives NP-hardness in every fixed rank $r\\ge 4$. By duality we obtain the corresponding results for every fixed corank at least $3$. The same instances show that flip distance in the higher Bruhat orders $B(n,k)$ is NP-complete for every fixed $k\\ge 2$.",
+      "published": "2026-10-01",
+      "categories": [
+        "cs.DM",
+        "math.CO"
       ],
       "tags": [
         "matroid"
