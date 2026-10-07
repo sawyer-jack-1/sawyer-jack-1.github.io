@@ -38,7 +38,7 @@ layout: default
 
 Archived copies of external preprints, preserved for reference.
 
-* **Polynomial mixing of the switch chain for every graphical degree sequence.** OpenAI. Preprint dated September 25, 2026. <a class="publication-link" href="/research/references/openai-switch-chain-2026-09-25.pdf" target="_blank" rel="noopener noreferrer">PDF</a><a class="publication-link" href="/research/references/openai-switch-chain-2026-09-25.bib">BibTeX</a><br><span class="publication-authors">Archived October 6, 2026.</span>
+* **Polynomial mixing of the switch chain for every graphical degree sequence.** OpenAI. Preprint dated September 25, 2026. <a class="publication-link" href="/research/references/openai-switch-chain-2026-09-25.pdf" target="_blank" rel="noopener noreferrer">PDF</a><br><span class="publication-authors">Archived October 6, 2026.</span>
 
 # Talks and presentations
 
