@@ -1,8 +1,338 @@
 {
   "month": "2026-10",
-  "generated_at": "2026-10-06T16:00:07+00:00",
+  "generated_at": "2026-10-07T16:37:09+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2610.07724",
+      "url": "https://arxiv.org/abs/2610.07724",
+      "title": "Shape theorem for excited random walks on the integer lattice",
+      "authors": [
+        "Tuan-Minh Nguyen"
+      ],
+      "abstract": "We study the limit shape of the range of the random walk excited to the center on $\\mathbb Z^d$, with $d\\geq2$. A cookie is placed at each nonzero vertex. On its first visit to such a vertex, the walker consumes the cookie and takes its next nearest-neighbor step with a bias toward the origin. On a visit to the origin, or on later visits to a nonzero vertex, no cookie is available and the walker moves to a neighbor uniformly at random. We prove that the set of vertices visited up to time $n$, rescaled by $n^{-1/(d+1)}$, converges in probability in Hausdorff distance to an explicit $\\ell^1$ ball. This answers a question raised by Kozma (2007).",
+      "published": "2026-10-06",
+      "categories": [
+        "math.PR",
+        "cond-mat.stat-mech",
+        "math-ph"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.08181",
+      "url": "https://arxiv.org/abs/2610.08181",
+      "title": "Biased random walk on a locally infinite Galton-Watson tree",
+      "authors": [
+        "Jan Nagel"
+      ],
+      "abstract": "We propose a new variant of a biased random walk on a Galton-Watson tree, in which some vertices have infinitely many children. These vertices induce a natural regeneration structure, which allows to study differentiability and also monotonicity of the speed of the random walk in the bias parameter. Additionally, we show that the speed in this model is the limit of the speed of random walks on appropriate locally finite trees.",
+      "published": "2026-10-06",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.08348",
+      "url": "https://arxiv.org/abs/2610.08348",
+      "title": "Can one hear the shape of a lattice random walk?",
+      "authors": [
+        "Pieter Belmans",
+        "Sergey Galkin",
+        "Swarnava Mukhopadhyay"
+      ],
+      "abstract": "We construct distinct high-dimensional mean-zero finite range lattice random walks having pairwise-equal return probabilities for all step counts. The same examples provide pairwise-distinct shapes of discretizations of the standard Laplacian with pairwise-equal density state functions. The main contribution is a reconstruction theorem: to a colored trivalent graph one associates a quantum Clebsch--Gordan polytope, and this association is a full functor, in particular from the polytope one can uniquely recover the original graph. These polytopes appear as moment polytopes of toric degenerations of character varieties (moduli spaces of rank-2 bundles on curves), yielding a combinatorial non-abelian Torelli theorem. In symplectic geometry, the reconstruction theorem implies that monotone Lagrangian tori on odd character varieties associated with these degenerations are pairwise non-Hamiltonian isotopic. These results, and some of the applications, arose from the study of mirror symmetry for moduli spaces of vector bundles, and of the related Laurent phenomenon for mutations of graph potentials.",
+      "published": "2026-10-06",
+      "categories": [
+        "math.PR",
+        "math.AG",
+        "math.CO"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.08383",
+      "url": "https://arxiv.org/abs/2610.08383",
+      "title": "Random walk in a null recurrent birth-and-death dynamical environment",
+      "authors": [
+        "Luiz Renato Fontes",
+        "Pablo A. Gomes"
+      ],
+      "abstract": "We study a random walk in $\\mathbb{Z}^d$ in a dynamical random environment constituted of independent null recurrent birth-and-death chains, and establish a scaling limit result for the position of the walker in terms of a sublinear time change of Brownian motion, thus establishing subdiffusivity, in contrast to a diffusivity result established previously in an ergodic version of the model.",
+      "published": "2026-10-06",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.07539",
+      "url": "https://arxiv.org/abs/2610.07539",
+      "title": "Electrical Networks and Symplectic Invariants",
+      "authors": [
+        "David Kogan"
+      ],
+      "abstract": "Consider a finite planar graph with positive real edge weights and designated boundary vertices, called nodes. Such a graph is called a circular planar electrical network. A grove is a spanning forest in which every component contains at least one node. The connected components of a grove determine a partition of the nodes. We relate weighted grove counts to invariant theory for the symplectic group. To a planar electrical network $G$, we associate an $\\mathrm{Sp}(2n)$-invariant tensor $Z_G$. For $\\mathrm{Sp}(2)=\\mathrm{SL}(2)$, we expand $Z_G$ in the Temperley--Lieb basis indexed by noncrossing matchings and relate its coefficients to the Kenyon--Wilson grove formulas. For $\\mathrm{Sp}(4)$, we give reduction rules for superpositions of two groves and prove that the tensors indexed by $3$-noncrossing matchings form a basis of the space of $\\mathrm{Sp}(4)$-invariant tensors. The coefficients of $Z_G$ in this basis are weighted counts of reduced double groves, up to normalization.",
+      "published": "2026-10-06",
+      "categories": [
+        "math.CO",
+        "math-ph",
+        "math.PR"
+      ],
+      "tags": [
+        "electrical network"
+      ]
+    },
+    {
+      "id": "2610.08599",
+      "url": "https://arxiv.org/abs/2610.08599",
+      "title": "The Distance Laplacian and Distance Signless Laplacian Spectra of $\\mathcal{C}$-Graphs",
+      "authors": [
+        "Santanu Mandal",
+        "Pallabi Manna"
+      ],
+      "abstract": "Mandal and Mehatari (\\emph{Comp.\\ Appl.\\ Math.}, 2025) introduced the class $\\mathcal{C}$ of cographs generated by a finite creation sequence $(α_1,\\dots,α_m)$ of natural numbers, and derived the inertia, an extended eigenvalue-free interval, and the exact characteristic polynomial for the \\emph{adjacency} matrix of such graphs. In this note we develop the parallel theory for the \\emph{distance Laplacian} matrix $D^L(G)$ and \\emph{distance signless Laplacian} matrix $D^Q(G)$. It is shown that $(0,α_{\\min}) \\cup (n-α_{\\min}, n)$, $(0,n) \\ \\cup\\ (n,\\,n+α_{\\min}) \\ \\cup\\ (2n-α_{\\min},\\,2n)$, $\\big(2\\Tr_{\\min},\\ μ_{\\max}(D^Q(G))\\big)$ are the eigenvalue-free intervals of the Laplacian, distance Laplacian, and distance signless Laplacian matrices respectively for the said class of graphs.",
+      "published": "2026-10-06",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "signless Laplacian"
+      ]
+    },
+    {
+      "id": "2610.07577",
+      "url": "https://arxiv.org/abs/2610.07577",
+      "title": "Sharp conditioning and quantitative stability of optimal transport",
+      "authors": [
+        "Yuanlong Ruan"
+      ],
+      "abstract": "When a feasible plan is obtained whose quadratic transport cost is known to be close to the optimal cost, we try to determine how close the feasible plan is to the true optimal map under mild density and moment conditions. The source and target may be unbounded or have non-compact supports. We show that for a source with density in $L^p$ and an $n$-th moment, let $s=1-1/p$ and $η=sn/[n+(d-1)s]$. Under the target constraint $\\int |y|^m[\\log(e+|y|)]^β\\,dν\\leqslant1$, the worst-case class-uniform conditioning has a sharp modulus comparable to \\[ t^{η(m-2)/[m(1+η)-η]} [\\log(e/t)]^{-β(2+η)/[m(1+η)-η]}, \\] whenever $t>0$ is small. This holds for $m\\geqslant2$ and $β\\geqslant0$. When $m=2$, every $β>0$ gives a sharp logarithmic modulus, whereas the $m=2,\\,β=0$ extreme has no vanishing modulus. The matching lower bound is verified for both the squared map error and barycentric projection error. The sharp map error bounds allow us to directly derive quantitative stabilities of common source Brenier maps without passing through potential estimates, thereby avoiding loss of information. These stabilities strictly improve the corresponding results of Delalande-Merigot \\cite{delalande2023quantitative} and Letrouit-Mérigot \\cite{letrouit2026gluing} under identical or weaker settings, particularly no convexity of the source support or bounds of the source density are assumed.",
+      "published": "2026-10-06",
+      "categories": [
+        "math.OC",
+        "math.NA",
+        "math.PR"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2610.08087",
+      "url": "https://arxiv.org/abs/2610.08087",
+      "title": "A Logarithmic-dual-update Bregman ADMM for Optimal Transport",
+      "authors": [
+        "Di Hou",
+        "Kim-Chuan Toh"
+      ],
+      "abstract": "This paper studies an entropy Bregman alternating direction method of multipliers (BADMM) with logarithmic dual update for solving discrete optimal transport (OT) problems. The algorithm uses simple row and column normalizations without inner iterations, allowing efficient CPU and GPU implementations. However, the convergence of this method for general OT problems has not been established. Starting from a strictly positive feasible primal point and a zero multiplier, we establish $R$-linear convergence of the primal--dual sequence for general OT costs with any fixed multiplier stepsize in $(0,2)$ and a sufficiently large fixed penalty, even when the primal limit lies on the boundary. Our analysis further characterizes the primal limit as the entropy Bregman projection of the initial point onto the optimal solution set and establishes strict complementarity of the limiting OT primal--dual solution. For separable costs on two-dimensional grids, we exploit the kernel structure to accelerate matrix--vector products and reduce storage requirements. Numerical experiments show competitive performance for general cost matrices and substantial speedups over state-of-the-art solvers, including HOT and HALO, for squared Euclidean costs on two-dimensional-grid marginals. The largest tested problem, with $2048\\times2048$ grid points in each marginal, is solved in approximately 100 seconds on a single GPU.",
+      "published": "2026-10-06",
+      "categories": [
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2610.07673",
+      "url": "https://arxiv.org/abs/2610.07673",
+      "title": "Quantum walks and graph operations",
+      "authors": [
+        "Joy Cooper",
+        "Homer De Vera",
+        "Hermie Monterde",
+        "S. A. Talebpour",
+        "Xuzhu",
+        "Wang"
+      ],
+      "abstract": "Let $U_X(t)$ be the transition matrix of a quantum walk on a graph $X$ relative to its adjacency matrix $A$ or the Laplacian matrix $L$. This paper investigates the behavior of quantum walks under Cartesian products, joins, and graph complements. We have two main goals. First, we characterize the conditions such that peak state transfer and pretty good state transfer are preserved under these operations, allowing us to construct new families of graphs admitting these properties. Our second goal is to analyze the relationship between the quantum walks on a graph and its complement. We provide bounds for $f_{u,v}(t)=\\big|U_{X^c}(t)_{u,v}-e^{itδ}U_X(-t)_{u,v}\\big|$ and $g_{u,v}(t)=\\big||U_X(t)_{u,v}|-|U_{X^c}(t)_{u,v}|\\big|$, where $δ=-1$ when dealing with $A$ and $δ=n$ otherwise. Note that $f_{u,v}(t)$ and $g_{u,v}(t)$ both measure the difference between the behavior of quantum state transfer between vertices $u$ and $v$ in a graph and its complement. If $X$ is regular or $M=L$, then $f_{u,v}(t)$ is bounded above by $\\frac{2}{|V(X)|}$. If $X$ is non-regular and $M=A$, then we utilize the main eigenvalues of a graph to obtain an upper bound for $f_{u,v}(t)$ which depends only on $A$. We also use the bounding matrix of the graph to give bounds for the Nordhaus-Gaddum type relations $|U_X(t)_{u,v}|+|U_{X^c}(t)_{u,v}|$ and $|U_X(t)_{u,v}|\\cdot |U_{X^c}(t)_{u,v}|$. Finally, we demonstrate that most of our bounds are sharp for certain families of graphs.",
+      "published": "2026-10-06",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "Laplacian matrix",
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2610.08042",
+      "url": "https://arxiv.org/abs/2610.08042",
+      "title": "On Hypergraph Colorings and Completely Independent Spanning Trees in Chordal Graphs",
+      "authors": [
+        "Mohammed Lalou",
+        "Nader Mbarek",
+        "Abdallah Skender",
+        "Olivier Togni"
+      ],
+      "abstract": "In this paper, we study the existence problem of completely independent spanning trees (CIST) in chordal graphs through appropriate hypergraph representations and their panchromatic and bipanchromatic colorings. First, we disprove a conjecture stating an exact relationship between the panchromatic number, the bipanchromatic number, and the minimum number of unique colors in an optimal panchromatic coloring of a hypergraph. Then, by relating CIST to panchromatic and bipanchromatic colorings of the associated hypergraphs, we derive structural conditions for their existence in chordal graphs and specifically strictly chordal graphs.",
+      "published": "2026-10-06",
+      "categories": [
+        "math.CO",
+        "cs.DM"
+      ],
+      "tags": [
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2610.08103",
+      "url": "https://arxiv.org/abs/2610.08103",
+      "title": "The mixing time of Mean-Field Gibbs-Ornstein-Uhlenbeck processes",
+      "authors": [
+        "Johan Jonasson"
+      ],
+      "abstract": "We introduce mean-field Gibbs--Ornstein--Uhlenbeck (MFGOU) processes, a class of discrete-time Markov processes with increments of order $1/n$, whose conditional means approximate a smooth vector field. If the field has a unique attracting zero and satisfies a global Lyapunov condition, we prove \\[ τ_{\\mathrm{mix}} = \\frac{1}{λ_1}n\\log n+O(n), \\] where $λ_1$ is the smallest eigenvalue of the drift Jacobian at the attractor. Mean-field block measures form an important subclass encompassing mean-field spin systems and projected Gibbs samplers for Latent Dirichlet Allocation (LDA) and related mixture models. The leading mixing constant has a spectral expression involving the free-energy Hessian and the covariance of single-step dynamics. A block-refinement argument transfers projected-chain results to the full chain under a mild spectral condition, preserving this constant. The theory recovers known cutoff locations for Curie--Weiss Ising and Potts models and complete multipartite Ising models, gives an external-field formula for Curie--Weiss Ising, and covers regular-graph interactions. It yields explicit $n\\log n$ asymptotics for multinomial mixtures and partially collapsed LDA. For full LDA, mixing is determined conditionally on the stationary-point structure of the free energy, distinguishing metastability from topic-label switching. The framework also applies to continuous-state Gibbs sampling, constant-step stochastic gradient descent, and frequently refreshed Hamiltonian Monte Carlo, rigorously for truncated Gaussian increments and heuristically without truncation. The proof combines variance and mean estimates with path coupling allowing slight expansion in expected distance. After rescaling, the coupling distance is a nonnegative supermartingale whose quadratic variation gives a positive probability of coalescence.",
+      "published": "2026-10-06",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "mixing time"
+      ]
+    },
+    {
+      "id": "2610.08362",
+      "url": "https://arxiv.org/abs/2610.08362",
+      "title": "Optimal Bounds on Spanning Tree Embeddings",
+      "authors": [
+        "Csongor Beke",
+        "Vladimir Bošković",
+        "Nina Kamčev",
+        "Yiting Wang"
+      ],
+      "abstract": "We prove that the number of labelled embeddings of any $n$-vertex tree $T$ into an $n$-vertex graph $G$ of maximum degree $d$ satisfies $$ \\mathrm{inj}(T,G) \\leq (d/e)^n \\exp(o_d(1) n). $$ The bound is sharp up to determining $o_d(1)$, even for paths, and the dependence of the error $\\exp(o_d(1)n)$ on $d$ is necessary. As an immediate corollary, we obtain an optimal anticoncentration bound for the isomorphism class of a uniformly random spanning tree in a connected $d$-regular graph, answering a conjecture of H. Lee. The proof combines Brégman's inequality with entropy methods.",
+      "published": "2026-10-06",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2610.08261",
+      "url": "https://arxiv.org/abs/2610.08261",
+      "title": "Counting Minimal Vertex Cutsets and a Gap at 1 for Site Percolation on Vertex-Transitive Graphs",
+      "authors": [
+        "Joel Bassil"
+      ],
+      "abstract": "We consider site percolation on general graphs and give a sufficient condition on the escape probability of a certain random walk with degree-dependent conductances, such that the number of minimal vertex cutsets of size $n$ separating a given vertex from infinity is bounded above exponentially in $n$. This result extends an analogous theorem of Easo, Severo and Tassion under slightly stronger assumptions. Moreover, we give an alternative sufficient condition in terms of the isoperimetric dimension or, more specifically, an isoperimetric-type inequality. Furthermore, our theorem is sufficient to extend the results of Panagiotis and Severo, and show that there exists a universal positive constant $\\varepsilon_1$ such that site percolation on every infinite, connected, locally finite, vertex-transitive graph satisfies $p_c = 1$ or $p_c \\leq 1-\\varepsilon_1$.",
+      "published": "2026-10-06",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.08568",
+      "url": "https://arxiv.org/abs/2610.08568",
+      "title": "Positive Bidiagonal Factorizations and Mixed-Type Chebyshev Multiple Orthogonal Polynomials",
+      "authors": [
+        "Manuel Mañas"
+      ],
+      "abstract": "We characterize when a banded totally positive matrix admits a positive bidiagonal factorization. In finite dimension such a factorization always exists. For semi-infinite matrices of arbitrary finite bandwidth, existence is equivalent to convergence of a finite family of positive series determined by the Metelmann factors. Their reciprocals are the limiting values of scalar Jacobi continued fractions. We also prove that every bounded banded totally positive matrix can be approximated in operator norm by matrices admitting positive bidiagonal factorizations, through perturbations confined to a fixed initial block. For banded Toeplitz matrices, the negative roots of the polynomial symbol give a global factorization with bounded factors. Ordered partitions of these roots determine explicit mixed-type multiple orthogonal polynomials. Applying the existing spectral Favard theorem, we compute their matrix of positive measures: its support is one interval, and the measure is purely absolutely continuous with an algebraic density of rank one. These formulas also give transition and first-return laws for the associated killed random walks.",
+      "published": "2026-10-06",
+      "categories": [
+        "math.CA",
+        "math-ph",
+        "math.PR",
+        "math.SP"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.08127",
+      "url": "https://arxiv.org/abs/2610.08127",
+      "title": "Bulk universality of random regular graphs",
+      "authors": [
+        "Yukun He",
+        "Jiaoyang Huang",
+        "Xiaoyu Wang"
+      ],
+      "abstract": "We consider the adjacency matrix of a uniformly random simple $d$-regular graph on $N$ vertices. For every fixed $d\\geq3$ and every fixed bulk energy, we prove that the rescaled eigenvalue point process converges to the $\\mathrm{Sine}_1$ process with intensity $1/π$. We also establish universality of consecutive gaps at deterministic bulk labels and of fixed-energy correlation measures. The eigenvector input consists of polynomial estimates for mixed fourth moments on a uniformly sampled star. These estimates prevent loss of variance in the qualitative joint Gaussian limits of Backhausz--Szegedy, yielding independent variance-one Gaussian waves for fixed tuples at nearby energies. Exact switching identities then give a stationary marked flow and the microscopic loop hierarchy, which identifies the point-process limit. The appendices prove the stronger correlation and gap statements using counting-moment bounds and conditional log-gas laws for tagged limits.",
+      "published": "2026-10-06",
+      "categories": [
+        "math.PR",
+        "math-ph"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2610.08634",
+      "url": "https://arxiv.org/abs/2610.08634",
+      "title": "Spectral Recovery of Point Clouds from Noisy Geometric Graphs",
+      "authors": [
+        "Tatiana Brailovskaya",
+        "Nicholas A. Cook",
+        "Sofia Poinelli"
+      ],
+      "abstract": "We study the problem of recovering low-dimensional latent geometry from a random geometric graph generated by noisy, high-dimensional data. Specifically, we analyze the performance of a spectral embedding algorithm on the Signal+Noise Graph Model, in which vertices are associated to points perturbed by Gaussian noise, and edges are included for pairs whose inner product exceeds a specified alignment threshold. In the high-dimensional regime where the number $n$ of points and the ambient dimension $d$ both tend to infinity, we show that under a spectral gap condition, the top eigenvectors and eigenvalues of the graph's adjacency matrix can be used to approximately recover the point cloud up to an orthogonal transformation. We illustrate our results on point clouds sampled from nested spheres and high-dimensional sinusoid curves.",
+      "published": "2026-10-06",
+      "categories": [
+        "math.ST",
+        "math.PR",
+        "stat.ML"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2610.07602",
+      "url": "https://arxiv.org/abs/2610.07602",
+      "title": "A Neural JKO Scheme for Hellinger-Kantorovich Gradient Flows via Monge-Growth Pairs",
+      "authors": [
+        "Geuntaek Seo",
+        "Cheolhyeong Kim",
+        "Hwijae Son",
+        "Hyung Ju Hwang"
+      ],
+      "abstract": "We develop a mesh-free neural JKO scheme for advection-reaction-diffusion equations with a gradient-flow structure in the Hellinger-Kantorovich (HK) geometry of unbalanced optimal transport. Each update is parametrized by a spatial map and a mass-changing factor, allowing spatial redistribution and local mass creation or loss to be treated jointly within a single variational step. Their cone action bounds the squared HK distance from above, yielding a sufficient condition for discrete energy dissipation through comparison with the identity pair. Minimizing the pair objective over all admissible pairs recovers the exact JKO minimum when the source and a minimizer have positive densities. We establish existence and mass bounds for JKO minimizers and, under additional assumptions, obtain positivity and regularity together with a discrete Euler-Lagrange equation and a metric-dissipation identity. The self-consistent chemical potential is then nonincreasing along an optimal map. There exist parametric pairs whose endpoint densities and objective values converge to those of an exact JKO minimizer, provided a regular-pair approximation hypothesis holds. Finally, we show that a primal-dual gap controls objective suboptimality and, for Boltzmann entropy, the $L^1$ density error, assuming exact-step regularity, positive-semidefinite interactions, and global dual feasibility. Numerical experiments examine pointwise agreement with the PDE, energy dissipation, and the roles of transport, reaction, and fully implicit interactions.",
+      "published": "2026-10-06",
+      "categories": [
+        "math.NA",
+        "cs.LG",
+        "math.AP",
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2610.08706",
+      "url": "https://arxiv.org/abs/2610.08706",
+      "title": "On the maximum degree and order of $K_t$-minor-free graphs with positive Lin--Lu--Yau curvature",
+      "authors": [
+        "Zi-Xia Song"
+      ],
+      "abstract": "Motivated by recent results on the order of connected graphs with positive Lin--Lu--Yau Ricci curvature under forbidden minor or forbidden subgraph conditions and minimum degree assumptions, we prove that, for every integer $t\\ge 5$, every connected graph $G$ with no $K_t$ minor, minimum degree at least $t-1$ and positive Lin--Lu--Yau Ricci curvature on every edge satisfies \\[ Δ(G)=O(t^5\\log^{3/2}t) \\quad\\text{and}\\quad |V(G)|<2tΔ(G)^6=O(t^{31}\\log^9 t). \\] The minimum degree condition $t-1$ is best possible. Moreover, the bound on the maximum degree $Δ(G)$ extends to locally finite graphs and, consequently, every connected locally finite graph satisfying these conditions is finite.",
+      "published": "2026-10-06",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "Ricci curvature"
+      ]
+    },
     {
       "id": "2610.05663",
       "url": "https://arxiv.org/abs/2610.05663",
@@ -140,15 +470,65 @@
     {
       "id": "2610.06589",
       "url": "https://arxiv.org/abs/2610.06589",
-      "title": "A sharp Merino--Welsh-type inequality for matroids",
+      "title": "A direct inductive proof of the sharp Merino--Welsh threshold for matroids",
       "authors": [
         "Jungang Chen",
         "Jiaxin Xie"
       ],
-      "abstract": "Motivated by the Merino--Welsh conjecture, we consider the smallest $c\\ge0$, denoted by $c_*$, for which the inequality $T_M(c,0)T_M(0,c)\\ge T_M(1,1)^2$ holds for every loopless and coloopless finite matroid $M$. The counterexamples constructed by Beke, Csáji, Csikvári, and Pituk [\\emph{Adv. Math.} \\textbf{446} (2024), 109674] give the lower bound $x_0$, where $x_0\\approx2.22668$ is the largest real root of the polynomial $x^3-9(x-1)$. Later, Csikvári [\\emph{European J. Combin.} \\textbf{137} (2026), 104402] improved the known upper bound for this constant to $2.35$ and then conjectured that the above inequality holds at $c=x_0$. We give a direct inductive proof of this conjecture, thereby showing that $c_*=x_0$.",
+      "abstract": "Motivated by the Merino--Welsh conjecture, we consider the smallest $c\\ge0$, denoted by $c_*$, for which the inequality $T_M(c,0)T_M(0,c)\\ge T_M(1,1)^2$ holds for every loopless and coloopless finite matroid $M$. The counterexamples constructed by Beke, Csáji, Csikvári, and Pituk [\\emph{Adv. Math.} \\textbf{446} (2024), 109674] give the lower bound $x_0$, where $x_0\\approx2.22668$ is the largest real root of the polynomial $x^3-9(x-1)$. Later, Csikvári [\\emph{European J. Combin.} \\textbf{137} (2026), 104402] improved the known upper bound for this constant to $2.35$ and then conjectured that the above inequality holds at $c=x_0$. This conjecture was recently proved by Liu (2026). We give an alternative direct inductive proof that $c_*=x_0$, without computer-assisted finite verification.",
       "published": "2026-10-05",
       "categories": [
         "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.07099",
+      "url": "https://arxiv.org/abs/2610.07099",
+      "title": "Real-rootedness of Kazhdan--Lusztig polynomials of sparse paving matroids",
+      "authors": [
+        "Philip B. Zhang"
+      ],
+      "abstract": "We prove that every nonconstant Kazhdan--Lusztig polynomial of a sparse paving matroid has only simple negative zeros. For each rank $d\\ge5$, the Kazhdan--Lusztig polynomial of the uniform matroid of rank $d-2$ on $d$ elements strictly interlaces those of all sparse paving matroids of rank $d$ and corank at least two.",
+      "published": "2026-10-05",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.07318",
+      "url": "https://arxiv.org/abs/2610.07318",
+      "title": "A note on the list chromatic number of two matroids",
+      "authors": [
+        "Bence Garami"
+      ],
+      "abstract": "We study list coloring of common independent sets of two matroids. We construct a graphic matroid $M_1$ and a partition matroid $M_2$ with common chromatic number two and common list chromatic number three, showing that the two parameters need not be equal. This resolves a question raised by Király, later stated as a conjecture by Aharoni, Berger, Guo, and Kotlar. We also show that if two strongly base-orderable matroids are each $2$-colorable, then their intersection is $2$-list-colorable.",
+      "published": "2026-10-05",
+      "categories": [
+        "math.CO",
+        "cs.DM"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.07387",
+      "url": "https://arxiv.org/abs/2610.07387",
+      "title": "Stronger Hardness for Submodular Maximization Subject to a Matroid Constraint",
+      "authors": [
+        "Moran Feldman",
+        "Alan Kuhnle"
+      ],
+      "abstract": "Maximizing a submodular function subject to a matroid constraint is a cornerstone problem in combinatorial optimization. The state-of-the-art algorithm for this problem obtains $0.401$-approximation~\\cite{buchbinder2024constrained}, and the state-of-the-art hardness result shows that no polynomial time algorithm can obtain better than $0.478$-approximation for this problem~\\cite{oveisgharan2011submodular}. In this work, we present the first improvement in $15$ years for the hardness result, showing that no polynomial time algorithm in the value-oracle model can obtain better than $8/17 \\approx 0.471$-approximation, even for the special case of a cardinality or (simplified) partition matroid constraint.",
+      "published": "2026-10-05",
+      "categories": [
+        "cs.DS"
       ],
       "tags": [
         "matroid"
@@ -338,6 +718,23 @@
       ]
     },
     {
+      "id": "2610.06935",
+      "url": "https://arxiv.org/abs/2610.06935",
+      "title": "Uniform Bessel bounds for endpoint crossings in the persistent random walk",
+      "authors": [
+        "Arjun Pemmasani"
+      ],
+      "abstract": "A ball bounces down a Galton board, where its first bounce's direction is fair while every later bounce repeats the previous bounce's direction with probability $p$, all the way down to some bin. We ask for which $p$ the middle bin is exactly as likely as the end bins, a question originally posed by Kagey. We find that for $N$ bounces, the tie occurs when the ball changes direction (turns) approximately $\\log N$ times on average. We compare the central bin with a Bessel function, with an error bound that is explicit for all $N$. This yields an explicit interval for the tie at every $N \\geq 2$, rather than just for large $N$. This is done analytically for $N \\geq 175$, and for smaller $N$ exactly by integer arithmetic, cross-verified in Lean. We also find the tie of every other bin with the end bins and the shift caused by periodic boundaries.",
+      "published": "2026-10-03",
+      "categories": [
+        "math.PR",
+        "cond-mat.stat-mech"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
       "id": "2610.04530",
       "url": "https://arxiv.org/abs/2610.04530",
       "title": "The broadcast voter model: Stationary measures",
@@ -388,6 +785,24 @@
       ],
       "tags": [
         "stochastic block model"
+      ]
+    },
+    {
+      "id": "2610.06944",
+      "url": "https://arxiv.org/abs/2610.06944",
+      "title": "Equilibria of Inverse-Square Repulsion on the Line Are Arithmetic Progressions",
+      "authors": [
+        "Alper Ferudun"
+      ],
+      "abstract": "Benjamini asked whether every configuration of points on the real line that is in equilibrium under the inverse-square repulsive force must be an arithmetic progression. Georgakopoulos and Kolountzakis proved this when some gap between consecutive points has maximal or minimal length, and described the general (aperiodic) case as open. We show that the answer is yes. More generally, let $1<s\\le2$, and let $X\\subset\\mathbb{R}$ be a locally finite set with at least two points such that, for every $x\\in X$, the total force $\\sum_{y\\in X\\setminus\\{x\\}}|y-x|^{-s}$ is finite and the net force $\\sum_{y\\in X\\setminus\\{x\\}}\\operatorname{sgn}(y-x)\\,|y-x|^{-s}$ is zero. Then $X$ is an arithmetic progression. No a priori assumption on the gaps is needed. Subtracting the equilibrium equations of two consecutive points shows that the gaps $g_n$ form a positive harmonic function for an explicit reversible random walk on $\\mathbb{Z}$ with long-range jumps. Equilibrium also bounds the ratio of consecutive gaps, by $1.5386\\ldots$ when $s=2$. With this bound, an energy estimate shows that the Doob transform of the walk by $g$ is recurrent. Since $1/g$ is a positive harmonic function of the transformed walk, it is constant.",
+      "published": "2026-10-03",
+      "categories": [
+        "math.CA",
+        "math.CO",
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
       ]
     },
     {
