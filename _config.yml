@@ -3,3 +3,8 @@ title: Sawyer Jack Robertson
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
+defaults:
+  - scope:
+      path: "blog_posts/blog_11.md"
+    values:
+      math: true

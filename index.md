@@ -22,6 +22,7 @@ My [curriculum vitae is available here](/assets/cv/cv_5.pdf) (Updated November 2
 
 # Recent publications and preprints
 
+* **Mixing Times of Switch Chains via High-Dimensional Expansion.** <a class="publication-link" href="https://arxiv.org/abs/2610.09506" target="_blank" rel="noopener noreferrer">arXiv</a>
 * **Optimal Transport on Graphs and Stochastically Evolving Trees.** <a class="publication-link" href="https://arxiv.org/abs/2608.14839v1" target="_blank" rel="noopener noreferrer">arXiv</a><br><span class="publication-authors">with F. Chung</span>
 * **Distance Exceptional Graphs and the Curvature Index.** <a class="publication-link" href="https://arxiv.org/abs/2511.03719" target="_blank" rel="noopener noreferrer">arXiv</a><br><span class="publication-authors">with F. Southerland and E. Surya</span>
 * **Discrete Curvatures and Convex Polytopes.** _To appear, SIAM J. Discrete Math._ <a class="publication-link" href="https://arxiv.org/abs/2510.11894" target="_blank" rel="noopener noreferrer">arXiv</a>
@@ -47,6 +48,7 @@ My [curriculum vitae is available here](/assets/cv/cv_5.pdf) (Updated November 2
 
 # Recent announcements
 
+* [Thoughts on a new paper 'Mixing Times of Switch Chains via High-Dimensional Expansion'](/blog_posts/blog_11.html) // 8 October 2026
 * [Preprint announcement: 'Optimal Transport on Graphs and Stochastically Evolving Trees'](/blog_posts/blog_10.md) // 20 August 2026
 * [Preprint announcement: 'Distance Exceptional Graphs and the Curvature Index'](/blog_posts/blog_09.md) // 6 November 2025
 * [Preprint announcement: 'Discrete Curvatures and Convex Polytopes'](/blog_posts/blog_08.md) // 14 October 2025

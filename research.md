@@ -4,6 +4,7 @@ layout: default
 
 # Recent publications and preprints
 
+* **Mixing Times of Switch Chains via High-Dimensional Expansion.** <a class="publication-link" href="https://arxiv.org/abs/2610.09506" target="_blank" rel="noopener noreferrer">arXiv</a>
 * **Optimal Transport on Graphs and Stochastically Evolving Trees.** <a class="publication-link" href="https://arxiv.org/abs/2608.14839v1" target="_blank" rel="noopener noreferrer">arXiv</a><br><span class="publication-authors">with F. Chung</span>
 * **Distance Exceptional Graphs and the Curvature Index.** <a class="publication-link" href="https://arxiv.org/abs/2511.03719" target="_blank" rel="noopener noreferrer">arXiv</a><br><span class="publication-authors">with F. Southerland and E. Surya</span>
 * **Discrete Curvatures and Convex Polytopes.** _To appear, SIAM J. Discrete Math._ <a class="publication-link" href="https://arxiv.org/abs/2510.11894" target="_blank" rel="noopener noreferrer">arXiv</a>

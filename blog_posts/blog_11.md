@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Thoughts on a new paper 'Mixing Times of Switch Chains via High-Dimensional Expansion'"
+date: 8 October 2026
+author: "Sawyer"
+---
+
+(Not edited with AI.)
+
+I'm excited to share my new preprint, _Mixing Times of Switch Chains via High-Dimensional Expansion_. The paper is focused on the switch chain and uses tools from the theory of high dimensional expansion. I am excited to finally have the opportunity to put these pieces together.
+
+[The paper is available on arXiv](https://arxiv.org/abs/2610.09506).
+
+I will say that this paper came together somewhat quickly. I have been thinking about this problem on and off, in particular in the context of HDX, for about two years. But my emphasis has been on what I thought was a weirder variant of the problem, which was to understand how big of a block update is required to guarantee mixing on the order of $n\log{n}$. This is weird for, among other reasons, the fact that a block update of $k$ edges will in general incur exponential blowup in the cost required to sample the "up" step. But as it turns out, in the bounded degree setting, mixing of the block chain is basically equivalent to the original chain mixing more or less just as fast. Understanding this connection and its role in paving a clear path to solving the Cooper--Dyer--Greenhill conjecture happened only recently.
+
+This is my first paper in which the role of AI was more central to my research process. My feelings about this, while on balance somewhat optimistic, are deeply complicated. My release of this paper comes on the heels of the release of 372 "proofs" of open problems, which are really just "findings," if anything, by OpenAI. This included Problem 131: "Polynomial mixing of the switch chain for every graphical degree sequence," a result which is closely related to the subject matter of my new paper.  It is my intent to hopefully soon release an expository version of that paper within the context of simplicial switch chains.
+
+I will share a story here that I think it perhaps good to write down at some point. I suspect that OpenAI and its flagships tools were unable to solve the Cooper--Dyer--Greenhill conjecture. This is because (1) it has received arguably about as much attention in the literature as has the more generic problem of rapid mixing for an arbitrary degree sequence, and (2) it was not solved before or during the 372 problem slop nuke that was released this week. I suspect that if a proof were possible by way of these tools, the OpenAI nanobots would likely have discovered it.
+
+At the end of the day, I have some desire to retain the intellectual ownership over the fact that I put the pieces of the proof together as a human. Looking back over some chats with AI early on in the process, it was clear that even these super "brilliant" machines were functionally in a holding pattern while the thoughts were developing in my brain. But something important happened early on. Regarding this conjecture about the block version of this chain, at some point, I asked AI something like: "can you find a proof that polynomial steps in Delta are sufficient to guarantee that the links of the switch complex have 'good' spectral expansion (in some suitable sense)?" This was back in ChatGPT 5, before the Astra stuff, and it told me "Basically yes." I didn't read the proof.
+
+I didn't know what to do with this and, operating under the prior that the block version of the problem would be of little interest regardless, just stowed it away in my brain. If I didn't know that this crucial step was in some sense possible, I really don't think I would ever have returned to the problem, at least not for a year or more in all likelihood. I viewed it not as a means to an end for proving the original conjecture but rather as some interesting fact. It was certainly known by others that up down walks, while nominally applicable as a model to the switch chain, faced a litany of issues on the side of actually using them to solve the problem; disconnected links, no clear structure, so on so forth. So again I really felt like this fact was, at best, some cute observation regarding what, if little, could be said about the intersection of switch chains and HDX. 
+
+Weeks went by. Later, at tea, I was talking to a fellow participant here at Simons and mentioned to him something along the lines of, "by the way I think what I was talking about is tentatively possible, it could be interesting to look at at some point." And we moved on and talked about nothing. That was on a Friday, and on Sunday evening, I put the pieces together -- it's stupid, really -- that $poly(O(1))=O(1)$, and that, hueristically, if someone told me that the down-10^{100}-up-10^{100} walk mixed in time $O(n\log{n})$, where 10^{100} is not growing with $n$, then surely the down-2-up-2 couldn't be much slower. This was later confirmed and became the first version of the manuscript. It goes without saying that the manuscript which is now released is, notably, not a compilation of slop proofs.
+
+So this is all just to say that, on some level, I would never have put these pieces together without some kernel of confirmation, provided in this case by AI, that the crucial step, then a curiosity, was worth thinking more about. 
+
+And I think many in the mathematical community share some version of this vision for a future world of mathematics where human-AI collaboration is possible and encouraged, with incentives and guardrails in place to prevent the dissemination and release of long-form slop proofs. The problem it seems is that the corporate power players, one in particular, disagree with this vision.
