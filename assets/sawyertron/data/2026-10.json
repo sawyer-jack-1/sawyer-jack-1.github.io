@@ -1,8 +1,327 @@
 {
   "month": "2026-10",
-  "generated_at": "2026-10-07T16:37:09+00:00",
+  "generated_at": "2026-10-08T16:35:26+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2610.10228",
+      "url": "https://arxiv.org/abs/2610.10228",
+      "title": "Expected mixed volumes of convex hulls of random walks and Lévy processes",
+      "authors": [
+        "Artyom Bolotin",
+        "Dmitry Zaporozhets"
+      ],
+      "abstract": "Let $C_1,\\ldots,C_k$ be the convex hulls of independent partial-sum processes in $\\mathbb{R}^d$ whose increments are exchangeable within each process. We express the expected mixed volume $\\mathbb{E} V_d(C_1[m_1],\\ldots,C_k[m_k])$, $m_1+\\cdots+m_k=d$, through mean absolute determinants of disjoint block sums of the increments; no general-position assumption is needed. For random walks with i.i.d. integrable increments the block sums are independent, and the formula extends the expected-volume formula of Barndorff-Nielsen and Baxter and of Vysotsky and Zaporozhets to mixed volumes. We then prove a continuous-time counterpart: for independent Lévy processes with finite first moments, the expected mixed volume of the closed convex hulls of their paths is an explicit integral of mean absolute determinants over a product of simplices. For symmetric stable processes the integral is evaluated in terms of the associated zonoids. As a geometric application, we compute the mean mixed volume of random projections of mutually orthogonal canonical orthoschemes.",
+      "published": "2026-10-07",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.10501",
+      "url": "https://arxiv.org/abs/2610.10501",
+      "title": "The Tutte embedding of tree-weighted planar maps converges to Liouville quantum gravity",
+      "authors": [
+        "Nina Holden"
+      ],
+      "abstract": "Suppose $M$ is a planar map with a macroscopic boundary decorated by a spanning tree $T$, such that $(M,T)$ has been sampled from the critical Boltzman measure. We show that $M$ converges to a Liouville quantum gravity disk with parameter $γ=\\sqrt{2}$ under the Tutte embedding as the length of the boundary of $M$ goes to infinity. Furthermore, conditioned on $(M,T)$, the simple random walk on $M$ converges to a planar Brownian motion modulo reparametrization of time.",
+      "published": "2026-10-07",
+      "categories": [
+        "math.PR",
+        "math-ph",
+        "math.CV"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk",
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2610.09738",
+      "url": "https://arxiv.org/abs/2610.09738",
+      "title": "Curvature bounds for the cost of coherence in conditional optimal transport",
+      "authors": [
+        "Xiaozhen Wang",
+        "Xiang Zhou",
+        "Zihan Zhang"
+      ],
+      "abstract": "We study the gap between the integrated direction-wise kinetic minima and the minimum expected Dirichlet energy of a joint particle realization of a prescribed two-parameter family of conditional probability measures. Under regular coarea assumptions with compact connected fibres and a star-shaped parameter domain, we derive a curvature lower bound valid for every admissible law of Sobolev maps realizing the prescribed smooth positive conditional measures. Our method combines the weighted-Poisson characterization of local optimal-transport velocities with an exact energy-residual identity, a weak Stokes formula, and explicit transport constructions. The minimum excess vanishes exactly when the Lie-bracket curvature vanishes throughout the parameter domain, whereas at a nonzero-curvature centre it is of order $r^4$ as $r\\to0$ on squares of half-side length $r$ with unnormalized area measure. In a two-phase torus model fitted to electricity-demand data, numerical tests illustrate this quartic order for explicit couplings, with radial transport approximately halving the ordered construction's excess on the tested small squares.",
+      "published": "2026-10-07",
+      "categories": [
+        "math.OC",
+        "math.PR"
+      ],
+      "tags": [
+        "Dirichlet energy",
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2610.10162",
+      "url": "https://arxiv.org/abs/2610.10162",
+      "title": "Kozma's centrally excited walk converges to a Euclidean ball",
+      "authors": [
+        "Ahmed Bou-Rabee",
+        "Yuval Peres"
+      ],
+      "abstract": "A centrally excited random walk on ${\\mathbb Z}^d$ moves like simple random walk, except that its first step from each site has a drift of fixed size toward the origin. Kozma (2007) conjectured that after $n$ steps the visited set approximates a ball with radius of order $n^{ 1/(d+1)}$. We prove this in every dimension $d\\geq2$ and show that the rescaled numbers of visits converge uniformly to a cone, which is the potential generated by the drift on a ball. The same argument shows that a drift opposite to a subgradient of a norm produces the ball of that norm. In the plane, the outer and inner radii of the visited set differ by at most $ n^{1/6}$ times a power of $\\log n$, and the exponent $1/6$ cannot be lowered.",
+      "published": "2026-10-07",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk"
+      ]
+    },
+    {
+      "id": "2610.10307",
+      "url": "https://arxiv.org/abs/2610.10307",
+      "title": "Positive Lin-Lu-Yau curvature, planar graphs, and forbidden minors",
+      "authors": [
+        "Louis Esperet",
+        "Julie Semaan"
+      ],
+      "abstract": "Over the past few decades, several notions of graph curvature have been introduced. Among them, Ollivier curvature, defined through optimal transport, and its Lin--Lu--Yau variant provide notions of curvature for graphs which retain several features of their counterpart in Riemannian geometry. A classical problem in this context is to understand the global structure of positively curved spaces. Lu and Wang proved that there are only finitely many positively curved planar graphs of minimum degree at least 3. In this paper, we study two directions motivated by this result. We first show that for fixed $2\\leq s\\leq t$, there are only finitely many positively curved $K_{s,t}$-minor-free graphs with minimum degree at least $s$. In particular, this generalizes the result of Lu and Wang to graphs embeddable on any fixed surface. We then give a complete classification of positively curved 5-connected plane triangulations. In particular, we show that there are only five examples, on 12, 14, 15, 16, and 17 vertices.",
+      "published": "2026-10-07",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "optimal transport",
+        "graph curvature",
+        "Ollivier curvature"
+      ]
+    },
+    {
+      "id": "2610.09512",
+      "url": "https://arxiv.org/abs/2610.09512",
+      "title": "A Distributed Accelerated Preconditioned ADMM for Solving Quadratically Regularized Optimal Transport on Bipartite Graphs",
+      "authors": [
+        "Jiayi Zhu",
+        "Haihang Lan"
+      ],
+      "abstract": "Optimal transport (OT) has found broad applications in machine learning, economics, and management. Classical OT models, however, are not directly suited to allocation problems with graph-structured connectivity and unbalanced mass. Distributed OT formulations on bipartite graphs address these requirements but are typically solved by ADMM, whose slow convergence limits communication efficiency. We adapt the accelerated preconditioned ADMM (AP-ADMM) to the quadratically regularized distributed OT model and develop DAP-ADMM, a fully distributed algorithm in which each node communicates only with its graph neighbors. For fixed local penalty parameters, we establish global convergence and non-ergodic $O(1/k)$ bounds for both the KKT-residual norm and the primal objective gap. We derive an exact solver-free routine for the interval-constrained projections arising in the local ADMM subproblems. We propose a distributed self-adaptive penalty mechanism that updates node-specific penalties using locally computable KKT-residual components without global aggregation. Numerical experiments confirm the efficiency of the solver-free routine and the practical acceleration of DAP-ADMM over standard distributed ADMM.",
+      "published": "2026-10-07",
+      "categories": [
+        "cs.DC",
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2610.09640",
+      "url": "https://arxiv.org/abs/2610.09640",
+      "title": "Quantitative stability of optimal transport via regularization",
+      "authors": [
+        "Songbo Wang",
+        "Xiaozhen Wang"
+      ],
+      "abstract": "We prove quantitative stability estimates for quadratic optimal transport maps by regularizing a Brenier potential and estimating the error in the duality gap. The source has an $L^p$ density, $p>1$, relative to a probability measure with a BV density. When one target lies in a fixed ball, we obtain the $W_2$ Hölder exponent $(p-1)/(4p-2)$. The constant depends on the dimension through three explicit source quantities: the variance, the total variation of the reference density and the $L^p$ norm of the weight. The proof uses a second-order bound on the averaged regularized Fenchel gap. By restricting the slopes of the potential, we also treat targets with a bounded moment of any order greater than two. In both estimates, the condition is imposed on one target, while the other can be any probability measure with finite second moment. For Gaussian and isotropic log-concave sources, the constants grow polynomially with the dimension. For $L^p$ changes of Gaussian measure, the factor in the bounded-target estimate is $d^{(p-1)/(4p-2)}$. For each $p$, a fixed source in two dimensions proves optimality of both stability exponents in this source class. A Gaussian construction provides polynomial lower bounds on the dimension dependence.",
+      "published": "2026-10-07",
+      "categories": [
+        "math.PR",
+        "math.AP",
+        "math.FA"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2610.10257",
+      "url": "https://arxiv.org/abs/2610.10257",
+      "title": "First-order $Γ$-expansion for entropic optimal transport with non-degenerate costs",
+      "authors": [
+        "Luca Nenna",
+        "Brendan Pass",
+        "Paul Pegon",
+        "Louis Tocquec"
+      ],
+      "abstract": "Entropy-regularized optimal transport (EOT) has become a key tool in optimal transport, providing both theoretical insight and efficient computation via the Sinkhorn algorithm. We study the first-order \\(Γ\\)-expansion of EOT as the regularization parameter \\(\\varepsilon\\) vanishes, by rewriting EOT as the minimization of a relative entropy with respect to a Gibbs measure \\(\\gibbs\\) associated with the duality gap energy. Using a mild extension of the Laplace method, we prove the convergence of the Gibbs measures and derive this \\(Γ\\)-expansion for non-degenerate ground costs, under suitable assumptions on the duality gap, the contact set and the marginals. This yields at the same time an entropic selection principle and an expansion of the EOT cost up to \\(o(\\varepsilon)\\) for this class of ground costs, generalizing existing results.",
+      "published": "2026-10-07",
+      "categories": [
+        "math.OC",
+        "math.AP",
+        "math.PR"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2610.09506",
+      "url": "https://arxiv.org/abs/2610.09506",
+      "title": "Mixing Times of Switch Chains via High-Dimensional Expansion",
+      "authors": [
+        "Sawyer Jack Robertson"
+      ],
+      "abstract": "The switch chain is a Markov chain defined on the set of labelled realizations of a given graphical degree sequence. At each step, a pair of vertex-disjoint edges is chosen at random and the process attempts to replace them with a uniformly chosen perfect matching of the same four vertices, rejecting any proposal that would create a multiple edge. The resulting process is reversible with respect to the uniform distribution on all realizations. We investigate the mixing time of this chain by viewing realizations as the facets of a simplicial complex and studying a variant of the original process called the simplicial switch chain, which we analyze using tools from the theory of high-dimensional expansion. Our technical contributions include a proof that links of faces of sufficiently high codimension are strong spectral expanders and a comparison between the Dirichlet energies of large block updates and two-edge updates. Our main result is an $O(Δ^{2}m\\log m)$ bound on the mixing time of both simplicial and classical switch chains whenever $m\\ge CΔ^{8}$, where $m$ is the number of edges, $Δ$ is the maximum prescribed degree, and $C>0$ is an absolute constant. For sequences on $n$ vertices with fixed maximum degree, this proves that the chain mixes in $O(n\\log n)$ steps, resolving a longstanding conjecture of Cooper, Dyer, and Greenhill and extending its conclusion to irregular degree sequences.",
+      "published": "2026-10-07",
+      "categories": [
+        "math.PR",
+        "cs.DM",
+        "math.CO"
+      ],
+      "tags": [
+        "mixing time"
+      ]
+    },
+    {
+      "id": "2610.10107",
+      "url": "https://arxiv.org/abs/2610.10107",
+      "title": "A Unified Spectral Framework for Weighted Adjacency-Degree Matrices of Dendrimer and Bethe Trees",
+      "authors": [
+        "Metrose Metsidik"
+      ],
+      "abstract": "We introduce a weighted adjacency-degree matrix \\(A_{fg}(G)\\) with edge weights \\(f(d_i,d_j)\\) and diagonal entries \\(g(d_i)\\), unifying adjacency, Laplacian, signless Laplacian, \\(A_α\\), ABC, Randić, Sombor and related matrices. For dendrimer trees \\(D_{n,k}\\) and Bethe trees \\(B_{n,k}\\), the characteristic polynomial is factorized through one recursive sequence \\(P_{fg,n}\\). When \\(f^2(1,k)=f^2(k,k)\\), this sequence admits a Chebyshev reduction to \\( U_{j+1}(x)+δU_j(x)=0, \\) covering \\(L/L^+\\) and \\(A_α\\); explicit cosine spectra occur only in special cases, such as the adjacency matrix and the \\(L/L^+\\) end factor of \\(B_{n,k}\\). We derive positive-semidefinite energy formulas, Gershgorin criteria, spectral-gap estimates, interlacing and non-interlacing results, partial eigenvalue-coincidence information, and McClelland- and Koolen--Moulton-type bounds. Several known results are recovered as special cases of this unified framework.",
+      "published": "2026-10-07",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix",
+        "signless Laplacian"
+      ]
+    },
+    {
+      "id": "2610.10511",
+      "url": "https://arxiv.org/abs/2610.10511",
+      "title": "The Exact Overlaps Conjecture for Self-Similar Measures on the Real Line",
+      "authors": [
+        "Samuel Kittle",
+        "Constantin Kogler"
+      ],
+      "abstract": "A generalization of the exact overlaps conjecture predicts a formula for the dimension of self-similar measures in terms of the random walk entropy and the Lyapunov exponent. We prove the exact overlaps conjecture and its generalized version in dimension one. The proof relies on a new entropy inequality quantifying the information lost under addition of independent random variables in terms of a quantity averaging variance across scales.",
+      "published": "2026-10-07",
+      "categories": [
+        "math.DS",
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.09990",
+      "url": "https://arxiv.org/abs/2610.09990",
+      "title": "A relation between Mahler volume and flag number for convex polytopes",
+      "authors": [
+        "Martin Winter"
+      ],
+      "abstract": "Given a convex polytope $P\\subset\\Bbb R^d$ with $\\mathcal F(P)$ many flags, we prove $$\\operatorname{vol}(P) \\operatorname{vol}(P-P)^\\circ \\le \\frac{\\mathcal F(P)}{(d!)^2}.$$ This implies the following relation between Mahler volume and the number of flag conjectured by Freij, Schmitt, Schymura and Ziegler: for a centrally symmetric polytope $P\\subset\\Bbb R^d$ holds $$\\operatorname{vol}(P)\\operatorname{vol}(P^\\circ) \\le \\frac{2^d}{(d!)^2} \\mathcal F(P).$$ This shows that the Mahler conjecture implies Kalai's flag conjecture.",
+      "published": "2026-10-07",
+      "categories": [
+        "math.CO",
+        "math.MG"
+      ],
+      "tags": [
+        "convex polytope"
+      ]
+    },
+    {
+      "id": "2610.09380",
+      "url": "https://arxiv.org/abs/2610.09380",
+      "title": "The singularity probability of dense random regular graphs",
+      "authors": [
+        "Zeyan Song",
+        "Hanchao Wang",
+        "Shengyan Yin",
+        "Kexin Yu"
+      ],
+      "abstract": "Let $G_{n,d}$ be a uniformly random simple $d$-regular graph on $n$ vertices, and let $A_n$ be its adjacency matrix. For every fixed $λ\\in(0,1/2)$, we prove that for any $λ(n-1)\\le d\\le(1-λ)(n-1)$, $\\mathbb P(A_n\\text{ is singular})\\le e^{-cn}$, where $c>0$ depends only on $λ$, and $n$ is sufficiently large with $nd$ even.",
+      "published": "2026-10-07",
+      "categories": [
+        "math.PR",
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2610.09972",
+      "url": "https://arxiv.org/abs/2610.09972",
+      "title": "A deterministic algorithm for signing bipartite graphs at the Ramanujan bound",
+      "authors": [
+        "Zhiqiang Xu"
+      ],
+      "abstract": "We give a deterministic polynomial-time algorithm for the Bilu--Linial signing problem on bipartite graphs. For every finite simple bipartite graph of maximum degree at most an integer $Δ\\ge3$, the algorithm assigns signs to its edges so that the signed adjacency matrix has operator norm strictly less than $2\\sqrt{Δ-1}$. Our algorithm builds on the randomized recursive repair framework of Jadbabaie, Saberi, and Sra~\\cite{JSS26}, with deterministic rules for sign selection and vertex deletion.",
+      "published": "2026-10-07",
+      "categories": [
+        "cs.DS",
+        "cs.CC",
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2610.09522",
+      "url": "https://arxiv.org/abs/2610.09522",
+      "title": "Reflected Anchored Langevin Algorithms",
+      "authors": [
+        "Changwei Tu",
+        "Xiaoyu Wang",
+        "Yingli Wang",
+        "Xicheng Zhang",
+        "Lingjiong Zhu"
+      ],
+      "abstract": "First order Langevin algorithms for constrained sampling in machine learning, such as projected Langevin Monte Carlo which are based on discretizations of reflected Langevin dynamics, require differentiable log densities that limits their applicability. This paper introduces reflected anchored Langevin dynamics (RALD), a reflected diffusion that converges to non-differentiable targets on constrained domains. The method uses a smooth anchored reference potential and multiplies the drift and noise covariance of its reflected Langevin dynamics by the same state dependent scaling factor. Its Euler-Maruyama discretization with projection gives reflected anchored Langevin Monte Carlo (RALMC) algorithm. We prove explicit convergence bounds and iteration complexity for RALMC in the 2-Wasserstein distance to the target distribution. Numerical experiments are provided to illustrate the theoretical predictions and the empirical performance of the method.",
+      "published": "2026-10-07",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2610.09687",
+      "url": "https://arxiv.org/abs/2610.09687",
+      "title": "The Silhouette Operator: Identifiability of Low-Rank Measures from One-Dimensional Projections",
+      "authors": [
+        "Robert A. Vandermeulen"
+      ],
+      "abstract": "Structured recovery phenomena, such as restricted isometry properties in compressed sensing, have shown that high-dimensional objects can often be reconstructed from remarkably low-dimensional linear measurements. This work develops an analogous recovery framework for low-rank signed measures on $\\mathbb{R}^2$, defined here as measures that can be expressed as finite sums of product measures with one-dimensional factors. The framework is based on linear operators, termed \"silhouette operators,\" that map a measure to a fixed finite collection of one-dimensional linear pushforwards. The main results show that a suitably chosen collection of $2k$ projected marginals suffices to identify every compactly supported rank-$\\le k$ signed measure, that this number is optimal, and that the projection directions cannot be chosen arbitrarily. The framework is also extended to higher-dimensional sums of product measures by establishing sufficient conditions under which collections of pairwise marginals identify the full model. Building on this framework, a computationally efficient estimator, termed \"silhouette mixture estimation\" (SME), is introduced for constructing a low-rank empirical measure from data by matching its one-dimensional projected marginals to the corresponding empirical marginals in Wasserstein distance. When combined with one-dimensional density estimators, SME yields an efficient nonparametric density estimator that performs strongly relative to a range of parametric, nonparametric, and deep-learning baselines in settings of moderate dimension and sample size.",
+      "published": "2026-10-07",
+      "categories": [
+        "math.ST",
+        "cs.IT",
+        "cs.LG",
+        "math.FA",
+        "stat.ML"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2610.10234",
+      "url": "https://arxiv.org/abs/2610.10234",
+      "title": "Wasserstein de-initialization for Markov chains",
+      "authors": [
+        "Mareike Hasenpflug"
+      ],
+      "abstract": "This article generalizes the de-initialization framework, proposed by (Roberts and Rosenthal, 2001) for total variation distance, to Wasserstein distances. In essence, de-initialization captures the phenomenon that in the presence of certain structural features, the convergence behaviour of a Markov chain can be reduced to that of a \"simpler\" stochastic process. Our results allow to measure this in terms of a general Wasserstein distance. We apply them to analyse the Wasserstein convergence behaviour of Gibbs sampling, linchpin variable sampling and slice sampling.",
+      "published": "2026-10-07",
+      "categories": [
+        "math.PR",
+        "math.ST"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
     {
       "id": "2610.07724",
       "url": "https://arxiv.org/abs/2610.07724",
@@ -72,6 +391,27 @@
       ],
       "tags": [
         "random walk"
+      ]
+    },
+    {
+      "id": "2610.09235",
+      "url": "https://arxiv.org/abs/2610.09235",
+      "title": "Fluid Mixing and Incompressible Optimal Transport",
+      "authors": [
+        "Max Emerick",
+        "John Igraszek",
+        "Bassam Bamieh"
+      ],
+      "abstract": "The problem of incompressible fluid mixing is long-studied, yet many questions remain open. This paper aims to address the question ``what do efficient flow fields for mixing look like, and how do they behave?'' Inspired by the dynamic and geometric approach to optimal mass transport, we formulate a version of the fluid mixing problem as an optimal control problem for transport of a passive scalar, in which the dynamics are given by the continuity equation together with an incompressibility constraint. We then develop a geometric framework around this problem which parallels that of classical optimal transport: the optimal control problem induces a metric on the set of reachable states (analogous to the Wasserstein metric), and this metric carries a formal Riemannian structure when the optimal control objective is induced by an inner product. Using this structure, we decompose our problem into a series of more fundamental geometric problems and derive (formal) necessary conditions for optimality, geodesic equations, and gradient flows for mixing. Specializing the control objective to the kinetic energy recovers the incompressible Euler equation, connecting our framework to the geometric hydrodynamics of Arnold. The resulting problem appears to be ill-posed, however, suggesting that the kinetic energy is an unnatural measure of mixing effort. Specializing instead to the enstrophy, which we argue is better suited to mixing, yields the Euler-Poincaré (EPDiff) geodesic equation for the right-invariant homogeneous $\\dot{H}^1$ metric on the group of volume-preserving diffeomorphisms, and we present numerical simulations of both geodesics and gradient flows in this case. Along the way, we generalize the classical Helmholtz decomposition of vector fields, rederive the Clebsch representation of incompressible flows, and develop a parallel to the Otto calculus of optimal transport.",
+      "published": "2026-10-06",
+      "categories": [
+        "math.OC",
+        "eess.SY",
+        "physics.flu-dyn"
+      ],
+      "tags": [
+        "optimal transport",
+        "Wasserstein metric"
       ]
     },
     {
@@ -222,6 +562,45 @@
       ]
     },
     {
+      "id": "2610.08872",
+      "url": "https://arxiv.org/abs/2610.08872",
+      "title": "Slow Beats Fast at the Kesten-Stigum Threshold: Minimax, Fisher-Information and Belief-Propagation Characterizations of the Information-Computation Gap in Sparse Stochastic Block Models",
+      "authors": [
+        "Soroor Ghandali"
+      ],
+      "abstract": "We study community recovery in the sparse symmetric stochastic block model with $q$ communities, average degree $d$ and signal strength $λ$ through statistical decision theory and Fisher information, and obtain three characterizations of the Kesten-Stigum threshold $dλ^2=1$ and of the information-computation gap below it. First, on each community-size profile the minimax risk of any class of rules closed under averaging and vertex relabeling equals its Bayes risk under the uniform prior; the posterior mean is the unique Bayes rule and is admissible, and the Bayes risk of degree-$D$ polynomial rules is the trivial risk times $1-\\mathrm{Corr}_D^2$. Combined with known low-degree and information-theoretic results, this gives the gap as a worst-case statement: for $q\\ge 5$ there is a window below the threshold in which no low-degree rule beats the trivial risk asymptotically, while an exponential-time rule does on a set of labelings of probability $1-o(1)$. Second, the Fisher information about $λ$ carried by cycle counts is a series with terms of order $k(dλ^2)^k$, convergent exactly when $dλ^2<1$; below the threshold the relative error of every unbiased cycle-based estimator of $λ^k$ stays above an explicit constant, and every cycle-count test has success probability bounded below one. Third, the derivative of belief propagation at its uninformative fixed point multiplies a random perturbation by $|λ|\\sqrt{d}$ per iteration, and one EM step taken there leaves $λ$ unchanged. A signal-to-noise computation recovers the condition $dλ^{1/χ}>1$ of Chin et al. for $q=n^χ$ communities and identifies personalized PageRank as a walk count with suboptimal weights. Experiments on networks with up to $3\\times 10^5$ vertices confirm the threshold for $q=2$, the hard window for $q=5$, and the many-community scaling.",
+      "published": "2026-10-06",
+      "categories": [
+        "cs.IT",
+        "cs.LG",
+        "math.PR",
+        "math.ST",
+        "stat.ML"
+      ],
+      "tags": [
+        "stochastic block model"
+      ]
+    },
+    {
+      "id": "2610.09044",
+      "url": "https://arxiv.org/abs/2610.09044",
+      "title": "Quadratic Weak-to-Strong Generalization in Random Feature Networks via Random Matrix Theory",
+      "authors": [
+        "Deborah Oliveira",
+        "Elliot Paquette"
+      ],
+      "abstract": "Weak-to-strong generalization is the phenomenon where a strong student model trained with labels produced by a weak teacher model is able to generalize better than the teacher. In this paper, we study this phenomenon in two-layer random feature networks where the model strength is determined by its width. Using tools from random matrix theory, we derive deterministic equivalents for the population errors of an optimally trained teacher and a student trained with gradient flow. For ReLU activation and a pure spherical harmonic target, we obtain sharp asymptotics under a Gaussian universality assumption, showing a quadratic improvement: the student error scales as the square of the teacher error. These results attain the general lower bound of Medvedev at al (2025). We also analyze how the student behaves under more general stopping times and targets supported on multiple harmonic degrees, characterizing the regimes in which weak-to-strong generalization occurs and identifying the transition between quadratic, non-quadratic, and no improvement.",
+      "published": "2026-10-06",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.PR"
+      ],
+      "tags": [
+        "random matrix"
+      ]
+    },
+    {
       "id": "2610.08261",
       "url": "https://arxiv.org/abs/2610.08261",
       "title": "Counting Minimal Vertex Cutsets and a Gap at 1 for Site Percolation on Vertex-Transitive Graphs",
@@ -257,6 +636,44 @@
       ]
     },
     {
+      "id": "2610.09042",
+      "url": "https://arxiv.org/abs/2610.09042",
+      "title": "Distinguishing graphs with simple spectrum by homomorphism counts",
+      "authors": [
+        "Takanori Maehara"
+      ],
+      "abstract": "We study which graph classes determine every graph with simple spectrum up to isomorphism by homomorphism counts from their members. We show that such a class has unbounded treewidth and Euler genus and contains a graph with the complete graph on seven vertices as a minor. To prove these conditions, we construct pairs of non-isomorphic cospectral graphs with simple spectrum, each bipartite, nonsingular and of maximum degree at most six. The construction attaches rooted trees to Cai-Furer-Immerman graphs and preserves homomorphism indistinguishability over every minor-closed class. We then prove that subcubic homomorphism counts determine every graph whose adjacency matrix has kernel dimension at most one. This extends the known result for nonsingular graphs and applies to all graphs with simple spectrum. We also prove that two graphs have the same subcubic homomorphism counts if and only if they have the same number of vertices and there is a bijective linear isometry between the images of their adjacency matrices that intertwines the adjacency operators and preserves the coordinatewise trilinear forms. Finally, we prove that homomorphism counts from the single-vertex graph and from subdivisions of any sequence of connected cubic graphs have the same distinguishing power as subcubic homomorphism counts if every complete graph is a minor of some member of the sequence.",
+      "published": "2026-10-06",
+      "categories": [
+        "math.CO",
+        "cs.DM"
+      ],
+      "tags": [
+        "adjacency matrix",
+        "spectral graph"
+      ]
+    },
+    {
+      "id": "2610.09076",
+      "url": "https://arxiv.org/abs/2610.09076",
+      "title": "Universality for the extreme eigenvalues of Laplacian random matrices",
+      "authors": [
+        "Andrew Campbell",
+        "Kyle Luh",
+        "Sean O'Rourke"
+      ],
+      "abstract": "We study the eigenvalues of the random Laplacian matrix $D - A$, where $A$ is a Wigner matrix with sub-Gaussian entries and the diagonal matrix $D$ contains the row sums of $A$. Our main results show that the extreme eigenvalues of this model exhibit Poisson statistics; in particular, after the appropriate centering and scaling, the largest eigenvalue converges to the Gumbel distribution as the dimension of the matrix tends to infinity. This confirms, for general sub-Gaussian entries, a phenomenon the authors previously established only in the Gaussian case [Electron. J. Probab. 30 (2025), Paper No. 104], resolving a conjecture raised there. As a corollary, for an Erdős--Rényi random graph, we show the asymptotic fluctuations of the algebraic connectivity (Fiedler value) can be described in terms of the Gumbel distribution.",
+      "published": "2026-10-06",
+      "categories": [
+        "math.PR",
+        "math.CO"
+      ],
+      "tags": [
+        "Laplacian matrix",
+        "random graph"
+      ]
+    },
+    {
       "id": "2610.08127",
       "url": "https://arxiv.org/abs/2610.08127",
       "title": "Bulk universality of random regular graphs",
@@ -273,6 +690,23 @@
       ],
       "tags": [
         "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2610.08961",
+      "url": "https://arxiv.org/abs/2610.08961",
+      "title": "Analysis of the two-for-one swap heuristic for approximating the maximum independent set in a k-polymatroid",
+      "authors": [
+        "Adrian Calinescu",
+        "Gruia Calinescu"
+      ],
+      "abstract": "Let f:2^N --> \\cZ^+ be a polymatroid (an integer-valued non-decreasing submodular set function with f(emptyset) = 0). A k-polymatroid satisfies that f(e) <= k for all e in N. We call a subset S of N independent if f(S) equals the sum of f(e) over the elements e of S and f(e) > 0 for all e in S. Finding a maximum-size independent set in a 2-polymatroid has been studied and polynomial-time algorithms are known for linear polymatroids. For k >= 3, the problem is NP-hard, and an approximation algorithm with ratio approaching 2/k is known and is obtained by swapping as long as possible a \"large\" subset from the current solution by a set with one more element. Here we give a simple analysis of the more particular two-for-one repeated swapping heuristic, obtaining a (weaker) 2/(k+1)-approximation.",
+      "published": "2026-10-06",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "matroid"
       ]
     },
     {
@@ -576,11 +1010,11 @@
     {
       "id": "2610.06343",
       "url": "https://arxiv.org/abs/2610.06343",
-      "title": "A CONSTRAINED WASSERSTEIN GRADIENT FLOW FOR MEAN-FIELD LANGEVIN DYNAMICS",
+      "title": "A constrained Wasserstein gradient flow for mean-field Langevin dynamics",
       "authors": [
         "Mohamed Alfaki Aboubacrine Assadek"
       ],
-      "abstract": "In the continuity of [1, 2, 3], we study a class of constrained mean-field Langevin dynamics formulated as a Wasserstein gradient flow with an energy constraint. We show that the constrained evolution therefore defines a well-posed dissipative dynamics in the Wasserstein space P 2 (R d ). We prove that the flow preserves probability mass and the energy constraint, dissipates the free energy monotonically, and converges exponentially to a unique constrained equilibrium under geodesic convexity assumptions. Using synchronous coupling, under Lipschitz assumptions, we demonstrate the quantitative L 2 -propagation of chaos with a Fournier-Guillin bound, and under conditions of sufficient dissipativity, we derive an explicit time-uniform bound. We also demonstrate exponential controls in the W 2 Wasserstein metric and the contraction of the invariant measure map. Using log-Sobolev inequalities, we show that the mean-field entropies decays exponentially along the constrained flow. The results are applied to several concrete and original examples. K eywords and phrases: Wasserstein gradient flows $\\bullet$ mean-field Langevin dynamics $\\bullet$ constrained nonlinear Fokker-Planck equations $\\bullet$ Lagrange multiplier $\\bullet$ JKO scheme $\\bullet$ propagation of chaos $\\bullet$ synchronous coupling $\\bullet$ exponential ergodicity $\\bullet$ functional inequality $\\bullet$ log-Sobolev inequality $\\bullet$ Transport inequality $\\bullet$ Talagrand T 2 -inequality",
+      "abstract": "In the continuity of [1, 2, 3], we study a class of constrained mean-field Langevin dynamics formulated as a Wasserstein gradient flow with an energy constraint. We show that the constrained evolution therefore defines a well-posed dissipative dynamics in the Wasserstein space $\\mathcal{P}_2(\\mathbb{R}^d)$. We prove that the flow preserves probability mass and the energy constraint, dissipates the free energy monotonically, and converges exponentially to a unique constrained equilibrium under geodesic convexity assumptions. Using synchronous coupling, under Lipschitz assumptions, we demonstrate the quantitative $L^2$-propagation of chaos with a Fournier-Guillin bound, and under conditions of sufficient dissipativity, we derive an explicit time-uniform bound. We also demonstrate exponential controls in the $\\mathcal{W}_2$ Wasserstein metric and the contraction of the invariant measure map. Using log-Sobolev inequalities, we show that the mean-field entropies decay exponentially along the constrained flow. The results are applied to several concrete and original examples. Keywords and phrases: Wasserstein gradient flows $\\bullet$ mean-field Langevin dynamics $\\bullet$ constrained nonlinear Fokker-Planck equations $\\bullet$ Lagrange multiplier $\\bullet$ JKO scheme $\\bullet$ propagation of chaos $\\bullet$ synchronous coupling $\\bullet$ exponential ergodicity $\\bullet$ functional inequality $\\bullet$ log-Sobolev inequality $\\bullet$ transport inequality $\\bullet$ Talagrand T 2 -inequality",
       "published": "2026-10-05",
       "categories": [
         "math.PR"
