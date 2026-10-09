@@ -1,8 +1,275 @@
 {
   "month": "2026-10",
-  "generated_at": "2026-10-08T16:35:26+00:00",
+  "generated_at": "2026-10-09T16:18:19+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2610.11919",
+      "url": "https://arxiv.org/abs/2610.11919",
+      "title": "Random walk in a regenerating random environment",
+      "authors": [
+        "Raphael Martin",
+        "Jan Nagel"
+      ],
+      "abstract": "In this paper we consider random walks moving in a dynamic random environment that is completely resampled with probability $p$ after each step of the random walker. This resampling yields a straightforward regeneration structure and limit theorems, such as a law of large numbers with a limiting speed $v(p)$ that depends on $p$. We investigate several properties of $v(p)$ as a function of $p$, such as differentiability and monotonicity. Similarily, we study the limiting diffusivity $σ^2(p)$ in a central limit theorem.",
+      "published": "2026-10-08",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.12047",
+      "url": "https://arxiv.org/abs/2610.12047",
+      "title": "Characterization and scaling limit of three-dimensional loop-erased random walk and random-walk loop-catchers",
+      "authors": [
+        "Gefei Cai",
+        "Xinyi Li",
+        "Daisuke Shiraishi"
+      ],
+      "abstract": "Random-walk loop-catchers (RWLC) are a one-parameter family of random subsets of the trace of a random walk, recently introduced in [Cai 2026, arXiv:2607.18070], which interpolates between loop-erased random walk (LERW) and the full walk trace, satisfying a recovery property. We prove that the continuous version of this recovery property uniquely characterizes the scaling limit of LERW and RWLC in three dimensions, using a Green-function test via entangled multipath LERW, as outlined in [Cai 2026, arXiv:2607.18070]. For LERW, this resolves the 3D case of the conjecture of Sapozhnikov--Shiraishi [Sapozhnikov--Shiraishi 2018, Probab. Theory Related Fields 172, 615--662] and gives a new and axiomatic proof of the existence of the scaling limit, which was first proved in [Kozma 2007, Acta Math. 199, 29--152]. For RWLC, this gives the construction of 3D Brownian loop-catchers. The characterization also yields inversion invariance of the 3D LERW scaling limit.",
+      "published": "2026-10-08",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.12138",
+      "url": "https://arxiv.org/abs/2610.12138",
+      "title": "A shape theorem for a radially excited random walk in dimensions $d \\ge 2$",
+      "authors": [
+        "Arvind Singh"
+      ],
+      "abstract": "We consider a once-excited random walk on $\\mathbb{Z}^d$, $d \\ge 2$, where the walk on its first visit has a bias of constant strength $β>0$ toward the origin and moves like a simple symmetric random walk on subsequent visits to that site. We show that the walk is recurrent and prove an almost sure spherical shape theorem: the trace after $n$ steps is asymptotically a Euclidean ball centered at the origin, with radius proportional to $n^{1/(d+1)}$, and the local times have an asymptotically conical profile. This result confirms a conjecture of Kozma (2007) on the shape of the trace for this model.",
+      "published": "2026-10-08",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.12160",
+      "url": "https://arxiv.org/abs/2610.12160",
+      "title": "Capacities and Hitting Times for Simple and (critical) Branching Random Walk Sausages",
+      "authors": [
+        "Joelle Ishak"
+      ],
+      "abstract": "For a finite set $A\\subseteq\\mathbb Z^d$, we study the capacities of a sausage obtained by transporting $A$ along the Minkowski sum of simple or critical branching random walks. We first establish quantitative capacity estimates for the random walk sausage and the branching sausage. This in turn, gives us estimates for the probability that Minkowski sums of a mixture of walks hit a finite set in high dimensions. Our approach is based on an annular decomposition of a critical branching random walk into successive waves, which may have further applications.",
+      "published": "2026-10-08",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.11808",
+      "url": "https://arxiv.org/abs/2610.11808",
+      "title": "Mixing time and isoperimetry of long-range percolation in the diffusive regime",
+      "authors": [
+        "Dieter Mitsche",
+        "Carlo Scali"
+      ],
+      "abstract": "We consider long-range percolation (LRP) on $\\mathbb{Z}^d, d \\ge 1$ with connection probabilities $\\mathbf{p}(x, y) \\approx \\fracβ{\\|x-y\\|^s}$ for $β>0$ and $s > \\min(2d, d+2)$. Our main result is that the mixing time of the random walk on the giant component of supercritical LRP inside a box of side length $n$ is of order $n^2$. To establish the upper bound, we show that a $d$-dimensional isoperimetric inequality holds almost surely simultaneously for all connected sets inside the giant component that are large enough.",
+      "published": "2026-10-08",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "mixing time"
+      ]
+    },
+    {
+      "id": "2610.11506",
+      "url": "https://arxiv.org/abs/2610.11506",
+      "title": "Compactness and Consistency: A Conjoint Framework for Deep Graph Clustering",
+      "authors": [
+        "Wei Ju",
+        "Siyu Yi",
+        "Kangjie Zheng",
+        "Yifan Wang",
+        "Ziyue Qiao",
+        "Li Shen",
+        "Yongdao Zhou",
+        "Xiaochun Cao",
+        "Jiancheng Lv"
+      ],
+      "abstract": "Graph clustering is a fundamental task in data analysis, aiming at grouping nodes with similar characteristics in the graph into clusters. This problem has been widely explored using graph neural networks (GNNs) due to their ability to leverage node attributes and graph topology for effective cluster assignments. However, representations learned through GNNs typically struggle to capture global relationships between nodes via local message-passing mechanisms. Moreover, the redundancy and noise inherently present in graph data may easily result in node representations lacking compactness and robustness. To address these issues, we propose a conjoint framework CoCo, which captures compactness and consistency in the learned node representations for deep graph clustering. Technically, our CoCo leverages graph convolutional filters to learn robust node representations from both local and global views, and then encodes them into low-rank compact embeddings, thus effectively removing the redundancy and noise as well as uncovering the intrinsic underlying structure. To further enrich the node semantics, we develop a consistency learning strategy based on compact embeddings to facilitate knowledge transfer from the two perspectives. Our experimental results indicate that our CoCo outperforms state-of-the-art counterparts on various datasets.",
+      "published": "2026-10-08",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.IR",
+        "cs.SI"
+      ],
+      "tags": [
+        "graph neural network",
+        "graph clustering"
+      ]
+    },
+    {
+      "id": "2610.11554",
+      "url": "https://arxiv.org/abs/2610.11554",
+      "title": "Product approximations for uniform spanning trees and determinantal processes",
+      "authors": [
+        "András Mészáros",
+        "Yuval Peled"
+      ],
+      "abstract": "We prove that for every finite connected simple graph $G$ on $n$ vertices with minimum degree $k\\geq 2$, there is a coupling of its uniform spanning tree and its random $1$-out subgraph under which the expected number of differing edges is $O(n\\log (k)/\\sqrt{k})$. More generally, we establish analogous couplings between a wide class of determinantal processes and their corresponding $1$-out processes, including Kalai's determinantal hypertrees, with expected symmetric difference negligible compared to the size of the determinantal set. While the graphical case admits a surprisingly short and elegant proof, the more general result requires establishing an asymptotic equipartition property for the determinantal measures in this class, from which we also derive exponential growth rates for the homology torsion of determinantal hyperforests in higher-dimensional regular high-degree complexes.",
+      "published": "2026-10-08",
+      "categories": [
+        "math.PR",
+        "math.CO"
+      ],
+      "tags": [
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2610.11806",
+      "url": "https://arxiv.org/abs/2610.11806",
+      "title": "Grey Random Fields on the Sphere",
+      "authors": [
+        "Luisa Beghin",
+        "Nikolai Leonenko",
+        "Domenico Marinucci"
+      ],
+      "abstract": "We introduce a new and tractable class of non-Gaussian isotropic random fields on the sphere, which we call, for brevity, Grey Spherical Random Fields (GSRFs). The proposed framework provides a flexible extension of the classical Gaussian theory, while preserving strong isotropy and embedding Gaussian random fields as a limiting special case. The construction is based on random spherical harmonic coefficients obtained as Gaussian mixtures driven by multivariate subordinators evaluated at independent random times (with Mittag-Leffler or more general distribution). This representation allows us to derive explicit characteristic functions, mixed moments and cumulants of arbitrary order. We also investigate asymptotic high-frequency behaviour and identify general conditions under which suitably normalized spherical harmonic coefficients converge to Gaussian scale mixtures, recovering several important models, including stable, Gamma and inverse Gaussian cases, as particular examples. Proving that GSRFs emerge as scaling limits of multivariate continuous-time random walks, with heavy-tailed waiting times, provides a microscopic foundation for the proposed models. We further obtain quantitative bounds measuring the deviation from Gaussianity of the spherical harmonic coefficients. The resulting framework substantially broadens the class of analytically tractable isotropic random fields on the sphere, while preserving explicit probabilistic representations and flexible dependence structures.",
+      "published": "2026-10-08",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.11047",
+      "url": "https://arxiv.org/abs/2610.11047",
+      "title": "Almost all graphs are determined by their generalized spectrum",
+      "authors": [
+        "Ziqing Xiang"
+      ],
+      "abstract": "Haemers' conjecture for the generalized spectrum asserts that almost all graphs are determined by their generalized spectrum, that is, for almost all graphs $G$, every graph with the same spectrum as $G$ whose complement has the same spectrum as the complement of $G$ is isomorphic to $G$. We prove this conjecture by showing that the random graph $G(n,1/2)$ is determined by its generalized spectrum with probability tending to one. The proof combines a local theory of the denominators of the rational orthogonal matrices that relate generalized cospectral graphs, Fourier analysis of random symmetric matrices over finite rings, Seidel switching, inverse Littlewood--Offord theory over finite fields, rank estimates for random symmetric matrices modulo primes, and a study of the rational factors of the characteristic polynomial of a random symmetric $\\pm1$ matrix with zero diagonal.",
+      "published": "2026-10-08",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "random graph",
+        "spectral graph"
+      ]
+    },
+    {
+      "id": "2610.11516",
+      "url": "https://arxiv.org/abs/2610.11516",
+      "title": "A Refined Analysis for Matroid Secretary with Submodular Objectives",
+      "authors": [
+        "Dennis Joyce"
+      ],
+      "abstract": "We study the matroid secretary problem with a nonnegative monotone submodular objective. Elements arrive in uniformly random order, and every acceptance decision is immediate and irrevocable. We give an $8.699$-competitive algorithm for arbitrary matroids. The algorithm first rejects a randomly sized initial segment of the arrival sequence as a learning set and runs submodular greedy on all elements in this set. Each later element receives a fixed weight equal to the marginal value it would have when inserted into the stored greedy sequence. On these fixed weights, the algorithm runs a linear-objective matroid secretary subroutine. The algorithm uses $O(nr)$ value queries and $O(n^2)$ independence queries, where $r$ is the matroid rank.",
+      "published": "2026-10-08",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.11829",
+      "url": "https://arxiv.org/abs/2610.11829",
+      "title": "A rank bound for bases and circuits in binary matroids",
+      "authors": [
+        "Houshan Fu"
+      ],
+      "abstract": "Let \\(b(M)\\), \\(d(M)\\), and \\(r(M)\\) denote the number of bases, the number of circuits, and the rank of a matroid \\(M\\), respectively. We prove that every nonempty simple binary matroid with no coloops satisfies \\[ 2b(M)\\ge(r(M)+1)d(M), \\] with equality if and only if \\(M\\) is isomorphic to the Fano matroid. This confirms a conjecture recorded by Oxley in 1983. For the same class, we prove that deleting any element leaves at least as many bases as there are circuits in the original matroid: \\(b(M\\backslash e)\\ge d(M)\\) for every \\(e\\in E(M)\\). We determine all equality cases and deduce a sharp linear lower bound for basis growth under successive series extensions. The main counting step is a joint estimate for the three largest possible circuit sizes, obtained from contraction-normalized fundamental-circuit counts and an exact folded-cube edge correspondence.",
+      "published": "2026-10-08",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.12036",
+      "url": "https://arxiv.org/abs/2610.12036",
+      "title": "Constructing pathological symmetric abstract rigidity matroids",
+      "authors": [
+        "Sean Dewar",
+        "Joannes Vermant"
+      ],
+      "abstract": "We prove that for each $d \\geq 2$, there exist infinitely many symmetric abstract $d$-rigidity matroids that are not the $d$-rigidity matroid, the $d$-hyperconnectivity matroid, or the $d$-cofactor matroid. When $d=2$, our constructed matroids are pathological, in the sense that they are not contained within any abstract 2-rigidity matroid family. Our construction additionally provides a counter-example to a conjecture of Tyomkyn.",
+      "published": "2026-10-08",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.11760",
+      "url": "https://arxiv.org/abs/2610.11760",
+      "title": "Adaptive minimax multivariate \\(L^1\\)-deconvolution: harmonic-mean rates under noise filtering, and a \\(1\\)-Wasserstein equivalence",
+      "authors": [
+        "Catia Scricciolo"
+      ],
+      "abstract": "We study the multivariate convolution model with additive independent noise, multidimensional signal and noise, aiming to recover the signal's cumulative distribution function from contaminated observations. The noise is ordinary smooth with anisotropic regularity, and the signal belongs to an anisotropic Nikol'skii density class. We extend to the multivariate setting an approximate minimum \\(L^1\\)-distance estimator based on integrated kernel density estimation, and establish matching upper and lower bounds for the \\(L^1\\)-risk over anisotropic Nikol'skii classes. To our knowledge, this is the first minimax rate, not a sharpening of existing bounds. Although the lower-bound scheme is classical, the test-function construction is novel: it distinguishes no active component from at least one active component. The rate is governed by a censoring mechanism through the positive part, a noise filter in a harmonic-mean representation of the exponent. We further propose a fully data-driven, rate-adaptive procedure selecting an optimal bandwidth vector over the full Nikol'skii scale. On Nikol'skii product density classes, the \\(L^1\\)-distance between cumulative distribution functions and the \\(1\\)-Wasserstein distance share the same minimax rate, though not equivalent in general, via coordinate-wise decoupling of the \\(1\\)-Wasserstein cost on product measures. These findings reveal a link between the two distances, whose full understanding remains an open question.",
+      "published": "2026-10-08",
+      "categories": [
+        "math.ST"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2610.11946",
+      "url": "https://arxiv.org/abs/2610.11946",
+      "title": "Dense uniqueness and dense nonuniqueness of Fréchet means",
+      "authors": [
+        "Stephan F. Huckemann",
+        "Alexander Lytchak"
+      ],
+      "abstract": "From previous results it follows that probability distributions on metric spaces featuring unique Fréchet means are dense among measures admitting means in both the quadratic Wasserstein metric and the total variation metric. Additionally, we show that the converse also holds on complete finite-dimensional noncontractible Alexandrov spaces with curvatures bounded from below, which encompass compact manifolds without boundaries and nonmanifold shape spaces: Probability distributions featuring nonunique Fréchet means are also dense in both the Wasserstein metric and the total variation metric. Moreover, in either metric, no nonempty open set of probability measures admits a continuous selection of means. This sharpens a previous result on zero reach of the Dirac embedding. Our argument combines cut-locus avoidance for atoms with a topological obstruction. For Riemannian manifolds, all of our conclusions hold for all exponents $1 < p < \\infty$, also.",
+      "published": "2026-10-08",
+      "categories": [
+        "math.PR",
+        "math.ST"
+      ],
+      "tags": [
+        "Wasserstein metric"
+      ]
+    },
+    {
+      "id": "2610.12197",
+      "url": "https://arxiv.org/abs/2610.12197",
+      "title": "Limit Theorems for Persistent Homology of Multiparameter Complex Processes",
+      "authors": [
+        "Masanori Hino",
+        "Shu Kanazawa"
+      ],
+      "abstract": "Multiparameter complex processes, based on the Costa-Farber model, provide a common framework for growing random simplicial complexes, including the Linial-Meshulam and random flag complex processes. We establish laws of large numbers for persistent Betti numbers of these processes and prove that, after a deterministic time change and normalization, their persistence diagrams converge weakly in probability to a deterministic finite measure. Its quadrant masses are determined by universal limits of normalized persistent Betti numbers, characterized by an explicit finite-dimensional optimization problem. We extend the diagram convergence to integrals of continuous functions with polynomial growth in the death coordinate and controlled singularities at the diagonal. These results yield convergence of additive and multiplicative lifetime measures and total persistence. We further deduce convergence in optimal transport distance. The proofs combine local weak convergence of simplicial pairs, spectral analysis of compressed Laplacians accounting for dependence through shared faces, and quantitative estimates for large death coordinates and short lifetimes.",
+      "published": "2026-10-08",
+      "categories": [
+        "math.PR",
+        "math.AT"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
     {
       "id": "2610.10228",
       "url": "https://arxiv.org/abs/2610.10228",
@@ -188,6 +455,41 @@
       "tags": [
         "adjacency matrix",
         "signless Laplacian"
+      ]
+    },
+    {
+      "id": "2610.10860",
+      "url": "https://arxiv.org/abs/2610.10860",
+      "title": "On the Impossibility of Estimating the Average Mixing Time",
+      "authors": [
+        "Nathan A. Judd",
+        "Amedeo Roberto Esposito"
+      ],
+      "abstract": "We establish nearly-matching converse bounds on the sample complexity of estimating the average mixing time of a Markov chain from a single stationary trajectory. Unlike the worst-case mixing time, which maximises the total-variation distance to stationarity over all initial states, the average mixing time averages this distance under the stationary distribution and can therefore be substantially smaller. Our converse bounds establish when estimation is impossible, and match the key dependencies in existing achievability bounds, up to logarithmic factors. Together, these bounds provide nearly-tight PAC guarantees for estimating the average mixing time.",
+      "published": "2026-10-07",
+      "categories": [
+        "math.ST",
+        "cs.IT"
+      ],
+      "tags": [
+        "mixing time"
+      ]
+    },
+    {
+      "id": "2610.10904",
+      "url": "https://arxiv.org/abs/2610.10904",
+      "title": "$Ω((\\log n/\\log\\log n)^2)$ Lower Bounds for Dynamic Graph Problems",
+      "authors": [
+        "Young Kun Ko"
+      ],
+      "abstract": "We prove an $Ω((\\log n/\\log\\log n)^2)$ unconditional lower bound on the maximum of the query time and update time for dynamic data structures supporting reachability queries in $n$-node directed acyclic graphs under edge insertions. This improves the $\\widetildeΩ(\\log^{3/2} n)$ lower bound of Larsen and Yu [SICOMP 2025], and matches the strongest lower bound known for any dynamic problem. The same bound holds for incremental undirected shortest paths and subgraph connectivity. To prove it, we bring the recent framework of Ko [FOCS 2026], which gave this bound for Pătraşcu's multiphase problem with Inner Product, to the multiphase problem with Disjointness. Our main technical contribution is to show that verification in Ko's 2.5-round multiphase communication game makes a one-sided corruption bound suffice in place of discrepancy, which Disjointness lacks.",
+      "published": "2026-10-07",
+      "categories": [
+        "cs.DS",
+        "cs.CC"
+      ],
+      "tags": [
+        "dynamic graph"
       ]
     },
     {
