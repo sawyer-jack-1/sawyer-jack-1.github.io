@@ -1,8 +1,154 @@
 {
   "month": "2026-10",
-  "generated_at": "2026-10-11T15:47:01+00:00",
+  "generated_at": "2026-10-12T19:07:21+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2610.13069",
+      "url": "https://arxiv.org/abs/2610.13069",
+      "title": "Penalizations of Two-Dimensional Simple Random Walk by Direction-Dependent Excursion Counts and Edge-Crossing Counts",
+      "authors": [
+        "Syota Esaki",
+        "Kohki Iba"
+      ],
+      "abstract": "We study penalizations of the two-dimensional simple random walk by functions of direction-dependent excursion counts and edge-crossing counts. The former record completed excursions with prescribed pairs of departure and return directions at the origin, whereas the latter record crossings of a prescribed set of unoriented edges incident to the origin. We determine the distributions of their almost surely finite terminal values and derive explicit path decomposition formulas involving the random walk conditioned to avoid the origin. Moreover, both families of penalized measures can be represented by weighting and normalizing the same universal $σ$-finite measure associated with local-time penalization at the origin. Thus, direction-dependent excursion counts, edge-crossing counts, and local time at the origin give rise to penalizations belonging to a common universality class.",
+      "published": "2026-10-09",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk"
+      ]
+    },
+    {
+      "id": "2610.13940",
+      "url": "https://arxiv.org/abs/2610.13940",
+      "title": "Sandpile avalanches in two dimensions are finite",
+      "authors": [
+        "Ahmed Bou-Rabee"
+      ],
+      "abstract": "In the abelian sandpile model on $\\mathbb{Z}^d$, a site with at least $2d$ grains topples by sending one grain to each neighbor. In a box $[-L,L]^d$ whose boundary absorbs grains, adding grains at random sites and toppling defines a Markov chain, and Athreya and Járai (2004) constructed the stationary state on $\\mathbb{Z}^d$ as the limit of its stationary distributions as $L\\to\\infty$. By a formula of Dhar (1990), when a grain is added at the origin of a sandpile in the stationary state, the expected number of topplings at a site in the resulting avalanche is proportional to the Green function of simple random walk from the origin. This Green function is finite for $d\\geq3$, where Járai and Redig (2008) proved that avalanches are almost surely finite, and infinite for $d=2$. We prove that for $d=2$ avalanches are nevertheless almost surely finite: the probability that an avalanche reaches distance $R$ is at most a negative power of $\\log R$. The proof follows the avalanche backward and reduces the question to an estimate for the uniform spanning tree, which we prove by a multiscale electrical argument.",
+      "published": "2026-10-09",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk",
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2610.13847",
+      "url": "https://arxiv.org/abs/2610.13847",
+      "title": "A Network Simplex Framework For Discrete Unbalanced Optimal Transport",
+      "authors": [
+        "Gaetano Agazzotti",
+        "Antonin Chambolle",
+        "Clément W. Royer"
+      ],
+      "abstract": "The network simplex method is a classical algorithm for minimum cost flow problems formulated as linear programs, that has attracted recent interest from the optimal transport community. Indeed, discrete optimal transport is a subclass of minimum cost flow for which network simplex techniques compute exact solutions while leveraging the inherent problem sparsity. However, extending these approaches to other, nonlinear optimal transport formulations has yet to be thoroughly investigated. In this paper, we adapt the network simplex algorithm to unbalanced optimal transport. Our proposed framework is applicable to various unbalanced formulations, and can be implemented explicitly in the most common cases, including semi-unbalanced optimal transport. The resulting algorithms are memory-efficient, and perform competitively with existing approaches, as shown by our experiments on a range of transport and barycenter calculations.",
+      "published": "2026-10-09",
+      "categories": [
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport",
+        "minimum cost flow"
+      ]
+    },
+    {
+      "id": "2610.13063",
+      "url": "https://arxiv.org/abs/2610.13063",
+      "title": "The Order Mass Identity of Rooted Forests, with a Direct Proof of the Extended Aldous--Broder Theorem",
+      "authors": [
+        "Hugh Zheng"
+      ],
+      "abstract": "Random spanning forests provide probability models for partitions and Monte Carlo methods on graphs. In these applications, the distribution produced by a sampler determines which forest functionals can be estimated. The Aldous--Broder algorithm constructs a spanning tree from the first-entrance edges of a covering random walk. Its distribution is known, but a direct calculation requires summing over all orders in which a fixed tree can be discovered. We evaluate this sum through an identity for rooted forests and real matrices with zero row sums. Under a nonsingularity condition on the principal submatrices encountered during growth, the sum of products of harmonic extension entries equals a principal cofactor of a matrix on the roots. With one root, the sum is one. The identity gives a direct proof of the extended Aldous--Broder theorem for every finite irreducible Markov chain started at a fixed state, without assuming reversibility or bidirectional transition support. It also gives the conditional distribution of the discovery order and the law of the forest obtained by stopping after all nonroot vertices have been visited. A completion weight describes the difference between this stopped-walk law and the weight-proportional forest law, including the support restriction needed for importance correction. Numerical examples illustrate the sampling implications. The identity, the Aldous--Broder theorem, and the stopped-forest law are formalized in Lean4.",
+      "published": "2026-10-09",
+      "categories": [
+        "math.PR",
+        "math.CO",
+        "math.ST"
+      ],
+      "tags": [
+        "random walk",
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2610.13884",
+      "url": "https://arxiv.org/abs/2610.13884",
+      "title": "Interacting Stochastic Systems with Agent-Based Sampling and Connection-Based Reinforcement",
+      "authors": [
+        "Yogesh Dahiya",
+        "Gursharn Kaur",
+        "Neeraja Sahasrabudhe"
+      ],
+      "abstract": "We introduce a general class of interacting reinforced stochastic systems evolving on a network. The dynamics are governed by two distinct interaction structures: a sampling network, which determines how information is acquired, and a reinforcement network, which determines how the sampled information influences future evolution. Processes generate Bernoulli observations through preferential, de-preferential, or mixed sampling, while observations are transmitted through an edge-dependent affine reinforcement mechanism. We formulate the dynamics as a stochastic approximation scheme and study their asymptotic behaviour. We establish sufficient conditions for almost sure convergence to a deterministic limit and, when the sampling and reinforcement graphs coincide, derive graph-theoretic criteria involving odd cycles, mixed-sampling vertices, and subcritical reinforcement. Under additional structural assumptions, we establish almost sure convergence and partial synchronization in a random-limit regime. In the deterministic regime, we also prove a law of the iterated logarithm and a central limit theorem under suitable spectral and regularity conditions. Finally, we show how the framework encompasses interacting urn models with edge-dependent reinforcement, urns with memory, and random walks with memory.",
+      "published": "2026-10-09",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "edge-dependent"
+      ]
+    },
+    {
+      "id": "2610.12950",
+      "url": "https://arxiv.org/abs/2610.12950",
+      "title": "Markovian Random Words, a Gaussian Random Matrix Model and Beyond",
+      "authors": [
+        "Christian Houdré",
+        "Dorian Kidonakis"
+      ],
+      "abstract": "After centering and scaling, the length of the longest weakly increasing subsequence of a finite-state Markov random word converges to a Brownian last-passage functional with dependent components. We investigate when this functional, and more generally the limiting RSK Young-diagram shape, admits a Gaussian random-matrix representation. We introduce Hermitian Gaussian matrices with correlated diagonal entries and show that isotropy of the Brownian covariance on the trace-zero hyperplane yields such a representation. Within this natural class of Hermitian models with independent Gaussian off-diagonal entries, we prove a rigidity theorem showing that isotropy, together with equality of the off-diagonal variances, characterizes the conditional largest-eigenvalue representation. Explicit three-letter non-cyclic Markov chains demonstrate that this representation is not universal: the limiting Brownian functional may fail to have the law of the largest eigenvalue of any centered jointly Gaussian $3\\times 3$ Hermitian matrix. Finally, we extend the random-matrix identification to chains with non-uniform stationary distributions and to countable state spaces.",
+      "published": "2026-10-09",
+      "categories": [
+        "math.PR",
+        "math.CO"
+      ],
+      "tags": [
+        "random matrix"
+      ]
+    },
+    {
+      "id": "2610.13366",
+      "url": "https://arxiv.org/abs/2610.13366",
+      "title": "Discrete total variation under the multinomial, Part~1: expectation under the uniform null",
+      "authors": [
+        "N. Banić",
+        "N. Elezović"
+      ],
+      "abstract": "We study the expectation of the discrete total variation statistic $d=\\sum_{i=1}^{n-1}|X_{i+1}-X_i|$ of counts $X_1,\\dots,X_n$ over $n$ ordered bins with sample size $N$, under the uniform multinomial null. In the notation used throughout the series, a reference distribution $\\mathbf r$ defines $d_{\\mathbf r}(x)=\\|x-N\\mathbf r\\|_V$; here $\\mathbf r=\\mathbf u$ is uniform and we write simply $d$. We obtain an exact single-sum formula, a closed form in central trinomial coefficients valid for every $n\\ge2$, with one-term evaluations at $n=2,4$ and a complete D-finite characterization for $n=3$. The per-edge expectation $W_N=E|X_2-X_1|$ satisfies an exact three-term recurrence, from which we derive its complete $1/N$ expansion with the $n$-independent constant $E(d^\\circ/\\sqrt{Nn})\\to 2/\\sqrtπ$ for the cyclic statistic $d^\\circ=d^\\circ_{\\mathbf u}$, independent of the number of bins; the complementary sparse regime (fixed $N$, $n\\to\\infty$) is treated in a separate paper. Conditioning on a two-bin total reduces each edge to a symmetric random walk; as the subsequent parts of the series will show, this method carries the analysis to non-uniform reference laws.",
+      "published": "2026-10-09",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.13114",
+      "url": "https://arxiv.org/abs/2610.13114",
+      "title": "Degree Adjacency Diametrical Matrix of Graphs Spectral Properties and Energy Bounds",
+      "authors": [
+        "Celine Prabha S",
+        "Dhivviyanandam I"
+      ],
+      "abstract": "Graph matrices that combine structural and metric information have attracted considerable attention in spectral graph theory. In this paper, we introduce the \\emph{Degree--Adjacency--Diametrical (DAD) matrix} of a connected graph $G$. The DAD matrix is defined by \\[ (DAD(G))_{ij}= \\begin{cases} d(v_i), & \\text{if } i=j, 1, & \\text{if } v_i\\sim v_j, \\operatorname{diam}(G), & \\text{if } d(v_i,v_j)=\\operatorname{diam}(G), 0, & \\text{otherwise}, \\end{cases} \\] where $d(v_i)$ denotes the degree of the vertex $v_i$. We establish fundamental spectral properties of the DAD matrix by deriving trace identities, characteristic polynomials, and spectra for several classes of graphs. Furthermore, we obtain a spectral expression for the Wiener index of graphs with diameter two, derive upper bounds for the largest DAD eigenvalue, and establish lower bounds for the DAD energy. Explicit spectral characterizations are also obtained for complete multipartite graphs. The proposed matrix provides a unified spectral framework that simultaneously incorporates degree, adjacency, and diametrical information, thereby enriching the study of graph spectra and introducing a new graph matrix for spectral graph theory.",
+      "published": "2026-10-09",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "spectral graph theory",
+        "spectral graph"
+      ]
+    },
     {
       "id": "2610.11919",
       "url": "https://arxiv.org/abs/2610.11919",
