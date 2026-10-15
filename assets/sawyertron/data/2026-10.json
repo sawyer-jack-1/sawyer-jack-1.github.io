@@ -1,8 +1,173 @@
 {
   "month": "2026-10",
-  "generated_at": "2026-10-14T14:33:14+00:00",
+  "generated_at": "2026-10-15T14:13:17+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2610.19673",
+      "url": "https://arxiv.org/abs/2610.19673",
+      "title": "Exponential functionals of two random walks and stationary measures of discrete growth processes",
+      "authors": [
+        "Zikun Ouyang"
+      ],
+      "abstract": "We study random walks with geometric or log-gamma increments, reweighted by certain exponential functionals. We establish precise asymptotics for all moments of exponential functionals, revealing a phase transition as the drifts of the walks vary. To describe the large time limit of reweighted random walks, we introduce a discrete $T$ transformation on random walk paths and establish Girsanov relations. As a corollary, we show that the stationary measures of geometric last passage percolation and the log-gamma polymer on a strip converge to their half-space counterparts as the strip width tends to infinity. In the log-gamma case, this provides an alternative proof of a recent result in arXiv:2607.17030.",
+      "published": "2026-10-14",
+      "categories": [
+        "math.PR",
+        "math-ph"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.19787",
+      "url": "https://arxiv.org/abs/2610.19787",
+      "title": "Drift and joint minimal displacement for groups acting on hyperbolic spaces",
+      "authors": [
+        "Koji Fujiwara",
+        "Ryokichi Tanaka"
+      ],
+      "abstract": "We obtain a uniform lower bound for the drift of random walks on hyperbolic spaces in terms of joint minimal displacement. Our main theorem applies to weakly acylindrical actions on Gromov-hyperbolic spaces and is quantitative in all relevant constants. For discrete isometry groups of Hadamard manifolds with pinched negative curvature, the required assumptions are automatically satisfied by the Margulis lemma. This yields uniform gaps at zero in drift spectra for pinched negatively curved Hadamard manifolds, hyperbolic groups, and mapping class groups acting on curve graphs.",
+      "published": "2026-10-14",
+      "categories": [
+        "math.PR",
+        "math.DS",
+        "math.GR",
+        "math.GT"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.20095",
+      "url": "https://arxiv.org/abs/2610.20095",
+      "title": "Uncovering higher-order interactions from memory in observed dynamics",
+      "authors": [
+        "Arthur Rondeau",
+        "Alain Barrat",
+        "Roland Bouffanais"
+      ],
+      "abstract": "Many complex systems involve group interactions, which can readily be represented by higher-order structures such as hypergraphs. However, when observing a system's dynamical evolution, establishing whether that evolution actually results from higher-order interactions, or whether pairwise interactions suffice to explain the data, remains a challenge. Even in the simple case of a temporal sequence of nodes visited during a diffusion process, such a task is intricate. Indeed, group interactions leave their traces as memory on the observed nodes, while path dependence in a purely pairwise process can mimic that same footprint without any group structure. To resolve this, we propose an inference pipeline based on a hidden Markov model (HMM) that tests, directly from an observed sequence of nodes carrying no group labels, whether higher-order interactions are required to describe the dynamics. The HMM latent states represent higher-order interactions, seen as hyperedges of an unobserved hypergraph, so that their detection becomes a model selection problem between the HMM class and a class of null models without higher-order interactions. We first validate this approach on synthetic node sequences generated from random walks on graphs and hypergraphs, showing that it recovers both the number and the composition of the underlying hyperedges, while correctly rejecting them when the generating process is pairwise. As a second step, we consider a validation based on empirical data, namely empirical trajectories of ball possession in football matches. This application shows that the pipeline goes beyond providing statistical evidence of the presence of higher-order interactions, and yields interpretable underlying structures: the recovered hyperedges map directly onto recognizable tactical team formations.",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.SI",
+        "physics.soc-ph"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.20140",
+      "url": "https://arxiv.org/abs/2610.20140",
+      "title": "An Analytic 0.48-Approximation for Non-Monotone k-Submodular Maximization under a Matroid Constraint",
+      "authors": [
+        "Zizong Wang",
+        "Yibo Wang"
+      ],
+      "abstract": "We give a randomized polynomial-time $0.48$-approximation for maximizing a nonnegative non-monotone $k$-submodular function under a matroid constraint, for every $k\\ge2$. The algorithm combines a top-two label rule with a nested-chain potential and maximum-weight matroid bases. Its analysis reduces the approximation guarantee to a one-dimensional time allocation: a uniform local lower bound leads to a linear differential equation, concavity closes the remaining interval, and two elementary budgets complete the proof. A strict saving in the time budget absorbs sampling and discretization errors, yielding the exact $0.48$ guarantee in the value-oracle model.",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.DS",
+        "math.OC"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.20234",
+      "url": "https://arxiv.org/abs/2610.20234",
+      "title": "The parity module of a matroid",
+      "authors": [
+        "Tom Braden",
+        "June Huh",
+        "Jacob P. Matherne",
+        "Nicholas Proudfoot",
+        "Botong Wang"
+      ],
+      "abstract": "We introduce the parity module of a matroid with coefficients in a field $\\mathbb{k}$. When $\\mathbb{k}$ has characteristic zero, we show that the parity module of a matroid is isomorphic to its intersection cohomology module, yielding a new intrinsic characterization of the latter. The structure and dimension of the parity module can vary depending on the characteristic, giving rise to characteristic-dependent generalizations of the Kazhdan-Lusztig and Z-polynomials of matroids. When the matroid is realizable over the complex numbers, the parity module is isomorphic to the hypercohomology of the parity sheaf supported on the arrangement Schubert variety of any such realization. We also introduce the notion of pure modules over any field $\\mathbb{k}$ and show that they satisfy a matroid analogue of the Beilinson-Bernstein-Deligne-Gabber decomposition theorem: Every pure module over the graded Möbius algebra decomposes as a direct sum of shifts of the parity modules of matroids obtained by restricting to flats.",
+      "published": "2026-10-14",
+      "categories": [
+        "math.CO",
+        "math.AG"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.19737",
+      "url": "https://arxiv.org/abs/2610.19737",
+      "title": "Gaussian approximation for the integrated intensity of counting processes: application to Hawkes processes",
+      "authors": [
+        "Benjamin Massat"
+      ],
+      "abstract": "In this paper, we establish quantitative central limit theorems for the integrated fluctuations of the intensity of a counting process. Building on the work of Coutin and using the Clark-Ocone formula, we first derive a general upper bound on the Wasserstein distance between a Gaussian random variable and the normalized integral of the centered intensity. We then apply this result to subcritical linear Hawkes processes. In this setting, we prove that the integrated fluctuations of the intensity converge in distribution to a centered Gaussian random variable, with a convergence rate governed by the tail behavior of the resolvent associated with the underlying Volterra equation.",
+      "published": "2026-10-14",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2610.19773",
+      "url": "https://arxiv.org/abs/2610.19773",
+      "title": "From Global to Tail Convergence: Dynamics of $α$-Stable Score-Based Generative Models",
+      "authors": [
+        "Ianis Hammani",
+        "Claire Boyer"
+      ],
+      "abstract": "Score-based generative models driven by $α$-stable L{é}vy processes have been proposed as an alternative to Brownian diffusion models, with empirical evidence suggesting improved sampling and better modeling of heavy-tailed data. Yet theoretical guarantees for these models remain limited. We develop a non-asymptotic convergence analysis for scale-preserving $α$-stable generative dynamics, covering both compactly supported and power-law targets. In p-Wasserstein distance, we quantify the effects of early stopping, initialization, score approximation, and time discretization, and show exponential decay of the initialization error. A comparison with Brownian dynamics reveals that global Wasserstein convergence alone does not fundamentally distinguish the two models: both initialization errors decay exponentially with the forward horizon on the common class of heavy-tailed targets. A sharp separation emerges instead in the tails. At any positive generation time, stable dynamics produces power-law tails with index $α$, whereas Brownian dynamics remains light-tailed. For a target with tail index $ν$, asymptotically correct extreme-quantile scaling is possible precisely when $α$=$ν$. These results identify tail-index matching as a principled mechanism behind the ability of stable generative models to capture extreme events.",
+      "published": "2026-10-14",
+      "categories": [
+        "cs.LG",
+        "math.PR",
+        "stat.ML"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2610.20542",
+      "url": "https://arxiv.org/abs/2610.20542",
+      "title": "The quasi-convex Rockafellar theorem",
+      "authors": [
+        "Luigi De Pascale",
+        "Paul Pegon"
+      ],
+      "abstract": "Rockafellar showed that every cyclically monotone operator is contained in the subdifferential of a convex function, and characterized the maximal ones. We establish the quasi-convex analogue of this theorem, with no assumption on the operator: in any separable Banach space, a setting we show to be sharp, every cyclically quasi-monotone operator is contained in the normal cone operator of a quasi-convex function. In finite dimension, we characterize maximal cyclically quasi-monotone operators and show that they are maximal quasi-monotone. Unlike in the convex case, the potential is not unique, and we build it from a preference relation obtained through successive preorders. As applications, we extend Afriat's theorem on revealed preferences in economics to infinite data sets, and obtain Kantorovich-type potentials for a supremal optimal transport problem.",
+      "published": "2026-10-14",
+      "categories": [
+        "math.OC",
+        "math.FA"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2610.19285",
+      "url": "https://arxiv.org/abs/2610.19285",
+      "title": "Heat Kernel Estimates for Random Walks with Killing on Transient Graphs",
+      "authors": [
+        "Emily Dautenhahn",
+        "Anthony Graves-McCleary"
+      ],
+      "abstract": "We give matching two-sided estimates for heat kernels obtained from Schrödinger operators $Δ+W$ on weighted graphs. The graphs we consider are transient and admit two-sided sub-Gaussian heat kernel estimates for the Laplacian $Δ$, and the potentials $W$ decay to zero at infinity. We offer two proofs for one of our main results: one using the Feynman-Kac formula, and one without using it. Our results apply to fractal-type graphs such as graphical Sierpinski carpets, among other examples.",
+      "published": "2026-10-13",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
     {
       "id": "2610.18453",
       "url": "https://arxiv.org/abs/2610.18453",
@@ -710,24 +875,6 @@
       ]
     },
     {
-      "id": "2610.13940",
-      "url": "https://arxiv.org/abs/2610.13940",
-      "title": "Sandpile avalanches in two dimensions are finite",
-      "authors": [
-        "Ahmed Bou-Rabee"
-      ],
-      "abstract": "In the abelian sandpile model on $\\mathbb{Z}^d$, a site with at least $2d$ grains topples by sending one grain to each neighbor. In a box $[-L,L]^d$ whose boundary absorbs grains, adding grains at random sites and toppling defines a Markov chain, and Athreya and Járai (2004) constructed the stationary state on $\\mathbb{Z}^d$ as the limit of its stationary distributions as $L\\to\\infty$. By a formula of Dhar (1990), when a grain is added at the origin of a sandpile in the stationary state, the expected number of topplings at a site in the resulting avalanche is proportional to the Green function of simple random walk from the origin. This Green function is finite for $d\\geq3$, where Járai and Redig (2008) proved that avalanches are almost surely finite, and infinite for $d=2$. We prove that for $d=2$ avalanches are nevertheless almost surely finite: the probability that an avalanche reaches distance $R$ is at most a negative power of $\\log R$. The proof follows the avalanche backward and reduces the question to an estimate for the uniform spanning tree, which we prove by a multiscale electrical argument.",
-      "published": "2026-10-09",
-      "categories": [
-        "math.PR"
-      ],
-      "tags": [
-        "random walk",
-        "simple random walk",
-        "spanning tree"
-      ]
-    },
-    {
       "id": "2610.13847",
       "url": "https://arxiv.org/abs/2610.13847",
       "title": "A Network Simplex Framework For Discrete Unbalanced Optimal Transport",
@@ -811,6 +958,22 @@
         "N. Elezović"
       ],
       "abstract": "We study the expectation of the discrete total variation statistic $d=\\sum_{i=1}^{n-1}|X_{i+1}-X_i|$ of counts $X_1,\\dots,X_n$ over $n$ ordered bins with sample size $N$, under the uniform multinomial null. In the notation used throughout the series, a reference distribution $\\mathbf r$ defines $d_{\\mathbf r}(x)=\\|x-N\\mathbf r\\|_V$; here $\\mathbf r=\\mathbf u$ is uniform and we write simply $d$. We obtain an exact single-sum formula, a closed form in central trinomial coefficients valid for every $n\\ge2$, with one-term evaluations at $n=2,4$ and a complete D-finite characterization for $n=3$. The per-edge expectation $W_N=E|X_2-X_1|$ satisfies an exact three-term recurrence, from which we derive its complete $1/N$ expansion with the $n$-independent constant $E(d^\\circ/\\sqrt{Nn})\\to 2/\\sqrtπ$ for the cyclic statistic $d^\\circ=d^\\circ_{\\mathbf u}$, independent of the number of bins; the complementary sparse regime (fixed $N$, $n\\to\\infty$) is treated in a separate paper. Conditioning on a two-bin total reduces each edge to a symmetric random walk; as the subsequent parts of the series will show, this method carries the analysis to non-uniform reference laws.",
+      "published": "2026-10-09",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.13940",
+      "url": "https://arxiv.org/abs/2610.13940",
+      "title": "Sandpile avalanches in two dimensions are finite",
+      "authors": [
+        "Ahmed Bou-Rabee"
+      ],
+      "abstract": "In the abelian sandpile model on $\\mathbb{Z}^d$, a site with at least $2d$ grains topples by sending one grain to each neighbor. In a box $[-N,N]^d$ whose boundary absorbs grains, adding grains at random sites and toppling defines a Markov chain. Athreya and Járai (2004) constructed the stationary state on $\\mathbb{Z}^d$ as the limit of its stationary distributions as $N\\to\\infty$. They asked whether, when a grain is added at the origin of a sandpile in the stationary state, the resulting avalanche of topplings is finite. Járai and Redig (2008) proved that the answer is yes for $d\\geq 3$, using the transience of random walk. We prove, using a different method, that avalanches are also finite for $d=2$.",
       "published": "2026-10-09",
       "categories": [
         "math.PR"
