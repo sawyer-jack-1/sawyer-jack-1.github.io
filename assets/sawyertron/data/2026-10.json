@@ -1,8 +1,135 @@
 {
   "month": "2026-10",
-  "generated_at": "2026-10-15T14:13:17+00:00",
+  "generated_at": "2026-10-16T14:01:00+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2610.21976",
+      "url": "https://arxiv.org/abs/2610.21976",
+      "title": "Mixing time of the lazy and simple random walk on a randomly twisted hypercube",
+      "authors": [
+        "Zsuzsanna Baran",
+        "Anđela Šarković"
+      ],
+      "abstract": "We consider a randomly twisted hypercube on $N$ vertices and study a simple or lazy random walk on this graph. We show that for both walks the mixing time is of order $\\log N$, and the model does not exhibit cutoff. We also establish that both walks have cover time of order $N\\log N$, and we show that the chromatic number of the graph diverges.",
+      "published": "2026-10-15",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk",
+        "mixing time"
+      ]
+    },
+    {
+      "id": "2610.22180",
+      "url": "https://arxiv.org/abs/2610.22180",
+      "title": "A quadratic ancestor inequality for spanning trees",
+      "authors": [
+        "Gefei Cai"
+      ],
+      "abstract": "We introduce a quadratic ancestor inequality for weighted spanning trees on finite undirected graphs and give two applications. First, for every finite $n$-vertex transitive graph, the expected distance in its uniform spanning tree (UST) between two independent uniform vertices is at least $\\sqrt{n}-1$, resolving a conjecture in [Benjamini--Kozma, Comm. Math. Phys. 259 (2005), 257--286]. Second, we prove that the growth exponent of three-dimensional loop-erased random walk (LERW) is at least 3/2.",
+      "published": "2026-10-15",
+      "categories": [
+        "math.PR",
+        "math-ph",
+        "math.CO"
+      ],
+      "tags": [
+        "random walk",
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2610.22142",
+      "url": "https://arxiv.org/abs/2610.22142",
+      "title": "Wild number for spanning trees in complete and complete bipartite graphs",
+      "authors": [
+        "Aleyah Dawkins",
+        "Alexander Nappo",
+        "Jessie Tong",
+        "Christopher Zimbizi"
+      ],
+      "abstract": "Given an edge-colored graph, the wild number measures how close the graph is to having a spanning tree in every color. We investigate this parameter for complete graphs and complete bipartite graphs, with particular emphasis on minimum proper colorings and equitable $2$-colorings. For complete graphs, we determine the full range of wild numbers attainable by equitable $2$-colorings and show that, although every value in this range occurs, the expected wild number of a uniformly random equitable $2$-coloring tends to $0$ as the order of the graph grows. For minimum proper colorings of $K_n$, we establish a general lower bound, determine the exact wild number for $3 \\le n \\le 12$, and conjecture that the lower bound is sharp for all $n$. We also develop structural conditions on ideal wild sets and use them to obtain upper bounds and analyze the performance of a natural greedy algorithm. For complete bipartite graphs, we prove a sharp upper bound for equitable $2$-colorings and determine the wild number exactly for minimum proper colorings. Finally, we apply these results to Cartesian products of complete graphs and complete bipartite graphs, obtaining lower bounds for the wild number under minimum proper and product colorings.",
+      "published": "2026-10-15",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2610.21864",
+      "url": "https://arxiv.org/abs/2610.21864",
+      "title": "Localisation of the monkey walk with an \"impurity\" at the origin",
+      "authors": [
+        "Wilfred Armfield",
+        "Cécile Mailler"
+      ],
+      "abstract": "The monkey walk is a model of reinforced random walk introduced by Boyer and Solis-Salas as a model for the exploratory behaviour of capuchin monkeys. At each step of the walk, the walker flips a biased coin to determine whether to take a simple, symmetric random walk step on $\\mathbb{Z}^d$ or to \"relocate\", i.e. choose a time uniformly at random in its past and jump to where it was at that time. More recently, Boyer, Falcón-Cortés, Giuggioli and Majumdar looked at a modification of the model, where the probability to relocate is $ξ_0$ when the walker sits at the origin and $ξ>ξ_0$ anywhere else. We prove that, for all $ξ_0\\in (0,1)$, if $ξ$ is sufficiently close to 1, then the monkey walk \"localises\", i.e. the position of the walker at time $n$, $W_n$, converges in distribution without any renormalisation. (We in fact prove convergence of the occupation measure of the walker.) This is in contrast with the case when $ξ= ξ_0$, for which it is known that $W_n/\\sqrt{\\log n}$ converges in distribution to a standard Gaussian (we say that the walk \"diffuses\"). Our proof relies on seeing the monkey walk as an infinitely-many colour Pólya urn (a.k.a. measure-valued Pólya process - MVPP) and then prove convergence of this urn, which is not straightforward as theorems from the literature on MVPPs do not apply directly.",
+      "published": "2026-10-15",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.21415",
+      "url": "https://arxiv.org/abs/2610.21415",
+      "title": "Ordinary lines, point degrees, and matroid density",
+      "authors": [
+        "Matthew E. Kroeker",
+        "Ben Lund"
+      ],
+      "abstract": "For every set of $n$ points in $\\mathbb{C}^d$ with full affine span, we prove that some point lies on at least $n+1-2n/(d+1)$ spanned lines, which is best possible in every dimension. By successive contraction, this implies the sharp bound $r+(\\ell-3)\\binom r2$ on the number of elements of a simple rank-$r$ complex-representable matroid excluding $U_{2,\\ell}$ as a minor, which removes the sufficiently-large-rank assumption from the bound of Geelen, Nelson, and Walsh. An arithmetic application shows that rank-$r$ integer matrices whose maximal minors have absolute value at most $Δ$ have at most $O(Δr^2)$ distinct columns, resolving a question of Averkov and Schymura. We prove that a set of $n$ points in $\\mathbb{C}^3$ determines at least $n^2/40$ ordinary lines whenever no plane contains more than $2n/3$ of the points. This answers a question of Basit, Dvir, Saraf, and Wolf. We also prove upper bounds on average line length and lower bounds on the number of points incident to many spanned lines in high-dimensional point sets. The proofs combine contraction of concentrated flats with normalization of the point vectors and second- and fourth-moment estimates on their pairwise correlations. This approach builds on the design matrix method.",
+      "published": "2026-10-15",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.21812",
+      "url": "https://arxiv.org/abs/2610.21812",
+      "title": "Orlik-Solomon algebras determine the Tutte polynomials of matroids of rank at most three",
+      "authors": [
+        "Jianxuan Luo",
+        "Tingzeng Wu",
+        "Hong-Jian Lai"
+      ],
+      "abstract": "Let $\\mathcal{M}$ be a simple matroid of rank $r$ on the ground set $[n]=\\{1,\\ldots,n\\}$, let $T_{\\mathcal{M}}(x,y)$ denote its Tutte polynomial, and let $\\mathrm{OS}(\\mathcal{M})$ denote its Orlik-Solomon $\\mathbb{C}$-algebra. We say that $\\mathrm{OS}(\\mathcal{M})$ determines $T_{\\mathcal{M}}(x,y)$ if, for every simple matroid $\\mathcal{N}$, an isomorphism $\\mathrm{OS}(\\mathcal{M})\\cong\\mathrm{OS}(\\mathcal{N})$ of $\\mathbb{C}$-algebras, without regard to the grading, implies $T_{\\mathcal{M}}(x,y)=T_{\\mathcal{N}}(x,y)$. Falk conjectured that the Orlik-Solomon $\\mathbb{C}$-algebra of every simple matroid of rank three determines its Tutte polynomial. We prove that this holds for every simple matroid of rank at most three, thereby resolving Falk's conjecture.",
+      "published": "2026-10-15",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.22135",
+      "url": "https://arxiv.org/abs/2610.22135",
+      "title": "Unavoidable flats in GF(q)-representable matroids",
+      "authors": [
+        "Jim Geelen",
+        "Matthew E. Kroeker",
+        "Peter Nelson"
+      ],
+      "abstract": "We show that, for any finite field $\\mathbb{F}$ and positive integer $k$, a simple $\\mathbb{F}$-representable matroid $M$ with sufficiently high rank contains a rank-$k$ flat which is either independent in $M$, or is a projective or affine geometry over a subfield of $\\mathbb{F}$. This generalizes a result for matroids representable over prime fields due to the first two authors. As a corollary, we obtain a Ramsey theorem for matroids representable over a finite field $\\mathbb{F}$. For an integer $k$, in any $2$-colouring of the points of an $\\mathbb{F}$-representable matroid of sufficiently high rank, there is a monochromatic rank-$k$ flat.",
+      "published": "2026-10-15",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
     {
       "id": "2610.19673",
       "url": "https://arxiv.org/abs/2610.19673",
@@ -18,6 +145,24 @@
       ],
       "tags": [
         "random walk"
+      ]
+    },
+    {
+      "id": "2610.20972",
+      "url": "https://arxiv.org/abs/2610.20972",
+      "title": "$λ$-geodesic convexity of the squared sliced-Wasserstein distance",
+      "authors": [
+        "Giacomo Cozzi",
+        "Filippo Santambrogio"
+      ],
+      "abstract": "The squared Wasserstein distance with respect to a fixed target measure is not a convex function along Wasserstein geodesics over $\\mathbb{R}^d$ when $d\\geq 2$. Still, in dimension $d=1$, this function is $2$-geodesically convex. We prove that the square of the sliced-Wasserstein distance (which is a distance constructed averaging one-dimensional Wasserstein distances) is $λ$-geodesically convex (possibly with $λ\\leq 0$) on sets of measures satisfying upper bounds on their density, when the target measure satisfies some given geometric conditions. We also present some consequences of this result in the study of the sliced-Wasserstein flow.",
+      "published": "2026-10-14",
+      "categories": [
+        "math.OC",
+        "math.AP"
+      ],
+      "tags": [
+        "Wasserstein distance"
       ]
     },
     {
@@ -146,6 +291,44 @@
       "categories": [
         "math.OC",
         "math.FA"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2610.20894",
+      "url": "https://arxiv.org/abs/2610.20894",
+      "title": "Stochastic Gradient Descent: A Nonlinear Time Series Perspective",
+      "authors": [
+        "Jiaqi Li",
+        "Zhipeng Lou",
+        "Stefan Richter",
+        "Wei Biao Wu"
+      ],
+      "abstract": "This paper investigates the statistical behavior of Stochastic Gradient Descent (SGD) with constant step size under the framework of iterated random functions. Compared to previous studies establishing the convergence of SGD in probability measure, e.g., Wasserstein distance, our approach directly provides the convergence in Euclidean distance by showing the Geometric Moment Contraction (GMC) of SGD. This new convergence can address the non-stationarity of SGD due to fixed initial points and can provide a more refined asymptotic analysis of SGD. Specifically, we prove quenched central limit theorem, invariance principle and $α$-stable convergence for averaged SGD (ASGD) regardless of initialization. Furthermore, we provide a novel perspective to understand the impact of step sizes in SGD by studying its derivative with respect to the step size. The existence of stationary solutions for the derivative processes is shown, enabling the use of interpolation to recover the full-trajectory of SGD. Subsequently, we utilize multiple step sizes and show an enhanced Richardson-Romberg extrapolation with improved bias representation, which brings ASGD estimates closer to the global optimum. Finally, we propose a new online inference method and a bias-reduced variant for the extrapolated ASGD. Empirical confidence intervals are constructed and the coverage probabilities approach the nominal level as $n$ grows.",
+      "published": "2026-10-14",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.ST"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2610.20920",
+      "url": "https://arxiv.org/abs/2610.20920",
+      "title": "$q_x$-Bass Martingales: Optimality, Existence and Convergence",
+      "authors": [
+        "Antonio Marini"
+      ],
+      "abstract": "We introduce the class of $q_x$-Bass martingales, extending the notion of $q$-Bass martingales. These are martingale couplings with prescribed marginals whose transition kernels are closest to a given family of reference kernels $(q_x)_{x \\in \\mathbb R^d}$ in the sense of a suitable weak optimal transport problem. We show that $q_x$-Bass martingales are optimizers of this problem and establish a strong duality result. Building on this duality, we introduce an algorithm for their computation and, under compactness assumptions on the prescribed marginals, prove its convergence, thereby establishing existence. We then specialize to one-dimensional marginals and show that the algorithm reduces to a fixed-point iteration.",
+      "published": "2026-10-14",
+      "categories": [
+        "math.PR",
+        "q-fin.MF"
       ],
       "tags": [
         "optimal transport"
@@ -566,6 +749,23 @@
       "categories": [
         "math.CO",
         "math.AG"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.20649",
+      "url": "https://arxiv.org/abs/2610.20649",
+      "title": "Cotangent cohomology and higher-order obstructions of matroids",
+      "authors": [
+        "Qihang Wang"
+      ],
+      "abstract": "We show that matroid Stanley-Reisner rings can have essential deformation obstructions of arbitrarily high order over every field, even at corank three. For every $m\\ge3$, we construct a connected cosimple matroid with $m$ fine-homogeneous first-order deformation classes whose proper subcollections integrate jointly and whose pairwise primary cup products vanish. These classes define a joint flat family whose $(m-1)$-jet has no lift to order $m$, even without preserving the grading. For the duals of rank-three truncations of $U_{2,m}\\oplus U_{2,n}$, $m,n\\ge3$, every nonzero homogeneous class modulo the primary cup image is realized as a higher-order obstruction, and this quotient has an explicit module presentation with $m+n-2$ minimal homogeneous generators. The construction is based on a computation of the full multigraded second cotangent cohomology $T^2$ and its primary cup image in terms of flats and parallel classes of the dual matroid. This computation also proves that $T^2$ vanishes precisely when every connected component has corank at most two, equivalently when the matroid has no $U_{1,4}$-minor, settling the conjecture of Constantinescu, Klein, Nguyen, Singh, and Venturello. The same criterion characterizes formal smoothness of the affine deformation functor.",
+      "published": "2026-10-12",
+      "categories": [
+        "math.CO",
+        "math.AC"
       ],
       "tags": [
         "matroid"
