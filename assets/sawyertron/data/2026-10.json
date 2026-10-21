@@ -1,8 +1,152 @@
 {
   "month": "2026-10",
-  "generated_at": "2026-10-20T14:21:31+00:00",
+  "generated_at": "2026-10-21T14:31:54+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2610.27857",
+      "url": "https://arxiv.org/abs/2610.27857",
+      "title": "Central Limit Theorems for Optimal Transport Functionals",
+      "authors": [
+        "Haruki Kono"
+      ],
+      "abstract": "We establish central limit theorems for empirical plug-in estimators of scalar functionals of quadratic optimal transport maps and potentials, including Wasserstein costs and several risk measures constructed from transport-based multivariate quantiles. We study the one-sample problem with a known reference distribution and i.i.d. observations from the target distribution. A natural approach is to combine a limit theorem for the empirical transport map with the functional delta method. We show, however, that in dimensions at least two, empirical transport-map errors admit no nonzero weak limit in $L^2$ under any normalizing scale. Instead, we linearize the functional directly in the target distribution, obtaining an influence-function expansion with a remainder controlled by the transport-map error. The influence function is characterized by a linear elliptic partial differential equation. Under regularity conditions, we use this expansion to prove central limit theorems in low dimensions and establish validity of the empirical bootstrap. We also derive semiparametric efficiency bounds and show that the plug-in estimators attain them under the same conditions.",
+      "published": "2026-10-20",
+      "categories": [
+        "math.ST",
+        "econ.EM"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2610.27457",
+      "url": "https://arxiv.org/abs/2610.27457",
+      "title": "A first order phase transition for lower tails in sparse random graphs",
+      "authors": [
+        "Byron Chin"
+      ],
+      "abstract": "We study the graphon variational problem that governs lower tail large deviations of the number of copies of a fixed nonbipartite graph $H$ in a sparse Erdős--Rényi random graph. Our main new insight is that any non-constant minimizer of the variational problem exhibits a discontinuous jump away from the constant graphon. We deduce that the replica-symmetric and symmetry-breaking regimes are separated by a single critical parameter and that the phase transition is first order. In the supercritical regime $p \\gg n^{-1/m_2(H)}$, we transfer these results to the conditioned random graph, showing that the edge density is a discontinuous order parameter and that the conditioned graph concentrates in cut distance near the full minimizer set.",
+      "published": "2026-10-20",
+      "categories": [
+        "math.PR",
+        "math.CO"
+      ],
+      "tags": [
+        "random graph"
+      ]
+    },
+    {
+      "id": "2610.28078",
+      "url": "https://arxiv.org/abs/2610.28078",
+      "title": "Fluctuations of subgraph counts in exponential random graphs",
+      "authors": [
+        "Hui-Lin Liu",
+        "Song-Hao Liu",
+        "Dawei Lu"
+      ],
+      "abstract": "In this paper, we study fluctuations of fixed subgraph counts in dense exponential random graphs on $n$ vertices. We compare each normalized subgraph count $V$ with the normalized edge count $W$: their difference $V-W$ is $O(n^{-1/2})$ in $L^2$, whereas $\\mathbb{E}[(V-W)f(W)]=O(n^{-1})$ for every $1$-Lipschitz function $f$. We also obtain $O(n^{-1})$ Kolmogorov and Wasserstein bounds, optimal for the edge count, with relative variance error of the same order. These estimates hold uniformly on compact subsets of the ferromagnetic subcritical and absolute-coefficient Dobrushin regions, and under small fixed signed perturbations of the former. Using this uniform control, we derive a local Gaussian likelihood expansion with rank-one leading Fisher information and two-sided moderate deviations with an explicit cubic correction. The proofs combine two applications of the normal Stein equation, covariance estimates from Glauber dynamics and exponential tilting.",
+      "published": "2026-10-20",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random graph"
+      ]
+    },
+    {
+      "id": "2610.28573",
+      "url": "https://arxiv.org/abs/2610.28573",
+      "title": "Dynamic Distances Without Matrix Inverse",
+      "authors": [
+        "Jan van den Brand",
+        "Adam Karczmarz",
+        "Aryan Patel"
+      ],
+      "abstract": "We study the fully dynamic exact distance problem in unweighted directed graphs, where the graph undergoes edge insertions and deletions, and the distance between two query vertices must be reported. Under the combinatorial Boolean matrix multiplication conjecture, any subquadratic-time algorithm for this problem must use algebraic techniques. All prior work uses the polynomial matrix inverse as its algebraic tool, but within subquadratic time, this technique can only maintain distances up to a small-polynomial hop bound. So larger distances must be reassembled from short-range pieces by a combinatorial layer. This hybrid algebraic-combinatorial construction has led to a substantial slowdown for dynamic distances compared to other dynamic graph problems relying on algebraic techniques. We give the first subquadratic-time dynamic distance algorithm built on dynamically maintaining a different algebraic object than the matrix inverse. By maintaining the Frobenius form $A=KCK^{-1}$ of a dynamic generic (i.e., cyclic) matrix $A$, we can query all the powers $A^\\ell = K C^\\ell K^{-1}$ efficiently. For adjacency matrix~$A$, the smallest $\\ell$ with $(A^\\ell)_{s,t}\\neq 0$ is the $st$-distance in the associated graph. So, unlike dynamic matrix inverse, we get distance information directly without hop truncation, and we no longer need to perform any combinatorial reassembly. This purely algebraic approach to dynamic distances leads to the fastest dynamic distance algorithm with $O(n^{1.58})$ update time. The earlier use of the Frobenius form maintained the dense change of basis $K$ explicitly and required $\\tilde O (n^2)$ time per update [KS23]. Our key observation is that this change of basis is highly structured, which lets us maintain it implicitly. This gives the first subquadratic dynamic algorithm for the Frobenius normal form and characteristic polynomial for generic matrices.",
+      "published": "2026-10-20",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "adjacency matrix",
+        "dynamic graph"
+      ]
+    },
+    {
+      "id": "2610.27554",
+      "url": "https://arxiv.org/abs/2610.27554",
+      "title": "On Hankel Determinantal Matroids",
+      "authors": [
+        "Ethan Reed",
+        "Manolis C. Tsakiris"
+      ],
+      "abstract": "We initiate a study of the algebraic matroid associated to the ideal generated by the $(r+1)$-minors of a Hankel matrix of variables. We prove that this matroid is uniform, that is, a coordinate projection from the corresponding Hankel determinantal variety is generically finite if and only if it preserves at least $2r$ anti-diagonals. For such projections, we establish bounds on the degree. These results are of significance to the problem of Hankel low-rank matrix completion.",
+      "published": "2026-10-20",
+      "categories": [
+        "math.AC",
+        "math.AG",
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.27706",
+      "url": "https://arxiv.org/abs/2610.27706",
+      "title": "On minimum-size matroid counterexamples to the multiplicative Merino--Welsh inequality",
+      "authors": [
+        "Jungang Chen",
+        "Xian'an Jin",
+        "Tianlong Ma"
+      ],
+      "abstract": "Let $M$ be a matroid and let $\\Tutte_M(x,y)$ be its Tutte polynomial. The multiplicative Merino--Welsh inequality \\[ \\Tutte_M(2,0)\\Tutte_M(0,2)\\geq \\Tutte_M(1,1)^2 \\] was proved to be false for matroids by Beke, Csáji, Csikvári, and Pituk (\\emph{Adv. Math.} \\textbf{446} (2024), 109674). Let $U_{n,r}$ denote the rank-$r$ uniform matroid on $n$ elements, where $0<r<n$, and let $U_{n,r}^{(q)}$ denote the matroid obtained by replacing each element of $U_{n,r}$ with $q$ parallel copies. They constructed an infinite family of counterexamples of the form $U_{n,r}^{(2)}$, including $U_{33,22}^{(2)}$. In this paper, we prove that every $U_{n,r}^{(q)}$ with $q\\geq3$ satisfies the inequality. For $q=2$, we prove that the minimum number of elements in such a counterexample is $62$, attained by $U_{31,21}^{(2)}$. For loopless and bridgeless graphs, Noble and Royle (\\emph{Eur. J. Comb.} \\textbf{38} (2014), 24--35) showed that every edge of a minimum-size counterexample to the multiplicative Merino--Welsh conjecture lies in a series or parallel class of size two or three. For matroids, we further prove that every element of a minimum-size loopless and coloopless counterexample lies in exactly one series or parallel class of size two.",
+      "published": "2026-10-20",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.27892",
+      "url": "https://arxiv.org/abs/2610.27892",
+      "title": "Almost entropic matroids and $(k,L)$-systems",
+      "authors": [
+        "Andrey Kupavskii",
+        "Nikolai Terekhov"
+      ],
+      "abstract": "For an integer $k$ and a set of integers $L$, a $(k,L)$-system is a family of $k$-element sets such that the size of the intersection of any two distinct members belongs to $L$. Let $m(n,k,L)$ denote the maximum size of a $(k,L)$-system on a ground set of $n$ elements. In this work, we establish a close connection between the asymptotic growth of $m(n,k,L)$ and almost entropic matroids. As a consequence, we obtain a general computable upper bound on the asymptotics of $m(n,k,L)$ that unifies and strengthens all previously known upper bounds.",
+      "published": "2026-10-20",
+      "categories": [
+        "math.CO",
+        "cs.IT"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.28300",
+      "url": "https://arxiv.org/abs/2610.28300",
+      "title": "Primal-Dual Adaptive Subgradient Methods",
+      "authors": [
+        "Karthik Prakhya",
+        "Zimeng Wang",
+        "Alp Yurtsever"
+      ],
+      "abstract": "We propose adaptive primal-dual subgradient methods for constrained convex optimization. Our first method applies an AdaGrad-style step-sizes to the dual problem and recovers primal solutions by averaging the associated Fenchel-type oracle outputs. It achieves $\\widetilde{\\mathcal{O}}(T^{-1/2})$ convergence for the dual objective residual, primal objective residual, and feasibility gap in the nonsmooth regime, while automatically improving to $\\mathcal{O}(T^{-1})$ when the dual objective is smooth. We further develop an accelerated variant, which retains the $\\widetilde{\\mathcal{O}}(T^{-1/2})$ nonsmooth rate while achieving $\\mathcal{O}(T^{-2})$ convergence in the smooth regime under mild assumptions. These guarantees require no prior knowledge of the underlying regularity. We demonstrate the empirical performance of the proposed methods on optimal transport and semidefinite relaxation of the Max-Cut problem.",
+      "published": "2026-10-20",
+      "categories": [
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
     {
       "id": "2610.25800",
       "url": "https://arxiv.org/abs/2610.25800",
@@ -31,6 +175,22 @@
         "José Ángel Islas"
       ],
       "abstract": "Let \\((S_n)_{n\\ge0}\\) be a Bernoulli random walk with \\(P(X_i=1)=p\\) and \\(P(X_i=-1)=q=1-p\\), and let \\(M_n=\\max\\{S_0,\\ldots,S_n\\}\\). We consider the semi-best selection problem of maximizing \\(P(M_N-S_τ\\le1)\\) over stopping times \\(τ\\le N\\). Allaart showed that the optimal decision in the critical state \\((n,1)\\) is determined by a sequence of critical probabilities \\(\\{p_n\\}\\), and conjectured that \\(p_n\\to1/2\\). We prove this conjecture. For every fixed \\(p<1/2\\), the stopping value converges to \\(ν=1-(p/q)^2\\), while the continuation value converges to \\(2pν\\). Since \\(2pν<ν\\), stopping is optimal in state \\((n,1)\\) for all sufficiently large \\(n\\). Together with the known bound \\(p_n<1/2\\) for \\(n\\ge4\\), this yields \\(\\lim_{n\\to\\infty}p_n=1/2\\).",
+      "published": "2026-10-19",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.27129",
+      "url": "https://arxiv.org/abs/2610.27129",
+      "title": "Supercritical Branching Random Walks on Nested Lattices",
+      "authors": [
+        "Elena Yarovaya"
+      ],
+      "abstract": "In classical models of supercritical continuous-time branching random walks (BRWs) on a $d$-dimensional lattice, the dimension $d$ is typically assumed to be fixed. When comparing the exponential growth rate $λ_0$ of a particle population in a BRW with a single branching source across lattices of different dimensions, a question arises whether it is possible to construct a family of random walks on $d$-dimensional lattices such that the model for a $(d+1)$-dimensional lattice ``inherits'' the properties of the model for a $d$-dimensional lattice in a meaningful sense. To address this question, the paper introduces the concept of a ``random walk on nested lattices'' and investigates the effect of the dimension $d$ on particle population growth using the ``inheritance'' condition. For an arbitrary symmetric random walk, a limit theorem is proved on the representation of the positive eigenvalue of the evolution operator for the mean particle numbers in terms of the process parameters and the dimension $d$, as the branching source intensity $β\\to \\infty$. The theorem shows that the influence of dimension persists even for very strong branching.",
       "published": "2026-10-19",
       "categories": [
         "math.PR"
@@ -133,6 +293,40 @@
       ]
     },
     {
+      "id": "2610.27128",
+      "url": "https://arxiv.org/abs/2610.27128",
+      "title": "Normal approximation for subgraph counts in random intersection graphs: the case of cliques",
+      "authors": [
+        "Katarzyna Rybarczyk",
+        "Grzegorz Serafin"
+      ],
+      "abstract": "Let $X^{(r)}_n$ denote the number of copies of a complete graph $K_r$ in the random intersection graph model on $n$ vertices. We derive upper bounds on the distance between the standardized version of $X^{(r)}_n$ and the standard normal distribution, measured in both the Kolmogorov and Wasserstein metrics. We complement these results with necessary and sufficient conditions for asymptotic normality. As a byproduct, we provide precise estimates for the variance of $X^{(r)}_n$. In the process, we develop new general techniques for analysing so--called clique covers, which play a crucial role in the study of subgraph probabilities in random intersection graphs.",
+      "published": "2026-10-19",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "Wasserstein metric"
+      ]
+    },
+    {
+      "id": "2610.27243",
+      "url": "https://arxiv.org/abs/2610.27243",
+      "title": "On counterexamples to the unification of free entropy",
+      "authors": [
+        "David Jekel"
+      ],
+      "abstract": "It has been a long-standing open problem to determine when two versions of Voiculescu's free entropy, $χ$ and $χ^*$, agree. OpenAI recently generated the first example with $-\\infty < χ< χ^*$. We give a detailed presentation of a similar example, and explicitly show the separation between free Fisher information and the large-$n$ limit of classical Fisher information through the relationship with Wasserstein distance. We thus situate the example in the context of probability theory and information geometry.",
+      "published": "2026-10-19",
+      "categories": [
+        "math.OA",
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
       "id": "2610.25391",
       "url": "https://arxiv.org/abs/2610.25391",
       "title": "Rapid Mixing for Sampling Colorings of Random Graphs up to Tree Uniqueness Threshold",
@@ -207,6 +401,28 @@
       ]
     },
     {
+      "id": "2610.26967",
+      "url": "https://arxiv.org/abs/2610.26967",
+      "title": "When Weak Submodularity Meets Matroids: How Does Standard Greedy Behave?",
+      "authors": [
+        "Qixin Zhang",
+        "Shi Fu",
+        "Shengminjie Chen",
+        "Chao Qian",
+        "Dacheng Tao"
+      ],
+      "abstract": "Weakly submodular maximization finds numerous applications in machine learning, data mining and statistics. In particular, under a cardinality constraint, the standard greedy algorithm is known to attain the tight $(1-e^{-γ})$-approximation guarantee, where $γ$ denotes the submodularity ratio. However, when considering general matroid constraints, \\emph{how well standard greedy can perform} has remained a longstanding open question. In this paper, we resolve this question by studying the worst-case approximation guarantee $R_{\\mathrm{gr}}(γ,r)$ of standard forward greedy, where $r$ is the rank of matroid. Specifically, our first contribution is the following refined lower bound \\begin{equation*} R_{\\gr}(γ,r)\\ge \\max\\left\\{ \\fracγ{r}, \\frac{γ^2} {B_γ+\\sqrt{γ(r-1)}}, \\frac{γ^{r+1}} {2-γ+γ^{r+1}}, \\frac{γ^2} {14\\left(B_γ+\\sqrt{γ(1-γ)(r-1)}\\right)} \\right\\}, \\end{equation*} where $B_γ\\triangleq2-γ+γ^2$. This lower bound not only strictly improves upon the previous guarantee of $0.4γ^2/(1+\\sqrt{γr})$, but also can recover the classical $1/2$-approximation guarantee at $γ=1$. Subsequently, a corresponding upper bound is established for $R_{\\mathrm{gr}}(γ,r)$, namely, \\begin{equation}\\label{eq_upper_abstract} R_{\\gr}(γ,r) \\le\\min\\left\\{\\frac{1}{2},20\\max\\left\\{\\fracγ{r}, \\frac{γ^2}{B_γ+ \\sqrt{γ(1-γ)(r-1)}}\\right\\}\\right\\}. \\end{equation} For every fixed $γ\\in(0,1)$, this Eq.\\eqref{eq_upper_abstract} effectively sharpens the recent $O_γ(1/\\log(n-1))$ upper bound to $O_γ(r^{-1/2})$, where $n$ is the size of ground set. Putting all these results together, we eventually can obtain \\[R_{\\gr}(γ,r) = Θ\\!\\left( \\max\\left\\{\\fracγ{r}, \\frac{γ^2} {1+\\sqrt{γ(1-γ)r}}\\right\\} \\right).\\]",
+      "published": "2026-10-18",
+      "categories": [
+        "math.OC",
+        "cs.DM",
+        "cs.LG"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
       "id": "2610.25025",
       "url": "https://arxiv.org/abs/2610.25025",
       "title": "Moreau-Yosida Penalization of McKean-Vlasov Dynamics: Full-Flux Limits and Boundary Reaction Measures",
@@ -223,6 +439,24 @@
       ],
       "tags": [
         "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2610.26928",
+      "url": "https://arxiv.org/abs/2610.26928",
+      "title": "Cramér-type moderate deviations and precise large deviations for the elephant random walk with random step sizes",
+      "authors": [
+        "Xiequan Fan",
+        "Shuyuan Liang",
+        "Dongxue Ma"
+      ],
+      "abstract": "In this paper, we focuses on how the distribution of random step sizes affects Cramér-type moderate deviations and precise large deviations for the elephant random walk with random step sizes. First, with sub-exponential moment condition of random step sizes, we establish Cramér-type moderate deviation results. Consequently, moderate deviation principles are obtained. Secondly, for random step sizes with sub-exponential tails, we establish a large deviation principle on tail probabilities. Finally, for random step sizes with regularly varying tails, we obtain precise large deviations.",
+      "published": "2026-10-17",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
       ]
     },
     {
