@@ -1,8 +1,183 @@
 {
   "month": "2026-10",
-  "generated_at": "2026-10-21T14:31:54+00:00",
+  "generated_at": "2026-10-22T14:33:49+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2610.29105",
+      "url": "https://arxiv.org/abs/2610.29105",
+      "title": "Normal approximation, moderate and large deviations for the elephant random walk with stops and random step sizes",
+      "authors": [
+        "Shuyuan Liang"
+      ],
+      "abstract": "We study the elephant random walk with stops and independent positive random step sizes. Building on fixed-movement estimates, we obtain quantitative normal approximations for an empirically normalized statistic by controlling its random denominator and the independent movement clock. A permutation comparison preserves the diffusive Kolmogorov rate, while variance matching permits third-order Zolotarev estimates. We also derive self-normalized Cramér-type moderate deviations. For regularly varying step-size tails, we obtain uniform precise large deviations and establish the necessity of the diffusive and critical threshold orders. Further applications of the clock representation yield large deviation principles for Weibull-type and light-tailed step sizes, and a precise light-tailed expansion in the balanced case.",
+      "published": "2026-10-21",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.29156",
+      "url": "https://arxiv.org/abs/2610.29156",
+      "title": "Normal approximation and self-normalized moderate deviations for the minimal random walk with random step sizes",
+      "authors": [
+        "Shuyuan Liang"
+      ],
+      "abstract": "We study the minimal random walk with independent positive random step sizes. By separating the movement count from the centered step-size noise, we obtain normal approximations and self-normalized Cramér-type moderate deviations under finite-moment assumptions. For the noise, conditioning on the movement count yields Kolmogorov, Wasserstein and Zolotarev bounds. A polynomial moderate-deviation range holds when a recalled stop can lead to movement. At the boundary where this probability is zero, we obtain a logarithmic range and construct a bounded nonsymmetric example excluding a general polynomial range. For the full position, a weighted martingale representation gives limit laws in the different regimes, nonuniform normal approximations and moment-distance bounds without logarithmic losses. Variance concentration also yields self-normalized moderate deviations in the diffusive and critical regimes.",
+      "published": "2026-10-21",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.29564",
+      "url": "https://arxiv.org/abs/2610.29564",
+      "title": "Inhomogeneous random graphs: how heavy tails reshape connectivity",
+      "authors": [
+        "Luisa Andreis",
+        "Luca Avena",
+        "Rajat Subhra Hazra",
+        "Elena Matteini"
+      ],
+      "abstract": "We study inhomogeneous random graphs on $n$ vertices with independent Pareto weights of parameter $α>0$ and connection probabilities $\\min(\\varepsilon_n W_iW_j, 1)$. Our main focus is the infinite-mean regime $0<α<1$. Under the scaling $n\\varepsilon_n^α=λ$, with $λ>0$ fixed, the global architecture of the graph is entirely governed by the Poisson point process $Π$ of rescaled extreme weights. In particular, the size of the largest component, divided by $n$, converges to a non-degenerate random variable expressed as an explicit functional of $Π$. Through the point process $Π$, we also characterize the exact limiting connectivity probability, uncovering a non-sharp connectivity threshold. The second largest component and the diameter of the largest component are bounded with high probability. The distance between two uniformly chosen vertices in the largest component is at most three with high probability. We also prove convergence of the point process of rescaled degrees and identify the limiting distribution of the maximum degree. For completeness, we obtain expected degree asymptotics, typical degree limits and connectivity regimes for all $α>0$. Due to the failure of classical branching process approximations in the infinite-mean regime, our approach relies fundamentally on analyzing the extreme weight environment $Π$.",
+      "published": "2026-10-21",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random graph"
+      ]
+    },
+    {
+      "id": "2610.29894",
+      "url": "https://arxiv.org/abs/2610.29894",
+      "title": "Hitting time for loose Hamilton cycles in the random hypergraph process",
+      "authors": [
+        "Jared León",
+        "Xizhi Liu"
+      ],
+      "abstract": "The random hypergraph process starts with an empty hypergraph on $n$ vertices and adds a uniformly chosen missing edge at each step. For even $n$, we prove that, with high probability, a $3$-uniform loose Hamilton cycle appears when the last isolated vertex disappears. The approach developed here adapts arguments from Kahn's work on perfect matchings. It can also be extended to obtain the corresponding hitting-time theorems for $r=2$ and every fixed $r\\ge4$ satisfying $(r-1)\\mid n$. Furthermore, it can be used to estimate the numbers of loose Hamilton cycles at these hitting times for every fixed $r\\ge2$, up to a factor of $\\exp\\{o(n)\\}$.",
+      "published": "2026-10-21",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "graph process"
+      ]
+    },
+    {
+      "id": "2610.29561",
+      "url": "https://arxiv.org/abs/2610.29561",
+      "title": "Continuity of Furstenberg entropy on Bowen Poisson bundles",
+      "authors": [
+        "Jérémie Brieussel",
+        "Hanna Oppelmayer"
+      ],
+      "abstract": "We provide a sufficient criterion for continuity of the Furstenberg entropy of Bowen Poisson bundles, jointly in the random walk measure and the underlying invariant random subgroup. The criterion applies in particular for tree-like Poisson bundles of a free group and for intersectional invariant random subgroups on lamplighter groups. It also provides continuity of the boundary entropy spectrum of powers of prime measured groups.",
+      "published": "2026-10-21",
+      "categories": [
+        "math.DS",
+        "math.GR",
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.29893",
+      "url": "https://arxiv.org/abs/2610.29893",
+      "title": "A weighted inequality for matroid flats and log-concavity of Whitney numbers",
+      "authors": [
+        "Yuxian Dong",
+        "Yanxin Liu"
+      ],
+      "abstract": "Using the Hodge-Riemann relations for matroid Chow rings, we establish a weighted inequality for flats of a loopless matroid. As applications, we prove the points-lines-planes conjecture and Brylawski's conjecture on the ultra-log-concavity of Whitney numbers of the first kind. We also characterize the cases of equality in both inequalities.",
+      "published": "2026-10-21",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.29979",
+      "url": "https://arxiv.org/abs/2610.29979",
+      "title": "On $k$-connected Sets in Matroids",
+      "authors": [
+        "Sean Boros",
+        "James Oxley"
+      ],
+      "abstract": "In 1966, Tutte defined $k$-connected matroids for each $k \\ge 2$. Robertson and Seymour built on Tutte's idea to define tangles as a way to identify highly connected parts of a matroid. Motivated by tangles, a set $Z$ in a matroid $M$ has been defined to be $3$-connected if, for each $j$ in $\\{1,2\\}$, there is no $j$-separation $(X,Y)$ of $M$ such that each of $|Z \\cap X|$ and $|Z \\cap Y|$ is at least $j$. This paper solves a problem of Whittle for $k= 3$ by proving that a minor-minimal matroid having $Z$ as a $3$-connected set has at most $3|Z| - 4$ elements. We also identify the matroids for which this bound is attained.",
+      "published": "2026-10-21",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.29048",
+      "url": "https://arxiv.org/abs/2610.29048",
+      "title": "Proofs of Li, Wang and Guo's conjectures on (signless) Laplacian spectral radius",
+      "authors": [
+        "Hongzhang Chen",
+        "Jianxi Li",
+        "Xiaoyun Lv"
+      ],
+      "abstract": "Let $μ(G)$ and $q(G)$ be the Laplacian and signless Laplacian spectral radii of a graph $G$. Li, Wang and Guo (2026) conjectured that, if $H$ with $|V(H)|\\geq 1$ is an induced subgraph of a graph $G$, then $μ(G)\\le\\max\\limits_{v\\in V(H)}μ(H_v^t)$ and $q(G)\\le\\max\\limits_{v\\in V(H)}q(H_v^t)$, where $t=e(G)-e(H)$ and $H_v^t$ is the graph obtained from $H$ by adding $t$ pendant edges to $v\\in V(H)$. We prove this conjecture by establishing a spectral comparison theorem for a broader family of positive semidefinite graph matrices which includes the Laplacian and signless Laplacian matrices. We also characterize all equality cases for the prescribed subgraph $H$ with $e(H)\\geq 1$ and $t\\geq 1$.",
+      "published": "2026-10-21",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "signless Laplacian"
+      ]
+    },
+    {
+      "id": "2610.30024",
+      "url": "https://arxiv.org/abs/2610.30024",
+      "title": "Tempered Langevin diffusions with polynomial-tailed targets: explosions, moment thresholds and ergodicity",
+      "authors": [
+        "Aleksandar Mijatović",
+        "Haokai Xie"
+      ],
+      "abstract": "For tempered Langevin diffusions (TLDs) targeting polynomially tailed measures, the convergence rate is known to change from polynomial to exponential to uniform as the temperature rises through a critical value. We explain this transition by the tails of the marginal laws of the norm of the TLD, up to a second, larger critical temperature beyond which the TLD explodes. As the temperature increases, these tails change from stretched-exponential, through super-polynomial at the first critical temperature, to polynomial, mirroring the transition in the convergence rate. Moreover, this tail analysis gives a complete quantification of the convergence rates throughout the non-explosive regime, in both $f$-variation and Wasserstein distances.",
+      "published": "2026-10-21",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2610.28935",
+      "url": "https://arxiv.org/abs/2610.28935",
+      "title": "Functional limit theorems for self-interacting random walks",
+      "authors": [
+        "Elena Kosygina",
+        "Laure Marêché",
+        "Thomas Mountford",
+        "Jonathon Peterson"
+      ],
+      "abstract": "We consider a wide class of nearest neighbor self-interacting random walks on $\\mathbb{Z}$ and show that, under mild conditions, their scaling limits at the process level can be uniquely identified and constructed directly from the augmented joint Ray-Knight theorem for their local times, i.e., the joint convergence of rescaled local time ``curves'' of the walks stopped at certain stopping times together with the merge and absorption times of these ``curves'' to a concatenation of coalescing reflected-absorbed diffusions and their merge and absorption times. We apply our results to polynomially self-repelling walks introduced and studied in the mid-90s by B. Tóth, and to ``true'' self-avoiding walks with bond repulsion. The first application solves a problem that has been open since Tóth's work: it gives a construction and first properties of a new family of processes, polynomially self-repelling motions, as scaling limits of polynomially self-repelling walks. These processes were simultaneously and independently constructed from flows of correlated powers of Bessel processes by Y. Yu. The second application strengthens an earlier result on convergence of rescaled ``true'' self-avoiding walks to the ``true'' self-repelling motion of B. Tóth and W. Werner, and streamlines its proof. Our results can be thought of as an ``inversion'' of the augmented joint Ray-Knight theorem to get a functional limit theorem for self-interacting random walks.",
+      "published": "2026-10-20",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
     {
       "id": "2610.27857",
       "url": "https://arxiv.org/abs/2610.27857",
@@ -130,6 +305,45 @@
       ]
     },
     {
+      "id": "2610.28820",
+      "url": "https://arxiv.org/abs/2610.28820",
+      "title": "A Matroidal Framework for Random Access in Linear Codes",
+      "authors": [
+        "Daniella Bar-Lev",
+        "Hiram H. López",
+        "Gretchen L. Matthews",
+        "Flavio Salizzoni"
+      ],
+      "abstract": "We study random access in linear codes when codeword symbols are sampled independently and uniformly with replacement. A code is recovery balanced if the expected number of samples required to recover a codeword coordinate is the same for every coordinate. We express the recovery expectations in terms of the associated matroid and derive a coordinatewise identity relating these values for a code and its dual. This proves that a linear code is recovery balanced if and only if its dual is recovery balanced, establishing a conjecture of Gruica et al. We further define the recovery balance for arbitrary matroids and show that asymptotically almost every sparse paving matroid is not recovery balanced.",
+      "published": "2026-10-20",
+      "categories": [
+        "cs.IT",
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.28861",
+      "url": "https://arxiv.org/abs/2610.28861",
+      "title": "From Wheel to Jahangir graphs: spectra and energy under structured edge deletion",
+      "authors": [
+        "Diego Bravo",
+        "Florencia Cubría",
+        "Annabella Zapattini"
+      ],
+      "abstract": "The energy of a graph, introduced by Gutman, is defined as the sum of the absolute values of the eigenvalues of its adjacency matrix. In this work we study how the energy of the Wheel graph $W_n$ changes when a specific set of spokes is removed. The resulting graphs are precisely the Jahangir graphs $J_{m,n}$, where m divides n, and which may also be viewed as the Cycle graph $C_n$ together with an additional vertex adjacent to certain vertices of $C_n$ in a cyclic pattern. We determine the spectra of $J_{2,n}$, $J_{4,n}$, and $J_{6,n}$ by exploiting a factorization of their characteristic polynomials arising from equitable partitions. This yields explicit closed formulas for their energies. Moreover, under certain conditions, we establish the following monotonicity chain: \\[\\mathcal{E}(C_n) \\;\\leq\\; \\mathcal{E}(J_{6,n}) \\;\\leq\\; \\mathcal{E}(J_{4,n}) \\;\\leq\\; \\mathcal{E}(J_{2,n}) \\;\\leq\\; \\mathcal{E}(W_n).\\]",
+      "published": "2026-10-20",
+      "categories": [
+        "math.CO",
+        "math.SP"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
       "id": "2610.28300",
       "url": "https://arxiv.org/abs/2610.28300",
       "title": "Primal-Dual Adaptive Subgradient Methods",
@@ -141,6 +355,25 @@
       "abstract": "We propose adaptive primal-dual subgradient methods for constrained convex optimization. Our first method applies an AdaGrad-style step-sizes to the dual problem and recovers primal solutions by averaging the associated Fenchel-type oracle outputs. It achieves $\\widetilde{\\mathcal{O}}(T^{-1/2})$ convergence for the dual objective residual, primal objective residual, and feasibility gap in the nonsmooth regime, while automatically improving to $\\mathcal{O}(T^{-1})$ when the dual objective is smooth. We further develop an accelerated variant, which retains the $\\widetilde{\\mathcal{O}}(T^{-1/2})$ nonsmooth rate while achieving $\\mathcal{O}(T^{-2})$ convergence in the smooth regime under mild assumptions. These guarantees require no prior knowledge of the underlying regularity. We demonstrate the empirical performance of the proposed methods on optimal transport and semidefinite relaxation of the Max-Cut problem.",
       "published": "2026-10-20",
       "categories": [
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2610.28924",
+      "url": "https://arxiv.org/abs/2610.28924",
+      "title": "Kinetic Mean-Field Planning via Schrödinger Bridges: Existence, Penalization, and Consistency Bounds",
+      "authors": [
+        "Erhan Bayraktar",
+        "Zhiyan Ding",
+        "Hiroaki Horikawa"
+      ],
+      "abstract": "We study a mean-field planning problem for a swarm of interacting, non-cooperative agents whose dynamics are stochastic and kinetic. The noise acts on the velocity only, and the interaction (of Cucker-Smale type for instance) enters through the drift. For a fixed flow, the problem reduces to a Schrödinger bridge problem, and we first prove the existence of an equilibrium by a Schauder fixed-point argument. Then we replace the hard terminal constraint by a penalty function and show that equilibria of the penalized problems converge, along subsequences, to an equilibrium of the original problem. Since equilibria are not unique in general, we instead quantify the consistency error, which measures how far an equilibrium of the penalized problem is from being an equilibrium of the original one. The rate is of order $n^{-1/2}$ for the relative-entropy penalty. The proof relies on the quantitative stability of entropic optimal transport and on a pointwise linear growth bound on the score of the degenerate reference dynamics, which is of independent interest.",
+      "published": "2026-10-20",
+      "categories": [
+        "math.PR",
         "math.OC"
       ],
       "tags": [
@@ -174,7 +407,7 @@
       "authors": [
         "José Ángel Islas"
       ],
-      "abstract": "Let \\((S_n)_{n\\ge0}\\) be a Bernoulli random walk with \\(P(X_i=1)=p\\) and \\(P(X_i=-1)=q=1-p\\), and let \\(M_n=\\max\\{S_0,\\ldots,S_n\\}\\). We consider the semi-best selection problem of maximizing \\(P(M_N-S_τ\\le1)\\) over stopping times \\(τ\\le N\\). Allaart showed that the optimal decision in the critical state \\((n,1)\\) is determined by a sequence of critical probabilities \\(\\{p_n\\}\\), and conjectured that \\(p_n\\to1/2\\). We prove this conjecture. For every fixed \\(p<1/2\\), the stopping value converges to \\(ν=1-(p/q)^2\\), while the continuation value converges to \\(2pν\\). Since \\(2pν<ν\\), stopping is optimal in state \\((n,1)\\) for all sufficiently large \\(n\\). Together with the known bound \\(p_n<1/2\\) for \\(n\\ge4\\), this yields \\(\\lim_{n\\to\\infty}p_n=1/2\\).",
+      "abstract": "Let \\((S_n)_{n\\ge0}\\) be a Bernoulli random walk with \\(P(X_i=1)=p\\) and \\(P(X_i=-1)=q=1-p\\), and let \\(M_n=\\max\\{S_0,\\ldots,S_n\\}\\). We consider the semi-best selection problem of maximizing \\(P(M_N-S_τ\\le1)\\) over stopping times \\(τ\\le N\\). Allaart showed that the optimal decision in the critical state \\((n,1)\\) is determined by critical probabilities \\(p_n\\), and conjectured that \\(p_n\\to1/2\\). In this note, we prove this conjecture. For every fixed \\(p<1/2\\), the stopping value converges to \\(ν=1-(p/q)^2\\), while the continuation value converges to \\(2pν\\). Since \\(2pν<ν\\), stopping is optimal in state \\((n,1)\\) for all sufficiently large \\(n\\). Together with the known bound \\(p_n<1/2\\) for \\(n\\ge4\\), this yields \\(\\lim_{n\\to\\infty}p_n=1/2\\).",
       "published": "2026-10-19",
       "categories": [
         "math.PR"
@@ -411,7 +644,7 @@
         "Chao Qian",
         "Dacheng Tao"
       ],
-      "abstract": "Weakly submodular maximization finds numerous applications in machine learning, data mining and statistics. In particular, under a cardinality constraint, the standard greedy algorithm is known to attain the tight $(1-e^{-γ})$-approximation guarantee, where $γ$ denotes the submodularity ratio. However, when considering general matroid constraints, \\emph{how well standard greedy can perform} has remained a longstanding open question. In this paper, we resolve this question by studying the worst-case approximation guarantee $R_{\\mathrm{gr}}(γ,r)$ of standard forward greedy, where $r$ is the rank of matroid. Specifically, our first contribution is the following refined lower bound \\begin{equation*} R_{\\gr}(γ,r)\\ge \\max\\left\\{ \\fracγ{r}, \\frac{γ^2} {B_γ+\\sqrt{γ(r-1)}}, \\frac{γ^{r+1}} {2-γ+γ^{r+1}}, \\frac{γ^2} {14\\left(B_γ+\\sqrt{γ(1-γ)(r-1)}\\right)} \\right\\}, \\end{equation*} where $B_γ\\triangleq2-γ+γ^2$. This lower bound not only strictly improves upon the previous guarantee of $0.4γ^2/(1+\\sqrt{γr})$, but also can recover the classical $1/2$-approximation guarantee at $γ=1$. Subsequently, a corresponding upper bound is established for $R_{\\mathrm{gr}}(γ,r)$, namely, \\begin{equation}\\label{eq_upper_abstract} R_{\\gr}(γ,r) \\le\\min\\left\\{\\frac{1}{2},20\\max\\left\\{\\fracγ{r}, \\frac{γ^2}{B_γ+ \\sqrt{γ(1-γ)(r-1)}}\\right\\}\\right\\}. \\end{equation} For every fixed $γ\\in(0,1)$, this Eq.\\eqref{eq_upper_abstract} effectively sharpens the recent $O_γ(1/\\log(n-1))$ upper bound to $O_γ(r^{-1/2})$, where $n$ is the size of ground set. Putting all these results together, we eventually can obtain \\[R_{\\gr}(γ,r) = Θ\\!\\left( \\max\\left\\{\\fracγ{r}, \\frac{γ^2} {1+\\sqrt{γ(1-γ)r}}\\right\\} \\right).\\]",
+      "abstract": "Weakly submodular maximization finds numerous applications in machine learning, data mining and statistics. In particular, under a cardinality constraint, the standard greedy algorithm is known to attain the tight $(1-e^{-γ})$-approximation guarantee, where $γ$ denotes the submodularity ratio. However, when considering general matroid constraints, \\emph{how well standard greedy can perform} has remained a longstanding open question. In this paper, we resolve this question by studying the worst-case approximation guarantee $R_{\\mathrm{gr}}(γ,r)$ of standard forward greedy, where $r$ is the rank of matroid. Specifically, our first contribution is the following refined lower bound \\begin{equation*} R_{gr}(γ,r)\\ge \\max\\left\\{ \\fracγ{r}, \\frac{γ^2} {B_γ+\\sqrt{γ(r-1)}}, \\frac{γ^{r+1}} {2-γ+γ^{r+1}}, \\frac{γ^2} {14\\left(B_γ+\\sqrt{γ(1-γ)(r-1)}\\right)} \\right\\}, \\end{equation*} where $B_γ\\triangleq2-γ+γ^2$. This lower bound not only strictly improves upon the previous guarantee of $0.4γ^2/(1+\\sqrt{γr})$, but also can recover the classical $1/2$-approximation guarantee at $γ=1$. Subsequently, a corresponding upper bound is established for $R_{\\mathrm{gr}}(γ,r)$, namely, \\begin{equation}\\label{eq_upper_abstract} R_{gr}(γ,r) \\le\\min\\left\\{\\frac{1}{2},20\\max\\left\\{\\fracγ{r}, \\frac{γ^2}{B_γ+ \\sqrt{γ(1-γ)(r-1)}}\\right\\}\\right\\}. \\end{equation} For every fixed $γ\\in(0,1)$, this equation effectively sharpens the recent $O_γ(1/\\log(n-1))$ upper bound to $O_γ(r^{-1/2})$, where $n$ is the size of ground set. Putting all these results together, we eventually can obtain \\[R_{gr}(γ,r) = Θ\\left( \\max\\left\\{\\fracγ{r}, \\frac{γ^2} {1+\\sqrt{γ(1-γ)r}}\\right\\} \\right).\\]",
       "published": "2026-10-18",
       "categories": [
         "math.OC",
