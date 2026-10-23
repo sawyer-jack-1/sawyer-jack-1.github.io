@@ -1,8 +1,104 @@
 {
   "month": "2026-10",
-  "generated_at": "2026-10-22T14:33:49+00:00",
+  "generated_at": "2026-10-23T14:17:14+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2610.30859",
+      "url": "https://arxiv.org/abs/2610.30859",
+      "title": "The signless Laplacian spectral Turán problems for disjoint triangles",
+      "authors": [
+        "Ming-Zhu Chen",
+        "Ya-Lei Jin",
+        "Peng-Li Zhang"
+      ],
+      "abstract": "The classical Turán-type problem for graphs forbidding $k$ disjoint triangles has been resolved firstly by Erdős [Arch. Math. 13 (1962) 222-227] for graphs of sufficiently large order and improved by Moon [Canad. J. Math. 20 (1968) 95-102], who established that the unique edge extremal graph is $K_{k-1}\\vee T_2(n-k+1)$ for $n> \\frac{19k-11}{2}$. In this paper, we determine the maximum signless Laplacian spectral radius among all $kK_3$-free graphs of order $n$ and characterize the unique signless Laplacian spectral extremal graph $K_{k-1}\\vee T_{2}(n-k+1)$ for all $k\\ge 2$ and sufficiently large $n$.",
+      "published": "2026-10-22",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "signless Laplacian"
+      ]
+    },
+    {
+      "id": "2610.31319",
+      "url": "https://arxiv.org/abs/2610.31319",
+      "title": "Atomic limits of empirical measures of interacting particle systems with self-duality",
+      "authors": [
+        "Mario Ayala",
+        "Nicolas Dirr",
+        "Johannes Zimmer"
+      ],
+      "abstract": "We study the fixed-particle limit of empirical measures for a unified self-dual family of conservative particle systems on $\\mathbb{Z}^d$: independent random walkers, the symmetric exclusion process, and the symmetric inclusion process. For a fixed number of particles $k$, under diffusive space-time scaling parametrised by $n$, we prove that as $n\\to\\infty$ the normalised empirical measure converges in $D([0,T],\\mathcal{M}_1(\\mathbb{R}^d))$ to an atomic empirical measure carried by $k$ independent diffusions, with constant covariance determined by the microscopic jump kernel. Equivalently, the limit is the unique atomic solution of the Dean-Kawasaki martingale problem with mass quantisation $1/k$. In particular, exclusion and inclusion have the same fixed-$k$ atomic limit as independent walkers: the interaction contributes only through microscopic near-collisions, whose rescaled occupation time vanishes. The proof combines self-duality, consistency-based reduction to two particles, and Green-function estimates for finite perturbations of symmetric random walks.",
+      "published": "2026-10-22",
+      "categories": [
+        "math.PR",
+        "cond-mat.stat-mech",
+        "math-ph"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.31431",
+      "url": "https://arxiv.org/abs/2610.31431",
+      "title": "Dimension-free regimes for unadjusted Langevin in ridge-separable models: A subspace robust Wasserstein analysis",
+      "authors": [
+        "Yuansi Chen",
+        "Francesco Pedrotti",
+        "Peter A. Whalley"
+      ],
+      "abstract": "The Unadjusted Langevin Algorithm (ULA) is widely used for high-dimensional Bayesian inference. Classical analyses in Wasserstein-2 distance predict an asymptotic bias and a mixing time that grow with dimension, but this metric is stronger than necessary for many statistical tasks. We instead analyze the bias in subspace robust Wasserstein distance, which controls the mean and arbitrary low-dimensional marginals and is therefore well suited to observables typically estimated in practice. For ridge-separable potentials formed with i.i.d. data, we prove high-probability bounds showing a bell-shaped mixing profile as the number of data points $N$ varies relative to the dimension $d$. In the overparameterized regime, the effective dimension is the rank $N$ of the data-dependent perturbation, leading to complexity depending on $N$ rather than $d$. In the large-sample regime, Gaussian-perturbation estimates yield dimension-free complexity once $N$ is sufficiently large. In contrast, near the proportional regime $\\asymp d$, we prove that dimension-free guarantees are impossible in general.",
+      "published": "2026-10-22",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.PR",
+        "math.ST",
+        "stat.CO"
+      ],
+      "tags": [
+        "Wasserstein distance",
+        "mixing time"
+      ]
+    },
+    {
+      "id": "2610.30883",
+      "url": "https://arxiv.org/abs/2610.30883",
+      "title": "Spectral and edge conditions for negative Hamiltonian cycles in unbalanced signed graphs",
+      "authors": [
+        "Zihao Zha"
+      ],
+      "abstract": "Spectral conditions for Hamiltonian cycles are a fundamental subject in extremal spectral graph theory. For simple unsigned graphs, Fiedler and Nikiforov [Linear Algebra Appl., 432 (2010), 2170-2173] pioneered this direction, and Li and Ning [Linear Multilinear Algebra, 64 (2016), 2252-2269] later extended these results by introducing minimum degree parameters. In this paper, we study the spectral conditions for the existence of a negative Hamiltonian cycle in unbalanced signed graphs of order n > 8. We first determine the maximum index among all n-vertex unbalanced signed graphs containing no negative Hamiltonian cycle, and characterize the corresponding extremal graphs up to switching isomorphism. Furthermore, we establish an upper bound on the number of edges in unbalanced signed graphs of order n >= 7 with frustration index one, and classify all extremal graphs achieving this bound.",
+      "published": "2026-10-22",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "spectral graph theory",
+        "spectral graph"
+      ]
+    },
+    {
+      "id": "2610.30881",
+      "url": "https://arxiv.org/abs/2610.30881",
+      "title": "On the maximal index of $C_4^-$-free unbalanced signed graphs of prescribed size",
+      "authors": [
+        "Zhihui Yang",
+        "Dan Li",
+        "Yuanyuan Chen"
+      ],
+      "abstract": "The extremal problem of determining the graphs with maximum spectral radius among all graphs with a prescribed number of edges was resolved by Rowlinson [Linear Algebra Appl. 110 (1988) 43--53]. A signed graph $Γ=(G,σ)$ is called $C_k^-$-free if it contains no negative $k$-cycle as a signed subgraph. The index of a signed graph is defined as the largest eigenvalue of its adjacency matrix. This paper addresses the maximization of the index of unbalanced signed graphs. For signed graphs of a prescribed order, Wang and Lin [Discrete Appl. Math. 372 (2025) 164--172] determined the maximum index of $C_4^{-}$-free unbalanced signed graphs. Subsequently, Wang, Peng and Hou [Discrete Math. 349 (2026) 114871] characterized the unbalanced signed graphs of prescribed size with maximum index. This paper treats the edge spectral Turán-type problem for $C_4^-$-free unbalanced signed graphs. The all-positive signed graph with underlying graph $G$ is denoted by $(G,+)$. Evidently, $A((G,+))=A(G)$. In particular, $(H_{d,t},+)$ is the all-positive signed graph whose underlying graph is $H_{d,t}$, where $H_{d,0}=K_d$ and for $t>0$, $H_{d,t}$ is obtained from $K_d$ by adding a single vertex adjacent to exactly $t$ vertices of $K_d$. Let $m-3=\\binom{d}{2}+t$ with $0\\le t\\le d-1$. Up to switching isomorphism and the addition of isolated vertices, the unique extremal unbalanced signed graph is obtained by attaching a negative triangle to a specified vertex of the all-positive signed graph $(H_{d,t},+)$.",
+      "published": "2026-10-22",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
     {
       "id": "2610.29105",
       "url": "https://arxiv.org/abs/2610.29105",
@@ -33,6 +129,25 @@
       ],
       "tags": [
         "random walk"
+      ]
+    },
+    {
+      "id": "2610.30352",
+      "url": "https://arxiv.org/abs/2610.30352",
+      "title": "Optimal CLT error bounds in the second order Wasserstein metric via Stein's method for weakly dependent sequences",
+      "authors": [
+        "Yeor Hafouta",
+        "Juho Leppanen"
+      ],
+      "abstract": "We use Stein's method to prove general upper bounds on the second order Wasserstein distance in the CLT for general dependent partial sums $S_N=X_1+\\ldots +X_N$. Then we use these estimates to provide optimal $O(N^{-1/2})$ rates for a variety of chaotic dynamical systems and $φ$- and $ψ$-mixing sequences. Our results for $ψ$-mixing sequences are obtained under the fourth moment condition, which matches the best known results in the iid case. This is the first time that optimal CLT rates of any kind are obtained for unbounded weakly stationary variables under general mixing conditions. We then apply this result and obtain optimal CLT rates $O\\left((\\text{Var}(S_N))^{-1/2}\\right)$ for non-stationary $ψ$-mixing sequences without any growth rates on $\\text{Var}(S_N)$. We also obtain close to optimal CLT rates for nonconventional sums and some classes of random dynamical systems with non-uniform decay of correlations",
+      "published": "2026-10-21",
+      "categories": [
+        "math.PR",
+        "math.DS"
+      ],
+      "tags": [
+        "Wasserstein distance",
+        "Wasserstein metric"
       ]
     },
     {
@@ -91,6 +206,28 @@
       ]
     },
     {
+      "id": "2610.30196",
+      "url": "https://arxiv.org/abs/2610.30196",
+      "title": "Differentially Private Synthetic Data via Generalized Moment Matching",
+      "authors": [
+        "Rundong Ding",
+        "Yiyun He",
+        "Yizhe Zhu"
+      ],
+      "abstract": "We study $(\\varepsilon,δ)$-differentially private synthetic data for arbitrary databases of $n$ records in $[-1,1]^d$ under a specified integral probability metric (IPM). We introduce generalized moment matching, which estimates moments privately, fits a probability measure, and samples synthetic records. A general error theorem applies when moment error controls the target IPM. This framework extends Chebyshev moment matching for $1$-Wasserstein distance and smooth queries. We apply the framework to maximum mean discrepancy with Matern and Laplace kernels and a two-layer ReLU neural tangent kernel.We also obtain guarantees for sliced Wasserstein-$1$ and the IPM induced by norm-bounded ReLU networks. With sufficiently many synthetic records,these rates are minimax optimal up to logarithmic factors for fixed dimension.",
+      "published": "2026-10-21",
+      "categories": [
+        "stat.ML",
+        "cs.IT",
+        "cs.LG",
+        "math.PR",
+        "math.ST"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
       "id": "2610.29893",
       "url": "https://arxiv.org/abs/2610.29893",
       "title": "A weighted inequality for matroid flats and log-concavity of Whitney numbers",
@@ -116,6 +253,22 @@
         "James Oxley"
       ],
       "abstract": "In 1966, Tutte defined $k$-connected matroids for each $k \\ge 2$. Robertson and Seymour built on Tutte's idea to define tangles as a way to identify highly connected parts of a matroid. Motivated by tangles, a set $Z$ in a matroid $M$ has been defined to be $3$-connected if, for each $j$ in $\\{1,2\\}$, there is no $j$-separation $(X,Y)$ of $M$ such that each of $|Z \\cap X|$ and $|Z \\cap Y|$ is at least $j$. This paper solves a problem of Whittle for $k= 3$ by proving that a minor-minimal matroid having $Z$ as a $3$-connected set has at most $3|Z| - 4$ elements. We also identify the matroids for which this bound is attained.",
+      "published": "2026-10-21",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.30283",
+      "url": "https://arxiv.org/abs/2610.30283",
+      "title": "Syzygy and Adjoint Matroids",
+      "authors": [
+        "Jaeho Shin"
+      ],
+      "abstract": "We give a matroid-theoretic analogue of Gaussian elimination and use it to construct, for every matroid M, the syzygy matroid Syz(M) on the collection of circuits of M. Dualizing the construction yields the combinatorial adjoint Adj(M) on the collection of maximal proper flats of M, and the two are related by Adj(M) \\simeq Syz(M*). Neither construction depends on a realization. We determine Syz(M) when M is U_{k,k+3} or the Vamos matroid V_{8}. We also show that Adj(M) is an adjoint of M when M has rank 3. When M has rank 4 and V_{8} is a restriction of M, Adj(M) has rank 3 and is not an adjoint of M.",
       "published": "2026-10-21",
       "categories": [
         "math.CO"
@@ -505,6 +658,26 @@
       ],
       "tags": [
         "random walk"
+      ]
+    },
+    {
+      "id": "2610.26285",
+      "url": "https://arxiv.org/abs/2610.26285",
+      "title": "Learning SOCP Solver Dynamics with Graph Neural Networks",
+      "authors": [
+        "Adam Ghalem",
+        "Lou Salaün",
+        "Davide Rinaldi",
+        "Fragkiskos D. Malliaros"
+      ],
+      "abstract": "Second-order cone programs (SOCPs) are a fundamental class of convex optimization problems widely applied across engineering domains. Classical interior-point methods are robust and accurate, but their iterative nature can be costly in real-time or repeated-solve settings. This has motivated learning-based solvers that approximate optimizer solutions with neural networks. Recent work has increasingly studied graph neural networks (GNNs) for linear, quadratic, and second-order cone optimization, leveraging their ability to model sparse relational structure among variables, constraints, and objective functions. Most existing GNN-based solvers compress the optimization process into a single forward pass, predicting the optimizer directly without using the intermediate trajectory produced by classical solvers. We introduce SOCPNet, a recursive GNN framework that uses solver trajectories to learn an iterative SOCP solution procedure. A shared GNN model is applied repeatedly, refining the current iterate at each step and enabling inference for a variable number of iterations. Rather than predicting the solution in a single pass, SOCPNet learns from intermediate iterates to progressively refine its estimates using a trajectory-regularized training procedure. We evaluate SOCPNet on multiple datasets spanning standard SOCP problem classes and show that it consistently reduces the final solution error relative to a SOCP-GNN baseline. Finally, we demonstrate how trained SOCPNet models can be used in a hybrid optimization pipeline by warm-starting a classical interior-point solver, reducing solver iterations without loss of accuracy.",
+      "published": "2026-10-19",
+      "categories": [
+        "cs.LG",
+        "math.OC"
+      ],
+      "tags": [
+        "graph neural network"
       ]
     },
     {
