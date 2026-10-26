@@ -1,8 +1,104 @@
 {
   "month": "2026-10",
-  "generated_at": "2026-10-25T13:45:11+00:00",
+  "generated_at": "2026-10-26T16:11:10+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2610.32821",
+      "url": "https://arxiv.org/abs/2610.32821",
+      "title": "The boosted loop-erased random walk",
+      "authors": [
+        "Gefei Cai",
+        "Xinyi Li",
+        "Daisuke Shiraishi",
+        "Aoteng Xia"
+      ],
+      "abstract": "We consider a near-critical version of loop-erased random walk (LERW) by boosting the weight of the underlying random walk according to its length before loop-erasure. We construct the scaling limit in natural parametrization in the two-dimensional unit disk and the three-dimensional unit ball. The boosted scaling limit undergoes a phase transition in mutual absolute continuity with the classical LERW scaling limit; in the disk the transition occurs at boost rate $m^2=π^2/4$. As the boost increases, the curve becomes macroscopically space-filling, in the sense that unvisited cubes have side length $O(m^{-1})$, while its Hausdorff dimension at each finite boost is unchanged. These results are motivated by Makarov--Smirnov's questions on near-critical lattice models. In the planar chordal setting, we also construct a continuum loop tilt below the spectral threshold of the domain and calculate its Loewner driving function.",
+      "published": "2026-10-23",
+      "categories": [
+        "math.PR",
+        "math-ph"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.32879",
+      "url": "https://arxiv.org/abs/2610.32879",
+      "title": "The lower tail of triangle counts in sparse random graphs",
+      "authors": [
+        "Dong Huang",
+        "Shuangping Li"
+      ],
+      "abstract": "Let $T_n$ be the number of triangles in the Erdős-Rényi random graph $G(n,p)$ with $n^{-1/2}\\ll p\\ll1$ and fix $η\\in(0,1)$. We study the large deviation rate of the lower tail event $T_n\\leη\\mathbb{E}[T_n]$, and the typical structure of $G(n,p)$ conditioned on this event. By earlier work [16,19,21,49], both the rate and the structure are governed by a variational problem over graphons. In this work we solve this variational problem for every $η\\in(0,1)$. We show that every minimizer is either a constant graphon or a step graphon with two blocks of equal size. Correspondingly, the conditioned graph is close to an Erdős-Rényi graph or to a symmetric stochastic block model with two blocks. These two regimes are separated by a first order phase transition at the threshold $η_*=0.009217\\ldots$. This resolves a conjecture of Zhao [78] and an open problem of Janson and Warnke [39] on triangles. It thereby gives a complete description of the lower tail of triangle counts in this range of $p$.",
+      "published": "2026-10-23",
+      "categories": [
+        "math.PR",
+        "math.CO"
+      ],
+      "tags": [
+        "random graph",
+        "stochastic block model"
+      ]
+    },
+    {
+      "id": "2610.32556",
+      "url": "https://arxiv.org/abs/2610.32556",
+      "title": "Combinatorial Minimum Cost Flow in Almost-Linear Time on Dense Graphs",
+      "authors": [
+        "Bernhard Haeupler",
+        "Yonggang Jiang",
+        "Thatchaphol Saranurak"
+      ],
+      "abstract": "We give a combinatorial algorithm that computes an exact minimum-cost flow in $n^{2+o(1)}$ time. This is the first combinatorial improvement since Goldberg-Tarjan [GT87], and is almost optimal in dense graphs. All previous faster algorithms, including the almost-linear-time algorithm of Chen et al. [CKL+22], rely on interior-point methods. Our main conceptual contribution is a black-box reduction from exact minimum-cost flow on general graphs to its approximation on DAGs, with only an $n^{o(1)}$ loss on the running time. This reduction allows future work on combinatorial minimum-cost flow to focus on DAGs, typically much easier to handle than general graphs. Our $n^{2+o(1)}$-time algorithm follows by combining this reduction with a simple augmenting-path-based approximation algorithm on DAGs. The reduction is based on a new structural result, called a flow-cost-preserving DAG projection. Given an arbitrary directed graph, this construction produces a DAG that approximately preserves both the congestion of flows and their cost up to a small loss.",
+      "published": "2026-10-23",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "minimum cost flow"
+      ]
+    },
+    {
+      "id": "2610.32050",
+      "url": "https://arxiv.org/abs/2610.32050",
+      "title": "On the magic positivity of the Ehrhart polynomials of dilated base polytope of minimal matroid",
+      "authors": [
+        "Jiaxuan Chen",
+        "Chance Crigler",
+        "Shengtao Ding",
+        "Dana Paquin",
+        "Julian Schennach"
+      ],
+      "abstract": "In this paper, we consider the magic positivity of the Ehrhart polynomial of dilated base polytope of minimal matroid of rank $k$ dimension $n$. We prove that for $\\displaystyle 1\\leq k<\\lfloor\\frac{n}{2}\\rfloor$, the $n-k-1$ dilate of the Ehrhart polynomial is not magic positive. We also show that for sufficiently large $n$, the $n-k$ dilate of the Ehrhart polynomial is, in general, magic positive. This gives rise to a lower bound of the $m-$index of the Ehrhart polynomial.",
+      "published": "2026-10-23",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.32798",
+      "url": "https://arxiv.org/abs/2610.32798",
+      "title": "Proximity Theorem and FPT Algorithm for Minimum Group-labeled Matroid Bases",
+      "authors": [
+        "Siyue Liu",
+        "Taihei Oki",
+        "Chao Xu"
+      ],
+      "abstract": "Let $M$ be a matroid, let $\\ell:E(M)\\to G$ be a labeling of its elements by an abelian group, and let $F\\subseteq G$ be finite. A base is $F$-avoiding if the label sum of its elements is not in $F$. We prove that, for arbitrary costs, a min-cost $F$-avoiding base can be obtained from any min-cost base using at most $|F|$ exchanges. This resolves the weighted proximity conjecture by Hörsch, Imolay, Mizutani, Oki, and Schwarcz. Our main technical tool is to replace the assumption of Schrijver--Seymour Conjecture in Liu and Xu's earlier work with Kemperman--Scherk Theorem. The proximity theorem combined with approaches in earlier work gives an FPT algorithm that finds a min-cost $F$-avoiding base parameterized by $|G|$. We additionally give an FPT algorithm parameterized by $|F|$, answering a question of Hörsch et al.",
+      "published": "2026-10-23",
+      "categories": [
+        "math.CO",
+        "cs.DS"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
     {
       "id": "2610.30859",
       "url": "https://arxiv.org/abs/2610.30859",
@@ -39,6 +135,26 @@
       ],
       "tags": [
         "random walk"
+      ]
+    },
+    {
+      "id": "2610.31980",
+      "url": "https://arxiv.org/abs/2610.31980",
+      "title": "Coefficient Positivity for Arborescence Ratios of Covering Digraphs",
+      "authors": [
+        "Muchen Ju",
+        "Junjie Ni",
+        "Kaixin Wang",
+        "Yihan Xiao"
+      ],
+      "abstract": "For a directed graph with a chosen root, the arborescence polynomial sums the products of edge weights over all spanning trees directed toward that root. In a finite graph cover, each lifted edge inherits the variable of its base edge. At corresponding roots, the ratio of the cover's arborescence polynomial to the base polynomial is known to be an integer polynomial. We prove that every coefficient of this ratio is nonnegative, resolving the positivity conjecture of Pylyavskyy. The key to the proof is to allow fibers of unequal size and replace the permutations defining a cover by arbitrary maps. For these more general systems, we prove a stronger coefficient-positivity theorem for a determinant derived from the graph Laplacian. The enlarged class is closed under two reductions: contraction of an edge over a base loop and elimination of a base vertex. Both yield nonnegative recurrences for the relevant coefficients in terms of smaller systems, allowing an inductive proof. We also pose the problem of finding a direct combinatorial interpretation of the coefficients.",
+      "published": "2026-10-22",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "graph Laplacian",
+        "spanning tree"
       ]
     },
     {
@@ -82,6 +198,24 @@
       ]
     },
     {
+      "id": "2610.31837",
+      "url": "https://arxiv.org/abs/2610.31837",
+      "title": "Presheaf structures governed by oriented matroids and pseudohyperplane arrangements",
+      "authors": [
+        "Basile Coron",
+        "Denis Lyskov"
+      ],
+      "abstract": "We study higher complements of pseudohyperplane arrangements and the specialization maps between them, induced by degenerations. We develop a presheaf formalism on oriented matroids and weak maps, which model degenerations. Our main constructions are the posets of weighted and weightwise topes, which provide functorial combinatorial models for higher complements and their specialization morphisms. Their presheaf structure yields a deletion-contraction homotopy pushout, from which we derive a uniform combinatorial proof of the integral cohomology presentation for all $n \\geq 2$. This presentation is natural with respect to weak maps and identifies cohomology rings with higher Orlik-Solomon algebras extending the known formulas for linear arrangements to non-realizable oriented matroids. Finally, we equip Deligne groupoids with a presheaf structure and identify them functorially with the fundamental groupoids of the complexified complements.",
+      "published": "2026-10-22",
+      "categories": [
+        "math.AT",
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
       "id": "2610.30881",
       "url": "https://arxiv.org/abs/2610.30881",
       "title": "On the maximal index of $C_4^-$-free unbalanced signed graphs of prescribed size",
@@ -97,6 +231,45 @@
       ],
       "tags": [
         "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2610.31807",
+      "url": "https://arxiv.org/abs/2610.31807",
+      "title": "Additive energy and Fourier complexity of graphs",
+      "authors": [
+        "Vishal Gupta",
+        "Sam Ferguson",
+        "Alex Iosevich",
+        "Joshua Iosevich",
+        "Haoyuan Tian",
+        "Ben Song"
+      ],
+      "abstract": "We study the additive energy and the Fourier approximation of graph adjacency matrices labeled by a cyclic group. For a graph with $N$ vertices, $s$ edges and adjacency matrix $M$, the additive energy of its directed edge set is at most $\\min\\{(2s)^3,N^2\\operatorname{tr}(M^4)\\}$, and equality in the spectral bound holds exactly when the labeling attains the graph-energy lower bound for the Fourier ratio. Such a labeling also minimizes every best $k$-term Fourier approximation error, whose square equals the tail of the squared adjacency singular values. We prove that graphs of odd prime-power order admit an equality-attaining labeling exactly when they are cyclic Cayley graphs, and a connected example on $15$ vertices shows that equality need not imply vertex transitivity at other orders. We construct regular graph families with asymptotically maximal normalized additive edge energy and unbounded minimum Fourier ratio, one of them with density tending to one half. For dense graph sequences under uniformly random labelings, the collision dimension differs from the reciprocal squared edge density by a quantity tending to zero in probability. We also prove a quantitative stability estimate for the graph-energy bound and show why its dependence on a spectral scale cannot be omitted, even for regular graphs. For a rank-$m$ orthogonal projector we prove $m\\leq D_4\\leq\\operatorname{FR}^2$, characterize the equality $D_4=m$ by cyclic translation invariance, and obtain a quantitative approximation by a circulant projector.",
+      "published": "2026-10-22",
+      "categories": [
+        "math.CO",
+        "math.CA"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2610.31825",
+      "url": "https://arxiv.org/abs/2610.31825",
+      "title": "Mimicking Volatilities under Marginal Constraints via $q_x$-Bass Martingales: A Parallel Computing Approach",
+      "authors": [
+        "Antonio Marini"
+      ],
+      "abstract": "We study the calibration of continuous-time martingale models to observed derivative prices via a dynamic martingale optimal transport problem that penalizes deviations from the volatility of a prescribed reference model. Using $q_x$-Bass martingales, we approximate this problem through a sequence of discrete-time problems and prove that the continuous-time interpolations of their optimizers are asymptotically optimal. Building on the theory of $q_x$-Bass martingales, we develop numerical methods for the discrete-time problems that do not require full marginal distributions at calibration maturities.",
+      "published": "2026-10-22",
+      "categories": [
+        "q-fin.MF",
+        "math.PR"
+      ],
+      "tags": [
+        "optimal transport"
       ]
     },
     {
@@ -214,7 +387,7 @@
         "Yiyun He",
         "Yizhe Zhu"
       ],
-      "abstract": "We study $(\\varepsilon,δ)$-differentially private synthetic data for arbitrary databases of $n$ records in $[-1,1]^d$ under a specified integral probability metric (IPM). We introduce generalized moment matching, which estimates moments privately, fits a probability measure, and samples synthetic records. A general error theorem applies when moment error controls the target IPM. This framework extends Chebyshev moment matching for $1$-Wasserstein distance and smooth queries. We apply the framework to maximum mean discrepancy with Matern and Laplace kernels and a two-layer ReLU neural tangent kernel.We also obtain guarantees for sliced Wasserstein-$1$ and the IPM induced by norm-bounded ReLU networks. With sufficiently many synthetic records,these rates are minimax optimal up to logarithmic factors for fixed dimension.",
+      "abstract": "We study $(\\varepsilon,δ)$-differentially private synthetic data for arbitrary databases of $n$ records in $[-1,1]^d$ under a specified integral probability metric (IPM). We introduce generalized moment matching, which estimates moments privately, fits a probability measure, and samples synthetic records. A general error theorem applies when moment error controls the target IPM. This framework extends Chebyshev moment matching for $1$-Wasserstein distance and smooth queries. We apply the framework to maximum mean discrepancy with Matern and Laplace kernels and a two-layer ReLU neural tangent kernel. We also obtain guarantees for sliced Wasserstein-$1$ and the IPM induced by norm-bounded ReLU networks. With sufficiently many synthetic records,these rates are minimax optimal up to logarithmic factors for fixed dimension.",
       "published": "2026-10-21",
       "categories": [
         "stat.ML",
