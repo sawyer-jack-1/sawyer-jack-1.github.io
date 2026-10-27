@@ -1,8 +1,358 @@
 {
   "month": "2026-10",
-  "generated_at": "2026-10-26T16:11:10+00:00",
+  "generated_at": "2026-10-27T15:25:06+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2610.35561",
+      "url": "https://arxiv.org/abs/2610.35561",
+      "title": "Cutoff for random walks on nilpotent groups",
+      "authors": [
+        "Jonathan Hermon",
+        "Xiangying Huang",
+        "Justin Salez"
+      ],
+      "abstract": "We study continuous-time random walks on finite nilpotent groups, allowing non-symmetric and nonuniform increment measures. Under a simple degree condition, sharp up to an absolute constant factor, we prove that total variation cutoff occurs if and only if the relaxation time is of smaller order than the mixing time. We establish a quantitative reduction to the Abelianization that preserves relaxation times and compares mixing profiles. Combining this reduction with a Gaussian approximation and the third-named author's cutoff criterion for diffusions yields the cutoff characterization.",
+      "published": "2026-10-26",
+      "categories": [
+        "math.PR",
+        "math.GR"
+      ],
+      "tags": [
+        "random walk",
+        "mixing time"
+      ]
+    },
+    {
+      "id": "2610.35019",
+      "url": "https://arxiv.org/abs/2610.35019",
+      "title": "Optimal Rates in Local and Central Limit Theorems for the Elephant Random Walk",
+      "authors": [
+        "Hideki Murahara",
+        "Go Tokumitsu"
+      ],
+      "abstract": "We determine the optimal rates of convergence in the local and central limit theorems for the one-dimensional elephant random walk in the diffusive and critical regimes, $0\\le p\\le3/4$. For every fixed initial distribution, we treat both exact finite-time centering and standardization and the normalization $S_n/\\sqrt n$ (or $S_n/\\sqrt{n\\log n}$ at criticality). We establish uniform Edgeworth expansions for local probabilities and distribution functions, and use these expansions to derive the optimal convergence rates, which exhibit several phase transitions depending on the symmetry of the initial distribution, the normalization, and the type of approximation. Our approach uses elephant polynomials for precise characteristic-function expansions and a random recursive tree representation for global Fourier bounds.",
+      "published": "2026-10-26",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.35406",
+      "url": "https://arxiv.org/abs/2610.35406",
+      "title": "Distribution of the First Hitting Point on a Boundary Set for a Random Walk in a Lattice Strip",
+      "authors": [
+        "I. M. Kuzin",
+        "A. A. Zamyatin"
+      ],
+      "abstract": "We consider a time-homogeneous random walk in a strip of a two-dimensional lattice whose transition probabilities are invariant under shifts along one of the coordinates. We study the limiting distribution of the first hitting point into a boundary set as the initial condition tends to infinity. Explicit expressions are obtained for this limiting distribution for negative and zero mean drift.",
+      "published": "2026-10-26",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.35553",
+      "url": "https://arxiv.org/abs/2610.35553",
+      "title": "On the number of pioneers in high-dimensional critical percolation",
+      "authors": [
+        "Amine Asselah",
+        "Bruno Schapira"
+      ],
+      "abstract": "We prove that for critical percolation in high dimension the expected number of pioneers on any set containing the origin is of the same order as the probability that a simple random walk starting from the origin exits the set. Our proof works in all dimensions $d>6$, under the usual assumption that the two-point function is of the same order as the Green's function. As an application we obtain a sharp uniform quantitative bound on the probability that the cluster of the origin intersects any given ball.",
+      "published": "2026-10-26",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk"
+      ]
+    },
+    {
+      "id": "2610.35003",
+      "url": "https://arxiv.org/abs/2610.35003",
+      "title": "The Choice Number of Random Graphs",
+      "authors": [
+        "Lanchao Wang",
+        "Jiasheng Zeng"
+      ],
+      "abstract": "In 1999, Alon, Krivelevich and Sudakov conjectured that the choice number and chromatic number of the random graph $G(n,p)$ are asymptotically equal whenever $np\\to\\infty$. We prove their conjecture, showing that, with high probability, $$ \\operatorname{ch}(G(n,p))=(1+o(1))χ(G(n,p)) $$ whenever $np\\to\\infty$. This improves the bound $\\operatorname{ch}(G(n,p))\\le(2+o(1))χ(G(n,p))$ for $np\\to\\infty$ and $p\\le0.9$ obtained by Krivelevich and Vu in 2001. Our proof distinguishes two cases according to the size of independent sets. When independent sets of growing size are available, we establish a sharper uniform independent-set estimate that eliminates the factor-two loss in the bound of Krivelevich and Vu. When independent sets have bounded size, we establish a deterministic result showing that, under a suitable uniform independent-set condition, a proper colouring with bounded colour-class sizes yields an asymptotically matching upper bound on the choice number.",
+      "published": "2026-10-26",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "random graph"
+      ]
+    },
+    {
+      "id": "2610.35131",
+      "url": "https://arxiv.org/abs/2610.35131",
+      "title": "From Linear to Polylogarithmic: Dynamic Submodular Maximization over Matroids",
+      "authors": [
+        "Kiarash Banihashem",
+        "Samira Goudarzi",
+        "MohammadTaghi Hajiaghayi",
+        "Peyman Jabbarzade",
+        "Morteza Monemizadeh"
+      ],
+      "abstract": "We study the problem of submodular maximization under a matroid constraint. In this problem, there is a monotone submodular function $f: 2^{N} \\rightarrow \\mathbb{R}^+$ and a matroid $M(N, I)$, accessible via value and independence oracles and the goal is to find the independent set $S \\in I$ maximizing the objective function, i.e., $f(S) = \\max_{I \\in I} f(I)$. In the fully dynamic setting, the active ground set $N \\subseteq N$ evolves through element insertions and deletions. The goal is to maintain a solution $S \\subseteq N$ with $S \\in I$ and $f(S) = \\max_{I \\subseteq N,, I \\in I} f(I)$ after each update. Two approximation algorithms have been proposed to solve this problem: Dütting et al. developed a $(4+ε)$-approximation algorithm with an expected amortized update time of $O\\!\\bigl(\\frac{k^2}ε \\log k \\log n \\log^3 \\frac{k}ε\\bigr)$, and Banihashem et al. achieved a similar approximation with a better update time $O\\!\\bigl(k \\log k \\log^3 \\frac{k}ε\\bigr)$. However, these methods both become inefficient when the rank $k$ of the matroid is large (e.g., when $k = n^{o(1)}$). The central open question in this line of work is whether a fully dynamic algorithm with polylogarithmic update time exists. We resolve this question by presenting the first fully dynamic algorithm for submodular maximization over matroids with polylogarithmic update time. Our algorithm maintains a $(4+ε)$-approximate solution with expected amortized update time $poly(\\log n, ε^{-1})$, where $n = |N|$. In particular, the update time is independent of the matroid rank $k$, thereby eliminating the dependence on $k$ and settling the open problem.",
+      "published": "2026-10-26",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.35867",
+      "url": "https://arxiv.org/abs/2610.35867",
+      "title": "Quantum dynamics on the sparse Erdős-Rényi graph",
+      "authors": [
+        "Johannes Alt",
+        "Raphael Ducatez",
+        "Antti Knowles"
+      ],
+      "abstract": "We analyse the large-time asymptotics of the Schrödinger time evolution of a free quantum particle on the Erdős-Rényi graph $\\mathbb{G}(N,d/N)$, where the quantum Hamiltonian is given by the adjacency matrix of $\\mathbb{G}$. Starting from a state localized at a vertex, the wave function is approximately radial, and we characterize precisely its asymptotic form. Our results in particular cover vertices whose degree is close to $2d$, hence probing the emergence of bound states from a dynamical perspective. This provides a dynamical counterpart of the coexistence of localized and delocalized states established in [arXiv:1905.03243,arXiv:2005.14180,arXiv:2106.12519,arXiv:2109.03227,arXiv:2305.16294], with the former giving rise to a localized mode and the latter to a dispersive wave. Our results hold in the regime $\\sqrt{\\log N} \\ll d \\ll N^{o(1)}$, which is the full region in which such dynamical phenomena may exist, and for times $1 \\ll t \\ll T_N$ for some explicit $T_N \\gg 1$.",
+      "published": "2026-10-26",
+      "categories": [
+        "math-ph",
+        "math.PR"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2610.35354",
+      "url": "https://arxiv.org/abs/2610.35354",
+      "title": "Sharp Fourth-Moment Wasserstein CLT Bounds",
+      "authors": [
+        "Xiao Fang",
+        "Zi-Yao Su",
+        "Jiaxue Wang",
+        "Xiaolin Wang"
+      ],
+      "abstract": "We prove that for the normalized sum $W=\\sum_{i=1}^n X_i/\\sqrt{n}$ of independent, mean-zero, $d$-dimensional random vectors with $\\operatorname{Cov}(W) =Σ=\\operatorname{diag}(σ_1^2,\\dots, σ_d^2)$ (the diagonal form of the covariance matrix is assumed without loss of generality), the 2-Wasserstein distance from $W$ to $N(0,Σ)$ is bounded by \\[\\sqrt{2\\sum_{j=1}^d \\min \\left\\{σ_j^2, \\frac{\\sum_{i=1}^n \\mathbb{E} [|X_i'-X_i|^2(X'_{ij}-X_{ij})^2 ] }{n^2 σ_j^2} \\right\\}},\\] where $|\\cdot|$ denotes the Euclidean norm, $X_i'$ is an independent copy of $X_i$, and $X_{ij}$ ($X_{ij}'$ resp.) denotes the $j$th coordinate of the vector $X_i$ ($X_i'$ resp.). On the one hand, it gives the optimal rate $O(β\\sqrt{d/n})$ if $|X_i|\\leq β$ for all $i$. On the other hand, in the isotropic case where $Σ=I_d$, it gives the optimal fourth-moment bound $O\\left(\\sqrt{\\sum_{i=1}^n \\mathbb{E}|X_i|^4/n^2}\\right)$. Moreover, the coordinatewise minima suggest a tradeoff between the naïve coupling and the normal coupling for each component. To prove the main result, we develop a new transportation inequality using a coupling via the Föllmer process with a general covariance matrix and the martingale property of its drift. The resulting bound is then controlled using a Bonis-type expansion together with Bessel's inequality. The method and the result extend to $p$-Wasserstein bounds. As a consequence, we obtain the Hilbert space 4-Wasserstein CLT bound $O(n^{-1/4}[\\operatorname{tr}(Q^{1/2})]^{1/2})$, where, in the i.i.d. case, $Q=\\mathbb{E}[|X_1'-X_1|^2(X_1'-X_1)^{\\otimes2}]$ and the $O(n^{-1/4})$ rate is optimal given the dimension-free form of $Q$. We further strengthen it to a dimension-free strong approximation result with a near-optimal error rate through the KMT embedding construction.",
+      "published": "2026-10-26",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2610.35369",
+      "url": "https://arxiv.org/abs/2610.35369",
+      "title": "Initialization Stability and Convergence of Projected Langevin Dynamics",
+      "authors": [
+        "Qi Feng",
+        "Nathan Sauldubois",
+        "Xin Zhang"
+      ],
+      "abstract": "The entropic regularized optimal transport (EOT) plays a fundamental role in the computation of optimal transport. In \\cite{CLP}, the authors proposed a gradient flow approach to EOT, and derived a projected Langevin diffusion that converges in distribution to the solution of EOT when initialized with a coupling between the two given marginals. In this paper, motivated by samplings of optimal couplings for EOT, we analyze the projected Langevin dynamics with arbitrary initial distribution, and prove that its long time behavior is the same as if it was initialized from a coupling.",
+      "published": "2026-10-26",
+      "categories": [
+        "math.PR",
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2610.34544",
+      "url": "https://arxiv.org/abs/2610.34544",
+      "title": "Joint Independence Testing for Latent Position Random Graphs",
+      "authors": [
+        "Xiaoyi Wen",
+        "Zoltan Szabo"
+      ],
+      "abstract": "Kernel techniques are among the most powerful methods in data science and statistics. One of the key properties of kernels contributing to their numerous successful applications is that the associated reproducing kernel Hilbert space is expressive enough to encode probability distributions without loss of information or to capture the joint independence of $M\\ge 2$ random variables, under mild conditions. Computationally, these measures (i) rely on the so-called Gram matrix which contains the pairwise similarity of sample points, and (ii) converge at a rate $O \\left(n^{-\\frac{1}{2}}\\right)$, where $n$ denotes the sample size. We focus on measuring the independence of latent position random graphs (LPRGs), a model widely-applied for instance in neuroscience, sociology, and epidemiology. In LPRGs a latent representation is associated to each node. The similarity of these representations (meant via a kernel) determines whether two nodes are connected, making the Gram matrices only implicitly observable and the estimation challenging. Despite the fundamental importance of quantifying the independence of $M$ LPRGs, very little is known about the solution of this problem; existing techniques are restricted to $M=2$ components and only guarantee consistency without rates. In this work, (i) we define an independence measure called graph Hilbert-Schmidt independence criterion (GHSIC) for $M\\ge 2$ LPRGs, (ii) we prove that it can be estimated at a rate $\\tilde{O}\\left(n^{-\\frac{1}{3}}\\right)$ relying on spectral decomposition of adjacency matrices, (iii) without the need to choose kernels and their hyperparameters. Numerical experiments demonstrate the effectiveness of the proposed GHSIC estimator both on synthetic examples and in the analysis of brain functional connectivity subnetworks in natural language perception.",
+      "published": "2026-10-25",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "cs.SI"
+      ],
+      "tags": [
+        "random graph"
+      ]
+    },
+    {
+      "id": "2610.33612",
+      "url": "https://arxiv.org/abs/2610.33612",
+      "title": "Asymptotic expansions for random walks conditioned to stay positive with arbitrary endpoints",
+      "authors": [
+        "Alexander Tarasov"
+      ],
+      "abstract": "We consider a one-dimensional random walk $S_n$ with i.i.d. integer-valued increments having zero mean and finite variance. Under suitable moment assumptions, we derive asymptotic expansions for the local probabilities $\\pr(x+S_n=y,τ_x>n)$, where $τ_x=\\inf\\{n\\ge1:x+S_n\\le0\\}$. These extend previous expansions for walks started at zero to arbitrary starting points. We obtain different expansions according to the sizes of the starting point and endpoint relative to $\\sqrt n$.",
+      "published": "2026-10-24",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.33831",
+      "url": "https://arxiv.org/abs/2610.33831",
+      "title": "Resource competition and survival for random walkers on complex networks",
+      "authors": [
+        "Snehal Shekatkar"
+      ],
+      "abstract": "We consider the problem of $W$ random walkers on a complex network where each walker requires an amount $θ$ of resource at each time to survive. Resource is stochastically produced at each vertex of the network with a specified distribution. The survival time of the system of walkers is defined as the time required for all $W$ walkers to die. Using numerical simulations, we show that Erd{\\H o}s-Rényi networks a have higher mean survival time than Scale-free networks as expected, but also that uniform distribution production leads to higher mean survival time than exponential distribution with the same mean. We derive an exact expression for the survival-time distribution under the assumption of independent walker lifespans, and use it to show that scale-free network topology produces strong dependence in the lifespans but homogeneous topology does not. We moreover demonstrate how the survival time can be substantially increased without changing the resource production or network topology by appropriately biasing the movement of the walkers towards low degree vertices on Scale-free networks, but has no effect on Erd{\\H o}s-R{é}nyi networks.",
+      "published": "2026-10-24",
+      "categories": [
+        "cs.SI",
+        "physics.comp-ph",
+        "stat.AP"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.33897",
+      "url": "https://arxiv.org/abs/2610.33897",
+      "title": "Persistent occupation and critical marked sums on branching random walks",
+      "authors": [
+        "Abderrahman Skiredj",
+        "Ismail Berrada"
+      ],
+      "abstract": "We study two path functionals of a branching random walk at an exponential normalization. For centered integer displacements bounded above by one, we construct on survival one ray whose local time at every large spatial level is bounded below by a positive multiple of the square of that level. For displacements in $\\{-1,0,1\\}$, overlapping forward profiles give a single ray with lower coefficient $4t/(σ^2j_{1,1}^2)$, where $σ^2$ is the tilted variance and $j_{1,1}$ the first positive zero of $J_1$. The profile energy quotient is optimized exactly. For discounted marked path sums with real displacements, we prove critical-moment sufficiency without a drift assumption, and necessity under a finite ascending-ladder mean and a weighted sibling moment. At positive tilted drift, a stopping-line argument replaces the sibling condition by an $L\\log L$ hypothesis. A sparse mark construction identifies an exact universality obstruction in the constant-displacement subclass. At negative tilted drift, weighted powers give explicit sufficient logarithmic-tail conditions for every exponent $t>0$ and examples excluding a universal critical-moment converse. Under our sufficient conditions, path sums converge uniformly and attain their maxima. The exact optimal persistent local-time constant and a general negative-drift converse remain open.",
+      "published": "2026-10-24",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.33721",
+      "url": "https://arxiv.org/abs/2610.33721",
+      "title": "Multi-marginal optimal transport on sub-Riemannian manifolds",
+      "authors": [
+        "Haowei Lin"
+      ],
+      "abstract": "In this paper, we study multi-marginal optimal transport on ideal sub-Riemannian manifolds. We establish a sub-Riemannian barycentric balance condition and prove the existence of a solution to the Monge problem under an additional assumption. We also investigate the absolute continuity of Wasserstein barycenters. Our results extend and improve upon those of Pass, Pinamonti, and Vedovato (Methods Appl. Anal. 28 (2021), 61-76) on the Heisenberg group, answering two open questions raised in their work.",
+      "published": "2026-10-24",
+      "categories": [
+        "math.DG",
+        "math.MG",
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2610.33678",
+      "url": "https://arxiv.org/abs/2610.33678",
+      "title": "The chromatic number of a random graph with $o(n^{3/2})$ edges",
+      "authors": [
+        "Amin Coja-Oghlan",
+        "Mikhail Isaev",
+        "Mihyun Kang",
+        "Pavel Zakharov"
+      ],
+      "abstract": "Let $G(n,m)$ be the Erdos-Renyi random graph with $n$ vertices and $m$ edges and let $δ>0$. Alon and Krivelevich [Combinatorica 1997] proved that for any sequence $m\\leq n^{3/2-δ}$ there \\emph{exists} an integer sequence $q=q(n)$ such that the chromatic number of $G(n,m)$ equals either $q$ or $q+1$ with probability tending to one as $n\\to\\infty$. In this paper, we give an explicit formula for this sequence $q(n)$ and confirm their result under a less restrictive assumption that $m=o(n^{3/2})$. Furthermore, we show that for all but a vanishing proportion of the admissible values of $m$, the chromatic number of $G(n,m)$ equals $q$ with high probability.",
+      "published": "2026-10-24",
+      "categories": [
+        "math.CO",
+        "math.PR"
+      ],
+      "tags": [
+        "random graph"
+      ]
+    },
+    {
+      "id": "2610.33854",
+      "url": "https://arxiv.org/abs/2610.33854",
+      "title": "Between the Semi-Random Process and G(n,p)",
+      "authors": [
+        "Margarita Akhmejanova",
+        "Andrey Kupavskii"
+      ],
+      "abstract": "We study a random graph process that connects the Erdős--Rényi random graph with the semi-random process. In each round, a uniformly random vertex is revealed together with a uniformly random candidate set of $s$ possible partners, and Builder chooses one of them. We study how this limited adaptivity $s$ changes the hitting times of monotone graph properties and how the familiar logarithmic ``coupon--collector'' delays in random graphs are reflected in this setting.",
+      "published": "2026-10-24",
+      "categories": [
+        "math.CO",
+        "math.PR"
+      ],
+      "tags": [
+        "random graph",
+        "graph process"
+      ]
+    },
+    {
+      "id": "2610.33918",
+      "url": "https://arxiv.org/abs/2610.33918",
+      "title": "Random Deletion for Circuits in Regular Matroids",
+      "authors": [
+        "Karthekeyan Chandrasekaran",
+        "Chandra Chekuri",
+        "Weihao Zhu"
+      ],
+      "abstract": "We study a simple random deletion algorithm to find short circuits in regular matroids. Given a regular matroid $M$ with $m$ elements, the algorithm randomly deletes each element independently with probability $1-1/m^{Θ(1/g)}$ where $g$ is the size of a minimum circuit, and returns the remaining set $R$ of elements. We establish the following results: 1. With high probability, $R$ contains no circuit and is therefore independent. 2. For every $α$-approximate minimum circuit $C$ where $α\\geq 1$, with probability at least $m^{-O(α)}$, the entire circuit $C$ survives in $R$ and moreover, the minimum number of elements that need to be removed to make $R$ independent is $O(α\\log(α+2))$. This yields an algorithmic proof that the number of $α$-approximate minimum circuits is $m^{O(α)}$, improving the previous known bound of $m^{O(α^2)}$ by Gurjar and Vishnoi, and resolving a recent conjecture of Khanna, Putterman, and Song. Our results yield two immediate applications. First, we obtain very simple RNC algorithms for computing the shortest circuit, and for enumerating all $α$-approximate circuits, of a regular matroid without computing the Seymour decomposition. Second, we obtain a randomized parallel algorithm to find a basis of a regular matroid under independence-oracle access. It uses polynomially many independence-oracle queries in $O(\\log m)$ adaptive rounds and succeeds with high probability. This follows from the framework of Khanna, Putterman, and Song and the improved counting bound, and extends their result from graphic matroids to regular matroids.",
+      "published": "2026-10-24",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.33659",
+      "url": "https://arxiv.org/abs/2610.33659",
+      "title": "Linear statistics in the Coulomb gas: cumulants beyond rotational invariance",
+      "authors": [
+        "Paul Bourgade",
+        "Pierre Le Doussal",
+        "Gregory Schehr"
+      ],
+      "abstract": "We consider a classical Coulomb gas of $N$ particles in dimension $d\\geq2$, confined by a general external potential $U$ in the large-$N$ limit. In that limit the density of particles has a compact support called the droplet. We study smooth linear statistics ${\\mathcal L}_N=\\sum_{i=1}^N f({\\bf x}_i)$ at large $N$. While the leading variance of ${\\mathcal L}_N$ is by now well understood in many settings, much less is known about higher cumulants. When $f({\\bf x})=f(|{\\bf x}|)$ and the potential is rotationally invariant, these cumulants were computed recently at leading order. We derive explicit formulas for the leading third and fourth cumulants for general smooth droplets, without assuming that either the potential or the test function is radial. The answers are expressed as intrinsic boundary integrals over the equilibrium droplet. The third cumulant depends on the cube of the jump of the normal derivative of the harmonic extension of $f$, while the fourth cumulant also involves the exterior Dirichlet-to-Neumann operator, the mean curvature of the boundary, and normal derivatives of the background density. Our derivation uses the tilted potential $U_s=U+s f/β$, the associated deformation of the droplet, and shape derivatives of the Dirichlet energy. This deformation has a natural interpretation as the infinitesimal motion of the free boundary in the obstacle-problem formulation of the equilibrium measure. Our formulas extend previous studies by Wiegmann and Zabrodin in two dimensions for $β=2$. In their setting, we provide a rigorous proof of the limiting third and fourth cumulants, supporting the proposed formulas for general Coulomb gases. We specialize the general formulas to the disk, the half-plane and the sphere, and check them against exactly solvable non-radial deformations, including translated elliptic droplets in $d=2$ and spheroidal deformations in $d=3$.",
+      "published": "2026-10-24",
+      "categories": [
+        "math-ph",
+        "cond-mat.stat-mech",
+        "math.PR"
+      ],
+      "tags": [
+        "Dirichlet energy"
+      ]
+    },
+    {
+      "id": "2610.33829",
+      "url": "https://arxiv.org/abs/2610.33829",
+      "title": "Stationary Random Iterations of Lipschitz Maps: A Generalized Displacement Condition for the Existence of Invariant Structures",
+      "authors": [
+        "Bella Figliaggi",
+        "Edgar Matias",
+        "Tiago Pereira"
+      ],
+      "abstract": "We study random iterations generated by infinitely many Lipschitz maps on non-compact complete separable metric spaces. We generalize classical displacement conditions ensuring the existence and uniqueness of invariant structures. We prove two main results. The first uses the graph transform operator to extend Elton's condition [A multiplicative ergodic theorem for Lipschitz maps. Stochastic Process. Appl. 34(1) (1990)] for the existence and uniqueness of invariant graphs. The second uses the Markov operator to generalize a displacement condition for stationary measures, introduced by Diaconis and Freedman [Iterated random functions. SIAM Rev. 41(1) (1999)] and by Kloeckner [Optimal transportation and stationary measures for iterated function systems. Math. Proc. Cambridge Philos. Soc. 173(1) (2022)]. We present several examples illustrating the applicability of our results.",
+      "published": "2026-10-24",
+      "categories": [
+        "math.DS",
+        "math.PR"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
     {
       "id": "2610.32821",
       "url": "https://arxiv.org/abs/2610.32821",
@@ -18,6 +368,25 @@
       "categories": [
         "math.PR",
         "math-ph"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.33216",
+      "url": "https://arxiv.org/abs/2610.33216",
+      "title": "Absorption probabilities of random walks without symmetry or general position",
+      "authors": [
+        "Artyom Bolotin",
+        "Dmitry Zaporozhets"
+      ],
+      "abstract": "Let $S_1,S_2,\\dots$ be a random walk in $\\mathbb R^d$ with independent identically distributed increments. We show that, for every distribution of the increments and for every $n\\ge1$, \\[ \\mathbb P\\bigl[0\\notin\\mathrm{conv}(S_1,\\dots,S_n)\\bigr] = \\sum_{m=1}^n\\frac1{m!}\\sum_{\\substack{k_1,\\dots,k_m\\ge1\\\\ k_1+\\dots+k_m=n}}\\frac{1}{k_1\\cdots k_m}\\,\\mathbb P\\bigl[0\\notin\\mathrm{conv}(S^{(1)}_{k_1},\\dots,S^{(m)}_{k_m})\\bigr], \\] where $S^{(1)},S^{(2)},\\dots$ are independent copies of the walk. No symmetry, general position or moment assumptions are needed. The result rests on a deterministic identity: for arbitrary vectors $x_1,\\dots,x_n$, the number of orderings for which the convex hull of the partial sums avoids the origin equals the number of permutations for which the convex hull of the cycle sums avoids it. We derive it from a permutation-averaging identity for valuations obtained in our earlier work. Consequences include the identities of Sparre Andersen and Spitzer, the distribution-free absorption probabilities of Kabluchko, Vysotsky and Zaporozhets, their generating function found by Petrov, Randon-Furling and Zaporozhets, and a formula for the probability that the origin is never absorbed.",
+      "published": "2026-10-23",
+      "categories": [
+        "math.PR",
+        "math.CO",
+        "math.MG"
       ],
       "tags": [
         "random walk"
@@ -61,6 +430,45 @@
       ]
     },
     {
+      "id": "2610.33177",
+      "url": "https://arxiv.org/abs/2610.33177",
+      "title": "Kernelised covariance matrices, dimension reduction and imbalanced spectral clustering",
+      "authors": [
+        "Xiaoyu Dong",
+        "Subhro Ghosh",
+        "Soumendu Sundar Mukherjee",
+        "Himasish Talukdar"
+      ],
+      "abstract": "The Gaussian Mixture Model (abbrv. GMM) is a classic generative model for clustered data, for which spectral clustering based on dimension reduction via PCA has been an effective framework. In this work, we investigate kernelised covariance matrices as an alternative mechanism for dimension reduction and spectral clustering, focusing on truncation kernels that select pairs of data points with suitable separation constraints. The structure of these matrices is motivated by considerations from statistical mechanics of repulsive particle systems. Our approach is particularly relevant for the setting of imbalanced clusters, where the sizes of the largest and smallest clusters have a diverging ratio with the problem size, and existing PCA-based methods turn out to be of limited effectiveness. We demonstrate efficient dimension reduction and clustering performance of these modified covariance matrices, substantiated by quantitative bounds. In particular, they achieve superior dimension reduction guarantees compared to PCA for a wide range of parameters in the regime of imbalanced clusters. For spectral clustering, our approach exhibits improvements over PCA in the imbalanced setting, in particular guaranteeing accurate clustering in a much larger regime of intra-cluster separations. Our theoretical guarantees reflected in a range of simulation experiments that exhibit these improvements for unbalanced clustering problems. Our analytical approach, based on kernel Laplacians, provide a toolbox as well as a relevant conceptual ingredient for clustering problems at large. We believe that our work will motivate the application of such kernelised covariance matrices for related classes of statistical problems, as well as spur new investigations in the theory of random matrices.",
+      "published": "2026-10-23",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.PR",
+        "math.SP"
+      ],
+      "tags": [
+        "spectral clustering"
+      ]
+    },
+    {
+      "id": "2610.33219",
+      "url": "https://arxiv.org/abs/2610.33219",
+      "title": "Explicit strong blocking sets and minimal codes from expander graphs using a new graph parameter",
+      "authors": [
+        "Anurag Bishnoi",
+        "Ioannis Kakatelis"
+      ],
+      "abstract": "A strong blocking set is a set of points in a finite projective space that intersects every hyperplane of the space in a spanning set of the hyperplane. These objects have been studied both in finite geometry and coding theory due to their equivalence with minimal codes. We give an explicit construction of strong blocking sets using expander graphs that improves the explicit construction of Alon et al. (Noga Alon, Anurag Bishnoi, Shagnik Das, Alessandro Neri, Strong blocking sets and minimal codes from expander graphs. Transactions of the American Mathematical Society ) by introducing a new geometrically motivated graph parameter that is better suited for this problem. Using this approach, we improve the constant $C$ in the explicit construction of a strong blocking set of size $C (q+1) k$ in the $(k - 1)$-dimensional projective space over $\\mathbb{F}_q$ for every prime power $q \\geq 7$.",
+      "published": "2026-10-23",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "expander graph"
+      ]
+    },
+    {
       "id": "2610.32050",
       "url": "https://arxiv.org/abs/2610.32050",
       "title": "On the magic positivity of the Ehrhart polynomials of dilated base polytope of minimal matroid",
@@ -74,7 +482,8 @@
       "abstract": "In this paper, we consider the magic positivity of the Ehrhart polynomial of dilated base polytope of minimal matroid of rank $k$ dimension $n$. We prove that for $\\displaystyle 1\\leq k<\\lfloor\\frac{n}{2}\\rfloor$, the $n-k-1$ dilate of the Ehrhart polynomial is not magic positive. We also show that for sufficiently large $n$, the $n-k$ dilate of the Ehrhart polynomial is, in general, magic positive. This gives rise to a lower bound of the $m-$index of the Ehrhart polynomial.",
       "published": "2026-10-23",
       "categories": [
-        "math.CO"
+        "math.CO",
+        "math.NT"
       ],
       "tags": [
         "matroid"
