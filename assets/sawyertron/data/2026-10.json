@@ -1,8 +1,210 @@
 {
   "month": "2026-10",
-  "generated_at": "2026-10-27T15:25:06+00:00",
+  "generated_at": "2026-10-28T16:08:16+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2610.36790",
+      "url": "https://arxiv.org/abs/2610.36790",
+      "title": "Laws of the iterated logarithm for the range of once-reinforced random walk on $\\mathbb{Z}$",
+      "authors": [
+        "Ze-Chun Hu",
+        "Renming Song",
+        "Li Wang"
+      ],
+      "abstract": "In this paper, we study once-reinforced random walk on $\\mathbb{Z}$, and prove sharp Chung-type and Hartman-Wintner laws of the iterated logarithm for the range. Let $R_n$ denote the range at time $n$ and let $c>0$ be the reinforcement parameter. Then, almost surely, \\begin{equation*} \\liminf_{n\\to\\infty}\\frac{R_n}{\\sqrt{n/\\log\\log n}}=\\fracπ{\\sqrt{2}}, \\qquad \\limsup_{n\\to\\infty}\\frac{cR_n}{\\sqrt{2n\\log\\log n}}=1. \\end{equation*} The proofs are based on the independent increment decomposition of the inverse range and sharp generating function estimates.",
+      "published": "2026-10-27",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.37133",
+      "url": "https://arxiv.org/abs/2610.37133",
+      "title": "High-dimensional critical percolation and critical Branching random walks are intersection equivalent",
+      "authors": [
+        "Bruno Schapira"
+      ],
+      "abstract": "We prove that on $\\mathbb Z^d$, with $d>6$, and under the usual assumption that the two-point function and the Green's function are of the same order, the probabilities to hit any finite set for a critical Branching random walk starting from the origin and the critical percolation cluster of the origin are within a positive multiplicative constant one from each other, as long as the set is sufficiently far away from the origin comparatively to its diameter. The proof relies on the introduction of a truncated equilibrium measure in percolation and the derivation of an approximate last passage formula.",
+      "published": "2026-10-27",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.37620",
+      "url": "https://arxiv.org/abs/2610.37620",
+      "title": "Sharp approximations for the stationary measures of the open ASEP III: The fan region",
+      "authors": [
+        "Dominik Schmid",
+        "Zongrui Yang"
+      ],
+      "abstract": "We study the stationary measure of the open asymmetric simple exclusion process (ASEP) in the fan region with general boundary rates. The stationary height fluctuations in the maximal current phase and on its boundaries within the fan region are known to have limits involving Brownian excursions or meanders. We establish discrete counterparts of these limits: on intervals away from the boundaries, the joint law of the occupation variables is approximated in total variation distance by particle configurations constructed from lazy simple random walk excursions and meanders. In the high- and low-density phases of the fan region, we establish Bernoulli product approximations with errors that decay exponentially in the distance from the relevant boundary. Our methods combine refined combinatorial estimates for Motzkin paths and the matrix product ansatz in the totally asymmetric case with a Fourier-type decomposition (based on Askey--Wilson polynomials) of the change of measure for general asymmetry. In addition, in the maximal current phase and on its boundaries within the fan region, we prove moderate deviation estimates for particle counts on arbitrary sets of sites. These estimates rely on a covariance identity for an auxiliary path measure, through which total nonnegativity (of order two) of the matrices yields negative correlations.",
+      "published": "2026-10-27",
+      "categories": [
+        "math.PR",
+        "math-ph"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk"
+      ]
+    },
+    {
+      "id": "2610.37580",
+      "url": "https://arxiv.org/abs/2610.37580",
+      "title": "Spectral Braids: A Topological Descriptor for Dynamic Directed Networks",
+      "authors": [
+        "Mehmet Emin Aktas",
+        "Esra Akbas"
+      ],
+      "abstract": "Eigenvalues are a workhorse of graph machine learning: spectral clustering, spectral graph neural networks, and graph kernels all summarize a network by the eigenvalues of a matrix. These eigenvalues are almost always treated as a static list of numbers. When a graph changes, however, its eigenvalues move, and when the matrix is not symmetric, they move in the complex plane, where they can wind around each other. The pattern of this winding is a braid, a classical object from topology. We propose spectral braids, a methodology for dynamic directed networks: each snapshot is aggregated into a community-level transition matrix, its complex eigenvalues are tracked over time, and the braid they trace is read off as a word. The word is then mapped to a matrix by the Burau representation, which gives a fixed-size feature vector for any classifier. The braid has a concrete meaning: each eigenvalue describes how a group of communities behaves, and each crossing records one group overtaking another. We evaluate the method on dynamic network classification, using synthetic networks of online communities whose labels describe how the network evolved between the same starting and ending states. Our experimental results show that the proposed features reach 97.1% accuracy on four classes, against 44.5% for the best feature set that does not track eigenvalues, and that the Burau features also separate networks containing the same events in a different order, which simple counts of crossings cannot do. To the best of our knowledge, this is the first study that defines braids and braid monodromy on graph data and uses them as features for learning on dynamic networks.",
+      "published": "2026-10-27",
+      "categories": [
+        "cs.SI",
+        "cs.LG"
+      ],
+      "tags": [
+        "spectral graph",
+        "spectral clustering",
+        "graph neural network"
+      ]
+    },
+    {
+      "id": "2610.37173",
+      "url": "https://arxiv.org/abs/2610.37173",
+      "title": "Optimal path decompositions of sparse random graphs",
+      "authors": [
+        "Jifu Lin",
+        "Heng Yang"
+      ],
+      "abstract": "Let $\\operatorname{odd}(G)$ be the number of odd-degree vertices of a graph $G$. We prove that, if $p=o(1)$ and $np/\\log n\\to\\infty$, then with probability tending to one the random graph $G(n,p)$ has an edge decomposition into exactly $\\operatorname{odd}(G)/2$ paths. This confirms a conjecture of Glock, Kühn and Osthus from 2016. The proof combines a key lemma with cycle decompositions of random graphs.",
+      "published": "2026-10-27",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "random graph"
+      ]
+    },
+    {
+      "id": "2610.36488",
+      "url": "https://arxiv.org/abs/2610.36488",
+      "title": "Second-order Sinkhorn Geometry and $\\sqrt{n}$-Inference",
+      "authors": [
+        "Tristan Luca Saidi",
+        "Florian Gunsilius",
+        "Gonzalo Mena"
+      ],
+      "abstract": "The Sinkhorn divergence, a debiased form of entropic optimal transport, has been widely used in various scientific disciplines due to its computational and statistical tractability. Unlike the Wasserstein distance, however, the Sinkhorn divergence is not a metric and it does not naturally admit a formal Riemannian structure. These properties are central to many applications of optimal transport methods that utilize interpolation, barycentric averaging, parallel transport or other geometric operations. Recent work addresses these shortcomings by constructing a formal Riemannian tangent space and a metric tensor on the space of probability measures that quadratically approximates the Sinkhorn divergence. In this work, we extend this framework with two major threads of contributions. For a suitable class of finite-smoothness cost functions, we prove Hadamard differentiability of the Sinkhorn metric tensor and we derive the Levi-Civita covariant derivative in this geometry; we then use the covariant derivative to obtain the geodesic and parallel transport equations, each of which amount to an ODE on a fixed Reproducing Kernel Hilbert Space (RKHS) with smooth coefficients. Our second contribution is to linearize the solutions to the geodesic and parallel transport equations using standard tools from Banach space ODE theory. We show that under standard regularity conditions these linearizations imply $\\sqrt{n}$-limiting Gaussian processes centered at population values for the plugin estimators of the exponential map, the logarithmic map, parallel transport and the induced Sinkhorn distance. Moreover, we show that the nonparametric bootstrap is consistent for all objects mentioned. To the best of our knowledge, these are the first $\\sqrt{n}$--limit theorems and bootstrap consistency results for canonical geometric operations in a transport-based geometry on the space of probability measures.",
+      "published": "2026-10-27",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.ST"
+      ],
+      "tags": [
+        "optimal transport",
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2610.36594",
+      "url": "https://arxiv.org/abs/2610.36594",
+      "title": "CLT for quadratic additive functionals of three-dimensional and four-dimensional voter models",
+      "authors": [
+        "Xiaofeng Xue"
+      ],
+      "abstract": "In this paper, we prove central limit theorems for the quadratic additive functionals of the three-dimensional and four-dimensional voter models. Our main results show that, under proper time-space scalings, the centered quadratic additive functional of the four-dimensional voter model converges weakly to a Brownian motion and that in the three-dimensional case converges weakly to a Gaussian process without independent increment. The proof of the main result in the four-dimensional case extends the martingale decomposition method. In the three-dimensional case, we introduce a quadratic fluctuation limit theorem which shows that the quadratic fluctuation density field of the voter model converges weakly to a generalized Ornstein-Uhlenbeck process. Then our main result in the three-dimensional case follows from an argument where the quadratic additive functional is approximated by an integral of a test function with respect to the quadratic fluctuation density field. The duality relationship between the voter model and the coalescing random walk is repeatedly utilized in proofs of the main results. The proof strategies introduced in this paper are applicable in deducing CLTs for general additive functionals of three-dimensional and four dimensional voter models. We only deal with those with the quadratic forms to make our exposition easy to catch.",
+      "published": "2026-10-27",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.37659",
+      "url": "https://arxiv.org/abs/2610.37659",
+      "title": "Sharp Stability of Brenier Potentials and its Link to Poincaré Inequalities",
+      "authors": [
+        "Cyril Letrouit",
+        "Tudor Manole"
+      ],
+      "abstract": "We prove a new functional inequality for uniformly log-concave measures, stronger than the Poincaré inequality. This new inequality bounds the variance of differences of convex functions and is motivated by the stability theory of optimal transport: for a fixed uniformly log-concave source measure, it provides a sharp stability bound for Brenier potentials with respect to variations of the target measure. Applying this inequality to Gaussian measures, we recover the fact that the Bures-Wasserstein distance between two positive semidefinite matrices is equivalent to the Frobenius distance between their square roots. Our proofs hinge upon linearization arguments for the Monge-Ampère equation governing the quadratic optimal transport problem.",
+      "published": "2026-10-27",
+      "categories": [
+        "math.FA",
+        "math.AP",
+        "math.MG",
+        "math.PR"
+      ],
+      "tags": [
+        "optimal transport",
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2610.36566",
+      "url": "https://arxiv.org/abs/2610.36566",
+      "title": "Helly theorems for lattice of flats of a matroid",
+      "authors": [
+        "Amir Jafari",
+        "Kiumars Kaveh"
+      ],
+      "abstract": "A basis of a matroid is adapted to a flat if it contains a basis of the flat. We prove that a family of flats in a rank r matroid has a common adapted basis whenever every subfamily of at most r+1 flats does. The ground set and the family may be infinite; only the rank must be finite. This result, in particular, contains Klyachko's vector space Helly theorem for subspaces. As an application, we obtain a splitting criterion for tropical toric vector bundles on projective spaces. As a secondary application, we derive quadratic bounds for the Helly number for distributive generation in the lattice of flats.",
+      "published": "2026-10-27",
+      "categories": [
+        "math.CO",
+        "math.AG"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.36883",
+      "url": "https://arxiv.org/abs/2610.36883",
+      "title": "Maximum Energy of Integral Circulant Graphs with Same-Parity Exponents",
+      "authors": [
+        "Jianwei Jiang",
+        "Chunhua Yang"
+      ],
+      "abstract": "The energy of a finite graph is the sum of the absolute values of the eigenvalues of its adjacency matrix. Let n be p to the power a times q to the power b, where p and q are distinct primes at least five and a and b, both positive integers, have the same parity. Among all nonempty sets D of proper divisors of n, the energy of the corresponding integral circulant graph is maximised by exactly two divisor sets: the divisors p to the power i times q to the power j with i plus j odd, and the divisors with i plus j even after removing p to the power a times q to the power b. We also determine the exact maximum energy. For the proof, weighted prime-power Ramanujan transforms yield an exact tensor-product representation of the graph energy, reducing the extremal problem to a weighted cut separating two prescribed vertices. After a sign conjugation, the relevant transforms decompose into embedded path blocks; the nontrivial blocks correspond to a weighted path together with chords of length three of weight negative one. We prove a sharp lower bound for cuts separating the two prescribed vertices in Kronecker products of these path blocks. For products of two such nontrivial blocks, equality holds only for cuts that isolate one of the two prescribed vertices. Combined with the energy-to-cut correspondence, these equality cases yield exactly the two maximising divisor sets.",
+      "published": "2026-10-27",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2610.36470",
+      "url": "https://arxiv.org/abs/2610.36470",
+      "title": "Underdamped Anchored Langevin Dynamics",
+      "authors": [
+        "Qi Feng",
+        "Hoang M. Nguyen",
+        "Lingjiong Zhu"
+      ],
+      "abstract": "Classical Langevin Monte Carlo algorithms, such as the unadjusted Langevin algorithm (ULA), are based on discretization schemes of the overdamped Langevin dynamics and are widely used for sampling in machine learning because they scale to high dimensions and large datasets. However, they require differentiable log-densities, and are less efficient for sampling heavy-tailed distributions. Although various approaches have been proposed in the literature for sampling non-differentiable and heavy-tailed targets, all of them are developed in the overdamped setting only. We propose a novel momentum-based underdamped anchored Langevin dynamics (UALD), and underdamped anchored Langevin Monte Carlo (UALMC) algorithm based on a discretization scheme of UALD. Our paper is the first to provide a kinetic (momentum-based) Langevin algorithm for non-differentiable and heavy-tailed targets that is free of asymptotic bias. The method replaces the original potential with a smooth reference potential and modifies the underdamped Langevin dynamics via multiplicative scaling in the drift term. We establish non-asymptotic guarantees in the 2-Wasserstein distance to the target distribution and show that the resulting iteration complexity has better dependence on dimension and accuracy level compared to overdamped-based anchored Langevin algorithms. We provide numerical experiments to illustrate the theory and practical performance of our proposed approach.",
+      "published": "2026-10-27",
+      "categories": [
+        "cs.LG",
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
     {
       "id": "2610.35561",
       "url": "https://arxiv.org/abs/2610.35561",
@@ -55,6 +257,25 @@
       ],
       "tags": [
         "random walk"
+      ]
+    },
+    {
+      "id": "2610.36127",
+      "url": "https://arxiv.org/abs/2610.36127",
+      "title": "Trace-minimal graphs maximizing the number of spanning trees",
+      "authors": [
+        "Pablo Romero",
+        "Louis Petingi"
+      ],
+      "abstract": "A classical problem in spectral graph theory is to determine, among all simple graphs with a fixed number of vertices and edges, those that maximize the number of spanning trees. Such graphs are called $t$-optimal. Petingi and Rodríguez [Discr. Math. 244 (2002), 351-373] reduced the construction of infinitely many $t$-optimal graphs to the determination of almost-regular graphs with a minimum number of induced $3$-paths, known as almost-regular $ν$-min graphs. They conjectured that the class of $d$-regular $ν$-min graphs is invariant under the addition or deletion of copies of the complete graph $K_{d+1}$, which would provide a method to construct large families of $t$-optimal graphs. This conjecture was recently verified for $d\\in \\{1,2,3,4,5\\}$ by Gong et al. [Discr. Math. 349(4), 2026]. In this work, we establish an asymptotic version of this conjecture. We prove that the class of $d$-regular $ν$-min graphs on at least $n$ vertices is invariant under the addition or deletion of copies of $K_{d+1}$ whenever $d\\geq 3$ and $n\\geq d^3$. In addition, we introduce a new method to construct $t$-optimal graphs based on the concept of trace-minimal graphs, originally introduced by Ábrego et al. [Linear Algebra Appl. 412 (2006), 161-221]. As a consequence, we obtain infinitely many graphs that are both trace-minimal and $t$-optimal.",
+      "published": "2026-10-26",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "spanning tree",
+        "spectral graph theory",
+        "spectral graph"
       ]
     },
     {
@@ -126,6 +347,28 @@
       "categories": [
         "math-ph",
         "math.PR"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2610.36276",
+      "url": "https://arxiv.org/abs/2610.36276",
+      "title": "Edge complexity of complete bipartite and complete multipartite graphs",
+      "authors": [
+        "S. Ferguson",
+        "V. Gupta",
+        "A. Iosevich",
+        "J. Iosevich",
+        "C. Kelly",
+        "G. Smith",
+        "S. Yang"
+      ],
+      "abstract": "We study edge complexity, the minimum Fourier $\\ell^1/\\ell^2$ ratio of a graph's adjacency matrix over cyclic vertex labelings. For $K_{m,n}$, with $1\\leq m\\leq n$, we reduce the problem to minimizing the Fourier $\\ell^1$-norm of indicators of $m$-element subsets of $\\mathbb Z_{m+n}$. We prove the sharp bound $\\operatorname{FR}_{\\min}(K_{m,n})\\geq\\frac{4n^2}{(m+n)\\sqrt{2mn}}$, with equality precisely when $m\\mid n$, and classify all labelings attaining it. We determine all Fourier ratios and minimizing labelings for $K_{2,n}$, and all minimizing labelings for $K_{3,n}$. Put $N=n+3$. The optimal three-element sets are precisely the cosets of the subgroup of order $3$ in $\\mathbb Z_N$ when $3\\mid N$, and precisely the arithmetic progressions with invertible common difference otherwise. The triple classification uses polynomial minorants and additive energies. We prove that attainment of the graph-energy bound is invariant under uniform independent set blow-ups. Edge complexity itself can decrease by an arbitrarily large factor under a twofold blow-up, and we give a finite example. For complete multipartite graphs, we give an exact labeling formula and sharp lower bound, and classify all part sizes and labelings attaining that bound. This bound strictly improves the graph-energy bound when the part sizes are unequal. We prove a lower bound for arbitrary simple graphs in terms of their average degree and maximum absolute degree deviation. For Laplacian projectors, we apply the equality criterion for the multiplicity bound to unbalanced complete bipartite graphs, whose top-projector minimum reduces to the same set minimization. Finally, we apply existing Fourier recovery and sampling theorems to approximate a graph from random adjacency samples under a fixed known labeling with bounded Fourier ratio, bounding the number of incorrectly recovered edges.",
+      "published": "2026-10-26",
+      "categories": [
+        "math.CO"
       ],
       "tags": [
         "adjacency matrix"
