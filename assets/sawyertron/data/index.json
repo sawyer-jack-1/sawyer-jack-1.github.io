@@ -1,7 +1,11 @@
 {
-  "generated_at": "2026-10-31T15:23:02+00:00",
-  "current_month": "2026-10",
+  "generated_at": "2026-11-01T16:50:18+00:00",
+  "current_month": "2026-11",
   "months": [
+    {
+      "month": "2026-11",
+      "count": 0
+    },
     {
       "month": "2026-10",
       "count": 327
