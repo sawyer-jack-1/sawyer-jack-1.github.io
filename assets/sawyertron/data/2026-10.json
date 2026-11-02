@@ -1,8 +1,267 @@
 {
   "month": "2026-10",
-  "generated_at": "2026-11-01T16:50:18+00:00",
+  "generated_at": "2026-11-02T20:23:47+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2610.42107",
+      "url": "https://arxiv.org/abs/2610.42107",
+      "title": "Band Random Graphs: Connectivity, Geometry, and Transport",
+      "authors": [
+        "Shantanav Chakraborty",
+        "Kyle Luh",
+        "Rudransh Pratap Singh"
+      ],
+      "abstract": "Let $G(n,p,m)$ be the random subgraph of the cycle power $C_n^m$ obtained by retaining each edge independently with probability $p$. We study connectivity, component geometry, and random walks throughout the regime $\\log n\\ll m<n/2$. We prove that $p\\sim(\\log n)/(2m)$ is a sharp threshold for connectivity. If $n(1-p)^{2m}\\toλ\\in(0,\\infty)$, then the number of isolated vertices converges to $\\mathrm{Poisson}(λ)$, and with high probability every other vertex lies in a single component $C_1$. In particular, the connectivity probability converges to $e^{-λ}$. The component $C_1$ contains a cyclic chain of connected sets occupying all but an $o(1)$ fraction of each consecutive block of length $\\asymp m$, with $Θ(m\\log n)$ edges between consecutive sets. Its diameter has order $n/m+\\log n/\\log\\log n$ with high probability. For every fixed $c>1$, uniformly over $p\\geq c\\log n/(2m)$, the lazy-walk spectral gap is asymptotic in probability to that of $C_n^m$. In the same range, the mean hitting time of simple random walk satisfies, uniformly over distinct $x,y$, $$ H_G(x,y)=\\frac{2|E(G)|}{d_G(y)} +\\frac{r_{xy}(n-r_{xy})}{κ_m} +o_{\\mathrm{Prob}}\\left(n+\\frac{n^2}{m^2}\\right), $$ where $r_{xy}$ is cyclic distance between vertices $x$ and $y$, $d_G(z)$ is the degree of vertex $z$ and $κ_m=(m+1)(2m+1)/6$. Thus, for this random graph model, connectivity has the Erdős--Rényi asymptotics with $2m$ possible neighbours, while distances, relaxation, and hitting times retain the geometry of the underlying cycle.",
+      "published": "2026-10-30",
+      "categories": [
+        "math.PR",
+        "math.CO"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk",
+        "random graph"
+      ]
+    },
+    {
+      "id": "2610.41781",
+      "url": "https://arxiv.org/abs/2610.41781",
+      "title": "Critical fluctuations in the edge--triangle exponential random graph models",
+      "authors": [
+        "Song-Hao Liu",
+        "Qi-Man Shao",
+        "Hao Shi",
+        "Jing-Yu Xu"
+      ],
+      "abstract": "We prove quantitative limit theorems for the edge density $Q$ in the dense edge--triangle exponential random graph model at criticality and under parameter perturbations of order $n^{-1}$. At the fixed critical parameters $(α_c,h_c),$ the centered fluctuations satisfy $n^{2/3}(Q-\\mathbb{E} Q)\\Rightarrow \\mathcal{N}(0,σ_0^2)$, with explicit variance $σ_0^2>0$. This disproves the quartic fluctuation conjecture of Bianchi, Collet and Magnanini (2024). Gaussian limits also hold $(α_c+ λ/n,h_c + γ/n)$, except when the coefficients satisfy $-\\frac{11}{16}+\\frac{2}{9}(γ+\\frac49λ)=0$. Under this linearity condition, the limiting laws of $\\sqrt n(Q-2/3)$ have densities proportional to $\\exp\\{-81z^4/64+9θz^2/8\\}$, where $θ=-57/16+8λ/27$. We obtain a sharp $n^{-1/3}$ rate in $1$-Wasserstein distance for the Gaussian limits and an $O(n^{-1/2})$ bound for the quartic limits. The proofs combine Stein's method for exchangeable pairs with conditional row estimates and a local Dobrushin contraction.",
+      "published": "2026-10-30",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance",
+        "random graph"
+      ]
+    },
+    {
+      "id": "2610.41989",
+      "url": "https://arxiv.org/abs/2610.41989",
+      "title": "Maximum of the Two-Dimensional Directed Polymer in the Critical Window",
+      "authors": [
+        "Clement Cosco",
+        "Shuta Nakajima",
+        "Ofer Zeitouni"
+      ],
+      "abstract": "Let $Z_N^{β_N}(x)$ denote the partition function of the two-dimensional directed polymer started at $x\\in \\mathbb{Z}^2$, in Gaussian environemnt, in the critical window, with parameter $β_N=\\sqrt{(1-\\vartheta/\\log N)/R_N}$. Here $R_N\\sim (\\log N)/π$ is the truncated collision Green function at the origin for the simple random walk on $\\mathbb{Z}^2$. Let $\\mathfrak M_N$ denote the maximum of $\\log Z_N(x)$ over $|x|_\\infty\\leq \\sqrt{N}$. We prove that, for any $\\vartheta\\in \\mathbb{R}$, in probability, $$\\mathfrak M_N/\\sqrt{\\log N}\\to 2\\sqrt{2}\\text{ as }N\\to\\infty.$$",
+      "published": "2026-10-30",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk"
+      ]
+    },
+    {
+      "id": "2610.41599",
+      "url": "https://arxiv.org/abs/2610.41599",
+      "title": "Underdamped Stochastic Optimal Transport with Landauer boundary conditions: machine learning and analytical solution",
+      "authors": [
+        "Julia Sanders",
+        "Dario Lucente",
+        "Marco Baldovin",
+        "Paolo Muratore-Ginanneschi"
+      ],
+      "abstract": "Finding optimal transport protocols for underdamped stochastic processes is a difficult yet important problem in control theory. In this paper we develop a direct method, based on machine learning, to find the optimal solution of the problem in the presence of non-linear boundary conditions, including those modelling the Landauer bit-erasure problem. The dynamics is steered from a single-peak to a double-peak distribution in position space, by only acting on a controllable external potential. The problem is highly non-linear, and analytical solutions are not available in general. We benchmark our numerical results with a perturbative expansion, which is expected to hold in a suitable overdamped limit.",
+      "published": "2026-10-30",
+      "categories": [
+        "cond-mat.stat-mech",
+        "cs.LG",
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2610.41347",
+      "url": "https://arxiv.org/abs/2610.41347",
+      "title": "Cutoff for random Cayley graphs of finite groups",
+      "authors": [
+        "Haoran Zhu"
+      ],
+      "abstract": "We study the random walk on a Cayley graph of a finite group whose generators are chosen independently and uniformly at random. We show that, for every finite group, the walk exhibits cutoff with high probability whenever the number of generators is large compared with the logarithm of the order of the group but small compared with every positive power of it. The cutoff time is the time at which the expected entropy of the walk comes close to its maximum, and in general it depends on the structure of the group. This settles a conjecture of Aldous and Diaconis.",
+      "published": "2026-10-30",
+      "categories": [
+        "math.PR",
+        "math.GR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.41990",
+      "url": "https://arxiv.org/abs/2610.41990",
+      "title": "When is the deepest drawdown also the longest?",
+      "authors": [
+        "Yinhao Wu"
+      ],
+      "abstract": "Does the deepest drawdown take the longest to recover? For random walks with iid increments of positive finite mean, we find that the deepest and longest episodes are eventually distinct almost surely under light-tailed losses, but coincide with probability tending to one under heavy-tailed losses. More precisely, when losses have a finite exponential moment, the deepest episode's duration, relative to the longest among $n$ episodes, converges in probability to an explicit $ρ\\in(0,1)$, while its descending duration rank is $n^{1-ρ+o_{\\mathbb{P}}(1)}$. These limits hold for every fixed number of leading depths; in the Gaussian model, $ρ=1/2$, independently of drift and variance. The separation reflects the different exponential costs of reaching a large depth and sustaining a long episode. For regularly varying losses, a common large loss governs both depth and duration: the duration ratio tends to one almost surely, and for every fixed $k$, the $k$ deepest and $k$ longest episodes have the same indices in the same order with probability tending to one. For any $k_n\\to\\infty$ with $k_n=o(n)$, the proportion of common episodes among the $k_n$ deepest and $k_n$ longest converges in probability to zero in the light-tailed case and to one in the heavy-tailed case. These ranking laws also hold for completed drawdowns within a deterministic observation horizon.",
+      "published": "2026-10-30",
+      "categories": [
+        "math.PR",
+        "q-fin.RM"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2610.41706",
+      "url": "https://arxiv.org/abs/2610.41706",
+      "title": "First and second order firing statistics of large neuronal networks with community structure",
+      "authors": [
+        "Thiago H. N. Coelho",
+        "Daniel Figueiredo",
+        "Giulio Iacobelli",
+        "Guilherme Ost",
+        "Conrado C. Pinto"
+      ],
+      "abstract": "We study a discrete-time stochastic model for the spiking activity of a network of $n$ interacting neurons partitioned into $k$ communities. The interaction network is a random directed weighted graph generated by a Stochastic Block Model with $k+1$ edge types ($k$ intra-community, $1$ inter-community). Each edge is present independently with a probability that depends only on its type. When present, an edge carries a type-dependent deterministic weight scaled by $n^{-1}$, which is excitatory or inhibitory depending on an independent random sign. Given the interaction network, the spiking process is a stationary Markov chain. Our results describe how the network's community structure manifests itself in the first- and second-order statistics of this chain, as $n \\to \\infty$ with $k$ fixed. Representing these statistics as explicit functions of the random interaction network, we prove that, with high probability: (i) the vectors of mean firing activity and firing variances are approximated in supremum norm by deterministic vectors that are constant within each community, with an error of order $\\sqrt{\\log(n)/n}$; (ii) the off-diagonal part of the $0$-lagged firing covariance matrix is approximated in max norm, with an error of order $\\sqrt{\\log(n)/n^3}$, by a deterministic community-block matrix (constant on each block defined by a pair of communities), with block values determined by the unique solution to a $k \\times k$ Stein matrix equation; (iii) in contrast, the $t$-lagged covariance matrix, for every lag $t \\ge 1$, is approximated in max norm, again with an error of order $\\sqrt{\\log(n)/n^3}$, by a random matrix built from two components: a random matrix capturing the interaction network and a deterministic community-block matrix. Finally, we discuss conditions on the model parameters under which these limiting statistics enable the identifiability of the community structure.",
+      "published": "2026-10-30",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "stochastic block model",
+        "random matrix"
+      ]
+    },
+    {
+      "id": "2610.42059",
+      "url": "https://arxiv.org/abs/2610.42059",
+      "title": "Rapid mixing of Potts Glauber dynamics throughout uniqueness",
+      "authors": [
+        "Antonio Blanca",
+        "Reza Gheissari",
+        "Heehyun Park",
+        "Xusheng Zhang"
+      ],
+      "abstract": "Sampling from the ferromagnetic $q$-state Potts model is a fundamental problem in statistical physics and approximate counting. Although computationally hard in the worst case, sampling is expected to be efficient throughout the high-temperature uniqueness regime of the model using the natural single-site Glauber dynamics. We establish fast mixing bounds for every $q$, in the full high-temperature regimes in the two central graph families on $n$ vertices. (1) For every $Δ\\ge 3$, the Potts Glauber dynamics mixes in $n\\operatorname{polylog}(n)$ steps with high probability on a uniformly random $Δ$-regular graph for all $β<β_u(q,\\mathbb T_Δ)$ where $β_u(q,\\mathbb T_Δ)$ is the uniqueness threshold on the $Δ$-regular tree; (2) For every $d\\ge 2$, the Potts Glauber dynamics has inverse spectral gap $n^{1+o(1)}$ on cubes or tori in $\\mathbb Z^d$ for all $β<β_c(q,\\mathbb Z^d)$ where $β_c(q,\\mathbb Z^d)$ is the critical point on $\\mathbb Z^d$. Both temperature thresholds are sharp as the Glauber dynamics slows down exponentially above them. These results overcome the challenge of bounding mixing times without access to correlation decay bounds in the presence of pinnings (i.e., without spectral independence or strong spatial mixing). For this purpose, our proof introduces a new dichotomy principle: throughout the high-temperature regime, any initial spin distribution is either such that its pinnings ensure good correlation decay, or Glauber dynamics escapes from that distribution quickly. We expect this kind of dichotomy to have further applications. As a demonstration, we also develop its analog for random-cluster dynamics and use it to prove that Swendsen-Wang dynamics on random $Δ$-regular graphs mixes in $O(\\log n)$ time throughout uniqueness. The results in this paper were arrived at with the assistance of ChatGPT 5.6 and 6.",
+      "published": "2026-10-30",
+      "categories": [
+        "math.PR",
+        "cs.DM",
+        "math-ph"
+      ],
+      "tags": [
+        "mixing time"
+      ]
+    },
+    {
+      "id": "2610.41096",
+      "url": "https://arxiv.org/abs/2610.41096",
+      "title": "Unavoidable flats in matroids excluding a uniform minor",
+      "authors": [
+        "Wayne Ge"
+      ],
+      "abstract": "We extend a theorem of Geelen, Kroeker, and Nelson on unavoidable flats in $\\operatorname{GF}(q)$-representable matroids. For all integers $1\\le a\\le b$ and $n\\ge1$, we prove that every simple matroid of sufficiently large rank with no $U_{a,b}$-minor has a rank-$n$ flat whose restriction is free or isomorphic to a projective or affine geometry over a finite field.",
+      "published": "2026-10-30",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.41631",
+      "url": "https://arxiv.org/abs/2610.41631",
+      "title": "Numerical Kawamata--Viehweg vanishing for rank-three matroids",
+      "authors": [
+        "Ronnie Cheng"
+      ],
+      "abstract": "We prove the numerical Kawamata--Viehweg conjecture for every matroid of rank three: the Euler characteristic of the inverse of an integral big and nef line bundle class is nonnegative. The proof reduces the conjecture to an inequality for a stone game.",
+      "published": "2026-10-30",
+      "categories": [
+        "math.CO",
+        "math.AG"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.41985",
+      "url": "https://arxiv.org/abs/2610.41985",
+      "title": "Suspense and surprise in matroid bingo",
+      "authors": [
+        "Matthew Baker"
+      ],
+      "abstract": "We present the game of Matroid Bingo and prove that it gets more suspenseful the longer the game goes on.",
+      "published": "2026-10-30",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2610.42011",
+      "url": "https://arxiv.org/abs/2610.42011",
+      "title": "The C-3PO Framework: Algorithms for $\\#\\mathrm{BIS}$-Hard Problems on Graphs with Low Threshold Rank or High Girth",
+      "authors": [
+        "Ijay Narang"
+      ],
+      "abstract": "We give approximate counting and sampling algorithms for spin models on graphs of low threshold rank or high girth. Given any $n$-vertex graph $G$, let $k_η= k_η(G)$ count normalized-Laplacian eigenvalues strictly below $η$. For $\\varepsilon > 0$, an $\\varepsilon$-approximate counting algorithm outputs an estimate $\\widehat Z$ of the partition function $Z$ satisfying $(1-\\varepsilon)Z\\le\\widehat Z\\le(1+\\varepsilon)Z$ with probability at least $3/4$. An $\\varepsilon$-approximate sampling algorithm outputs a configuration whose distribution is within total variation distance $\\varepsilon$ of the target distribution. We give the following results: (a) Ferromagnetic Potts. Fix $q\\ge2$ and $η\\in(0,1]$. There exists $β_0(q,η)$ such that, for every inverse temperature $β\\geβ_0$, the zero-field $q$-state Potts model admits approximate counting and sampling algorithms: (i) On arbitrary graphs in time $\\exp(O(k_η))\\operatorname{poly}(n,1/\\varepsilon).$ (ii) Fix $Δ\\ge 3$. On $Δ$-regular graphs of girth $g$ in time $\\exp(O(n e^{-g})) \\operatorname{poly}(n,1/\\varepsilon).$ (b) Bipartite hard-core. Fix $Δ\\ge3$ and $η\\in(0,1]$. There exists $λ_0(Δ,η)$ such that, for every fugacity $λ\\geλ_0$, the hard-core model admits approximate counting and sampling: (i) On $Δ$-regular vertex-transitive bipartite graphs in time $\\exp(O (k_η))\\operatorname{poly}(n,1/\\varepsilon).$ (ii) On $Δ$-regular bipartite graphs of girth $g$ in $\\exp(O(n e^{- g}))\\operatorname{poly}(n,1/\\varepsilon).$ All four results follow from verifying the hypotheses of a new framework we call C-3PO. At a high level, the C-3PO algorithm proceeds by enumerating small cuts and reconstructing the original measure through cluster expansions. Underlying the algorithm is an improvement of subspace enumeration methods via active regression.",
+      "published": "2026-10-30",
+      "categories": [
+        "cs.DS",
+        "cs.DM"
+      ],
+      "tags": [
+        "Laplacian eigenvalue"
+      ]
+    },
+    {
+      "id": "2610.42088",
+      "url": "https://arxiv.org/abs/2610.42088",
+      "title": "Delocalized region of bipartite Erdős-Rényi graphs",
+      "authors": [
+        "Johannes Alt",
+        "Serafina Wald"
+      ],
+      "abstract": "We consider bipartite Erdős-Rényi graphs $\\mathbb{G}(n, p, d/\\sqrt{np})$ with two parts of sizes $n$ and $p$, respectively, and edge probability $d/\\sqrt{pn}$. We show that for $d > b_* \\log (n+p)$ all eigenvectors of its adjacency matrix, with eigenvalues away from zero, are delocalized with high probability. The threshold $b_*$ is an explicit function of the size ratio $n/p$ and optimal for eigenvector delocalization near the spectral edges. Our results extend to bulk eigenvectors down to the optimal threshold $d\\geq \\mathcal{D}\\sqrt{\\log (n+p)}$ for a constant $\\mathcal D \\geq 1$. In the supercritical scale $d \\gg \\log (n+p)$ we show that all eigenvectors are delocalized. Our results also hold for sparse rectangular random matrices with independent entries.",
+      "published": "2026-10-30",
+      "categories": [
+        "math.PR",
+        "math-ph",
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2610.41515",
+      "url": "https://arxiv.org/abs/2610.41515",
+      "title": "Invariant probability measures for path-dependent regime-switching processes",
+      "authors": [
+        "Jianrui Li",
+        "Jinghai Shao"
+      ],
+      "abstract": "We consider stochastic functional differential equations with Markovian regime?switching on an (infinitely) countable state space. Via establishing the Feller prop?erty and contraction in L1-Wasserstein distance of the semigroup associated with the segment process, we show the existence and uniqueness of invariant probability measure. In order to cope with switching processes on an infinite state space, we de?velop a truncation method based on a new construction of order preserving coupling for Markov chains to generalize the estimation of exponential functionals for Markov chains with infinite states. The existing sharp estimation is only valid for Markov chains on a finite state space, as it fundamentally relies on the Perron-Frobenius theorem.",
+      "published": "2026-10-30",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
     {
       "id": "2610.39345",
       "url": "https://arxiv.org/abs/2610.39345",
@@ -268,6 +527,25 @@
       ]
     },
     {
+      "id": "2610.40844",
+      "url": "https://arxiv.org/abs/2610.40844",
+      "title": "Stochastic Minimum Spanning Tree Identification with Binary Weights",
+      "authors": [
+        "Haya Diwan",
+        "Lisa Hellerstein",
+        "Sanjeev Khanna",
+        "Junkai Song"
+      ],
+      "abstract": "We introduce the Stochastic MST Identification Problem, with binary weights. In this problem, we need to identify a minimum spanning tree (MST) of a graph, each of whose edge weights is either 0 or 1. The weight of each edge $e$ is a random variable which is 1 with probability $p_e$ and 0 with probability $1-p_e$. The probability $p_e$ is given for each edge $e$, but the realized weight of an edge can only be determined by querying the edge. The problem is then to determine a strategy for querying the edges of the graph that minimizes the expected number of queries that need to be performed until we can identify a subset of edges that form an MST of the graph. We address both adaptive and non-adaptive versions of this problem. For the non-adaptive version of our Stochastic MST Identification problem, we give an $O(\\log E)$-approximation algorithm via a reduction to submodular ranking. For the adaptive version, we show that solving the problem is trivial when all $p_e$ are equal to 1/2, because of a relation to the Tutte polynomial. However, computing the expected cost of an optimal querying strategy is #P-hard, even when all $p_e$ equal $\\frac{1}{2}$. For arbitrary $p_e$ values, we present a constant-factor approximation algorithm for simple planar graphs. We investigate the question of whether the submodular goal value approach of Deshpande et al. could be used to achieve a $\\log$-factor approximation algorithm that would work for arbitrary $p_e$ values and general graphs. In this context, we address the structural question of determining optimal submodular goal values for MST identification in graphs.",
+      "published": "2026-10-29",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "spanning tree"
+      ]
+    },
+    {
       "id": "2610.40555",
       "url": "https://arxiv.org/abs/2610.40555",
       "title": "Convergence of a drainage network model with branching to the Brownian net",
@@ -300,6 +578,25 @@
       "tags": [
         "stochastic block model",
         "expander graph"
+      ]
+    },
+    {
+      "id": "2610.41002",
+      "url": "https://arxiv.org/abs/2610.41002",
+      "title": "Lengths of closed geodesics on random non-compact hyperbolic surfaces",
+      "authors": [
+        "Malo Gatignol",
+        "Joe Thomas"
+      ],
+      "abstract": "We study the asymptotic distribution of the number of primitive, closed geodesics on Weil-Petersson random hyperbolic surfaces with genus $g$ and $n(g)$ cusps, under various growth rates of $n(g)$ as $g\\to\\infty$. We prove that the limiting distribution is Poisson with parameter depending explicitly on the limit of $n(g)^2/g$. This work is inspired by that of Mirzakhani and Petri's on closed surfaces and Hide and Thomas when $g$ is fixed. Our proof relies on first order expansions for Weil-Petersson moduli space volumes in the $n(g)/g\\to 0$ regime. We also obtain some new existence results for small Laplacian eigenvalues.",
+      "published": "2026-10-29",
+      "categories": [
+        "math.GT",
+        "math.PR",
+        "math.SP"
+      ],
+      "tags": [
+        "Laplacian eigenvalue"
       ]
     },
     {
@@ -389,6 +686,25 @@
       ],
       "tags": [
         "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2610.40942",
+      "url": "https://arxiv.org/abs/2610.40942",
+      "title": "Immersed Boundary Electrodiffusion in the Wasserstein Gradient Flow Formalism: Global Well-Posedness, Non-Equilibrium Thermodynamics, and Singular Asymptotics",
+      "authors": [
+        "Pilhwa Lee"
+      ],
+      "abstract": "We introduce a unified optimal transport framework for the Immersed Boundary (IB) electrodiffusion active pump model. By representing membrane chemical potential barriers and active pump potentials via smoothed Eulerian kernels ($Ψ_w, \\mathcal{H}_w$), we formulate the passive dynamics as an $L^2$-Wasserstein ($W_2$) gradient flow coupled to non-conservative active pushing fields representing ATP-driven $3:2$ $\\text{Na}^+/\\text{K}^+$ exchangers. We establish global weak existence of solutions to the continuous Poisson--Nernst--Planck--IB system via a split-step Jordan--Kinderlehrer--Otto (JKO) variational scheme, backed by Calderón--Zygmund bounds for non-local Poisson drift and $H^3(\\mathbb{S}^1)$ interface regularity under Stokes flow. We prove the continuous Rayleighian energy balance and establish exponential $W_2$-stability of Non-Equilibrium Steady States (NESS) under a quantitative Bakry--Émery curvature threshold. Furthermore, we analyze the dual singular limits of kernel smoothing width $w \\to 0$ and dimensionless Debye length $g = λ_D / L \\to 0$. We establish the precise asymptotic regime connecting regularized and sharp models, prove the $Γ$-convergence of regularized energy functionals, derive distributional interface flux jump conditions, and resolve $O(λ_D)$ Debye space-charge boundary layers to confirm bulk electroneutrality.",
+      "published": "2026-10-29",
+      "categories": [
+        "math.AP",
+        "math.NA",
+        "math.OC",
+        "q-bio.CB"
+      ],
+      "tags": [
+        "optimal transport"
       ]
     },
     {
