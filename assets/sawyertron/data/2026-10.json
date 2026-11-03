@@ -1,8 +1,199 @@
 {
   "month": "2026-10",
-  "generated_at": "2026-11-02T20:23:47+00:00",
+  "generated_at": "2026-11-03T17:54:06+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2611.00717",
+      "url": "https://arxiv.org/abs/2611.00717",
+      "title": "Cutoff for Simple Random Walk on Preferential Attachment Graphs",
+      "authors": [
+        "Allan Sly",
+        "Seoyeon Yang"
+      ],
+      "abstract": "We consider simple random walk on the sequential affine preferential attachment graphs with fixed parameters $m\\ge2$ and $δ\\ge0$. We prove the walk has total-variation cutoff, and for every fixed $\\varepsilon\\in(0,1)$, \\[ t_{\\mathrm{mix}}^{(n)}(\\varepsilon) =\\frac{\\log n}{νd} +O_{\\mathbb P}\\!\\left(\\sqrt{\\log n}\\right), \\] where $ν>0$ is the walk speed and $d>0$ is the entropy per level of harmonic measure on the Pólya--point tree, the local weak limit of the graph. Thus cutoff occurs at the entropic time. Entropic cutoff was previously established for a range of random graph models including configuration models under mild degree assumptions and on Erdős--Rényi random graphs for typical starting points. We extend the harmonic-measure approach to preferential attachment, accounting for its age-dependent structure and hubs of polynomial degree. The local weak limit, the Pólya--point tree, provides a more tractable setting for analyzing the walk. The proof combines regeneration estimates on the local limit tree, a quantitative graph--tree coupling on the mixing-time scale, and control of hub excursions. We show that shortly before the cutoff time its distribution is close in total variation distance to a measure with small $L^\\infty$ distance from stationarity. When $m\\ge2$, the spectral gap is bounded away from zero with high probability which completes the upper-bound coupling argument.",
+      "published": "2026-10-31",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk",
+        "random graph"
+      ]
+    },
+    {
+      "id": "2611.00682",
+      "url": "https://arxiv.org/abs/2611.00682",
+      "title": "Testing MAX-CUT in the Adjacency Matrix Model: Tight Non-Adaptive Bounds and a Cubic Adaptive Lower Bound",
+      "authors": [
+        "Songhua He"
+      ],
+      "abstract": "We study the query complexity of approximating the MAX-CUT value to additive error $\\varepsilon n^2$ in the adjacency matrix model. This was one of the first problems studied in the area of graph property testing [GGR, JACM'1998]. Previously, the best known upper bound for both adaptive and non-adaptive algorithms was $O(1/\\varepsilon^6)$ [MS, SODA'2008; GMRS, ICALP'2022]. The only known lower bound was a trivial $Ω(1/\\varepsilon^2)$ bound. We close this gap from both sides for non-adaptive algorithms, proving that its query complexity is exactly $Θ(1/\\varepsilon^4)$. We also prove an adaptive $Ω(1/\\varepsilon^3)$ lower bound. Our upper bound is achieved by a canonical tester that samples $O(1/\\varepsilon^2)$ vertices in expectation and outputs the rescaled MAX-CUT value of the induced subgraph. We prove its correctness by applying spectral truncation to the adjacency matrix, using a geometric argument to control the sampling error of the retained low-rank part and a cut-norm restriction estimate [RV, JACM'2007] for the remainder. As an application, an analogous proof also yields a tight $O(1/\\varepsilon^4)$ non-adaptive query upper bound for MAX-2CSP. For our lower bounds, we show indistinguishability between a uniform random graph and a distribution that plants a hidden partition. For the non-adaptive lower bound, we observe that one plus the $χ^2$-divergence between the query transcript distributions is exactly a normalized Ising partition function, which can be bounded using Boolean hypercontractivity. For the adaptive lower bound, we view each query through the algorithm's ability to predict whether its endpoints lie in the same part of the hidden partition. We bound the combined advantage of these predictions using the completed transcript, which lets us analyze the adaptively chosen pairs together despite their dependence on earlier answers.",
+      "published": "2026-10-31",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "adjacency matrix",
+        "random graph"
+      ]
+    },
+    {
+      "id": "2611.00626",
+      "url": "https://arxiv.org/abs/2611.00626",
+      "title": "Lorentzian entropy, subgaussian matrix concentration, and sharp functional inequalities for all matroids",
+      "authors": [
+        "Eren Ercan"
+      ],
+      "abstract": "We prove complete entropy contraction for homogeneous Lorentzian laws and derive subgaussian matrix concentration and sharp functional inequalities for every matroid. Uniform retention of $\\ell$ out of $r$ particles contracts matrix entropy by the optimal universal factor $\\ell/r$, in every finite matrix dimension and positive field, including repeated labels. The matrix Laplace comparison retains matrix variance and arbitrary Hermitian offsets. It gives subgaussian bounds for arbitrary Hermitian observables with bounded exchange differences, and Chernoff and Bernstein bounds for basis sums. Every unit-edge matroid basis graph satisfies the cube's small-set and Gross inequalities, with equality classified and optimal universal complete entropy-decay rate four. Its spectrum lies in $\\{0,2\\}\\cup[3,\\infty)$, with binary direct-factor contrasts spanning the eigenspace at two. We classify extremal down-up eigenfunctions, resolving Alaniz Pintos's degree-one conjecture and the equality problem for the Feder--Mihail walk. For degree at least two, every matrix entropy extremizer extends uniquely from its two-particle marginal. Equality depends only on the normalized pair law, with noncommutativity confined to mutually exclusive labels. We classify power-entropy extremizers for $1<p<2$ and give a fourth-order criterion for affine equality. Retained-level Gibbs reconstruction has sharp dimension-independent stability. For multiaffine laws whose generating polynomial and complement are Lorentzian, we determine the exact simultaneous all-field quantum marginal and matrix Hölder regions and classify the sharp half-marginal fields. Connected sharp laws are determinantal through rank three; stable nondeterminantal examples exist in every higher rank.",
+      "published": "2026-10-31",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matrix concentration",
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.01020",
+      "url": "https://arxiv.org/abs/2611.01020",
+      "title": "Spanning tree with bounded degree sum of two adjacent vertices",
+      "authors": [
+        "Pham Hoang Ha"
+      ],
+      "abstract": "In this paper, we first give a sharp sufficient condition on degree sum for a connected graph to have a spanning tree whose maximum of degree sum of two adjacent vertices are bounded. These improve some previous results on the spanning tree with bounded maximum degree. Next, we also use our main result to study the generalized rainbow connection of graphs. In particular, we give some degree sum conditions for a connected graphs to have a bounded (1,2)- rainbow connection number.",
+      "published": "2026-10-31",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2611.00479",
+      "url": "https://arxiv.org/abs/2611.00479",
+      "title": "A Note on the NP-Hardness on Quadratic Optimization over Doubly Stochastic Matrices and the Gromov-Wasserstein Problem",
+      "authors": [
+        "Yong Sheng Soh"
+      ],
+      "abstract": "The Gromov-Wasserstein problem is an extension of the regular optimal transport problem that is adapted for pairs of distributions residing in incomparable spaces. Broadly speaking, given a pair of metric measure spaces, the Gromov-Wasserstein problem seeks couplings between these spaces that minimize the distortion between the metric evaluations. In this note we record the fact that the Gromov-Wasserstein distance between finite metric spaces is NP-Hard to compute. Our argument relies on a reduction from the Hamiltonian Cycle Problem, and it builds on ideas in Vayer's thesis and Ryner et. al's work that draw connections between the 2-Gromov-Wasserstein and the Quadratic Assignment Problem. During the preparation of this manuscript we learned of the appearance of Breitung et. al's work, whose result essentially supersedes ours. We hope this note serves as a useful companion whose proof is, hopefully, more elementary and easier to understand.",
+      "published": "2026-10-31",
+      "categories": [
+        "math.OC",
+        "math.MG"
+      ],
+      "tags": [
+        "optimal transport",
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.01121",
+      "url": "https://arxiv.org/abs/2611.01121",
+      "title": "Non-backtracking Laplacian for hypergraphs",
+      "authors": [
+        "Eleonora Andreotti",
+        "Raffaella Mulas"
+      ],
+      "abstract": "We extend the non-backtracking Laplacian for graphs, introduced by Jost, Mulas and Torres, to hypergraphs. The operator is defined on the permutations of the edges and is normalized by the number of edges through which a non-backtracking walk can continue. We show that it satisfies a symmetry that generalizes the graph case, and that it can be obtained from the random walk Laplacian of a directed graph by rescaling if and only if all edges have the same cardinality. Moreover, we show that, up to copies of the eigenvalue $1$, its spectrum can be computed from a much smaller matrix indexed by the incidences of the hypergraph, and we use this reduction to bound the remaining eigenvalues away from $1$.",
+      "published": "2026-10-31",
+      "categories": [
+        "math.CO",
+        "math.SP"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.01279",
+      "url": "https://arxiv.org/abs/2611.01279",
+      "title": "The Prodigal Elephant Returns: Last-Return Laws in the Superdiffusive Regime",
+      "authors": [
+        "Hélio Trinas"
+      ],
+      "abstract": "Let $(S_n)$ be the one-dimensional elephant random walk with memory parameter $p\\in(3/4,1)$ and first-step probability $q=\\mathbb{P}(S_1=1)\\in[0,1]$. Set $a=2p-1$, and let $f_{q,a}$ denote the density of the almost-sure limit of $S_n/n^a$. We prove that the last return time $T_0=\\sup\\{m\\geq0:S_m=0\\}$ satisfies: $\\mathbb{P}(T_0\\geq n)\\sim f_{q,a}(0)\\sqrt{\\frac{8}{π(2a-1)}}n^{-(a-1/2)}$. Reflection gives $f_{q,a}(0)=f_{1,a}(0)$, so the constant is independent of $q$. For future walks started from admissible states $(n,x_n)$ with $x_n/\\sqrt n\\to z$, we establish functional convergence of the centered martingale-normalized paths to a time-changed Brownian motion. Uniform control of late hitting times then gives the eventual-return kernel $2Φ(-\\sqrt{2a-1}|z|)$, uniformly on bounded scaled windows, where $Φ$ is the standard normal distribution function. The same last-visit asymptotic holds uniformly for nonempty deterministic targets $F_n\\subseteq[-r_n,r_n]\\cap\\mathbb{Z}$, $r_n=o(\\sqrt n)$, held fixed during each trajectory. Conditionally on $T_0\\geq n$, we identify the joint limit of $S_n/\\sqrt n$, the next return divided by $n$, and the last return divided by the next return. The last ratio converges to $A^{-1/(2a-1)}$, independently of the other two limiting coordinates, where $A$ has the arcsine distribution on $(0,1)$.",
+      "published": "2026-10-31",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.01102",
+      "url": "https://arxiv.org/abs/2611.01102",
+      "title": "A matroid characterization of the combinatorially symmetric maximum nullity of a graph",
+      "authors": [
+        "Louis Deaett",
+        "Veronika Furst",
+        "John Hutchens",
+        "Lon Mitchell"
+      ],
+      "abstract": "The graph parameter ${\\mathrm N}(G)$ is the maximum nullity among all combinatorially symmetric matrices associated to a graph $G$. The zero forcing number ${\\mathrm Z}(G)$ is a well-known upper bound for ${\\mathrm N}(G)$, and a zero forcing set of $G$ is exactly a set that intersects each fort of the graph. So the zero forcing number can be defined as the size of a minimum set that intersects every fort of $G$. This paper provides a similar characterization of ${\\mathrm N}(G)$ that is purely combinatorial, using a connection to matroid theory and collections of forts that are compatible in a certain sense. We provide several examples highlighting subtle differences among compatible collections of forts and how they relate to full spark matrices and matroids associated to $G$.",
+      "published": "2026-10-31",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.01241",
+      "url": "https://arxiv.org/abs/2611.01241",
+      "title": "Representability of Graphical Symplectic Matroids",
+      "authors": [
+        "Sayantan Ganguly"
+      ],
+      "abstract": "Chow associated with every finite multigraph $G$ a symplectic matroid $\\GraphS{G}$ on the signed edge set $E\\sqcup E^{*}$, whose restrictions to transversals are frame matroids of signed graphs, and Sarvepalli asked which of these matroids are representable. For a connected graph containing a cycle, we show that every isotropic representation of $S(G)$ admits an incidence-flow normal form. The remaining representation conditions are expressed through its admissible minors. Consequently, if $\\GraphS{G}$ is $\\F$-representable, then the bridgeless part of $G$ has a nowhere-zero $(\\F,+)$-flow. In characteristic other than two, $\\GraphS{G}$ is representable if and only if every non-loop edge on a cycle has a parallel mate. In characteristic two, we characterize the loopless graphs without two vertex-disjoint cycles by the existence of a nowhere-zero $(\\F,+)$-flow, and we show that rigidly linked short cycles, and hence subdivisions of the prism, are obstructions. For $3$-connected simple graphs this gives a complete answer: $\\GraphS{G}$ is $\\F$-representable if and only if $\\F$ has characteristic two, $G$ has no two vertex-disjoint cycles, and either $|\\F|>2$ or $G\\cong K_5$. In particular, the matroid of the Petersen graph is representable over no field. Finally, the admissible corank--nullity polynomial of an arbitrary symplectic matroid is intrinsic and satisfies a three-term contraction identity. For graphical symplectic matroids, this becomes a deletion-contraction recursion that closes up once marked vertices are allowed, and polynomials built from enveloping matroids agree with it exactly for sheltering envelopes.",
+      "published": "2026-10-31",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.00567",
+      "url": "https://arxiv.org/abs/2611.00567",
+      "title": "Sedentariness in Cayley graphs",
+      "authors": [
+        "Karen Meagher",
+        "Hermie Monterde",
+        "Tung T. Nguyen"
+      ],
+      "abstract": "Let $A$ be the adjacency matrix of a finite graph $Γ$. We say that vertex $u$ of $Γ$ is sedentary if for some constant $C>0$, $|\\exp(itA)_{u,u}|\\geq C$ for all $t\\in\\mathbb{R}$. In this paper, we investigate vertex sedentariness in walk-regular graphs with a focus on Cayley graphs and, more generally, vertex-transitive graphs. In particular, we define the necklace polynomial of an integral graph and use this notion to characterize sedentariness in integral walk-regular graphs. As an application, we use basic tools from algebraic number theory to show that an integral Cayley graph on a group of odd order is sedentary and provide a lower bound on its sedentariness. We also give sufficient conditions such that a unitary Cayley graph over a finite ring is sedentary. Furthermore, we characterize the existence of twin vertices in Cayley graphs and vertex-transitive graphs, and completely determine the occurrence of sedentariness, perfect state transfer and pretty good state transfer in vertex-transitive graphs with twins. Finally, we prove that if $Γ(G,S)$ is a nonempty, integral, normal Cayley graph, then for any prime $p$ with $\\gcd(p, |G|)=1$, there is at least one eigenvalue of $Γ(G,S)$ which is not a multiple of $p$. This generalizes a result of Arnadottir and Godsil, which states that an integral normal Cayley graph of odd order possesses an odd eigenvalue.",
+      "published": "2026-10-31",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2611.00817",
+      "url": "https://arxiv.org/abs/2611.00817",
+      "title": "Maxima of the Q-index: Forbidden an odd wheel",
+      "authors": [
+        "Hongyu Wang",
+        "Yue Ma"
+      ],
+      "abstract": "In 2013, Freitas, Nikiforov and Patuzzi (EJLA, 2013) proposed the problem of determining the maximum signless Laplacian spectral radius of an $n$-vertex $F$-free graph. Recently, Yuan, Zhai and Zhang (LAA, 2026) determined the maximum signless Laplacian spectral radius of graphs without wheels of sufficiently large order. In this paper, we consider the problem of forbidding a single wheel $W_{2k+1}=K_1\\vee C_{2k}$. We show that, for every fixed integer $k\\ge 3$ and sufficiently large $n$, the unique extremal graph maximizing the signless Laplacian spectral radius among all $n$-vertex $W_{2k+1}$-free graphs is $K_k\\vee(K_2\\cup(n-k-2)K_1)$.",
+      "published": "2026-10-31",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "signless Laplacian"
+      ]
+    },
     {
       "id": "2610.42107",
       "url": "https://arxiv.org/abs/2610.42107",
@@ -22,6 +213,24 @@
         "random walk",
         "simple random walk",
         "random graph"
+      ]
+    },
+    {
+      "id": "2611.00353",
+      "url": "https://arxiv.org/abs/2611.00353",
+      "title": "Stability, discretization, and optimality of continuous-time causal optimal transport",
+      "authors": [
+        "Yifan Jiang",
+        "Fang Rui Lim"
+      ],
+      "abstract": "We prove stability of continuous-time causal and bicausal optimal transport problems when both marginals converge in adapted Wasserstein distance along common vanishing time shifts. The marginal laws, filtrations, and costs may all vary, while the limit remains the original causal or bicausal transport problem. This allows for time discretization and the approximation of transport problems between non-degenerate scalar fractional stochastic differential equations by their Wong--Zakai schemes. We further establish sufficient conditions so that the synchronous coupling is optimal for the bicausal transport problem between scalar fractional stochastic differential equations under continuous, nonnegative submodular costs of polynomial growth. This result covers all Hurst parameters \\(H\\in(0,1)\\) up to an additional order-preserving commutator condition on the corresponding coefficients for the rough regime \\(H\\in(0,1/2)\\).",
+      "published": "2026-10-30",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "optimal transport",
+        "Wasserstein distance"
       ]
     },
     {
@@ -91,7 +300,7 @@
       "authors": [
         "Haoran Zhu"
       ],
-      "abstract": "We study the random walk on a Cayley graph of a finite group whose generators are chosen independently and uniformly at random. We show that, for every finite group, the walk exhibits cutoff with high probability whenever the number of generators is large compared with the logarithm of the order of the group but small compared with every positive power of it. The cutoff time is the time at which the expected entropy of the walk comes close to its maximum, and in general it depends on the structure of the group. This settles a conjecture of Aldous and Diaconis.",
+      "abstract": "We study the random walk on a Cayley graph of a finite group whose generators are chosen independently and uniformly at random. We show that, for every finite group, the walk exhibits cutoff with high probability whenever the number of generators is at least a constant multiple of the logarithm of the order of the group and small compared with every positive power of it. This holds for both undirected and directed Cayley graphs, in discrete and continuous time, and the lower bound on the number of generators is best possible, up to the value of the constant. The cutoff time is the time at which the expected entropy of the walk comes close to its maximum, and in general it depends on the structure of the group. This settles a conjecture of Aldous and Diaconis.",
       "published": "2026-10-30",
       "categories": [
         "math.PR",
@@ -257,6 +466,25 @@
       "published": "2026-10-30",
       "categories": [
         "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.00259",
+      "url": "https://arxiv.org/abs/2611.00259",
+      "title": "Model Collapse Is Avoidable Even as Real Data Vanishes: A Sharp Criterion for Iterative Gaussian Estimation",
+      "authors": [
+        "Roy Turgeman",
+        "Tom Tirer"
+      ],
+      "abstract": "Large generative models are commonly trained on data collected from the open web, which may contain data produced by previous generations of the same model. Previous work has shown that recursively training on model-generated data can progressively degrade model performance, a phenomenon known as model collapse. Yet, generative models continue to improve dramatically over time. Existing theory suggests that this is enabled by the availability of new real data at each iteration, kept separate from generated data. However, exact separation is not realistic, and uncurated data is still commonly used. We bridge this gap by considering a more realistic setup in which real and generated data are not handled differently during training. Specifically, we present a comprehensive theoretical study of iterative estimation of the mean and covariance of a multivariate Gaussian distribution. At each iteration, samples are drawn from a mixture of the real data distribution and the estimated distribution from the previous iteration, but are used indistinguishably. We provide a single equivalent condition for consistency of the mean and covariance estimators in Euclidean norms, and convergence to zero of the expected squared 2-Wasserstein distance between the estimated and true distributions. Using this result, we show that consistency holds, i.e., model collapse is avoided, for any fixed real data fraction above zero, and even for a fraction that vanishes across iterations, provided it does not vanish too quickly. However, more real data (or data curation) remains important at practical finite times: the convergence rate of the mean estimator deteriorates as the real data fraction approaches zero. We support our results with an empirical investigation of the theoretical setup, and with experiments on iterative training of a diffusion model on CIFAR-10 that correlate with our theory.",
+      "published": "2026-10-30",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.ST"
       ],
       "tags": [
         "Wasserstein distance"
@@ -543,6 +771,25 @@
       ],
       "tags": [
         "spanning tree"
+      ]
+    },
+    {
+      "id": "2611.00123",
+      "url": "https://arxiv.org/abs/2611.00123",
+      "title": "Uniform duplication-divergence random graphs I: Degrees and Local Limits",
+      "authors": [
+        "Partha S. Dey",
+        "Neeladri Maitra",
+        "Jaya M. Manthripragada",
+        "Grigory Terlov"
+      ],
+      "abstract": "We study a growing random graph in which each new vertex chooses a uniformly random parent, joins that parent with probability $r\\in(0,1]$, and independently joins each of the parent's current neighbors with probability $p\\in(0,1)$. Let $p_c$ be the unique solution of $p_c e^{p_c}=1$. For $0<p<p_c$, we prove that the empirical degree distribution converges in probability to the stationary distribution $π$ of an explicit reset-and-growth Markov chain. Its upper tail satisfies $π((y,\\infty))\\sim C_{p,r}y^{-κ}$, where $C_{p,r}>0$ and $κ>0$ solves $p^κ+pκ=1$. This confirms predictions from physics (Lambiotte, Krapivsky, Bhat and Redner, \\textit{Physical Review Letters}, 2016). We further show that for every fixed radius $\\ell$ and $p<p_c$, the empirical distribution of induced rooted $\\ell$-neighborhoods converges to the invariant law of a graph-valued reset-and-growth Markov process. We give an explicit construction of the limiting graph using a marked ancestral genealogy. Its root component is almost surely finite for $r<1$, and infinite with exactly one end for $r=1$. Moreover, for every $0<p<1$, both the fixed-vertex degrees and the maximum degree grow on the scale $t^p$, and the vertex of maximum degree is eventually unique and persistent.",
+      "published": "2026-10-29",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random graph"
       ]
     },
     {

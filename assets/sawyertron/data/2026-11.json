@@ -1,6 +1,536 @@
 {
   "month": "2026-11",
-  "generated_at": "2026-11-02T20:23:47+00:00",
+  "generated_at": "2026-11-03T17:54:06+00:00",
   "source": "arXiv metadata API",
-  "papers": []
+  "papers": [
+    {
+      "id": "2611.02329",
+      "url": "https://arxiv.org/abs/2611.02329",
+      "title": "Random Walk on age-preferential random growth processes",
+      "authors": [
+        "Jia-shan Tang",
+        "Feng Wang",
+        "Xian-Yuan Wu"
+      ],
+      "abstract": "This paper studies a class of \\textbf{exponentially age-preferential random growth graphs} $G(m,β)$: at each time $n$ a new vertex $v_n$ is added, and $m$ edges are drawn to existing vertices independently, with the probability that a target $v_k$ is chosen proportional to $e^{βk}$ ($β>0$), so that the graph's growth strongly favors ``young'' vertices. We systematically investigate two fundamental probabilistic problems of this model and supply the proof details: (1)~\\textbf{Recurrence}: when $β>0$, the simple random walk on $G$ is recurrent with probability $1$ (Theorem~\\ref{thm:rec}); (2)~\\textbf{Infinite collisions}: for every $β>0$, two independent simple random walks on $G$ meet infinitely often with probability $1$ (Theorem~\\ref{thm:icp}). The core of the proof is the following: by the Borel--Cantelli lemma combined with the \\textbf{memoryless property} of exponential weights, $G$ is almost surely ``sausage-like'' --- there exist infinitely many bottlenecks consisting of exactly $m$ parallel edges; the cascade of bottlenecks makes the effective resistance diverge, yielding recurrence; the renewal process $\\{T_k\\}$ constructed at the bottleneck times has i.i.d.\\ stationary increments with finite moments of every order for the first-passage times, and combined with a moderate-deviation estimate we verify Peres' Green-function criterion for infinite collisions.",
+      "published": "2026-11-02",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "effective resistance",
+        "random walk",
+        "simple random walk"
+      ]
+    },
+    {
+      "id": "2611.02998",
+      "url": "https://arxiv.org/abs/2611.02998",
+      "title": "Local limit Theorem for Directed polymers in a random environment in the full weak disorder regime",
+      "authors": [
+        "Stefan Junk",
+        "Hubert Lacoin"
+      ],
+      "abstract": "For directed polymers in random environment, we provide a short and mostly self-contained proof of the local limit theorem in the full weak disorder phase, including the critical inverse temperature $β_c$. That is, the point-to-point partition function is well approximated by the product of two independent point-to-line partition functions (one starting from each endpoint of the system) multiplied by the simple random walk transition kernel. The approximation is valid in the $L^p$ sense for an optimal range of $p$. The result is new at $β=β_c$ and for $p>2$, and in all cases the proof is significantly simpler, technically and conceptually, than what can be found in the literature. As a consequence of the result we establish an invariance principle for the polymer measure with fixed end-point, valid for all $β\\in [0,β_c]$.",
+      "published": "2026-11-02",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk"
+      ]
+    },
+    {
+      "id": "2611.03457",
+      "url": "https://arxiv.org/abs/2611.03457",
+      "title": "Expander Routing under Adversarial Deletions via Temporal Aggregation",
+      "authors": [
+        "Bernhard Haeupler",
+        "Anton Paramonov"
+      ],
+      "abstract": "In expander routing, we seek to establish paths in the expander graph between given source-target pairs while minimizing both dilation (maximum path length) and congestion (maximum edge load). We study this problem in a decremental dynamic setting where the underlying graph remains an expander despite ongoing edge deletions, and source-target pairs can be added or removed. Our goal is to maintain paths under these updates while keeping dilation and congestion low and performing low computation per update. We present a randomized algorithm that maintains paths with polylogarithmic dilation and congestion against an adaptive adversary, while incurring only polylogarithmic amortized computation per update, all with high probability. Our approach leverages a recent technique called Temporal Aggregation to maintain a collection of low-congestion, low-dilation random walks resilient to adaptive adversaries.",
+      "published": "2026-11-02",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "random walk",
+        "expander graph"
+      ]
+    },
+    {
+      "id": "2611.03573",
+      "url": "https://arxiv.org/abs/2611.03573",
+      "title": "Dynamical Unbalanced Optimal Transport: Duality, Reachability, and Computation",
+      "authors": [
+        "Dongjun Wu",
+        "Anders Rantzer"
+      ],
+      "abstract": "We study dynamical unbalanced optimal transport for nonlinear control-affine systems in which the control input affects both the transportation of mass and its growth or decay. This phenomenon arises naturally in controlled transport-reaction systems such as cancer treatment, and distinguishes the problem from standard unbalanced optimal transport, where transport and mass variation are typically independent. To address this problem, we combine classical relaxed-control theory with a weighted superposition principle to obtain an infinite-dimensional linear programming reformulation over weighted trajectories. Under suitable convexity and compactness assumptions, we show that this relaxation is tight. Based on the relaxation, we derive a Kantorovich dual formulation in terms of Hamilton-Jacobi-Bellman inequalities, and establish strong duality over smooth subsolutions. We then utilize the dual formulation to characterize reachability of the system, namely, when a given terminal measure is reachable from a given initial measure. In addition, tractable sufficient conditions for reachability are provided. Finally, we develop an augmented-Lagrangian algorithm based on the dual formulation for numerical computation of the optimal transport plan. The framework is illustrated on a phenotype-structured cancer treatment problem in which therapy simultaneously drives phenotypic adaptation and population growth or death.",
+      "published": "2026-11-02",
+      "categories": [
+        "math.OC",
+        "eess.SY"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2611.03246",
+      "url": "https://arxiv.org/abs/2611.03246",
+      "title": "A Common Language for Dynamic Graphs: Interaction Tokenization Enables Foundation Models",
+      "authors": [
+        "Fuyuan Ma",
+        "Yili Wang",
+        "Xin He",
+        "Xin Zhang",
+        "Ying Wang",
+        "Xin Wang"
+      ],
+      "abstract": "Dynamic graphs capture evolving interactions in Web systems, including online communication, user engagement, and recommendation. Graph foundation models aim to reuse predictive capabilities across networks, but extending this capability to dynamic graphs faces two challenges. First, node identities are graph-specific, and similar interaction patterns can appear at different temporal and activity scales, making histories difficult to represent consistently across networks. Second, the predictive roles of historical patterns vary across interaction dynamics, limiting transfer from a narrow range of training processes. In this paper, we show that a common interaction language, combined with learning across diverse interaction processes, offers a basis for dynamic graph foundation modeling. We propose CL-DGFM, a Common Language Dynamic Graph Foundation Model for temporal link prediction. Its Dynamic Interaction Tokenizer encodes interaction memory, historical connectivity, and ordered destination transitions into calibrated tabular inputs, making dynamic histories accessible to existing predictors without an additional trainable graph encoder. Its Dynamic Interaction Prior trains a pretrained tabular foundation predictor across diverse synthetic dynamics. Labeled historical context guides prediction, with a Contextual Value Adapter modulating attention values. The model transfers to real graphs without target-graph parameter updates. Experiments on TGB and TGB-Seq demonstrate competitive performance. Further comparisons show that the common language supports basic machine learning and neural models, and enables direct use of frozen tabular foundation models on dynamic graphs.",
+      "published": "2026-11-02",
+      "categories": [
+        "cs.LG",
+        "cs.SI"
+      ],
+      "tags": [
+        "dynamic graph"
+      ]
+    },
+    {
+      "id": "2611.03582",
+      "url": "https://arxiv.org/abs/2611.03582",
+      "title": "Local scaling limit of the four-dimensional uniform spanning tree",
+      "authors": [
+        "Runsheng Liu"
+      ],
+      "abstract": "In this paper, we prove that the uniform spanning tree of $\\mathbb Z^4$, seen from the origin, converges locally to an infinite spatial Brownian Kesten tree: a Brownian spine onto which independent spatial Brownian trees are grafted at a constant rate. The convergence holds jointly for the intrinsic metric, the volume measure and the Euclidean positions of the vertices, after rescaling these quantities by suitable constant multiples of $n^{-1}$, $n^{-2}(\\log n)^{1/3}$ and $n^{-1/2}(\\log n)^{-1/6}$, respectively, under the local rooted spatial Gromov-weak topology. The rescaled space-time occupation measure converges to that of infinite canonical super-Brownian motion. We also identify the limiting law of the rescaled intrinsic-ball volume and obtain sharp first-moment asymptotics.",
+      "published": "2026-11-02",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2611.03443",
+      "url": "https://arxiv.org/abs/2611.03443",
+      "title": "Newtonian Dynamics in Metric Spaces",
+      "authors": [
+        "Massimo Fornasier",
+        "Jona Klemenc",
+        "Alessandro Scagliotti"
+      ],
+      "abstract": "We develop a variational framework for second-order, frictionless (Newtonian) dynamics in metric spaces, extending the metric theory of curves of maximal slope from gradient flows to evolutions with inertia. The construction rests on three pillars, mirroring the first-order theory. First, we introduce a class of second-order absolutely continuous curves, characterized by a geometric--variational inequality on families of tangent geodesics, and define a metric notion of acceleration. Second, we define curves of Newtonian motion as the curves achieving equality in an energy inequality involving an upper gradient--Hessian pair, which in Hilbert spaces is equivalent to Newton's equation $\\ddotγ= -\\nabla E(γ)$. Third, we propose a two-step predictor--corrector minimizing movement scheme and show that its discrete interpolants satisfy approximate versions of these inequalities. Under extendability and interceptor conditions on geodesics---which are satisfied, for instance, by geodesically uniformly complete, locally compact spaces with curvature bounded below---and under suitable regularity assumptions on the energy, we prove that the scheme converges, up to subsequences, to a curve of Newtonian motion. As an illustration, we recover the linear wave equation as a curve of Newtonian motion driven by the Dirichlet energy. This paper is complemented by the companion paper [Fornasier, Klemenc, Scagliotti, \"A Lions Lift Framework for Gradient and Newtonian Evolutions in Wasserstein spaces\"], which specifies and adapts the results to the Wasserstein metric space $(\\mathcal{P}_2,W_2)$ through Lions lift, which explains Vlasov equations as Newtonian flows on spaces of probability measures.",
+      "published": "2026-11-02",
+      "categories": [
+        "math.OC"
+      ],
+      "tags": [
+        "Dirichlet energy",
+        "Wasserstein metric"
+      ]
+    },
+    {
+      "id": "2611.03145",
+      "url": "https://arxiv.org/abs/2611.03145",
+      "title": "Reed-Muller Codes are Optimal Binary Linear 3-Query LCCs",
+      "authors": [
+        "Oliver Janzer",
+        "Peter Manohar"
+      ],
+      "abstract": "We prove that any linear $3$-query locally correctable code $C \\colon \\mathbb{F}_2^k \\to \\mathbb{F}_2^n$ with constant correction radius must have length $n \\geq 2^{Ω(\\sqrt{k})}$. This improves on the prior best lower bound of $2^{Ω(\\sqrt{k/\\log k})}$, due to [AG24], and shows that the folklore construction of linear $3$-LCCs from Reed-Muller codes, which achieve length $n = 2^{O(\\sqrt{k})}$, is optimal up to constant factors in the exponent. Our proof builds on the approach of [KM24a], further refined in [Yan24,KM24b], that uses \"chain derived equations\" in combination with Kikuchi graphs. The crux of our argument is to show that a certain edge-coloured Kikuchi graph has a unique colour cycle: a cycle in which some colour is used exactly once. We do this by controlling the distribution of colours at each vertex in the graph using a random walk mixing argument and a novel hypergraph decomposition based on edge expansion of the hypergraph's \"flattening\" into a graph.",
+      "published": "2026-11-02",
+      "categories": [
+        "cs.IT",
+        "cs.CC",
+        "math.CO"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.02586",
+      "url": "https://arxiv.org/abs/2611.02586",
+      "title": "Dynamics of Transversal Matroids",
+      "authors": [
+        "Hin Lon Lao"
+      ],
+      "abstract": "We propose a way of generating matroids by randomly picking indicator vectors, and since we will see that it mostly gives uniform matroids, which are transversal, we then look at randomly generated transversal matroids. In both models we also investigate threshold phenomena of certain monotone increasing properties. Non-monotone properties of transversal matroids will also be investigated. Moreover, we are going to see how to spot circuits of a transversal matroid from its bipartite graph presentation. In the last Chapter, we have a survey of the characterization of transversal matroids that admit acyclic bipartite presentations. We will also investigate when we can simplify a presentation for a transversal matroid.",
+      "published": "2026-11-02",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.02963",
+      "url": "https://arxiv.org/abs/2611.02963",
+      "title": "Full-Rank Constructions of Explicit Lossless Expanders and Good Small-Set qLTCs",
+      "authors": [
+        "Yali Aharon-Holzman",
+        "Michael Ilan",
+        "Assaf Reiner",
+        "Amnon Ta-Shma"
+      ],
+      "abstract": "We construct explicit two-sided lossless expanders whose binary adjacency matrices have full rank, and use them to obtain explicit asymptotically good quantum LDPC codes whose specified X- and Z-check matrices have full row rank and satisfy small-set soundness, or confinement, on a linear range. Our lossless expanders are a variant of those of Hsieh, Lubotzky, Mohanty, Reiner, and Zhang, with a free action of a finite 2-group. Under such an action, injectivity and surjectivity of the adjacency matrix are detected on a fixed-size matrix indexed by vertex orbits. Adding a sparse factor to the gadget at the middle vertices of a single type then enforces full rank, with a controlled loss in expansion. To obtain the 2-group action, we observe that reducing the generators of the Lubotzky-Phillips-Sarnak Ramanujan graphs modulo powers of 2, instead of modulo an odd prime, gives Ramanujan Cayley graphs on finite 2-groups. This construction may be of independent interest. Plugging two such expanders into the balanced product of Lin and Hsieh gives the quantum codes, since full rank of the input graphs is inherited by the check matrices. Our construction supplies the code family sought by Hong, Guo, and Lucas. Applying their analysis, within their framework and under their dynamical assumptions, gives quantum memories whose free-energy density is analytic at every positive temperature and whose guaranteed lifetime is $exp(Ω(N))$ at sufficiently low fixed positive temperature, where N is the blocklength. This improves the previously guaranteed stretched-exponential timescale.",
+      "published": "2026-11-02",
+      "categories": [
+        "quant-ph",
+        "cs.CC",
+        "cs.DS",
+        "math.CO",
+        "math.GR"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2611.02615",
+      "url": "https://arxiv.org/abs/2611.02615",
+      "title": "Spectral radius and size conditions for 1-tough balanced bipartite graphs to contain a $k$-factor with $k\\ge 3$",
+      "authors": [
+        "Jinxuan Ren",
+        "Jiayao Song",
+        "Ligong Wang"
+      ],
+      "abstract": "The largest eigenvalue of the adjacency matrix $A(G)$ of a graph $G$ is called the spectral radius $ρ(G)$ of $G$. If $S$ is a vertex cut of a connected graph $G$, then $c(G-S)$ denotes the number of connected components of $G-S$. The toughness $t(G)$ of a graph $G$ is defined as $t(G) = \\min\\left\\{\\frac{|S|}{c(G-S)}: S \\subset V(G), \\text{ and } c(G-S) > 1\\right\\}$. A graph \\( G \\) is \\( t \\)-tough if \\( |S| \\ge t c(G - S) \\) for every proper subset \\( S \\subset V(G) \\) satisfying \\( c(G - S) > 1 \\). Combining the toughness and spectral conditions, we provide spectral radius and size conditions for the existence of $k$-factors in 1-tough balanced bipartite graphs. This settles a problem posed by Chen, Fan and Lin in [Discrete Appl. Math. {\\bf 355} (2024), 223--231].",
+      "published": "2026-11-02",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2611.03278",
+      "url": "https://arxiv.org/abs/2611.03278",
+      "title": "On a Class of Non-Local Elliptic-Transport Systems in Score-Guided Probability Flow on $SE(3)$: Score-Singularity Resolution, Space-Time ADN Shift, and Markov Mean-Field Games",
+      "authors": [
+        "Pilhwa Lee"
+      ],
+      "abstract": "We establish mathematical foundations for optimal spatiotemporal vector fields governing continuous score-guided probability flows over bounded submanifolds $M \\subset SE(3)$ on the Special Euclidean group $SE(3) \\cong \\mathbb{R}^3 \\times SO(3)$. Modeling dynamic density evolution via a score-perturbed Lie-algebraic continuity equation under zero-flux boundary conditions, we resolve the non-local score drift singularity $s(g,t) = \\nabla_{SE(3)} \\log ρ(g,t)$ as $ρ\\rightarrow 0^+$ via weighted parabolic flux dissipation bounds. Using left-invariant exponential group mollifiers, we derive boundary-preserving DiPerna--Lions commutator estimates tracking structure constants $\\{c_{ij}^k\\}$. Second, interpreting the optimality system as a 7D space-time elliptic operator $L_{7D} = -Δ_{SE(3)} - \\partial_t^2$ with zero-order corner compatibility on $\\partial M \\times \\{0,T\\}$, we establish Agmon--Douglis--Nirenberg $W_p^2(Q_T)$ shift estimates tracking Lie algebra constants, boundary geometry $\\|\\partial M\\|_{C^2}$, and Ricci curvature $\\|Ric_{SE(3)}\\|_{L^\\infty}$, yielding a full $C^\\infty(\\overline{Q}_T)$ Schauder bootstrap expansion. Third, we extend this system to non-cooperative Markov Mean-Field Games (MFGs) on $SE(3)$, establishing score-guided Nash equilibria via Schauder--Tychonoff fixed points. Crucially, the constant diagonal Ricci curvature $Ric_{SE(3)} = \\mathrm{diag}(0,0,0,1/2,1/2,1/2)$ from $SO(3)$ induces a sharp Bochner--Weitzenböck spectral gap boost $λ_1(-Δ_{SE(3)}) \\ge λ_1(-Δ_{\\mathbb{R}^3}) + 1/2 > 0$. This positive rotational curvature enhances the Lie-algebraic Poincaré coercivity constant, demonstrating that intrinsic group curvature stabilizes score-guided flows against dispersion and expands the critical Nash uniqueness horizon $T_{SE(3)}^*$ beyond flat Euclidean limits.",
+      "published": "2026-11-02",
+      "categories": [
+        "math.AP",
+        "math.DG",
+        "math.OC",
+        "math.PR",
+        "stat.ML"
+      ],
+      "tags": [
+        "Ricci curvature"
+      ]
+    },
+    {
+      "id": "2611.03403",
+      "url": "https://arxiv.org/abs/2611.03403",
+      "title": "Open problems from the Length Optimization event at MDS 2026",
+      "authors": [
+        "Yana Teplitskaya"
+      ],
+      "abstract": "During the Minisymposium on Length Optimization as part of the International Conference \"Mathematics Days in Sofia - 2026\", the participants collected the following open problems: 1. Find any non-trivial upper and lower bounds for the degree of a branching point in the Gilbert-Steiner problem with cost-function $c(x) = x^p$ in the metric space $X = \\mathbb{R}^d$ for large $d$ and fixed $p > 1/2$ (see Section 1). 2. Determine whether a typical trajectory of a given branched optimal traffic plan has bounded length. To find the optimal transport plan between the Dirac measure in the center of a circle and the Lebesgue measure on the circle (see Section 2). 3. To find the maximal distance minimizers for any explicit compact sets (see Section 3). 4. What is the minimal $C$ such that for any set of $n$ points in the three-dimensional unit cube, there is a tour through all these $n$ points with the sum of the cubes of its edge lengths at most $C$ (see Section 4). 5. To explore parallels between tropical caustics and Steiner trees: do caustics really need convexity (see Section 5).",
+      "published": "2026-11-02",
+      "categories": [
+        "math.MG",
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2611.01443",
+      "url": "https://arxiv.org/abs/2611.01443",
+      "title": "$p$-Wasserstein distance and Cramér-type moderate deviations for the multi-dimensional elephant random walk",
+      "authors": [
+        "Shuyuan Liang"
+      ],
+      "abstract": "In this paper, we establish $p$-Wasserstein bounds and Cramér-type moderate deviations for the multi-dimensional elephant random walk in the diffusive and critical regimes. Using a Gaussian convolution estimate with random covariance and the recursions for the conditional covariance, we obtain $W_{p,2}(\\mathcal L(\\widehat T_n),N(0,I_d))\\le C_{a,d}pL_n$, where $\\widehat T_n$ is normalized by its exact covariance and \\[ L_n\\asymp \\begin{cases} n^{-1/2}\\log n,&a\\le1/3,\\\\ n^{-3(1/2-a)},&1/3<a<1/2,\\\\ (\\log n)^{-3/2},&a=1/2. \\end{cases} \\] Consequently, we obtain radial Cramér-type moderate deviations for $x=o(L_n^{-1/3})$. We also determine the covariance bias under the uncorrected normalization and establish the corresponding Wasserstein bounds, lower bounds and moderate deviation estimates. The dimension and the model parameters are fixed.",
+      "published": "2026-11-01",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.01440",
+      "url": "https://arxiv.org/abs/2611.01440",
+      "title": "Precise large deviations for the elephant random walk with Weibull-type and lognormal-type random step sizes",
+      "authors": [
+        "Shuyuan Liang"
+      ],
+      "abstract": "We prove precise large deviations for the symmetric elephant random walk with random step sizes. When the distribution of $|Z_1-1|$ is subexponential, we first show that, for each fixed$p\\in[0,1]$, there exists a positive number sequence $b_n\\to\\infty$ such that \\[ \\mathbb P(S_n>x)\\sim \\mathbb P(S_n<-x)\\sim \\frac n2\\overline F(x) \\] uniformly for $x\\ge b_n$, where $\\overline F(x)=\\mathbb P(|Z_1-1|>x)$. This existence result requires no moment assumptions and does not specify the growth rate of $b_n$. For $p\\in[0,3/4]$, we further give explicit sufficient conditions on $b_n$ under Weibull-type and lognormal-type tail conditions with a regularly varying factor $x^γL(x)$, where $γ\\in\\mathbf R$ and $L$ is a positive measurable slowly varying function. Analogous results hold with $\\mathbb P(|Z_1|>x)$ and non-strict tails.",
+      "published": "2026-11-01",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.02010",
+      "url": "https://arxiv.org/abs/2611.02010",
+      "title": "Volume Doubling and Geometric Inequalities on Graphs with Bakry-Émery Curvature",
+      "authors": [
+        "Yanlong Ding",
+        "Shiping Liu",
+        "Chiyu Zhou"
+      ],
+      "abstract": "We consider irreducible reversible Markov chains whose nonzero off-diagonal transition probabilities are bounded below by $ε>0$ and whose reversible measure satisfies $m_-\\le m(x)\\leκm_-$. Under the Bakry--Émery curvature condition $\\mathrm{CD}(K,\\infty)$, with $K\\in\\mathbb{R}$, we establish Wang's log-Harnack inequality $$ P_t(\\log f)(x)\\le\\log P_tf(y) +\\frac{C\\mathrm{dist}(x,y)^2}{\\int_0^t e^{2Ks}\\mathrm{d} s}, $$ for bounded positive $f$ bounded away from zero and all $x,y\\in V$, where $C$ is a constant dependent only on $\\varepsilon$. Building upon this inequality, we further prove volume doubling property: let $K_-:=\\max\\{-K,0\\}$ $$ \\mathrm{Vol}(B(o,2R))\\le C_0\\exp\\!\\bigl(C_1\\sqrt{K_-}\\,R\\bigr) \\mathrm{Vol}(B(o,R)),\\qquad R>0, $$ where $C_0,C_1$ depend only on $ε,κ$. If $d$ is the maximum combinatorial degree of the support graph, we further prove under $\\mathrm{CD}(0,\\infty)$ the sharp volume growth bound $\\mathrm{Vol}(B(o,R))\\le m_-CR^{\\lfloor d/2\\rfloor}$ for all $o$ and $R\\geq 1$.",
+      "published": "2026-11-01",
+      "categories": [
+        "math.PR",
+        "math.CO",
+        "math.DG"
+      ],
+      "tags": [
+        "Bakry-Émery curvature"
+      ]
+    },
+    {
+      "id": "2611.02128",
+      "url": "https://arxiv.org/abs/2611.02128",
+      "title": "A hitting-time version of Kotzig's conjecture in random graphs",
+      "authors": [
+        "Stefan Glock",
+        "Lyuben Lichev",
+        "Amedeo Sgueglia"
+      ],
+      "abstract": "A family of perfect matchings on the same vertex set is said to have the Kotzig property if the union of any pair of matchings forms a Hamilton cycle. Kotzig famously conjectured that, when $n$ is even, the complete graph on $n$ vertices can be decomposed into $n-1$ perfect matchings with the Kotzig property. A closely related conjecture of Wormald states that, for fixed $d \\ge 3$, whp a random $d$-regular graph contains $d$ perfect matchings with the Kotzig property. Recently, the first and third authors considered a version of these problems for the binomial random graph $G(n,p)$ and proved that, for every fixed $k$, there is $C=C(k)$ such that whp $G(n,C\\log n/n)$ contains $k$ perfect matchings with the Kotzig property. We strengthen this result by showing a hitting time version: for every fixed $k$, whp the hitting time in the random graph process for finding $k$ edge-disjoint perfect matchings with the Kotzig property is the same as the hitting time for a graph with minimum degree $k$. This is a generalisation of the celebrated result of Bollobás and Frieze for even $n$ establishing the hitting time for $k$ edge-disjoint Hamilton cycles. The proof uses several ideas. We first design a coupling, via a randomised algorithm, of the random graph at the hitting time with $k$ almost-independent perfect matchings and a set of random reservoir edges, which may be of independent interest. We then prove various statistical properties of these matchings, in particular concerning the cycle structure of the $2$-factors formed by pairs of matchings. This includes a novel concept of ``shuffledness'', which we establish through a careful exposure argument and a concentration inequality for random permutations. Finally, we show that the initial $2$-factors can be merged into Hamilton cycles, using the random reservoir edges, by analysing certain Pósa-type rotations via branching processes.",
+      "published": "2026-11-01",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "random graph",
+        "graph process"
+      ]
+    },
+    {
+      "id": "2611.01998",
+      "url": "https://arxiv.org/abs/2611.01998",
+      "title": "Convergence properties of nonlinear RLC electrical networks",
+      "authors": [
+        "Arjan van der Schaft"
+      ],
+      "abstract": "Convergence properties of general electrical networks with grounded nonlinear capacitors at the nodes and nonlinear inductors and resistors at the edges are studied. It is shown how, under appropriate conditions, for every initial condition there exists a unique equilibrium to which the system converges asymptotically. Partial extensions to networks with terminals or current sources are also provided. For RC networks this is compared with the use of an alternative storage function based on the co-content functions of the resistors.",
+      "published": "2026-11-01",
+      "categories": [
+        "math.OC"
+      ],
+      "tags": [
+        "electrical network"
+      ]
+    },
+    {
+      "id": "2611.01979",
+      "url": "https://arxiv.org/abs/2611.01979",
+      "title": "Covariant Calculus and Hamiltonian Flows for Nonlocal Wasserstein Metrics",
+      "authors": [
+        "Yuanke Chen",
+        "Jinqiao Duan",
+        "Qiao Huang"
+      ],
+      "abstract": "In this paper, we study nonlocal metrics on smooth positive probability densities on a closed manifold, induced by symmetric jump kernels and density-dependent mobilities. First, we introduce the density-variation operator to express the density derivatives of the Dirichlet form and kinetic energy. Second, we construct density and velocity-field representations of the tangent space and prove their isometric equivalence. We use the generator's pseudoinverse to derive Levi-Civita connections and covariant differentials in both representations. Third, we establish mechanical Hamiltonian dynamics in both tangent representations; an action principle and Legendre duality identify the Hamilton--Jacobi and covariant Newton equations; smooth negative gradient flows admit a zero-energy Hamiltonian lift. Entropy diffusion, nonlocal mean-field equations, Keller--Segel dynamics, and a nonlocal Vlasov equation illustrate the resulting calculus. For geometric-mean mobility, the Hopf--Cole transformation of the nonlocal Schrödinger bridge system and the Madelung transformation of the nonlocal Schrödinger equation yield hyperbolic and trigonometric phase energies, respectively. At zero momentum, both recover the metric kinetic energy to second order.",
+      "published": "2026-11-01",
+      "categories": [
+        "math-ph",
+        "math.DG",
+        "math.DS",
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein metric"
+      ]
+    },
+    {
+      "id": "2611.02191",
+      "url": "https://arxiv.org/abs/2611.02191",
+      "title": "Graphs versus loopless digraphs with a given degree sequence, and convergence of uniformly random graphs at every density",
+      "authors": [
+        "Behzad Mehrdad"
+      ],
+      "abstract": "For a degree sequence d on n vertices with M edges, let G(d) be the number of simple graphs and D(d) the number of loopless digraphs with in-degree = out-degree = d. We conjecture that G(d) >= sqrt(D(d)) exp(-C n log(2+M/n)) for every graphical d, a single inequality across all densities, and prove it up to an extra factor log n: G(d) >= sqrt(D(d)) exp(-C n log n log(2+M/n)) for every graphical d. The proof compares pairs of graphs with Eulerian digraphs by alternately colouring closed trails; the failure of injectivity is measured exactly, shared edges cancel against 2-cycles, and parity is handled by merging trails and by a parity argument on Eulerian circuits of odd components. No asymptotic enumeration and no bound on the maximum-entropy multipliers is used. When the maximum-entropy edge probabilities lie in [delta, 1-delta], the same method gives the conjecture itself, G(d) >= sqrt(D(d)) exp(-C n log n / delta). Combined with the exact identity G(d) = exp(g*(d)) pi(d), where pi(d) is the probability that the maximum-entropy beta-model has degrees exactly d, and a van der Waerden-type bound for D(d), this shows that uniformly random graphs with degree sequence d are close in the normalized cut metric to their beta-model whenever M >> n log n log(M/n), at every density, with no tameness and no cap on the degrees. We also record the conjecture in the sparse regime and, with constant 1/2+o(1), in the dense tame regime, from the asymptotic enumerations of McKay-Wormald and Barvinok-Hartigan.",
+      "published": "2026-11-01",
+      "categories": [
+        "math.CO",
+        "math.PR"
+      ],
+      "tags": [
+        "random graph"
+      ]
+    },
+    {
+      "id": "2611.01557",
+      "url": "https://arxiv.org/abs/2611.01557",
+      "title": "Distributionally Robust Optimization over Incomparable Spaces",
+      "authors": [
+        "Junyu Chen",
+        "Jieling Shi",
+        "Yong Sheng Soh"
+      ],
+      "abstract": "Distributionally robust optimization (DRO) provides a principled framework for making decisions under uncertainty when the underlying distribution may be incorrectly specified. A widely used approach builds on ideas from optimal transport (OT) as a means of measuring differences between distributions. However, this depends on these distributions residing in the same space. In certain settings, the reference data distribution we have and the space on which we make our decision may be different, which renders classical OT techniques impossible. In this paper, we provide a new DRO formulation in which ambiguity sets are defined through the Gromov-Wasserstein distance, which is an extension of OT to pairs of distributions residing in incomparable spaces. We show that several seemingly unrelated optimization formulations, including conditional value-at-risk minimization, group distributionally robust optimization, robust graph $k$-median, and $k$-median with outliers, can be recovered as special cases of our formulation. We describe the computational aspects of solving the proposed formulation based on the doubly-nonnegative relaxation. Last, we illustrate the framework through experiments on clustering over incomparable spaces and stochastic graph $k$-median.",
+      "published": "2026-11-01",
+      "categories": [
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport",
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.01599",
+      "url": "https://arxiv.org/abs/2611.01599",
+      "title": "Fresh-Priority Eviction for Cuckoo Filters: Exploiting Latent Randomness Under XOR Hashing",
+      "authors": [
+        "Min Liu"
+      ],
+      "abstract": "Cuckoo filters are a widely adopted approximate membership query (AMQ) data structure that supports insertions, lookups, and deletions with low memory overhead. At high load factors, however, insertion performance degrades sharply due to the random-walk eviction process, which may require a large number of element relocations. Recent work on bucketized cuckoo hash tables has shown that \\emph{fresh-priority eviction}, which preferentially evicts elements whose alternate bucket location has not yet been used, achieves $O(\\ell m)$ total expected evictions for bucket size~$\\ell$, an improvement over the standard random walk. In this paper, we show that this technique transfers to \\emph{cuckoo filters} despite their use of XOR-based partial-key hashing. The key insight is that a fresh element's fingerprint, although stored in the table, is not examined by the eviction policy, so when the fingerprint length satisfies $k = Ω(\\log m)$, the alternate bucket hash remains a near-uniform random variable, a property we call \\emph{latent randomness}. We prove that under this condition the corruption graph remains subcritical and the total number of evictions is $O(\\ell m \\log m)$; we conjecture the tighter $O(\\ell m)$ bound holds via the full amortized analysis of Bell and Kuszmaul. We further propose encoding the fresh/kicked state implicitly by the element's position within its bucket, requiring no additional per-element metadata. Experimental results on a filter with $2^{22}$ slots and $8$-bit fingerprints demonstrate $1.2\\times$ to $2.4\\times$ fewer evictions at load factors between $94\\%$ and $99\\%$ for bucket size $\\ell = 8$, and a $1.73\\times$ reduction in cumulative evictions to full capacity.",
+      "published": "2026-11-01",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.01756",
+      "url": "https://arxiv.org/abs/2611.01756",
+      "title": "Stochastic Orders of the Exit Pair and the Monotone Response to Resetting",
+      "authors": [
+        "Tony Newton",
+        "Juan Antonio Vega Coso"
+      ],
+      "abstract": "Resetting a process, that is, restarting it from its initial position at random times, changes the probability that it leaves an interval through one end rather than the other. We show that the direction of this change is governed by how the exit time depends on the exit side, and we express this through classical stochastic orders. For random walks and birth-death chains we determine when resetting more intensively always moves the exit probability in the same direction, and we show that this can fail: we give an explicit chain in which the direction reverses twice over time, and bound the number of such reversals spectrally. We also show how the direction depends on the starting point. In the continuum limit we obtain the corresponding results for diffusions with drift.",
+      "published": "2026-11-01",
+      "categories": [
+        "math.PR",
+        "cond-mat.stat-mech"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.01875",
+      "url": "https://arxiv.org/abs/2611.01875",
+      "title": "Approximation Algorithms for Maximum-Weight Degree-Bounded Forests",
+      "authors": [
+        "Theophile Thiery",
+        "Vera Traub",
+        "Nicola Widmer"
+      ],
+      "abstract": "In the maximum-weight degree-bounded forest problem, we are given a graph with nonnegative edge weights and a degree upper bound on each vertex. The objective is to find a maximum-weight forest satisfying the degree bounds. We show that this problem admits a simple $2$-approximation via the greedy algorithm. This already improves over the best-known guarantees obtained via a reduction to weighted $3$-matroid parity, and sets a baseline to improve upon. Our main result is an $\\frac{8}{5}$-approximation algorithm for the maximum-weight degree-bounded forest problem. For the special case of uniform degree bounds, our algorithm achieves an approximation ratio of $\\frac{3}{2}$. It computes two sets of edges, each of which we then restrict to a feasible solution in an optimal way, and finally returns the better of the two resulting solutions. To obtain the initial two edge sets, we first relax the degree bounds and leverage an algorithm by Lau and Singh [JACM'15] for degree-bounded spanning trees, and second we relax the forest constraints and employ an algorithm for maximum-weight $b$-matchings.",
+      "published": "2026-11-01",
+      "categories": [
+        "cs.DS",
+        "math.CO"
+      ],
+      "tags": [
+        "spanning tree",
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.01841",
+      "url": "https://arxiv.org/abs/2611.01841",
+      "title": "Graphic matroids with connectivity constraints",
+      "authors": [
+        "Will J. Turner"
+      ],
+      "abstract": "In 1959, Tutte proved that a matroid can be realised by a graph if and only if it does not have a minor isomorphic to $U_{2,4}$, $F_7$, $F_7^*$, $M^*(K_5)$ or $M^*(K_{3,3})$. In this paper, we extend this theorem to determine when it is possible to find a graphic realisation $G$ of a matroid $M$, subject to a list of additional constraints of the following form: a subset $F$ of the elements of $M$ must induce a connected subgraph of $G$. We prove that a connected matroid with such constraints---called a `constraint matroid'---is realisable as a graph satisfying those constraints if and only if it does not contain as a minor one of the constraint matroids from a given list: that is, the original $5$ matroids of Tutte, a further $9$ sporadic constraint matroids, and two well-behaved infinite families. Matroids realisable as graphs appear famously in Whitney's planarity criterion: Carmesin proved an extension of Whitney's planarity criterion to the embeddability of local simply connected $2$-complexes into $\\mathbb{R}^3$. An application of our theorem is an extension of this theorem beyond the simply connected regime.",
+      "published": "2026-11-01",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.01969",
+      "url": "https://arxiv.org/abs/2611.01969",
+      "title": "Finite tests and low-rank excluded minors for matroid path-width two",
+      "authors": [
+        "Antonios Kalampakas"
+      ],
+      "abstract": "The path-width of a matroid is the minimum, over all orderings of its ground set, of the maximum value of its connectivity function on an initial segment. For any two connected rooted matroids whose roots are neither loops nor coloops, we form the 2-sum of each with a third such rooted matroid by identifying their roots and deleting the common element. The two original rooted matroids are equivalent when these sums agree on whether their path-width is at most two for every choice of the third rooted matroid. We prove that the two rooted matroids are equivalent if and only if this agreement holds for thirteen fixed graphic or cographic rooted matroids. They distinguish exactly twenty equivalence classes, and, moreover, there exists no family of twelve fixed connected rooted matroids that can guarantee this. Using these classes, we show that the tree in the canonical tree decomposition of an excluded minor for path-width at most two has diameter at most ten edges. For a connected matroid given by a tree decomposition using 2-sums, we give an exact recurrence to decide whether its path-width is at most two and to construct an ordering of width at most two when possible. Moreover, we derive a formula for the path-width of parallel extensions that gives complete binary excluded-minor lists in ranks three, four and five, containing two, four and eleven isomorphism classes, respectively.",
+      "published": "2026-11-01",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.02287",
+      "url": "https://arxiv.org/abs/2611.02287",
+      "title": "Faster graphic matroid parity: Breaking the $nm$ time complexity barrier",
+      "authors": [
+        "Tatsuya Terao"
+      ],
+      "abstract": "In the graphic matroid parity problem, we are given an undirected multigraph $G=(V,E)$ with $n$ vertices, together with a partition of $E$ into $m$ pairs of distinct edges, and the goal is to find a maximum-cardinality collection of pairs whose union is a forest. This problem generalizes both graph matching and graphic matroid intersection. Graph matching admits the celebrated $\\tilde{O}(\\sqrt{n}m)$-time algorithm of Micali--Vazirani~[FOCS'80], and graphic matroid intersection admits $o(nm)$-time algorithms due to Gabow--Stallmann~[ICALP'85] and Gabow--Xu~[FOCS'89]. In contrast, for graphic matroid parity, Gabow--Stallmann~[FOCS'84 \\& Combinatorica'86] gave an $O(n^2 m)$-time algorithm, and its $\\tilde{O}(nm)$-time implementation by Gabow--Stallmann~[ICALP'85] had long remained the best known bound, except in very dense regimes where $m=ω(n^3)$, in which case the algebraic $\\tilde{O}(n^4)$-time algorithm of Cheung--Lau--Leung~[SODA'11 \\& TALG'14] is faster. We present a randomized $\\tilde{O}(n^{3/2} \\sqrt{m} + \\sqrt{n} m)$-time algorithm for graphic matroid parity. This is the first algorithm to break the $O(nm)$-time complexity barrier for this problem outside the very dense regime. Moreover, it improves over the previous bounds except in very sparse regimes where $m=\\tilde{O}(n)$ and in very dense regimes where $m = \\tildeΩ(n^{3.5})$. In particular, when $m=Θ(n^2)$, our algorithm runs in $\\tilde{O}(n^{2.5})$ time, which nearly matches the $\\tilde{O}(n^{2.5})$-time bounds of Micali--Vazirani for graph matching and of Gabow--Xu for graphic matroid intersection in this regime.",
+      "published": "2026-11-01",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.01838",
+      "url": "https://arxiv.org/abs/2611.01838",
+      "title": "Integral saturation of adjacency-degree lattices",
+      "authors": [
+        "Zhipeng Lu"
+      ],
+      "abstract": "Let $A$ be the adjacency matrix of $G\\sim G(n,1/2)$, let $D=\\operatorname{diag}(A\\mathbf{1})$, and let $Λ_G=\\mathbb{Z}\\langle A,D\\rangle\\mathbf{1}$. We prove $\\Pr[Λ_G\\ne\\mathbb{Z}^n]\\le n^{-3/20+o(1)}$. Thus two dependent graph operators generate the entire vertex lattice from the constant vector, simultaneously over every prime field. Adjacency alone has a modulo-two rank obstruction for every simple graph of order greater than one, even though its rational word span is typically full. The proof first constructs words containing at most two adjacency operations whose integer span contains $Δ_G^3\\mathbb{Z}^n$, where $Δ_G$ is the product of the pairwise differences between distinct degree values. This confines all possible arithmetic obstructions to a finite prime range on a single event. We then remove the remaining obstructions using conditional alternating forms, symmetric random-matrix code estimates, and uniform counts of degree-graded invariant subspaces. We connect the integer lattice to graph reconstruction through pointed moments. Saturation forces every pointed orthogonal AD intertwiner to be a vertex permutation. The short-word construction also shows that a fixed polynomial-size family of ordinary caterpillars, of diameter at most seven and order $O(\\sqrt{n\\log n})$, identifies almost every graph among all finite simple graphs. For nonsaturated full-rank lattices, we give an exact description of the moment fibre by admissible unimodular overlattices; at index two, the only possible ambiguity is a specified four-vertex Godsil--McKay switch.",
+      "published": "2026-11-01",
+      "categories": [
+        "math.CO",
+        "cs.DM"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2611.01616",
+      "url": "https://arxiv.org/abs/2611.01616",
+      "title": "Mean Field Game Problem with Kantorovich Potential Coupling: An Attrition model",
+      "authors": [
+        "Avetik Arakelyan",
+        "Davit Alaverdyan",
+        "Naira Hovakimyan",
+        "Isaac Kaminer",
+        "Tigran Bakaryan"
+      ],
+      "abstract": "In this work we address a class of Mean-Field Game (MFG) systems on the flat torus $\\mathbb{T}^{d}$ in which individual agent incentives arise from macroscopic, distribution-dependent objectives governed by the Wasserstein-2 ($W_{2}$) distance. Taking the first variation (Lions derivative) of the Wasserstein-based macroscopic functional yields a coupled forward-backward system of Hamilton--Jacobi--Bellman (HJB) and Fokker--Planck (FP) equations featuring a nonlocal coupling driven by the Kantorovich optimal transport potential. As a primary case study, we formulate a large-scale attacker-defender attrition model aimed at protecting High-Value Units (HVUs). By defining population-wise attrition rates via the $W_{2}$ metric and casting the defense strategy as a Pareto-optimal McKean--Vlasov control problem, we derive a concrete HJB--FP system with a Kantorovich potential coupling. We prove the local-in-time existence of classical solutions for this system using Schauder's fixed-point theorem. Finally, we compute the MFG dynamics by combining the Sinkhorn algorithm with ResNet-based Physics-Informed Neural Networks (PINNs), and simulate two-dimensional attacker-defender engagements across diverse attrition parameters, control costs, and multi-HVU configurations.",
+      "published": "2026-11-01",
+      "categories": [
+        "math.AP",
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    }
+  ]
 }
