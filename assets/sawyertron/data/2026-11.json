@@ -1,8 +1,150 @@
 {
   "month": "2026-11",
-  "generated_at": "2026-11-04T18:02:49+00:00",
+  "generated_at": "2026-11-05T18:05:22+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2611.06561",
+      "url": "https://arxiv.org/abs/2611.06561",
+      "title": "Two-sided estimates for two-point local time tails of branching random walks: a Green function criterion",
+      "authors": [
+        "Shuwen Lai"
+      ],
+      "abstract": "This paper is devoted to the study of the joint tails of local times at two distinct sites for branching random walks (BRWs). Our principle results establish a general Green-function criterion for two-sided exponential tail bounds with a common spatial factor given by a three-point Green function convolution, and further identify a strict inequality that must be satisfied by the corresponding exponential constants. In particular, we verify this criterion for subcritical BRWs on finitely generated groups, for critical BRWs on non-elementary hyperbolic groups, and for critical BRWs on $\\mathbb{Z}^d$ with $d\\geq 5$. As applications, we revisit the growth rate of visited sites on spheres in hyperbolic groups obtained by Sidoravicius et al. [Commun. Pure Appl. Math. 2023], and also establish lower bounds for the probabilities of visiting finite sets in Euclidean lattices.",
+      "published": "2026-11-04",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.06209",
+      "url": "https://arxiv.org/abs/2611.06209",
+      "title": "Sublinear Approximations for Spanning Tree Congestion",
+      "authors": [
+        "Sunny Atalig",
+        "Marek Chrobak",
+        "Petr Kolman",
+        "Hans Raj Tiwary"
+      ],
+      "abstract": "The spanning tree congestion of a connected graph \\(G\\) is the minimum, over all spanning trees \\(T\\) of \\(G\\), of the maximum number of edges of \\(G\\) crossing a cut induced by deleting an edge of \\(T\\). In the spanning tree congestion problem we are asked to compute a spanning tree with minimum congestion. We describe two sublinear-ratio approximation algorithms for the spanning tree congestion problem (STC): a simple $\\Ot(n^{8/9})$-approximation, and a more involved $\\Ot(n^{2/3})$-approximation, where the notation $\\Ot$ hides factors polynomial in $\\log n$.. Until now, no algorithm with sublinear ratio was known. We also prove that for any fixed $0<\\varepsilon<1$, approximation of the spanning tree congestion within $2-\\varepsilon$ is NP-hard. This improves the previous best known lower bound $6/5$.",
+      "published": "2026-11-04",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2611.06782",
+      "url": "https://arxiv.org/abs/2611.06782",
+      "title": "Target PageRank: Matching Prescribed PageRank Scores via Budgeted Edge Additions",
+      "authors": [
+        "Parth Gupta",
+        "Abhinav Jain",
+        "Avishek Mukhopadhyay",
+        "Amitabha Bagchi",
+        "Sayan Ranu",
+        "Abhijnan Chakraborty"
+      ],
+      "abstract": "PageRank is widely used to quantify the importance of nodes in directed networks. In applications such as recommendation systems, it is increasingly important that the PageRank distribution provides a fair representation of node exposure. This motivates the problem of making minimal changes to a graph so that the PageRank values of a given set of target nodes $T$ match a desired vector $\\boldsymbol{t}$. In this paper, we study this problem under an edge-addition budget $B$, where exactly $B$ edges may be added to the graph. We show that deciding whether a multiset of exactly $B$ added edges can make the target nodes attain their desired absolute PageRank scores is NP-complete. After this, we define the $\\ell_1$ \\textsc{Target PageRank} problem in which we seek to minimize the $\\ell_1$ distance between the target vector and resultant vector. We show that this optimization problem admits no polynomial-time multiplicative constant-factor approximation unless $P=NP$. Motivated by these hardness results, we propose two greedy heuristics for approaching the target PageRank vector. We additionally propose a Random Walk Hungarian (RWH) heuristic that addresses the addition of edges between dissimilar nodes by incorporating a penalty for such edges. Finally, we evaluate the proposed heuristics on several real-world and synthetic datasets and compare their performance in terms of PageRank accuracy, computational efficiency, and the relevance of the added edges.",
+      "published": "2026-11-04",
+      "categories": [
+        "cs.SI"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.06891",
+      "url": "https://arxiv.org/abs/2611.06891",
+      "title": "Prophet Secretary for Matroids and XOS Valuations: A Strict Separation at $1-1/e$",
+      "authors": [
+        "Hossein Esfandiari",
+        "MohammadTaghi Hajiaghayi"
+      ],
+      "abstract": "The matroid prophet-secretary problem asks an online algorithm to select an independent set of elements whose nonnegative values are drawn independently and revealed in uniformly random order. Its combinatorial-auction counterpart asks the algorithm to allocate disjoint bundles to arriving buyers with independently drawn XOS valuation functions. In both problems the distributions are known, and the benchmark is the expected offline optimum. Ehsani, Hajiaghayi, Kesselheim, and Singla (SODA 2018) give $(1-1/e)$-competitive algorithms for both settings. In this work we show that these two guarantees have different limits. For every matroid, we give a randomized $(1-1/e+\\varepsilon_0)$-competitive algorithm, where $\\varepsilon_0=10^{-6}$. The guarantee holds for independent nonnegative values with finite expected optimum. For explicitly given finite distributions with rational values and probabilities, the algorithm has polynomial worst-case running time in the matroid independence-oracle model. The oracle tests whether a queried set is independent. The algorithm makes $O(N^4)$ such queries in expectation and $O(N^4\\log(N+2))$ in the worst case, where $N$ is the number of elements. For combinatorial auctions with XOS valuations, however, we show that $1-1/e$ is the optimal competitive ratio. We give an explicit family of finite instances showing that no online algorithm can guarantee a larger competitive ratio than $1-1/e$, even when the buyers' valuations are independent and identically distributed, every additive clause has coefficients in $\\{0,1\\}$, and computation is unrestricted. Thus the matroid improvement exploits structure absent from general allocation with XOS valuations.",
+      "published": "2026-11-04",
+      "categories": [
+        "cs.DS",
+        "cs.GT"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.05961",
+      "url": "https://arxiv.org/abs/2611.05961",
+      "title": "One-Vertex Lifts of Looped Circle Graphs: Obstructions and Interlace Polynomials",
+      "authors": [
+        "Qingying Deng",
+        "Yexiang Yan"
+      ],
+      "abstract": "Let $M$ be the adjacency matrix of a looped simple graph over $\\mathbb{F}_2$ and let $t=\\operatorname{diag} M$. We study the one-vertex lift with adjacency matrix $\\left(\\begin{smallmatrix}M+tt^T&t\\\\t^T&0\\end{smallmatrix}\\right)$. A looped circle graph is called stable if its lift is a circle graph. We prove that stability is equivalent to the existence of a pseudo-orientable bouquet realizing the given looped circle graph. We then obtain a finite excluded toggle-minor characterization by applying two rooted constructions to the known excluded pivot-minors for circle graphs. An exact enumeration yields $22$ minimal toggle-equivalence classes: one of order $5$, twelve of order $6$, and nine of order $7$. The enumeration is accompanied by independently checkable linear-algebra and minor certificates. Finally, we prove $q(G^\\dagger;y)=yq(G;y)$ for the vertex-nullity interlace polynomial of every looped simple graph, and derive quasi-tree counting and real determinant formulas.",
+      "published": "2026-11-04",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2611.05980",
+      "url": "https://arxiv.org/abs/2611.05980",
+      "title": "Coherent configuration on 3-uniform hypergraph over strongly regular graph",
+      "authors": [
+        "Fajri Maulana"
+      ],
+      "abstract": "This paper investigates coherent configurations on 3-uniform hypergraphs constructed from strongly regular graphs. We establish that the hypergraph preserves the automorphism group of the original graph and induces a nonhomogeneous Schurian coherent configuration. Using the case of Petersen graph, we obtain a configuration with two fibers and thirteen basic relations. We further determine their valencies and nonzero intersection numbers, together with the corresponding adjacency matrix multiplication identities.",
+      "published": "2026-11-04",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2611.05921",
+      "url": "https://arxiv.org/abs/2611.05921",
+      "title": "Occupation Measures in the ODE Method: Wasserstein Convergence and Rates",
+      "authors": [
+        "Dimitrios Katselis"
+      ],
+      "abstract": "We study occupation measures associated with stochastic approximation recursions within the ordinary differential equation (ODE) method. Under Lyapunov conditions ensuring that the limiting ODE has a globally exponentially stable equilibrium, we establish that the continuous-time occupation measures associated with the piecewise linear interpolation of the iterates converge almost surely in the $2$-Wasserstein topology to the Dirac mass at the equilibrium, the unique invariant probability measure of the limiting semiflow. The choice of the $2$-Wasserstein distance is naturally aligned with our continuous- and discrete-time Lyapunov drift analysis. We also consider two discrete-time sequences of occupation measures, induced by the algorithmic time scale and the iteration count, respectively, and we establish their almost sure convergence to the same invariant measure in the $2$-Wasserstein distance. We then derive corresponding convergence rates in expectation, providing a nonasymptotic complement to the almost sure results. These expectation bounds also imply some tail probability estimates. Finally, we verify that our results apply to a canonical class of linear recursions.",
+      "published": "2026-11-04",
+      "categories": [
+        "math.PR",
+        "math.DS"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.06758",
+      "url": "https://arxiv.org/abs/2611.06758",
+      "title": "Bass martingales need not stretch",
+      "authors": [
+        "Mathias Beiglböck",
+        "Manuel Hasenbichler",
+        "Gudmund Pammer"
+      ],
+      "abstract": "In classical optimal transport, the equivalence of optimality, convex gradient structure, and cyclical monotonicity is a central paradigm. Known counterexamples to this equivalence rely on carefully constructed costs. In contrast, we show that this equivalence can fail in martingale transport in dimension ${d \\ge 2}$: already for the canonical martingale Benamou-Brenier problem and irreducible marginals we have the strict inclusions \\[ \\text{optimality} \\;\\subsetneq \\; \\text{(Bass) convex gradient structure} \\;\\subsetneq\\; \\text{martingale cyclical monotonicity}\\, . \\] However, under the stronger assumption of strict irreducibility, we establish that these three notions coincide. Understanding when the gradient structure guarantees optimality is also of practical relevance, since algorithms based on the Bass gradient representation are used in financial model calibration. All our counterexamples are based on the following phenomenon: for $d\\ge2$, there exist two one-step martingales $X,Y$ with the same initial and terminal laws, and a convex function $ψ$ such that \\[ 0=\\mathbb E\\big[\\mathbb E[ψ(Y_1)\\mid Y_0]-ψ(Y_0)\\big] < \\mathbb E\\big[\\mathbb E[ψ(X_1)\\mid X_0]-ψ(X_0)\\big] <\\infty. \\]",
+      "published": "2026-11-04",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
     {
       "id": "2611.04853",
       "url": "https://arxiv.org/abs/2611.04853",
@@ -29,7 +171,7 @@
         "Timo Gervens",
         "Martin Grohe"
       ],
-      "abstract": "A natural way to compare two graphs is to align their vertex sets by a bijection and to measure the difference of the aligned adjacency matrices in a matrix norm. Depending on the norm, this yields, for example, the edit distance, the cut distance, the spectral distance, and the local edit distance. To make these distances applicable to graphs of different order, one can consider blowups of the graphs or, equivalently, relax bijections to fractional alignments, that is, optimal transport plans between the uniform distributions on the vertex sets, in the spirit of Gromov-Wasserstein distances. We investigate how much the optimal transport versions can differ from their bijective counterparts, that is, we quantify their integrality gaps. For the edit distance, we improve the best known upper bound on the integrality gap from 3 to 2 and the lower bound from 6/5 to 4/3. For the cut distance, we approach Lovász's conjecture that $δ_\\square \\le 2δ_\\square^{OT}$ from both sides. We improve the previously best known upper bound $δ_\\square \\le 32 \\cdot (δ_\\square^{OT})^{1/67}$ (Borgs, Chayes, Lovász, Sós and Vesztergombi, Adv. Math. 2008) to $δ_\\square \\le C_\\varepsilon \\cdot (δ_\\square^{OT})^{1-\\varepsilon}$ for every $\\varepsilon > 0$, and we construct graphs $G,H$ with $δ_\\square(G,H) = 2δ_\\square^{OT}(G,H)$, establishing a factor-2 lower bound that matches Lovász's conjecture. For the local edit and spectral distances, we obtain upper bounds of order $\\sqrt{t\\ln(1/t)}$ and $\\sqrt{t}$, respectively, where $t$ is the corresponding optimal transport distance, and we show that, unlike for the edit and cut distances, no linear upper bounds are possible. Finally, we show that computing the optimal transport distances is NP-hard, and we give hardness of approximation results for the cut, spectral, and local edit distances.",
+      "abstract": "A natural way to compare two graphs is to align their vertex sets by a bijection and to measure the difference of the aligned adjacency matrices in a matrix norm. Depending on the norm, this yields, for example, the edit distance, the cut distance, the spectral distance, and the local edit distance. To make these distances applicable to graphs of different order, one can consider blowups of the graphs or, equivalently, relax bijections to fractional alignments, that is, optimal transport plans between the uniform distributions on the vertex sets, in the spirit of Gromov-Wasserstein distances. We investigate how much the optimal transport versions can differ from their bijective counterparts, that is, we quantify their integrality gaps. For the edit distance, we improve the best known upper bound on the integrality gap from 3 to 2 and the lower bound from 6/5 to 4/3. For the cut distance, we approach Lovász's conjecture that $δ_\\square \\le 2δ_\\square^{\\rm OT}$ from both sides. We improve the previously best known upper bound $δ_\\square \\le 32 \\cdot (δ_\\square^{\\rm OT})^{1/67}$ (Borgs, Chayes, Lovász, Sós and Vesztergombi, Adv. Math. 2008) to $δ_\\square \\le C_\\varepsilon \\cdot (δ_\\square^{\\rm OT})^{1-\\varepsilon}$ for every $\\varepsilon > 0$, and we construct graphs $G,H$ with $δ_\\square(G,H) = 2δ_\\square^{\\rm OT}(G,H)$, establishing a factor-2 lower bound that matches Lovász's conjecture. For the local edit and spectral distances, we obtain upper bounds of order $\\sqrt{t\\ln(1/t)}$ and $\\sqrt{t}$, respectively, where $t$ is the corresponding optimal transport distance, and we show that, unlike for the edit and cut distances, no linear upper bounds are possible. Finally, we show that computing the optimal transport distances is NP-hard, and we give hardness of approximation results for the cut, spectral, and local edit distances.",
       "published": "2026-11-03",
       "categories": [
         "cs.DM"
@@ -55,6 +197,44 @@
       ],
       "tags": [
         "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.05534",
+      "url": "https://arxiv.org/abs/2611.05534",
+      "title": "One-third Hölder stability of optimal transport maps from log-concave sources",
+      "authors": [
+        "Songbo Wang",
+        "Xiaozhen Wang"
+      ],
+      "abstract": "We prove quantitative stability of quadratic optimal transport maps from arbitrary log-concave sources to bounded targets. If the source $ρ$ is isotropic on $\\mathbb R^d$ and the targets $μ$, $ν$ are supported in a common ball of radius $R$, their Brenier maps satisfy \\[ \\lVert T_μ-T_ν\\rVert_{L^2(ρ)} \\leqslant 17d^{2/3}R^{2/3}W_2(μ,ν)^{1/3}. \\] The one-third exponent is optimal for $d\\geqslant2$. The proof combines a linear stability estimate for Brenier potentials in a weighted norm with a matching weighted reverse Poincaré inequality. The weight is chosen in terms of the negative log-density of the source to account for its tails. We also show that the best dimensional constant in map stability is at least of order $d^{1/3}$.",
+      "published": "2026-11-03",
+      "categories": [
+        "math.AP",
+        "math.FA",
+        "math.PR"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2611.05594",
+      "url": "https://arxiv.org/abs/2611.05594",
+      "title": "Relevance Propagation as Entropic Optimal Transport on Filippov Neural Networks: Sinkhorn Propagation and Region Relevance in Image Classifiers",
+      "authors": [
+        "Olivier Gibaru",
+        "Eric Nyiri"
+      ],
+      "abstract": "Relevance propagation, which redistributes a network's prediction backward through the layers, is usually treated as a heuristic. We show that it is the solution of a single variational problem: Layer-wise Relevance Propagation (LRP) is the divergence-free flow on the active computational graph of zero relative entropy to the backward transition law of the forward activation flow; for a non-negative reference, this is a relative entropy between Markov measures on backward paths. The rules LRP$_0$, LRP$_{z^+}$ and LRP$_{α,β}$ follow from this principle by the choice of a reference, and are instances of one rule, LRPN$_{α,β}$, whose weights may vary from node to node, for instance with the node's activity, in the spirit of Hebb's principle. The principle rests on a measure-theoretic formalization of feed-forward networks as directed acyclic graphs of Filippov operators, which covers piecewise-smooth and discontinuous architectures (e.g. hard-routed Mixture-of-Experts) with a Clarke-Filippov generalized-gradient calculus; it also characterizes backpropagation as the adjoint equation of a Lagrangian relaxation. On networks of ReLU and max-pooling nodes, LRP$_0$ is Gradient$\\times$Input, with an explicit jump across a kink where LRP$_{z^+}$ stays continuous. Taking the entropy edge by edge yields a new rule, Sinkhorn Relevance Propagation. Aggregated over an input region, the flow of a non-negative reference tells, with exact accounting, which hidden units carry its evidence, the conditioned flow being a Schrödinger bridge. On VGG-16, the conservation identities hold to round-off, and the rules are told apart by the sign of their maps, the share of the output left to the bias nodes, faithfulness, localization and class dependence; on ConvNeXt-Tiny, LRPN$_{α,β}$ conserves the output and its Hebbian weights give the highest ABPC of the rules tested.",
+      "published": "2026-11-03",
+      "categories": [
+        "cs.LG",
+        "cs.CV",
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
       ]
     },
     {
@@ -151,6 +331,23 @@
       ]
     },
     {
+      "id": "2611.05713",
+      "url": "https://arxiv.org/abs/2611.05713",
+      "title": "Incremental Minimum Spanning Trees on a Napkin",
+      "authors": [
+        "Lucian Bicsi",
+        "Adrian Budău"
+      ],
+      "abstract": "In the incremental minimum spanning forest problem, weighted edges arrive one at a time. After each insertion we must report the edge that leaves the minimum spanning forest, and queries ask for the bottleneck distance of two vertices: the smallest possible maximum edge cost on a path between them. Link-cut trees solve both in $O(\\log n)$ amortized time. In 2021 we wrote the folklore BottleneckTree, a short competitive-programming structure that stores one parent pointer and one cost per vertex, and conjectured that it also runs in $O(\\log n)$ amortized time. We show that this conjecture is false: on a family of inputs, its amortized cost per operation is $Ω(\\sqrt{n})$. We then present a structure with the same state, two arrays and a single loop, and prove that it runs in $O(\\log n)$ amortized time per insertion and per query. Unlike the AM-tree of Ding, Gu and Sun, which attains the same bound, it stores no subtree sizes and maintains no balance invariant. For a connected graph with distinct costs, the structure can be viewed as an implicit link-cut tree on the Kruskal reconstruction tree: each rotation corresponds to exactly one preferred-child change, and each skip acts on a stale path-parent pointer. In experiments it is 1.3-2.1 times faster than the folklore BottleneckTree on insertions, up to 480 times faster on its adversarial input, and 6.3-16 times faster than an explicit link-cut tree.",
+      "published": "2026-11-03",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "spanning tree"
+      ]
+    },
+    {
       "id": "2611.04766",
       "url": "https://arxiv.org/abs/2611.04766",
       "title": "Testing for a Large Induced Expander: Sublinear Algorithms and Query Lower Bounds",
@@ -181,6 +378,42 @@
       "categories": [
         "math.PR",
         "math-ph"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.05492",
+      "url": "https://arxiv.org/abs/2611.05492",
+      "title": "Low moments of sums of extended Rademacher random multiplicative functions",
+      "authors": [
+        "Christopher Atherfold",
+        "Maxim Gerspach",
+        "Jad Hamdan"
+      ],
+      "abstract": "Let $X^e \\colon \\mathbb{N} \\to \\{\\pm 1\\}$ be the random, completely multiplicative function whose values at the primes $(X^e(p))_{p \\text{ prime}}$ are independent and uniformly distributed on $\\{ \\pm 1 \\}$. Let $X=X^eμ^2$. We determine the order of magnitude of \\[ \\mathbb{E} \\Bigg[ \\bigg| \\frac{1}{\\sqrt{x}}\\sum_{n \\le x} X^e(n) \\bigg|^{2 q} \\Bigg]\\quad \\text{ and }\\quad \\mathbb{E} \\Bigg[ \\bigg|\\sum_{n \\le x} \\frac{X(n)}{\\sqrt{n}} \\bigg|^{2 q} \\Bigg] \\] for $q\\in [0,1]$, showing that a transition from better-than-square-root cancellation to growth like a power of $\\log x$ occurs when $q$ crosses $1/2$. In particular, the first absolute moments are of order $(\\log\\log x)^{3/4}$. The proof proceeds by comparing these sums to integrals of random Euler products, which are then studied by analogy with Gaussian multiplicative chaos integrals. The main difficulty lies in proving the lower bound at $q=1/2$, for which we also adapt arguments from the study of random walks.",
+      "published": "2026-11-03",
+      "categories": [
+        "math.NT",
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.05649",
+      "url": "https://arxiv.org/abs/2611.05649",
+      "title": "Linear Cotype Bounds for Nonlinear Spectral Gaps of Scalar Expanders",
+      "authors": [
+        "Achintya Raya Polavarapu"
+      ],
+      "abstract": "Let $G$ be a finite simple $d$-regular graph, $d\\geq 3$, whose second largest adjacency eigenvalue satisfies $λ_2(G)\\leq (1-δ)d$, where $0<δ\\leq 1$. We prove that the Poincaré constant satisfies $$γ(G,\\|\\cdot\\|_X)\\lesssim \\frac{qCK}δ$$ whenever $X$ is a real Banach space with a $K$-unconditional Schauder basis and cotype $q$ with constant $C$. This constant compares the mean distance over all vertex pairs with the mean distance across edges. For real Banach lattices the bound is $O(qC/δ)$. The proof estimates where a random walk first leaves each coordinate level set. As a consequence of the bound, if $n$-vertex graphs in a fixed-degree expander family embed with bounded distortion into spaces with bounded $C,K$, then $q$ must grow at least as fast as $\\log n$. This order is attained in $\\ell_q^n$.",
+      "published": "2026-11-03",
+      "categories": [
+        "math.FA",
+        "math.CO"
       ],
       "tags": [
         "random walk"
