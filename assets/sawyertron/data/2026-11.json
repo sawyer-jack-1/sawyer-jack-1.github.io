@@ -1,6 +1,6 @@
 {
   "month": "2026-11",
-  "generated_at": "2026-11-06T17:33:51+00:00",
+  "generated_at": "2026-11-07T16:30:19+00:00",
   "source": "arXiv metadata API",
   "papers": [
     {
@@ -172,7 +172,6 @@
       "published": "2026-11-05",
       "categories": [
         "math.ST",
-        "stat.TH",
         "math.PR"
       ],
       "tags": [
@@ -571,7 +570,7 @@
         "Pan Peng",
         "Ranran Shen"
       ],
-      "abstract": "Testing expansion asks to distinguish graphs of large conductance from graphs that are far from having large conductance. We study a relaxation in which only part of the graph is required to expand: does an $n$-vertex graph of bounded degree contain an induced expander on a constant fraction of its vertices, when the rest of the graph, including the edges leaving the expander, is arbitrary? Let $P_{α,ϕ}$ denote the property of containing an induced subgraph on at least $αn$ vertices with inner conductance at least $ϕ$. For every constant $κ\\in(0,1)$, we give a tester that accepts graphs in $P_{α,ϕ}$ and rejects graphs outside $P_{κα,μϕ^2}$, where $μ=Θ_{α,κ}(1/\\log n)$, using $O_{α,κ}(\\sqrt n\\,ϕ^{-2}\\log n)$ queries. For fixed $α\\in(0,1]$, $κ\\in(0,1)$, and $0<ϕ\\le9/20$, we further show that distinguishing these two classes requires $Ω_{α,κ,ϕ}(n^{1/2+c_{κ,ϕ}μ})$ queries for every sufficiently large $n$ and every $0<μ\\le1$, where $c_{κ,ϕ}>0$. The bound holds for adaptive algorithms, uniformly in $μ$. Hence, for testers with $\\sqrt n\\,\\mathrm{polylog}(n)$ queries, the logarithmic loss in conductance is necessary up to a $\\log\\log n$ factor. The same tester also permits distance-based rejection at a weaker conductance while retaining the original core size. Our tester compares the endpoint distributions of random walks from different vertices with each other, rather than with the uniform distribution. Its analysis uses the trace chain, which observes the walk only at its visits to the unknown expanding core. Our lower bound builds on the noisy-parity construction of [CKK+18], using vector-valued parity labels in $\\mathbb F_2^r$ to create many hidden classes, each too small to contain a qualifying induced expander.",
+      "abstract": "Testing expansion asks to distinguish graphs of large conductance from graphs that are far from having large conductance. We study a relaxation in which only part of the graph is required to expand: does an $n$-vertex graph of bounded degree contain an induced expander on a constant fraction of its vertices, when the rest of the graph, including the edges leaving the expander, is arbitrary? Let $P_{α,φ}$ denote the property of containing an induced subgraph on at least $αn$ vertices with inner conductance at least $φ$. For every constant $κ\\in(0,1)$, we give a tester that accepts graphs in $P_{α,φ}$ and rejects graphs outside $P_{κα,μφ^2}$, where $μ=Θ_{α,κ}(1/\\log n)$, using $O_{α,κ}(\\sqrt n\\,φ^{-2}\\log n)$ queries. For fixed $α\\in(0,1]$, $κ\\in(0,1)$, and $0<φ\\le9/20$, we further show that distinguishing these two classes requires $Ω_{α,κ,φ}(n^{1/2+c_{κ,φ}μ})$ queries for every sufficiently large $n$ and every $0<μ\\le1$, where $c_{κ,φ}>0$. The bound holds for adaptive algorithms, uniformly in $μ$. Hence, for testers with $\\sqrt n\\,\\mathrm{polylog}(n)$ queries, the logarithmic loss in conductance is necessary up to a $\\log\\log n$ factor. The same tester also permits distance-based rejection at a weaker conductance while retaining the original core size. Our tester compares the endpoint distributions of random walks from different vertices with each other, rather than with the uniform distribution. Its analysis uses the trace chain, which observes the walk only at its visits to the unknown expanding core. Our lower bound builds on the noisy-parity construction of [CKK+18], using vector-valued parity labels in $\\mathbb F_2^r$ to create many hidden classes, each too small to contain a qualifying induced expander.",
       "published": "2026-11-03",
       "categories": [
         "cs.DS"
@@ -593,7 +592,7 @@
       "published": "2026-11-03",
       "categories": [
         "math.PR",
-        "math.MP"
+        "math-ph"
       ],
       "tags": [
         "random walk"
@@ -700,9 +699,7 @@
       "published": "2026-11-03",
       "categories": [
         "math.ST",
-        "stat.TH",
         "cs.IT",
-        "math.IT",
         "math.OC",
         "math.PR",
         "stat.ML"
@@ -815,7 +812,6 @@
       "published": "2026-11-02",
       "categories": [
         "math.OC",
-        "cs.SY",
         "eess.SY"
       ],
       "tags": [
@@ -908,7 +904,6 @@
       "published": "2026-11-02",
       "categories": [
         "cs.IT",
-        "math.IT",
         "cs.CC",
         "math.CO"
       ],
@@ -945,6 +940,7 @@
       "abstract": "We construct explicit two-sided lossless expanders whose binary adjacency matrices have full rank, and use them to obtain explicit asymptotically good quantum LDPC codes whose specified X- and Z-check matrices have full row rank and satisfy small-set soundness, or confinement, on a linear range. Our lossless expanders are a variant of those of Hsieh, Lubotzky, Mohanty, Reiner, and Zhang, with a free action of a finite 2-group. Under such an action, injectivity and surjectivity of the adjacency matrix are detected on a fixed-size matrix indexed by vertex orbits. Adding a sparse factor to the gadget at the middle vertices of a single type then enforces full rank, with a controlled loss in expansion. To obtain the 2-group action, we observe that reducing the generators of the Lubotzky-Phillips-Sarnak Ramanujan graphs modulo powers of 2, instead of modulo an odd prime, gives Ramanujan Cayley graphs on finite 2-groups. This construction may be of independent interest. Plugging two such expanders into the balanced product of Lin and Hsieh gives the quantum codes, since full rank of the input graphs is inherited by the check matrices. Our construction supplies the code family sought by Hong, Guo, and Lucas. Applying their analysis, within their framework and under their dynamical assumptions, gives quantum memories whose free-energy density is analytic at every positive temperature and whose guaranteed lifetime is $exp(Ω(N))$ at sufficiently low fixed positive temperature, where N is the blocklength. This improves the previously guaranteed stretched-exponential timescale.",
       "published": "2026-11-02",
       "categories": [
+        "quant-ph",
         "cs.CC",
         "cs.DS",
         "math.CO",
@@ -1109,7 +1105,7 @@
       "abstract": "In this paper, we study nonlocal metrics on smooth positive probability densities on a closed manifold, induced by symmetric jump kernels and density-dependent mobilities. First, we introduce the density-variation operator to express the density derivatives of the Dirichlet form and kinetic energy. Second, we construct density and velocity-field representations of the tangent space and prove their isometric equivalence. We use the generator's pseudoinverse to derive Levi-Civita connections and covariant differentials in both representations. Third, we establish mechanical Hamiltonian dynamics in both tangent representations; an action principle and Legendre duality identify the Hamilton--Jacobi and covariant Newton equations; smooth negative gradient flows admit a zero-energy Hamiltonian lift. Entropy diffusion, nonlocal mean-field equations, Keller--Segel dynamics, and a nonlocal Vlasov equation illustrate the resulting calculus. For geometric-mean mobility, the Hopf--Cole transformation of the nonlocal Schrödinger bridge system and the Madelung transformation of the nonlocal Schrödinger equation yield hyperbolic and trigonometric phase energies, respectively. At zero momentum, both recover the metric kinetic energy to second order.",
       "published": "2026-11-01",
       "categories": [
-        "math.MP",
+        "math-ph",
         "math.DG",
         "math.DS",
         "math.PR"
