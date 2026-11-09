@@ -1,8 +1,250 @@
 {
   "month": "2026-11",
-  "generated_at": "2026-11-08T16:42:54+00:00",
+  "generated_at": "2026-11-09T20:49:53+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2611.09427",
+      "url": "https://arxiv.org/abs/2611.09427",
+      "title": "Fluctuations of heat kernels and exit times on random graphs and application to the critical long-range percolation",
+      "authors": [
+        "Zherui Fan",
+        "Lu-Jing Huang",
+        "Takashi Kumagai"
+      ],
+      "abstract": "Let $\\mathcal{G}$ be a graph equipped with random conductance. We give sufficient conditions for the Markov chain on $\\mathcal{G}$ to exhibit large scale fluctuations in its on-diagonal heat kernel and in exit times. The conditions also imply non-tightness of the height process w.r.t. the quenched measure, while it is tight w.r.t. the annealed measure. As an application of the general theory, we prove large scale fluctuations for the simple random walk on $1$-dimensional critical long-range percolation.",
+      "published": "2026-11-06",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk",
+        "random graph"
+      ]
+    },
+    {
+      "id": "2611.09503",
+      "url": "https://arxiv.org/abs/2611.09503",
+      "title": "The probability that a branching random walk does not hit a point",
+      "authors": [
+        "Jean-François Le Gall"
+      ],
+      "abstract": "We study the probability that a branching random walk in ${\\bf Z}^d$ driven by a Galton-Watson tree conditioned to have $n$ vertices does not hit a fixed point. For $d\\in\\{1,2,3\\}$ this probability behaves like $n^{-α/4}$ in logarithmic scale, where $α=4$ when $d=1$, $α=2\\sqrt{2}$ when $d=2$, and $α=(\\sqrt{17}-1)/2$ when $d=3$.",
+      "published": "2026-11-06",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.08853",
+      "url": "https://arxiv.org/abs/2611.08853",
+      "title": "Synchronized Optimal Transport Reconstructs Coupled Transcriptomic and Chromatin Dynamics",
+      "authors": [
+        "Jingfeng Wang",
+        "Yanxiang Zhao",
+        "Qing Nie",
+        "Zixuan Cang"
+      ],
+      "abstract": "Single-cell RNA and ATAC data collected across developmental stages provide time-course snapshots of transcriptional and regulatory states. Since sequencing is destructive, trajectories between these snapshots must be inferred from independently sampled cell populations. Existing approaches typically infer continuous dynamics in a single modality or integrate RNA and ATAC in a shared representation. Here we present Cross-Omics Aligned Trajectory Inference (COATI), which extends unbalanced synchronized dynamical optimal transport to time-dependent cross-modal maps for reconstructing coupled trajectories in distinct RNA and ATAC state spaces. We evaluated COATI on synthetic benchmarks and four developmental datasets using held-out-stage reconstruction and lineage analyses. COATI improved reconstruction of cell populations at held-out stages, including recovery of chromatin-state heterogeneity within cell types, and better preserved developmental lineage relationships. The unbalanced formulation allows the inference of population mass changes, which were shown to associate with DNA-replication programs at early stages and lineage-maturation programs later in development. The coupled trajectories enabled analysis of lineage-specific transcriptional and chromatin changes and their temporal relationships during development. Lineage responses inferred by COATI agreed with independent CRISPR perturbation results, and the inferred regulatory patterns were consistent with independent epigenetic data.",
+      "published": "2026-11-06",
+      "categories": [
+        "q-bio.GN",
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2611.08973",
+      "url": "https://arxiv.org/abs/2611.08973",
+      "title": "Polynomial complexity, random graphs, and strict ergodicity",
+      "authors": [
+        "Be'eri Greenfeld",
+        "Paul-Henry Leemann",
+        "Carlos Gustavo Moreira",
+        "Efim Zelmanov"
+      ],
+      "abstract": "We construct infinite words $w$ whose complexity functions are quadratically bounded, but whose discrete derivatives are not linearly bounded, resolving a question of Cassaigne. Moreover, we construct infinite words of polynomially bounded complexity, and subshifts of quasi-linear complexity, whose discrete derivatives do not decay compared to their complexity functions, thus exhibiting a typical exponentially-growing behavior. As an application, we give the first examples of subshifts of polynomial complexity whose Rauzy graphs do not have Benjamini-Schramm limits. Finally, we realize (up to an inevitable linear error factor) every function satisfying the necessary conditions, as the complexity function of a minimal, uniquely ergodic, cube-free subshift, strengthening previous realization results in this direction, and derive consequences for the growth of simple algebras and just-infinite semigroups satisfying nontrivial laws.",
+      "published": "2026-11-06",
+      "categories": [
+        "math.DS",
+        "math.CO"
+      ],
+      "tags": [
+        "random graph"
+      ]
+    },
+    {
+      "id": "2611.08812",
+      "url": "https://arxiv.org/abs/2611.08812",
+      "title": "Dynamic signatures of collective knowledge through navigation in a network with semantic structure",
+      "authors": [
+        "Abby Bertics",
+        "Elizabeth R. Chrastil",
+        "Jean M. Carlson"
+      ],
+      "abstract": "What distinguishes how humans navigate an information network like Wikipedia from what the underlying graph structure and language statistics alone predict? To study human collective navigation, we analyze 70,770 human trajectories through Wikispeedia, an online game where players navigate between articles to reach a target. To compare groups of trajectories rather than individual ones, we merge all trajectories leaving or entering a given article into a Flow Tree. Flow Trees compress collections of trajectories into hierarchies of group splits. We build forward and reverse Flow Trees for 815 of the most commonly traversed articles, representing divergence and convergence, respectively. We compare humans against four random-walker null models, either unweighted or weighted by graph structure, word frequency, or semantic similarity to target. Human Flow Trees are deeper with longer trunks and later splits, indicating players stay together longer than random walkers, whose Flow Trees tend to fan out immediately. An article's degree predicts 51.3-70.9% of the variation in Flow Tree branching factor for random walkers, but only 24.1-36.2% for humans. Taking what graph structure fails to predict as a two-dimensional coordinate system, we define four article types (beacons, funnels, forks, and corridors), distinguished by how humans enter and exit them. These human-defined types are not explained by out-degree or title-word frequency are, and are not recovered by any random walker. A fifth null model, built from first-order human click preferences, partially reproduces human Flow Tree shape but differs significantly in how much of that shape degree explains. We consider collective knowledge to be the structure shared by players who never communicate, beyond what graph structure imposes. It comprises first-order click preferences and a significant component that extends across clicks.",
+      "published": "2026-11-06",
+      "categories": [
+        "cs.SI",
+        "physics.soc-ph"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.09189",
+      "url": "https://arxiv.org/abs/2611.09189",
+      "title": "RoleWalk: training-free structural embeddings for directed graphs that transfer across graphs",
+      "authors": [
+        "Maixent Chenebaux"
+      ],
+      "abstract": "Structural role embeddings describe a node by its position in a graph - hub, bridge, periphery, member of a dense core - rather than by who its neighbours are. Existing methods either learn coordinates specific to one graph (struc2vec, Role2Vec, RESD) or read scales and normalisations from the whole graph (GraphWave, Digraphwave), so the same neighbourhood can receive different coordinates in two graphs; few read edge directions. We present RoleWalk, a training-free embedding that follows a short lazy random walk from each node and records, at each step, two distributions: that of the transition probabilities, through its characteristic function at a fixed grid of frequencies, and that of the walker's distance to its starting node. On directed graphs, walks that go forward then backward add who shares a node's targets or sources. The embedding depends only on a node's neighbourhood within a fixed radius, so its coordinates mean the same thing in every graph. We show that, without curvature, it is the kernel mean embedding of the walk's footprint, that it separates graphs that the Weisfeiler-Leman test cannot, and that pruning small probabilities comes with a per-node error certificate. Empirically, RoleWalk is competitive with the best role embeddings on five classification benchmarks at a fraction of their cost, has the highest scores on real directed roles in Wikipedia adminship, exceeds the published accuracy of Digraphwave at every noise level of its own Enron network-alignment benchmark, transfers centrality predictors to graphs four times larger better than existing inductive embeddings, hand-made features and a trained GIN, and embeds a million nodes in 20 s to 3 min on one CPU core. The code is open source (BSD license): https://github.com/kerighan/rolewalk",
+      "published": "2026-11-06",
+      "categories": [
+        "cs.LG",
+        "cs.SI"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.09772",
+      "url": "https://arxiv.org/abs/2611.09772",
+      "title": "Malliavin structure for conditionally independent random variables",
+      "authors": [
+        "Laurent Decreusefond",
+        "Christophe Vuong"
+      ],
+      "abstract": "We consider a countable family of random variables which are conditionally independent given a latent random variable $Z$. Given $Z$, the random variables are independent. Hence the Malliavin calculus for independent random variables applies for each value of $Z$. We show that these constructions fit together. We obtain the chaos decomposition, the domains of the Malliavin operators, the Mehler formula and the carré du champ operator, with conditional expectations given $Z$ in place of ordinary expectations. For normal approximation, conditioning on $Z$ and the infinite de Jong theorem of Döbler give mixed normal approximations of degenerate U-statistics, in Wasserstein and Kolmogorov distances. Working under the unconditional probability, we obtain a de Jong type bound for U-statistics whose kernels are products. In both cases, the fluctuations of the conditional variance appear as an additional term, which cannot be removed. As an application, we consider subhypergraph counts in a random $3$-uniform hypergraph built on a latent random graph. For the count centred at its conditional mean, we obtain an explicit rate in Wasserstein distance. It reduces to the known rate for the Erdős--Rényi hypergraph when the latent graph is complete. The count centred at its mean is a pattern count in a non-uniform hypergraph with independent edges, which gives a necessary and sufficient condition for its asymptotic normality.",
+      "published": "2026-11-06",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance",
+        "random graph"
+      ]
+    },
+    {
+      "id": "2611.09052",
+      "url": "https://arxiv.org/abs/2611.09052",
+      "title": "StreamTab: Training-Free Temporal Link Prediction with Tabular Foundation Models",
+      "authors": [
+        "Mingqi Yang",
+        "Renqi Wu"
+      ],
+      "abstract": "Temporal link prediction uses past interactions to predict whether two nodes will interact in the future. Temporal graph neural networks achieve strong results on this task, but they are trained separately for each graph. How a model should use interaction history also depends on the candidates it is compared with. A past interaction can distinguish a recurring link from a random pair that has never interacted, but when the negative candidates have also interacted before, other signals are needed. We propose StreamTab, a training-free framework built on a frozen tabular foundation model pretrained only on synthetic tables. StreamTab describes each candidate pair by statistics of its past interactions and shows the model recent observed interactions and sampled negative pairs as labeled examples, from which the model scores new candidates. Its central design, regime conditioning, samples the negative examples according to how the candidates are sampled, so the examples show the distinction the model must make. As new interactions arrive, StreamTab updates the statistics and refreshes the examples while the model parameters stay fixed. On thirteen datasets against 21 temporal graph baselines, StreamTab achieves the highest average precision on twelve datasets under historical sampling and eleven under inductive sampling, and ranks first or stays within one point of the best on seven datasets under random sampling. With the same features and model, regime conditioning raises average precision over examples with random negatives by a median of 12.6 points under historical sampling.",
+      "published": "2026-11-06",
+      "categories": [
+        "cs.LG",
+        "cs.DB",
+        "cs.SI"
+      ],
+      "tags": [
+        "temporal graph",
+        "graph neural network"
+      ]
+    },
+    {
+      "id": "2611.08869",
+      "url": "https://arxiv.org/abs/2611.08869",
+      "title": "As Easy as Rank One: Optimal Algorithms for Matroid Secretary and Single-Sample Matroid Prophet",
+      "authors": [
+        "Hamed Abdi",
+        "Kiarash Banihashem",
+        "MohammadTaghi Hajiaghayi",
+        "Zhiyi Huang",
+        "Danny Mittal",
+        "Sahil Singla"
+      ],
+      "abstract": "We resolve the matroid secretary conjecture in its strong form and the single-sample matroid prophet inequality problem, achieving competitive ratios $e$ and $2$, respectively. Both ratios are optimal, even for rank-one matroids. For matroid secretary, our ordinal algorithm accepts the elements of the canonical optimum independently, each with probability $1/e$. It needs only the number of elements in advance and uses an expected polynomial number of independence queries on arrived elements. For single-sample matroid prophet inequalities, our algorithm uses one sample per independent value distribution and $O(n^2)$ independence queries on a known $n$-element matroid. It works for every arrival order fixed independently of the samples, values, and algorithmic randomness. The selected elements and their values have exactly the joint distribution obtained by independently retaining each element--value pair in the canonical optimum of a fresh product draw with probability $1/2$. Our main algorithms maintain a reference state whose greedy solution contains every accepted element. Its updates, made even after rejections, preserve exact distributional invariants. A short reversible-update argument gives a $4$-probability-competitive secretary algorithm, already resolving the original conjecture; a related invariant gives the optimal single-sample prophet inequality. For secretary, we characterize the distributions achievable by ordinal algorithms through a finite polytope. A continuous-time formulation then lets us design an accepted-set distribution achieving the optimal ratio $e$ and realize it efficiently. We also obtain guarantees for matroid intersections.",
+      "published": "2026-11-06",
+      "categories": [
+        "cs.DS",
+        "cs.GT"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.09021",
+      "url": "https://arxiv.org/abs/2611.09021",
+      "title": "Infinitely many convex polytopes with dihedral angles bounded above by $π/2+δ$",
+      "authors": [
+        "Zhenkun Li",
+        "Jinmin Wang",
+        "Jing Yu"
+      ],
+      "abstract": "For every $δ>0$, we construct infinitely many pairwise combinatorially distinct convex three-dimensional polytopes whose dihedral angles are all less than $π/2+δ$.",
+      "published": "2026-11-06",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "convex polytope"
+      ]
+    },
+    {
+      "id": "2611.09357",
+      "url": "https://arxiv.org/abs/2611.09357",
+      "title": "On the Motzkin-Straus theorem and clique number for k-uniform hypergraphs",
+      "authors": [
+        "Chunli Deng",
+        "Shaohuan Hao",
+        "Haifeng Li"
+      ],
+      "abstract": "In this paper, we establish a Motzkin-Straus type equality for k-uniform hypergraphs under certain conditions, which extends the classical Motzkin--Straus theorem for graphs. Using this equality, we present several spectral bounds for the clique number of k-uniform hypergraphs in terms of the spectral radii of the adjacency, signless Laplacian, and Laplacian tensors. When k=2, the bounds coincide with the corresponding known results for graphs.",
+      "published": "2026-11-06",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "signless Laplacian"
+      ]
+    },
+    {
+      "id": "2611.09487",
+      "url": "https://arxiv.org/abs/2611.09487",
+      "title": "Backward--forward interacting systems with probability-valued strategies and common noise",
+      "authors": [
+        "Anderson Melchor Hernandez"
+      ],
+      "abstract": "We study a system of interacting agents in which a backward stochastic equation is coupled to the forward evolution of a probability-valued strategy distribution. The agents interact through their empirical state--strategy law and are exposed to a common Brownian noise. Under Lipschitz, mass-conservation, and positivity assumptions, we establish well-posedness of the finite-agent system on a sufficiently short time interval. We then identify its large-population limit as a conditional mean-field backward--forward system and prove conditional propagation of chaos. When agent characteristics take finitely many values, we obtain order $N^{-1}$ bounds for the expected squared particle--copy error and the expected squared Wasserstein distance of order one between the empirical law and the conditional limiting law. An adaptive-strategy model with replicator dynamics illustrates the theory, accompanied by a numerical comparison of the two errors.",
+      "published": "2026-11-06",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.09723",
+      "url": "https://arxiv.org/abs/2611.09723",
+      "title": "Fixed-point acceleration on Neural Wasserstein manifolds",
+      "authors": [
+        "Vitalii Aksenov",
+        "Sebastian Gutierrez Hernandez"
+      ],
+      "abstract": "We propose a fixed-point acceleration method for optimization over probability measures, applicable to a variety of machine learning problems. We represent probability measures as pushforwards of a reference distribution through a neural network map and equip the parameter space with the induced pullback Wasserstein metric. This geometric structure allows natural gradient descent to be interpreted as a fixed-point iteration on a Riemannian manifold. We accelerate this iteration using Riemannian Anderson mixing method, which exploits historical residuals to capture approximate second-order information without forming Hessians. In the present parametric setting, the manifold is represented by Euclidean coordinates endowed with a point-dependent metric, simplifying retraction and vector transport. We evaluate the method on multimodal sampling, PDE-based inverse problems, aggregation dynamics, Bayesian logistic regression, and generative modeling. Across the tested tasks, Anderson mixing reduces the number of natural-gradient iterations and achieves competitive performance relative to SGD and Adam in terms of both loss-gradient evaluations and wall-clock time. These results suggest that fixed-point acceleration is an efficient tool for improving the computational efficiency of training on parametric Wasserstein methods.",
+      "published": "2026-11-06",
+      "categories": [
+        "cs.LG",
+        "math.OC"
+      ],
+      "tags": [
+        "Wasserstein metric"
+      ]
+    },
     {
       "id": "2611.07429",
       "url": "https://arxiv.org/abs/2611.07429",
@@ -38,6 +280,25 @@
       ],
       "tags": [
         "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2611.08743",
+      "url": "https://arxiv.org/abs/2611.08743",
+      "title": "Entropic Martingale Optimal Transport with Wasserstein Relaxed Marginal Constraints",
+      "authors": [
+        "Haowen Chen",
+        "Renyuan Xu",
+        "Xin Zhang"
+      ],
+      "abstract": "Martingale optimal transport (MOT) is a fundamental framework in robust finance, yet its stability under marginal perturbation no longer holds in high dimensions $d\\geq 2$. In this paper, we introduce Wasserstein-relaxed entropic martingale optimal transport (WEMOT), which combines Wasserstein relaxation of the second marginal with entropy regularization. This formulation ensures stability under perturbations of the marginals, thereby facilitating numerical implementation. We establish strong duality and dual attainment for WEMOT, which leads to efficient Sinkhorn-type algorithms. We further prove a convergence rate of WEMOT to MOT as regularization parameters vanish, and also the quantitative stability of WEMOT with respect to marginal perturbations.",
+      "published": "2026-11-05",
+      "categories": [
+        "math.PR",
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
       ]
     },
     {
@@ -265,7 +526,7 @@
         "Sayan Ranu",
         "Abhijnan Chakraborty"
       ],
-      "abstract": "PageRank is widely used to quantify the importance of nodes in directed networks. In applications such as recommendation systems, it is increasingly important that the PageRank distribution provides a fair representation of node exposure. This motivates the problem of making minimal changes to a graph so that the PageRank values of a given set of target nodes $T$ match a desired vector $\\boldsymbol{t}$. In this paper, we study this problem under an edge-addition budget $B$, where exactly $B$ edges may be added to the graph. We show that deciding whether a multiset of exactly $B$ added edges can make the target nodes attain their desired absolute PageRank scores is NP-complete. After this, we define the $\\ell_1$ \\textsc{Target PageRank} problem in which we seek to minimize the $\\ell_1$ distance between the target vector and resultant vector. We show that this optimization problem admits no polynomial-time multiplicative constant-factor approximation unless $P=NP$. Motivated by these hardness results, we propose two greedy heuristics for approaching the target PageRank vector. We additionally propose a Random Walk Hungarian (RWH) heuristic that addresses the addition of edges between dissimilar nodes by incorporating a penalty for such edges. Finally, we evaluate the proposed heuristics on several real-world and synthetic datasets and compare their performance in terms of PageRank accuracy, computational efficiency, and the relevance of the added edges.",
+      "abstract": "PageRank is widely used to quantify the importance of nodes in directed networks. In applications such as recommendation systems, it is increasingly important that the PageRank distribution provides a fair representation of node exposure. This motivates the problem of making minimal changes to a graph so that the PageRank values of a given set of target nodes $T$ match a desired vector $\\boldsymbol{t}$. In this paper, we study this problem under an edge-addition budget $B$, where exactly $B$ edges may be added to the graph. We show that deciding whether a multiset of exactly $B$ added edges can make the target nodes attain their desired absolute PageRank scores is NP-complete. After this, we define the $\\ell_1$ Target PageRank problem in which we seek to minimize the $\\ell_1$ distance between the target vector and resultant vector. We show that this optimization problem admits no polynomial-time multiplicative constant-factor approximation unless $P=NP$. Motivated by these hardness results, we propose two greedy heuristics for approaching the target PageRank vector. We additionally propose a Random Walk Hungarian (RWH) heuristic that addresses the addition of edges between dissimilar nodes by incorporating a penalty for such edges. Finally, we evaluate the proposed heuristics on several real-world and synthetic datasets and compare their performance in terms of PageRank accuracy, computational efficiency, and the relevance of the added edges.",
       "published": "2026-11-04",
       "categories": [
         "cs.SI"
@@ -277,12 +538,12 @@
     {
       "id": "2611.06891",
       "url": "https://arxiv.org/abs/2611.06891",
-      "title": "Prophet Secretary for Matroids and XOS Valuations: A Strict Separation at $1-1/e$",
+      "title": "Prophet Secretary for Matroids and XOS Valuations: A Separation at 1-1/e and a 0.6767 Guarantee for I.I.D. Weights",
       "authors": [
         "Hossein Esfandiari",
         "MohammadTaghi Hajiaghayi"
       ],
-      "abstract": "The matroid prophet-secretary problem asks an online algorithm to select an independent set of elements whose nonnegative values are drawn independently and revealed in uniformly random order. Its combinatorial-auction counterpart asks the algorithm to allocate disjoint bundles to arriving buyers with independently drawn XOS valuation functions. In both problems the distributions are known, and the benchmark is the expected offline optimum. Ehsani, Hajiaghayi, Kesselheim, and Singla (SODA 2018) give $(1-1/e)$-competitive algorithms for both settings. In this work we show that these two guarantees have different limits. For every matroid, we give a randomized $(1-1/e+\\varepsilon_0)$-competitive algorithm, where $\\varepsilon_0=10^{-6}$. The guarantee holds for independent nonnegative values with finite expected optimum. For explicitly given finite distributions with rational values and probabilities, the algorithm has polynomial worst-case running time in the matroid independence-oracle model. The oracle tests whether a queried set is independent. The algorithm makes $O(N^4)$ such queries in expectation and $O(N^4\\log(N+2))$ in the worst case, where $N$ is the number of elements. For combinatorial auctions with XOS valuations, however, we show that $1-1/e$ is the optimal competitive ratio. We give an explicit family of finite instances showing that no online algorithm can guarantee a larger competitive ratio than $1-1/e$, even when the buyers' valuations are independent and identically distributed, every additive clause has coefficients in $\\{0,1\\}$, and computation is unrestricted. Thus the matroid improvement exploits structure absent from general allocation with XOS valuations.",
+      "abstract": "Ehsani, Hajiaghayi, Kesselheim, and Singla (SODA 2018) give $(1-1/e)$-competitive algorithms for matroid prophet-secretary and prophet-secretary with XOS valuation functions. In this work we show that these two guarantees have different limits. For every matroid, we give a randomized $(1-1/e+\\varepsilon_0)$-competitive algorithm, where $\\varepsilon_0=10^{-6}$. The guarantee holds for independent nonnegative values with finite expected optimum. For explicitly given finite distributions with rational values and probabilities, the algorithm has polynomial worst-case running time in the matroid independence-oracle model. The oracle tests whether a queried set is independent. The algorithm makes $O(N^4)$ such queries in expectation and $O(N^4\\log(N+2))$ in the worst case, where $N$ is the number of elements. We further consider the i.i.d. version of this problem and provide a $0.6767$ competitive ratio for every matroid with i.i.d.\\ nonnegative weights from a known distribution. This guarantee even holds in fixed arrival order (a.k.a. i.i.d. matriod prophet inequalities), even when the algorithm learns the order only as the elements arrive. For combinatorial auctions with XOS valuations, however, we show that $1-1/e$ is the optimal competitive ratio. We give an explicit family of finite instances showing that no online algorithm can guarantee a larger competitive ratio than $1-1/e$, even when the buyers' valuations are i.i.d., every additive clause has coefficients in $\\{0,1\\}$, and computation is unrestricted. Thus the matroid improvement exploits structure absent from general allocation with XOS valuations.",
       "published": "2026-11-04",
       "categories": [
         "cs.DS",
