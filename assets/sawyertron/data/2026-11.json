@@ -1,8 +1,358 @@
 {
   "month": "2026-11",
-  "generated_at": "2026-11-09T20:49:53+00:00",
+  "generated_at": "2026-11-10T17:56:00+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2611.12349",
+      "url": "https://arxiv.org/abs/2611.12349",
+      "title": "Sufficient conditions for spanning trees with bounded total excess in tough graphs",
+      "authors": [
+        "Sizhong Zhou",
+        "Chunjie Sun",
+        "Zhiren Sun"
+      ],
+      "abstract": "Let $G$ be a connected graph and $T$ a spanning tree of $G$. The toughness of $G$ is defined by $t(G)=\\min\\Big\\{\\frac{|S|}{c(G-S)}:S\\subseteq V(G), c(G-S)\\geq2\\Big\\}$ for $G\\neq K_n$. A graph $G$ is said to be $t$-tough if $t(G)\\geq t$. The size, the adjacency spectral radius and the signless Laplacian spectral radius of $G$ are denoted by $e(G)$, $ρ(G)$ and $q(G)$, respectively. The $k$-excess of a vertex $v$ in $T$ is defined as $\\max\\{0,d_T(v)-k\\}$. The total $k$-excess $\\mbox{te}(T,k)$ is defined by $\\mbox{te}(T,k)=\\sum\\limits_{v\\in V(T)}{\\max\\{0,d_T(v)-k\\}}$. A tree $T$ is called a $k$-tree if $d_T(v)\\leq k$ for every $v\\in V(T)$, namely, the maximum degree of a $k$-tree is at most $k$. It is obvious that $T$ is a spanning $k$-tree if and only if $\\mbox{te}(T,k)=0$. This paper investigates a generalization of spanning $k$-trees using a concept called total $k$-excess and puts forward three lower bounds based on $e(G)$, $ρ(G)$ and $q(G)$ in a connected $\\frac{k}{k(k-2)+b+3}$-tough graph $G$ to guarantee that $G$ has a spanning tree $T$ with $\\mbox{te}(T,k)\\leq b$, where $k\\geq3$ and $b\\geq0$ are two integers. As corollaries, we obtain three sufficient conditions for a connected $\\frac{k}{k(k-2)+3}$-tough graph to has a spanning $k$-tree.",
+      "published": "2026-11-09",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "signless Laplacian",
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2611.12827",
+      "url": "https://arxiv.org/abs/2611.12827",
+      "title": "Flows in High Degree Places: Sublinear Spanning Tree Congestion",
+      "authors": [
+        "D Ellis Hershkowitz",
+        "Richard Z Huang"
+      ],
+      "abstract": "The congestion of a spanning tree $T$ of graph $G$ is the maximum congestion of an edge of $T$ if each edge of $G$ is routed on $T$. Prior work showed that obtaining a minimum congestion spanning tree is NP-hard to approximate within $6/5$, yet the only known approximation algorithm is a trivial $n/2$-approximation from returning any spanning tree of the graph. We give a simple poly-time $\\tilde{O}(n^{6/7})$-approximation for minimum congestion spanning tree on $n$-vertex graphs. We obtain this result via a $\\tilde{O}(m^{2/3})$-approximation, where $m$ is the number of edges. Our algorithm is based on a new \\textit{flow-or-degree decomposition} which deletes a small number of edges so that each remaining component either has low degree or admits a low congestion flow. We also show that, assuming the Small Set Expansion Hypothesis, it is NP-hard to $O(1)$-approximate this problem, even on graphs of constant maximum degree.",
+      "published": "2026-11-09",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2611.12198",
+      "url": "https://arxiv.org/abs/2611.12198",
+      "title": "Instance-Optimality of Single-Pair Personalized PageRank",
+      "authors": [
+        "Christian Bertram",
+        "Mads Vestergaard Jensen",
+        "Mikkel Thorup",
+        "Hanzhi Wang",
+        "Shuyi Yan"
+      ],
+      "abstract": "We consider discounted random walks in a directed simple graph $G=(V,E)$. Such a walk terminates at each step with a constant probability $α\\in (0,1)$ and otherwise continues to a uniform random out-neighbor. Given a pair $(s,t)\\in V^2$, we denote by $π(s,t)$ the probability of such a discounted random walk starting at $s$ terminates at $t$. This probability is referred to as the Personalized PageRank (PPR) of $t$ with respect to $s$. The problem of estimating $π(s,t)$ within a constant multiplicative factor with constant success probability for a given vertex pair $(s,t)$ is called the single-pair PPR estimation problem. We investigate the instance-optimality of single-pair PPR estimation in directed graphs. We present a new algorithm that aims at instance-optimal running time up to polylogarithmic factors. In other words, no correct algorithm can run faster than our algorithm on any valid graph by more than a polylogarithmic factor. We show that our algorithm is instance-optimal in the standard adjacency-list query model if $n$ is not known (as is often the case for most of the large networks to which PPR is applied). When $n$ is known, our algorithm is still instance-optimal for sparse graphs. For denser graphs, when $n$ is known, we show that no algorithm can achieve general instance-optimality. For the multiplicative approximation of PPR, we also improve the worst-case complexity from $O(mn\\log n)$ to the near-optimal $O(m\\log n)$. This is not only for the single-pair discussed above, but also for the single-source and single-target variants of the PPR estimation problem.",
+      "published": "2026-11-09",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.12785",
+      "url": "https://arxiv.org/abs/2611.12785",
+      "title": "Brown Measures and Spectral Convergence for Arbitrary GUE Polynomials",
+      "authors": [
+        "Benoit Collins",
+        "Yu Kitagawa",
+        "Akihiro Miyagawa",
+        "Wangjun Yuan",
+        "Ping Zhong"
+      ],
+      "abstract": "For arbitrary noncommutative polynomials in independent GUE matrices, we prove that the empirical eigenvalue measure converges weakly in probability to the Brown measure of the corresponding polynomial in free semicircular variables. We also prove convergence of the entire eigenvalue set in Hausdorff distance and convergence of the spectral radius, both in probability. Equivalently, these matrix conclusions hold for arbitrary $*$-polynomials in independent complex Ginibre matrices. Independently, we prove that the support of the Brown measure of every polynomial in free semicircular variables equals its operator spectrum. The proof of weak convergence combines a criterion based on the second moment of the Brown measure with complex Gaussian rotation and convexity. The support theorem uses linearization and rigidity of matrix Dyson equations. We also prove absolute continuity for nonconstant polynomials without adjoints in free circular variables. A matrix Dyson equation recovers Brown measures of arbitrary semicircular polynomials through regularized logarithmic potentials. For drift-corrected nondegenerate elliptic free random walks, it yields quantitative convergence of potentials in the interior of the limiting domain and weak convergence of Brown measures to that of free multiplicative Brownian motion.",
+      "published": "2026-11-09",
+      "categories": [
+        "math.PR",
+        "math-ph",
+        "math.OA"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.12444",
+      "url": "https://arxiv.org/abs/2611.12444",
+      "title": "Sampling Colorings on $G(n, d/n)$ via Glauber Dynamics",
+      "authors": [
+        "Leon Schiller"
+      ],
+      "abstract": "We study the mixing time of Glauber dynamics for sampling uniformly from the proper $q$-colorings of sparse Erdős-Rényi random graphs $G(n,d/n)$. Our main result establishes that with probability $1-o(1)$ over the draw of $G$, Glauber dynamics is rapidly mixing for every $q\\geq d+d^{1/2+\\varepsilon}$, given any fixed $0<\\varepsilon\\leq1/2$ and any sufficiently large fixed $d$. In particular, the surplus of colors above $d$ is sublinear and close to $\\sqrt{d}$. The achieved color range therefore approaches the tree uniqueness threshold and improves over the previously best achievable number of colors $q > 1.763 d$ due to Efthymiou, Hayes, Stefankovic, and Vigoda [SODA 2018]. Moreover, our mixing-time bound is $O(n^{2+o_d(1)})$, and hence almost quadratic as $d\\rightarrow\\infty$. Our proof is based on establishing a spectral gap for block dynamics resulting from a suitable decomposition of $G(n,d/n)$ into blocks and singleton vertices, ensuring that every high-degree vertex is encapsulated within a block. Our main technical contribution is a novel way of establishing rapid mixing of block dynamics via an integrated Bochner-Bakry-Émery approach, which we expect to have applications beyond sampling colorings. We further devise a new block decomposition of $G(n,d/n)$ that strengthens and simplifies similar constructions used in previous work. Finally, to compare block and Glauber dynamics, we establish a novel recursive separator decomposition of tree-like blocks, together with a coupling argument that avoids the need for nearly uniform color marginals at vertices adjacent to hubs. This comparison argument might be of independent interest.",
+      "published": "2026-11-09",
+      "categories": [
+        "math.CO",
+        "cs.DS",
+        "math.PR"
+      ],
+      "tags": [
+        "random graph",
+        "mixing time"
+      ]
+    },
+    {
+      "id": "2611.11970",
+      "url": "https://arxiv.org/abs/2611.11970",
+      "title": "Five-Entropic Matroids Are Quinary",
+      "authors": [
+        "Mohammad Hossein Kalantari",
+        "Shahram Khazaei"
+      ],
+      "abstract": "A finite matroid is representable over a field if its elements can be assigned vectors over that field such that the rank of every subset equals the dimension of the span of its vectors. For an integer q >= 2, a matroid is q-entropic if there exists a random vector indexed by its ground set, with each coordinate taking values in a common q-element alphabet, such that the entropy of every marginal subvector equals the rank of the corresponding subset multiplied by log q. It remains open to determine for which values of q every q-entropic matroid is representable over a field. For q=2 and q=3, representability over F_q has long been known. More recently, it was established that every 4-entropic matroid is representable over F_4 and that the 6-entropic matroids are precisely the regular matroids, that is, those representable over every field. We settle the previously unresolved five-symbol case, proving that a finite matroid is 5-entropic if and only if it is representable over F_5. For the nontrivial implication, we use Matúš's equivalence between entropic and partition representations. We show that a degree-five partition representation induces, on each embedded U_{2,4}-minor, an F_5-linear representation after coordinatewise relabeling, with a rescaling class independent of the chosen linearization. Using the foundation presentation of Baker and Lorscheid, we verify the compatibility relations among these local classes and thereby obtain a global F_5-representation.",
+      "published": "2026-11-09",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.11813",
+      "url": "https://arxiv.org/abs/2611.11813",
+      "title": "The minimum forcing number of graphs and involutory weighted adjacency matrices",
+      "authors": [
+        "Junlin Tian",
+        "Heping Zhang"
+      ],
+      "abstract": "Let $G$ be a graph with a perfect matching. The minimum forcing number $f(G)$ of $G$ is the smallest size of a matching in $G$ that is contained in exactly one perfect matching. For the $d$-hypercube $Q_d$ ($d\\geq 2$) Diwan (2019) determined $f(Q_d)=2^{d-2}$ by using a linear algebraic method, and Mohammadian (2022) generalized this method and showed that $f(G\\square K_2)=n/2$ when a bipartite graph $G$ admits order $n$ and an involutory weighted adjacency matrix over a field $\\mathbb F$, where $\\square$ denotes the Cartesian product. In this paper, we further prove that if $\\operatorname{char}\\mathbb{F}\\neq 2$, then $\\frac{n}{2}\\le f(G\\mathbin{\\square} P_k)\\le \\frac{n}{2}\\lceil\\frac{k}{2}\\rceil$ for every $k\\ge 2$, where $P_k$ is the $k$-vertex path; this recovers Mohammadian's result when $k=2$, and the lower bound is attained for $k=3$. Moreover, we extend this method to non-bipartite graphs. Recursively constructing the adjacency matrix of the folded hypercube $FQ_n$ over the binary field $\\mathbb F_2$, we prove that $f(FQ_n\\mathbin{\\square} K_2)=2^{n-1}$ for every even $n$. Combined with Mohammadian's result for odd $n$, this establishes the same formula for all $n\\geq 1$.",
+      "published": "2026-11-09",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2611.12030",
+      "url": "https://arxiv.org/abs/2611.12030",
+      "title": "Spectral conditions for the existence of $\\{K_2,\\{C_k\\}\\}$-factor in $t$-tough graphs",
+      "authors": [
+        "Zhenhao Zhang",
+        "Ligong Wang"
+      ],
+      "abstract": "For $t>0$, a graph $G$ is called $t$-tough if $|S|\\geq t\\,c(G-S)$ for every $S\\subseteq V(G)$ with $c(G-S)\\geq2$, where $c(G-S)$ denotes the number of components of $G-S$. Toughness is closely related to the existence of Hamiltonian cycles and factors in graphs. Chvátal [Discrete Math. 5 (1973) 215--228] conjectured that there exists a constant $t_0>0$ such that every $t_0$-tough graph of order at least three is Hamiltonian. Bauer, Broersma and Veldman [Discrete Appl. Math. 99 (2000) 317--321] constructed $(9/4-\\varepsilon)$-tough graphs without a Hamiltonian path for arbitrarily small $\\varepsilon>0$. For the weaker requirement of a $2$-factor, Enomoto et al. [J. Graph Theory 9 (1985) 87--95] proved that every $2$-tough graph of order at least three has a $2$-factor and that the toughness threshold $2$ is best possible. A graph $G$ is said to have a $\\{K_2,\\{C_k:k\\geq3\\}\\}$-factor if and only if $G$ contains a spanning subgraph consisting of components that are either cycles or single edges. A $\\{K_2,\\{C_k:k\\geq3\\}\\}$-factor can be viewed as a combination of a $1$-factor and a $2$-factor, motivating the study of such factors in tough graphs. In this paper, we establish sharp sufficient conditions in terms of the adjacency spectral radius, the distance spectral radius, and the distance signless Laplacian spectral radius for a $t$-tough graph to have a $\\{K_2,\\{C_k:k\\geq3\\}\\}$-factor.",
+      "published": "2026-11-09",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "signless Laplacian"
+      ]
+    },
+    {
+      "id": "2611.12447",
+      "url": "https://arxiv.org/abs/2611.12447",
+      "title": "Total variation error bounds for Schrödinger-Föllmer samplers",
+      "authors": [
+        "Xiaojie Wang",
+        "Xiaoyan Zhang"
+      ],
+      "abstract": "Sampling from high-dimensional, multimodal target distributions plays a fundamental role in scientific computing, statistics and machine learning. Recently, the Schrödinger-Föllmer sampler (SFS) has been proposed by Huang et al. (IEEE Trans. Inform. Theory, 2025) as an efficient sampling algorithm that transports the degenerate distribution at $t=0$ to the target distribution at $t=1$, without relying on long-time ergodicity. In this paper, we establish non-asymptotic error bounds for SFS in the total variation distance by deriving regularization estimates for the associated Kolmogorov equation via the Bismut-Elworthy-Li formula. When the drift can be computed exactly, a convergence rate of order $\\mathcal{O}( h|\\ln h|)$ was obtained under certain smoothness conditions on the drift with a uniform time step-size $h>0$. When the drift is approximated by Monte Carlo methods, we obtain a convergence rate of order $\\mathcal{O}( h|\\ln h|+ 1/M)$, where $M$ is the number of samples used in the Monte Carlo approximation. This yields a sharper dependence on $M$ than the existing bound $\\mathcal{O}(1/\\sqrt{M})$ in the $L^2$-Wasserstein distance in the aforementioned paper, by turning the total variation error to the weak error analysis in the setting of non-smooth test functions. Numerical experiments are presented to illustrate the convergence rate with respect to the time step-size $h$ and the Monte Carlo sample size $M$ and the effectiveness of the proposed algorithm.",
+      "published": "2026-11-09",
+      "categories": [
+        "math.NA",
+        "math.ST"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.12752",
+      "url": "https://arxiv.org/abs/2611.12752",
+      "title": "Transport, Entropy, and the Cost of Dependence: Maximum Conditional Entropy under Transport Constraints",
+      "authors": [
+        "Andre Bertolace",
+        "Konstantinos Gatsis",
+        "Kostas Margellos"
+      ],
+      "abstract": "Maximum-entropy inference under Wasserstein constraints can be computationally challenging due to the underlying optimization over transport couplings. We investigate a tractable alternative based on maximizing conditional entropy under an average transport constraint. On Euclidean spaces, this formulation admits an explicit generalized-Gaussian additive-noise solution, providing a feasible approximation to the Wasserstein-constrained problem without solving an optimal transport problem. We establish quantitative bounds on the resulting optimality gap by showing that the two formulations admit a common feasible-marginal representation, with their discrepancy characterized by the mutual information retained between the nominal and perturbed variables. For discretely supported nominal distributions, we further obtain an exact decomposition of the gap into a marginal-entropy gain and a weighted Jensen-Shannon divergence.",
+      "published": "2026-11-09",
+      "categories": [
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2611.11193",
+      "url": "https://arxiv.org/abs/2611.11193",
+      "title": "Infinite dimensional Gaussian limits for the giant component of inhomogeneous random graphs",
+      "authors": [
+        "Haoxuan Ma",
+        "Wen Sun"
+      ],
+      "abstract": "We prove Gaussian limits for the type measure of the giant component in sparse inhomogeneous random graphs. Countable types yield convergence in a weighted Hilbert space under boundedness, irreducibility, supercriticality, and a uniform tail condition on the empirical type weights. For types on a finite dimensional closed Riemannian manifold, smooth kernels yield convergence in a negative Sobolev space for any Borel type distribution. We allow deterministic types and first order kernel perturbations; independent type sampling adds an independent Gaussian term. The proof combines a seeded exploration identity, Hilbert space martingale limits, tail estimates, and inversion of the branching operator outside the giant. Finite types with random parameters are covered. A heat kernel example gives explicit variances for all spectral modes.",
+      "published": "2026-11-08",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random graph"
+      ]
+    },
+    {
+      "id": "2611.11126",
+      "url": "https://arxiv.org/abs/2611.11126",
+      "title": "Lower bound on the size of splitting systems",
+      "authors": [
+        "Fan Chung",
+        "Namiko Matsumoto",
+        "Arya Mazumdar"
+      ],
+      "abstract": "For even $t$ and an $n$-set $X$, an $(n,t)$-splitting system is a family ${\\mathbb{B}} \\subseteq 2^X$ with the property that for each subset $Y \\in {X \\choose t}$, there exists $B \\in \\mathbb{B}$ such that $|B \\cap Y| = t/2$. The problem of interest is to determine the minimum size of such splitting systems. We show that any $(n,t)$-splitting system has size at least of order $t$, improving the previous lower bound of $\\sqrt t$ while the best known upper bound is of order $t^{3/2}$.",
+      "published": "2026-11-08",
+      "categories": [
+        "math.CO",
+        "cs.DM"
+      ],
+      "tags": []
+    },
+    {
+      "id": "2611.11408",
+      "url": "https://arxiv.org/abs/2611.11408",
+      "title": "Rate of convergence for the Wiener--Itô chaos in $W_p$ for $1\\leq p<\\infty$",
+      "authors": [
+        "Zizhan Chen",
+        "Xiang-Dong Li"
+      ],
+      "abstract": "Inspired by previous work of Nualart, Ledoux, Peccati, Nourdin, and others, we establish quantitative fourth moment theorems for random variables in a fixed Wiener--Itô chaos and for sums of two Wiener--Itô chaoses in the $W_p$-Wasserstein distance for $1\\leq p<\\infty$.",
+      "published": "2026-11-08",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.11415",
+      "url": "https://arxiv.org/abs/2611.11415",
+      "title": "Fourth-Moment Theorems for Sums of Multiple Wigner Integrals",
+      "authors": [
+        "Zizhan Chen",
+        "Xiang-Dong Li"
+      ],
+      "abstract": "We derive quantitative free fourth-moment bounds for sums of two Wigner chaoses of opposite parity under mirror symmetry. The bound contains an explicit remainder consisting of internal contractions of the two kernels. In particular, vanishing of this remainder together with the fourth free cumulant implies convergence to the standard semicircular law. If the higher-order kernel is cyclically symmetric, the internal contractions can be moved to an endpoint and we obtain an explicit fourth-root bound without a remainder. For fully symmetric kernels we obtain a square-root bound under the $W_2$-Wasserstein distance. Using the operator-norm support estimate for Wigner integrals, we also extend these bounds to every $W_p$-Wasserstein distance , where $1\\le p<\\infty$.",
+      "published": "2026-11-08",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.10862",
+      "url": "https://arxiv.org/abs/2611.10862",
+      "title": "Spectral distribution for biased orientations of random graphs",
+      "authors": [
+        "Bojan Mohar"
+      ],
+      "abstract": "We study the Hermitian adjacency matrix of the second kind for biased orientations of Erdos-Renyi random graphs. In the model $D(n,p,p')$, an edge is present with probability $p$ and, conditional on its presence, is directed from its smaller to its larger endpoint with probability $p'$. Both parameters may depend on $n$, and biased tournaments are the special case $D(n,1,p')$. We prove a global semicircle law whenever $n(p(1-p)+3p^2p'(1-p')) \\to \\infty$, for both the centered and the uncentered matrix, and also for the expected empirical spectral measure. Our second theorem gives the exact spectrum of the mean matrix and the limits of the extreme eigenvalues on the scale $np$, under a sufficient density assumption. The main difference from the unbiased random orientations (where $p'=1/2$) is emergence of multiple large eigenvalues. The proofs include the closed-walk counting, control of the moment variances, an explicit diagonalization of the deterministic bias, and the passage from centered to uncentered spectral measures.",
+      "published": "2026-11-07",
+      "categories": [
+        "math.CO",
+        "math.PR"
+      ],
+      "tags": [
+        "adjacency matrix",
+        "random graph"
+      ]
+    },
+    {
+      "id": "2611.10563",
+      "url": "https://arxiv.org/abs/2611.10563",
+      "title": "Confronting Uncertainty in Mechanism-AI Coupled Dynamical Systems via Optimal Transport and Information Geometry: Part I. Distribution Learning",
+      "authors": [
+        "Pengfei Song",
+        "Yanni Xiao",
+        "Shuangshuang Yin"
+      ],
+      "abstract": "Mechanism-AI coupled dynamical systems are increasingly used to study complex biological systems. However, uncertainty associated with noisy, sparse, and partially observed data limits their reliability. This paper presents a systematic mathematical formulation for treating these uncertainties from the perspective of optimal transport and information geometry. We formulate the uncertainty quantification problem as the minimization of an energy functional on a probability density space equipped with a Riemannian metric, with the loss evaluated through a differential equation, and give a unified description of the gradient flows of the energy functional under specific metrics, such as the Wasserstein and Fisher-Rao metrics. Furthermore, we present corresponding numerical methods for solving these gradient flows using abstract adjoint sensitivity analysis. The formulation connects a range of Bayesian inference methods for dynamical systems; numerical experiments compare posterior approximation and predictive uncertainty under a common computational budget. Moreover, it also provides a geometric perspective on dynamical modeling and the study of heterogeneity evolution.",
+      "published": "2026-11-07",
+      "categories": [
+        "cs.LG",
+        "math.DS",
+        "math.MG",
+        "math.PR",
+        "stat.ML"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2611.10701",
+      "url": "https://arxiv.org/abs/2611.10701",
+      "title": "Weighted Matroid Intersection under Minimum Rank Oracle",
+      "authors": [
+        "Taihei Oki"
+      ],
+      "abstract": "We consider matroid intersection under the minimum rank oracle model, in which two matroids are accessible only through an oracle that returns the minimum of the ranks of a given set in the two matroids. By Edmonds' theorem, this oracle determines the matroid intersection polytope, although it does not reveal the exchangeability graphs on which classical algorithms rely. Recent work by Bárász, Bérczi, Király, Oki, Yamaguchi, and Yokoi (2025) showed that unweighted matroid intersection is polynomially solvable in this model. In this paper, we present a strongly polynomial-time algorithm for weighted matroid intersection in this model. The key to our algorithm is a polynomial-size extended formulation of tangent cones of common base polytopes that can be constructed using the minimum rank oracle. We also give min-max theorems in terms of the minimum rank function via 1/3-submodularity, and present a strongly polynomial-time algorithm to compute an optimal dual solution.",
+      "published": "2026-11-07",
+      "categories": [
+        "cs.DM",
+        "math.CO",
+        "math.OC"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.10361",
+      "url": "https://arxiv.org/abs/2611.10361",
+      "title": "Simulating Nonlinear Resistive Networks using a Behavioral Splitting",
+      "authors": [
+        "Ryan Alizadeh",
+        "Thomas Chaffey",
+        "Dominic Liao-McPherson",
+        "Alberto Padoan"
+      ],
+      "abstract": "An operator splitting method is developed for computing operating points of nonlinear resistive networks. Our behavioral formulation separates the device laws from Kirchhoff's laws and casts simulation as a zero-finding problem. Branch port resistances then provide a diagonal preconditioner for the relaxed Peaceman-Rachford iteration in scattering variables. Each iteration requires solving independent scalar equations and a linear system with a fixed weighted Laplacian matrix. Convergence is established for maximal monotone device laws when an operating point exists. Contractive branch reflections also yield a linear convergence bound independent of network topology. Numerical experiments on crossbar arrays illustrate the computational advantages.",
+      "published": "2026-11-07",
+      "categories": [
+        "eess.SY",
+        "math.OC"
+      ],
+      "tags": [
+        "Laplacian matrix"
+      ]
+    },
+    {
+      "id": "2611.10461",
+      "url": "https://arxiv.org/abs/2611.10461",
+      "title": "Zeroth-Order Langevin Dynamics for Stochastic Nonconvex Optimization: Curvature Regularization and Non-Asymptotic Guarantees",
+      "authors": [
+        "Stefano Bruno",
+        "Dong-Young Lim"
+      ],
+      "abstract": "Zeroth-order methods provide a way to optimize stochastic nonconvex objectives using only noisy function evaluations. However, the smoothing inherent in their gradient estimators effectively modifies the objective being optimized. In particular, Gaussian smoothing with smoothing parameter $η>0$ induces, to leading order, an implicit Hessian-trace regularization, which motivates the study of the curvature-regularized objective of the form $f(x)+(η^2/2) tr(\\nabla^2 f(x))$. We develop a non-asymptotic theory in the nonconvex setting for a class of algorithms called stochastic zeroth-order Langevin dynamics (ZOLD), which use only noisy function evaluations and do not have access to first- or higher-order derivative information, and derive excess-risk guarantees for the curvature-regularized objective. We first control the finite-time distribution of the ZOLD iterates in Wasserstein distance with respect to the Gibbs measure associated with the Gaussian-smoothed objective. An explicit coupling between the smoothing and inverse temperature parameters then quantifies the proximity of this measure to the Gibbs measure associated with the corresponding Hessian-trace-regularized objective. These distributional estimates in Wasserstein distance lead to excess-risk bounds for the curvature-regularized objective. Our analysis accommodates assumptions under which the stochastic function evaluations are allowed to have non-uniform dependence on the data stream. In addition, the constants in the non-asymptotic bounds do not rely on log-Sobolev or Poincaré inequalities as in prior zeroth-order Langevin analyses. To the best of our knowledge, this is the first non-asymptotic analysis of a zeroth-order Langevin method that simultaneously establishes excess-risk guarantees for a curvature-regularized objective and Wasserstein guarantees for the associated Gibbs measure in the nonconvex setting.",
+      "published": "2026-11-07",
+      "categories": [
+        "math.OC",
+        "cs.LG",
+        "math.PR",
+        "stat.ML"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
     {
       "id": "2611.09427",
       "url": "https://arxiv.org/abs/2611.09427",
@@ -53,6 +403,25 @@
       "published": "2026-11-06",
       "categories": [
         "q-bio.GN",
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2611.10268",
+      "url": "https://arxiv.org/abs/2611.10268",
+      "title": "Transport Less, Solve Faster: Exploiting sparsity in algorithm design for Unbalanced Optimal Transport",
+      "authors": [
+        "Gennaro Auricchio",
+        "Francesco Rinaldi",
+        "Saverio Salzo",
+        "Giovanni Spisso"
+      ],
+      "abstract": "In this paper, we study the computational aspects of the Unbalanced Optimal Transport (UOT) problem between two given positive measures $μ$ and $ν$. The UOT is a variant to the classic Optimal Transportation problem in which the linear constraints modeling mass preservation are relaxed and replaced by a convex penalty $\\Dphi$ in the objective function. First, we show that any UOT problem admits a discrete solution as long as $μ$ and $ν$ are discrete, allowing us to express the optimality conditions characterizing the solution to the UOT problem in an easy-to-handle form. By exploiting the optimality conditions we provide an upper and lower bound on the marginals of the solution as well as a bound on the mass that any solution assigns to any couple of points. The bounds on the mass assigned to each couple of points reveal that, under suitable conditions, the support of any solution to the UOT is contained within a compact set that does not depend on the measures $μ$ and $ν$, but only on the penalty function $\\Dphi$ and the cost function $c$. We then introduce a truncated version of the UOT problem that fully leverages the sparsity of the optimal solution by introducing a parameter $R$ that saturates $c$. We show that any solution to the truncated problem naturally yields an approximation of the optimal solution for the standard UOT problem and bound the primal sub-optimality gap between the real solution and the solution induced by the truncated problem via a decreasing power-like function of $R$. Lastly, we study the convergence speed of the Pairwise Frank-Wolfe algorithm when applied to the truncated UOT problem and show that such routine is able to identify the support of the solution within a finite number of iterations.",
+      "published": "2026-11-06",
+      "categories": [
         "math.OC"
       ],
       "tags": [
