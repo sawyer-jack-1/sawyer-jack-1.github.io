@@ -1,8 +1,153 @@
 {
   "month": "2026-11",
-  "generated_at": "2026-11-10T17:56:00+00:00",
+  "generated_at": "2026-11-11T17:55:49+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2611.13959",
+      "url": "https://arxiv.org/abs/2611.13959",
+      "title": "Triangle Factors in the Semi-Random Graph Process",
+      "authors": [
+        "Olaf Parczyk",
+        "Eva Schinzel"
+      ],
+      "abstract": "The semi-random graph process is a single player game which starts with an empty graph on $n$ vertices and in each round the player is offered a random vertex and connects it to a vertex selected according to some strategy $\\mathcal{S}$. The goal is, in as few rounds as possible, to arrive at a graph that satisfies some graph property $\\mathcal{P}$. The main contribution of this work is to show that there is a strategy $\\mathcal{S}$ which creates a $K_3$-factor in at most $2.929329 \\, n$ rounds w.h.p.",
+      "published": "2026-11-10",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "random graph",
+        "graph process"
+      ]
+    },
+    {
+      "id": "2611.13693",
+      "url": "https://arxiv.org/abs/2611.13693",
+      "title": "Rotating Walks, Derandomized Squares, and Permutation Conjugated Walks",
+      "authors": [
+        "Vedat Levi Alev",
+        "Shravas Rao"
+      ],
+      "abstract": "Using the recent strong convergence results of Bordenave and Collins (Annals of Mathematics) and Chen et al. (Annals of Mathematics), we study the average case behavior of rotating random walks of Cohen and Maor (STOC 2023) and the derandomized square construction of Rozenman and Vadhan (RANDOM 2005). Concretely, we prove a conjecture of Cohen et al. (ITCS 2025) regarding the average case behavior of derandomized squaring for random graphs and show that the existential bounds of Cohen and Maor for their rotating random walk construction hold with high-probability for random graphs. Using the results of O'Donnell and Wu (FOCS 2020), we can in polynomial time construct a family of graphs and rotations which almost saturate the bounds of Cohen and Maor, and meet the bounds conjectured by Cohen et al. for all vertex-transitive auxiliary graphs of fixed degree in the derandomized square. Finally, we study independent random permutation conjugates of deterministic regular graph adjacency matrices. We prove quantitative weak convergence to freely independent tree adjacency operators when the degrees are fixed and the girths tend to infinity. Separately, a covering argument gives deterministic spectral lower bounds for polynomials with non-negative coefficients, recovering the lower bound of Cohen et al. for rotating walks.",
+      "published": "2026-11-10",
+      "categories": [
+        "math.CO",
+        "cs.DM",
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "random graph"
+      ]
+    },
+    {
+      "id": "2611.13623",
+      "url": "https://arxiv.org/abs/2611.13623",
+      "title": "First-order asymptotic expansions for spectral convergence of normalized graph Laplacians constructed from samples on manifolds",
+      "authors": [
+        "Eunseong Bae",
+        "Wolfgang Polonik"
+      ],
+      "abstract": "Under i.i.d. uniform sampling from a closed Riemannian manifold embedded in Euclidean space, we derive first-order asymptotic expansions for the eigenvalues and eigenvectors of symmetrically normalized graph Laplacians constructed via Gaussian kernels and provide concentration inequalities for the remainder terms. As a direct consequence, we establish the corresponding weak convergence results. Unlike most related works, our analysis does not impose a multiplicity-one assumption on the eigenvalues, thereby extending the applicability of the framework to general manifolds with potentially nontrivial eigenvalue multiplicities.",
+      "published": "2026-11-10",
+      "categories": [
+        "math.ST",
+        "math.DG",
+        "math.SP",
+        "stat.ML"
+      ],
+      "tags": [
+        "graph Laplacian"
+      ]
+    },
+    {
+      "id": "2611.13724",
+      "url": "https://arxiv.org/abs/2611.13724",
+      "title": "Stochastic homogenization of $p$-resistance forms on nested fractals",
+      "authors": [
+        "Shiping Cao",
+        "Haiping Jiao",
+        "Hua Qiu"
+      ],
+      "abstract": "We study the stochastic homogenization of $p$-energies on infinite nested fractals. We assign i.i.d. random $p$-resistance forms $D_{0,α}$ to level-$0$ cells of an infinite pre-nested fractal, and study the scaling limit of the resulting random $p$-resistance form $\\mathcal{D}^{(0)}$. Under a moment condition on the reciprocal of $D_{0,α}$, we prove that the sequence of rescaled and renormalized random energies is almost surely Mosco convergent to an equally weighted self-similar $p$-resistance form. As an application, when $p=2$, we prove the almost sure weak convergence of the associated rescaled continuous-time random walk. In particular, we allow arbitrarily small random conductances and impose no condition on the upper bound of random conductances.",
+      "published": "2026-11-10",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.14321",
+      "url": "https://arxiv.org/abs/2611.14321",
+      "title": "Poisson boundaries of lattices in locally compact groups",
+      "authors": [
+        "Antoine Derimay"
+      ],
+      "abstract": "For a random walk on a general locally compact group we provide a discretization procedure transforming the walk to one on a lattice of the group, preserving the Poisson boundary and some finiteness of moments.",
+      "published": "2026-11-10",
+      "categories": [
+        "math.GR",
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.14342",
+      "url": "https://arxiv.org/abs/2611.14342",
+      "title": "Directed Singular-Value Sparsifiers with $O(n \\log n/ε^2)$ Arcs",
+      "authors": [
+        "Emile Anand"
+      ],
+      "abstract": "Given an unweighted directed graph, a sparsifier is a nonnegative reweighting of original arcs that preserves every in-degree and out-degree exactly. In this work, we study singular-value sparsifiers, which are generalizations of spectral sparsifiers. Singular-value sparsifiers find a number of applications in theoretical computer science, such as maintaining directed cuts and flows, speeding up directed Laplacian solvers, and sparsifying dense weight matrices in neural networks. Strong singular-value (SV) approximation supports sparse representations of directed random walks with guarantees that remain stable under products, and controls bilinear error in the left and right Schur-complement metrics. We prove that every unweighted directed graph on $n$ vertices admits an $\\varepsilon$-SV sparsifier with $O(n\\log(2n)/\\varepsilon^2)$ arcs, improving the $O(n\\log^5 n/\\varepsilon^2)$ support bound of Lau, Wang, and Zhou. The sparsifier is a nonnegative reweighting of original arcs and preserves every in-degree and out-degree exactly. We also give a randomized construction with $\\tilde{O}(m+n)$ real-arithmetic running time, where $m$ is the input support size, and the output has the same support bound and rational weights of polynomial bit length.",
+      "published": "2026-11-10",
+      "categories": [
+        "cs.DS",
+        "cs.DM"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.13586",
+      "url": "https://arxiv.org/abs/2611.13586",
+      "title": "Maximal Triply Even Binary Codes from Elliptic Orthogonal Graphs",
+      "authors": [
+        "Yusuke Kasai",
+        "Yuto Nogata"
+      ],
+      "abstract": "For a finite set $X$, a binary linear code $C\\subseteq\\mathbb{F}_2^X$ is called a triply even binary code if $\\operatorname{wt}(c)\\equiv 0\\pmod{8}$ for every $c\\in C$. Let $q$ be an odd prime power and $n$ be an integer with $n\\ge 2$. Let $E^-_{2n+2}(q)$ denote the binary code spanned by all pairwise sums of rows of the adjacency matrix of the elliptic orthogonal graph arising from a $(2n+2)$-dimensional elliptic quadratic space over $\\mathbb{F}_q$. We prove that $E^-_{2n+2}(q)$ is a triply even binary code if and only if $n=2$ and $q\\equiv 3\\pmod{4}$. In this case, we also prove that $E^-_6(q)$ is a maximal triply even binary code.",
+      "published": "2026-11-10",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2611.14448",
+      "url": "https://arxiv.org/abs/2611.14448",
+      "title": "Phase transitions in the hard-wall large deviations for the Gaussian free field",
+      "authors": [
+        "Xinyi Li",
+        "Jialu Shi"
+      ],
+      "abstract": "We study the probability that the Gaussian free field on $\\mathbb{Z}^d$, $d\\ge3$, stays above a level $-h_N$ throughout the lattice $N$-blow-up of a bounded Lipschitz domain, when $h_N$ is close to the entropic-repulsion height $\\sqrt{4g_0\\log N}$. Two mechanisms compete: a collective upward displacement of the field, whose cost is governed by capacity, and the suppression of the remaining local violations, whose cost is their expected number, both of which are of order $N^{d-2}/\\log N$ exactly in the window $h_N(β)^2=g_0(4\\log N+\\log\\log N+2β)$. We obtain a sharp asymptotic rate expressed through a variational problem combining a Dirichlet energy with an exponential potential inside this critical window. Outside this window we obtain the asymptotics at the appropriate moving speeds: capacity alone governs the cost as $β\\to-\\infty$, and the expected number of violations as $β\\to+\\infty$. As an application, we derive lower-deviation bounds for the cover level of a macroscopic body by random interlacements, which determine the order of decay at the transition.",
+      "published": "2026-11-10",
+      "categories": [
+        "math.PR",
+        "math-ph"
+      ],
+      "tags": [
+        "Dirichlet energy"
+      ]
+    },
     {
       "id": "2611.12349",
       "url": "https://arxiv.org/abs/2611.12349",
@@ -182,6 +327,23 @@
       "published": "2026-11-09",
       "categories": [
         "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2611.13338",
+      "url": "https://arxiv.org/abs/2611.13338",
+      "title": "Branching Pattern Modeling: A Geometric Measure Theory Approach",
+      "authors": [
+        "Qinglan Xia"
+      ],
+      "abstract": "This article is based on a lecture given at Westlake University. It aims to introduce students to an application of geometric measure theory in modeling branched patterns found in both living and nonliving systems. We begin with the Eulerian framework of ramified optimal transportation, including discrete transport paths, their basic properties, numerical approximation, and the passage to general transport paths represented by rectifiable currents. We then describe an application to the dynamic formation of a plant leaf, where branching venation patterns arise from a balance between metabolic benefit and transportation cost. Finally, we review landscape functions associated with transport paths and explain how two existing approaches can be unified within a broader family of rectifiable $1$-currents. We conclude by indicating several open directions related to Gilbert-type network problems, biological modeling, and numerical approximation.",
+      "published": "2026-11-09",
+      "categories": [
+        "math.OC",
+        "math.MG"
       ],
       "tags": [
         "optimal transport"
