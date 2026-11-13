@@ -1,8 +1,349 @@
 {
   "month": "2026-11",
-  "generated_at": "2026-11-12T18:23:09+00:00",
+  "generated_at": "2026-11-13T17:50:11+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2611.16614",
+      "url": "https://arxiv.org/abs/2611.16614",
+      "title": "Nonsense nonlinear correlations between independent random walks",
+      "authors": [
+        "Liping Zhu",
+        "Zhongming Xie"
+      ],
+      "abstract": "Sample distance correlation can remain large between independent random walks. For centred walks with independent, identically distributed increments of finite, positive variance, we prove convergence in distribution to the distance correlation of the joint occupation measure of two independent Brownian paths. This universal limit lies strictly between zero and one almost surely and has full support on the unit interval. We calculate the expected squared distance covariance of the limiting measure and show that ordinary permutation calibration rejects independence with probability tending to one at every fixed nominal level. Gaussian simulations illustrate the persistent dispersion of random-walk correlations and the failure of permutation calibration.",
+      "published": "2026-11-12",
+      "categories": [
+        "math.PR",
+        "math.ST",
+        "stat.ME"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.16429",
+      "url": "https://arxiv.org/abs/2611.16429",
+      "title": "On the continuity of martingale optimal transport in higher dimensions",
+      "authors": [
+        "Francesco Mattesini",
+        "Johannes Wiesel"
+      ],
+      "abstract": "We investigate qualitative and quantitative continuity of martingale optimal transport under perturbations of both marginals in dimensions $d\\geq2$. We assume that each pair of marginals admits a reference martingale coupling whose density relative to the product of its marginals is bounded above and away from zero, uniformly along the sequence. If the limiting target measure is not carried by a hyperplane, we prove continuity under $W_1$-convergence for continuous costs of at most linear growth, assuming only finite first moments. For Lipschitz costs, a uniform $p$-moment bound on the targets, $p>1$, yields an explicit stability estimate with exponent $(1-1/p)/2$; uniformly bounded target supports give exponent $1/2$. The proof constructs a correction of couplings with small martingale bias while preserving both marginals. Truncated moment corrections allow the target measure to have unbounded support. The construction also shows that every martingale coupling of the limiting marginals can be approximated in $W_1$ by martingale couplings of the approximating marginals. We also discuss counterexamples showing that neither the uniform density condition nor non-degeneracy of the limiting target measure can be omitted in general.",
+      "published": "2026-11-12",
+      "categories": [
+        "math.PR",
+        "q-fin.MF"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2611.17247",
+      "url": "https://arxiv.org/abs/2611.17247",
+      "title": "Price-impact Martingale optimal transport",
+      "authors": [
+        "Erhan Bayraktar",
+        "Shuoqing Deng",
+        "Daxin Huang",
+        "Dominykas Norgilas"
+      ],
+      "abstract": "Martingale optimal transport (MOT) provides model-independent bounds for option prices calibrated to vanilla options, assuming frictionless trading in the underlying. In this work, we consider the case where dynamic trading incurs quadratic temporary price impact. First, we prove a duality result for the superhedging price. In particular, the primal of the duality relaxes the strict martingale constraint by penalizing the deviation from a specific martingale. Second, for one asset and one trading period, we interpret this price-impact martingale optimal transport (PIMOT) as a weak optimal transport (WOT) problem, and provide a characterization in the spirit of Wasserstein projection. Finally, we justify that PIMOT is an interpolation between MOT and classical optimal transport (OT), and derive the convergence rate to both sides. Numerical examples with SPX option data show how the price bounds per claim depend on the order size.",
+      "published": "2026-11-12",
+      "categories": [
+        "q-fin.MF",
+        "math.PR"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2611.17119",
+      "url": "https://arxiv.org/abs/2611.17119",
+      "title": "Mass gap for the fractional $Φ^4_2$ model",
+      "authors": [
+        "Paweł Duch",
+        "Massimiliano Gubinelli"
+      ],
+      "abstract": "We present a new, simple and self-contained technique for proving a mass gap for Euclidean quantum field theories in the high-temperature regime using the stochastic quantisation approach. As an application, we establish exponential decay of spatial correlations for the fractional $Φ^4$ model on the plane in the Wick-ordering regime. The key idea is to analyse the propagation of perturbations using the linearised stochastic quantisation equation. Spatial propagation is controlled by an auxiliary random walk, while the potentially destabilising effect of the renormalised nonlinearity is controlled by combining dissipative energy estimates for the nonlinear dynamic with the Boué-Dupuis variational formula.",
+      "published": "2026-11-12",
+      "categories": [
+        "math.PR",
+        "math-ph"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.17236",
+      "url": "https://arxiv.org/abs/2611.17236",
+      "title": "On the maximum of Poissonian log-correlated fields",
+      "authors": [
+        "Nicholas A. Cook",
+        "Haotian Gu"
+      ],
+      "abstract": "We consider stationary log-correlated random fields of the form \\[ X_n(t):= \\sum_{j\\le n} f(e^{τ_j} t+ v_{j})\\,,\\quad t\\in \\mathbb{R} \\] for a centered 1-periodic analytic function $f:\\mathbb{R}\\to\\mathbb{R}$, where $(τ_j)_{j\\ge1}$ are the arrival times of a rate-1 Poisson process on $\\mathbb{R}_+$ and $(v_j)_{j\\ge1}$ are iid uniform random variables in $[0,1)$. We show that with high probability, \\[ \\max_{t\\in[-1,1]}X_n(t) = c_1 n + c_2 τ_n- (c_3+o(1))\\log n \\] where $c_1,c_2,c_3$ are positive constants depending on $f$. In particular, the random frequency $τ_n$ produces a central limit fluctuation of order $\\sqrt{n}$, together with a logarithmic correction different from the ubiquitous Bramson correction for models with strong comparisons to Gaussian fields, such as homogeneous branching random walks and log-characteristic polynomials of C$β$E matrices. Our proof makes a connection with branching random walks in random time-environment, where coarse-scale fluctuations of the arrival times $τ_j$ play the role of a quenched random environment, and fine-scale fluctuations are leveraged to establish a branching decorrelation structure. We conjecture analogous asymptotics for the characteristic polynomials of random permutation matrices, and expect the same mechanism to arise in other Poissonian fields such as characteristic polynomials of sparse random matrices.",
+      "published": "2026-11-12",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.16333",
+      "url": "https://arxiv.org/abs/2611.16333",
+      "title": "When Elements Fail: Weighted Fault-Tolerant Matroid Bases",
+      "authors": [
+        "Madhumita Kundu",
+        "Soumi Nandi",
+        "Saket Saurabh"
+      ],
+      "abstract": "Given a rank-\\(r\\) matroid on \\(n\\) elements with nonnegative costs and a partition into safe and vulnerable elements, we seek a minimum-cost set that spans after every deletion of at most \\(k\\) selected vulnerable elements. We resolve several open questions posed by Bentert, Fomin, Golovach, and Morelle (ESA 2025) concerning weighted costs, nonuniform failures, and explicitly specified failure scenarios. To this end, we develop two compression methods. For matroids given by an independence oracle, weighted flat-avoidance representatives yield a bounded subset of the ground set containing an optimal solution and a \\(2^{\\mathcal{O}((r+k)^4)}n^{\\mathcal{O}(1)}\\)-time algorithm. This establishes fixed-parameter tractability for weighted costs and nonuniform failures simultaneously. For explicitly represented linear matroids, polynomial certificates allow us to compress families of partial solutions while preserving successful completions under all allowed failures. This yields a deterministic algorithm using \\(2^{\\mathcal{O}(kr(r+k)\\log(r+1))}n^{\\mathcal{O}(1)}\\) field operations over arbitrary fields. Over fixed finite fields, a simpler reduction uses parallel classes. For explicitly listed failure scenarios, we obtain fixed-parameter algorithms parameterized by rank and the number of scenarios. In contrast, the size-budget decision version is W[1]-hard parameterized by rank and maximum scenario size, even on uniform matroids with two-element scenarios. \\keywords{Matroids \\and Fault tolerance \\and Fixed-parameter algorithms \\and Representative families}",
+      "published": "2026-11-12",
+      "categories": [
+        "cs.DS",
+        "cs.DM"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.16443",
+      "url": "https://arxiv.org/abs/2611.16443",
+      "title": "The spectrum of free projective geometries over finite chain rings",
+      "authors": [
+        "Yishai Lavi"
+      ],
+      "abstract": "Let $\\mathcal{O}$ be a Dedekind domain, $\\mathfrak{p}$ a prime ideal of residue order $q$, and $\\mathcal{O}_r=\\mathcal{O}/\\mathfrak{p}^r$ which is a finite chain ring; the motivating example is $\\mathbb{Z}/p^r$. The free projective geometry $\\mathbb{P}^{d-1}_{fr}(\\mathcal{O}_r)$ is the graph whose vertices are the nontrivial free submodules of $\\mathcal{O}_r^{d}$, two of them adjacent when one strictly contains the other. For every $d$, $q$ and $r$ we reduce its adjacency matrix to explicit symmetric matrices (blocks) of size at most $d-1$. There is one block for each signature (a partition with at most $d/2$ parts, each at most $r$) and we show that every block, at every depth, is a single universal matrix $L(s,σ)$ evaluated at the number $s$ of parts of the signature $λ$ and at $σ=2rs-|λ|$. The same blocks give the spectrum of the subgraph induced on any set of levels, and for two levels this spectrum is completely explicit. All of it depends on the ring only through $q$ and $r$; in particular the subgraphs $\\mathbb{P}^{d-1}_{S}$ over $\\mathbb{Z}/p^r$ and over $\\mathbb{F}_p[t]/(t^r)$ are isospectral for all $\\varnothing\\ne S\\subseteq\\{1,\\dots,d-1\\}$; together with known rigidity results of arXiv:2510.09324, this proves that they are isospectral and non-isomorphic whenever $S$ contains at least two levels, as conjectured there.",
+      "published": "2026-11-12",
+      "categories": [
+        "math.CO",
+        "math.GR",
+        "math.RT"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2611.16860",
+      "url": "https://arxiv.org/abs/2611.16860",
+      "title": "Exact Wasserstein Convergence Rate for Conditional Empirical Measures of Killed Diffusion Processes",
+      "authors": [
+        "Feng-Yu Wang",
+        "Bingyao Wu"
+      ],
+      "abstract": "Let $M$ be a $d$-dimensional compact connected Riemannian manifold $M$ with boundary $\\pp M$, and let $X_t$ be the diffusion process generated by $L:=\\DD+\\nn V$ for some $V\\in C^2(M)$ which is killed on the boundary. For any initial distribution $ν$ which is not fully supported on $\\pp M$, let $μ_t^ν$ be the conditional empirical measure for the diffusion process under the condition that the process is not yet killed at time $t$, and let $μ_0$ be the associated quasi-stationary distribution. We derive the sharp convergence rate of $μ_t^ν$ to $μ_0$ in the quadratic Wasserstein distance $\\W_2$ as $t\\to\\infty$. In particular, if $ν(B(x,r))\\asymp r^k$ for some $k\\in [0,d]$ and all $r\\in [0,1]$ uniformly in $x\\in {\\rm supp}ν$, then for large $t>0$ $$ \\W_2(μ_t^ν,μ_0)\\asymp_ν\\begin{cases} t^{-1},&d-k<6,\\\\ t^{-1}\\sqrt{\\log t},&d-k=6,\\\\ t^{-\\ff{d-k+2}{2(d-k-2)}},&d-k>6. \\end{cases} $$ Moreover, letting $\\rr_\\pp(x)$ be the distance of $x$ to $\\pp M$, for large $t>0$ we have $$ \\W_2(μ_t^{\\dd_x},μ_0)\\asymp \\begin{cases} t^{-1},&d\\le 3,\\\\ t^{-1}\\log (1+\\rr_\\pp(x)^{-1}), & d=4,\\\\ t^{-1} \\rr_\\pp(x)^{-1}, & d=5,\\\\ t^{-1}\\sqrt{\\log t} \\rr_\\pp(x)^{-1},&d=6,\\\\ t^{-\\ff{d+2}{2(d-2)}}\\rr_\\pp(x)^{-\\ff 4{d-2}},&d\\ge 7. \\end{cases} $$",
+      "published": "2026-11-12",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.17066",
+      "url": "https://arxiv.org/abs/2611.17066",
+      "title": "Asymptotic transportation cost of the optimal matching subject to different boundary conditions",
+      "authors": [
+        "Martin Huesmann",
+        "Arthur Wachtel"
+      ],
+      "abstract": "We establish equality between several asymptotic limits of the transportation cost between stationary random measures, with respect to the Euclidean distance cost raised to the $p$-th power, with different boundary conditions. Our approach relies on a comparison with the optimizer of the mean transportation cost between the two random measures, which is defined on the whole space. In particular we do not use any PDE techniques related to the regularity theory for optimal transport maps.",
+      "published": "2026-11-12",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2611.15043",
+      "url": "https://arxiv.org/abs/2611.15043",
+      "title": "Positivity in symplectic groups and electrical networks",
+      "authors": [
+        "V. Gorbounov",
+        "A. Kazakov"
+      ],
+      "abstract": "We study the relation between electrical positivity introduced by Lam and Pylyavskyy $[9]$ and total positivity of symplectic matrices arising from circular planar electrical networks. A particularly convenient framework for our purpose is provided by a construction of an embedding of electrical network into the positive Lagrangian Grassmannian, see Section $1.1$. Employing this technique, we demonstrate that mentioned below two types of positivity do not coincide, see Theorem $2.2$. In Section $3$ we also derive explicit rational formulas recovering the parameters of the factorization from our symplectic matrix entries and minors, and prove uniqueness under explicit nonvanishing conditions.",
+      "published": "2026-11-11",
+      "categories": [
+        "math.CO",
+        "math.GR",
+        "math.SG"
+      ],
+      "tags": [
+        "electrical network"
+      ]
+    },
+    {
+      "id": "2611.15999",
+      "url": "https://arxiv.org/abs/2611.15999",
+      "title": "Recurrence and Transience in Monotone Environments: Increasing Conductances and Growing Domains",
+      "authors": [
+        "Nordine Anis Moumeni"
+      ],
+      "abstract": "We study discrete-time random walks on a locally finite graph whose conductances are non-decreasing in time and bounded on each edge. We compare their hitting probabilities with those of the time-homogeneous walk obtained by fixing the conductances at the starting time. These estimates give proofs of two results established in greater generality by Li and Park: if the upper network is recurrent, every vertex is visited infinitely often almost surely; if the initial network is transient, the expected number of visits to each vertex is finite. In a finite domain, the difference between the two exit probabilities is bounded by the square root of the product of a capacity increment and a dual energy. We obtain a corresponding infinite-volume estimate for the probability of never hitting a given vertex. To prove these estimates, we compare two Dirichlet forms and use a contraction property of the killed transition operators. We also consider walks on increasing finite sets. On each prescribed time interval, called a plateau, the transition operator is fixed. A lower bound on transition probabilities after mixing and an upper bound on the expected number of returns give a sufficient condition for every vertex to be visited infinitely often almost surely. For uniformly elliptic lazy walks on boxes of radius $R_n$ in $\\mathbb Z^d$, $d\\geq3$, it is enough that $\\sum_n(L_n-b_n)_+/R_n^d$ diverges, where $L_n$ is the duration of the $n$th plateau and $b_n=\\lceil aR_n^2\\rceil$.",
+      "published": "2026-11-11",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.15512",
+      "url": "https://arxiv.org/abs/2611.15512",
+      "title": "Every rank-three matroid is Z-Rayleigh",
+      "authors": [
+        "Qinghong Zhao",
+        "Xiangqian Zhou"
+      ],
+      "abstract": "We prove that every matroid of rank or corank at most three is $Z$-Rayleigh: its multivariate Tutte polynomial satisfies the Rayleigh inequalities for every positive weighting and every parameter $0<q\\le1$. This settles a conjecture of Mani and answers the rank-$3$ spanning-correlation question of Cocks and the correlated-matroid question of Semple and Welsh. For simple rank-$3$ matroids, we obtain an explicit decomposition of each spanning-set Rayleigh difference into the corresponding basis Rayleigh difference, positively weighted squares, and a polynomial with nonnegative coefficients. A second identity compares the normalized multivariate Tutte Rayleigh difference with $(1-q)^2$ times the spanning-set difference, with a remainder of the form $q(1-q)R(q,x)$, where $R$ has nonnegative coefficients. The proof uses the bipartite incidence graph of the lines through two fixed elements and Wagner's theorem that rank-$3$ matroids are basis-Rayleigh. The rank bound is sharp, since a rank-four matroid can fail even the basis Rayleigh inequalities.",
+      "published": "2026-11-11",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.15741",
+      "url": "https://arxiv.org/abs/2611.15741",
+      "title": "Skew Zero Forcing Matroids",
+      "authors": [
+        "Dennis Hall",
+        "Simon Pfeil",
+        "Jesse Taylor"
+      ],
+      "abstract": "Matroid theory and skew zero forcing (SZF) in graphs are both topics of mathematical interest, but very little is known about their overlap. When a matroid arises from a graph in the traditional way, the edges of the graph correspond with the elements of the matroid. However, the SZF color change rule for graphs can be viewed as a closure operator on the vertices of a graph. As such, when a matroid arises from a graph via SZF, the vertices of the graph correspond with the elements of the matroid. We call such a matroid SZF-realizable. Notably, unlike the traditional method of obtaining a matroid from a graph, skew zero forcing in a graph does not always give rise to a matroid. This paper establishes fundamental results in graph and matroid theory with respect to (1) which matroids are SZF-realizable, and (2) what kinds of graphs do and do not give rise to SZF matroids. The main result of the paper focuses on cycle matroids of outerplanar graphs.",
+      "published": "2026-11-11",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.15755",
+      "url": "https://arxiv.org/abs/2611.15755",
+      "title": "Asymptotically Optimal Bounds for Counting Near-Minimum Circuits in Regular Matroids",
+      "authors": [
+        "Robert P. Streit"
+      ],
+      "abstract": "For a regular matroid on $m$ elements with positive weights and weighted girth $g_w$, we prove that the number of circuits of weight at most $αg_w$ is bounded by $(Km)^{2α}$, for every real $α\\ge1$ and an absolute constant $K$. This improves the previous $m^{O(α^2)}$ bound of Gurjar and Vishnoi and matches classic graph cut and cycle counting bounds of Karger and Subramanian. We also show this is asymptotically optimal for all real $α\\geq 1$ under the Erdős girth conjecture, while unconditional optimality holds for half-integer $α$ by prior results. As consequences, we resolve a recent conjecture by Khanna, Putterman, and Song implying the existence of a parallel basis search algorithm for regular matroids terminating in logarithmically many rounds of independence queries, and obtain improved bounds on the number of near-minimum weight codewords in regular codes and near-shortest vectors in totally unimodular lattices under $\\ell_p$-norms.",
+      "published": "2026-11-11",
+      "categories": [
+        "math.CO",
+        "cs.DM"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.15822",
+      "url": "https://arxiv.org/abs/2611.15822",
+      "title": "A Faster Scaling Algorithm for Maximum Weight Matroid Intersection",
+      "authors": [
+        "Alina Ene",
+        "Huy L. Nguyen"
+      ],
+      "abstract": "We consider the maximum weight matroid intersection problem. In this problem, we are given two matroids $M_{1}=(E,\\mathcal{I}_{1})$ and $M_{2}=(E,\\mathcal{I}_{2})$ and integer weights $w(e)$ on the elements $e\\in E$, and the goal is to find a maximum-weight common independent set. We give a randomized algorithm that constructs an optimal solution using $\\widetilde{O}(nr\\log W)$ queries to the independence oracles of the matroids, where $n$ is the size of the ground set $E$, $r$ is the minimum rank of the two matroids, and $W$ is the maximum weight.",
+      "published": "2026-11-11",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.15015",
+      "url": "https://arxiv.org/abs/2611.15015",
+      "title": "Uniform-in-time propagation of chaos for the Kuramoto model on the sphere",
+      "authors": [
+        "Shi Chen",
+        "Zhengjiang Lin",
+        "Emre Parmaksiz"
+      ],
+      "abstract": "We establish quantitative uniform-in-time propagation of chaos for a generalization of the classical Kuramoto model on spheres of arbitrary dimension. For $n$ particles that are initialized independently from a probability measure with an $L^p$ density, $p>1$, and a nonzero mean vector, we obtain an explicit high-probability bound for the supremum over all times of the Wasserstein distance between the empirical and mean-field distributions. In sufficiently high dimension, this bound has the same order as the standard empirical sampling rate on the sphere and is therefore optimal. The proof combines a finite-time propagation of chaos estimate, a quantitative synchronization result for the mean-field model, and a late-time stability estimate of the system.",
+      "published": "2026-11-11",
+      "categories": [
+        "math.PR",
+        "math-ph",
+        "math.AP"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.16043",
+      "url": "https://arxiv.org/abs/2611.16043",
+      "title": "The Wasserstein cost of the Girsanov Theorem",
+      "authors": [
+        "Simon Coste"
+      ],
+      "abstract": "This is an expository note on the asymptotics of the Wasserstein distance between the empirical measure of infinite-dimensional random paths and their common distribution. We present the classical proof for these asymptotics in the case of the Wiener measure, unifying quantization arguments from Dereich and coauthors or Boissard and Le Gouic, and we adapt it for Itô diffusions sampled through the Girsanov theorem. More precisely, let $\\mathbb{Q}$ be the law of the solution of a stochastic differential equation with a bounded Lipschitz drift. Let $W_1,\\ldots,W_n$ be independent Brownian paths, and let $Z_i$ be their Girsanov weights for $\\mathbb{Q}$. The reweighted empirical measure $$\\widehatμ_n=\\frac{\\sum_{i=1}^n Z_iδ_{W_i}}{\\sum_{i=1}^n Z_i}$$ approximates $\\mathbb{Q}$ when $n$ is large. We prove that the Wasserstein cost $W_p^p(\\widehatμ_n,\\mathbb{Q})$ is of order $(\\log n)^{-p/2}$, in expectation and almost surely, for every fixed $p\\geqslant1$. In the Brownian case where $Z_i=1$ these results show that $\\sqrt{\\log n}W_p(\\widehatμ_n,\\mathbb{Q})$ is asymptotically sandwiched between $\\sqrt{2λ_d}$ and $4\\sqrt{2λ_d}$, where $λ_d$ is the first eigenvalue of the Laplacian operator in the unit ball. We provide numerical experiments to estimate the (conjectured) limiting constant in dimension $d=1$.",
+      "published": "2026-11-11",
+      "categories": [
+        "math.PR",
+        "math.FA"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.14819",
+      "url": "https://arxiv.org/abs/2611.14819",
+      "title": "Permutation codes via spectral graph theory",
+      "authors": [
+        "Aida Abiad",
+        "Delio Jaramillo-Velez",
+        "Kirsten D. Morris",
+        "Joachim Rosenthal"
+      ],
+      "abstract": "We use the Eigenvalue Method to obtain upper spectral bounds on the size of permutation codes in the Hamming, Ulam, Cayley and Kendall metrics. For the Kendall metric, we improve the double-ball upper bound of Buzaglo and Etzion [IEEE Transactions on Information Theory, 2015] at minimum distance four and lengths seven and eight. For the Cayley metric, we improve the sphere packing bound, and determine when these spectral improvements occur. We derive theoretical spectral criteria for improvements from the ratio-type bounds of low degree, and show that the quadratic ratio-type bound for the Kendall metric always equals sphere packing. Furthermore, we prove sharp spectral bounds and recover known optimal code sizes for the Hamming and Ulam metrics.",
+      "published": "2026-11-10",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "spectral graph theory",
+        "spectral graph"
+      ]
+    },
+    {
+      "id": "2611.14576",
+      "url": "https://arxiv.org/abs/2611.14576",
+      "title": "The bias interval of the elephant random walk",
+      "authors": [
+        "Arjun Pemmasani"
+      ],
+      "abstract": "Guérin, Laulin, Raschel, and Simon conjectured that the initial biases giving the superdiffusive elephant random walk a bimodal limit law form an interval centered at one half, and they described the problem as challenging. We prove this. For every superdiffusive memory, strongly biased starts are unimodal, and the limit density has two local maxima exactly when the bias lies in a proper open interval. Outside it, including its endpoints, the density has a unique local maximum. The interval is nonempty exactly above a single memory threshold, numerically about $0.6688$, whose uniqueness follows from a positive-weight integral for the central curvature of the fair-start density. We control sign changes in the finite walk's first and second differences, including those created at the boundary, and pass them to the limit. The bias boundary is continuous and tends to zero at least quadratically fast as memory tends to one.",
+      "published": "2026-11-10",
+      "categories": [
+        "math.PR",
+        "cond-mat.stat-mech"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
     {
       "id": "2611.13959",
       "url": "https://arxiv.org/abs/2611.13959",
@@ -146,6 +487,42 @@
       ],
       "tags": [
         "Dirichlet energy"
+      ]
+    },
+    {
+      "id": "2611.14802",
+      "url": "https://arxiv.org/abs/2611.14802",
+      "title": "Bipartite Matchings, Matrix Permanents, and Zeon Power Series",
+      "authors": [
+        "Muhammad Waqar Ul Hassan",
+        "G. Stacey Staples"
+      ],
+      "abstract": "Perfect matchings of a bipartite graph are counted by the permanent of the graph's biadjacency matrix, and permanents of sequences of structured biadjacency matrices lead to integer sequences. We consider a number of such sequences and illustrate how zeon-algebraic representations of bipartite graphs lead to recursively defined zeon sequences. Then, using formal power series methods, we show that the ``$Ω$-exponentials'' of these zeon sequences reveal numbers of perfect matchings in the graphs.",
+      "published": "2026-11-10",
+      "categories": [
+        "math.CO",
+        "math.RA"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2611.14645",
+      "url": "https://arxiv.org/abs/2611.14645",
+      "title": "The exact region of the Average Rectangular Volume and Spearman's rho, with an application to arachnitude",
+      "authors": [
+        "Luca Anzilli",
+        "Fabrizio Durante"
+      ],
+      "abstract": "The average rectangular volume ($\\ARV$) of a bivariate aggregation function is the average of its volumes over all axis-parallel rectangles of the unit square; for a copula, it is the expected copula volume of the rectangle spanned by two independent uniform points. We determine the exact region of the pairs $(\\ARV(C),ρ(C))$, where $C$ ranges over all bivariate copulas and $ρ$ is Spearman's rho. The region is compact, convex and symmetric, and its upper boundary consists of three analytically parametrized arcs. A previously proposed family of shuffles of Min generates one arc, but only on part of its range; the other two arcs are generated by singular copulas whose supports contain hyperbolic branches. The boundary is continuously differentiable away from its left endpoint $\\ARV=\\frac{11}{120}$, where it has a vertical tangent. The proof uses a folding transformation and explicit Kantorovich potentials for a family of optimal transport problems. Finally, we show that the arachnitude, a rank correlation used in actuarial practice, is an affine transformation of $\\ARV$, so that the result also describes the joint region of Spearman's rho and arachnitude.",
+      "published": "2026-11-10",
+      "categories": [
+        "math.ST",
+        "stat.ME"
+      ],
+      "tags": [
+        "optimal transport"
       ]
     },
     {
