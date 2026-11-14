@@ -1,17 +1,19 @@
 ---
 layout: default
+title: Sawyer's Blog
+math: true
+post_paths:
+  - blog_posts/blog_11.md
+  - blog_posts/blog_10.md
+  - blog_posts/blog_09.md
+  - blog_posts/blog_08.md
+  - blog_posts/blog_007.md
+  - blog_posts/blog_06.md
+  - blog_posts/blog_05.md
+  - blog_posts/blog_04.md
+  - blog_posts/blog_02.md
+  - blog_posts/blog_01.md
+  - blog_posts/blog_03.md
 ---
 
-# Sawyer's Blog
-
-* [Thoughts on a new paper 'Mixing Times of Switch Chains via High-Dimensional Expansion'](/blog_posts/blog_11.html) // 8 October 2026
-* [Preprint announcement: 'Optimal Transport on Graphs and Stochastically Evolving Trees'](/blog_posts/blog_10.md) // 20 August 2026
-* [Preprint announcement: 'Distance Exceptional Graphs and the Curvature Index'](/blog_posts/blog_09.md) // 6 November 2025
-* [Preprint announcement: 'Discrete Curvatures and Convex Polytopes'](/blog_posts/blog_08.md) // 14 October 2025
-* [Preprint announcement: 'Robust Tangent Space Estimation via Laplacian Eigenvector Gradient Orthogonalization'](/blog_posts/blog_007.md) // 2 October 2025
-* [Preprint announcement: 'Stochastically Evolving Graphs via Edit Semigroups'](/blog_posts/blog_06.md) // 24 September 2025
-* [Publication announcement: 'On a Generalization of Wasserstein Distance and the Beckmann Problem to Connection Graphs'](/blog_posts/blog_05.md) // 23 June 2025
-* [Preprint announcement: 'Robust Graph-Based Semi-Supervised Learning via p-Conductances'](/blog_posts/blog_04.md) // 13 February 2025
-* [Preprint announcement: 'Matrix Concentration for Random Signed Graphs and Community Recovery in the Signed Stochastic Block Model'](/blog_posts/blog_02.md) // 30 Dec 2024
-* [Preprint announcement: 'On Discrete Curvatures of Trees'](/blog_posts/blog_01.md) // 30 Dec 2024
-* [Publication announcement: 'Random Walks, Conductance, and Resistance for the Connection Graph Laplacian'](/blog_posts/blog_03.md) // 30 Sep 2024
+{% include blog-browser.html %}

@@ -1,0 +1,41 @@
+{% assign blog_page = site.pages | where: "path", "blog.md" | first %}
+{% assign selected_month = include.month | default: page.month %}
+{% assign month_date = selected_month | append: "-01" %}
+{% assign month_count = 0 %}
+{% for post_path in blog_page.post_paths %}
+{% assign post = site.pages | where: "path", post_path | first %}
+{% assign post_month = post.date | date: "%Y-%m" %}
+	{% if post_month == selected_month %}
+	{% assign month_count = month_count | plus: 1 %}
+{% endif %}
+{% endfor %}
+
+<div class="blog-month-page">
+	<nav class="blog-breadcrumbs" aria-label="Breadcrumb">
+		<a href="{{ '/blog.html' | relative_url }}">Blog</a>
+		<span aria-hidden="true">›</span>
+		<a href="{{ '/blog/archive/' | relative_url }}" data-blog-view="archive">Archive</a>
+		<span aria-hidden="true">›</span>
+		<span aria-current="page">{{ month_date | date: "%B %Y" }}</span>
+	</nav>
+
+	<h2 class="blog-view-title" tabindex="-1">{{ month_date | date: "%B %Y" }}</h2>
+	<p class="blog-status">{{ month_count }} {% if month_count == 1 %}post{% else %}posts{% endif %}</p>
+
+	{% if month_count == 0 %}
+		<p class="blog-empty">No posts were published in {{ month_date | date: "%B %Y" }}.</p>
+	{% else %}
+		<ul class="blog-post-list blog-month-posts">
+			{% for post_path in blog_page.post_paths %}
+				{% assign post = site.pages | where: "path", post_path | first %}
+				{% assign post_month = post.date | date: "%Y-%m" %}
+					{% if post_month == selected_month %}
+					<li class="blog-post-item">
+						<time class="blog-index-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B %Y" }}</time>
+						<a class="blog-month-post-link blog-index-link" data-post-id="{{ post.name | remove: '.md' }}" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	{% endif %}
+</div>

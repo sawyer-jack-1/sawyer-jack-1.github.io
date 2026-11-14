@@ -1,0 +1,41 @@
+{% assign blog_page = site.pages | where: "path", "blog.md" | first %}
+{% assign archive_months = site.pages | where: "layout", "blog-month" | sort: "month" | reverse %}
+{% assign previous_year = "" %}
+
+<div class="blog-archive-page">
+	<nav class="blog-breadcrumbs" aria-label="Breadcrumb">
+		<a href="{{ '/blog.html' | relative_url }}">Blog</a>
+		<span aria-hidden="true">›</span>
+		<span aria-current="page">Archive</span>
+	</nav>
+
+	<h2 class="blog-view-title" tabindex="-1">Archive</h2>
+	<p class="blog-archive-description">Browse posts by month.</p>
+
+	{% for archive_month in archive_months %}
+		{% assign month_date = archive_month.month | append: "-01" %}
+		{% assign month_year = month_date | date: "%Y" %}
+		{% assign month_count = 0 %}
+		{% for post_path in blog_page.post_paths %}
+			{% assign post = site.pages | where: "path", post_path | first %}
+			{% assign post_month = post.date | date: "%Y-%m" %}
+			{% if post_month == archive_month.month %}
+				{% assign month_count = month_count | plus: 1 %}
+			{% endif %}
+		{% endfor %}
+		{% if month_count > 0 %}
+		{% if month_year != previous_year %}
+			{% unless previous_year == "" %}</ul></section>{% endunless %}
+			<section class="blog-archive-year" aria-labelledby="blog-year-{{ month_year }}">
+				<h3 id="blog-year-{{ month_year }}">{{ month_year }}</h3>
+				<ul class="blog-archive-months">
+		{% endif %}
+					<li>
+						<a href="{{ archive_month.url | relative_url }}" data-blog-view="month-{{ archive_month.month }}">{{ month_date | date: "%B %Y" }}</a>
+						<span class="blog-archive-count">{{ month_count }} {% if month_count == 1 %}post{% else %}posts{% endif %}</span>
+					</li>
+		{% assign previous_year = month_year %}
+		{% endif %}
+	{% endfor %}
+	{% unless previous_year == "" %}</ul></section>{% endunless %}
+</div>

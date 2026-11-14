@@ -1,0 +1,85 @@
+{% assign blog_page = site.pages | where: "path", "blog.md" | first %}
+{% assign browser_view = include.view | default: "post" %}
+{% assign latest_path = blog_page.post_paths | first %}
+{% assign latest_post = site.pages | where: "path", latest_path | first %}
+
+{% capture archive_content %}{% include blog-archive-index.html %}{% endcapture %}
+{% capture month_templates %}
+  {% for monthly_page in archive_months %}
+    {% capture monthly_content %}{% include blog-month-index.html month=monthly_page.month %}{% endcapture %}
+    <template class="blog-view-template" data-view="month-{{ monthly_page.month }}" data-url="{{ monthly_page.url | relative_url }}">{{ monthly_content }}</template>
+    {% if monthly_page.month == page.month %}{% assign current_month_content = monthly_content %}{% endif %}
+  {% endfor %}
+{% endcapture %}
+
+<div class="blog-shell" data-blog-url="{{ '/blog.html' | relative_url }}">
+  <h1>Sawyer's Blog</h1>
+
+  <form class="blog-search" role="search" aria-label="Search blog posts" hidden>
+    <input id="blog-search" type="search" placeholder="Search posts…" aria-label="Search posts" autocomplete="off">
+    <details class="advanced-search blog-advanced" id="blog-advanced">
+      <summary>Advanced search <span class="blog-filter-status" id="blog-filter-status"></span></summary>
+      <div class="advanced-search-grid blog-filter-grid">
+        <label>From <input id="blog-filter-from" type="date"></label>
+        <label>To <input id="blog-filter-to" type="date"></label>
+        <label>Title contains <input id="blog-filter-title" type="search"></label>
+        <label>Text contains <input id="blog-filter-text" type="search"></label>
+        <div class="advanced-search-actions">
+          <button class="text-button" type="submit">Apply</button>
+          <button class="text-button" id="blog-clear-filters" type="button">Clear</button>
+        </div>
+      </div>
+    </details>
+  </form>
+
+  <p class="blog-status" id="blog-status" role="status" aria-live="polite">10 latest posts · Newest first</p>
+
+  <div class="blog-columns">
+    <details class="blog-archive" open>
+      <summary class="blog-archive-toggle">Browse posts · Latest</summary>
+      <nav id="blog-post-index" aria-label="Latest blog posts">
+        <h2 class="blog-index-heading">Latest</h2>
+        <ul class="blog-post-list">
+        {% for post_path in blog_page.post_paths limit:10 %}
+          {% assign post = site.pages | where: "path", post_path | first %}
+          {% assign post_id = post.name | remove: ".md" %}
+          <li class="blog-post-item" data-post-id="{{ post_id }}">
+            <time class="blog-index-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B %Y" }}</time>
+            <a class="blog-index-link" href="{{ post.url | relative_url }}" data-post-id="{{ post_id }}"{% if browser_view == "post" and forloop.first %} aria-current="true"{% endif %}>{{ post.title | escape }}</a>
+          </li>
+        {% endfor %}
+        </ul>
+        <a class="blog-archive-link" href="{{ '/blog/archive/' | relative_url }}" data-blog-view="archive"{% if browser_view == "archive" %} aria-current="page"{% endif %}>Archive</a>
+      </nav>
+    </details>
+
+    <div class="blog-reading-column">
+      <section class="blog-search-results" id="blog-search-results" aria-labelledby="blog-search-results-title" hidden>
+        <h2 class="blog-index-heading" id="blog-search-results-title">Search results</h2>
+        <ul class="blog-post-list" id="blog-results-list"></ul>
+      </section>
+      <p class="blog-empty" id="blog-empty" hidden>No posts match these filters. Try a different search or clear the filters.</p>
+      <div class="blog-reader" id="blog-reader" data-content-key="{% if browser_view == 'post' %}{{ latest_post.name | remove: '.md' }}{% elsif browser_view == 'month' %}month-{{ page.month }}{% else %}{{ browser_view }}{% endif %}">
+        {% if browser_view == "archive" %}
+          {{ archive_content }}
+        {% elsif browser_view == "month" %}
+          {{ current_month_content }}
+        {% else %}
+          {% include blog-article.html post=latest_post %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <template class="blog-view-template" data-view="archive" data-url="{{ '/blog/archive/' | relative_url }}">{{ archive_content }}</template>
+  {{ month_templates }}
+
+  {% for post_path in blog_page.post_paths %}
+    {% assign post = site.pages | where: "path", post_path | first %}
+    <template class="blog-post-template" data-post-id="{{ post.name | remove: '.md' }}" data-date="{{ post.date | date: '%Y-%m-%d' }}" data-title="{{ post.title | escape }}">
+      {% include blog-article.html post=post %}
+    </template>
+  {% endfor %}
+</div>
+
+<script src="{{ '/assets/js/blog.js' | relative_url }}" defer></script>

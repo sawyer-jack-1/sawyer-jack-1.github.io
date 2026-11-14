@@ -1,0 +1,5 @@
+<article class="blog-post" data-post-id="{{ include.post.name | remove: '.md' }}">
+  <time class="blog-post-date" datetime="{{ include.post.date | date: '%Y-%m-%d' }}">{{ include.post.date | date: "%-d %B %Y" }}</time>
+  <h2 class="blog-post-title" tabindex="-1"><a href="{{ include.post.url | relative_url }}">{{ include.post.title | escape }}</a></h2>
+  <div class="blog-post-body">{{ include.post.content | markdownify }}</div>
+</article>
