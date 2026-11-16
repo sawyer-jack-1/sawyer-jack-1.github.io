@@ -1,8 +1,140 @@
 {
   "month": "2026-11",
-  "generated_at": "2026-11-15T17:15:05+00:00",
+  "generated_at": "2026-11-16T20:32:38+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2611.17664",
+      "url": "https://arxiv.org/abs/2611.17664",
+      "title": "The elephant random walk with proportionally growing recent memory",
+      "authors": [
+        "Zhishui Hu",
+        "Shuwen Xue"
+      ],
+      "abstract": "In this work, we study an elephant random walk with recent restricted memory, where at step $n$ the elephant remembers only the last $m_n=\\max\\{\\lfloor cn\\rfloor,1\\}$ steps for $c\\in(0,1)$. We show that the random walk undergoes a phase transition at the critical point $p_c=(3+\\sqrt{1-c})/4$, which depends on the memory proportion $c$. For $0<p<p_c$, $S_n/\\sqrt{n}$ is asymptotically normal; for $p=p_c$, $S_n/\\sqrt{n\\log n}$ is asymptotically normal; and for $p_c<p<1$, $S_n/n^ρ$ converges almost surely and in $L^2$ to a random variable for some constant $ρ\\in (1/2, 1)$. This phase transition differs from that of the classical elephant random walk and its remote-memory counterpart, both of which have the same fixed critical point $3/4$.",
+      "published": "2026-11-13",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.17791",
+      "url": "https://arxiv.org/abs/2611.17791",
+      "title": "Domains of attraction of quasi-stationary distributions for an absorbed random walk",
+      "authors": [
+        "Phil. Pollett"
+      ],
+      "abstract": "We study a continuous-time random walk on the positive integers, killed at zero, where the downward rate $a$ and upward rate $b$ satisfy $a>b>0$. Its quasi-stationary distributions form a one-parameter family. We show that if the initial distribution $(m_n)_{n\\geq 1}$ is strictly positive and satisfies $m_{n+1}/m_n\\to r$, where $(b/a)^{1/2}<r<1$, then its conditional distribution given survival converges in total variation to the corresponding nonminimal quasi-stationary distribution. We obtain asymptotic equivalents for the joint probabilities of position and survival, and for the survival probability itself. We also give a moment condition under which the minimal quasi-stationary distribution is selected. Finally, we construct an initial distribution whose successive-term ratios do not converge but whose conditional distribution nevertheless converges to a nonminimal quasi-stationary distribution. Thus the ratio condition is sufficient but not necessary.",
+      "published": "2026-11-13",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.17902",
+      "url": "https://arxiv.org/abs/2611.17902",
+      "title": "Well-Posedness of Semimartingale Optimal Transport with Partial Marginal Constraints for Model Calibration",
+      "authors": [
+        "Jean-François Chassagneux",
+        "Stéphane Crépey",
+        "Grégoire Loeper",
+        "Justin Ruelland"
+      ],
+      "abstract": "We study the well-posedness and stability of a semimartingale optimal transport problem with partial marginal constraints at several maturities, motivated by the calibration of financial models to finitely many option prices. We connect its probabilistic and Eulerian formulations within the Benamou--Brenier framework. Under convex-duality assumptions, we establish strong duality for every price vector in the extended-value sense and existence of a primal optimizer whenever the value is finite. Under additional PDE assumptions, we establish dual attainment on the relative interior of the admissible price set, together with uniqueness of the primal optimizer. Under further non-degeneracy assumptions, we show that this price set has nonempty interior, on which the dual optimizer is unique and depends locally Lipschitz continuously on the prices. The analysis combines convex methods with regularity and local strong convexity results for Hamilton--Jacobi--Bellman solution maps established in a companion paper. For a fixed deterministic initial state, we also prove continuity of the optimal law on path space in the adapted Wasserstein distance of order two as prices vary within this interior. This stability concerns the optimizer over the full admissible class of semimartingale laws, allowing characteristics that depend on the past. The framework accommodates bounded uniformly continuous payoffs, including European puts in log-price coordinates, without payoff regularization or spatial truncation.",
+      "published": "2026-11-13",
+      "categories": [
+        "q-fin.MF",
+        "math.OC",
+        "math.PR"
+      ],
+      "tags": [
+        "optimal transport",
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.18373",
+      "url": "https://arxiv.org/abs/2611.18373",
+      "title": "Guerra Interpolation and Optimal Transport: Kantorovich Bounds, Brenier Maps and the Replicon",
+      "authors": [
+        "Elena Agliari",
+        "Adriano Barra",
+        "Andrea Ladiana",
+        "Andrea Lepre",
+        "Diego Pallara"
+      ],
+      "abstract": "Since Guerra's work, mean-field spin glasses have been studied through Hamilton--Jacobi equations. Here, using the Curie--Weiss and the Sherrington--Kirkpatrick models as prototypical examples, we show that his celebrated interpolation method is itself an optimal transport computation. After a linear change of variables the finite-$N$ pressure becomes an action $u$ with $\\partial_t u = -A/2$ and $\\partial_x u = -B$, where $B^2 \\le A$, so $u$ is a classical subsolution of $\\partial_t u+\\frac12(\\partial_x u)^2 \\le 0$. Integrating along a straight segment gives Guerra's sum rule, and dropping its remainder makes $u(0,\\cdot)$ and $u(t,\\cdot)$ an admissible pair for the dual Kantorovich problem with quadratic cost. For the Curie--Weiss model and $t > 0$, $T_t(y) = y-t\\tanh y$ is an optimal transport map from every source with finite first moment if and only if $t \\le 1$, and the Kantorovich potentials are the limiting pressures. For the replica-symmetric Sherrington--Kirkpatrick model, the cavity map is injective on the physical half-line and the curvature of its Brenier potential is the longitudinal eigenvalue, which exceeds the replicon eigenvalue $Λ_{\\mathrm{AT}}$: transport of Dirac masses does not detect the de Almeida--Thouless line. The replicon appears along the $\\mathcal{W}_2$ geodesic that splits a Dirac mass into two atoms, as the second variation of a second-order surrogate of the two-atom Parisi functional. From a Dirac initial datum, Guerra's $K$-step bound takes Hopf--Lax form, and the Parisi formula becomes a Hopf--Lax formula over atomic measures. With a $\\mathcal{W}_1$-Lipschitz bound for its initial datum, proved by comparing Cole--Hopf layers, we let $K\\to\\infty$ and recover at Dirac data the Hopf--Lax form of the Parisi formula due to Mourrat and to Mourrat and Panchenko, with a rate for equal-mass approximations.",
+      "published": "2026-11-13",
+      "categories": [
+        "cond-mat.dis-nn",
+        "math.AP",
+        "math.PR"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2611.17706",
+      "url": "https://arxiv.org/abs/2611.17706",
+      "title": "Refined random matrix conjectures for zeros of $p$-adic $L$-functions",
+      "authors": [
+        "Heiko Knospe",
+        "Jiahe Shen",
+        "Roger Van Peski"
+      ],
+      "abstract": "We make and test the conjecture that for $p$-adic $L$-functions associated to quadratic Dirichlet characters and their Teichmüller twists, all local statistics of zeros in the unit disk match those of $p$-adic random matrix eigenvalues. This generalizes the case of the number of zeros in the unit disk previously conjectured by Ellenberg-Jain-Venkatesh, which was well-supported by numerics, as well as the case of the discriminant, where their numerics were more ambiguous. Using recent random matrix results on local statistics of eigenvalues, we make the random matrix prediction explicit for many statistics, analogous to local densities and pair-correlations in the complex setting. To test these, we compute data on $p$-adic $L$-functions for characters of conductor up to $10^7$, and for certain statistics in windows above $10^{10}$. We find good agreement with the new random matrix predictions for these statistics, as well as for the discriminant.",
+      "published": "2026-11-13",
+      "categories": [
+        "math.NT",
+        "math.PR"
+      ],
+      "tags": [
+        "random matrix"
+      ]
+    },
+    {
+      "id": "2611.18344",
+      "url": "https://arxiv.org/abs/2611.18344",
+      "title": "Enumeration of Cospectral Graphs with Respect to the Average Flow Matrix",
+      "authors": [
+        "Usama Waheed",
+        "Naveed Ahmed Azam"
+      ],
+      "abstract": "A graph is said to be determined by the spectrum of a graph-associated matrix if no nonisomorphic graph shares the same spectrum with it. In this paper, we introduce the average flow matrix of a connected graph and study its spectral properties. We investigate its effectiveness in distinguishing graphs by carrying out a computational enumeration of connected graphs having a cospectral mate with respect to this matrix up to order 10. Our computations show that every connected graph on at most 10 vertices is determined by the spectrum of the average flow matrix. To the best of our knowledge, this is the first graph-associated matrix for which the spectrum distinguishes all connected graphs of order at most 10.",
+      "published": "2026-11-13",
+      "categories": [
+        "math.CO",
+        "math.SP"
+      ],
+      "tags": [
+        "spectral graph"
+      ]
+    },
+    {
+      "id": "2611.18296",
+      "url": "https://arxiv.org/abs/2611.18296",
+      "title": "From Butson Hadamard switching to graph switching and back",
+      "authors": [
+        "Aida Abiad",
+        "Ronan Egan",
+        "Stef Mohnen"
+      ],
+      "abstract": "Switching is a local operation that preserves specified properties of a combinatorial object. It has been used to derive constructions of inequivalent Hadamard matrices and nonisomorphic cospectral graphs. In this paper we investigate the relation between these constructions for real and Butson Hadamard matrices. We show that, while equivalent matrices have isomorphic associated graphs, the converse can fail for Butson matrices. We prove that a character decomposition determines the graph spectrum from the singular values of entrywise powers. For prime phase, we also observe that the spectrum depends only on the order and phase; for composite phase, a switching preserving the Butson property can change it. We show that Orrick's closed-quadruple and Hall-set switchings correspond to Wang-Qiu-Hu switching, up to graph isomorphism. Going in the other direction, we characterise when the Godsil-McKay and Wang-Qiu-Hu reflections preserve the Butson property and give phase-multiplicity conditions for the corresponding graph switchings. Finally we also relate block switching to cyclic graph switching under a phase-balance condition, automatic at prime phase. These results provide a basis for transferring tools and techniques between matrix switching and graph switching.",
+      "published": "2026-11-13",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "spectral graph"
+      ]
+    },
     {
       "id": "2611.16614",
       "url": "https://arxiv.org/abs/2611.16614",
@@ -90,6 +222,24 @@
       "published": "2026-11-12",
       "categories": [
         "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.17570",
+      "url": "https://arxiv.org/abs/2611.17570",
+      "title": "Annihilation versus anchoring of a topologically charged pair on a perforated two-dimensional surface",
+      "authors": [
+        "Patrick Romanescu"
+      ],
+      "abstract": "Two independent random walks of opposite topological charge move on the discrete torus $(\\mathbb{Z}/n\\mathbb{Z})^2$, which contains $k$ well-separated holes. The walks annihilate when they come within a core distance of each other, and each walk is anchored when it first touches a hole. We prove that the probability of annihilation before anchoring converges to $w_0/(w_0+\\sum_j w_j)$, where the weights are explicit and depend only logarithmically on the sizes of the core and of the holes; for point-like core and holes, the limit is $1/(1+k)$. We then prove a fate theorem: the pair either terminates or ends as two opposite charges anchored on two different holes, with probability $(k-1)/(k+1)$ in the point-like case, and the hosting pair $\\{j,l\\}$ is chosen with probability proportional to $w_jw_l$. The proof combines an abstract competition lemma for rare sets in reversible Markov chains with sharp two-dimensional Green's function estimates.",
+      "published": "2026-11-12",
+      "categories": [
+        "math.PR",
+        "cond-mat.stat-mech",
+        "math-ph"
       ],
       "tags": [
         "random walk"
