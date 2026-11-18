@@ -1,8 +1,207 @@
 {
   "month": "2026-11",
-  "generated_at": "2026-11-17T14:23:06+00:00",
+  "generated_at": "2026-11-18T14:23:18+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2611.23204",
+      "url": "https://arxiv.org/abs/2611.23204",
+      "title": "A comparative exploration of Steinerberger curvature and resistance curvature in model and real-world complex networks",
+      "authors": [
+        "Madhumita Mondal",
+        "Priyank Vasu",
+        "Areejit Samal",
+        "Jürgen Jost"
+      ],
+      "abstract": "Discrete curvature extends the concept of curvature from continuous spaces to discrete structures such as graphs and networks. It provides a mathematical framework for characterising local and global network geometry, that offers insights into structural properties such as connectivity and clustering. In this study, we investigate Steinerberger curvature (SBC) and resistance curvature (RC) and examine their relationships with established graph curvature measures, namely Forman-Ricci, Augmented Forman-Ricci, and Ollivier-Ricci curvatures, a notion of scalar sectional curvature, as well as conventional vertex-based measures. A systematic comparative analysis is conducted across various synthetic network models and real-world networks, focusing on curvature distributions, correlations with structural measures, and the identification of structurally important vertices through network disintegration experiments based on global efficiency. Our results show that SBC generally exhibits weaker correlations with other measures. On the other hand, RC is strongly positively correlated with established discrete Ricci curvature measures, whereas it is predominantly negatively correlated with conventional vertex-based measures like degree and centrality-based measures. Furthermore, RC achieves a reduction in communication efficiency comparable to or faster than established Ricci curvature measures. These findings suggest that SBC captures structural characteristics that are largely distinct from those reflected by other measures, while RC exhibits distinct structural associations and shows significant potential for identifying vertices critical to network connectivity.",
+      "published": "2026-11-17",
+      "categories": [
+        "cs.SI"
+      ],
+      "tags": [
+        "discrete curvature",
+        "graph curvature",
+        "Ricci curvature",
+        "Steinerberger curvature"
+      ]
+    },
+    {
+      "id": "2611.22282",
+      "url": "https://arxiv.org/abs/2611.22282",
+      "title": "Approximating Itô Processes in Adapted Wasserstein Distance with Finite Support Laws",
+      "authors": [
+        "Xihao He",
+        "Fengyi Yuan"
+      ],
+      "abstract": "Motivated by finite-scenario surrogates in stopping and control problems, we study the approximation of Itô diffusion laws by laws supported on $M$ paths in an adapted Wasserstein distance, which we term adapted functional quantization. Under the strict adapted Wasserstein distance, no finite-support approximation can achieve vanishing error, while even under its relaxed counterpart, naive empirical measures still fail to converge. To resolve this, we develop a recursive conditional sampling algorithm and derive constructive upper bounds on the adapted quantization error. In one dimension, this yields the Brownian rate $(\\log M)^{-1/2}$ for every diffusion with continuous coefficients of linear growth and pathwise uniqueness. In several dimensions, a quantitative Osgood stability condition with exponent $β$ yields the rate $(\\log M)^{-η_p}$, where $η_p=\\min\\{1/2,β/(β+4p-2)\\}$. Without the Osgood condition, we construct a two-dimensional diffusion with smooth bounded coefficients whose adapted quantization error decays more slowly than $(\\log M)^{-γ}$ for any $γ>0$.",
+      "published": "2026-11-17",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.22535",
+      "url": "https://arxiv.org/abs/2611.22535",
+      "title": "Asymptotic enumeration of histories and limit laws in two random graph evolution models",
+      "authors": [
+        "Nadja Azzouz",
+        "Olivier Bodini",
+        "Francis Durand",
+        "Bernhard Gittenberger"
+      ],
+      "abstract": "We study growth models for random graphs where the growth is established by vertex or edge creations and where there is no dependence between vertices and edges. Creations are logged by time stamps such that the history of the resulting graph can be reconstructed. We investigate two prototypical models, an undirected and a directed one, called undirected independent growth model (UIG-model) and directed independent growth model (DIG-model). The generating functions for the number of histories have radius of convergence equal to zero. In the UIG-model, we express the asymptotic number of histories as a sum that is amenable to the discrete Laplace method. We derive the asymptotic number of histories, study the number of vertices of a random history, and prove a central limit theorem. In the DIG-model we use a rescaled Borel transform to get an entire function. Then we show that this function is Hayman admissible, which enables us to derive the asymptotic number of histories in this model. The counting sequence is closely related to the framework of generalized Legendre-Stirling numbers. To determine the number of vertices in a random history, we prove that the bivariate generating function is e-admissible and infer that again a normal limit law holds. Finally, we discuss a correspondence to set partitions with even block sizes and present an algorithm based on Boltzmann samplers that generates such graphs uniformly at random.",
+      "published": "2026-11-17",
+      "categories": [
+        "math.CO",
+        "math.PR"
+      ],
+      "tags": [
+        "random graph"
+      ]
+    },
+    {
+      "id": "2611.23180",
+      "url": "https://arxiv.org/abs/2611.23180",
+      "title": "Cutoff on abelian groups",
+      "authors": [
+        "Guy Blachar",
+        "Jonathan Hermon",
+        "Justin Salez"
+      ],
+      "abstract": "We prove the long-predicted equivalence between the cutoff phenomenon and the product condition along any sequence of abelian random walks whose inverse transition probabilities grow at most logarithmically with the size of the group. Our result does not require reversibility, and comes with a sharp quantitative estimate on the mixing window. Moreover, we show that our sparsity restriction is optimal by constructing abelian Cayley graphs which satisfy the product condition but fail to exhibit cutoff, and whose degrees are arbitrarily close to being logarithmic in the volume.",
+      "published": "2026-11-17",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.22607",
+      "url": "https://arxiv.org/abs/2611.22607",
+      "title": "DLS: Dual-Logic Graph Neural Networks with Chaos-Fuzzy Residuals for Robust Link Prediction",
+      "authors": [
+        "Mohammad Mehdi Keikha",
+        "Abolfazl Nadi"
+      ],
+      "abstract": "Link prediction is a fundamental task in graph mining, critical for applications ranging from biological interaction discovery to recommender systems. While Message Passing Neural Networks (MPNNs) have achieved state-of-the-art results, they are fundamentally limited by the inadvertent suppression of high-frequency signals, as the recursive aggregation that stabilizes structural learning inherently leads to over-smoothing, rendering node representations indistinguishable in deep layers. This limitation is particularly severe in heterophilous graphs, where structural proximity does not imply feature similarity. In this paper, we propose DLS (Dual-Logic SAGE), a novel inductive framework designed to break the over-smoothing barrier via a \"controlled instability\" mechanism. Unlike conventional methods relying on static structural heuristics, DLS introduces a dynamic residual pipeline. First, a Chaotic Injection Module utilizes the Logistic Map to diversify the feature manifold, exploiting sensitivity to initial conditions to separate topologically similar but semantically distinct nodes. Second, to mitigate the aleatoric uncertainty introduced by chaotic dynamics, a Fuzzy-Logic Gating Mechanism applies soft-thresholding to filter noise and retain only high-confidence signals. Experimental results on diverse benchmarks demonstrate that DLS effectively balances feature discrimination with robustness, significantly outperforming state-of-the-art baselines in heterophilous settings while maintaining competitive efficiency on standard homophilous graphs.",
+      "published": "2026-11-17",
+      "categories": [
+        "cs.LG",
+        "cs.SI"
+      ],
+      "tags": [
+        "graph neural network"
+      ]
+    },
+    {
+      "id": "2611.22754",
+      "url": "https://arxiv.org/abs/2611.22754",
+      "title": "Maximum number of cells in a matroid subdivision of hypersimplex",
+      "authors": [
+        "Mahyar Hasani"
+      ],
+      "abstract": "David Speyer proved that the maximum number of cells in a regular matroid subdivision of the hypersimplex $Δ(m,t)$ is $\\binom{t-2}{m-1}$ , using the language of tropical geometry and properties of the Tutte polynomial of a matroid \\cite[Theorem 6.1]{Speyer}. In this paper, we prove this result in general, i.e. for arbitrary matroid subdivisions including the non-regular ones. We perform a different combinatorial way using our results in \\cite{HHH} and independent of tropical language.",
+      "published": "2026-11-17",
+      "categories": [
+        "math.AG",
+        "math.CO",
+        "math.RT"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.22950",
+      "url": "https://arxiv.org/abs/2611.22950",
+      "title": "Mean Field Games: Large Sparse Network Limits and Laplexion Dynamics",
+      "authors": [
+        "Minyi Huang",
+        "Peter E. Caines"
+      ],
+      "abstract": "Dynamic games are considered with large subpopulations distributed over large sparse graphs, where each agent has mean field coupling with all agents within the same cluster and meanwhile receives impact from neighboring clusters. Tractable limit models are obtained via the network limits of graph Laplacian operators modelling second order interactions. The resulting mean field game (MFG) has what is called Laplexion dynamics. For ring and torus topology cases, solutions for linear quadratic Laplexion MFG systems with infinite populations on infinite node networks are obtained via a second order linear partial differential equation system. This work focusses on the relationship between the finite population model and the sparse network limit model. We prove an $ε$-Nash equilibrium property for the obtained decentralized strategies.",
+      "published": "2026-11-17",
+      "categories": [
+        "math.OC"
+      ],
+      "tags": [
+        "graph Laplacian"
+      ]
+    },
+    {
+      "id": "2611.22025",
+      "url": "https://arxiv.org/abs/2611.22025",
+      "title": "Causal Input--Output Modeling with Prior Information",
+      "authors": [
+        "Amirhossein Taghvaei",
+        "Daran Xu"
+      ],
+      "abstract": "We study the problem of inferring a causal input--output model from unpaired marginal observations and a given prior coupling. We formulate this problem using entropic causal optimal transport, which seeks a coupling that preserves the observed marginals, satisfies a one--sided causality constraint, and remains close to the prior. For Gaussian marginals and general quadratic costs, we prove that the optimal coupling is Gaussian and reduce the problem to a finite--dimensional optimization over covariance matrices. Using a Cholesky transformation to simplify the causality constraint, we derive a Lagrangian dual formulation and develop a block coordinate descent algorithm with explicit update formulas. We establish linear convergence of the algorithm, with explicit convergence rates, and prove stability of the optimal coupling under marginal covariance perturbations and derive a statistical error bound. We further show its equivalence to Sinkhorn iterations. Numerical experiments demonstrate the computational efficiency of the proposed algorithm and illustrate the predictive advantages of causal couplings.",
+      "published": "2026-11-17",
+      "categories": [
+        "math.OC",
+        "eess.SY"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2611.22569",
+      "url": "https://arxiv.org/abs/2611.22569",
+      "title": "Critical heavy traffic and diffusion limits for shortest-of-d dynamic routing",
+      "authors": [
+        "Elmira Yu. Kalimulina"
+      ],
+      "abstract": "We study shortest-of-$d$ routing, with fixed $d\\ge2$, in $N$ parallel queues with independent finite-state Markov service environments switching at rate $κ_N$. At the critical load $ρ_N=1-1/N$, the empirical measure of the centered queue lengths, under stationarity, converges in distribution to a random probability measure determined by its mean. We identify the mean's density and the conditional independence of fixed finite collections of centered queues in the limit. On time scales of order $N$, the centered empirical mean converges to a diffusion with explicit drift and constant diffusion coefficient. These limits hold when $κ_N/N\\to\\infty$, along subsequences with convergent lattice phase. The diffusion limit extends to centered initial empirical measures tight in the first Wasserstein topology, with means converging in law. A short initial layer prepares the limiting family while preserving the limiting mean. Empirical approximation holds in time-integrated Wasserstein distance.",
+      "published": "2026-11-17",
+      "categories": [
+        "math.PR",
+        "cs.PF"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.23004",
+      "url": "https://arxiv.org/abs/2611.23004",
+      "title": "Generalized and Convex Poincaré Inequalities via Transport-Divergence Inequalities",
+      "authors": [
+        "Thibaut Le Gouic",
+        "Magali Tournus"
+      ],
+      "abstract": "We investigate the relationship between generalized $(q',p')$-Poincaré inequalities and transport-divergence inequalities involving $χ^q$-type divergences. Extending the classical correspondence between the $(2,2)$-Poincaré inequality and quadratic transport-$χ^2$ inequalities, we prove that a $(q',p')$-Poincaré inequality is equivalent to a transport-divergence inequality for conjugates $(p,p')$ and $(q,q')$. We then study the convex counterpart of these inequalities. Using weak barycentric optimal transport and convex order, we establish an equivalence between convex $(q',p')$-Poincaré inequalities and weak transport-divergence inequalities involving a projected $χ_q$ divergence. We further characterize the minimizers arising in this projection problem through a geometric condition on the relative density. In dimension one, we analyze the geometric consequences of $(q',p')$-Poincaré inequalities by identifying sharp conditions on the behavior of the density both at infinity and near isolated zeros. We show that when $q'>p'$, the concentration behavior becomes polynomial rather than exponential at infinity. Finally, we interpret these inequalities through the lens of optimization in Wasserstein space. In particular, the equivalence between transport-divergence and Poincaré inequalities appears as an analogue of the equivalence between quadratic growth and Polyak--Łojasiewicz inequalities in finite-dimensional optimization.",
+      "published": "2026-11-17",
+      "categories": [
+        "math.FA",
+        "math.PR"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2611.23214",
+      "url": "https://arxiv.org/abs/2611.23214",
+      "title": "Asymptotics of Gibbs Posterior Measures on Infinite-Dimensional Hypothesis Spaces",
+      "authors": [
+        "Terje Mildner"
+      ],
+      "abstract": "We prove almost sure contraction rates and consistency for Gibbs posterior measures on arbitrary hypothesis spaces, in general infinite dimensional, under dependent data, nonadditive and time-dependent losses and learning rates, misspecified models, and unattainable minimisers of the limiting objective. In particular, we develop a novel proof approach in contraction rate theory by studying the asymptotics of Gibbs measures through Lorentz spaces, real interpolation theory, and Laplace transforms dispensing with testing or variational formulations which are unavailable in the considered generality. As a consequence we obtain almost sure contraction rates for dominated Bayes and fractional Bayes posterior measures in the same generality, extending existing theory on misspecified Bayesian inference. Furthermore, we demonstrate our theoretical results on novel applications to Gibbs posteriors for Dirichlet process priors with a nonadditive Wasserstein metric loss function under ergodic, non-Markovian observables.",
+      "published": "2026-11-17",
+      "categories": [
+        "math.ST"
+      ],
+      "tags": [
+        "Wasserstein metric"
+      ]
+    },
     {
       "id": "2611.20572",
       "url": "https://arxiv.org/abs/2611.20572",
@@ -39,6 +238,26 @@
       "tags": [
         "random graph",
         "spanning tree"
+      ]
+    },
+    {
+      "id": "2611.21979",
+      "url": "https://arxiv.org/abs/2611.21979",
+      "title": "Laplacian Eigenvectors of Generically Weighted Graphs Have Pairwise Distinct Coordinates",
+      "authors": [
+        "Santiago Pineda Montoya",
+        "Edisson Gallego González",
+        "Jaiberth Porras Barrera",
+        "Johan Heriberto Rúa Muñoz"
+      ],
+      "abstract": "Poignard, Pereira and Pade conjectured that, for a generic choice of the nonzero weights of a given graph, the Fiedler vector of the weighted Laplacian has pairwise distinct coordinates. We give a proof that also covers every nonconstant eigenvector. For each connected graph on n vertices we construct a nonzero homogeneous polynomial with integer coefficients in the edge weights, of degree n(n-1)(n^2-n+2)/4, which vanishes at a positive weighting exactly when the Laplacian has a repeated eigenvalue, an eigenvector with a zero coordinate, or a nonconstant eigenvector with two equal coordinates. The exceptional weights therefore lie in an algebraic hypersurface, which gives structural genericity in the sense of Poignard, Pereira and Pade; algebraically independent weights are never exceptional, and there are good integer weights not exceeding the degree plus one. The polynomial is a product of Krylov determinants. Its nonvanishing follows by induction on trees: when a leaf is attached with a small weight, a cut identity gives the first-order profile of the new eigenvector and separates the coordinates that coincide in the limit. Exact small cases show that exceptional weightings need not be symmetric.",
+      "published": "2026-11-16",
+      "categories": [
+        "math.CO",
+        "math.SP"
+      ],
+      "tags": [
+        "Laplacian eigenvector"
       ]
     },
     {
@@ -129,6 +348,24 @@
       ],
       "tags": [
         "optimal transport"
+      ]
+    },
+    {
+      "id": "2611.21815",
+      "url": "https://arxiv.org/abs/2611.21815",
+      "title": "Adapted transport inequalities in continuous time",
+      "authors": [
+        "Erhan Bayraktar",
+        "Fang Rui Lim"
+      ],
+      "abstract": "Given a strong solution $X$ to a stochastic differential equation (SDE), we establish sufficient conditions under which $\\text{Law}(X)$ satisfies an adapted quadratic transport cost inequality (AQTCI) with respect to the semimartingale adapted Wasserstein distance. When the drift and diffusion coefficients are Markovian, we further show that the AQTCI tensorizes in a dimension-free manner. As a corollary, we show that various stochastic control problems, e.g. optimal stopping and mean-variance portfolio selection, are stable under bounded, measurable drift perturbations. Additionally, we derive concentration inequalities (with respect to certain dynamic risk measures) for stochastic integrals $\\int H_s dX_s$ and deduce appropriate bounds on their tail behavior. Furthermore, using the functional Itô formula, we show that the AQTCI for $\\text{Law}(X)$ allows one to deduce classical transport inequalities for $\\text{Law}(F(X))$ even when $F$ is not Lipschitz on path space. Finally, we give sufficient conditions for $\\text{Law}(X)$ to satisfy AQTCIs when $X$ is a solution to a scalar fractional SDE or stochastic Volterra equation.",
+      "published": "2026-11-16",
+      "categories": [
+        "math.PR",
+        "math.FA"
+      ],
+      "tags": [
+        "Wasserstein distance"
       ]
     },
     {
@@ -517,6 +754,25 @@
       ],
       "tags": [
         "random walk"
+      ]
+    },
+    {
+      "id": "2611.21670",
+      "url": "https://arxiv.org/abs/2611.21670",
+      "title": "Resistance-regular graphs need not be regular",
+      "authors": [
+        "Murad ul Islam Khan",
+        "Ghulam Haidar"
+      ],
+      "abstract": "A connected graph is resistance-regular if the sum of the effective resistances from a vertex to all other vertices does not depend on the vertex, or equivalently if the Moore-Penrose inverse of its Laplacian has constant diagonal. Walk-regular graphs have this property, and Zhou, Wang and Bu asked in 2016 whether every resistance-regular graph is regular, a question that also arises in the study of graphs with constant resistance curvature. We answer this question in the negative and examine both what resistance-regularity forces and how far from regular such graphs can be. On the spectral side, we prove that a connected graph is walk-regular if and only if the first $m-1$ powers of its Laplacian pseudoinverse have constant diagonal, where $m$ is the number of distinct nonzero Laplacian eigenvalues. Because resistance-regularity constrains only the first power, it forces regularity when $m\\le2$ and allows at most two vertex degrees when $m=3$. Any non-regular resistance-regular graph has minimum degree at least $3$ and a connected complement, and an exhaustive computer search shows that it must have at least $13$ vertices. For every even $p\\ge4$, we construct a resistance-regular graph on $4p$ vertices with degrees $2p-2$ and $2p-1$, obtaining closed formulas for its Laplacian spectrum and for all pairwise effective resistances. Using module blow-ups, we then construct $n$-vertex resistance-regular graphs whose two degrees differ by $(\\sqrt{4n+1}-5)/4$ for infinitely many $n$, as well as examples with three and four distinct degrees, whereas the maximum and minimum degrees of any resistance-regular graph on $n$ vertices differ by less than $n/2$. We close by conjecturing that in a resistance-regular graph the sum of squared resistances at a vertex increases strictly with its degree.",
+      "published": "2026-11-12",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "Laplacian eigenvalue",
+        "effective resistance",
+        "resistance curvature"
       ]
     },
     {
