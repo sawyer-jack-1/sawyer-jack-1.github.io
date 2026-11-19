@@ -1,8 +1,246 @@
 {
   "month": "2026-11",
-  "generated_at": "2026-11-18T14:23:18+00:00",
+  "generated_at": "2026-11-19T14:23:08+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2611.24132",
+      "url": "https://arxiv.org/abs/2611.24132",
+      "title": "Large Deviations and Convexity Transition for the Multidimensional Elephant Random Walk",
+      "authors": [
+        "Jan-Luka Fatras"
+      ],
+      "abstract": "In this article we establish a weak large deviation principle for the empirical measures of the elephant random walk on $\\mathbb{Z}^d$, for every reinforcement parameter $p \\in (0,1)$. We identify a qualitative change in the behaviour of the associated rate function between dimension $d=1$ and dimensions $d \\geq 2$. In dimension $d=1$, the rate function coincides with the Donsker--Varadhan rate function of the simple symmetric random walk and is independent of the reinforcement parameter $p$. By contrast, in every dimension $d\\geq 2$, the rate function differs from that of the simple random walk as soon as $p\\neq 1/(2d)$. Finally, we prove that for all $d \\geq 2$ the rate function is convex if and only if $p \\leq 1/(2d)$. This allows us to identify a critical point in the large-deviation behaviour of the model which occurs strictly before the standard diffusive-to-superdiffusive crossover.",
+      "published": "2026-11-18",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk"
+      ]
+    },
+    {
+      "id": "2611.24472",
+      "url": "https://arxiv.org/abs/2611.24472",
+      "title": "Convergence of replicator-mutator particle systems via bounded Wasserstein distance",
+      "authors": [
+        "Giacomo Borghi"
+      ],
+      "abstract": "Interacting particle systems with selection and mutation mechanisms arise in biological modeling, evolutionary optimization, and particle filtering methods. In this work we will consider the paradigmatic replicator-mutator PDE, which combines a diffusive component with a source term that depends on an external potential. We derive quantitative error estimates for the distance between the empirical measure of an unweighted particle system and the solution of the PDE. The proof uses a Wasserstein-1 distance with a bounded ground cost, which allows us to treat unbounded potentials on an unbounded state space. The key tools are the optimal coupling of newly resampled particles and, for the time-continuous limit, the use of a discrete-time killing resampling.",
+      "published": "2026-11-18",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.24688",
+      "url": "https://arxiv.org/abs/2611.24688",
+      "title": "Moment approximations in optimal transport: geometric estimates and a semiclassical limit",
+      "authors": [
+        "Luigi de Pascale",
+        "Luca Nenna",
+        "Igor Pinheiro"
+      ],
+      "abstract": "We study finite moment approximations of linear optimization problems over measures. Under suitable assumptions, we establish the existence of discrete minimizers with a controlled number of support points, duality and $Γ$-convergence as the moment approximation is refined. This framework accommodates several transport problems, in which marginal constraints are replaced by finitely many moment constraints. For moment functions localized at scale $r_n$, we prove an estimate controlling $W_\\infty$ by $W_p$ up to an additive error of order $r_n$, which also applies to discrete measures. For repulsive costs, we show that minimizers remain separated from the diagonal, uniformly in the number of moments, and we derive consequences for dual potentials. Finally, under a moment-correction assumption, we prove that the fermionic minimum energies converge in the semiclassical limit to the moment-constrained Coulomb transport value for a fixed family of moment functions.",
+      "published": "2026-11-18",
+      "categories": [
+        "math.OC",
+        "math.FA"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2611.23703",
+      "url": "https://arxiv.org/abs/2611.23703",
+      "title": "Degree-three Euclidean spanning trees within a factor of 1.514 of the minimum",
+      "authors": [
+        "William Han",
+        "Dan Ismailescu",
+        "Ganghun Kim"
+      ],
+      "abstract": "For every finite point set $X$ in a Euclidean space of arbitrary dimension, we prove that there is a spanning tree of maximum degree three and total length at most $(757/500)\\MST(X)=1.514\\MST(X)$, where $\\MST(X)$ denotes the unrestricted minimum spanning-tree length. More strongly, for any root and any finite list of other points, there is a Hamiltonian path starting at the root whose length is at most $1.514$ times the sum of the root-to-point distances. The proof follows the rooted-path and variable-block framework used in earlier work, and applies Young's weighted-distance inequality to explicit rational mixtures of paths. Eight ordered radius regions cover the normalized domain. Their local estimates require only 29 vertex comparisons, all certified by rational arithmetic. The cover uses the three thresholds $1/4$, $3/8$, and $1/2$; its largest block has nine vertices. We give complete proofs of the normalization transfer, the global induction, and the terminal cases with zero or one actual tail point. We also give a fixed-dimensional cross-polytope lower bound, present Zbarsky's orthogonal simplex-cluster construction in explicit coordinates, and compare their finite-dimension bounds. The base cases complete the upper-bound argument before the lower-bound constructions are presented.",
+      "published": "2026-11-18",
+      "categories": [
+        "math.MG",
+        "math.CO"
+      ],
+      "tags": [
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2611.24526",
+      "url": "https://arxiv.org/abs/2611.24526",
+      "title": "Two $(2+ε)$-Approximation Algorithms for Minimum Spanning Tree Interdiction",
+      "authors": [
+        "Junjie Luo",
+        "Changjun Wang",
+        "Chenhao Wang",
+        "Wei Yu"
+      ],
+      "abstract": "Minimum spanning tree interdiction asks for edge deletions within a budget that maximize the weight of a remaining minimum spanning tree. We give two deterministic $(2+ε)$-approximation algorithms for every fixed $ε>0$, improving the previous best factor of $4$. Both algorithms respect the original budget and run in $N^{O(1/ε)}$ time for $0<ε\\le1$, where $N$ is the binary input size. The first algorithm uses two weight thresholds to choose initial deletions that force every remaining spanning tree to contain edges at or above these thresholds. It then uses the remaining budget to further increase the MST weight through Lagrangian rounding. The second algorithm achieves the same guarantee through a different decomposition: it enumerates vertex partitions and heavy trees connecting their parts, then approximates a bounded-weight interdiction problem within the parts. An objective-preserving reduction from Maximum Components shows that, assuming the Small Set Expansion Hypothesis and $\\mathsf P\\ne\\mathsf{NP}$, no deterministic polynomial-time $(2-δ)$-approximation exists for any fixed $0<δ<1$, even on simple graphs with weights in $\\{0,1\\}$. Thus, our approximation guarantee is conditionally tight up to an arbitrarily small additive constant. Finally, the MST guarantee yields a $(4+ε)$-approximation for metric-TSP interdiction.",
+      "published": "2026-11-18",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2611.24865",
+      "url": "https://arxiv.org/abs/2611.24865",
+      "title": "The limits of inertia bounds on graph powers",
+      "authors": [
+        "Aida Abiad",
+        "Nils Van de Berg",
+        "Sam Mattheus"
+      ],
+      "abstract": "We investigate the tightness of inertia and inertia-type bounds related to graph powers. This class of graphs appears in several contexts, such as the theory of distance-regular graphs, quantum information theory and coding theory. They are a priori not covered by previous separation constructions involving locally sparse graphs, see Kwan and Wigderson (2024), or Alon's pseudorandom graphs, see Elphick, Tang and Zhang (2025). Instead, we apply the latter's lower bound for complements of pseudorandom graphs to random graphs and random Cayley graph constructions, whose graph-power structure is ensured by additive combinatorial arguments. From this we are able to conclude that also for graph powers there can be a large gap between inertia bounds and the actual independence number. For the inertia-type bound, which is based on polynomials, we achieve even larger separation by considering sequences of graphs whose spectrum converges to a continuous distribution. Our methods draw from several areas of mathematics, ranging from additive combinatorics and probabilistic methods, to character sums over finite fields and arithmetic geometry.",
+      "published": "2026-11-18",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "random graph"
+      ]
+    },
+    {
+      "id": "2611.23686",
+      "url": "https://arxiv.org/abs/2611.23686",
+      "title": "Connectivity of Matroids with Breadth-Critical Tangles",
+      "authors": [
+        "Zhuo Li",
+        "Zhen Chen"
+      ],
+      "abstract": "We construct an explicit infinite sequence of nonnegative integers $(s_0,s_1,\\ldots)$ such that, for every $k\\ge2$, every finite matroid with a breadth-critical tangle of order at least $k$ is $(s_0,s_1,\\ldots,s_{k-2})$-connected. The constants $s_i$ depend only on $i$. This proves a conjecture of Brettell, Jowett, Oxley, Semple, and Whittle.",
+      "published": "2026-11-18",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.23730",
+      "url": "https://arxiv.org/abs/2611.23730",
+      "title": "Circuit spectra for binary matroids",
+      "authors": [
+        "Bing Wei",
+        "Haidong Wu",
+        "Shunzhe Zhang"
+      ],
+      "abstract": "The circuit spectrum of a matroid is defined to be the set of circuit sizes. The circuit $e$-spectrum of a matroid is the set of circuit sizes of the matroid containing the element $e$. The circuit spectrum problem is an important problem. Erdős (1992) conjectured that every connected graph $G$ with girth $g$ and average degree $d$ has a cycle spectrum of size at least $Ω(d^{\\lfloor (g-1)/2 \\rfloor})$. Sudakov and Verstraëte (2008) proved the full conjecture of Erdős in a stronger form. It is natural to consider the size of the circuit spectra of binary matroids. Murty (1971) characterized all connected binary matroids with circuit spectra of size one. Lemos et al. (2011) characterized the connected binary matroids with circuit spectra of size two, where the largest size is odd. For general binary matroids, it is still an open question to find a lower bound for the size of the circuit spectra. In this paper, we give best-possible such lower bounds for connected binary matroids that do not contain both the Fano matroid and its dual as minors. Let $M$ be a simple connected binary matroid that does not have both the Fano matroid and its dual as a minor, and $d\\geq 3$ be the minimum cocircuit size of $M$. We prove that (1) for each element $e$ of $M$, the circuit $e$-spectrum of $M$ must have size at least $d-2$. This bound is best possible. (2) The circuit spectrum of $M$ must have size at least $d-1$, unless $M\\cong F_7,F_7^*,R_{10}$. In exceptional cases, the spectrum of $M$ has size equal to $d-2$.",
+      "published": "2026-11-18",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.24128",
+      "url": "https://arxiv.org/abs/2611.24128",
+      "title": "Central limit theorem for linear eigenvalue statistics of random spatial networks",
+      "authors": [
+        "Christian Hirsch",
+        "Kyeongsik Nam",
+        "Moritz Otto",
+        "Anne Marie Svane"
+      ],
+      "abstract": "The random connection model provides a flexible framework for spatial networks in which connectivity is determined by both geometry and randomness. Its vertices form a Poisson point process, and pairs are connected independently, conditional on their positions, with distance-dependent probabilities. This generalizes the hard distance threshold of random geometric graphs and accommodates long-range connections. We also consider a weighted extension in which each vertex carries a positive random weight that influences its probability of connecting to other vertices. This combination of spatial structure and heterogeneous connectivity raises the question of whether spectral fluctuations exhibit Gaussian behavior on large scales. We address this question by studying linear eigenvalue statistics $\\operatorname{Tr}[f(A_n)]$ of the adjacency matrix $A_n$ of the random connection model in expanding windows $W_n$. For polynomial test functions, we establish a finite limit for the normalized variance and prove a central limit theorem under suitable connection-profile integrability and vertex mark moment assumptions. When the limiting variance is positive, the normalized statistics admit an $O(|W_n|^{-1/2})$ normal-approximation bound in both Wasserstein and Kolmogorov distance. Furthermore, under an exponential moment assumption on the vertex marks, we extend the central limit theorem to a general class of test functions $f$.",
+      "published": "2026-11-18",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2611.24322",
+      "url": "https://arxiv.org/abs/2611.24322",
+      "title": "Power projections, Gram structures, and finite-field lifting of Butson Hadamard matrices",
+      "authors": [
+        "Wojciech Bruzda",
+        "Domonkos Czifra",
+        "Ilona Nagy",
+        "Ferenc Szöllősi"
+      ],
+      "abstract": "In this paper we investigate the algebraic properties of Hadamard powers of Butson Hadamard matrices $H\\in \\mathrm{BH}(n,3p)$, and show that for certain parameter values the cube root projection matrix $H^{\\circ p}$ has the same structure as the adjacency matrix of a strongly regular graph. Then, by using a simple eigenvalue analysis we show, among other results, the nonexistence of $\\mathrm{BH}(17,15)$ matrices. For other parameter values, a more in-depth study and in particular, a complete classification of all possible projection matrices is necessary. We carry out this task for the case of $\\mathrm{BH}(16,15)$ matrices, and using finite field techniques we show that none of these projections can be lifted up to form a Butson matrix. In particular, we show the nonexistence of $\\mathrm{BH}(16,15)$ matrices for the first time.",
+      "published": "2026-11-18",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2611.24750",
+      "url": "https://arxiv.org/abs/2611.24750",
+      "title": "Counting $6$-Cliques in $O(n^{5.97})$ time and $O(\\log n)$ space",
+      "authors": [
+        "Afrouz Jabal Ameli",
+        "Niklas Mohrin",
+        "Jesper Nederlof"
+      ],
+      "abstract": "We present an algorithm that, given read-only access to the adjacency matrix of an $n$-vertex graph $G$, computes the number of $6$-cliques in $G$ using $O(n^{5.97})$ time and $O(\\log n)$ space. We achieve this by exploiting a decomposition of an equality indicator function underlying, among others, the refutations of the Exponential Time Hypothesis by OpenAI and Anthropic, and of the $k$-Clique Conjecture by Vassilevska Williams and Zamir [arXiv, 2026]. Via known reductions, this implies an $O(1.994^n)$ time and polynomial space algorithm for Max Cut on $n$-vertex graphs.",
+      "published": "2026-11-18",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2611.23877",
+      "url": "https://arxiv.org/abs/2611.23877",
+      "title": "Infinity-Wasserstein Distributionally Robust Principal Component Analysis: Exact Reformulation, Finite-Sample Guarantee, and Efficient Algorithm",
+      "authors": [
+        "Zhouxing Luo",
+        "Lei Wang",
+        "Xin Liu"
+      ],
+      "abstract": "Principal component analysis (PCA) is a fundamental and ubiquitous technique for dimension reduction and representation learning, yet its empirical formulation remains vulnerable to distributional uncertainty. While distributionally robust optimization (DRO) offers a natural remedy, existing order-2 Wasserstein models of PCA either preserve the nominal PCA subspace or lack an exact reformulation. This paper demonstrates how the infinity-Wasserstein distance can reconcile these two desirable properties. For the resulting DRO model of PCA, we derive an exact finite-dimensional reformulation and explicitly identify a worst-case distribution attaining the inner maximum. Crucially, the reformulated objective retains samplewise residual information beyond the empirical covariance matrix, revealing a mechanism through which distributional robustness can reshape the learned principal subspace. Under the mild assumption that the true distribution has a finite fourth moment, we further establish a uniform finite-sample performance guarantee for the proposed model. An iteratively reweighted majorization-minimization algorithm is also developed to solve the resulting nonconvex and nonsmooth optimization problem, with a rigorous analysis of its convergence properties. Numerical experiments substantiate the computational efficiency of the proposed algorithm and the practical effectiveness of the infinity-Wasserstein model in downstream applications.",
+      "published": "2026-11-18",
+      "categories": [
+        "math.OC",
+        "cs.LG",
+        "math.ST",
+        "stat.ME",
+        "stat.ML"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.23985",
+      "url": "https://arxiv.org/abs/2611.23985",
+      "title": "Berry Esseen bounds for fractional Vasicek type processes: continuous and high-frequency regimes",
+      "authors": [
+        "Soukaina Douissi"
+      ],
+      "abstract": "We study the estimation of the drift parameters $(a,b)$ of the fractional Vasicek process $dX_t=a(b-X_t)\\,dt+dB^H_t$, driven by a fractional Brownian motion of Hurst index $H\\in(0,1)$. The estimators are of moment type, built from the empirical mean and variance of the path, and are analysed in two regimes: continuous observation on $[0,T]$, and high-frequency observation at times $t_i=iΔ_n$ with $Δ_n\\to0$ and $T_n=nΔ_n\\to\\infty$. Using the Malliavin--Stein method on the second Wiener chaos, we prove consistency of both estimators for every $H$, and quantitative central limit theorems in the Wasserstein distance: for $H<\\frac34$ for the estimator of $a$, with explicit rates depending on $H$, and for every $H\\in(0,1)$ for the estimator of $b$, at the rate $T^{-H}$. In the discrete regime the bounds contain an additional discretization term of order $Δ_n^{\\min\\{H+1/2,\\,1\\}}$, and for $H<\\frac12$ the central limit theorem for the estimator of $b$ requires in addition $T_n^{1-2H}Δ_n^{1+2H}\\to0$. A short Monte Carlo study illustrates the results.",
+      "published": "2026-11-18",
+      "categories": [
+        "math.ST",
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
     {
       "id": "2611.23204",
       "url": "https://arxiv.org/abs/2611.23204",
@@ -23,6 +261,45 @@
         "graph curvature",
         "Ricci curvature",
         "Steinerberger curvature"
+      ]
+    },
+    {
+      "id": "2611.23462",
+      "url": "https://arxiv.org/abs/2611.23462",
+      "title": "Quantum Monge-Kantorovich optimal transport in spacetime through spatiotemporal Kirkwood-Dirac distributions and spatiotemporal states",
+      "authors": [
+        "Zhian Jia"
+      ],
+      "abstract": "Monge-Kantorovich optimal transport is a mathematical framework that determines the most efficient way to transform one probability distribution into another while minimizing a given cost function. Its central constructions include the Wasserstein distances, which quantify the space of probability distributions, and dual formulations that link to convex analysis. Its standard quantum generalization replaces probability distributions with density operators and cost function with positive semidefinite cost operator, which should be regarded as spatial quantum optimal transport. In this work, we propose the quantum optimal transport problem in spacetime through the spatiotemporal phase-space Kirkwood-Dirac quasiprobability distribution and spatiotemporal states and through spatiotemporal state. We show that the two formalisms are equivalent and related via spatiotemporal operator frames. In the Kirkwood-Dirac phase-space formalism, the spatiotemporal distribution and the cost function are complex-valued, and the spatiotemporal couplings are Kirkwood-Dirac quasiprobability distributions that yield the correct marginals for the local states. In the spatiotemporal state formalism, the cost operators are generally non-Hermitian, and the spatiotemporal couplings are generally non-Hermitian and yield the correct reduced local states. The Margenau-Hill phase-space distribution gives rise to a real-valued optimal transport in spatiotemporal phase space; in the spatiotemporal state formalism, this corresponds to a Hermitian spatiotemporal coupling state. We give a rigorous definitions and a careful discussion of its duality. We also introduce a spatiotemporal quantum Wasserstein metric based on a metric in spatiotemporal phase spaces and show that it satisfies the metric axioms.",
+      "published": "2026-11-17",
+      "categories": [
+        "quant-ph",
+        "hep-th",
+        "math-ph",
+        "math.FA",
+        "math.PR"
+      ],
+      "tags": [
+        "optimal transport",
+        "Wasserstein distance",
+        "Wasserstein metric"
+      ]
+    },
+    {
+      "id": "2611.23573",
+      "url": "https://arxiv.org/abs/2611.23573",
+      "title": "Spectral Stability and Convergence of the Unnormalized Graph Laplacian on Noisy Point Clouds",
+      "authors": [
+        "Daniel Ageev",
+        "Yariv Aizenbud"
+      ],
+      "abstract": "The first eigenvalues and eigenvectors of the unnormalized graph Laplacian of clean samples from a manifold, suitably scaled, approximate those of a weighted Laplace-Beltrami operator. However, the samples are usually observed with noise and therefore need not lie on the manifold. We build the clean and noisy graph Laplacians, with bandwidth $\\varepsilon$, on the clean samples and on the noisy observations, where the noise is arbitrary but bounded by $δ$. We show that, with high probability, the first eigenvalues and eigenvectors of the noisy graph Laplacian are close to those of the clean one: the eigenvalues within $O(δ/\\varepsilon)$, and the subspaces spanned by the first eigenvectors within $O(\\sqrt{δ/\\varepsilon})$, whether or not the eigenvalues are simple. Consequently, if $δ$ is small enough relative to $\\varepsilon$, the noisy graph Laplacian approximates the weighted Laplace-Beltrami operator at the same rate as the clean one. We also show that, for large noise, we can get the same rate as the clean graph Laplacian by first using a denoiser, and then building the graph Laplacian on the denoised observations.",
+      "published": "2026-11-17",
+      "categories": [
+        "math.ST"
+      ],
+      "tags": [
+        "graph Laplacian"
       ]
     },
     {
@@ -81,6 +358,41 @@
       ]
     },
     {
+      "id": "2611.23459",
+      "url": "https://arxiv.org/abs/2611.23459",
+      "title": "Wasserstein Target Diagram for Model Evaluation",
+      "authors": [
+        "Tiantian Yang",
+        "Dongwei Chen"
+      ],
+      "abstract": "The target diagram is often used in geosciences, which provides a visualization tool for model evaluation and shows the temporal or spatial matching of data. However, its construction requires paired data of equal sample sizes, limiting its application to model comparisons involving unpaired samples or probability distributions. In this study, we propose the Wasserstein target diagram based on the 2-Wasserstein distance from optimal transport. Unlike the original target diagram, the Wasserstein target diagram does not require paired data of equal sizes and evaluates models from the probability distribution perspective. We further establish that the two target diagrams coincide when the given paired data are comonotone, which is common in climate science, such as cumulative precipitation and solar radiation. Through two simulation studies and an application to wind speed distribution fitting, we demonstrate that the proposed diagram can detect the probability distribution discrepancies that the original target diagram may not distinguish. The Wasserstein target diagram therefore lifts the model evaluation to the probability level and provides a complementary approach to estimating the agreement in probability distributions.",
+      "published": "2026-11-17",
+      "categories": [
+        "stat.ME",
+        "math.PR"
+      ],
+      "tags": [
+        "optimal transport",
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.23540",
+      "url": "https://arxiv.org/abs/2611.23540",
+      "title": "Size-Independent Survival Bounds for Routing Without a Map",
+      "authors": [
+        "Krišjānis Petručeņa"
+      ],
+      "abstract": "A walker, such as a packet carrying a secret share, must reach a known target in an unknown graph while avoiding a fixed set of fatal vertices (compromised relays in the packet interpretation). It learns a vertex's neighbours only on reaching that vertex safely, remembers its observations, and is promised a safe route. We prove that a randomised depth-first strategy guarantees a success probability depending only on the maximum degree and the number of fatal vertices, not on the size of the graph. Planarity is not required for this guarantee, and planar examples attain the bound at every sufficiently large graph size. At those sizes, when the degree cap is at least three, the guarantee is optimal among strict depth-first strategies. Whether strategies allowed to switch between unfinished branches can guarantee a larger worst-case survival probability remains open. For unknown trees and for graphs of maximum degree two, we determine the exact best worst-case success probability over all routing strategies. Explicit examples compare our strategy with random-priority frontier routing and ordinary random walks, showing how exploration order can prevent survival probability from declining as the graph grows.",
+      "published": "2026-11-17",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
       "id": "2611.22607",
       "url": "https://arxiv.org/abs/2611.22607",
       "title": "DLS: Dual-Logic Graph Neural Networks with Chaos-Fuzzy Residuals for Robust Link Prediction",
@@ -111,6 +423,23 @@
         "math.AG",
         "math.CO",
         "math.RT"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.23624",
+      "url": "https://arxiv.org/abs/2611.23624",
+      "title": "Matroid Connectedness and Component Decomposition: Breaking the Quadratic Barrier",
+      "authors": [
+        "Manuel Aprile",
+        "Roberto Ronco"
+      ],
+      "abstract": "Deciding whether a matroid is connected and computing its connected components are two fundamental algorithmic problems in matroid theory. Since the 1970s, the best known algorithms for both problems have used $O(n^2)$ independence queries on an $n$-element ground set. Our main contribution is to break this quadratic barrier: we give a deterministic algorithm that computes all connected components of a matroid on $n$ elements with $O(n \\log{n})$ independence queries. Our algorithm for component decomposition combines fundamental basis exchanges with a disjoint-set union data structure, avoiding the explicit construction of the fundamental graph. Moreover, we show that our algorithm is asymptotically optimal by giving a lower bound based on a simple information-theoretic argument: any (deterministic or bounded-error randomized) algorithm to compute connected components needs $Ω(n \\log{n})$ independence queries. Then, we turn to the query complexity of deciding whether a matroid is connected. For this problem, we present an algorithm that uses $O(nh)$ independence queries, where $h \\ge 1$ bounds the size of any chain of nonempty proper cyclic flats. The algorithm achieves asymptotically optimal linear query complexity on elementary split matroids, that include all paving matroids, and on arbitrary direct sums of uniform matroids.",
+      "published": "2026-11-17",
+      "categories": [
+        "cs.DM"
       ],
       "tags": [
         "matroid"
