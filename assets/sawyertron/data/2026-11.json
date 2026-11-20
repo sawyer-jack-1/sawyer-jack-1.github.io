@@ -1,8 +1,171 @@
 {
   "month": "2026-11",
-  "generated_at": "2026-11-19T14:23:08+00:00",
+  "generated_at": "2026-11-20T14:22:54+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2611.26130",
+      "url": "https://arxiv.org/abs/2611.26130",
+      "title": "Maximum signless Laplacian spectral radius of graphs with given minimum degree and edge connectivity",
+      "authors": [
+        "Joyentanuj Das",
+        "Iswar Mahato"
+      ],
+      "abstract": "Let $G$ be a simple connected graph of order $n$ with minimum degree $δ$ and edge connectivity $k$. Recently, in [Linear Algebra Appl. 751 (2026) 318-330], Zhao, Ye, and Fan characterized the extremal graph with maximum signless Laplacian spectral radius among all graphs of order $n$ with minimum degree $δ$ and edge connectivity $k$ when $n \\geq δ^2+4δ+3$ and $k \\in \\{0,1,2\\}$, and proposed the corresponding problem for $3 \\leq k \\leq δ-1$. In this paper, we solve the problem for the entire range $0 \\leq k \\leq δ-1$ and completely remove the order restriction. Specifically, we prove that $$ q(G) \\leq q(B_{n,n-δ-1}^{k}), $$ with equality if and only if $G \\cong B_{n,n-δ-1}^{k}$, where $B_{n,n-δ-1}^{k}$ is the graph obtained from $K_{n-δ-1} \\cup K_{δ+1}$ by adding $k$ edges joining a single vertex of $K_{n-δ-1}$ to $k$ distinct vertices of $K_{δ+1}$.",
+      "published": "2026-11-19",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "signless Laplacian"
+      ]
+    },
+    {
+      "id": "2611.26499",
+      "url": "https://arxiv.org/abs/2611.26499",
+      "title": "The Rate of Convergence of Empirical $(p,q)$-Gromov-Wasserstein Distances",
+      "authors": [
+        "Pui Kuen Leung",
+        "Riku Okada",
+        "Samuel Lok-Hei Wong"
+      ],
+      "abstract": "We study empirical convergence rates for $(p,q)$-Gromov-Wasserstein (GW) distances $D_{p,q}$ for arbitrary real exponents $p>0$ and $q\\ge1$. Let $μ$ and $ν$ be probability measures on compact metric spaces $\\mathcal{X}$ and $\\mathcal{Y}$, and let $\\widehatμ_n$ and $\\widehatν_m$ be their empirical measures, constructed from independent i.i.d. samples of sizes $n$ and $m$. If the spaces $\\mathcal{X},\\,\\mathcal{Y}$ are compact subsets of the Euclidean spaces $\\mathbb{R}^{d_x}$ and $\\mathbb{R}^{d_y}$, respectively, we obtain an upper bound of order $(n\\wedge m)^{-(p\\wedge2)/((d_x\\wedge d_y)\\vee 2(p\\wedge2))}$ on the plug-in error of $D_{p,q}^p(\\widehatμ_n,\\widehatν_m)$ in expectation, up to a logarithmic factor at the critical dimension $d_x\\wedge d_y=2(p\\wedge2)$. On Euclidean balls, this rate is sharp up to the logarithmic factor. More generally, we show that the same upper bound holds when one space is a compact subset of a complete, connected $d$-dimensional Riemannian manifold and the other has polynomial covering numbers, with $d_x\\wedge d_y$ replaced by $d$. Earlier works on $(2,2)$-GW, $(2,1)$-GW and other even-order cases rely on variational representations of GW distances that are specific to their exponents. We instead reduce the plug-in error to an analysis of empirical processes through local duality, which may be of independent interest.",
+      "published": "2026-11-19",
+      "categories": [
+        "math.PR",
+        "math.ST"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.26053",
+      "url": "https://arxiv.org/abs/2611.26053",
+      "title": "Guided Cuckoo Filter: Full-Pipeline Insertion Optimization",
+      "authors": [
+        "Min Liu"
+      ],
+      "abstract": "Cuckoo filters are widely deployed as space-efficient alternatives to Bloom filters, supporting fast lookups, insertions, and deletions. However, their insertion cost grows steeply at high load factors because the standard insertion procedure is entirely unguided: it places each fingerprint into whichever candidate bucket happens to be tried first, and when both candidates are full, it displaces a random victim in a random walk. These blind random choices occur at two distinct stages of the insertion pipeline, the initial placement decision and the eviction victim selection, yet each stage can be independently replaced with a guided, informed decision. We propose the \\emph{Guided Cuckoo Filter}, which optimizes the entire insertion pipeline by steering both stages. At the placement stage, the filter compares the occupancy of both candidate buckets and inserts into the less loaded one, applying the power-of-two-choice principle to reduce how often eviction chains are triggered. At the eviction stage, the filter preferentially displaces the most recently inserted element, whose alternate bucket carries latent randomness that shortens the resulting chain. Because these two guided decisions target orthogonal bottlenecks, eviction frequency and eviction chain length, their benefits compose multiplicatively. Experiments on cuckoo filters with $2^{22}$ slots confirm that the fully guided insertion reduces per-insertion kicks by up to $3.1\\times$ at 96\\% load and cumulative total kicks by 63\\% at the practical capacity ceiling of 95\\% load, with negligible computational overhead.",
+      "published": "2026-11-19",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.26344",
+      "url": "https://arxiv.org/abs/2611.26344",
+      "title": "Analyticity of $\\operatorname{Sine}_β$ pair correlations",
+      "authors": [
+        "Yun Li",
+        "Yahui Qu",
+        "Benedek Valkó",
+        "Bálint Virág"
+      ],
+      "abstract": "We prove that the pair correlation function of $\\operatorname{Sine}_β$ extends holomorphically in $β$ to $\\Reβ>0$ at every fixed nonzero separation. Our proof combines a random walk representation of the stochastic sine phase moments, stretched-exponential Fourier decay obtained by coupling, and weighted energy estimates for complex $β$.",
+      "published": "2026-11-19",
+      "categories": [
+        "math.PR",
+        "math-ph"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.26429",
+      "url": "https://arxiv.org/abs/2611.26429",
+      "title": "Algebraic matroids with non-algebraic duals exist in any positive characteristic",
+      "authors": [
+        "Lukas Grund"
+      ],
+      "abstract": "We show that for every field $K$ of positive characteristic there exists an algebraic matroid $M$ over $K$ such that the dual matroid $M^*$ is not algebraic over any field. Our conceptual proof relies on the theory of matroids over one-dimensional algebraic groups. As an application, we deduce that the classes of supports of realizable volume polynomials and of realizable covolume polynomials differ in positive characteristic.",
+      "published": "2026-11-19",
+      "categories": [
+        "math.CO",
+        "math.AG"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.26602",
+      "url": "https://arxiv.org/abs/2611.26602",
+      "title": "An Efficient Algorithm for Matroid Cups",
+      "authors": [
+        "Stephen Arndt",
+        "Benjamin Moseley",
+        "Kirk Pruhs"
+      ],
+      "abstract": "We design a polynomial-time algorithm for matroid cups with $O(1)$ discrepancy. Our matroid cups algorithm design consists of a sequence of reductions to simpler instances, culminating in $O(n)$ instances of matroid cups where the matroid has rank 1.",
+      "published": "2026-11-19",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.26614",
+      "url": "https://arxiv.org/abs/2611.26614",
+      "title": "Additive Fréchet Regression for Random Objects",
+      "authors": [
+        "Changwon Choi",
+        "Wookyeong Song",
+        "Hans-Georg Müller",
+        "Byeong U. Park"
+      ],
+      "abstract": "Regression analysis for complex data taking values in a general metric space has gained increasing attention in recent years, particularly in the context of Fréchet regression with Euclidean predictors $\\mathbb{X} \\in \\mathbb{R}^{p}$. However, local Fréchet regression, while more flexible than global Fréchet regression, suffers from the curse of dimensionality for the case of multivariate predictors. To address this issue while maintaining model flexibility, we introduce a framework of additive structured nonparametric regression when responses are situated in a general metric space. Overcoming the challenge of the lack of vector space structure in general metric spaces where the responses reside requires a novel approach that incorporates the additive structure via projection operators. This leads to a unified framework of additive regression for a wide range of response types, including one-dimensional distributions in Wasserstein space, network data represented by graph Laplacians and spherical data equipped with geodesic distances, among others. We establish pointwise and uniform consistency, including convergence rates, for the proposed additive Fréchet regression estimators, using smooth backfitting. The practical utility of this additive model is demonstrated through applications to brain connectivity network analysis using resting-state fMRI data and distributional physical activity data.",
+      "published": "2026-11-19",
+      "categories": [
+        "stat.ME",
+        "math.ST"
+      ],
+      "tags": [
+        "graph Laplacian"
+      ]
+    },
+    {
+      "id": "2611.25784",
+      "url": "https://arxiv.org/abs/2611.25784",
+      "title": "Quantitative approximations for finite-state mean-field configuration models",
+      "authors": [
+        "Arnab Ganguly",
+        "Yangrui Xiang"
+      ],
+      "abstract": "We establish quantitative approximations for the empirical measures of finite-state mean-field particle systems in a general framework. The scales of the empirical drift and covariance distinguish the ODE and critical diffusion regimes and determine the corresponding time rescaling. In the ODE regime, we obtain quantitative central limit approximations in the $1$-Wasserstein distance and a Bernstein-type concentration inequality. The concentration bound has no dimensional prefactor. Its explicit time dependence also identifies growing intervals on which the ODE approximation remains accurate. In the critical regime, we prove a quantitative nonlinear diffusion approximation in the $1$-Wasserstein distance. We apply our quantitative approximation results to noisy voter systems, Moran models with mutations and selections, heat-bath Glauber dynamics for the $p$-spin Curie--Weiss model, and autocatalytic reactions with mutations.",
+      "published": "2026-11-19",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.25860",
+      "url": "https://arxiv.org/abs/2611.25860",
+      "title": "Neckpinches in a Positively Curved Market: Ricci Flow with Surgery on the Nikkei-225",
+      "authors": [
+        "Siddharta Laloux",
+        "Bhargavi Srinivasan"
+      ],
+      "abstract": "We study the intrinsic geometry of the Nikkei-225 through the discrete Ollivier-Ricci curvature (ORC) of its empirical correlation graph, using the graph Ricci flow and surgery methodology of arXiv:2510.15942. The 226-node correlation graph, built from daily returns between January 2020 and June 2026, is ORC-spherical: every edge has strictly positive curvature before any flow, close to the equal-weight value $κ\\approx0.502$. Under a fixed 20-iteration Ricci flow the curvature distribution polarises into a high-curvature bulk and a low-curvature minority, and cutting the low-curvature edges splits the graph into components of 184 and 42 nodes. The recursive ARCUS procedure (Adaptive Ricci Curvature Unsupervised Surgery) stops the flow at each node once a curvature gap ratio $G$ exceeds $G_{\\min}$ and the surgery set is stable. With $G_{\\min}=10$ and a minimum cluster size of 15, ARCUS performs 28 surgeries over 13 levels and ends in 29 terminal clusters of 2-14 nodes. The stopping rule fires at every node, with $G$ between 10.0 and 92.4, and the top-level split reproduces the fixed-schedule 184/42 partition exactly. Eight small subgraphs stop with $G<15$, so the deeper levels are conditional on $G_{\\min}$. Many terminal clusters are single industries by inspection, among them nine banks, five insurers, five general trading companies, three steelmakers and three shipping lines. Two delisted stocks without price data enter as zero-correlation placeholders; with them excluded, every terminal cluster is more strongly correlated internally than with the rest of the index.",
+      "published": "2026-11-19",
+      "categories": [
+        "q-fin.ST",
+        "cs.SI",
+        "physics.soc-ph"
+      ],
+      "tags": [
+        "Ricci curvature"
+      ]
+    },
     {
       "id": "2611.24132",
       "url": "https://arxiv.org/abs/2611.24132",
@@ -18,6 +181,28 @@
       "tags": [
         "random walk",
         "simple random walk"
+      ]
+    },
+    {
+      "id": "2611.25157",
+      "url": "https://arxiv.org/abs/2611.25157",
+      "title": "Optimal Robust Community Detection",
+      "authors": [
+        "Samuel B. Hopkins",
+        "Yiding Hua",
+        "Sidhanth Mohanty",
+        "Amit Rajaraman",
+        "David Steurer"
+      ],
+      "abstract": "We study community detection in the sparse two-community stochastic block model when an adversary may corrupt a small constant fraction of the edges of the observed graph. For every choice of parameters above the Kesten-Stigum threshold and every $\\varepsilon > 0$, we give a nearly-linear-time algorithm which estimates the communities with accuracy within $\\varepsilon$ of the information-theoretically optimal accuracy, while tolerating a small constant fraction of adversarially corrupted edges. Previously, efficient algorithms with optimal accuracy were known only in the absence of corruptions, while robust algorithms either achieved only weak recovery or approached optimal accuracy only in the limit of large signal-to-noise ratio. Our algorithm is simple: approximate the second eigenvector of the nonbacktracking matrix, using a semidefinite program to cope with the corruptions, and use it to initialize belief propagation. Along the way, we show that in the absence of corruptions, belief propagation initialized at this eigenvector achieves optimal accuracy, resolving an open problem of Zdeborová in the two-community case. The proof of this fact is short and independent of our robustness results--its key ingredient is a local characterization of the second eigenvector of the nonbacktracking matrix in terms of constant-depth nonbacktracking walks.",
+      "published": "2026-11-18",
+      "categories": [
+        "cs.DS",
+        "math.PR"
+      ],
+      "tags": [
+        "stochastic block model",
+        "community detection"
       ]
     },
     {
@@ -236,6 +421,25 @@
       "categories": [
         "math.ST",
         "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.25295",
+      "url": "https://arxiv.org/abs/2611.25295",
+      "title": "Kernel Regression using Persistence Diagrams",
+      "authors": [
+        "Saksham Aggarwal",
+        "James Nichols",
+        "Katharine Turner"
+      ],
+      "abstract": "Persistence diagrams are widely used in topological data analysis to summarize topological and geometric structure in data. We study nonparametric regression where inputs are persistence diagrams and outputs are real-valued. Using kernel-based local averaging estimators defined directly over diagram space with Wasserstein distance, we establish consistency and derive bounds on the rate of convergence under suitable assumptions in the $L^2$-theory. We also present computational experiments that demonstrate strong performance of the proposed estimator, particularly in low data regimes.",
+      "published": "2026-11-18",
+      "categories": [
+        "math.ST",
+        "math.AT"
       ],
       "tags": [
         "Wasserstein distance"
