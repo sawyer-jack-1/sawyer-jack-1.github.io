@@ -1,8 +1,141 @@
 {
   "month": "2026-11",
-  "generated_at": "2026-11-22T14:22:34+00:00",
+  "generated_at": "2026-11-23T14:25:48+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2611.27934",
+      "url": "https://arxiv.org/abs/2611.27934",
+      "title": "The Power of Sampling for Finding Far-Apart Bases in Matroids",
+      "authors": [
+        "Mayank Goswami",
+        "Vasilis Livanos",
+        "Pasin Manurangsi",
+        "Arturo Merino",
+        "GiBeom Park",
+        "Adarsh Srinivasan"
+      ],
+      "abstract": "We study the geometry of matroids via the \\emph{diameter} and \\emph{dispersion} of the metric space of their bases. Given a matroid $M$, we ask if the diameter of its basis-exchange graph $\\mathcal{G}(M)$ can be approximated by sampling two uniformly random bases. As our main result, we show that their expected distance is always at least $1/16$ of the diameter of $\\mathcal{G}(M)$. While this might appear to follow from the edge-expansion properties established by Anari, Liu, Gharan and Vinzant (STOC'19), we show that this inutition is false by constructing a graph $G$ with edge-expansion at least $1$ for which sampling two random vertices does \\emph{not} give a constant-factor approximation to its diameter. We turn to finding $k\\geq 2$ maximally-diverse bases of a matroid, the $k$ (max--min) diversity problem. When $k=2$, the problem is solvable via matroid intersection. However, for $k\\geq 3$ no polynomial-time approximation or hardness is known, even for diverse spanning trees. We show that sampling $k\\geq 3$ bases provides a tight $Θ(\\log k)$ approximation. We then combine structural insights about the local density of $\\mathcal{G}(M)$ with classical LP-rounding techniques to obtain a polynomial-time $1/6$-approximation algorithm for the $k$-diversity problem in arbitrary matroids, the first constant-factor polynomial-time approximation for max--min diversity on any matroid. A key ingredient for our result is the \\emph{Farthest Matroid Basis} problem: given a collection of bases, find a new basis as far as possible from all of them. We give a polynomial-time $1/3$-approximation algorithm for this, which is our main algorithmic primitive for $k$ max--min diversity. We also show it is $W[1]$-hard when parameterized by the optimal distance. We also improve the $1/6$-approximation for $k$-diversity, for partition matroids and graphic matroids of constant arboricity.",
+      "published": "2026-11-20",
+      "categories": [
+        "cs.DS",
+        "cs.DM",
+        "math.CO"
+      ],
+      "tags": [
+        "spanning tree",
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.27000",
+      "url": "https://arxiv.org/abs/2611.27000",
+      "title": "The Order of the Inertia Bound for Random Graphs",
+      "authors": [
+        "Zhengbo Chen",
+        "Xiao-Dong Zhang"
+      ],
+      "abstract": "For an $n$-vertex graph $G$, let $n_{\\geq0}(G)$ be the minimum number of nonnegative eigenvalues among zero-diagonal Hermitian matrices supported on $G$, allowing zero edge weights. For $n\\geq2$ and $G\\sim G(n,1/2)$, we prove $n_{\\geq0}(G)\\geq c_2n/\\log(2n)$ with probability at least $1-\\exp(-c_1n\\log(2n))$, where $c_1,c_2>0$ are absolute constants. This proves a Hermitian extension of the Kwan--Wigderson conjecture. With high probability, $n_{\\geq0}(G)=Θ(n/\\log n)$ and $n_{\\geq0} G)/α(G)=Θ(n/(\\log n)^2)$, where $α(G)$ is the independence number. Using Alon's constructions, we obtain, for every sufficiently large $n$, a $n$-vertex graph $G$ with $α(G)=2$ and $n_{\\geq0}(G)=Ω(n^{1/3})$. For infinitely many $n$, we also obtain $n$-vertex graphs $H$ with Shannon capacity $3$ and $n_{\\geq0}(H)=Ω(n^{1/4})$.",
+      "published": "2026-11-20",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "random graph"
+      ]
+    },
+    {
+      "id": "2611.27594",
+      "url": "https://arxiv.org/abs/2611.27594",
+      "title": "Energy-constrained Brownian motion",
+      "authors": [
+        "Oscar Randles",
+        "Andrew Wade"
+      ],
+      "abstract": "For reflected Brownian motion in an interval of length $N$, we consider the first time at which the length of time since the most recent visit to the boundary reaches $M$; this random `lifetime' comes from the interpretation in which the Brownian motion has a finite energy capacity $M$, uses energy at unit rate in the interior, and gets its energy replenished up to $M$ on every visit to the boundary. We prove distributional asymptotics for the lifetime in three different regimes depending on the relative growth of $N$ and $M$; these one-dimensional results parallel results in the random walk case by Wade and Grinfeld. We also present some initial results on the multidimensional version of the problem, for one scaling regime in the case of a ball, and conjectures on the behaviour in general domains.",
+      "published": "2026-11-20",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.27300",
+      "url": "https://arxiv.org/abs/2611.27300",
+      "title": "Symplectic Matroids, Stabilizer Codes, and Quantum Secret-Sharing",
+      "authors": [
+        "Sayantan Ganguly"
+      ],
+      "abstract": "An $\\mathbb{F}_q$-linear $[[n,k]]_q$ stabilizer code is represented by a totally isotropic subspace of $\\mathbb{F}_q^{2n}$ of dimension $n-k$, whose full-rank generator matrix has nonzero maximal minors on admissible column sets forming the bases of a representable symplectic matroid. Sarvepalli asked whether graphical symplectic matroids introduced by Chow give stabilizer codes with good parameters, when a Lagrangian matroid induces a quantum access structure, which code realizes it, and which polynomial carries the weight enumerator. We answer these questions. For a $3$-connected simple graph, every representation of a graphical symplectic matroid, over any field, gives a stabilizer code of distance exactly $2$, so the girth is not a lower bound. For a represented Lagrangian matroid and a dealer, we construct the dealer-shortened stabilizer code, its logical operators, an encoding isometry and explicit recovery maps, and we show that this is the code implemented by the stabilizer state through teleportation. A set of players recovers the secret, learns nothing, or learns part of it according to a rank formula on pairs of columns, which equals its mutual information with the dealer; for graph states it becomes a cut-rank condition. Over $\\F_2$ a symplectic matroid of any rank has only one representation, so the code, its access structure and its weight enumerators depend on the matroid alone; for $q\\ge3$ even the enumerator does not. Circuit-induced authorized sets always reconstruct when the matroid is self-dual, but not in general, and a six-qubit graph state shows that the two access structures can differ even then. Finally, a polynomial in the ranks of column pairs determines both weight enumerators.",
+      "published": "2026-11-20",
+      "categories": [
+        "quant-ph",
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.27937",
+      "url": "https://arxiv.org/abs/2611.27937",
+      "title": "Intervals of limit points for $B_α$-spectral radii",
+      "authors": [
+        "Francesco Belardo",
+        "Callum Huntington",
+        "Elismar R. Oliveira",
+        "Vilmar Trevisan"
+      ],
+      "abstract": "For a finite simple graph $G$, let \\[ B_α(G)=αA(G)+(1-α)L(G)=(1-α)D(G)+(2α-1)A(G),\\qquad 0\\leq α\\leq 1. \\] We study the limit points of the spectral radii of these matrices. Put $a_α=1-α$, $b_α=|2α-1|$, and $w_α=a_α+b_α$. We prove that, for every $α\\neq 1/2$ and every integer $d\\geq 3$, the interval \\[ \\left[a_αd+2b_α\\sqrt{d-1},\\,w_αd\\right] \\] consists entirely of $B_α$-limit points. All these points are realized by connected bipartite graphs of maximum degree at most $d$. We extend the induced-subgraph interpolation of Alon and Wei from $A$ to $aD+bA$, and obtain a unified proof using bipartite Ramanujan graphs. Consecutive intervals overlap for large $d$; hence the set of $B_α$-limit points contains a half-line for every $α\\neq 1/2$. At $α=1/2$, one has $B_{1/2}=D/2$, and the set of spectral radii is discrete. Combining uniform edge subdivisions with generalized Bethe decorations, we improve the Laplacian and signless Laplacian half-line to $[29/5,\\infty)$, verified by an exact rational certificate. We also treat two complementary tree constructions. For the starlike trees $T_{1,m,m}$, the limiting $B_α$-spectral radius is the unique solution above the path threshold of an explicit unsquared equation. More generally, letting selected arms of a starlike tree tend to infinity produces ordered limit points with tree realizations. Finally, we give the exact affine relations among $B_α$, the $A_β$-matrix, and the deformed Laplacian. These identify which tree and caterpillar results are reparametrizations of earlier work. The interval theorem also yields half-lines of $A_β$-limit points for every $0\\leβ<1$, and of deformed-Laplacian limit points for every nonzero deformation parameter.",
+      "published": "2026-11-20",
+      "categories": [
+        "math.CO",
+        "math.SP"
+      ],
+      "tags": [
+        "signless Laplacian"
+      ]
+    },
+    {
+      "id": "2611.27695",
+      "url": "https://arxiv.org/abs/2611.27695",
+      "title": "Small noise limit for Entropic Variational Mean-Field Games",
+      "authors": [
+        "Alessandro Cosenza",
+        "Luca Nenna"
+      ],
+      "abstract": "We study second order variational mean-field games with quadratic Hamiltonian. In analogy with entropic optimal transport, Benamou, Carlier, Di Marino and the second author recently proposed an entropy-minimization formulation of the problem, which could be interpreted as the Lagrangian counterpart of the classical Eulerian approach. We investigate the small-noise $Γ$-limit for the Lagrangian entropy-minimization formulation and establish $Γ$-convergence of second order mean-field games towards their deterministic first order counterpart. This also translates into another (dynamical) proof of the convergence of the Schrödinger problem to optimal transport. Moreover, we study the original Eulerian problem and prove a first order energy expansion, which establishes a selection principle for minimizers of the deterministic problem.",
+      "published": "2026-11-20",
+      "categories": [
+        "math.AP",
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2611.27790",
+      "url": "https://arxiv.org/abs/2611.27790",
+      "title": "$L^1$ stability of the entropy power inequality in $\\mathbb{R}^d$ without moment assumptions",
+      "authors": [
+        "Norman El Fartass",
+        "Lampros Gavalakis",
+        "Ioannis Kontoyiannis"
+      ],
+      "abstract": "We establish qualitative stability in $L^1$ and Ruzsa distance for Shannon's entropy power inequality in $\\mathbb{R}^d$, without any moment assumptions. The proof uses the optimal transport argument by Rioul (2017), majorization bounds of density rearrangements, and the stability of the sharp form of Young's inequality due to Christ (2019). Along the way we also extend recent one-dimensional results on de Bruijn's identity, the continuity of differential entropy, and the equality case of the entropy power inequality to random vectors of any dimension.",
+      "published": "2026-11-20",
+      "categories": [
+        "cs.IT",
+        "math.FA",
+        "math.PR"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
     {
       "id": "2611.26130",
       "url": "https://arxiv.org/abs/2611.26130",
@@ -37,6 +170,23 @@
       ],
       "tags": [
         "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.26781",
+      "url": "https://arxiv.org/abs/2611.26781",
+      "title": "Isolation in Random Graphs",
+      "authors": [
+        "Laurentiu Ploscaru"
+      ],
+      "abstract": "We study isolation in the binomial random graph $G(n,p)$. When $p=o(1)$ and $np\\to\\infty$, allowing an $F$-free graph on the undominated vertices gives the same first-order asymptotics for every fixed forest $F$ as the domination number $γ(G)$ in $G(n,p)$. For the ordinary isolation number $ι(G)$ ($F$ is an edge) we prove two-point concentration when $p$ is bounded away from $1$ and $np^2/(\\log n)^3\\to\\infty$. We also identify a transition in the gap $γ(G)-ι(G)$ when $\\log(1/p)=o(\\log n)$. This gap tends to infinity in probability when $p$ is well below $(\\log\\log n/\\log n)^2$ and is at most one with high probability when $p$ is well above this scale. Finally, for every fixed graph $F$, we show that the classical minimum degree bound for domination is asymptotically sharp for $F$-isolation, even for regular host graphs.",
+      "published": "2026-11-19",
+      "categories": [
+        "math.CO",
+        "math.PR"
+      ],
+      "tags": [
+        "random graph"
       ]
     },
     {
@@ -105,6 +255,27 @@
       "published": "2026-11-19",
       "categories": [
         "cs.DS"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.26846",
+      "url": "https://arxiv.org/abs/2611.26846",
+      "title": "Large 4-tangles in matroids are characterized by large internally 4-connected minors",
+      "authors": [
+        "Nick Brettell",
+        "Johannes Carmesin",
+        "Tony Huynh",
+        "Matthew E. Kroeker",
+        "Florian Lehner",
+        "Geoff Whittle"
+      ],
+      "abstract": "Tangles were first introduced by Robertson and Seymour as an abstract way of treating highly connected substructures in graphs and matroids. For any truly highly connected substructure in a graph or matroid, all of the low-order separations in the object can be oriented towards it. This gives rise to a tangle. A standard question is whether every tangle of a given order in fact arises from some concrete highly connected substructure, such as a minor. It is well known that tangles of order two and three (in both graphs and matroids) are characterized by maximal $2$-connected and $3$-connected minors, respectively. For tangles of order four, it is necessary to consider a weaker notion of connectivity. Carmesin and Kurkofka showed that, for graphs, internal $4$-connectedness suffices. For matroids, Brettell, Jowett, Oxley, Semple and Whittle showed that $4$-tangles arise from weakly $4$-connected minors, that is, minors in which every $3$-separation has a side with at most four elements. In the latter case, the breadth of the tangle (a measure of its complexity) can be preserved exactly, but the authors also asked whether a stronger notion of $4$-connectivity could be used while preserving some fraction of the breadth. In this paper, we answer this question in the affirmative by showing that, in a matroid, any $4$-tangle of sufficiently large breadth is determined by an internally $4$-connected minor whose unique $4$-tangle also has large breadth.",
+      "published": "2026-11-19",
+      "categories": [
+        "math.CO"
       ],
       "tags": [
         "matroid"
