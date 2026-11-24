@@ -1,8 +1,443 @@
 {
   "month": "2026-11",
-  "generated_at": "2026-11-23T14:25:48+00:00",
+  "generated_at": "2026-11-24T14:25:09+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2611.30619",
+      "url": "https://arxiv.org/abs/2611.30619",
+      "title": "The Hamilton cycle space in the Erdős--Rényi random graph process",
+      "authors": [
+        "Hao Zhang",
+        "Wensheng Sun",
+        "Panpan Cheng"
+      ],
+      "abstract": "Let $G(n,m)$ denote the graph at step $m$ of the Erdős--Rényi random graph process on $n$ vertices. The process starts with the edgeless graph and adds one edge at each step, chosen uniformly at random from the missing edges. Let $τ_3$ be the first step at which the minimum degree of $G(n,m)$ reaches three. We answer a question of Christoph, Nenadov and Petrova [J. Combin. Theory Ser. B 176 (2026) 254--267] by proving that, as $n$ tends to infinity through odd integers, with high probability the Hamilton cycles of $G(n,m)$ span its cycle space over $\\Ftwo$ simultaneously for all $m\\geτ_3$. On the same event, $G(n,m)$ is Hamilton-connected for every $m\\geτ_3$.",
+      "published": "2026-11-23",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "random graph",
+        "graph process"
+      ]
+    },
+    {
+      "id": "2611.30214",
+      "url": "https://arxiv.org/abs/2611.30214",
+      "title": "Support monotonicity for quadratically regularized optimal transport",
+      "authors": [
+        "Johannes Wiesel",
+        "Xingyu Xu"
+      ],
+      "abstract": "We study the support of the optimizer $π_\\varepsilon$ of the quadratically regularized optimal transport problem for quadratic cost and compactly supported marginals. As $\\varepsilon$ tends to zero, this support converges to the support of the Monge coupling. We investigate whether the regularized supports are nested as $\\varepsilon $ decreases. Under regularity assumptions on the marginal densities, their domains, and the Brenier map, we establish interior support inclusions in every dimension. More precisely, for each compact $K\\subset\\operatorname{int}X$ and fixed $θ\\in(0,1)$, we prove that $\\mathrm{spt}π_δ\\cap(K\\times Y) \\subseteq\\mathrm{spt}π_\\varepsilon\\cap(K\\times Y)$ whenever $0<δ\\leθ\\varepsilon $ and $\\varepsilon$ is sufficiently small. On these points, the rescaled density $\\varepsilon dπ_\\varepsilon/d(μ\\otimesν)$ is bounded below by a positive multiple of $\\varepsilon^{2/(d+2)}$. Our analysis combines sharp potential estimates with affine rescaling and a Liouville theorem that identifies the unique limiting density of the rescaled problem.",
+      "published": "2026-11-23",
+      "categories": [
+        "math.OC",
+        "math.AP",
+        "math.PR"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2611.30376",
+      "url": "https://arxiv.org/abs/2611.30376",
+      "title": "Low-Rank Tensor Representations for Efficient Multimarginal Optimal Transport",
+      "authors": [
+        "Johann Cl{é}ment-Cottuz",
+        "Gilles Gasso",
+        "Maxime Berar"
+      ],
+      "abstract": "Multimarginal Optimal Transport (MOT) suffers from exponential computational and memory costs in the number of marginals, as transport plans are represented by high-dimensional tensors. We introduce Low-Rank Multimarginal Optimal Transport (LRMOT), which restricts transport plans to tensors with bounded multilinear rank, providing a compact and structured representation of multimarginal couplings. This structure enables efficient algorithms with a low memory footprint. We establish approximation bounds for the resulting low-rank formulations and demonstrate experimentally that the proposed algorithms substantially reduce computational time while achieving solutions with low transport cost.",
+      "published": "2026-11-23",
+      "categories": [
+        "cs.LG",
+        "math.OC",
+        "stat.ML"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2611.29929",
+      "url": "https://arxiv.org/abs/2611.29929",
+      "title": "Local Limits and Structures of Nearest-Predecessor Random Graphs",
+      "authors": [
+        "Xiaoyao Huang"
+      ],
+      "abstract": "We study the two-sided nearest-predecessor graph on $[n]$, where vertices arrive in a uniformly random order and each new vertex connects to its nearest earlier vertex on each side. We construct an infinite graph on $\\mathbb{Z}$ from i.i.d. continuous insertion times and prove quenched Benjamini--Schramm convergence to it almost surely. The limit is almost surely one-ended and recurrent. We resolve an open problem of Ponomarenko by proving that the maximum degree is asymptotic in probability to $\\log n/\\log(3/2)$ as $n\\to\\infty$. We obtain the probability generating function and a CLT for the number of edges crossing the boundary of $[n]$ in the infinite limit. We also study the $K$-nearest-predecessor graph, in which each new vertex attaches to its $K$ nearest earlier vertices without regard to side. For every fixed $K\\geq1$, we construct the infinite limit, prove almost sure quenched Benjamini--Schramm convergence, and show that it is almost surely connected, one-ended, and recurrent, as well as nonplanar when $K\\geq2$.",
+      "published": "2026-11-23",
+      "categories": [
+        "math.PR",
+        "math.CO"
+      ],
+      "tags": [
+        "random graph"
+      ]
+    },
+    {
+      "id": "2611.30899",
+      "url": "https://arxiv.org/abs/2611.30899",
+      "title": "The number of non-isomorphic spanning trees in regular graphs",
+      "authors": [
+        "Csongor Beke"
+      ],
+      "abstract": "By a classical theorem of Otter, the number of non-isomorphic trees on $n$ vertices is $α^n\\exp(-o(n))$, where $α\\approx 2.956$ is Otter's constant. We prove that every connected $d$-regular graph $G$ on $n$ vertices contains $α^n\\exp(-o_d(n))$ non-isomorphic spanning trees, where $o_d(n)/n\\to0$ as $d\\to\\infty$.",
+      "published": "2026-11-23",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2611.31187",
+      "url": "https://arxiv.org/abs/2611.31187",
+      "title": "A Deterministic Linear Time Algorithm for Minimum Spanning Tree",
+      "authors": [
+        "Sanjeev Khanna",
+        "Aaron Putterman",
+        "Junkai Song"
+      ],
+      "abstract": "We show that there is a deterministic linear time algorithm for the minimum spanning tree problem, thereby settling this problem, and providing the first improvement since the work of Chazelle (JACM 2000). Our work proceeds by showing that the deterministic comparison complexity of the minimum spanning tree problem is linear, whereby a known reduction of Pettie and Ramachandran (JACM 2002) immediately implies a linear time algorithm.",
+      "published": "2026-11-23",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2611.29862",
+      "url": "https://arxiv.org/abs/2611.29862",
+      "title": "Exceptional Rays of Invariant Processes on Trees",
+      "authors": [
+        "Ori Gurel-Gurevich",
+        "Nitzan Hen"
+      ],
+      "abstract": "Let $A$ be an ergodic, non-constant random process on the $d$-regular tree $T_d$, with marginal distribution $X$. We prove that there always exist \"exceptional\" rays, whose asymptotic means are at least $\\mathbb{E}(X)+δ$; furthermore, for edge processes, $δ> 0$ can be taken to depend only on the law of $X$. We compare different definitions of \"maximal asymptotic means\", relating them to different notions of speed of tree-indexed random walks.",
+      "published": "2026-11-23",
+      "categories": [
+        "math.PR",
+        "math.DS"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.30115",
+      "url": "https://arxiv.org/abs/2611.30115",
+      "title": "Diffusivity and metric exponents for slightly supercritical percolation in high dimensions",
+      "authors": [
+        "Chenlin Gu",
+        "Tom Hutchcroft",
+        "Xiaoran Li"
+      ],
+      "abstract": "It is a classical fact that random walk on the infinite supercritical Bernoulli $p$-percolation cluster on $\\mathbb{Z}^{d}$ converges to Brownian motion with some diffusivity $σ(p)$, and that the graph metric on the infinite cluster has order $μ(p) \\|\\cdot\\|$ at large scales for some constant $μ(p)$ known as the time constant. We compute the near-critical asymptotics of the two quantities in high dimensions, showing that \\begin{align*} σ^2(p) \\asymp (p-p_c)^2 \\qquad \\text{ and } \\qquad μ(p) \\asymp \\frac{1}{\\sqrt{p-p_c}} \\end{align*} for all $p>p_c$. Our results concerning the diffusivity confirm a conjecture of Biskup (2011). We also compute the asymptotic critical probabilities of slabs in the same regime, showing that $p_c( \\mathbb{Z}^{d-1} \\times \\{0,\\ldots,n\\}) - p_c(\\mathbb{Z}^{d}) \\asymp n^{-2}$ as $n\\to \\infty$.",
+      "published": "2026-11-23",
+      "categories": [
+        "math.PR",
+        "math.MP"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.31180",
+      "url": "https://arxiv.org/abs/2611.31180",
+      "title": "Polynomial mixing for 2D Ising with plus boundary conditions",
+      "authors": [
+        "Shirshendu Ganguly",
+        "Reza Gheissari"
+      ],
+      "abstract": "We study the Glauber dynamics of the 2D Ising model at low temperatures. In the absence of boundary conditions, the mixing time on an $n\\times n$ box is exponential in $n$ due to a bottleneck between metastable plus and minus phases. When the symmetry is broken via all-plus boundary conditions, it has been predicted in the physics literature since work of Lifshitz (1962) that from an all-minus initialization, the minus droplet shrinks via mean-curvature flow on timescales that are quadratic in $n$, and thus, the system equilibrates in polynomial time. On the rigorous side, the strongest result was a quasi-polynomial mixing time upper bound due to Lubetzky, Martinelli, Sly and Toninelli (2013); a proof of polynomial mixing remained one of the major challenges in the field. We prove this polynomial mixing time bound at all low temperatures. The key step is to establish fast mixing of the interface separating the plus and minus phases on a box with Dobrushin boundary conditions. In simpler models of height functions, polynomial bounds tend to rely on exact harmonic properties and connections to a discrete heat equation. However, the Ising interface exhibits microscopic defects that necessitate the development of a more robust method. We address this via a new multiscale approach to bound mixing times of general disordered random-walk bridges that homogenize to a Brownian bridge at mesoscopic scales. Another notable ingredient is a novel application of censoring to reduce the mixing time problem to proving only a weak Poincaré inequality, or warm-start mixing bound, allowing us to assume suitable regularity conditions on the interface and bubbles.",
+      "published": "2026-11-23",
+      "categories": [
+        "math.PR",
+        "math.MP"
+      ],
+      "tags": [
+        "mixing time"
+      ]
+    },
+    {
+      "id": "2611.29952",
+      "url": "https://arxiv.org/abs/2611.29952",
+      "title": "Constrained Online Selection with Predictions: Matroid Secretary, Knapsack, and Matching",
+      "authors": [
+        "Hedyeh Beyhaghi",
+        "Tao Zixu He",
+        "Cameron Musco"
+      ],
+      "abstract": "We study learning-augmented algorithms for constrained online selection problems, including the secretary problem under matroid and knapsack constraints, and the edge-weighted online bipartite matching problem with random vertex arrivals. In each, items arrive in a uniformly random order, and their values are revealed only on arrival. The goal is to select a set of items with nearly maximum total value, subject to the constraints (matroid, knapsack, or matching). In the learning-augmented setting, item value predictions are given in advance. We seek algorithms that are both consistent, in that accurate predictions lead to near-optimal selection, and robust, in that they obtain strong worst-case bounds even when predictions are inaccurate. Building on work of Fujii and Yoshida (2024) on the learning-augmented secretary problem, we study a method that follows the predicted optimum until an item with a large enough prediction error is observed. At that point, it reverts to running a worst-case competitive algorithm. We make a simple but critical modification: the first item with a large prediction error is selected with a carefully chosen probability. With this modification, we prove a general result, showing that if the underlying worst-case algorithm is $α$-competitive for $α\\in(0,1]$, this approach achieves competitive ratio $\\max\\{\\fracα{2(1+α)},\\frac{1-ε}{1+ε}\\}$, where $ε$ is the maximum relative error of any prediction. That is, the algorithm is perfectly consistent, achieving competitive ratio $1$ as $ε\\to 0$, and robust up to a constant factor relative to the worst-case baseline. For all three problems we study, $α= 1/e$, and our result is the first to achieve consistency and constant-factor robustness. We hope that our general analysis framework can be applied to other learning-augmented online decision-making problems.",
+      "published": "2026-11-23",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.30933",
+      "url": "https://arxiv.org/abs/2611.30933",
+      "title": "Optimal Matroid Prophets against Almighty Adversaries and Delegation",
+      "authors": [
+        "Hamed Abdi",
+        "Kiarash Banihashem",
+        "MohammadTaghi Hajiaghayi",
+        "Danny Mittal"
+      ],
+      "abstract": "We prove an optimal one-half matroid prophet inequality against an almighty ordering adversary: the adversary observes every realized value before choosing the arrival order, whereas the algorithm sees values only as they arrive and must accept irrevocably. The algorithm is deterministic, and its guarantee holds against the stronger ex-ante relaxation. Before any values are revealed, it partitions the ground set, replaces the matroid by a stricter direct sum of minors, and fixes one threshold for each part. It then accepts greedily subject to these fixed tests. The main lemma bounds the expected value of the least valuable basis of the eligible elements. An element contributes either through the rank spanned by eligible elements or through excess value that every eligible basis must retain. This bound holds simultaneously for all bases and therefore permits the arrival order to depend on the entire realization. The same construction gives a deterministic, agent-oblivious mechanism for (possibly correlated) matroid delegation, improving the $1/4$ guarantee to the optimal $1/2$ factor. The principal values are independent, while the strictly positive agent utilities may have arbitrary dependence on the principal values and on one another. The guarantee holds for every best response, including ties resolved against the principal. Both factors are tight already in rank one. For rational finite-support distributions, preprocessing takes polynomial time; each eligible online arrival requires at most one query to the original matroid's independence oracle.",
+      "published": "2026-11-23",
+      "categories": [
+        "cs.DS",
+        "cs.GT"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.31121",
+      "url": "https://arxiv.org/abs/2611.31121",
+      "title": "A Characterization of Tangle Matroids",
+      "authors": [
+        "Dennis Hall"
+      ],
+      "abstract": "We prove that a matroid with at least two elements is a tangle matroid if and only if it cannot be covered by three hyperplanes. Some consequences of this theorem are also noted. In particular, no binary matroid of rank at least two is a tangle matroid.",
+      "published": "2026-11-23",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.30984",
+      "url": "https://arxiv.org/abs/2611.30984",
+      "title": "Convergence of potential-preserving annealed Sinkhorn algorithm",
+      "authors": [
+        "Dawid Lipinski",
+        "Maciej Buze"
+      ],
+      "abstract": "The annealed Sinkhorn algorithm is an iterative method for approximating solutions of optimal transport problems, in which the entropic regularisation parameter is progressively decreased. As this parameter decreases, one may preserve either the multiplicative scaling factors or the corresponding dual potentials. We study the potential-preserving iterates under positive, non-increasing regularisation schedules tending to zero. We prove that, if the schedule is non-summable, the iterates admit a subsequence converging to a solution of the corresponding optimal transport problem. The non-summability condition is sharp, as for every summable schedule in this class we construct an example in which the iterates converge to a plan violating the prescribed source marginal. We further establish convergence of the entire sequence if the relative inverse-temperature increments are also square-summable, and show by example that non-summability alone does not guarantee full convergence. Our convergence conditions are satisfied by linear inverse-temperature schedules, under which recent work has shown that the scaling-preserving iterates fail to converge to a solution of the optimal transport problem. We also derive convergence rates for polynomial inverse-temperature schedules up to and including linear growth, extending the marginal KL bound obtained by mirror-descent analysis at fixed temperature. Our best rate for the transport cost gap after rounding improves on that established for scaling-preserving annealing. Simple numerical illustrations accompany these convergence results.",
+      "published": "2026-11-23",
+      "categories": [
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2611.31241",
+      "url": "https://arxiv.org/abs/2611.31241",
+      "title": "A Boundary Comparison Method for Gaussian Fluctuations in Planar Euclidean Optimization",
+      "authors": [
+        "Zi-Yao Su"
+      ],
+      "abstract": "We develop a boundary comparison method for Gaussian fluctuations of optimization costs on planar random points, including traveling-salesman length, minimum perfect-matching length, and the Held--Karp relaxation. A local change can alter an optimal solution far from the modified points, making a direct decomposition into local contributions difficult. Our criterion requires the difference between the changes in the full and local costs caused by the same replacement to be controlled at the boundary scale, allowing a smaller-order $L^2$ excess. Under this condition, the centered difference between the total cost and the sum of independent cell costs vanishes in $L^2$. The multiscale argument shows that a nonvanishing variance of the cutting error would produce Gaussian tails incompatible with the boundary control. We obtain joint Gaussian limits for the three centered costs, using a conditional version for matching, and prove that the limiting covariance is positive definite in the Euclidean case. Convergence holds in quadratic Wasserstein distance for Poisson and fixed sample sizes. The results extend jointly to finitely many planar norms and to fixed sampling laws whose absolutely continuous component has a density positive almost everywhere on the square, with an arbitrary singular component.",
+      "published": "2026-11-23",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.29342",
+      "url": "https://arxiv.org/abs/2611.29342",
+      "title": "Community Detection in Fuzzy Social Networks through Fuzzy Co-Membership Relations over Alpha-Cut Realizations",
+      "authors": [
+        "Annamaria Porreca",
+        "Fabrizio Maturo"
+      ],
+      "abstract": "In fuzzy social networks the ties between actors are triangular fuzzy numbers, and community detection applied to their cores ignores how the partition depends on their vagueness. We propose a fuzzy co-membership relation obtained by running the Louvain algorithm on crisp networks compatible with the alpha-cuts of the ties and integrating the proportions of co-assignment over alpha. The relation is positive semidefinite; from it we derive a consensus partition, the number of groups, membership degrees and an assignment ambiguity index. In simulations from stochastic block models the relation does not yield better partitions than symmetric perturbations of the cores of the same size. Its ambiguity index is more closely associated with the structural position of the actors and identifies actors split between two groups when the vagueness is concentrated on them; when the asymmetry of the fuzzy ties points towards the latent tie strength, its co-membership degrees have a lower Brier score. The interval-weighted Louvain algorithm estimates the number of communities more accurately. In two departmental collaboration networks the observed ambiguity is lower than under permuted ratings, while the partitions depend on the symmetrization of directed ratings and on the coding of non-response.",
+      "published": "2026-11-22",
+      "categories": [
+        "cs.SI",
+        "stat.CO",
+        "stat.ME"
+      ],
+      "tags": [
+        "stochastic block model",
+        "community detection"
+      ]
+    },
+    {
+      "id": "2611.29602",
+      "url": "https://arxiv.org/abs/2611.29602",
+      "title": "Mixing time and logarithmic Sobolev inequalities for the torus shuffle",
+      "authors": [
+        "Chen Shang"
+      ],
+      "abstract": "The torus shuffle acts on an $n\\times n$ board of $n^2$ cards: each step chooses a row or a column uniformly at random and rotates it cyclically by one unit in a uniformly chosen direction. We prove that the half-lazy version of this chain has total variation mixing time of order $n^3\\log n$ and logarithmic Sobolev constant of order $n^{-3}$ on each communicating class. The order of the mixing time is the one conjectured by Diaconis. The proof of the upper bound has two steps. First, the entropy of a function on the board is at most a constant times $n$ times its mean loss when a single row or column is completely rearranged. Second, this mean loss is at most a constant times $n^2$ times the Dirichlet form of the shuffle. The second step bisects each line recursively and charges the cost of a column rotation only to the intervals that contain the column, so that the costs over all scales add up without a logarithmic factor. A Fourier observable gives the matching lower bound on the mixing time.",
+      "published": "2026-11-22",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "mixing time"
+      ]
+    },
+    {
+      "id": "2611.29655",
+      "url": "https://arxiv.org/abs/2611.29655",
+      "title": "Directed Hypergraphs: Tensor Representation, Embedding Modeling, and Community Detection",
+      "authors": [
+        "Guojun Zhu",
+        "Haofei Wang",
+        "Mingyang Ren"
+      ],
+      "abstract": "Directed hypergraphs, in which each hyperedge connects a set of tail nodes to a set of head nodes, are the natural representation for many-to-many interactions in citation networks, metabolic pathways, and group communications. Despite their broad applicability, community detection for directed hypergraphs remains statistically underdeveloped: most existing methods either collapse hyperedges into pairwise edges, treat the two sides as interchangeable, or require the number of communities to be known. We propose a statistical framework for simultaneous embedding and community detection in nonuniform directed hypergraphs. The method allows each node to have distinct roles as a source and as a target, accommodates varying hyperedge sizes, and automatically determines the unknown numbers of communities on both sides, which need not be equal, through a fusion-penalized likelihood. We establish consistency of the estimated numbers of communities, exact recovery of both membership structures, and consistent probability tensor estimation. We further show that exact recovery is attainable without knowing the numbers of communities by a procedure that does not rely on any particular local solution, and we complement the upper bounds with a minimax lower bound for probability tensor estimation and a necessary condition for exact recovery. To ground the methodology, we construct the Cross-Statistics Citation Network, a new large-scale corpus linking Statistics with Biology, Computer Science, and Economics. Applying our method to this corpus reveals source and target roles of author communities in cross-field knowledge flow, and a pairwise representation of the same citations partly merges these roles.",
+      "published": "2026-11-22",
+      "categories": [
+        "stat.ME",
+        "math.ST",
+        "stat.TH",
+        "stat.AP"
+      ],
+      "tags": [
+        "community detection"
+      ]
+    },
+    {
+      "id": "2611.29186",
+      "url": "https://arxiv.org/abs/2611.29186",
+      "title": "The broken-sample problem revisited II: Detecting hidden linear dependencies",
+      "authors": [
+        "Shuyang Gong",
+        "Yihong Wu",
+        "Jiaming Xu"
+      ],
+      "abstract": "We study the detection problem for shuffled linear regression, in which the covariates and the responses are either independent or linearly related through a latent correspondence. Consider independent standard Gaussian covariates \\(X_1,\\ldots,X_n\\in\\mathbb R^d\\) and scalar responses \\(Y_1,\\ldots,Y_n\\). In a shuffled linear model, \\(Y_i=\\langle X_{π_*(i)},β_*\\rangle+σZ_i\\), where both the permutation \\(π_*\\) and the regression coefficient $β_*$ are latent and $Z_i$'s are white Gaussian noise. The goal is to distinguish this model from one in which the covariates and responses are independent with the same marginal distribution. In the low-dimensional regime of $d \\ll \\frac{\\log n}{\\log\\log n}$, we show that the detection threshold is given by $σ=o(1)$ for fixed $d$ and $σ^2 = Θ(\\frac{1}{d\\log d})$ for growing $d$; both thresholds are achieved in nearly linear time using moment-based test statistics inspired by matched filters in signal processing. For higher dimensions, tests based on sliced Wasserstein distance succeed when $σ^2 = o(\\frac{1}{(d\\log d)^2})$, while the optimal threshold remains open. As a by-product, we show that the shuffled linear model exhibits an ``all-or-nothing'' phase transition for estimating $β_*$ at $σ^2\\asymp \\frac{1}{d\\log d}$ in low dimensions. In particular, $β_*$ can be consistently estimated in nearly linear time, even when it is information-theoretically impossible to recover any positive fraction of the latent matching $π^*$.",
+      "published": "2026-11-22",
+      "categories": [
+        "math.ST",
+        "stat.TH",
+        "cs.IT",
+        "math.IT",
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.28893",
+      "url": "https://arxiv.org/abs/2611.28893",
+      "title": "Mean First Passage Times for Loop-Erased Random Walks and Erased-Loop Size Distributions on Graphs",
+      "authors": [
+        "Komlan Fiagbe",
+        "Jean-François de Kemmeter",
+        "Timoteo Carletti"
+      ],
+      "abstract": "Loop-erased random walks provide a natural way to extract self-avoiding trajectories from ordinary random walks by chronologically removing loops. They are deeply connected with uniform spanning trees: the loop-erased path between two vertices has the same distribution law as the unique path connecting these vertices in a random spanning tree. In this work, we use this connection as a computational framework for finite graphs. First, using the classical transfer-current theorem, we obtain an explicit formula for the mean first passage time of loop-erased random walks. The resulting expression returns the expected length of the loop-erased path as a weighted sum over simple paths, where the weights are exact determinantal probabilities obtained from the spanning-tree kernel. Second, we express the distribution of erased loop sizes in the same framework. This distribution measures the scale of the redundant excursions removed during loop erasure and provides information that is complementary to effective path length. The approach is applied to arbitrary finite graphs and then specialized to complete graphs, cycle graphs, and motif-based networks, where explicit formulas and asymptotic behaviors are obtained. Numerical experiments show strong agreement between the theoretical predictions and Monte Carlo simulations. The results provide a unified method for quantifying both the effective paths kept by loop erasure and the loops removed during random exploration of networks.",
+      "published": "2026-11-21",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2611.28984",
+      "url": "https://arxiv.org/abs/2611.28984",
+      "title": "Perfect state transfer on trees in the normalized Laplacian quantum walk",
+      "authors": [
+        "Laureline Polli"
+      ],
+      "abstract": "We prove that, in the normalized-Laplacian model, perfect state transfer between two vertices of a tree can only happen if they are at distance at most $2$. We show that a conjecture of Coutinho and Baptista, stating that the only trees admitting perfect state transfer are $K_2$ and $P_3$, is true when the two vertices are at odd distance. We then construct infinite families of trees admitting perfect state transfer, disproving their conjecture in the general case.",
+      "published": "2026-11-21",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "normalized Laplacian"
+      ]
+    },
+    {
+      "id": "2611.28468",
+      "url": "https://arxiv.org/abs/2611.28468",
+      "title": "Limit distributions and bootstrap for smooth adapted Wasserstein distances",
+      "authors": [
+        "Xiaozhen Wang"
+      ],
+      "abstract": "In this paper, we provide limit theorems for the Gaussian-smoothed adapted Wasserstein distances. Let $\\widehatμ_n$ be the empirical measure of independent paths with law $μ$ on $(\\mathbb{R}^d)^T$. Let $P = μ* γ_σ$ and $P_n = \\widehatμ_n * γ_σ$, where $γ_σ= N(0,σ^2 I_{dT})$ is a Gaussian measure with mean zero and covariance matrix $σ^2 I_{dT}$. We first assume that $μ$ is compactly supported. For every $1 < p < \\infty$ and fixed $d, T$, and $σ> 0$, we show that $\\sqrt{n}\\,\\mathrm{AW}_p(P_n,P) \\Rightarrow Q_{P,p}(G)^{1/p}$, where $G$ is the Gaussian limit of the density fluctuation and $Q_{P,p}$ is the minimum adapted $p$-energy for the linearized continuity equation. We prove full-path bootstrap consistency and the convergence of the first and $p$-th moments. The limit and the bootstrap hold for noncompact laws as well, for all $1 < p < \\infty$ under appropriate tail and structural conditions. For two-sided bounded density perturbations of strongly log-concave laws, the bandwidth is not restricted for $1 < p \\le 2$. For $p > 2$, we give sufficient tail conditions and provide a Gaussian counterexample where root-$n$ tightness fails for small bandwidths. Our proof is based on a two-endpoint local expansion of bicausal transport. As an application, we provide asymptotic error bounds for optimal stopping values under the smoothed model using the bootstrap quantiles.",
+      "published": "2026-11-21",
+      "categories": [
+        "math.PR",
+        "math.ST",
+        "stat.TH",
+        "q-fin.MF"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.29080",
+      "url": "https://arxiv.org/abs/2611.29080",
+      "title": "The dimension of optimal plans in multi-marginal optimal transport",
+      "authors": [
+        "Camilla Brizzi",
+        "Gero Friesecke"
+      ],
+      "abstract": "For general cost functions, we determine the maximal dimension on which solutions to the multi-marginal optimal transport problem with absolutely continuous marginals are concentrated. The dimension is obtained via a novel characteristic integer associated with the Hessian of the cost function. Applications are given to important examples of multi-marginal problems like Wasserstein barycenters, Wasserstein cubic splines and Brenier's generalized Euler equations.",
+      "published": "2026-11-21",
+      "categories": [
+        "math.OC",
+        "math.AP"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2611.28938",
+      "url": "https://arxiv.org/abs/2611.28938",
+      "title": "Independent and end-faithful spanning trees in infinite graphs",
+      "authors": [
+        "Rodrigo Santos Monteiro"
+      ],
+      "abstract": "Spanning trees rooted at the same vertex are independent if, for each vertex other than the root, the paths from the root to that vertex are pairwise distinct and internally vertex-disjoint. Zehavi and Itai conjectured that, for every positive integer $k$, every finite $k$-connected graph has $k$ independent spanning trees rooted at any prescribed vertex. We show that every $2$-connected graph, finite or infinite, has two independent spanning trees rooted at any prescribed vertex. For locally finite $2$-connected graphs, both trees can be chosen end-faithful. We also prove that every locally finite $3$-connected chordal graph has three independent end-faithful spanning trees. Counterexamples show that local finiteness is essential for the version with independent end-faithful spanning trees. We further show that every $3$-connected graph with a universal vertex or a finite vertex cover has three independent spanning trees rooted at any prescribed vertex.",
+      "published": "2026-11-21",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "spanning tree"
+      ]
+    },
+    {
+      "id": "2611.29031",
+      "url": "https://arxiv.org/abs/2611.29031",
+      "title": "Parallel batch scheduling for optimizing hospital sterilization operations: arc-flow formulations, column generation and Lagrangian heuristics for flowtime minimization",
+      "authors": [
+        "Alessandro Druetto",
+        "Andrea Grosso"
+      ],
+      "abstract": "In a recent work by Schlembach et al., the problem of optimally managing sterilization operations in hospitals has been modeled as a machine scheduling problem with parallel batch processing and minimum flowtime objective, and heuristically solved by column generation. We draw upon this approach, developing arc-flow formulations and related column-generation procedures, using an exact dynamic programming algorithm to solve the pricing problems. We further derive Lagrangian relaxations based on minimum cost flows and shortest paths, with subgradient optimization and the volume algorithm guiding batch generation. A makespan bound for schedules minimizing total flow time provides a finite horizon when no operational limit is known. Computational experiments on literature benchmarks and more challenging generated instances demonstrate the effectiveness of the proposed approaches. The arc-flow model solves all literature benchmark instances to proven optimality within seconds, while the Lagrangian heuristics deliver high-quality schedules with substantially reduced computational effort.",
+      "published": "2026-11-21",
+      "categories": [
+        "math.OC"
+      ],
+      "tags": [
+        "minimum cost flow"
+      ]
+    },
     {
       "id": "2611.27934",
       "url": "https://arxiv.org/abs/2611.27934",
@@ -45,6 +480,26 @@
       ]
     },
     {
+      "id": "2611.28307",
+      "url": "https://arxiv.org/abs/2611.28307",
+      "title": "Cliques, Quasi-Cliques, and Bicliques in Random Graphs: Sampling and Algorithms",
+      "authors": [
+        "Thanh Le",
+        "A. Pavan",
+        "Xavier Pérez-Giménez",
+        "N. V. Vinodchandran"
+      ],
+      "abstract": "We study the algorithmic problem of finding dense subgraphs - cliques, quasi-cliques, and bicliques - in Erdős-Rényi random graphs. While the extremal structure of cliques in $G(n,1/2)$ is well understood, efficiently locating large cliques remains a central algorithmic challenge. We introduce a new perspective on this problem: the classical Grimmett-McDiarmid greedy algorithm implicitly defines a near-uniform sampler over cliques of size $(1-o(1))\\log n$. Building on this observation, we develop a sampling-based framework for finding larger cliques. In particular, for every $η>0$, we give an algorithm that finds a clique of size $(1+η)\\log n$ in time $n^{(η^2/2+o(1))\\log n}$ - the first smooth trade-off between clique size and running time in this regime, improving on the previously best-known running time of $n^{(1/2+o(1))\\log n}$. We further show that improved sampling algorithms for cliques of size $(1+η)\\log n$ translate into faster algorithms for finding a maximum clique. Beyond cliques, we give a deterministic algorithm that enumerates all maximum $γ$-quasi-cliques in $G(n,p)$ in time matching their count up to lower-order factors, and extend this to random bipartite graphs $G(n,n,p)$, establishing new concentration bounds for quasi-bicliques together with analogous enumeration algorithms. Finally, we study unbalanced bicliques in $G(n,n,p)$. For each $s \\in [n]$, we obtain a concentration bound on the largest $t = t_{\\max}(s)$ for which an $(s,t)$-biclique exists, and show that when $s = ω(\\log n)$, a simple greedy algorithm finds an $(s,(1-o(1))t_{\\max}(s))$-biclique in linear time with high probability - demonstrating that greedy is near-optimal in this regime.",
+      "published": "2026-11-20",
+      "categories": [
+        "cs.DS",
+        "cs.DM"
+      ],
+      "tags": [
+        "random graph"
+      ]
+    },
+    {
       "id": "2611.27594",
       "url": "https://arxiv.org/abs/2611.27594",
       "title": "Energy-constrained Brownian motion",
@@ -71,7 +526,6 @@
       "abstract": "An $\\mathbb{F}_q$-linear $[[n,k]]_q$ stabilizer code is represented by a totally isotropic subspace of $\\mathbb{F}_q^{2n}$ of dimension $n-k$, whose full-rank generator matrix has nonzero maximal minors on admissible column sets forming the bases of a representable symplectic matroid. Sarvepalli asked whether graphical symplectic matroids introduced by Chow give stabilizer codes with good parameters, when a Lagrangian matroid induces a quantum access structure, which code realizes it, and which polynomial carries the weight enumerator. We answer these questions. For a $3$-connected simple graph, every representation of a graphical symplectic matroid, over any field, gives a stabilizer code of distance exactly $2$, so the girth is not a lower bound. For a represented Lagrangian matroid and a dealer, we construct the dealer-shortened stabilizer code, its logical operators, an encoding isometry and explicit recovery maps, and we show that this is the code implemented by the stabilizer state through teleportation. A set of players recovers the secret, learns nothing, or learns part of it according to a rank formula on pairs of columns, which equals its mutual information with the dealer; for graph states it becomes a cut-rank condition. Over $\\F_2$ a symplectic matroid of any rank has only one representation, so the code, its access structure and its weight enumerators depend on the matroid alone; for $q\\ge3$ even the enumerator does not. Circuit-induced authorized sets always reconstruct when the matroid is self-dual, but not in general, and a six-qubit graph state shows that the two access structures can differ even then. Finally, a polynomial in the ranks of column pairs determines both weight enumerators.",
       "published": "2026-11-20",
       "categories": [
-        "quant-ph",
         "math.CO"
       ],
       "tags": [
@@ -129,6 +583,7 @@
       "published": "2026-11-20",
       "categories": [
         "cs.IT",
+        "math.IT",
         "math.FA",
         "math.PR"
       ],
@@ -166,7 +621,8 @@
       "published": "2026-11-19",
       "categories": [
         "math.PR",
-        "math.ST"
+        "math.ST",
+        "stat.TH"
       ],
       "tags": [
         "Wasserstein distance"
@@ -219,7 +675,7 @@
       "published": "2026-11-19",
       "categories": [
         "math.PR",
-        "math-ph"
+        "math.MP"
       ],
       "tags": [
         "random walk"
@@ -295,7 +751,8 @@
       "published": "2026-11-19",
       "categories": [
         "stat.ME",
-        "math.ST"
+        "math.ST",
+        "stat.TH"
       ],
       "tags": [
         "graph Laplacian"
@@ -573,6 +1030,7 @@
         "math.OC",
         "cs.LG",
         "math.ST",
+        "stat.TH",
         "stat.ME",
         "stat.ML"
       ],
@@ -591,6 +1049,7 @@
       "published": "2026-11-18",
       "categories": [
         "math.ST",
+        "stat.TH",
         "math.PR"
       ],
       "tags": [
@@ -610,6 +1069,7 @@
       "published": "2026-11-18",
       "categories": [
         "math.ST",
+        "stat.TH",
         "math.AT"
       ],
       "tags": [
