@@ -1,8 +1,249 @@
 {
   "month": "2026-11",
-  "generated_at": "2026-11-24T14:25:09+00:00",
+  "generated_at": "2026-11-25T14:24:00+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2611.33134",
+      "url": "https://arxiv.org/abs/2611.33134",
+      "title": "Regenerative range for planar random walks",
+      "authors": [
+        "Maxence Baccara",
+        "Vincent Bansaye"
+      ],
+      "abstract": "We consider a centred random walk in $\\mathbb{Z}^2$ which consumes resources originally present at every site. After consumption, each resource regenerates independently with probability $p$ at each step. We study the number of resources consumed up to time $n$, which is denoted $C_n$. Letting $p=p_n$ depend on $n$ and supposing that the walk moves faster than the resources regenerate, $i.e.$ $p_n=o(1)$, we establish a Law of Large Numbers and a Central Limit Theorem for $C_n$. In particular, we identify a phase transition between a so-called fast regeneration regime $np_n\\rightarrow\\infty$, where the fluctuations of $C_n$ are Gaussian, and a slow regeneration regime $np_n\\rightarrowλ\\in[0,\\infty)$, where the fluctuations are non-Gaussian and described by a weighted renormalized self-intersection local time of planar Brownian motion depending on the parameter $λ$.",
+      "published": "2026-11-24",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.32717",
+      "url": "https://arxiv.org/abs/2611.32717",
+      "title": "Temporal Inhomogeneous Random Graphs",
+      "authors": [
+        "Sofiya Burova",
+        "Francisco Calvillo"
+      ],
+      "abstract": "Motivated by the study of time-dependent propagation processes in inhomogeneous populations, we extend Burova, Lugosi and Perarnau's results on the temporal stochastic block model to graphon-based random graphs with a continuous and strictly positive kernel. We consider such a graph in the regime where connection probabilities are of the order of $\\log n/n$, and equip its edges with a uniformly random ordering, interpreted as timestamps. We study the size of reachable sets via increasing paths (that is, paths whose edge timestamps are strictly increasing). We establish tight first-order asymptotics for the size of the reachable set from a fixed vertex, and also determine the first-order asymptotics of the lengths of the longest and shortest increasing paths with one or two fixed endpoints.",
+      "published": "2026-11-24",
+      "categories": [
+        "math.PR",
+        "math.CO"
+      ],
+      "tags": [
+        "random graph",
+        "stochastic block model"
+      ]
+    },
+    {
+      "id": "2611.32528",
+      "url": "https://arxiv.org/abs/2611.32528",
+      "title": "The Min-Cut Formulation of Ollivier-Ricci Curvature",
+      "authors": [
+        "Giorgio Micaletto"
+      ],
+      "abstract": "Computing Ollivier-Ricci curvature normally requires a local distance matrix and a linear program per edge, prompting workarounds based on entropic regularization or combinatorial proxies. We show that exact curvature needs neither. For any one-step measures, the Kantorovich dual has an integral three-level optimum, reducing each edge to one minimum s-t cut on a distance-free network linear in the read adjacency lists. This solves instances requiring quadratically many distance queries in linear time, while a converse reduction shows that no exact algorithm can beat bipartite matching. Our solver is a median 6 times (up to 506 times) faster than distance construction plus $\\mathtt{POT}$'s C++ simplex, 441 times faster than $\\mathtt{GraphRicciCurvature}$, and 23 times faster than graph min-cost flow. Even given the distances, Sinkhorn iterations at $\\mathtt{GraphRicciCurvature}$'s regularization are a median 12 times slower, and combinatorial proxies alter edge rankings, missing the bulk of the most negatively curved ones.",
+      "published": "2026-11-24",
+      "categories": [
+        "cs.DS",
+        "math.CO"
+      ],
+      "tags": [
+        "Ricci curvature"
+      ]
+    },
+    {
+      "id": "2611.32785",
+      "url": "https://arxiv.org/abs/2611.32785",
+      "title": "Mirror flow for semimartingale optimal transport",
+      "authors": [
+        "Francois Buet-Golfouse",
+        "Anaïs Després",
+        "Anna Kazeykina",
+        "Zhenjie Ren"
+      ],
+      "abstract": "Semimartingale optimal transport arises in a wide range of applications, including mathematical finance and flow-based generative models. A recurring computational challenge is that the dual energy functional is often poorly conditioned with respect to the dual potential, leading to slow convergence of gradient descent algorithms. To address this issue, we investigate a mirror flow approach that effectively preconditions the dual energy functional. We establish the geometric convergence of the mirror descent sequence. To obtain a practical numerical algorithm, we introduce a feasible discrete-time scheme based on first-order linearization. We prove that the scheme is well-defined and establish a uniform-in-time error bound for the accumulated linearization error, under a suitable smallness condition on the initial error. Finally, we apply the proposed mirror flow scheme to the specific-entropic martingale optimal transport (SEMOT) problem \\cite{BuetGolfouseEtAl2026SEMOT} and observe a substantial improvement in computational efficiency.",
+      "published": "2026-11-24",
+      "categories": [
+        "math.OC",
+        "math.AP",
+        "math.PR"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2611.32746",
+      "url": "https://arxiv.org/abs/2611.32746",
+      "title": "The majority game chromatic number for dense random graphs",
+      "authors": [
+        "Stijn Cambie",
+        "Annika Heckel",
+        "Brahadeesh Sankarnarayanan",
+        "Gabriëlle Zwaneveld"
+      ],
+      "abstract": "We show that for every fixed $2/3<p<1$ the majority game chromatic number of the Erdős--Rényi random graph $G_{n,p}$ is $3$ with high probability.",
+      "published": "2026-11-24",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "random graph"
+      ]
+    },
+    {
+      "id": "2611.32414",
+      "url": "https://arxiv.org/abs/2611.32414",
+      "title": "Admissibility of Linear Time Series Models under Cone Constraints",
+      "authors": [
+        "Won-Ki Seo"
+      ],
+      "abstract": "Time series analysis extends beyond vector-valued observations to evolving probability densities, quantile functions, and covariance operators. These objects carry intrinsic constraints, raising questions about the admissibility of additive linear models, which have long served as a foundation for time series modelling and theory. We give a necessary and sufficient support condition for a stationary Hilbert-space linear process to remain in a closed convex cone almost surely. Innovations with unbounded lower tails, including Gaussian innovations, confine randomness to the cone's largest linear subspace. For fractional filters with convergent normalized cumulative coefficients, the leading stochastic directions obey the same restriction, even with bounded innovations. For real-line quantiles, variation under unbounded lower tails and leading fractional accumulation can occur only through location shifts. For cone-valued processes, partial sums of centred stationary increments remain bounded in mean square when evaluated by any linear functional that is nonnegative on the cone, in contrast to the growing variance of a random walk. We derive an exact slope criterion for locally absolutely continuous quantiles and construct nondegenerate additive models with bounded innovations for quantiles, densities, and covariance matrices. These findings clarify the scope of ordinary additive modelling under structural constraints.",
+      "published": "2026-11-24",
+      "categories": [
+        "math.ST",
+        "stat.ME"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.33034",
+      "url": "https://arxiv.org/abs/2611.33034",
+      "title": "Quantitative $p$-Wasserstein bounds for empirical measures on manifolds: Expectation and concentration",
+      "authors": [
+        "Jonathan Junné"
+      ],
+      "abstract": "We derive quantitative bounds in expectation and concentration for the $p$-Wasserstein distance between the empirical measure of independent samples and their common law on metric measure spaces satisfying the measure contraction property $\\MCP(K,n)$, with $K\\le0$. Our results extend the expectation estimates of Boissard--Le Gouic (Theorem 1.1 in Ann. Inst. Henri Poincaré Probab. Stat. 50 (2014), no. 2, 539--563) and the concentration estimates of Bolley--Guillin--Villani (Theorem 2.1 in Probab. Theory Relat. Fields 137 (2007), 541--593). In spaces with exponential volume growth, suitable exponential moment assumptions allow us to recover the Euclidean rate $N^{-1/n}$ in expectation when $n>2p$. As an application, we obtain uniform-in-time concentration estimates for the empirical measure of McKean--Vlasov interacting particle systems on complete Riemannian manifolds with Ricci curvature bounded below by combining comparison theory and parallel coupling to a noninteracting proxy system.",
+      "published": "2026-11-24",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "Wasserstein distance",
+        "Ricci curvature"
+      ]
+    },
+    {
+      "id": "2611.32738",
+      "url": "https://arxiv.org/abs/2611.32738",
+      "title": "Quantum Community Detection for Data Analysis",
+      "authors": [
+        "Vicente P. Soloviev",
+        "Brian Coyle",
+        "Stefano Scali",
+        "Michal Krompiec"
+      ],
+      "abstract": "Community detection offers an alternative to conventional methods for data analysis tasks such as feature selection and clustering, and detecting communities with quantum algorithms is a promising avenue for quantum speedup. We investigate quantum spectral community detectors, such as the modularity-matrix algorithm deteQt, in pipelines for both tasks. We first generalise deteQt to multiple communities by recursive bisection, and show that it recovers planted communities, and hence redundant features, in synthetic and small datasets. We then propose projeQt, which applies a spectral filter to the encoded modularity matrix through the quantum singular value transformation, retaining higher-order eigenvectors that deteQt does not use. projeQt acts on the generalised modularity matrix and extracts several communities at once, without recursion, by k-means clustering of a Gram matrix built from quantum state overlaps. On MNIST we demonstrate both pipelines, selecting informative pixels and classifying images directly by clustering, and find them competitive with standard community detectors.",
+      "published": "2026-11-24",
+      "categories": [
+        "quant-ph",
+        "cs.LG",
+        "cs.SI"
+      ],
+      "tags": [
+        "community detection"
+      ]
+    },
+    {
+      "id": "2611.32845",
+      "url": "https://arxiv.org/abs/2611.32845",
+      "title": "ab-indices for lattice path matroids",
+      "authors": [
+        "Cenk Aydin",
+        "Giovanni Caiolo",
+        "Chiara Giardino",
+        "Mara Gruß",
+        "Mikael Häglund",
+        "Elena Hoster",
+        "Christian Stump"
+      ],
+      "abstract": "The base polytopes of connected lattice path matroids admit subdivisions into snakes. We use these to obtain an explicit positive combinatorial description of their ab-indices, their Chow polynomials and their chain polynomials. We finally apply this description to the particular case of the ab-index of Schubert matroids.",
+      "published": "2026-11-24",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.32956",
+      "url": "https://arxiv.org/abs/2611.32956",
+      "title": "Positive Geometry of Oriented Matroid Strata",
+      "authors": [
+        "Arne Kuhrs",
+        "Artyom Lisitsyn"
+      ],
+      "abstract": "We study the positive geometry of Grassmannians whose boundary is a union of Plücker divisors. For the full Plücker boundary the regions are closures of realization spaces of uniform oriented matroids. In rank three we show that the pair $(\\mathrm{Gr}_{3,n},Z_{3,n})$ is a positive arrangement in the sense of Sturmfels and Telen for $n\\le 9$ points and compute its combinatorial rank from point counts of the configuration space $\\mathcal{X}_{3,n}$ over finite fields. For seven points the canonical forms of the regions span all logarithmic forms. For eight points they do not, because the Möbius-Kantor configuration is not realizable over the reals. This determines for seven and eight points whether the integrands of Cachazo, Early and Zhang for the generalized biadjoint amplitudes of Cachazo, Early, Guevara and Mizera span the space of logarithmic forms. From ten points on, the genus is positive because a K3 surface appears in the boundary. For smaller boundaries and arbitrary rank we give a recursion that adds one point at a time and preserves the genus and the combinatorial rank. It recovers the positive Grassmannian and shows that realization spaces of stacked polytopes are regions of positive arrangements of combinatorial rank one.",
+      "published": "2026-11-24",
+      "categories": [
+        "math.AG",
+        "math.CO"
+      ],
+      "tags": [
+        "matroid"
+      ]
+    },
+    {
+      "id": "2611.32436",
+      "url": "https://arxiv.org/abs/2611.32436",
+      "title": "Trace-defined double covers of the $S_3$-involution graph of $PSL_2(2^n)$",
+      "authors": [
+        "G. A. Glinskikh",
+        "L. Yu. Tsiovkina"
+      ],
+      "abstract": "For $q=2^n\\ge 4$, we construct a family of Deza double covers $Γ(q,ξ)$ of the $S_3$-involution graph of $PSL_2(q)$, parametrized by $ξ\\in\\mathbb F_q^*$. We show that each resulting cover is connected, arc-transitive and amply regular with parameters $(2(q^2-1),q,Tr(ξ),1)$, where $Tr$ denotes the absolute trace. We also show that the trace-one covers are antipodal of diameter $5$ and girth $3$, whereas the trace-zero covers are non-antipodal of diameter $3$ and girth $5$. For $q=4$, these cases yield the well-known icosidodecahedral and dodecadodecahedral graphs, respectively. Then we determine the distance distributions and full automorphism groups of the covers and prove that, for fixed $q$, two covers are isomorphic if and only if their defining parameters lie in the same Frobenius orbit. We also express the Ramanujan property of a cover in terms of the spectral norm of a signed adjacency matrix of the base graph.",
+      "published": "2026-11-24",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2611.31906",
+      "url": "https://arxiv.org/abs/2611.31906",
+      "title": "Turnpike Estimates and Limiting Behavior for $N$-Player Differential Games under Displacement Monotonicity",
+      "authors": [
+        "Asaf Cohen",
+        "Antonios Zitridis"
+      ],
+      "abstract": "We study the long-time behavior of open-loop Nash equilibria of $N$-player stochastic differential games with nondegenerate idiosyncratic noise, under displacement monotonicity of the costs and joint strong convexity of the Lagrangians. We prove an exponential turnpike estimate: as the remaining horizon grows, the decoupling fields of the finite-horizon Pontryagin systems converge exponentially fast to the solution of a stationary Pontryagin system, which is unique in a natural stability class, and on bounded time intervals the equilibrium states and controls converge to those generated by this solution. The limiting control is a strong open-loop equilibrium of an associated ergodic $N$-player game, and the ergodic constant $λ^{i,N}$ of each player is the same at every such equilibrium. For the finite-horizon game, the law of the equilibrium state, at times away from the initial and terminal times, is exponentially close in the Wasserstein distance $W_2$ to the invariant measure of the limiting dynamics. Finally, the equilibrium cost of player $i$ on $[t,T]$ equals $(T-t)λ^{i,N}$ plus a uniquely determined corrector, up to an error exponentially small in $T-t$.",
+      "published": "2026-11-24",
+      "categories": [
+        "math.PR",
+        "math.OC"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.32773",
+      "url": "https://arxiv.org/abs/2611.32773",
+      "title": "Quadratic Wasserstein transport for elliptical distributions",
+      "authors": [
+        "Jonathan Ansari",
+        "Ludger Rüschendorf"
+      ],
+      "abstract": "The quadratic Wasserstein distance between Gaussian distributions is given by the classical Bures-Wasserstein formula, which depends only on the means, the covariance matrices $Σ_0$ and $Σ_1$, and their interaction $K=(Σ_0^{1/2}Σ_1Σ_0^{1/2})^{1/2}$. The same formula holds for elliptical distributions with a common radial law. In this paper, we extend this representation to general elliptical distributions by identifying an additional transport cost $Γ$ that depends on the radial laws and the spectrum of $K$. We describe $Γ$ via a weighted quadratic transport problem involving Dirichlet distributions and show that optimal couplings preserve directions within the eigenspaces of $K$. When $K$ has a single eigenvalue, we obtain an explicit cost formula and an optimal Monge map. For general spectra, we derive remarkably tight lower and upper bounds for $Γ$ using nested spectral projections and Knothe-Rosenblatt couplings. The lower bound is based on one-dimensional integrals and can be computed fast. For Gaussian, Student-$t$, uniform ball, and uniform sphere distributions, the upper bound also admits computationally efficient representations via dynamic programming. Numerical experiments demonstrate that we reduce the gap between the previously known bounds by more than 80% in many settings, and by over 99.9% in certain scenarios, even in dimension $10^6$. These improvements are particularly valuable in high-dimensional or heavy-tailed settings, where accurate numerical computation of quadratic Wasserstein distances is challenging.",
+      "published": "2026-11-24",
+      "categories": [
+        "math.PR",
+        "math.ST"
+      ],
+      "tags": [
+        "Wasserstein distance"
+      ]
+    },
     {
       "id": "2611.30619",
       "url": "https://arxiv.org/abs/2611.30619",
@@ -20,6 +261,64 @@
       "tags": [
         "random graph",
         "graph process"
+      ]
+    },
+    {
+      "id": "2611.31525",
+      "url": "https://arxiv.org/abs/2611.31525",
+      "title": "SOTS: Signature-based Optimal Transport Selection",
+      "authors": [
+        "Khalid Akhmouch",
+        "Eric Jauer"
+      ],
+      "abstract": "Training data selection for machine learning models is a critical bottleneck in industrial applications where expert annotation is costly and time-consuming. Existing coreset selection methods for time series either ignore temporal structure entirely or cannot handle variable-length, irregularly sampled, multi-channel signals, the setting most common in industrial monitoring and testing. We introduce SOTS (Signature-based Optimal Transport Selection), an unsupervised coreset selection framework for irregular multivariate time series (IMTS) classification. Each sample is mapped to a truncated path signature, capturing the joint geometric structure of its channels, and the coreset is selected by greedily minimizing the Sliced Wasserstein distance between the empirical signature distributions of the candidate subset and the full dataset, a criterion for which we establish a convergence guarantee for random coresets. We validate SOTS on a real-world, highly imbalanced industrial I&C testing dataset, where SOTS-Greedy exceeds 95% of full-dataset accuracy using only 30% of the training data, outperforming standard coreset baselines at most budgets. This advantage generalizes to public UEA regular multivariate time series benchmarks specifically when class-discriminative information is purely geometric.",
+      "published": "2026-11-23",
+      "categories": [
+        "cs.LG",
+        "math.PR",
+        "stat.ML"
+      ],
+      "tags": [
+        "optimal transport",
+        "Wasserstein distance"
+      ]
+    },
+    {
+      "id": "2611.31574",
+      "url": "https://arxiv.org/abs/2611.31574",
+      "title": "An $O(n^{-1/2})$ remainder for the Chow--Robbins stopping boundary",
+      "authors": [
+        "Jan Vecer"
+      ],
+      "abstract": "We sharpen the asymptotic approximation to the optimal stopping boundary in the Chow--Robbins game, proving the inverse-square-root remainder conjectured by Elton. The proof combines an exactly harmonic integral for simple random walk with a Catalan first-passage renewal identity. Averaging the stopping defect over one spatial period removes its leading lattice dependence, and a coupling of states at equal depth transfers this cancellation to the renewal sum. Consequently, the explicit integer stopping rule can fail at no more than a constant times the square root of the number of observation times.",
+      "published": "2026-11-23",
+      "categories": [
+        "math.PR",
+        "math.OC"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk"
+      ]
+    },
+    {
+      "id": "2611.31635",
+      "url": "https://arxiv.org/abs/2611.31635",
+      "title": "Scaling Limits of Time-averaged Distributions for Symmetric Quantum Walks on Hypercubes",
+      "authors": [
+        "Yusuke Ide",
+        "Norio Konno",
+        "Shuhei Mano"
+      ],
+      "abstract": "We study continuous-time and discrete-time quantum walks on the hypercube $\\{0,1\\}^d$ associated with symmetric random walks, that is, random walks whose transition probabilities depend only on the Hamming distance, using the Hamming scheme and Krawtchouk polynomials. For continuous-time walks, we show that the time-averaged distribution of the Hamming distance is a discrete arcsine law whenever the eigenvalues are distinct. For discrete-time walks, exact formulas for the time-averaged distribution are known as combinatorial sums or as mixtures involving Krawtchouk polynomials, but their scaling limits as $d\\to\\infty$ (time average first) have not been specified. We obtain them explicitly for three random walks: the simple random walk (an arcsine law), the random walk with binomial weights (an equal mixture of arcsine laws with different supports), and the independent random walk (atoms of mass $1/2$ at $0$ and at $1/2$). Comparing with the continuous-time limits, the two models agree for the simple random walk but differ for the other two, so the correspondence between them is not universal.",
+      "published": "2026-11-23",
+      "categories": [
+        "quant-ph",
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk"
       ]
     },
     {
@@ -143,7 +442,23 @@
       "published": "2026-11-23",
       "categories": [
         "math.PR",
-        "math.MP"
+        "math-ph"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.31508",
+      "url": "https://arxiv.org/abs/2611.31508",
+      "title": "An easy proof of transience of one-dimensional Rademacher walk with power weights",
+      "authors": [
+        "Stanislav Volkov"
+      ],
+      "abstract": "Using a version of a local limit theorem, we provide an easy proof that the Rademacher random walk with step sizes $n^α$, $α>1/2$, is transient.",
+      "published": "2026-11-23",
+      "categories": [
+        "math.PR"
       ],
       "tags": [
         "random walk"
@@ -161,7 +476,7 @@
       "published": "2026-11-23",
       "categories": [
         "math.PR",
-        "math.MP"
+        "math-ph"
       ],
       "tags": [
         "mixing time"
@@ -304,7 +619,6 @@
       "categories": [
         "stat.ME",
         "math.ST",
-        "stat.TH",
         "stat.AP"
       ],
       "tags": [
@@ -324,9 +638,7 @@
       "published": "2026-11-22",
       "categories": [
         "math.ST",
-        "stat.TH",
         "cs.IT",
-        "math.IT",
         "math.PR"
       ],
       "tags": [
@@ -362,6 +674,7 @@
       "abstract": "We prove that, in the normalized-Laplacian model, perfect state transfer between two vertices of a tree can only happen if they are at distance at most $2$. We show that a conjecture of Coutinho and Baptista, stating that the only trees admitting perfect state transfer are $K_2$ and $P_3$, is true when the two vertices are at odd distance. We then construct infinite families of trees admitting perfect state transfer, disproving their conjecture in the general case.",
       "published": "2026-11-21",
       "categories": [
+        "quant-ph",
         "math.CO"
       ],
       "tags": [
@@ -380,7 +693,6 @@
       "categories": [
         "math.PR",
         "math.ST",
-        "stat.TH",
         "q-fin.MF"
       ],
       "tags": [
@@ -526,6 +838,7 @@
       "abstract": "An $\\mathbb{F}_q$-linear $[[n,k]]_q$ stabilizer code is represented by a totally isotropic subspace of $\\mathbb{F}_q^{2n}$ of dimension $n-k$, whose full-rank generator matrix has nonzero maximal minors on admissible column sets forming the bases of a representable symplectic matroid. Sarvepalli asked whether graphical symplectic matroids introduced by Chow give stabilizer codes with good parameters, when a Lagrangian matroid induces a quantum access structure, which code realizes it, and which polynomial carries the weight enumerator. We answer these questions. For a $3$-connected simple graph, every representation of a graphical symplectic matroid, over any field, gives a stabilizer code of distance exactly $2$, so the girth is not a lower bound. For a represented Lagrangian matroid and a dealer, we construct the dealer-shortened stabilizer code, its logical operators, an encoding isometry and explicit recovery maps, and we show that this is the code implemented by the stabilizer state through teleportation. A set of players recovers the secret, learns nothing, or learns part of it according to a rank formula on pairs of columns, which equals its mutual information with the dealer; for graph states it becomes a cut-rank condition. Over $\\F_2$ a symplectic matroid of any rank has only one representation, so the code, its access structure and its weight enumerators depend on the matroid alone; for $q\\ge3$ even the enumerator does not. Circuit-induced authorized sets always reconstruct when the matroid is self-dual, but not in general, and a six-qubit graph state shows that the two access structures can differ even then. Finally, a polynomial in the ranks of column pairs determines both weight enumerators.",
       "published": "2026-11-20",
       "categories": [
+        "quant-ph",
         "math.CO"
       ],
       "tags": [
@@ -583,7 +896,6 @@
       "published": "2026-11-20",
       "categories": [
         "cs.IT",
-        "math.IT",
         "math.FA",
         "math.PR"
       ],
@@ -621,8 +933,7 @@
       "published": "2026-11-19",
       "categories": [
         "math.PR",
-        "math.ST",
-        "stat.TH"
+        "math.ST"
       ],
       "tags": [
         "Wasserstein distance"
@@ -675,7 +986,7 @@
       "published": "2026-11-19",
       "categories": [
         "math.PR",
-        "math.MP"
+        "math-ph"
       ],
       "tags": [
         "random walk"
@@ -751,8 +1062,7 @@
       "published": "2026-11-19",
       "categories": [
         "stat.ME",
-        "math.ST",
-        "stat.TH"
+        "math.ST"
       ],
       "tags": [
         "graph Laplacian"
