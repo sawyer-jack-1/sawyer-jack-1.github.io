@@ -1,8 +1,159 @@
 {
   "month": "2026-11",
-  "generated_at": "2026-11-25T14:24:00+00:00",
+  "generated_at": "2026-11-26T14:23:55+00:00",
   "source": "arXiv metadata API",
   "papers": [
+    {
+      "id": "2611.34095",
+      "url": "https://arxiv.org/abs/2611.34095",
+      "title": "Random walk on an induced component of the uniform spanning forest",
+      "authors": [
+        "Xinyi Li",
+        "Runsheng Liu",
+        "Yuval Peres"
+      ],
+      "abstract": "Let $T$ be the component of the origin in the uniform spanning forest of $\\mathbb{Z}^d$, and consider the induced graph $H$ obtained by retaining every lattice edge with both endpoints in $T$. Lyons, Peres and Sun (2020) showed that $H$ is recurrent if $d \\ge 8$ and asked for which $d \\in \\{5,6,7\\}$ this holds. We prove that simple random walk on $H$ is transient for $d=5$ and recurrent for every $d\\ge6$. We also show that the quenched return probabilities to the origin satisfy $p^H_{2n}(o,o)=n^{-α_d+o(1)}$ a.s., where $α_5=4/3$ and $α_6=1$, while $α_7=4/5$ and $α_d=2/3$ for all $d\\ge8$.",
+      "published": "2026-11-25",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk",
+        "simple random walk"
+      ]
+    },
+    {
+      "id": "2611.34031",
+      "url": "https://arxiv.org/abs/2611.34031",
+      "title": "Lower deviations for the maximum of a branching random walk in a random environment in time: quenched versus annealed",
+      "authors": [
+        "Wanting Hou"
+      ],
+      "abstract": "We study lower deviations of the rightmost position in a supercritical branching random walk whose offspring laws are independent and identically distributed across generations. Every particle has at least one child, and displacements have a fixed law with finite exponential moments of all orders. For thresholds strictly between the lower endpoint of the step law and the speed of the maximum, the quenched lower deviation probability has a finite positive exponential rate precisely when the negative logarithm of the probability of a single child is integrable. We identify the rate by a variational formula. If a positive fraction of generations rule out single children and displacements are bounded below, the probability decays doubly exponentially. We compute its double-exponential rate in terms of the minimum offspring numbers, the lower endpoint of the displacement law, and the speed of the maximum. After averaging over the environment, the negative logarithm of the probability is bounded above and below by positive multiples of the generation number whenever single children are possible with positive probability. We obtain the exact exponential rate when the offspring mean is constant and the offspring second moments are uniformly bounded. With displacements bounded below, mixed environments thus yield double-exponential quenched decay and single-exponential annealed decay.",
+      "published": "2026-11-25",
+      "categories": [
+        "math.PR"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.34494",
+      "url": "https://arxiv.org/abs/2611.34494",
+      "title": "The Monge Optimal Transport Barycenter Problem with Adaptive Features",
+      "authors": [
+        "Yige Zhou",
+        "Esteban G. Tabak"
+      ],
+      "abstract": "The data-driven Monge optimal transport barycenter problem seeks a map $y=T(x,z)$ that minimally perturbs an outcome $x$ while removing its statistical dependence on covariates $z$. Numerical implementations approximate the independence constraint through finite-dimensional test-function spaces, making the effectiveness of dependence removal sensitive to the choice of features. This article develops a procedure whereby the features themselves are optimized throughout the procedure. In particular, we adopt a feature space for $f$ consisting of Gaussian radial basis functions (RBFs) with adaptive individual centers and bandwidths. Synthetic experiments show that while fixed nonlinear RBF features can capture dependence structures that are poorly represented by linear features, adapting the RBF centers and bandwidths can further improve dependence removal within a limited feature space and achieve residual dependence comparable to that obtained with a larger fixed basis. We further extend the formulation to multidimensional covariates and evaluate its applicability to real-world problems, including removing age-related dependence in biomedical measurements and dependence on temperature and humidity in bike-sharing demand.",
+      "published": "2026-11-25",
+      "categories": [
+        "math.OC"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
+    {
+      "id": "2611.33738",
+      "url": "https://arxiv.org/abs/2611.33738",
+      "title": "Toggle Tree: A New Data Structure for Efficient Parallel Graph Processing",
+      "authors": [
+        "Xinjian Jiang",
+        "Youzhe Liu",
+        "Yan Gu",
+        "Yihan Sun"
+      ],
+      "abstract": "We present the Toggle Tree, a parallel data structure for frontier-based graph algorithms. A Toggle Tree is used to represent a subset of vertices using hierarchical bit vectors, enabling efficient parallel updates, traversal, and set-wise reductions without global packing. It provides an IndexSet interface that unifies a wide range of parallel graph algorithms under a common abstraction of frontiers and active sets, and an IndexMap interface that also incorporates priority-queue semantics. Specifically, the Toggle Tree aims to combine the advantages of traditional sparse and dense frontier representations, offering both provable theoretical guarantees and high efficiency in practice. Using Toggle Trees, we implement five fundamental graph algorithms, including breadth-first search (BFS), k-core, degree-based graph coloring, single-source shortest paths using Bellman-Ford, and weighted-BFS (wBFS). Across a diverse set of large real-world graphs and the five graph problems, our implementations outperform state-of-the-art baselines, including GBBS and PASGAL, achieving substantial speedups. Our code is publicly available.",
+      "published": "2026-11-25",
+      "categories": [
+        "cs.DS"
+      ],
+      "tags": [
+        "graph process"
+      ]
+    },
+    {
+      "id": "2611.34333",
+      "url": "https://arxiv.org/abs/2611.34333",
+      "title": "Critical exponents and near-critical limits for random matrix products",
+      "authors": [
+        "Christopher Chalhoub",
+        "Jeroen S. W. Lamb",
+        "Martin Rasmussen"
+      ],
+      "abstract": "We study the approach to the zero-Lyapunov-exponent transition for products of independent, identically distributed invertible matrices. The matrix laws are supported in a common compact subset of $GL(d,\\mathbb{R})$ and converge in total variation to a strongly irreducible and proximal law with zero top Lyapunov exponent. We establish a near-critical renewal theorem for the occupation measure and a functional diffusion limit for the logarithmic cocycle as well as exact asymptotics and scaling limits for three observables describing the transient dynamics. The expected number of escapes from the unit ball and the expected number of visits to a fixed annulus diverge as the inverse absolute Lyapunov exponent, and both counts have exponential limits after normalization. The time spent on the side opposite to the asymptotic drift has critical exponent two and converges, after rescaling, to the positive occupation time of Brownian motion with negative drift.",
+      "published": "2026-11-25",
+      "categories": [
+        "math.PR",
+        "math.DS"
+      ],
+      "tags": [
+        "random matrix"
+      ]
+    },
+    {
+      "id": "2611.34905",
+      "url": "https://arxiv.org/abs/2611.34905",
+      "title": "Sliding-Window Detection of Hidden Regimes under Stochastic Switching",
+      "authors": [
+        "Arina Pambukyan",
+        "Hayk Nersisyan"
+      ],
+      "abstract": "A sliding-window average is a simple estimator of the current state of a hidden regime-switching process, such as a hidden Markov model. A longer window averages out more noise but is more likely to contain a switch, and the question is what such a switch costs. We analyse the decoder that assigns the average of the last $m$ observations to the nearest regime mean. For two regimes with conditionally independent, stochastically ordered observations, a switch inside the window, averaged uniformly over its positions and directions, causes an error with probability exactly $1/2$. Consequently, for every stationary switching law, the error is at most $\\bar P(m)+\\bar s(m-1)/2$, where $\\bar P(m)$ is the stationary-weighted single-regime error and $\\bar s$ the switch rate. Under Markov switching, time reversal shows that a window whose oldest and current regimes differ is misclassified with probability exactly $1/2$, however many switches it contains, and the bound is attained up to a factor $p_{\\min}^{m-1}$. For Gaussian noise with common variance, minimizing the bound gives an explicit window length which, in units of $σ^2/Δ^2$, depends only on the expected number of switches in that time. As switching probabilities vanish proportionally, the optimal error is $\\bar s\\log(1/\\bar s)/(2I)(1+o(1))$, with $I$ the single-regime Chernoff exponent. In the Gaussian case this is twice the Bayes error. For symmetric switching, exponentially weighted moving averages reduce this factor to at most $2\\log2\\approx1.39$, and two-block weights adapted to the switch rate attain the Bayes rate. For three or more regimes, long-window switch costs are set by the geometry of the regime means. For Markov-modulated random walks with $\\pm1$ steps on a reflecting lattice, a position-aware decoder learns as fast as without walls under holding boundaries, while steps at bouncing boundaries carry none.",
+      "published": "2026-11-25",
+      "categories": [
+        "math.PR",
+        "eess.SP",
+        "math.ST",
+        "stat.ML"
+      ],
+      "tags": [
+        "random walk"
+      ]
+    },
+    {
+      "id": "2611.34794",
+      "url": "https://arxiv.org/abs/2611.34794",
+      "title": "Monoid Representation of the Determinants of the Adjacency Matrices of 1-joined Path Graphs",
+      "authors": [
+        "Daniel Pinzon",
+        "Daniel Pragel",
+        "Joshua Roberts",
+        "Zack Marshall",
+        "Olivia Strain"
+      ],
+      "abstract": "Following previous work by these authors, this paper explores all labeled path graphs joined by 1 edge where the labeling contains the information on how to join that graph. The algebraic structure that this operation has on the determinant of the adjacency matrix of the graph gives a finite monoid of matrices under matrix multiplication. We completely characterize the monoid using the representation theory discussed in Khovanov et al(2024). Finally, we demonstrate how these results can be used to find general formulas for the determinants of chains of 1-joined labeled paths.",
+      "published": "2026-11-25",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "adjacency matrix"
+      ]
+    },
+    {
+      "id": "2611.33923",
+      "url": "https://arxiv.org/abs/2611.33923",
+      "title": "Wasserstein-Fisher-Rao Reconstruction of Discrete space Population Dynamics",
+      "authors": [
+        "Junda Ying",
+        "Xinyu Wang",
+        "Peijie Zhou",
+        "Lei Zhang"
+      ],
+      "abstract": "Reconstructing the continuous time dynamics of cell state evolution from sparse snapshot observations can be formulated as an unbalanced optimal transport problem. To study such dynamics at a coarse grained cell type level, unbalanced optimal transport must be extended to discrete state spaces. Inspired by discrete flow matching, we extended the dynamic Wasserstein-Fisher-Rao (WFR) problem to discrete spaces, and derived a closed form for its solution. For particularly large state spaces or more general models, we proposed an unbalanced discrete flow matching as a numerical approximation method, which provides a Markovian reconstruction of the optimal WFR flow. Our discrete WFR framework also stays stable across different coarse grain resolution. Finally, numerical experiments demonstrated the effectiveness of the proposed approach, and applications to real biological data supported the plausibility of the reconstructed dynamics.",
+      "published": "2026-11-25",
+      "categories": [
+        "math.OC",
+        "q-bio.PE",
+        "q-bio.QM"
+      ],
+      "tags": [
+        "optimal transport"
+      ]
+    },
     {
       "id": "2611.33134",
       "url": "https://arxiv.org/abs/2611.33134",
@@ -97,6 +248,25 @@
       ]
     },
     {
+      "id": "2611.33427",
+      "url": "https://arxiv.org/abs/2611.33427",
+      "title": "Graceful Colorings for Random Graphs",
+      "authors": [
+        "Sean English",
+        "Edward Janosko",
+        "Erik Slivken",
+        "Sid Touzeau"
+      ],
+      "abstract": "Given a vertex coloring $c:V(G)\\to [k]$, the graceful induced edge labeling is the induced edge coloring $c'(uv):=|c(u)-c(v)|$. A vertex coloring $c$ is a \\textbf{graceful coloring} if $c$ is a proper vertex coloring and $c'$ is a proper edge coloring. The graceful coloring number $χ_g(G)$ is the least $k$ such that there exists a graceful coloring $c:V(G)\\to [k]$. We study the graceful coloring number for the Erdős-Renyi random graph, $G_{n,p}$. In the diameter $2$ regime, we find the $χ_g(G_{n,p})=n^{1+o(1)}$ using a connection between graceful colorings and Salem-Spenser sets. In the regime where $G_{n,p}$ is connected, but not diameter 2, we find that $χ_g(G_{n,p})=Θ\\left(\\frac{n^2p^2}{\\log np}\\right)$, using the forbidden submatching method and a connection between graceful coloring and the chromatic number of the square of $G_{n,p}$. Finally, in the regime where $G_{n,p}$ has constant average degree, we find that $χ_g(G_{n,p})=Δ(G_{n,p})+1$, by exploring the cycle structure of $G_{n,p}$.",
+      "published": "2026-11-24",
+      "categories": [
+        "math.CO"
+      ],
+      "tags": [
+        "random graph"
+      ]
+    },
+    {
       "id": "2611.32414",
       "url": "https://arxiv.org/abs/2611.32414",
       "title": "Admissibility of Linear Time Series Models under Cone Constraints",
@@ -128,6 +298,26 @@
       "tags": [
         "Wasserstein distance",
         "Ricci curvature"
+      ]
+    },
+    {
+      "id": "2611.33540",
+      "url": "https://arxiv.org/abs/2611.33540",
+      "title": "Graphon hitting times: connectivity and minimum degree",
+      "authors": [
+        "Constanza Gacitúa Fuentes",
+        "Marcos Kiwi",
+        "Matías Pavez-Signé"
+      ],
+      "abstract": "A classical result in random graphs states that the Erdős--Rényi random graph process becomes connected at exactly the moment its last isolated vertex disappears. The main goal of this paper is to establish a graphon analogue of this result. Let $G(n,W)$ be the inhomogeneous random graph sampled from a graphon $W$, and reveal its edges one by one in a uniformly random order. We prove that if $W$ is connected and the lower tail of its degree distribution satisfies $g_W(t)/t\\to 0$ as $t\\to 0$, which is needed for the connectivity of $G(n,W)$, then the connectivity and minimum-degree-one hitting times coincide asymptotically almost surely. We also determine when this hitting time occurs at scale $Θ(n\\log n)$, as in the binomial random graph model. Moreover, we give a simple analytic criterion for the transition to be localized in a $(1+o(1))$-multiplicative window, and construct graphons with minimum degrees arbitrarily close to zero whose transition is nevertheless sharp. Our approach uses Laplace transforms and vague convergence of rescaled graphon degree measures to provide a unified framework for analyzing low-degree vertices and connectivity transitions. Along the way, we revisit the minimum degree of~$G(n,W)$, giving simplified proofs of results of Hladký and Viswanathan~\\cite{HV} and establishing the limiting distribution of $δ(G(n,W))$ under a second-order decorrelation condition.",
+      "published": "2026-11-24",
+      "categories": [
+        "math.CO",
+        "math.PR"
+      ],
+      "tags": [
+        "random graph",
+        "graph process"
       ]
     },
     {
@@ -185,6 +375,7 @@
       "published": "2026-11-24",
       "categories": [
         "math.AG",
+        "hep-th",
         "math.CO"
       ],
       "tags": [
